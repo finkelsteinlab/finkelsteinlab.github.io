@@ -1,0 +1,46 @@
+---
+layout: default
+title: "Papers"
+description: "Research papers from the lab"
+group: navigation
+navorder: 3
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+
+{% assign preprints = site.categories.papers | where_exp: "paper", "paper.doi contains '10.1101/'" %}
+{% if preprints.size > 0 %}
+  <div class="row">
+    <div class="head">
+    Preprints
+    </div>
+    <div class="bigspacer"></div>
+  </div>
+  {% for paper in preprints %}
+    {% assign doi_prefix = paper.doi | slice: 0, 8 %}
+    {% if doi_prefix == '10.1101/' %}
+      {% include_relative loop.html %}
+    {% endif %}
+  {% endfor %}
+{% endif %} 
+
+{% assign year = "9999" %}
+{% for paper in site.categories.papers %}
+  {% assign doi_prefix = paper.doi | slice: 0, 8 %}
+  {% unless doi_prefix == '10.1101/' %}
+    {% if paper.year < year %} 
+      {% assign year = paper.year %}
+        <div class="row">
+          <div class="head">
+            {{ year }}
+          </div>
+          <div class="bigspacer"></div>
+        </div>
+    {% endif %}
+    {% include_relative loop.html %}
+  {% endunless %}
+{% endfor %}
+</div><div class="bigspacer"></div>
+
+
+<div class="bigspacer"></div>

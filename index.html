@@ -1,1 +1,126 @@
-Hello World
+---
+layout: default
+title: The Finkelstein Lab
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.homepage %}
+	{% assign homepage = page %}
+{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+	<div class="carousel-overlay logotitle logobox">
+		The Finkelstein Lab
+	</div>
+	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel" data-slide-to="1"></li>
+	    <li data-target="#carousel" data-slide-to="2"></li>
+	    <li data-target="#carousel" data-slide-to="3"></li>
+	    <li data-target="#carousel" data-slide-to="4"></li>
+	    <li data-target="#carousel" data-slide-to="5"></li>
+	    <li data-target="#carousel" data-slide-to="6"></li>
+	    <li data-target="#carousel" data-slide-to="7"></li>
+	  </ol>
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+	    <div class="active item">
+	    	<img src="/assets/images/gallery/yoyo_curtains.jpg" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+	    	<img src="/assets/images/gallery/fylm1.png" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+	    	<img src="/assets/images/gallery/pombe_dsred.png" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+	    	<img src="/assets/images/gallery/seq_align.png" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+	    	<img src="/assets/images/gallery/seq_cheulhee.png" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+	    	<img src="/assets/images/gallery/fylm2.png" width='1200px' alt="">
+            </div>
+	    <div class="inactive item">
+		<img src="/assets/images/gallery/cr_barriers.jpg" width='1200px' alt="">
+	    </div>
+	    <div class="inactive item">
+		<img src="/assets/images/gallery/msh23.png" width='1200px' alt="">
+	    </div>
+	  </div>
+	</div>
+	</div>				
+</div>
+
+<div class="hugespacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			{{ homepage.content }}
+		</div>
+	</div>				
+</div>
+
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="head">
+			<a class="off" href="/news/">News</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="feedbox pad-left">
+			{% assign events = site.data.news | sort: 'date' | reverse %}
+                        {% for event in events limit:6 %}
+				<div class="note">
+				    {% assign event_date = event.date | date: "**%B %e, %Y**: " %} 
+                                    {{ event.text | prepend: event_date | markdownify }}
+				</div>
+				<div class="smallspacer"></div>
+				<div class="spacer"></div>	
+				<div class="spacer"></div>				
+			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>		
+	</div>
+	<div class="col-md-6">
+		<div class="head">
+			<a class="off" href="/papers/">Recent Papers
+			</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="feedbox pad-left">		
+			{% for paper in site.categories.papers limit:4 %}
+				<div class="note-title">
+					<i class="fa fa-file-text-o fa-fw"></i>
+					<a class="off" href="{{ paper.url }}">
+					{{ paper.title }}
+					</a>
+					<br/>
+					<div class='shortref note'>
+					{{ paper.shortref | markdownify }}
+					</div>
+				</div>
+				<div class="smallspacer"></div>
+				<div class="smallnote">
+					Published
+					{{ paper.date | date_to_string }}
+				</div>
+				<div class="spacer"></div>	
+				<div class="spacer"></div>				
+			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>		
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+

@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Contact"
+description: "Contact Information"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+
+{% capture content %}{% include_relative contact.md %}{% endcapture %}
+  {{ content | markdownify }}

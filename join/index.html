@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Research"
+description: "Research projects in the lab"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+{% capture content %}{% include_relative join.md %}{% endcapture %}
+  {{ content | markdownify }}

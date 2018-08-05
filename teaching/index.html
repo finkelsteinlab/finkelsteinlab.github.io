@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Teaching"
+description: "Teaching"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+
+{% capture content %}{% include_relative teaching.md %}{% endcapture %}
+  {{ content | markdownify }}

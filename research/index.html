@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Research"
+description: "Research projects in the lab"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+
+{% capture content %}{% include_relative research.md %}{% endcapture %}
+{{ content | markdownify }}
+

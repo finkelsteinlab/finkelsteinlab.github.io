@@ -1,0 +1,34 @@
+---
+layout: default
+title: "News"
+description: "Finkelstein Lab News"
+group: subnavigation
+navorder: 6
+---
+{% include JB/setup %}
+
+{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+{% assign current_month = 13 %} 
+{% for event in sorted_news %}
+  {% assign event_month = event.date | date: "%m" %}
+  {% if event_month != current_month %}
+    {% assign current_month = event_month %}
+    <div class="bigspacer"></div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="head">
+          {{ event.date | date: "%B %Y" }}
+        </div>
+      </div>
+    </div>
+    <div class="bigspacer"></div>
+  {% endif %}
+  <div class="row">
+    <div class="col-md-8">		
+      <div class="post">
+        {{ event.text | prepend: "&bull; " | markdownify }}
+      </div>
+    </div>			
+  </div>
+{% endfor %}
+<div class="bigspacer"></div>
