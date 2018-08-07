@@ -1,11 +1,11 @@
 ---
 layout: paper
-title: "Myoglobin-CO substate structures and dynamics: multidimensional vibrational echoes and molecular dynamics simulations"
+title: "Myoglobin-CO substate structures and dynamics: multidimensional vibrational echoes and molecular dynamics simulations."
 volume: 125
 issue: 45
 pages: 13804-18
 year: "2003"
-shortref: "Merchant _et al._ JACS"
+shortref: "Merchant _et al._ JACS (2003)"
 nickname: "myoglobin-co-substrate-dynamics"
 journal: "J. Am. Chem. Soc."
 authors: "Kusai A. Merchant, W. G. Noid, Ryo Akiyama, Ilya J. Finkelstein, Alexei Goun, Brian L. McClain, Roger F. Loring, and M. D. Fayer"
