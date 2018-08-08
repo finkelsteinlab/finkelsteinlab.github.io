@@ -8,17 +8,16 @@ year: "2017"
 shortref: "Myler and Gallardo _et al._, Mol. Cell (2017)"
 nickname: "mrn-curtains"
 journal: "Molecular Cell"
-authors: "Logan R. Myler*, Ignacio F. Gallardo*, Michael M. Soniat, Rajashree A. Deshpande, Xenia B. Gonzalez, Yoori Kim, Tanya T. Paull, Ilya J. Finkelstein"
+authors: "Logan R. Myler&#42;, Ignacio F. Gallardo&#42;, Michael M. Soniat, Rajashree A. Deshpande, Xenia B. Gonzalez, Yoori Kim, Tanya T. Paull, **Ilya J. Finkelstein**"
 pdf: 0038-2017-MolCell-Myler et al.pdf
-supplement: 0038-2017-MolCell-Myler et al-supplement.pdf 
+supplement: 0038-2017-MolCell-Myler et al-supplement.pdf
 doi: 10.1016/j.molcel.2017.08.002
 pmcid: PMC5609712
 pmid: 28867292
-extra_text: 'Highlights:
+extra_text: '**Highlights:**
 
   * [F1000 recommended](http://f1000.com/prime/730591997?bd=1)
-
-'
+  '
 category: paper
 tags: [MRN, DNA repair, DNA curtains]
 ---

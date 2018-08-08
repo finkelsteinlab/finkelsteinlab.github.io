@@ -15,7 +15,7 @@ doi: 10.1016/bs.mie.2017.03.011
 pmcid: PMC5564670
 pmid: 28668123
 extra_text: ''
-category: paper 
+category: paper
 tags: [DNA curtains, DNA repair, Homologous recombination, Single-molecule imaging]
 ---
 {% include JB/setup %}

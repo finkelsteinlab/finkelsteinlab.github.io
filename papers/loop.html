@@ -5,28 +5,34 @@
           <div class="smallhead media-heading">
             <b><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></b>
           </div>
-              {% assign all = paper.shortref %}
+              {% assign all = paper.authors %}
 
               {% if paper.pdf %}
-                {% capture pdf %}&nbsp;&nbsp;&nbsp;&nbsp;<a href="/assets/pdfs/{{ paper.pdf }}">PDF</a>{% endcapture %}
+                {% capture pdf %}<br>[<a href="/assets/pdfs/{{ paper.pdf }}">PDF</a>]{% endcapture %}
                 {% assign all = all | append: pdf %}
               {% endif %}
 
               {% if paper.supplement %}
-                {% capture supplement %}&nbsp;&nbsp;&nbsp;&nbsp;<a href="/assets/pdfs/{{ paper.supplement }}">Supplement</a>{% endcapture %}
+                {% capture supplement %}&nbsp;&nbsp;&nbsp;&nbsp;[<a href="/assets/pdfs/{{ paper.supplement }}">Supplement</a>]{% endcapture %}
                 {% assign all = all | append: supplement %}
               {% endif %}
 
               {% if paper.doi %}
-                {% capture doi %}&nbsp;&nbsp;&nbsp;&nbsp;DOI: <a href="https://dx.doi.org/{{ paper.doi }}">{{ paper.doi }}</a> {% endcapture %}
+                {% capture doi %}&nbsp;&nbsp;&nbsp;&nbsp;DOI: <a href="https://dx.doi.org/{{ paper.doi }}">{{ paper.doi }}</a>{% endcapture %}
+                {% capture altmetric %}&nbsp;&nbsp;&nbsp;<div style="display: inline" data-badge-popover="right" data-badge-type="4" data-doi="{{ paper.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>{% endcapture %}
                 {% assign all = all | append: doi %}
               {% endif %}
-              {{ all | join: "" | markdownify }}
 
-              {% if paper.extra_text %}
-                <br>{{ paper.extra_text | markdownify}}
+              {% if paper.pmid %}
+                {% capture pmid %}&nbsp;&nbsp;&nbsp;&nbsp;PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ paper.pmid }}">{{ paper.pmid }}</a> {% endcapture %}
+                {% assign all = all | append: pmid %}
               {% endif %}
-              
+
+              {{ all | join: "" | markdownify | remove: '<p>' | remove: '</p>' }}
+              {{ altmetric | remove: '<p>' | remove: '</p>' }}
+              {% if paper.extra_text %}
+                {{ paper.extra_text | markdownify}}
+              {% endif %}
       </div>
     </div>
   </div>

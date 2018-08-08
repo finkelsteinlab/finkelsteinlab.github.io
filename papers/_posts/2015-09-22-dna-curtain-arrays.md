@@ -8,10 +8,10 @@ year: "2015"
 shortref: "Gallardo _et al._ Langmuir (2015)"
 nickname: "universal-dna-curtain-arrays"
 journal: "Langmuir"
-authors: "Ignacio F. Gallardo, Praveenkumar Pasupathy, Maxwell Brown, Carol M. Manhart, Dean P. Neikirk, Eric Alani, and Ilya J. Finkelstein"
+authors: "Ignacio F. Gallardo, Praveenkumar Pasupathy, Maxwell Brown, Carol M. Manhart, Dean P. Neikirk, Eric Alani, and Ilya J. Finkelstein."
 pdf: 0028-2015-Langmuir-Gallardo et al.pdf
 supplement: 0028-2015-Langmuir-Gallardo et al-supplement.pdf
-doi: DOI: 10.1021/acs.langmuir.5b02416
+doi: 10.1021/acs.langmuir.5b02416
 pmcid: PMC4624423
 pmid: 26325477  
 extra_text: ''
