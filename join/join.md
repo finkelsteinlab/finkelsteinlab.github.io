@@ -4,9 +4,9 @@ The Finkelstein Lab is an interdisciplinary group of scientists working to combi
 
 Applicants with expertise in single-molecule biophysics, molecular biology, or bioinformatics are strongly preferred. Applicants with strong physics or computer science background are also encouraged to apply. However, enthusiasm, a strong work ethic and a record of success in your graduate career are the only requirements. Please email Ilya a CV, three letters of recommendation and explain why you are interested in the lab. In your email, please indicate whether you are eligible for postdoc fellowships, such as:
 
-* NRSA NIH Postdoctoral Fellowship
+* NRSA NIH Postdoctoral Fellowship~ 
 * HFSP Postdoctoral Fellowship
-* Helen Hay Whitney	
+* Helen Hay Whitney
 * Damon Runyon Fellowship
 * American Cancer Society Fellowship
 * Jane Coffin Childs Fellowship
@@ -33,4 +33,3 @@ Please look at the fellowship opportunities above carefully and indicate the one
 # Undergraduate Students
 
 The laboratory strives to include exceptional undergraduates in the life of the lab. Students that are interested in spending significant time at the bench are encouraged to email Ilya a resume and (unofficial) transcript.
-
