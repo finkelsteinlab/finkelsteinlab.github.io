@@ -1,24 +1,23 @@
 ---
 layout: paper
 title: ""
-volume: 
-issue: 
+volume:
+issue:
 pages:
 year: ""
 shortref: ""
-nickname: "" 
+nickname: ""
 journal: ""
 authors: ""
-pdf: 
-supplement: 
-doi: 
-pmcid: 
-pmid: 
+pdf:
+supplement:
+doi:
+pmcid:
+pmid:
 extra_text: ''
 category: paper
-tags: []
+tags:
 ---
 {% include JB/setup %}
 
-# Abstract 
-
+# Abstract
