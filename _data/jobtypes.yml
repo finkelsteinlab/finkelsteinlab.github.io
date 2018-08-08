@@ -1,24 +1,30 @@
-pi: 
+pi:
   - "Primus Inter Pares"
   - "Primus Inter Pares"
-managerscientist: 
+managerscientist:
   - "Lab Manager / Research Scientist"
   - "Lab Managers / Research Scientists"
-manager: 
+manager:
   - "Lab Manager"
   - "Lab Managers"
-postdoc: 
+postdoc:
   - "Postdoctoral Scientist"
   - "Postdoctoral Scientists"
-gradstudent: 
+gradstudent:
   - "Graduate Student"
   - "Graduate Students"
-research_scientist: 
+research_scientist:
   - "Research Scientist"
   - "Research Scientists"
-undergrad: 
+undergrad:
   - "Undergraduate"
   - "Undergraduates"
-assistant: 
+assistant:
   - "Lab Assistant"
   - "Lab Assistants"
+rotation:
+  - "Rotation Student"
+  - "Rotation Students"
+visiting_professor:
+  - "Visiting Professor"
+  - "Visiting Professors"
