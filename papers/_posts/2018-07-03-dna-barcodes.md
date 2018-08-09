@@ -8,7 +8,7 @@ year: "2018"
 shortref: "Hawkins _et al._ PNAS (2018)"
 nickname: "dna-barcodes"
 journal: "Proc Natl Acad Sci USA"
-authors: "John A. Hawkins, Stephen K. Jones Jr., Ilya J. Finkelstein&dagger;, and William H. Press&dagger; (&dagger; co-corresponding)" "
+authors: "John A. Hawkins, Stephen K. Jones Jr., Ilya J. Finkelstein&dagger;, and William H. Press&dagger; (&dagger; co-corresponding)"
 pdf: 0042-2018-PNAS-Hawkins et al.pdf
 supplement: 0042-2018-PNAS-Hawkins et al-supplement.pdf
 doi: 10.1073/pnas.1802640115
