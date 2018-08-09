@@ -6,8 +6,8 @@ group: navigation
 navorder: 3
 ---
 {% include JB/setup %}
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <div class="bigspacer"></div>
-
 {% assign preprints = site.categories.papers | where_exp: "paper", "paper.doi contains '10.1101/'" %}
 {% if preprints.size > 0 %}
   <div class="row">
@@ -22,13 +22,13 @@ navorder: 3
       {% include_relative loop.html %}
     {% endif %}
   {% endfor %}
-{% endif %} 
+{% endif %}
 
 {% assign year = "9999" %}
 {% for paper in site.categories.papers %}
   {% assign doi_prefix = paper.doi | slice: 0, 8 %}
   {% unless doi_prefix == '10.1101/' %}
-    {% if paper.year < year %} 
+    {% if paper.year < year %}
       {% assign year = paper.year %}
         <div class="row">
           <div class="head">
@@ -41,6 +41,5 @@ navorder: 3
   {% endunless %}
 {% endfor %}
 </div><div class="bigspacer"></div>
-
 
 <div class="bigspacer"></div>

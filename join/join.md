@@ -29,4 +29,4 @@ The laboratory strives to include exceptional undergraduates with prior research
 * [Aptamer](https://cns.utexas.edu/component/cobalt/item/1424-aptamer?Itemid=1971)
 * [BioBricks](https://cns.utexas.edu/component/cobalt/item/1426-biobricks?Itemid=1971)
 
-Students that are interested in joining the lab are encouraged to [email Ilya](ifinkelstein@cm.utexas.edu) a resume, unofficial transcript, and a short (one-page) **summary of their prior research project**. 
+Students that are interested in joining the lab are encouraged to [email Ilya](mailto:  ifinkelstein@cm.utexas.edu) a resume, unofficial transcript, and a short (one-page) **summary of their prior research project**. 

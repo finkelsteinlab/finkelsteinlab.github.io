@@ -6,7 +6,9 @@
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
-  website: http://finkelsteinlab.org/bio
+  CV: 
+  ORCID:
+  GScholar:
 
 - name: Nicole Johnson
   position: managerscientist
@@ -195,6 +197,7 @@
   image:
   young_image:
   favorite_activities:
+<<<<<<< HEAD
     -
     -
     -
@@ -220,12 +223,24 @@
 
 
 
+=======
+    - 65 degrees and sunny in December
+    - Enjoying great food and beer
+    - Swimming in Barton Springs
+  quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
+  quote_author: Richard Dawkins
+  joined: 2015-12-01
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01
   departed: 2014-06-01
   whereabouts: NYU Medical School
+<<<<<<< HEAD
+=======
+  position: undergrad
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 
 - name: Jacob Bobb
   position: undergrad
@@ -233,17 +248,21 @@
   departed: 2014-06-01
   whereabouts: MIA
 
+<<<<<<< HEAD
 - name: Maxwell Brown
   position: gradstudent
   joined: 2012-12-01
   departed: 2018-02-01
   whereabouts: Indianapolis, IN
 
+=======
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 - name: Ignacio Gallardo
   position: postdoc
   joined: 2012-09-01
   departed: 2016-09-01
   whereabouts: Environmental Scientist in Austin, TX
+<<<<<<< HEAD
 
 - name: Jory Goldsmith
   position: rotation
@@ -394,3 +413,5 @@
   joined:
   departed:
   whereabouts:
+=======
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431

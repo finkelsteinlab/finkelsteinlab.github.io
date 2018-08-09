@@ -14,7 +14,12 @@ supplement: 0029-2016-PNAS-Myler et al-supplement.pdf
 doi: 10.1073/pnas.1516674113
 pmcid: PMC4780606
 pmid: 26884156
-extra_text: ''
+extra_text: '
+**Press:**
+
+  * [The Daily Texan](http://www.dailytexanonline.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins)
+
+'
 category: paper
 tags: [Biocatalysis, DNA damage, DNA repair, Exodeoxyribonucleases]
 ---

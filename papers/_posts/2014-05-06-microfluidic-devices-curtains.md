@@ -3,7 +3,7 @@ layout: paper
 title: "Rapid prototyping of multichannel microfluidic devices for single-molecule DNA curtain imaging."
 volume: 86
 issue: 9
-pages:4157-63
+pages: 4157-63
 year: "2014"
 shortref: "Robison and Finkelstein AC (2014)"
 nickname: "prototyping-device-curtains"

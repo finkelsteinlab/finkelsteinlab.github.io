@@ -14,11 +14,16 @@ supplement: 0037-2017-Cell-Jung et al-supplement.pdf
 doi: 10.1016/j.cell.2017.05.044
 pmcid: PMC5552236
 pmid: 28666121
-extra_text: 'Highlights:
+extra_text: '
+**Press:**
 
-  * [Cell Press interview](http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0092867417306372/1-s2.0-S0092867417306372-mmc4.mp3/272196/html/S0092867417306372/9d684ed2d826aeefefb7d9ab691efc9c/mmc4.mp3?_role=author-interview)
+  - [Cell Press interview](http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0092867417306372/1-s2.0-S0092867417306372-mmc4.mp3/272196/html/S0092867417306372/9d684ed2d826aeefefb7d9ab691efc9c/mmc4.mp3?_role=author-interview)
 
-  * [Austin-American Statesman](http://www.mystatesman.com/technology/scientists-tinker-with-gene-mapping-device-make-dna-editing-safe/1HEc7zgmeMr6GnhakREaWJ/)
+  - [Austin-American Statesman](http://www.mystatesman.com/technology/scientists-tinker-with-gene-mapping-device-make-dna-editing-safe/1HEc7zgmeMr6GnhakREaWJ/)
+
+  - [Safer gene editing tool (CNS)](https://cns.utexas.edu/news/new-technique-enables-safer-gene-editing-therapy-using-crispr)
+
+  - [Inspiring and Eye-Opening Texas Science Stories of 2017 (CNS)](https://cns.utexas.edu/news/16-inspiring-and-eye-opening-texas-science-stories-of-2017)
 
 '
 category: paper
