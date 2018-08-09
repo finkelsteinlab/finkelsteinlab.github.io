@@ -14,7 +14,12 @@ supplement: 0042-2018-PNAS-Hawkins et al-supplement.pdf
 doi: 10.1073/pnas.1802640115
 pmcid:
 pmid: 29925596
-extra_text: ''
+extra_text: '
+**Press:**
+
+  * [DNA Barcodes That Work (CNS)](https://cns.utexas.edu/news/dna-barcodes-that-reliably-work-a-game-changer-for-biomedical-research)
+
+'
 category: paper
 tags: [DNA barcodes, Error-correcting codes, Information storage, Massively parallel synthesis]
 ---

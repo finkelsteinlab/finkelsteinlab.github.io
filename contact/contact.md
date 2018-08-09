@@ -1,4 +1,4 @@
-# Contact Information
+# Contact
 
 ### Ilya J. Finkelstein, Ph.D.
 
@@ -8,7 +8,7 @@ Assistant Professor
 Phone: (512) 475-6172 (lab)  
 Email: [ifinkelstein@cm.utexas.edu](mailto:ifinkelstein@cm.utexas.edu)  
 
-### Mailing Address
+### Lab Mailing Address
 
 Finkelstein Lab  
 Department of Molecular Biosciences  

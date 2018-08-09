@@ -1,12 +1,14 @@
 - name: Ilya Finkelstein
   position: pi
   twitter: ilyafinkelstein
-  email: ifinkelstein@cm.utexas.edu 
+  email: ifinkelstein@cm.utexas.edu
   image: ilya_old.jpg
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
-  website: http://finkelsteinlab.org/bio
+  CV: 
+  ORCID:
+  GScholar:
 
 - name: Jim Rybarski
   position: gradstudent
@@ -15,10 +17,10 @@
   website: https://www.robotswillkillusall.org
   image: jim_old.png
   young_image: jim_child.png
-  favorite_activities: 
-    - Eating an entire Texas Donut 
-    - Making computers do what I mean 
-    - Naming my hypothetical cats 
+  favorite_activities:
+    - Eating an entire Texas Donut
+    - Making computers do what I mean
+    - Naming my hypothetical cats
   quote: "...men like you built the hydrogen bomb. Men like you thought it up. You think you’re so creative. You don’t know what it’s like to really create something - to create a life..."
   quote_author: Sarah Connor
   joined: 2014-05-14
@@ -29,10 +31,10 @@
   image: schaub_now.jpg
   young_image: schaub_baby.jpg
   favorite_activities:
-    - 65 degrees and sunny in December 
-    - Enjoying great food and beer 
-    - Swimming in Barton Springs 
-  quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose." 
+    - 65 degrees and sunny in December
+    - Enjoying great food and beer
+    - Swimming in Barton Springs
+  quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
   quote_author: Richard Dawkins
   joined: 2015-12-01
 
@@ -40,17 +42,16 @@
   joined: 2012-11-01
   departed: 2014-06-01
   whereabouts: NYU Medical School
-  position: undergrad 
+  position: undergrad
 
-- name: Jacob Bobb 
+- name: Jacob Bobb
   position: undergrad
   joined: 2013-10-01
   departed: 2014-06-01
   whereabouts: University of Texas
 
-- name: Ignacio Gallardo 
+- name: Ignacio Gallardo
   position: postdoc
   joined: 2012-09-01
   departed: 2016-09-01
   whereabouts: Environmental Scientist in Austin, TX
-

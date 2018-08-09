@@ -14,7 +14,16 @@ supplement: 0043-2018-MolCell-Strohkendl et al-supplement.pdf
 doi: 10.1016/j.molcel.2018.06.043
 pmcid:
 pmid: 30078724
-extra_text: ''
+extra_text: '
+**Press:**
+
+  * [A better CRISPR enzyme (Axios)](https://www.axios.com/crispr-enzyme-cas12a-may-be-safer-than-cas9-45c48a24-d52b-41f8-9d47-c955578d2aed.html)
+
+  * [Making CRISPR better (ScienceDaily)](https://www.sciencedaily.com/releases/2018/08/180802141744.htm)
+
+  * [How to make gene editing better (CNS)](https://cns.utexas.edu/news/how-to-make-the-gene-editing-tool-crispr-work-even-better)
+
+'
 category: paper
 tags: [AsCpf1, CRISPR-Cas system, RNA-guided nuclease, Rate-limiting binding]
 ---
