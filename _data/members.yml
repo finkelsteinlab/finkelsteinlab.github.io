@@ -6,7 +6,7 @@
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
-  CV: 
+  CV:
   ORCID:
   GScholar:
 
@@ -23,6 +23,9 @@
     - Enjoying a crisp sour beer at Blue Owl or Jester King breweries.
   quote: "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
   quote_author: Richard Feynman
+  CV:
+  ORCID:
+  GScholar:
   joined: 2017-02-01
 
 - name: John Hawkins
@@ -33,11 +36,14 @@
   image:
   young_image:
   favorite_activities:
-    -
-    -
-    -
+    - Backyard BBQs with friends
+    - Watching local filmmakers' movies at Alamo Drafthouse
+    - Kayaking on Town Lake to watch the fireworks on 4th of July
   quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
   quote_author: John von Neumann
+  CV:
+  ORCID:
+  GScholar:
   joined: 2015-05-01
 
 
@@ -54,6 +60,9 @@
     -
   quote: "Half of learning to play is learning what not to play."
   quote_author: Ani DiFranco
+  CV:
+  ORCID: 0000-0001-8387-1917
+  GScholar:
   joined: 2015-02-01
 
 - name: Shane McDevitt
@@ -69,6 +78,9 @@
     -
   quote:
   quote_author:
+  CV:
+  ORCID:
+  GScholar:
   joined: 2018-06-04
 
 - name: Michael Soniat
@@ -84,6 +96,9 @@
     -
   quote: "Somewhere, something incredible is waiting to be known."
   quote_author: Carl Sagan
+  CV:
+  ORCID:
+  GScholar:
   joined: 2016-07-17
 
 - name: Hongshan Zhang
@@ -99,6 +114,9 @@
     - Relaxing outdoors at Zilker Park
   quote: “What we know is a drop; what we don’t know is an ocean.”
   quote_author: Isaac Newton
+  CV:
+  ORCID:
+  GScholar:
   joined: 2018-01-02
 
 - name: John Cooper
@@ -114,6 +132,9 @@
     -
   quote:
   quote_author:
+  CV:
+  ORCID:
+  GScholar:
   joined: 2017-11-13
 
 - name: Kaylee Dillard
@@ -129,6 +150,9 @@
     -
   quote: "Take chances, make mistakes, get messy."
   quote_author: Miss Frizzle
+  CV:
+  ORCID:
+  GScholar:
   joined: 2015-01-01
 
 - name: Yoori Kim
@@ -144,6 +168,9 @@
     -
   quote: "Conditions for creativity are to be puzzled; to concentrate; to accept conflict and tension; to be born everyday; to feel a sense of self."
   quote_author: Erich Pinchas Fromm
+  CV:
+  ORCID:
+  GScholar:
   joined: 2018-02-12
 
 - name: Hung-Che (Jami) Kuo
@@ -159,6 +186,9 @@
     -
   quote:
   quote_author:
+  CV:
+  ORCID:
+  GScholar:
   joined: 2018-02-12
 
 - name: Jim Rybarski
@@ -174,20 +204,26 @@
     - Naming my hypothetical cats
   quote: "...men like you built the hydrogen bomb. Men like you thought it up. You think you’re so creative. You don’t know what it’s like to really create something - to create a life..."
   quote_author: Sarah Connor
+  CV:
+  ORCID:
+  GScholar:
   joined: 2014-05-14
 
-  - name: Jeff Schaub
-    position: gradstudent
-    email: jmschaub@utexas.edu
-    image: schaub_now.jpg
-    young_image: schaub_baby.jpg
-    favorite_activities:
-      - 65 degrees and sunny in December
-      - Enjoying great food and beer
-      - Swimming in Barton Springs
-    quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
-    quote_author: Richard Dawkins
-    joined: 2015-12-01
+- name: Jeff Schaub
+  position: gradstudent
+  email: jmschaub@utexas.edu
+  image: schaub_now.jpg
+  young_image: schaub_baby.jpg
+  favorite_activities:
+    - 65 degrees and sunny in December
+    - Enjoying great food and beer
+    - Swimming in Barton Springs
+  quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
+  quote_author: Richard Dawkins
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2015-12-01
 
 - name: Kamyab Javanmardi
   position: rotation
@@ -197,12 +233,14 @@
   image:
   young_image:
   favorite_activities:
-<<<<<<< HEAD
     -
     -
     -
   quote:
   quote_author:
+  CV:
+  ORCID:
+  GScholar:
   joined: 2018-06-01
 
 - name: Giaochau Nguyen
@@ -218,29 +256,16 @@
     -
   quote:
   quote_author:
-  joined:
-
-
-
-
-=======
-    - 65 degrees and sunny in December
-    - Enjoying great food and beer
-    - Swimming in Barton Springs
-  quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
-  quote_author: Richard Dawkins
-  joined: 2015-12-01
->>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2018-06-01
 
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01
   departed: 2014-06-01
   whereabouts: NYU Medical School
-<<<<<<< HEAD
-=======
-  position: undergrad
->>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 
 - name: Jacob Bobb
   position: undergrad
@@ -248,21 +273,17 @@
   departed: 2014-06-01
   whereabouts: MIA
 
-<<<<<<< HEAD
 - name: Maxwell Brown
   position: gradstudent
   joined: 2012-12-01
   departed: 2018-02-01
   whereabouts: Indianapolis, IN
 
-=======
->>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 - name: Ignacio Gallardo
   position: postdoc
   joined: 2012-09-01
   departed: 2016-09-01
   whereabouts: Environmental Scientist in Austin, TX
-<<<<<<< HEAD
 
 - name: Jory Goldsmith
   position: rotation
@@ -413,5 +434,3 @@
   joined:
   departed:
   whereabouts:
-=======
->>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
