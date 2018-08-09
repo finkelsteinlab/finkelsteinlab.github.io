@@ -1,14 +1,16 @@
 - name: Ilya Finkelstein
   position: pi
-  twitter: ilyafinkelstein
   email: ifinkelstein@cm.utexas.edu
+  twitter: ilyafinkelstein
+  website: https://finkelsteinlab.org
   image: ilya_old.jpg
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
-  CV: 
+  CV:
   ORCID:
-  GScholar:
+  GScholar: https://scholar.google.com/citations?user=0j1TcuMAAAAJ&hl=en
+  GitHub:
 
 - name: Jim Rybarski
   position: gradstudent

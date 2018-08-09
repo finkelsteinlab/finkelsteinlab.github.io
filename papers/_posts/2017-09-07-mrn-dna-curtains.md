@@ -8,7 +8,7 @@ year: "2017"
 shortref: "Myler and Gallardo _et al._, Mol. Cell (2017)"
 nickname: "mrn-curtains"
 journal: "Molecular Cell"
-authors: "Logan R. Myler&#42;, Ignacio F. Gallardo&#42;, Michael M. Soniat, Rajashree A. Deshpande, Xenia B. Gonzalez, Yoori Kim, Tanya T. Paull, **Ilya J. Finkelstein**"
+authors: "Logan R. Myler&#42;, Ignacio F. Gallardo&#42;, Michael M. Soniat, Rajashree A. Deshpande, Xenia B. Gonzalez, Yoori Kim, Tanya T. Paull&dagger;, Ilya J. Finkelstein&dagger; (&#42; co-first authors; 	&dagger; co-corresponding)"
 pdf: 0038-2017-MolCell-Myler et al.pdf
 supplement: 0038-2017-MolCell-Myler et al-supplement.pdf
 doi: 10.1016/j.molcel.2017.08.002
