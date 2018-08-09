@@ -15,7 +15,7 @@
 - name: Nicole Johnson
   position: managerscientist
   email: nvirginia.johnson@gmail.com
-  twitter: @nicole_vjohnson
+  twitter: nicole_vjohnson
   website:
   image:
   young_image:
@@ -35,8 +35,8 @@
   email: hawkjo@gmail.com
   twitter:
   website:
-  image:
-  young_image:
+  image: beaker_current.jpg
+  young_image: beaker_young.jpg
   favorite_activities:
     - Backyard BBQs with friends
     - Watching local filmmakers' movies at Alamo Drafthouse
@@ -48,18 +48,17 @@
   GScholar:
   joined: 2015-05-01
 
-
 - name: Steve Jones
   position:  postdoc
   email: skjonesjr@utexas.edu
-  twitter:  @ItsOKIDoScience
+  twitter: ItsOKIDoScience
   website:
-  image:
-  young_image:
+  image: stephen_jones_current.jpg
+  young_image: stephen_jones_young.jpg
   favorite_activities:
-    -
-    -
-    -
+    - Cruising the hill country and surrounding areas on my motorcycle.
+    - Eating pecans from the trees at Barton Springs.
+    - Going to shows at any one of the many bars in Austin.
   quote: "Half of learning to play is learning what not to play."
   quote_author: Ani DiFranco
   CV:
@@ -72,30 +71,30 @@
   email: shanem@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: shane_mcdevitt_current.jpg
+  young_image: beaker_young.jpg
   favorite_activities:
-    -
-    -
-    -
-  quote:
-  quote_author:
+    - Cooking
+    - Exercising
+    - Drinking craft beers
+  quote: "Never memorize something that you can look up"
+  quote_author: Albert Einstein
   CV:
-  ORCID:
+  ORCID: 0000-0001-9360-2841
   GScholar:
   joined: 2018-06-04
 
 - name: Michael Soniat
   position: postdoc
   email: msoniat@utexas.edu
-  twitter:
+  twitter: michaelsoniat
   website:
-  image:
-  young_image:
+  image: michael_soniat_current.jpg
+  young_image: michael_soniat_young.jpg
   favorite_activities:
-    -
-    -
-    -
+    - Eating at Torchy's.
+    - Enjoying new craft brews at any local bar.
+    - Hunting for vintage Beatles vinyl at local record shops.
   quote: "Somewhere, something incredible is waiting to be known."
   quote_author: Carl Sagan
   CV:
@@ -108,8 +107,8 @@
   email: hongshanzh@gmail.com
   twitter:
   website:
-  image: hongshan_now.jpg
-  young_image: hongshan_young.jpg
+  image: hongshan_zhang_current.jpg
+  young_image: hongshan_zhang_young.jpg
   favorite_activities:
     - Enjoying live music in Live Music Capital of the World
     - Exploring Texas local food and drinks
@@ -126,14 +125,14 @@
   email: jpcoope@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: john_cooper_current.jpg
+  young_image: john_cooper_young.jpg
   favorite_activities:
-    -
-    -
-    -
-  quote:
-  quote_author:
+    - Going to shows on Red River
+    - Exploring Austin via skateboard
+    - Finding new places to absorb sunlight on the Greenbelt
+  quote: "Translating a thing into the analytical language is akin to what the alchemist does when he extracts, from some crude ore, a pure spirit. The gross external forms of things are cast off to reveal the underlying spirit. And when this is done we may learn that some things that are superficially different are, in their real nature, the same."
+  quote_author: Neal Stephenson
   CV:
   ORCID:
   GScholar:
@@ -144,12 +143,12 @@
   email: kaylee.dillard@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: kaylee_dillard_current.jpg
+  young_image: kaylee_dillard_young.jpg
   favorite_activities:
-    -
-    -
-    -
+    - A cold beer on a hot summer day at Jester King Brewery
+    - All the delicious food
+    - Playing fetch with my cat
   quote: "Take chances, make mistakes, get messy."
   quote_author: Miss Frizzle
   CV:
@@ -162,12 +161,12 @@
   email: danielyoori@gmail.com
   twitter:
   website:
-  image:
-  young_image:
+  image: yoori_kim_current.jpg
+  young_image: yoori_kim_young.jpg
   favorite_activities:
-    -
-    -
-    -
+    - Beautiful sky
+    - Cheap, juicy beef steak
+    - Highway
   quote: "Conditions for creativity are to be puzzled; to concentrate; to accept conflict and tension; to be born everyday; to feel a sense of self."
   quote_author: Erich Pinchas Fromm
   CV:
@@ -180,14 +179,14 @@
   email: hckuo@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: jami_kuo_current.jpg
+  young_image: jami_kuo_young.jpg
   favorite_activities:
-    -
-    -
-    -
-  quote:
-  quote_author:
+    - Playing squash.
+    - Trying new beers from local breweries.
+    - Trying to make a perfect medium rare steak.
+  quote: “The important thing is not to stop questioning; never lose a holy curiosity.”
+  quote_author: Albert Einstein
   CV:
   ORCID:
   GScholar:
@@ -207,15 +206,15 @@
   quote: "...men like you built the hydrogen bomb. Men like you thought it up. You think you’re so creative. You don’t know what it’s like to really create something - to create a life..."
   quote_author: Sarah Connor
   CV:
-  ORCID:
-  GScholar:
+  ORCID: 0000-0001-9960-1161
+  GScholar: https://scholar.google.com/citations?user=Vm_4NQQAAAAJ
   joined: 2014-05-14
 
 - name: Jeff Schaub
   position: gradstudent
   email: jmschaub@utexas.edu
-  image: schaub_now.jpg
-  young_image: schaub_baby.jpg
+  image: jeff_schaub_current.jpg
+  young_image: jeff_schaun_young.jpg
   favorite_activities:
     - 65 degrees and sunny in December
     - Enjoying great food and beer
@@ -232,14 +231,14 @@
   email: kjavanmardi@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: kamyab_javanmardi_current.jpg
+  young_image: kamyab_javanmardi_young.jpg
   favorite_activities:
-    -
-    -
-    -
-  quote:
-  quote_author:
+    - Saturday morning soccer at Zilker
+    - Nighttime lounging at Spider House café
+    - Sport climbing on that slippery limestone
+  quote: “Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.”
+  quote_author: Willy Wonka
   CV:
   ORCID:
   GScholar:
@@ -247,14 +246,14 @@
 
 - name: Giaochau Nguyen
   position: undergrad
-  email:
+  email: giaochau.n@utexas.edu
   twitter:
   website:
-  image:
-  young_image:
+  image: beaker_current.jpg
+  young_image: beaker_young.jpg
   favorite_activities:
     -
-    -
+    - 
     -
   quote:
   quote_author:
