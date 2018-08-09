@@ -16,7 +16,7 @@ pmcid: PMC3651777
 pmid: 23451891
 extra_text: ''
 category: paper
-tags: [DNA, Helicases, DNA Repair, DNA Replication, Nucleosomes, Transcription]
+tags: [DNA, Helicases, DNA repair, DNA replication, Nucleosomes, Transcription]
 ---
 {% include JB/setup %}
 

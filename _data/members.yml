@@ -12,6 +12,157 @@
   GScholar: https://scholar.google.com/citations?user=0j1TcuMAAAAJ&hl=en
   GitHub:
 
+- name: Nicole Johnson
+  position: managerscientist
+  email: nvirginia.johnson@gmail.com
+  twitter:  @nicole_vjohnson
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    - Early morning runs at Walnut Creek, Brushy Creek, or Lady Bird Lake.
+    - Kayaking around Lake Travis.
+    - Enjoying a crisp sour beer at Blue Owl or Jester King breweries.
+  quote: "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
+  quote_author: Richard Feynman
+  joined: 2017-02-01
+
+- name: John Hawkins
+  position: postdoc
+  email: hawkjo@gmail.com
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
+  quote_author: John von Neumann
+  joined: 2015-05-01
+
+
+- name: Steve Jones
+  position:  postdoc
+  email: skjonesjr@utexas.edu
+  twitter:  @ItsOKIDoScience
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote: "Half of learning to play is learning what not to play."
+  quote_author: Ani DiFranco
+  joined: 2015-02-01
+
+- name: Shane McDevitt
+  position: postdoc
+  email: shanem@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote:
+  quote_author:
+  joined: 2018-06-04
+
+- name: Michael Soniat
+  position: postdoc
+  email: msoniat@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote: "Somewhere, something incredible is waiting to be known."
+  quote_author: Carl Sagan
+  joined: 2016-07-17
+
+- name: Hongshan Zhang
+  position: postdoc
+  email: hongshanzh@gmail.com
+  twitter:
+  website:
+  image: hongshan_now.jpg
+  young_image: hongshan_young.jpg
+  favorite_activities:
+    - Enjoying live music in Live Music Capital of the World
+    - Exploring Texas local food and drinks
+    - Relaxing outdoors at Zilker Park
+  quote: “What we know is a drop; what we don’t know is an ocean.”
+  quote_author: Isaac Newton
+  joined: 2018-01-02
+
+- name: John Cooper
+  position: gradstudent
+  email: jpcoope@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote:
+  quote_author:
+  joined: 2017-11-13
+
+- name: Kaylee Dillard
+  position: gradstudent
+  email: kaylee.dillard@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote: "Take chances, make mistakes, get messy."
+  quote_author: Miss Frizzle
+  joined: 2015-01-01
+
+- name: Yoori Kim
+  position: gradstudent
+  email: danielyoori@gmail.com
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote: "Conditions for creativity are to be puzzled; to concentrate; to accept conflict and tension; to be born everyday; to feel a sense of self."
+  quote_author: Erich Pinchas Fromm
+  joined: 2018-02-12
+
+- name: Hung-Che (Jami) Kuo
+  position: gradstudent
+  email: hckuo@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote:
+  quote_author:
+  joined: 2018-02-12
+
 - name: Jim Rybarski
   position: gradstudent
   email: jimrybarski@utexas.edu
@@ -27,33 +178,242 @@
   quote_author: Sarah Connor
   joined: 2014-05-14
 
-- name: Jeff Schaub
-  position: gradstudent
-  email: jmschaub@utexas.edu
-  image: schaub_now.jpg
-  young_image: schaub_baby.jpg
+  - name: Jeff Schaub
+    position: gradstudent
+    email: jmschaub@utexas.edu
+    image: schaub_now.jpg
+    young_image: schaub_baby.jpg
+    favorite_activities:
+      - 65 degrees and sunny in December
+      - Enjoying great food and beer
+      - Swimming in Barton Springs
+    quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
+    quote_author: Richard Dawkins
+    joined: 2015-12-01
+
+- name: Kamyab Javanmardi
+  position: rotation
+  email: kjavanmardi@utexas.edu
+  twitter:
+  website:
+  image:
+  young_image:
   favorite_activities:
+<<<<<<< HEAD
+    -
+    -
+    -
+  quote:
+  quote_author:
+  joined: 2018-06-01
+
+- name: Giaochau Nguyen
+  position: undergrad
+  email:
+  twitter:
+  website:
+  image:
+  young_image:
+  favorite_activities:
+    -
+    -
+    -
+  quote:
+  quote_author:
+  joined:
+
+
+
+
+=======
     - 65 degrees and sunny in December
     - Enjoying great food and beer
     - Swimming in Barton Springs
   quote: "Biology is the study of complicated things that have the appearance of having been designed with a purpose."
   quote_author: Richard Dawkins
   joined: 2015-12-01
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 
 - name: Kameron Azarm
+  position: undergrad
   joined: 2012-11-01
   departed: 2014-06-01
   whereabouts: NYU Medical School
+<<<<<<< HEAD
+=======
   position: undergrad
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 
 - name: Jacob Bobb
   position: undergrad
   joined: 2013-10-01
   departed: 2014-06-01
-  whereabouts: University of Texas
+  whereabouts: MIA
 
+<<<<<<< HEAD
+- name: Maxwell Brown
+  position: gradstudent
+  joined: 2012-12-01
+  departed: 2018-02-01
+  whereabouts: Indianapolis, IN
+
+=======
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
 - name: Ignacio Gallardo
   position: postdoc
   joined: 2012-09-01
   departed: 2016-09-01
   whereabouts: Environmental Scientist in Austin, TX
+<<<<<<< HEAD
+
+- name: Jory Goldsmith
+  position: rotation
+  joined: 2017-11-01
+  departed: 2018-02-01
+  whereabouts: UT Austin
+
+- name: Brianna Gonzales
+  position: research_scientist
+  joined: 2015-06-01
+  departed: 2017-01-01
+  whereabouts: Austin, TX
+
+- name: Greg Hild
+  position: manager
+  joined: 2012-08-01
+  departed: 2013-09-01
+  whereabouts: MIA
+
+- name: Cheulhee Jung
+  position: postdoc
+  joined: 2015-03-01
+  departed: 2017-08-01
+  whereabouts: Research Assistant Professor at Korea University, Seoul, South Korea
+
+- name: Grace Kago
+  position: rotation
+  joined: 2016-06-01
+  departed: 2016-08-01
+  whereabouts: UT Austin
+
+- name: Vanessa Landsteiner
+  position: gradstudent
+  joined: 2012-12-01
+  departed: 2014-01-01
+  whereabouts: MIA
+
+- name: Andrew Leal
+  position: undergrad
+  joined: 2014-10-01
+  departed: 2015-07-01
+  whereabouts: Austin, TX
+
+- name: Alfred Lentzsch
+  position: rotation
+  joined: 2014-08-01
+  departed: 2014-12-01
+  whereabouts: UT Austin
+
+- name: Letti Lopez
+  position: rotation
+  joined: 2017-02-01
+  departed: 2017-05-01
+  whereabouts: UT Austin
+
+- name: Kelly Meng
+  position: undergrad
+  joined: 2018-02-01
+  departed: 2018-07-01
+  whereabouts: UT Austin
+
+- name: Nagisa Mikami
+  position: gradstudent
+  joined: 2015-12-01
+  departed: 2016-02-01
+  whereabouts: Gakushuin University, Tokyo, Japan
+
+- name: Logan Myler
+  position: gradstudent
+  joined: 2013-04-01
+  departed: 2018-05-01
+  whereabouts: The Rockefeller University, New York
+
+- name: Aaron Robison
+  position: postdoc
+  joined: 2013-09-01
+  departed: 2014-05-01
+  whereabouts: Research Assistant Professor at Vanderbilt University
+
+- name: Wisath Sae-Lee
+  position: rotation
+  joined: 2014-08-01
+  departed: 2014-12-01
+  whereabouts: UT Austin
+
+- name: Fatema Saifuddin
+  position: research_scientist
+  joined: 2014-09-01
+  departed: 2018-07-01
+  whereabouts: University of California, San Francisco
+
+- name: Çağrı Savran
+  position: visiting_professor
+  joined: 2014-08-01
+  departed: 2015-07-01
+  whereabouts: UT Austin
+
+- name: Eric Spivey
+  position: postdoc
+  joined: 2013-09-01
+  departed: 2016-11-01
+  whereabouts: Research Assistant Proffesor at Vanderbilt University
+
+- name: Isabel Strohkendl
+  position: rotation
+  joined: 2015-12-01
+  departed: 2016-02-01
+  whereabouts: UT Austin
+
+- name: Ashley Susan
+  position: manager
+  joined: 2016-09-01
+  departed: 2017-02-01
+  whereabouts: TX
+
+- name: Scott Tucker
+  position: rotation
+  joined: 2017-02-01
+  departed: 2017-05-01
+  whereabouts: UT Austin
+
+- name: Marie Warburton
+  position: gradstudent
+  joined: 2014-04-01
+  departed: 2014-08-01
+  whereabouts: Paris
+
+- name: Soo-Hyun Yang
+  position: postdoc
+  joined: 2015-01-01
+  departed: 2016-07-01
+  whereabouts: Freshman Research Initiative (FRI) Research Educator at UT Austin
+
+- name: Jesus de la O
+  position: undergrad
+  joined: 2014-01-01
+  departed: 2016-05-01
+  whereabouts: Austin, TX
+
+- name: Armando de la Torre
+  position: manager
+  joined: 2013-09-01
+  departed: 2016-09-01
+  whereabouts: Austin, TX
+
+- name:
+  position:
+  joined:
+  departed:
+  whereabouts:
+=======
+>>>>>>> d128ebc7d68d09d6fbc52311f6a703ad0e194431
