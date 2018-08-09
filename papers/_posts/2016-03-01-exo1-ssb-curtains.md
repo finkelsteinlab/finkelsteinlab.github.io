@@ -19,6 +19,8 @@ extra_text: '
 
   * [The Daily Texan](http://www.dailytexanonline.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins)
 
+  * [UT College of Natural Sciences](https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled)
+
 '
 category: paper
 tags: [Biocatalysis, DNA damage, DNA repair, Exodeoxyribonucleases]
