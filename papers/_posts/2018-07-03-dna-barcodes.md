@@ -17,9 +17,15 @@ pmid: 29925596
 extra_text: '
 **Press:**
 
-  * [DNA Barcodes That Work (CNS)](https://cns.utexas.edu/news/dna-barcodes-that-reliably-work-a-game-changer-for-biomedical-research)
-  * [Method makes DNA barcodes way more reliable (Futurity)](https://www.futurity.org/dna-barcode-1799862/)
-  * [Reliable DNA barcodes (Phys.org)](https://phys.org/news/2018-06-dna-barcodes-reliably-game-changer-biomedical.html)
+  * [DNA Barcodes That Work (CNS)](https://cns.utexas.edu/news/dna-barcodes-that-reliably-work-a-game-changer-for-biomedical-research)  
+
+  * [Method makes DNA barcodes way more reliable (Futurity)](https://www.futurity.org/dna-barcode-1799862/)  
+
+  * [Reliable DNA barcodes (Phys.org)](https://phys.org/news/2018-06-dna-barcodes-reliably-game-changer-biomedical.html)  
+
+  * [Eureka Alert](https://www.eurekalert.org/pub_releases/2018-06/uota-dbt062018.php)  
+
+
 
 '
 category: paper
