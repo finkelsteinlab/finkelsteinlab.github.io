@@ -34,18 +34,18 @@
   position: postdoc
   email: hawkjo@gmail.com
   twitter:
-  website:
-  image: beaker_current.jpg
-  young_image: beaker_young.jpg
+  website: hawkjo.github.io
+  image: john_hawkins_current.jpg
+  young_image: john_hawkins_young.jpg
   favorite_activities:
     - Backyard BBQs with friends
     - Watching local filmmakers' movies at Alamo Drafthouse
     - Kayaking on Town Lake to watch the fireworks on 4th of July
   quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
   quote_author: John von Neumann
-  CV:
-  ORCID:
-  GScholar:
+  CV: hawkjo.github.io/CV/
+  ORCID: 0000-0002-2943-9397
+  GScholar: https://scholar.google.com/citations?user=jBffF0MAAAAJ&hl=en
   joined: 2015-05-01
 
 - name: Steve Jones
@@ -171,7 +171,7 @@
   quote_author: Erich Pinchas Fromm
   CV:
   ORCID:
-  GScholar:
+  GScholar: https://scholar.google.com/citations?hl=en&user=xCq2U8sAAAAJ&view_op=list_works&sortby=pubdate
   joined: 2018-02-12
 
 - name: Hung-Che (Jami) Kuo
@@ -253,7 +253,7 @@
   young_image: beaker_young.jpg
   favorite_activities:
     -
-    - 
+    -
     -
   quote:
   quote_author:
