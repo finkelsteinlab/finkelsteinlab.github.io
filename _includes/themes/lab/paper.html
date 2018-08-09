@@ -52,7 +52,7 @@ with gratitude.
 				{% endif %}
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">PDF</a>
+					<a class="off" href="/assets/pdfs/{{ page.pdf }}">PDF</a>
 					<br/>
 				{% endif %}
 				{% if page.fulltext %}
@@ -70,7 +70,7 @@ with gratitude.
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="{{ page.supplement }}">Supplement</a>
+				<a class="off" href="/assets/pdfs/{{ page.supplement }}">Supplement</a>
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
