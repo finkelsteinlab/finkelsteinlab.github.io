@@ -25,8 +25,8 @@ $(document).ready(function(){
   {% assign current_people = '' | split: '' %}
   {% for person in people %}
     {% unless person.departed %}
-      {% assign controllerName = "*" | split: '' | first | split: '' %}
-      {% assign current_people = current_people | concat: controllerName %}
+      {% assign counter = "*" | split: '' | first | split: '' %}
+      {% assign current_people = current_people | concat: counter %}
     {% endunless %}
   {% endfor %}
   {% assign current_count = current_people.size %}
@@ -54,7 +54,8 @@ $(document).ready(function(){
       <tr>
         <td colspan="1" align="left" valign="top">
           (<a href="mailto:{{ person.email }}">{{ person.email }}</a>
-          {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {%endif%})
+          {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {%endif%}
+          {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %})
         <td>
       <tr>
         <td>

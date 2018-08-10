@@ -7,7 +7,7 @@
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
-  CV:
+  CV: /cv
   ORCID: 0000-0002-9371-2431
   GScholar: https://scholar.google.com/citations?user=0j1TcuMAAAAJ&hl=en
   GitHub: https://github.com/finkelsteinlab
@@ -45,7 +45,7 @@
     - Kayaking on Town Lake to watch the fireworks on 4th of July
   quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
   quote_author: John von Neumann
-  CV: hawkjo.github.io/CV/
+  CV: https://hawkjo.github.io/CV/
   ORCID: 0000-0002-2943-9397
   GScholar: https://scholar.google.com/citations?user=jBffF0MAAAAJ&hl=en
   joined: 2015-05-01
@@ -227,7 +227,7 @@
   CV:
   ORCID:
   GScholar:
-  joined: 2015-12-01
+  joined: 2016-05-01
 
 - name: Kamyab Javanmardi
   position: rotation
