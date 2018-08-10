@@ -11,7 +11,7 @@ journal: "Langmuir"
 authors: "Jeffrey M. Schaub, Hongshan Zhang, Michael M. Soniat, Ilya J. Finkelstein"
 pdf: 0045-2018-Langmuir-Schaub et al.pdf
 supplement: 0045-2018-Langmuir-Schaub et al-supplement.pdf
-doi: 10.1101/376798
+doi: 10.1021/acs.langmuir.8b01812
 pmcid:
 pmid: 30044093
 category: paper
