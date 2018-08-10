@@ -35,15 +35,15 @@ $(document).ready(function(){
   {% else %}
     <div class="bigtitle">{{ position[1][1] }}</div>
     <div class="bigspacer"></div>
-    <table cellpadding="2" width="100%">
+    <table cellpadding="2" width="200%">
 
     {% for person in people %}
       {% if person.departed %}
         {% continue %}
       {% endif %}
       <tr>
-        <td rowspan="3" valign="top" width="100px">
-          <img young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}" width="100" height="100">
+        <td rowspan="3" valign="top" width="200px">
+          <img young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}" width="200" height="200">
         </td>
         <td valign="top">
           <h4>{{ person.name }}</h4>

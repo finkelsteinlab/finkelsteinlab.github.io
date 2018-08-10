@@ -9,6 +9,8 @@ navorder: 3
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <div class="bigspacer"></div>
 {% assign preprints = site.categories.papers | where_exp: "paper", "paper.doi contains '10.1101/'" %}
+{% assign paper_count = site.categories.papers.size | minus: preprints.size %}
+
 {% if preprints.size > 0 %}
   <div class="row">
     <div class="head">
@@ -16,6 +18,7 @@ navorder: 3
     </div>
     <div class="bigspacer"></div>
   </div>
+  {% assign paper_number_text = '' %}
   {% for paper in preprints %}
     {% assign doi_prefix = paper.doi | slice: 0, 8 %}
     {% if doi_prefix == '10.1101/' %}
@@ -24,8 +27,10 @@ navorder: 3
   {% endfor %}
 {% endif %}
 
+
 {% assign year = "9999" %}
 {% for paper in site.categories.papers %}
+  {% capture paper_number_text %}{{ paper_count }}. {% endcapture %}
   {% assign doi_prefix = paper.doi | slice: 0, 8 %}
   {% unless doi_prefix == '10.1101/' %}
     {% if paper.year < year %}
@@ -38,6 +43,7 @@ navorder: 3
         </div>
     {% endif %}
     {% include_relative loop.html %}
+    {% assign paper_count = paper_count | minus: 1 %}
   {% endunless %}
 {% endfor %}
 </div><div class="bigspacer"></div>
