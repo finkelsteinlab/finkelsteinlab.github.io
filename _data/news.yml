@@ -1,11 +1,15 @@
+- date: 2018-08-10
+  text: The website gets a major refresh as it moves from web2py (bleh!) to Jekyll+GitHub. Thanks to Jim and Nicole for their awesome help during this major undertaking.
+- date: 2018-03-12
+  text: IJF co-panels a discussion with Dan Gibson and Rachel Haurwitz on genome editing at [SXSW interactive](https://schedule.sxsw.com/2018/events/PP76751).
 - date: 2018-08-07
-  text: IJF presents a public lecture on the promise and peril of CRISPR gene editing at the [Austin Forum on Technology and Society](https://www.austinforum.org/). [Event details and video](https://www.austinforum.org/august2018.html)
+  text: IJF co-panels a public discussion with [Sahotra Sarkar](https://cns.utexas.edu/directory/item/7-integrative-biology/233-sarkar-sahotra?Itemid=349) on the promise and peril of CRISPR gene editing at the [Austin Forum on Technology and Society](https://www.austinforum.org/). [Event details and video](https://www.austinforum.org/august2018.html)
 - date: 2018-03-28
   text: Kaylee Dillard is awarded an F31 Ruth L. Kirschstein Predoctoral Individual National Research Service Award.
 - date: 2015-02-01
   text: Dr. Stephen Jones joins the laboratory after completing his PhD at Brown University in the laboratory of Richard Bennett.
-- date: 2018-08-18
-  text: The lab collaborates with Bassem Al-Sady’s group at UCSF to publish a paper on how heterochromatin spreads in [eLife](https://elifesciences.org/articles/32948).
+- date: 2018-07-18
+  text: The lab publishes an [eLife](https://elifesciences.org/articles/32948) paper on how heterochromatin spreads with Bassem Al-Sady’s group at UCSF.
 - date: 2018-06-20
   text: Congrats to John and Stephen on their new [indel-correcting DNA barcodes paper](http://www.pnas.org/content/early/2018/06/19/1802640115) in PNAS, done in collaboration with Bill Press of the Institute for Computational Engineering and Sciences at UT.
 - date: 2015-04-05

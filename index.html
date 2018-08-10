@@ -15,9 +15,10 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-	<div class="carousel-overlay logotitle logobox">
-		The Finkelstein Lab
-	</div>
+    <div class="smallhead">
+      <p>We develop <strong><a class="off" href="/research/#tools">new biophysical methods</a></strong> to understand how molecular machines edit and repair our genomes. Current lab interests are focused on <strong><a class="off" href="/research/#CRISPR">CRISPR-cas adaptive immunity</a></strong> and <strong><a class="off" href="/research/#DNA-repair">eukaryotic DNA repair.</a></strong></p>
+    </div>
+
 	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -32,32 +33,32 @@ categories:
 	  <!-- Carousel items -->
 	  <div class="carousel-inner">
 	    <div class="active item">
-	    	<img src="/assets/images/gallery/yoyo_curtains.jpg" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/yoyo_curtains.jpg" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-	    	<img src="/assets/images/gallery/fylm1.png" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/fylm1.png" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-	    	<img src="/assets/images/gallery/pombe_dsred.png" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/pombe_dsred.png" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-	    	<img src="/assets/images/gallery/seq_align.png" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/seq_align.png" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-	    	<img src="/assets/images/gallery/seq_cheulhee.png" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/seq_cheulhee.png" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-	    	<img src="/assets/images/gallery/fylm2.png" width='1200px' alt="">
+	    	<img src="/assets/images/gallery/fylm2.png" width='1200px' alt="TestTestTestTest">
             </div>
 	    <div class="inactive item">
-		<img src="/assets/images/gallery/cr_barriers.jpg" width='1200px' alt="">
+		<img src="/assets/images/gallery/cr_barriers.jpg" width='1200px' alt="TestTestTestTest">
 	    </div>
 	    <div class="inactive item">
-		<img src="/assets/images/gallery/msh23.png" width='1200px' alt="">
+		<img src="/assets/images/gallery/msh23.png" width='1200px' alt="TestTestTestTest">
 	    </div>
 	  </div>
 	</div>
-	</div>				
+	</div>
 </div>
 
 <div class="hugespacer"></div>
@@ -67,7 +68,7 @@ categories:
 		<div class="smallhead">
 			{{ homepage.content }}
 		</div>
-	</div>				
+	</div>
 </div>
 
 
@@ -81,15 +82,15 @@ categories:
 			{% assign events = site.data.news | sort: 'date' | reverse %}
                         {% for event in events limit:6 %}
 				<div class="note">
-				    {% assign event_date = event.date | date: "**%B %e, %Y**: " %} 
+				    {% assign event_date = event.date | date: "**%B %e, %Y**: " %}
                                     {{ event.text | prepend: event_date | markdownify }}
 				</div>
 				<div class="smallspacer"></div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 	<div class="col-md-6">
 		<div class="head">
@@ -97,7 +98,7 @@ categories:
 			</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">		
+		<div class="feedbox pad-left">
 			{% for paper in site.categories.papers limit:4 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
@@ -114,13 +115,12 @@ categories:
 					Published
 					{{ paper.date | date_to_string }}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 </div>
 
 <div class="bigspacer"></div>
-

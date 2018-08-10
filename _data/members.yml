@@ -8,9 +8,11 @@
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
   CV:
-  ORCID:
+  ORCID: 0000-0002-9371-2431
   GScholar: https://scholar.google.com/citations?user=0j1TcuMAAAAJ&hl=en
-  GitHub:
+  GitHub: https://github.com/finkelsteinlab
+  joined: 2012-09-01
+
 
 - name: Nicole Johnson
   position: managerscientist
@@ -47,6 +49,7 @@
   ORCID: 0000-0002-2943-9397
   GScholar: https://scholar.google.com/citations?user=jBffF0MAAAAJ&hl=en
   joined: 2015-05-01
+  GitHub: https://github.com/hawkjo
 
 - name: Steve Jones
   position:  postdoc
@@ -429,9 +432,3 @@
   joined: 2013-09-01
   departed: 2016-09-01
   whereabouts: Austin, TX
-
-- name:
-  position:
-  joined:
-  departed:
-  whereabouts:
