@@ -20,66 +20,67 @@ $(document).ready(function(){
 </script>
 
 <div class="bigspacer"></div>
-{% for position in site.data.jobtypes %}
-  {% assign people = site.data.members | where: "position", position[0] %}
-  {% assign current_people = '' | split: '' %}
-  {% for person in people %}
-    {% unless person.departed %}
-      {% assign counter = "*" | split: '' | first | split: '' %}
-      {% assign current_people = current_people | concat: counter %}
-    {% endunless %}
-  {% endfor %}
-  {% assign current_count = current_people.size %}
-  {% if current_count == 0 %}
-    {% continue %}
+{% for position in site.data.jobtypes %} 
+  {% assign people = site.data.members | where: "position", position[0] %} 
+  {% assign current_people = '' | split: '' %} 
+  {% for person in people %} 
+    {% unless person.departed %} 
+      {% assign counter = "*" | split: '' | first | split: '' %} 
+      {% assign current_people = current_people | concat: counter %} 
+    {% endunless %} 
+  {% endfor %} 
+  {% assign current_count = current_people.size %} 
+  {% if current_count == 0 %} 
+    {% continue %} 
   {% else %}
-    <div class="bigtitle">{{ position[1][1] }}</div>
+
+    <div class="bigtitle position-title">{{ position[1][1] }}</div>
     <div class="bigspacer"></div>
-    <table cellpadding="2" width="200%">
 
-    {% for person in people %}
-      {% if person.departed %}
-        {% continue %}
+    {% for person in people %} 
+      {% if person.departed %} 
+        {% continue %} 
       {% endif %}
-      <tr>
-        <td rowspan="3" valign="top" width="200px">
-          <img young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}" width="200" height="200">
-        </td>
-        <td valign="top">
-          <h4>{{ person.name }}</h4>
-        </td>
-          <td align="right">Since: <b>{{ person.joined | date: "%b %Y"}}</b></td>
-      </tr>
+      <div class="person">
 
-      <tr>
-        <td colspan="1" align="left" valign="top">
-          (<a href="mailto:{{ person.email }}">{{ person.email }}</a>
-          {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {%endif%}
-          {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %})
-        <td>
-      <tr>
-        <td>
-          <i>{{ person.quote }}</i> - {{ person.quote_author }}
-	</td>
-      </tr>
-      <tr>
-        <td></td>
-	<td colspan="2">
-          <b>Favorite Austin Activities:</b>
-          <ul>
-            {% for activity in person.favorite_activities %}
-              <li>{{ activity }}</li>
-            {% endfor %}
-          </ul>
-        </td>
-      </tr>
-	</tr>
+        <div class="person-image-container">
+          <img class="personimage" src="/assets/images/members/{{ person.image }}">
+        </div>
+
+        <div class="persondata">
+          
+          <div class="top-bar">
+            <div class="person-name">{{ person.name }}</div>
+            <div class="person-joined">Joined: {{ person.joined | date: "%B %Y" }}</div>
+          </div>
+         
+          <div class="bottom-bar">
+            <div class="contact-links">
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a> 
+              {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {% endif %}              {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %}
+              {% if person.GScholar %} | <a href="{{ person.GScholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}
+              {% if person.twitter %} | <a href="https://www.twitter.com/{{ person.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>{% endif %}
+              {% if person.GitHub %} | <a href="https://www.github.com/{{ person.GitHub }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a>{% endif %}
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+      <div style="float: clear"></div>
     {% endfor %}
-   </table>
   {% endif %}
 {% endfor %}
 
-<div class="bigtitle">Alumni</div>
+<div class="bigtitle" style="float: clear">Alumni</div>
 <div class="bigspacer"></div>
 
 <table>

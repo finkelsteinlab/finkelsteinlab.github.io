@@ -1,0 +1,52 @@
+.person {
+  padding-top: 25px;
+  padding-bottom: 250px;
+  clear: both;
+}
+
+.position-title {
+  clear: both;
+}
+
+.person-image-container {
+  width: 20%;
+  float: left;
+}
+
+.personimage {
+  width: 200px; 
+  height: 200px;
+}
+
+.persondata {
+  float: left;
+  width: 80%;
+}
+
+.top-bar {
+  height: 20%;
+}
+
+.bottom-bar {
+  height: 80%;
+  width: 100%;
+  float: left;
+}
+
+.person-name {
+  font-size: x-large;
+  font-weight: bold;
+  float: left;
+  width: 50%;
+}
+
+.person-joined {
+  text-align: right;
+  font-size: large;
+  float: left;
+  width: 50%;
+}
+
+.contact-links {
+  height: 20%;
+}
