@@ -256,11 +256,11 @@
   image: beaker_current.jpg
   young_image: beaker_young.jpg
   favorite_activities:
-    - Science
-    - Science
-    - Science
-  quote: Giaochao needs to select a quote.
-  quote_author: Jim
+    - 
+    -
+    - 
+  quote:
+  quote_author:
   CV:
   ORCID:
   GScholar:
