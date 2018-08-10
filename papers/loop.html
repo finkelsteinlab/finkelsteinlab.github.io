@@ -6,7 +6,12 @@
             <b>{{ paper_number_text }}<a href="{{ paper.url }}" class="off">{{ paper.title }}</a></b>
           </div>
               {% assign all = paper.authors %}
-
+              {% if paper.volume and paper.issue and paper.pages %}
+                {% capture journal_line %}<br>*{{ paper.journal }}*. {{ paper.volume }} ({{ paper.issue }}): {{ paper.pages }}{% endcapture %}
+              {% else %}
+                {% capture journal_line %}<br>*{{ paper.journal }}*.{% endcapture %}
+              {% endif %}
+              {% assign all = all | append: journal_line %}
               {% if paper.pdf %}
                 {% capture pdf %}<br>[<a href="/assets/pdfs/{{ paper.pdf }}">PDF</a>]{% endcapture %}
                 {% assign all = all | append: pdf %}
