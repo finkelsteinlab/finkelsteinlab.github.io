@@ -2,14 +2,14 @@
   position: pi
   email: ifinkelstein@cm.utexas.edu
   twitter: ilyafinkelstein
-  website: https://finkelsteinlab.org
+  website: http://finkelsteinlab.org
   image: ilya_old.jpg
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
   CV: /cv
   ORCID: 0000-0002-9371-2431
-  Gscholar: 0j1TcuMAAAAJ
+  GScholar: 0j1TcuMAAAAJ
   GitHub: finkelsteinlab
   joined: 2012-09-01
 
@@ -47,7 +47,7 @@
   quote_author: John von Neumann
   CV: https://hawkjo.github.io/CV/
   ORCID: 0000-0002-2943-9397
-  Gscholar: jBffF0MAAAAJ
+  GScholar: jBffF0MAAAAJ
   joined: 2015-05-01
   GitHub: hawkjo
 
@@ -211,7 +211,7 @@
   GitHub: jimrybarski
   CV:
   ORCID: 0000-0001-9960-1161
-  Gscholar: Vm_4NQQAAAAJ
+  GScholar: Vm_4NQQAAAAJ
   joined: 2014-05-14
 
 - name: Jeff Schaub

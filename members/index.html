@@ -44,7 +44,7 @@ $(document).ready(function(){
       <div class="person">
 
         <div class="person-image-container">
-          <img class="personimage" src="/assets/images/members/{{ person.image }}">
+          <img class="personimage" young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}">
         </div>
 
         <div class="persondata">
@@ -58,9 +58,19 @@ $(document).ready(function(){
             <div class="contact-links">
               <a href="mailto:{{ person.email }}">{{ person.email }}</a> 
               {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {% endif %}              {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %}
-              {% if person.GScholar %} | <a href="{{ person.GScholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}
+              {% if person.GScholar %} | <a href="https://scholar.google.com/citations?user={{ person.GScholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}
               {% if person.twitter %} | <a href="https://www.twitter.com/{{ person.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>{% endif %}
               {% if person.GitHub %} | <a href="https://www.github.com/{{ person.GitHub }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a>{% endif %}
+            </div>
+            <div class="quote">
+              "{{ person.quote }}" - <i>{{ person.quote_author }}</i>
+            </div>
+
+            <div class="favorite-activities">
+              <b>Favorite Austin Activities:</b>
+              {% for activity in person.favorite_activities %}
+                <ul style="margin-left: -15px; margin-bottom: 0px;">&bull; {{ activity }}</ul>
+              {% endfor %}
             </div>
 
           </div>
