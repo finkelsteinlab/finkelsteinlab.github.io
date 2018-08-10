@@ -41,7 +41,7 @@ Ph.D. Chemistry
 * McBain and Stauffer Graduate Fellowship, Stanford University (2003)  
 * Chevron Research Fellowship (2000) 						
 
-## Selected Publications (from [40+](\papers\))
+## Selected Publications (from [45+](\papers\))
 ZZZ
 
 ## Professional Activities  
