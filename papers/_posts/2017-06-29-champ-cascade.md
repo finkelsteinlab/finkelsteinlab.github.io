@@ -27,6 +27,8 @@ extra_text: '
 
   - [New technique for safer gene therapy (Phys.org)](https://phys.org/news/2017-06-technique-enables-safer-gene-editing-therapy.html)
 
+  - [Teaching DNA sequencers new tricks (Nature News)](https://www.nature.com/articles/d41586-018-05769-8)
+
 '
 category: paper
 tags: [Cascade, CHAMP, CRISPR]

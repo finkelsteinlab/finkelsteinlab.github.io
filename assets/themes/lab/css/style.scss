@@ -26,6 +26,15 @@ body > .container {
 	padding-bottom: 50px; /* to prevent navbar overlap */
 }
 
+:target:before {
+  // Anchor tags (like /research/#tools) by default will have the title of the paragraph
+  // hidden behind the navbar. We adjust all anchors to be 60 pixels higher than normal 
+  // so we can see the title
+  content:"";
+  display:block;
+  height:60px; /* fixed header height*/
+  margin:-60px 0 0; /* negative fixed header height */
+}
 
 h1, .h1 { font-size: floor($font-size-base * 1.75); } /* ~36px */
 h2, .h2 { font-size: floor($font-size-base * 1.5); } /* ~30px */

@@ -3,7 +3,7 @@ layout: paper
 title: "From cradle to grave: high-throughput studies of aging in model organisms."
 volume: 10
 issue: 7
-pages:1658-67
+pages: 1658-67
 year: "2014"
 shortref: "Spivey and Finkelstein Mol. Biosyst. (2014)"
 nickname: "cradle-to-grave"

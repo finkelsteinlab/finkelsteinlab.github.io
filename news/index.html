@@ -8,27 +8,35 @@ navorder: 6
 {% include JB/setup %}
 
 {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-{% assign current_month = 13 %} 
+{% assign current_year = 9999 %}
+
+{% capture current_unix_timestamp %}{{ 'now' | date: "%s" }}{% endcapture %}
 {% for event in sorted_news %}
-  {% assign event_month = event.date | date: "%m" %}
-  {% if event_month != current_month %}
-    {% assign current_month = event_month %}
+  {% assign event_year = event.date | date: "%Y" %}
+  {% assign event_timestamp = event.date | date: "%s" %}
+  {% unless event_timestamp <= current_unix_timestamp %}
+    {% continue %}
+  {% endunless %}
+ 
+  {% if event_year != current_year %}
+    {% assign current_year = event_year %}
     <div class="bigspacer"></div>
     <div class="row">
       <div class="col-md-3">
         <div class="head">
-          {{ event.date | date: "%B %Y" }}
+          {{ event.date | date: "%Y" }}
         </div>
       </div>
     </div>
     <div class="bigspacer"></div>
   {% endif %}
   <div class="row">
-    <div class="col-md-8">		
+    <div class="col-md-8">
       <div class="post">
-        {{ event.text | prepend: "&bull; " | markdownify }}
+        {% assign date_txt = event.date | date: "**%m-%d:&nbsp;&nbsp;**" %}
+        {{ event.text | prepend: date_txt |  markdownify }}
       </div>
-    </div>			
+    </div>
   </div>
 {% endfor %}
 <div class="bigspacer"></div>

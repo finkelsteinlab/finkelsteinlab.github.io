@@ -3,10 +3,10 @@ pi:
   - "Primus Inter Pares"
 managerscientist:
   - "Lab Manager / Research Scientist"
-  - "Lab Managers / Research Scientists"
+  - "Lab Manager / Research Scientist"
 manager:
   - "Lab Manager"
-  - "Lab Managers"
+  - "Lab Manager"
 postdoc:
   - "Postdoctoral Scientist"
   - "Postdoctoral Scientists"
@@ -21,7 +21,7 @@ undergrad:
   - "Undergraduates"
 assistant:
   - "Lab Assistant"
-  - "Lab Assistants"
+  - "Lab Assistant"
 rotation:
   - "Rotation Student"
   - "Rotation Students"
