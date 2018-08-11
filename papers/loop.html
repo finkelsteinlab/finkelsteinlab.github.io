@@ -6,10 +6,11 @@
             <b>{{ paper_number_text }}<a href="{{ paper.url }}" class="off">{{ paper.title }}</a></b>
           </div>
               {% assign all = paper.authors %}
+
               {% if paper.volume and paper.issue and paper.pages %}
-                {% capture journal_line %}<br>*{{ paper.journal }}*. {{ paper.volume }} ({{ paper.issue }}): {{ paper.pages }}{% endcapture %}
+                {% capture journal_line %}<br>*{{ paper.journal | remove:'.' }}*. {{ paper.volume }} ({{ paper.issue }}): {{ paper.pages }}{% endcapture %}
               {% else %}
-                {% capture journal_line %}<br>*{{ paper.journal }}*.{% endcapture %}
+                {% capture journal_line %}<br>*{{ paper.journal | remove:'.' }}*.{% endcapture %}
               {% endif %}
               {% assign all = all | append: journal_line %}
               {% if paper.pdf %}
