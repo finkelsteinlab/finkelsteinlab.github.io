@@ -12,6 +12,10 @@
   GScholar: 0j1TcuMAAAAJ
   GitHub: finkelsteinlab
   joined: 2012-09-01
+  favorite_activities:
+    - Thinking up awesome science projects.
+    - A [Taco Deli](https://www.tacodeli.com/location/spyglass/)-fueled hike through the [Greenbelt](https://en.wikipedia.org/wiki/Barton_Creek_Greenbelt).
+    - Enjoying a drink at [Cosmic Coffee](https://www.cosmiccoffeebeer.com/) with my family.
 
 
 - name: Nicole Johnson
@@ -255,12 +259,8 @@
   website:
   image: beaker_current.jpg
   young_image: beaker_young.jpg
-  favorite_activities:
-    - 
-    -
-    - 
-  quote:
-  quote_author:
+  quote: Meep
+  quote_author: Beaker from the Muppets
   CV:
   ORCID:
   GScholar:
