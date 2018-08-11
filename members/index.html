@@ -20,26 +20,26 @@ $(document).ready(function(){
 </script>
 
 <div class="bigspacer"></div>
-{% for position in site.data.jobtypes %} 
-  {% assign people = site.data.members | where: "position", position[0] %} 
-  {% assign current_people = '' | split: '' %} 
-  {% for person in people %} 
-    {% unless person.departed %} 
-      {% assign counter = "*" | split: '' | first | split: '' %} 
-      {% assign current_people = current_people | concat: counter %} 
-    {% endunless %} 
-  {% endfor %} 
-  {% assign current_count = current_people.size %} 
-  {% if current_count == 0 %} 
-    {% continue %} 
+{% for position in site.data.jobtypes %}
+  {% assign people = site.data.members | where: "position", position[0] %}
+  {% assign current_people = '' | split: '' %}
+  {% for person in people %}
+    {% unless person.departed %}
+      {% assign counter = "*" | split: '' | first | split: '' %}
+      {% assign current_people = current_people | concat: counter %}
+    {% endunless %}
+  {% endfor %}
+  {% assign current_count = current_people.size %}
+  {% if current_count == 0 %}
+    {% continue %}
   {% else %}
 
     <div class="bigtitle position-title">{{ position[1][1] }}</div>
     <div class="bigspacer"></div>
 
-    {% for person in people %} 
-      {% if person.departed %} 
-        {% continue %} 
+    {% for person in people %}
+      {% if person.departed %}
+        {% continue %}
       {% endif %}
       <div class="person">
 
@@ -48,15 +48,15 @@ $(document).ready(function(){
         </div>
 
         <div class="persondata">
-          
+
           <div class="top-bar">
             <div class="person-name">{{ person.name }}</div>
             <div class="person-joined">Joined: {{ person.joined | date: "%B %Y" }}</div>
           </div>
-         
+
           <div class="bottom-bar">
             <div class="contact-links">
-              <a href="mailto:{{ person.email }}">{{ person.email }}</a> 
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a>
               {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {% endif %}              {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %}
               {% if person.GScholar %} | <a href="https://scholar.google.com/citations?user={{ person.GScholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}
               {% if person.twitter %} | <a href="https://www.twitter.com/{{ person.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>{% endif %}
@@ -67,10 +67,12 @@ $(document).ready(function(){
             </div>
 
             <div class="favorite-activities">
-              <b>Favorite Austin Activities:</b>
-              {% for activity in person.favorite_activities %}
-                <ul style="margin-left: -15px; margin-bottom: 0px;">&bull; {{ activity }}</ul>
-              {% endfor %}
+              {% if person.favorite_activities %}
+                <br><b>Favorite Austin Activities:</b>
+                {% for activity in person.favorite_activities %}
+                  <ul style="margin-left: -15px; margin-bottom: 0px;">&bull; {{ activity | markdownify | remove: '<p>' | remove: '</p>' }}</ul>
+                {% endfor %}
+              {% endif %}
             </div>
 
           </div>
