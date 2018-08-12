@@ -22,6 +22,18 @@
   width: 200px;
 }
 
+.research-image-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  float: none;
+}
+
+.research-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .persondata {
   float: left;
   width: 80%;
@@ -62,4 +74,3 @@
 .favorite-activities {
   height: 60%;
 }
-
