@@ -23,6 +23,8 @@ extra_text: '
 
   * [How to make gene editing better (CNS)](https://cns.utexas.edu/news/how-to-make-the-gene-editing-tool-crispr-work-even-better)
 
+  * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/)
+
 '
 category: paper
 tags: [AsCpf1, CRISPR-Cas system, RNA-guided nuclease, Rate-limiting binding]
