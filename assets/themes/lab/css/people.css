@@ -10,12 +10,28 @@
 
 .person-image-container {
   width: 20%;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 10px;
   float: left;
 }
 
 .personimage {
-  width: 200px; 
-  height: 200px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.research-image-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  float: none;
+}
+
+.research-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .persondata {
@@ -58,4 +74,3 @@
 .favorite-activities {
   height: 60%;
 }
-
