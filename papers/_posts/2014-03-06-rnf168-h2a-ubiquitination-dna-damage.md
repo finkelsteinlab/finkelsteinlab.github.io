@@ -9,7 +9,7 @@ shortref: "Leung _et al._ PLoS Genetics (2014)"
 nickname: "DNA-damage-signaling-H2A"
 journal: "PLoS Genet."
 authors: "Justin W. Leung, Poonam Agarwal, Marella D. Canny, Fade Gong, Aaron D. Robison, Ilya J. Finkelstein, Daniel Durocher, Kyle M. Miller "
-pdf: 0023-2014-PLoS-Leung et al.pdf
+pdf: 0023-2014-PLoS-Leung et al.PDF
 supplement:
 doi: 10.1371/journal.pgen.1004178
 pmcid: PMC3945288
