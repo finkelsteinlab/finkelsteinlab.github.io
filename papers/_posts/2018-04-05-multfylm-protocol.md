@@ -9,7 +9,7 @@ shortref: "Jones _et al._ Bio Prot. (2018)"
 nickname: "multFYLM-protocol"
 journal: "Bio-protocol"
 authors: "Stephen K Jones Jr, Eric C Spivey, James R Rybarski, and Ilya J Finkelstein"
-pdf: 0039-2018-BioProtocol-Jones et al
+pdf: 0039-2018-BioProtocol-Jones et al.pdf
 supplement:
 doi: 10.21769/BioProtoc.2783
 pmcid: PMC5951408  

@@ -9,7 +9,7 @@ shortref: "Merchant _et al._ JACS (2003)"
 nickname: "myoglobin-co-substrate-dynamics"
 journal: "J. Am. Chem. Soc."
 authors: "Kusai A. Merchant, W. G. Noid, Ryo Akiyama, Ilya J. Finkelstein, Alexei Goun, Brian L. McClain, Roger F. Loring, and M. D. Fayer"
-pdf: 0001-2003-JACS-Merchant et al
+pdf: 0001-2003-JACS-Merchant et al.pdf
 supplement: 0001-2003-JACS-Merchant et al-supplement
 doi: 10.1021/ja035654x
 pmcid: PMC2435512

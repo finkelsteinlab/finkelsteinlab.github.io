@@ -9,7 +9,7 @@ shortref: "Finkelstein and Greene Mol. Cell (2009)"
 nickname: "XPD-helicase"
 journal: "Mol Cell"
 authors: "Ilya J. Finkelstein and Eric C. Greene"
-pdf: 0015-2009-MolCell-Finkelstein et al
+pdf: 0015-2009-MolCell-Finkelstein et al.pdf
 supplement:
 doi: 10.1016/j.molcel.2009.08.012
 pmcid: PMC3033736

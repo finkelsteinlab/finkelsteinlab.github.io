@@ -9,7 +9,7 @@ shortref: "Finkelstein and Greene-Methods Mol Biol. (2011)"
 nickname: "curtains-single-molecule-studies"
 journal: "Methods Mol Biol."
 authors: "Ilya J. Finkelstein and Eric C. Greene"
-pdf: 0017-2011-MMB-Finkelstein et al
+pdf: 0017-2011-MMB-Finkelstein et al.pdf
 supplement:
 doi: 10.1007/978-1-61779-129-1_26
 pmcid: PMC3319767

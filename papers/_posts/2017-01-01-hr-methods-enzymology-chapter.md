@@ -9,7 +9,7 @@ shortref: "Soniat _et al._ Methods Enzymol. (2017)"
 nickname: "HR-curtains-methods"
 journal: "Methods in Enzymololgy"
 authors: "Michael M. Soniat, Logan R. Myler, Jeffrey  M. Schaub, Yoori Kim, Ignacio F. Gallardo, Ilya J. Finkelstein"
-pdf: 0034-2017-MiE-Soniat et al
+pdf: 0034-2017-MiE-Soniat et al.pdf
 supplement:
 doi: 10.1016/bs.mie.2017.03.011
 pmcid: PMC5564670
