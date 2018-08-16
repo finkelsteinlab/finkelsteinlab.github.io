@@ -44,7 +44,7 @@ Ph.D. Chemistry
 * McBain and Stauffer Graduate Fellowship, Stanford University (2003)  
 * Chevron Research Fellowship (2000) 						
 
-## Five Significant Publications (from [45+](\papers\))
+## Five Significant Publications (from [45+](papers/))
 * [**Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips.**](/papers/paper/champ-cascade)  
 Jung C.,* Hawkins JA.,* Jones SK.,* Xiao Y., Rybarski JR., Dillard KE., Hussmann J., Saifuddin FA., Savran CA., Ellington AD., Ke A., Press WH., Finkelstein IJ.   
 (2017). _Cell_ **170**, 35–47.e13. (* equal contribution)
