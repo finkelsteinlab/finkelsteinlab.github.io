@@ -10,7 +10,7 @@ nickname: "neuroglobin-dynamics-2d-ir"
 journal: "Proc Natl Acad Sci USA"
 authors: "Haruto Ishikawa, Ilya J. Finkelstein, Seongheun Kim, Kyungwon Kwak, Jean K. Chung, Keisuke Wakasugi, Aaron M. Massari, and Michael D. Fayer"
 pdf: 0012-2007-PNAS-Ishikawa et al.pdf
-supplement: 0012-2007-PNAS-Ishikawa et al-supplement.pdf
+supplement: 
 doi: 10.1073/pnas.0707718104
 pmcid: PMC2042171
 pmid: 17916624
