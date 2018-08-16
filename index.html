@@ -130,7 +130,7 @@ categories:
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
 			{% assign events = site.data.news | sort: 'date' | reverse %}
-                        {% for event in events limit:6 %}
+                        {% for event in events limit:5 %}
 				<div class="note">
 				    {% assign event_date = event.date | date: "**%B %e, %Y**: " %}
                                     {{ event.text | prepend: event_date | markdownify }}
@@ -151,7 +151,7 @@ categories:
 		<div class="feedbox pad-left">
 			{% for paper in site.categories.papers limit:4 %}
 				<div class="note-title">
-					<i class="fa fa-file-text-o fa-fw"></i>
+          <i class="fa fa-dna" aria-hidden="true"></i>
 					<a class="off" href="{{ paper.url }}">
 					{{ paper.title }}
 					</a>

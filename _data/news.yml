@@ -1,3 +1,5 @@
+- date: 2018-07-13
+  text: Fatema leaves the lab to start her graduate studies in the UCSF tetrad program.
 - date: 2018-08-10
   text: The website gets a major refresh as it moves from web2py (bleh!) to Jekyll+GitHub. Thanks to Jim and Nicole for their awesome help during this major undertaking.
 - date: 2018-03-12
@@ -44,8 +46,6 @@
   text: Yoori Kim joins the lab!
 - date: 2018-02-12
   text: Yoori Kim presents a poster at the [3rd DNA replication/repair Structures and Cancer conference](https://www.fusion-conferences.com/conference71.php) in Cancun MX.
-- date: 2015-05-01
-  text: Kaylee Dillard joins the lab!
 - date: 2017-10-22
   text: Kaylee Dillard presents a poster at the Cell Symposia CRISPR From Biology to Technology and Novel Therapeutics.
 - date: 2017-10-23
@@ -74,8 +74,6 @@
   text: Congrats to Yoori and Armando on their [new paper in Scientific Reports](https://www.nature.com/articles/s41598-017-01984-x) describing how to make better single-molecule DNA substrates.
 - date: 2015-02-02
   text: Logan Myler will be presenting a short talk on our work with EXO1 at the Mammalian DNA Repair Gordon Research Conference. Congratulations!
-- date: 2015-02-01
-  text: Dr. Stephen Jones joins the lab as a postdoctoral scientist. Stephen's graduate work at Brown University focused on understanding the mating rituals of pathogenic yeasts.
 - date: 2014-05-14
   text: Jim Rybarski joins the lab to work on the mechanisms of aging in fission yeast.
 - date: 2014-04-01

@@ -2,16 +2,20 @@
   position: pi
   email: ifinkelstein@cm.utexas.edu
   twitter: ilyafinkelstein
-  website: https://finkelsteinlab.org
+  website: http://finkelsteinlab.org
   image: ilya_old.jpg
   young_image: ilya_child.jpg
   quote: "Science is facts; just as houses are made of stone, so is science made of facts; but a pile of stones is not a house, and a collection of facts is not necessarily science."
   quote_author: Jules Henri Poincaré (1854-1912)
   CV: /cv
   ORCID: 0000-0002-9371-2431
-  GScholar: https://scholar.google.com/citations?user=0j1TcuMAAAAJ&hl=en
-  GitHub: https://github.com/finkelsteinlab
+  GScholar: 0j1TcuMAAAAJ
+  GitHub: finkelsteinlab
   joined: 2012-09-01
+  favorite_activities:
+    - Thinking up awesome science projects.
+    - A [Taco Deli](https://www.tacodeli.com/location/spyglass/)-fueled hike through the [Greenbelt](https://en.wikipedia.org/wiki/Barton_Creek_Greenbelt).
+    - Enjoying a drink at [Cosmic Coffee](https://www.cosmiccoffeebeer.com/) with my family.
 
 
 - name: Nicole Johnson
@@ -47,9 +51,9 @@
   quote_author: John von Neumann
   CV: https://hawkjo.github.io/CV/
   ORCID: 0000-0002-2943-9397
-  GScholar: https://scholar.google.com/citations?user=jBffF0MAAAAJ&hl=en
+  GScholar: jBffF0MAAAAJ
   joined: 2015-05-01
-  GitHub: https://github.com/hawkjo
+  GitHub: hawkjo
 
 - name: Steve Jones
   position:  postdoc
@@ -116,7 +120,7 @@
     - Enjoying live music in Live Music Capital of the World
     - Exploring Texas local food and drinks
     - Relaxing outdoors at Zilker Park
-  quote: “What we know is a drop; what we don’t know is an ocean.”
+  quote: What we know is a drop; what we don’t know is an ocean.
   quote_author: Isaac Newton
   CV:
   ORCID:
@@ -174,8 +178,8 @@
   quote_author: Erich Pinchas Fromm
   CV:
   ORCID:
-  GScholar: https://scholar.google.com/citations?hl=en&user=xCq2U8sAAAAJ&view_op=list_works&sortby=pubdate
   joined: 2013-09-12
+  GScholar: xCq2U8sAAAAJ
 
 - name: Hung-Che (Jami) Kuo
   position: gradstudent
@@ -188,7 +192,7 @@
     - Playing squash.
     - Trying new beers from local breweries.
     - Trying to make a perfect medium rare steak.
-  quote: “The important thing is not to stop questioning; never lose a holy curiosity.”
+  quote: The important thing is not to stop questioning; never lose a holy curiosity.
   quote_author: Albert Einstein
   CV:
   ORCID:
@@ -208,9 +212,10 @@
     - Naming my hypothetical cats
   quote: "...men like you built the hydrogen bomb. Men like you thought it up. You think you’re so creative. You don’t know what it’s like to really create something - to create a life..."
   quote_author: Sarah Connor
+  GitHub: jimrybarski
   CV:
   ORCID: 0000-0001-9960-1161
-  GScholar: https://scholar.google.com/citations?user=Vm_4NQQAAAAJ
+  GScholar: Vm_4NQQAAAAJ
   joined: 2014-05-14
 
 - name: Jeff Schaub
@@ -240,7 +245,7 @@
     - Saturday morning soccer at Zilker
     - Nighttime lounging at Spider House café
     - Sport climbing on that slippery limestone
-  quote: “Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.”
+  quote: Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.
   quote_author: Willy Wonka
   CV:
   ORCID:
@@ -254,12 +259,8 @@
   website:
   image: beaker_current.jpg
   young_image: beaker_young.jpg
-  favorite_activities:
-    -
-    -
-    -
-  quote:
-  quote_author:
+  quote: Meep
+  quote_author: Beaker from the Muppets
   CV:
   ORCID:
   GScholar:
