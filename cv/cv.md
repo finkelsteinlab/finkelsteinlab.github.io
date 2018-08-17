@@ -1,6 +1,8 @@
 # Ilya J. Finkelstein (abridged CV)
 
-![ijf](/assets/images/members/ilya-tie.jpg "IJF"){:align="right" height="500px"}
+<div class="research-image-container">
+  <img src="/assets/images/members/ilya-tie.jpg" align="right" class="research-image" height="200px" alt="IJF">
+</div>
 [MBB 3.422](https://maps.utexas.edu/buildings/utm/mbb)  
 [Dept. of Molecular Biosciences](https://molecularbiosci.utexas.edu/)  
 [University of Texas at Austin](https://www.utexas.edu/)  
@@ -44,33 +46,33 @@ Ph.D. Chemistry
 * McBain and Stauffer Graduate Fellowship, Stanford University (2003)  
 * Chevron Research Fellowship (2000) 						
 
-## Five Significant Publications (from [45+](papers/))
+## Five Significant Publications (from [45+](/papers/))
 * [**Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips.**](/papers/paper/champ-cascade)  
 Jung C.,* Hawkins JA.,* Jones SK.,* Xiao Y., Rybarski JR., Dillard KE., Hussmann J., Saifuddin FA., Savran CA., Ellington AD., Ke A., Press WH., Finkelstein IJ.   
 (2017). _Cell_ **170**, 35–47.e13. (* equal contribution)
 
 We developed a chip-hybridized affinity mapping platform (CHAMP) that recycles used NGS chips for massively-parallel biophysical studies of protein-nucleic acid interactions. Using CHAMP, we uncovered novel proofreading activities of a Type I-E CRISPR system on both synthetic and genomic DNA. We anticipate that this method will be broadly applicable for biophysical studies of protein-nucleic acid interactions.
 
-* [**An aging-independent replicative lifespan in a symmetrically dividing eukaryote.**](http://127.0.0.1:4000/papers/paper/yeast-aging-multylm)  
+* [**An aging-independent replicative lifespan in a symmetrically dividing eukaryote.**](/papers/paper/yeast-aging-multylm)  
 Spivey EC.,* Jones SK.,* Rybarski JR., Saifuddin FA., Finkelstein IJ.   
 (2017).  _eLife_ **6**, e20340. (* equal contribution)
 
 This manuscript identifies fission yeast as the first eukaryotic cell that appears not to age. This remarkable observation was made possible by a new microfluidic device that we developed for monitoring thousands of individual fission yeast cells over their entire replicative lifespans. We show for the first time that these cells die via aging-independent mechanisms (e.g., genome instability). Remarkably, the replicative lifespan can be extended via drugs and genetic perturbations, suggesting that longevity can be extended without necessarily slowing aging. This work establishes fission yeast as a powerful model organism for cellular aging.
 
 
-* [**Single-Molecule Imaging Reveals How Mre11-Rad50-Nbs1 Initiates DNA Break Repair.**](http://127.0.0.1:4000/papers/paper/mrn-dna-curtains)  
+* [**Single-Molecule Imaging Reveals How Mre11-Rad50-Nbs1 Initiates DNA Break Repair.**](/papers/paper/mrn-dna-curtains)  
 Myler LR.,* Gallardo IF.,* Soniat MM., Deshpande RA., Gonzalez XB., Kim Y., Paull TT., Finkelstein IJ. (2017).   
 _Molecular Cell_ **67**, 891–898.e4.  
 
 Mammalian DNA breaks are identified by the Mre11/Rad50/Nbs1 (MRN) and Ku70/Ku80 (Ku) complexes. Ku directs repair towards error-prone non-homologous end joining, whereas MRN promotes error-free homologous recombination. Here, we describe how MRN: (1) rapidly locates free DNA ends, (2) removes Ku from these ends, and (3) initiates homologous recombination. This work provides a molecular view light on how human cells initiate DNA break repair.
 
-* [**Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins.**](http://127.0.0.1:4000/papers/paper/exo1-ssb-curtains)  
+* [**Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins.**](/papers/paper/exo1-ssb-curtains)  
 Logan R. Myler*, Ignacio F. Gallardo*, Yi Zhou, Fade Gong, Soo-Hyun Yang, Marc S. Wold, Kyle M. Miller, Tanya T. Paull, Ilya J. Finkelstein. (2016).  
 _Proc Natl Acad Sci USA._ **113**, E1170-9.
 
 Exonuclease 1 (Exo1) is a conserved eukaryotic nuclease that participates in DNA break repair, telomere maintenance, and mismatch repair. Here we examined Exo1 activity on DNA and in the presence of single-stranded DNA binding proteins using high-throughput single-molecule fluorescence imaging. We report that both human and yeast Exo1 are processive nucleases but are rapidly turned over by replication protein A (RPA). In the presence of RPA, Exo1 retains limited DNA-processing activity, albeit via a distributive binding mechanism. RPA-depleted human cells show elevated Exo1 loading but reduced overall DNA resection, underscoring the many roles of RPA in regulating DNA resection in vivo.
 
-* [**Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions.**](http://127.0.0.1:4000/papers/paper/dna-bypass-roadblocks)  
+* [**Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions.**](/papers/paper/dna-bypass-roadblocks)  
 Brown MW., Kim Y., Williams GM., Huck JD., Surtees JA., Finkelstein IJ. (2016).   
 _Nature Communications_ **7**, 10607.
 
