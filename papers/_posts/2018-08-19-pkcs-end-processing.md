@@ -11,7 +11,7 @@ journal: "BioRxiv"
 authors: "Rajashree Deshpande, Logan Myler, Michael Soniat, Linda Lee, Susan Lees-Miller, Ilya Finkelstein, Tanya T. Paull"
 pdf: 0047-2018-Biorxiv-Deshpande et al.pdf
 supplement: 0047-2018-Biorxiv-Deshpande et al-supplement.pdf
-doi: doi.org/10.1101/395731
+doi: 10.1101/395731
 pmcid:
 pmid:
 extra_text: ''
