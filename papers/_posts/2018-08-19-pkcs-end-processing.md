@@ -5,7 +5,7 @@ volume:
 issue:
 pages:
 year: "2018"
-shortref: "Deshpande _et al._ BioRxiv (2018)"
+shortref: "Deshpande _et al.,_ BioRxiv (2018)"
 nickname: "PKcs-end-processing"
 journal: "BioRxiv"
 authors: "Rajashree Deshpande, Logan Myler, Michael Soniat, Linda Lee, Susan Lees-Miller, Ilya Finkelstein, Tanya T. Paull"
