@@ -164,7 +164,7 @@
   joined: 2015-01-01
 
 - name: Yoori Kim
-  position: gradstudent
+  position: postdoc
   email: danielyoori@gmail.com
   twitter:
   website:
@@ -251,6 +251,8 @@
   ORCID:
   GScholar:
   joined: 2018-06-01
+  departed: 2018-09-01
+  whereabouts: Still rotating 
 
 - name: Giaochau Nguyen
   position: undergrad
