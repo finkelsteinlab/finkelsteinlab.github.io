@@ -31,4 +31,4 @@ affinity but are impaired for diffusion on both naked and nucleosome-coated DNA.
 hydrolysis and nuclease activities that are encoded in the structured N- and C-terminal domains of the complex. This combination
 of phenotypes underlies the catastrophic MMR defect seen with the mutant MutLa in vivo. More broadly, this work highlights an
 unanticipated multi-functional role for IDRs in regulating both facilitated diffusion on chromatin and nucleolytic processing of a
-DNA substrate.
+DNA substrate. 
