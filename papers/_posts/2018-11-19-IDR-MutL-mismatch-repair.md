@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Intrinsically disordered regions regulate both catalytic and noncatalytic
-activities of the MutL\alpha mismatch repair complex."
+activities of the MutL&#945; mismatch repair complex."
 volume:
 issue:
 pages:
@@ -25,7 +25,7 @@ tags: [Intrinsically disordered regions, chromatin, facilitated diffusion, misma
 
 Intrinsically disordered regions (IDRs) are present in at least 30% of the eukaryotic proteome and are enriched in chromatin-associated
 proteins. Using a combination of genetics, biochemistry, and single-molecule biophysics, we characterize how IDRs
-regulate the functions of the yeast MutL\alpha (Mlh1-Pms1) mismatch repair (MMR) complex. Shortening or scrambling the IDRs in
+regulate the functions of the yeast MutL&#945; (Mlh1-Pms1) mismatch repair (MMR) complex. Shortening or scrambling the IDRs in
 both subunits ablates MMR in vivo. Mlh1-Pms1 complexes with shorter IDRs that disrupt MMR retain wild-type DNA binding
 affinity but are impaired for diffusion on both naked and nucleosome-coated DNA. Moreover, the IDRs also regulate the ATP
 hydrolysis and nuclease activities that are encoded in the structured N- and C-terminal domains of the complex. This combination
