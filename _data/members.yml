@@ -252,21 +252,43 @@
   GScholar:
   joined: 2018-06-01
   departed: 2018-09-01
-  whereabouts: Still rotating 
+  whereabouts: Still rotating
+
+- name: Jake Kula
+  position: undergrad
+  email: jacobkula@utexas.edu
+  twitter:
+  website:
+  image: jacob_kula_current.jpg
+  young_image: jacob_kula_young.jpg
+  favorite_activities:
+    - Enjoying local bands and concerts
+    - Reading in a hammock in one of Austin's parks
+    - Playing pickup basketball
+  quote: Everyone you will ever meet knows something that you don’t. … Respect their knowledge and learn from them. It will bring out the best in all of you.
+  quote_author: Bill Nye
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2018-12-01
 
 - name: Giaochau Nguyen
   position: undergrad
   email: giaochau.n@utexas.edu
   twitter:
   website:
-  image: beaker_current.jpg
-  young_image: beaker_young.jpg
-  quote: Meep
-  quote_author: Beaker from the Muppets
+  image: giaochau_nguyen_current.jpg
+  young_image: giaochau_nguyen_young.jpg
+  favorite_activities:
+    - Reading
+    - Going to the Trail of Lights
+    - Trying new foods
+  quote: Research is what I’m doing when I don’t know what I’m doing.
+  quote_author: Wernher von Braun
   CV:
   ORCID:
   GScholar:
-  joined: 2018-06-01
+  joined: 2016-06-01
 
 - name: Kameron Azarm
   position: undergrad
