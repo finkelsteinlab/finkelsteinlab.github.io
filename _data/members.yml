@@ -290,23 +290,23 @@
   GScholar:
   joined: 2016-06-01
 
-  - name: Cynthia Terrace
-    position: undergrad
-    email: citerrace@gmail.com
-    twitter:
-    website:
-    image: cynthia_terrace_current.jpg
-    young_image: cynthia_terrace_young.jpg
-    favorite_activities:
-      - Trying new varieties of coffee from Texas Coffee Traders
-      - Going to Voodoo Doughnut with friends
-      - Avoiding getting hit by cars while running around the city
-    quote: We especially need imagination in science. It is not all mathematics, nor all logic, but it is somewhat beauty and poetry.
-    quote_author: Maria Mitchell
-    CV:
-    ORCID:
-    GScholar:
-    joined: 2018-12-01
+- name: Cynthia Terrace
+  position: undergrad
+  email: citerrace@gmail.com
+  twitter:
+  website:
+  image: cynthia_terrace_current.jpg
+  young_image: cynthia_terrace_young.jpg
+  favorite_activities:
+    - Trying new varieties of coffee from Texas Coffee Traders
+    - Going to Voodoo Doughnut with friends
+    - Avoiding getting hit by cars while running around the city
+  quote: We especially need imagination in science. It is not all mathematics, nor all logic, but it is somewhat beauty and poetry.
+  quote_author: Maria Mitchell
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2018-12-01
 
 - name: Kameron Azarm
   position: undergrad
