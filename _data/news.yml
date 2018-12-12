@@ -103,8 +103,10 @@
 - date: 2018-11-12
   text: Kuang Hu joins the lab as a rotation student.
 - date: 2018-12-03
-  text: Congratulations to Mike Soniat on his recent publication in PNAS!
+  text: Congratulations to Mike Soniat on his [recent publication](https://www.pnas.org/content/115/50/E11614.short?rss=1) in PNAS!
 - date: 2018-11-05
   text: Yoori is awarded a PhD! Congrats!
 - date: 2018-10-18
-  text: Congrats to Kaylee, Max, Nicole, Yoori, and Logan on their CRISPR adaptive immunity paper in Cell.
+  text: Congrats to Kaylee, Max, Nicole, Yoori, and Logan on their [CRISPR adaptive immunity paper](https://www.sciencedirect.com/science/article/pii/S0092867418312510) in Cell.
+- date: 2018-12-12
+  text: Congratulations to Yoori for her [new paper in NAR](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1244/5239032) describing the role of intrinsically disordered regions in the MutL&#945; mismatch repair complex.
