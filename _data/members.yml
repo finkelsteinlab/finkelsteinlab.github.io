@@ -235,7 +235,7 @@
   joined: 2016-05-01
 
 - name: Kamyab Javanmardi
-  position: rotation
+  position: gradstudent
   email: kjavanmardi@utexas.edu
   twitter:
   website:
@@ -251,8 +251,8 @@
   ORCID:
   GScholar:
   joined: 2018-06-01
-  departed: 2018-09-01
-  whereabouts: Still rotating
+  departed:
+  whereabouts: 
 
 - name: Jake Kula
   position: undergrad
