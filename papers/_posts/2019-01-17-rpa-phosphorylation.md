@@ -11,7 +11,7 @@ journal: "BioRxiv"
 authors: "Michael M. Soniat, Logan R. Myler, Tanya T. Paull, Ilya J. Finkelstein "
 pdf: 0052-2019-BioRxiv-Soniat et al.pdf
 supplement:
-doi: https://doi.org/10.1101/517771
+doi: 10.1101/517771
 pmcid:
 pmid:
 extra_text: ''

@@ -11,7 +11,7 @@ journal: "Methods in Enzymology"
 authors: "Kaylee E. Dillard, Jeffrey M. Schaub, Maxwell W. Brown, Fatema A. Saifuddin, Yibei Xiao, Erik Hernandez, Samuel D. Dahlhauser, Eric v. Anslyn, Ailong Ke, Ilya J. Finkelstein"
 pdf: 0051-2018-MiE-Dillard et al.pdf
 supplement:
-doi: https://doi.org/10.1016/bs.mie.2018.10.031
+doi: 10.1016/bs.mie.2018.10.031
 pmcid:
 pmid:
 extra_text: ''
