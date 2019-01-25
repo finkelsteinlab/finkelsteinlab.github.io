@@ -183,25 +183,25 @@
   departed: 2018-12-21
   whereabouts: Postdoctoral fellow in the Yu lab at UT Southwestern
 
-  - name: Kamyab Javanmardi
-    position: gradstudent
-    email: kjavanmardi@utexas.edu
-    twitter:
-    website:
-    image: kamyab_javanmardi_current.jpg
-    young_image: kamyab_javanmardi_young.jpg
-    favorite_activities:
-      - Saturday morning soccer at Zilker
-      - Nighttime lounging at Spider House café
-      - Sport climbing on that slippery limestone
-    quote: Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.
-    quote_author: Willy Wonka
-    CV:
-    ORCID:
-    GScholar:
-    joined: 2018-06-01
-    departed:
-    whereabouts:
+- name: Kamyab Javanmardi
+  position: gradstudent
+  email: kjavanmardi@utexas.edu
+  twitter:
+  website:
+  image: kamyab_javanmardi_current.jpg
+  young_image: kamyab_javanmardi_young.jpg
+  favorite_activities:
+    - Saturday morning soccer at Zilker
+    - Nighttime lounging at Spider House cafe
+    - Sport climbing on that slippery limestone
+  quote: Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.
+  quote_author: Willy Wonka
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2018-06-01
+  departed:
+  whereabouts:
 
 - name: Hung-Che (Jami) Kuo
   position: gradstudent
