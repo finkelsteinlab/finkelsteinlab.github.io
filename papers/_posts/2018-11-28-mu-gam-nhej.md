@@ -11,8 +11,8 @@ nickname: "mu gam nhej"
 journal: "Proc Natl Acad Sci USA"
 authors: "Sudipta Bhattacharyyaa, Michael M. Soniat, David Walker, Sooin Janga, Ilya J. Finkelstein&dagger;,
 and Rasika M. Harshey&dagger; (&dagger; co-corresponding)"
-pdf: 0048-2018-PNAS-Bhattacharyya et al.pdf
-supplement: 0048-2018-PNAS-Bhattacharyya et al-supplement.pdf
+pdf: 0047-2018-PNAS-Bhattacharyya et al.pdf
+supplement: 0047-2018-PNAS-Bhattacharyya et al-supplement.pdf
 doi: 10.1073/pnas.1816606115
 pmcid:
 pmid: 30487222

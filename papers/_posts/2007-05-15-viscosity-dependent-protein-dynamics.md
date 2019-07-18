@@ -9,8 +9,8 @@ shortref: "Finkelstein _et al._ Biophys J (2007)"
 nickname: "viscosity-dependent-protein-dynamics"
 journal: "Biophys J"
 authors: "Ilya J. Finkelstein, Aaron M. Massari, M.D. Fayer"
-pdf: 0010-2007-BiophysJ-Finkelstein et al.pdf
-supplement: 0010-2007-BiophysJ-Finkelstein et al-supplement.pdf
+pdf: 0011-2007-BiophysJ-Finkelstein et al.pdf
+supplement: 0011-2007-BiophysJ-Finkelstein et al-supplement.pdf
 doi: 10.1529/biophysj.106.093708
 pmcid:
 pmid:

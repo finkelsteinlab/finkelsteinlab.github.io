@@ -9,7 +9,7 @@ shortref: "McClain _et al._ JACS (2004)"
 nickname: "hemoglobin-dynamics-viscosity"
 journal: "J. Am. Chem. Soc."
 authors: "Brian L. McClain, Ilya J. Finkelstein, and M. D. Fayer"
-pdf: 0003-2004-JACS-McClain et al.pdf
+pdf: 0004-2004-JACS-McClain et al.pdf
 supplement:
 doi: 10.1021/ja0454790
 pmcid: PMC2486496

@@ -9,8 +9,8 @@ shortref: "Spivey _et al._ AC (2014)"
 nickname: "microdissector-cellular-aging"
 journal: "Anal. Chem."
 authors: "Eric C. Spivey, Blerta Xhemalce, Jason B. Shear, and Ilya J. Finkelstein"
-pdf: 0027-2014-AC-Spivey et al.pdf
-supplement: 0027-2014-AC-Spivey et al-supplement.pdf
+pdf: 0026-2014-AC-Spivey et al.pdf
+supplement: 0026-2014-AC-Spivey et al-supplement.pdf
 doi: 10.1021/ac500893a
 pmcid: PMC4636036
 pmid: 24992972

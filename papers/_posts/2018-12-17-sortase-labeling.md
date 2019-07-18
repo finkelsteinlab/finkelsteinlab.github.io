@@ -1,19 +1,19 @@
 ---
 layout: paper
 title: "Sortase-mediated fluorescent labeling of CRISPR complexes"
-volume:
+volume: 616
 issue:
-pages:
-year: "2018"
-shortref: "Dillard et al. Methods Enzymol. (2018) "
+pages: 43-59
+year: "2019"
+shortref: "Dillard et al. Methods Enzymol. (2019) "
 nickname: "sortase methods"
 journal: "Methods in Enzymology"
 authors: "Kaylee E. Dillard, Jeffrey M. Schaub, Maxwell W. Brown, Fatema A. Saifuddin, Yibei Xiao, Erik Hernandez, Samuel D. Dahlhauser, Eric v. Anslyn, Ailong Ke, Ilya J. Finkelstein"
-pdf: 0051-2018-MiE-Dillard et al.pdf
+pdf: 0049-2018-MiE-Dillard et al.pdf
 supplement:
 doi: 10.1016/bs.mie.2018.10.031
-pmcid:
-pmid:
+pmcid: PMC6380366 
+pmid:  30691654
 extra_text: ''
 category: paper
 tags: [CRISPR, sortase, DNA curtains, cascade, cas3, cas1–cas2, protein labeling, fluorescence]

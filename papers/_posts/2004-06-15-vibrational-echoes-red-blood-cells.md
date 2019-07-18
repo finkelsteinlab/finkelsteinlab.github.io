@@ -10,7 +10,7 @@ shortref: "McClain _et al._ CPLett (2004)"
 nickname: "vibrational-echoes-red-blood-cells"
 journal: "Chem. Phys. Lett."
 authors: "Brian L. McClain, Ilya J. Finkelstein, M.D. Fayer"
-pdf: 0004-2004-CPLett-McClain et al.pdf
+pdf: 0002-2004-CPLett-McClain et al.pdf
 supplement:
 doi: 10.1016/j.cplett.2004.05.080
 pmcid:

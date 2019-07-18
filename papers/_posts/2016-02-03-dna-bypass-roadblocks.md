@@ -9,8 +9,8 @@ shortref: "Brown _et al._ Nat. Commun. (2016)"
 nickname: "roadblock-bypass-repair"
 journal: "Nature Communications"
 authors: "Maxwell W. Brown, Yoori Kim, Gregory M. Williams, John D. Huck, Jennifer A. Surtees & Ilya J. Finkelstein"
-pdf: 0030-2016-NComms-Brown et al.pdf
-supplement: 0030-2016-NComms-Brown et al-supplement.pdf
+pdf: 0029-2016-NComms-Brown et al.pdf
+supplement: 0029-2016-NComms-Brown et al-supplement.pdf
 doi: 10.1038/ncomms10607
 pmcid: PMC4742970
 pmid: 26837705

@@ -9,7 +9,7 @@ shortref: "Spivey and Finkelstein Mol. Biosyst. (2014)"
 nickname: "cradle-to-grave"
 journal: "Mol. Biosyst."
 authors: "Eric C. Spivey and Ilya J. Finkelstein"
-pdf: 0026-2014-MolBioSyst-Spivey et al.pdf
+pdf: 0025-2014-MolBioSyst-Spivey et al.pdf
 supplement:
 doi: 10.1039/c3mb70604d
 pmcid:

@@ -9,8 +9,8 @@ shortref: "Myler and Gallardo _et al._ PNAS (2016)"
 nickname: "Exo1-regulation-SSB-curtains"
 journal: "Proc Natl Acad Sci USA"
 authors: "Logan R. Myler, Ignacio F. Gallardo, Yi Zhou, Fade Gong, Soo-Hyun Yang, Marc S. Wold, Kyle M. Miller, Tanya T. Paull, and Ilya J. Finkelstein"
-pdf: 0029-2016-PNAS-Myler et al.pdf  
-supplement: 0029-2016-PNAS-Myler et al-supplement.pdf
+pdf: 0030-2016-PNAS-Myler et al.pdf  
+supplement: 0030-2016-PNAS-Myler et al-supplement.pdf
 doi: 10.1073/pnas.1516674113
 pmcid: PMC4780606
 pmid: 26884156

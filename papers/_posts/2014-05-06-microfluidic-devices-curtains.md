@@ -9,8 +9,8 @@ shortref: "Robison and Finkelstein AC (2014)"
 nickname: "prototyping-device-curtains"
 journal: "Anal. Chem."
 authors: "Aaron D. Robison and Ilya J. Finkelstein"
-pdf: 0025-2014-AC-Robison et al.pdf
-supplement: 0025-2014-AC-Robison et al-supplement.pdf
+pdf: 0023-2014-AC-Robison et al.pdf
+supplement: 0023-2014-AC-Robison et al-supplement.pdf
 doi: 10.1021/ac500267v
 pmcid:
 pmid: 24734940

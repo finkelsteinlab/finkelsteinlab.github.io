@@ -9,7 +9,7 @@ shortref: "Brown _et al._ Methods Enzymology (2017)"
 nickname: "mmr-methods-enzymology-chapter"
 journal: "Methods in Enzymology"
 authors: "Maxwell W. Brown, Armando de la Torre, and Ilya J. Finkelstein "
-pdf: 0033-2016-MiE-Brown et al.pdf
+pdf: 0032-2016-MiE-Brown et al.pdf
 supplement:
 doi: 10.1016/bs.mie.2016.08.006
 pmcid:

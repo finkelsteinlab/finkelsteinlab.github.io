@@ -313,7 +313,41 @@
   ORCID:
   GScholar:
   joined: 2018-12-01
-
+  
+- name: Henry Trentham
+  position: undergrad
+  email: htrentham@gmail.com
+  twitter:
+  website:
+  image: beaker_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - 
+    - 
+    - 
+  quote: 
+  quote_author: 
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2019-07-05
+  
+- name: Kuang Hu
+  position: gradstudent
+  email: kh36969@utexas.edu
+  twitter:
+  website:
+  image: beaker_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Playing video games
+  quote: To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.
+  quote_author: Albert Einstein
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2019-05-19
+  
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01

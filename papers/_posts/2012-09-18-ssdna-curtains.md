@@ -9,7 +9,7 @@ shortref: "Gibb _et al._ AC (2012)"
 nickname: "ssDNA-curtains"
 journal: "Anal. Chem."
 authors: "Bryan Gibb, Tim D. Silverstein, Ilya J. Finkelstein, and Eric C. Greene"
-pdf: 0018-2012-AC-Gibb et al.pdf
+pdf: 0019-2012-AC-Gibb et al.pdf
 supplement:
 doi: 10.1021/ac302117z
 pmcid: PMC3475199

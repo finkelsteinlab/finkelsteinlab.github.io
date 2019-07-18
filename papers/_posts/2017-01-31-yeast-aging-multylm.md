@@ -9,8 +9,8 @@ shortref: "Spivey and Jones _et al._ eLife (2017)"
 nickname: "aging-yeast-multfylm"
 journal: "eLife"
 authors: "Eric C. Spivey, Stephen K. Jones, James R. Rybarski, Fatema A. Saifuddin, and Ilya J. Finkelstein"
-pdf: 0035-2017-eLife-Spivey et al.pdf
-supplement: 0035-2017-eLife-Spivey et al-supplement.pdf
+pdf: 0034-2017-eLife-Spivey et al.pdf
+supplement: 0034-2017-eLife-Spivey et al-supplement.pdf
 doi: 10.7554/eLife.20340
 pmcid: PMC5332158
 pmid: 28139976
