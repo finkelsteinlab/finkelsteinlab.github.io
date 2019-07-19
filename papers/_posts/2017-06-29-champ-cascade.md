@@ -9,8 +9,8 @@ shortref: "Jung, Hawkins and Jones et al. Cell (2017)"
 nickname: ssDNA-curtains-method
 journal: "Cell"
 authors: "Cheulhee Jung&#42;, John A. Hawkins&#42;, Stephen K. Jones, Jr.&#42;, Yibei Xiao, James R. Rybarski, Kaylee E. Dillard, Jeffrey Hussmann, Fatema A. Saifuddin, Cagri A. Savran, Andrew D. Ellington, Ailong Ke, William H. Press, Ilya J. Finkelstein (&#42; co-first authors)"
-pdf: 0037-2017-Cell-Jung et al.pdf
-supplement: 0037-2017-Cell-Jung et al-supplement.pdf
+pdf: 0036-2017-Cell-Jung et al.pdf
+supplement: 0036-2017-Cell-Jung et al-supplement.pdf
 doi: 10.1016/j.cell.2017.05.044
 pmcid: PMC5552236
 pmid: 28666121

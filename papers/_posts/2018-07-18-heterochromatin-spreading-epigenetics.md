@@ -9,8 +9,8 @@ shortref: "Greenstein _et al._ eLife (2018)"
 nickname: "heterochromatin-spreading-epigenetics"
 journal: "eLife"
 authors: "R A Greenstein, Stephen K Jones, Eric C Spivey, James R Rybarski, Ilya J Finkelstein, Bassem Al-Sady"
-pdf: 0044-2018-eLife-Greenstein et al.pdf
-supplement: 0044-2018-eLife-Greenstein et al-supplement.pdf
+pdf: 0043-2018-eLife-Greenstein et al.pdf
+supplement: 0043-2018-eLife-Greenstein et al-supplement.pdf
 doi: 10.7554/eLife.32948
 pmcid: PMC6070336
 pmid: 30020075

@@ -9,7 +9,7 @@ shortref: "Finkelstein _et al._ J Chem Phys. (2004)"
 nickname: "vibrational-echoes-heme-co"
 journal: "J. Chem. Phys."
 authors: "Ilya J. Finkelstein, Brian L. McClain, and M. D. Fayer"
-pdf: 0002-2004-JCP-Finkelstein et al.pdf
+pdf: 0003-2004-JCP-Finkelstein et al.pdf
 supplement:
 doi: 10.1063/1.1758940
 pmcid: PMC2501118

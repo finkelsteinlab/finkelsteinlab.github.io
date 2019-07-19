@@ -9,8 +9,8 @@ shortref: "Kim _et al._ Sci Rep. (2017)"
 nickname: "lambda-modification"
 journal: "Sci Rep."
 authors: "Yoori Kim, Armando de la Torre, Andrew A. Leal & Ilya J. Finkelstein"
-pdf: 0036-2017-SciRep-Kim et al.pdf
-supplement: 0036-2017-SciRep-Kim et al-supplement.pdf
+pdf: 0035-2017-SciRep-Kim et al.pdf
+supplement: 0035-2017-SciRep-Kim et al-supplement.pdf
 doi: 10.1038/s41598-017-01984-x
 pmcid: PMC5437064
 pmid: 28522818

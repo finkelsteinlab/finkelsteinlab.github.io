@@ -9,7 +9,7 @@ shortref: "Myler and Finkelstein-PBMB (2017)"
 nickname: "euk-resectosomes-single-molecule-review"
 journal: "Progress in Biophysics and Molecular Biology"
 authors: "Logan R. Myler and Ilya J. Finkelstein"
-pdf: 0032-2016-PBioMolBio-Myler et al.pdf
+pdf: 0037-2016-PBioMolBio-Myler et al.pdf
 supplement:
 doi: 10.1016/j.pbiomolbio.2016.08.001
 pmcid: PMC5290259

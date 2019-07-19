@@ -9,7 +9,7 @@ shortref: "Finkelstein and Greene-Annu Rev Biophys (2013)"
 nickname: "Molecular-traffic-DNA"
 journal: "Annu Rev Biophys"
 authors: "Ilya J. Finkelstein and Eric C. Greene"
-pdf: 0022-2013-AnnuRevBiophys-Finkelstein et al.pdf
+pdf: 0021-2013-AnnuRevBiophys-Finkelstein et al.pdf
 supplement:
 doi: 10.1146/annurev-biophys-083012-130304
 pmcid: PMC3651777

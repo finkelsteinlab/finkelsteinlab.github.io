@@ -10,8 +10,8 @@ shortref: "Kim and Furman et al. NAR (2018)"
 nickname: "mutl intrinsically disordered regions"
 journal: "Nucleic Acids Research"
 authors: "Yoori Kim&#42;, Christopher M. Furman&#42;, Carol M. Manhart, Eric Alani&dagger;, and Ilya J. Finkelstein&dagger; (&#42; co-first authors) (&dagger; co-corresponding) "
-pdf: 0049-2018-NAR-Kim et al.pdf
-supplement: 0049-2018-NAR-Kim et al-supplement.pdf
+pdf: 0048-2018-NAR-Kim et al.pdf
+supplement: 0048-2018-NAR-Kim et al-supplement.pdf
 doi: 10.1093/nar/gky1244
 pmcid:
 pmid: 30541127

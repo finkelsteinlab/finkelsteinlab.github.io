@@ -9,7 +9,7 @@ shortref: "Finkelstein _et al._ PCCP (2007)"
 nickname: "protein-dynamics-ultrafast-2d-ir"
 journal: "Phys. Chem. Chem. Phys."
 authors: "Ilya J. Finkelstein,  Junrong Zheng,  Haruto Ishikawa,  Seongheun Kim,  Kyungwon Kwaka  and  Michael D. Fayer"
-pdf: 0011-2007-PCCP-Finkelstein et al.pdf
+pdf: 0010-2007-PCCP-Finkelstein et al.pdf
 supplement:
 doi: 10.1039/b618158a
 pmcid:

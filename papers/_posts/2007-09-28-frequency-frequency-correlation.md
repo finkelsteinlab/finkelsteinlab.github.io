@@ -9,7 +9,7 @@ shortref: "Kwak _et al._ JCP (2007)"
 nickname: "frequency-frequency-correlation-vibrational-echo"
 journal: "J. Chem. Phys."
 authors: "Kyungwon Kwak, Sungnam Park, Ilya J. Finkelstein, and M. D. Fayer"
-pdf: 0013-2007-JCP-Kwak et al.pdf
+pdf: 0012-2007-JCP-Kwak et al.pdf
 supplement:
 doi: 10.1063/1.2772269
 pmcid:

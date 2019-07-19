@@ -9,8 +9,8 @@ shortref: "Strohkendl _et al._ Mol. Cell (2018)"
 nickname: "cas12a-kinetics"
 journal: "Mol. Cell"
 authors: "Isabel Strohkendl, Fatema A. Saifuddin, James R. Rybarski, Ilya J. Finkelstein, Rick Russell"
-pdf: 0043-2018-MolCell-Strohkendl et al.pdf
-supplement: 0043-2018-MolCell-Strohkendl et al-supplement.pdf
+pdf: 0044-2018-MolCell-Strohkendl et al.pdf
+supplement: 0044-2018-MolCell-Strohkendl et al-supplement.pdf
 doi: 10.1016/j.molcel.2018.06.043
 pmcid:
 pmid: 30078724

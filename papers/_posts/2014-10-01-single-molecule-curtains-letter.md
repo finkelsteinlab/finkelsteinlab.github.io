@@ -9,7 +9,7 @@ shortref: "Robison and Finkelstein FEBS Lett. (2014)"
 nickname: "Protein-DNA-curtains-letter"
 journal: "FEBS Lett."
 authors: "Aaron D. Robison and Ilya J. Finkelstein"
-pdf: 0024-2014-FEBSLetters-Robison et al.pdf
+pdf: 0027-2014-FEBSLetters-Robison et al.pdf
 supplement:
 doi: 10.1016/j.febslet.2014.05.021
 pmcid: PMC4163502

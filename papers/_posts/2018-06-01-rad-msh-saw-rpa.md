@@ -9,8 +9,8 @@ shortref: "Eichmiller _et al._ NAR (2018)"
 nickname: "coordination-3prime-tail-removal"
 journal: "Nucleic Acids Research"
 authors: "Robin Eichmiller, Melisa Medina-Rivera, Rachel DeSanto, Eugen Minca, Christopher Kim, Cory Holland, Ja-Hwan Seol, Megan Schmit, Diane Oramus, Jessica Smith, Ignacio F Gallardo, Ilya J Finkelstein, Sang Eun Lee,  Jennifer A Surtees"
-pdf: 0040-2018-NAR-Eichmiller et al.pdf
-supplement: 0040-2018-NAR-Eichmiller et al-supplement.pdf
+pdf: 0041-2018-NAR-Eichmiller et al.pdf
+supplement: 0041-2018-NAR-Eichmiller et al-supplement.pdf
 doi: 10.1093/nar/gky254
 pmcid: PMC6007489
 pmid: 29660012

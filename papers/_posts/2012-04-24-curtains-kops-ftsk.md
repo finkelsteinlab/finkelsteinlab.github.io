@@ -9,8 +9,8 @@ shortref: "Lee and Finkelstein _et al._ PNAS (2012)"
 nickname: "curtains-KOPS-FtsK"
 journal: "Proc Natl Acad Sci USA"
 authors: "Ja Yil Lee&#42;, Ilya J. Finkelstein&#42;, Estelle Crozat, David J. Sherratt, and Eric C. Greene (&#42; co-first authors)"
-pdf: 0019-2012-PNAS-Lee et al.pdf
-supplement: 0019-2012-PNAS-Lee et al-supplement.pdf
+pdf: 0018-2012-PNAS-Lee et al.pdf
+supplement: 0018-2012-PNAS-Lee et al-supplement.pdf
 doi: 10.1073/pnas.1201613109
 pmcid: PMC3340036  
 pmid: 22493241
