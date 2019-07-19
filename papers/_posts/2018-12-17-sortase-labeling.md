@@ -5,7 +5,7 @@ volume: 616
 issue:
 pages: 43-59
 year: "2019"
-shortref: "Dillard et al. Methods Enzymol. (2019) "
+shortref: "Dillard_et al._Methods Enzymol. (2019) "
 nickname: "sortase methods"
 journal: "Methods in Enzymology"
 authors: "Kaylee E. Dillard, Jeffrey M. Schaub, Maxwell W. Brown, Fatema A. Saifuddin, Yibei Xiao, Erik Hernandez, Samuel D. Dahlhauser, Eric v. Anslyn, Ailong Ke, Ilya J. Finkelstein"

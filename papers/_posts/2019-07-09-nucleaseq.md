@@ -5,10 +5,10 @@ volume:
 issue:
 pages:
 year: "2019"
-shortref: "Jones et al.,_ BioRxiv (2019)"
+shortref: "Jones_et al._ BioRxiv (2019)"
 nickname: "NucleaSeq"
 journal: "BioRxiv"
-authors: "Stephen K. Jones Jr., John A. Hawkins, Nicole V. Johnson, Cheulhee Jung, Kuang Hu, James R. Rybarski, Janice S. Chen, Jennifer A. Doudna, William H. Press, Ilya J. Finkelstein"
+authors: "Stephen K. Jones Jr., John A. Hawkins, Nicole V. Johnson, Cheulhee Jung, Kuang Hu, James R. Rybarski, Janice S. Chen, Jennifer A. Doudna, William H. Press & Ilya J. Finkelstein"
 pdf: 0053-2019-BioRxiv-Jones et al.pdf
 supplement: 0053-2019-BioRxiv-Jones et al-supplement.pdf
 doi: 10.1101/696393
