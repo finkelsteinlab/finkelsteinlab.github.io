@@ -17,7 +17,6 @@
     - A [Taco Deli](https://www.tacodeli.com/location/spyglass/)-fueled hike through the [Greenbelt](https://en.wikipedia.org/wiki/Barton_Creek_Greenbelt).
     - Enjoying a drink at [Cosmic Coffee](https://www.cosmiccoffeebeer.com/) with my family.
 
-
 - name: Nicole Johnson
   position: managerscientist
   email: nvirginia.johnson@gmail.com
@@ -190,7 +189,7 @@
 - name: Kamyab Javanmardi
   position: gradstudent
   email: kjavanmardi@utexas.edu
-  twitter:
+  twitter: kamyab_j
   website:
   image: kamyab_javanmardi_current.jpg
   young_image: kamyab_javanmardi_young.jpg
@@ -315,7 +314,7 @@
   joined: 2018-12-01
   
 - name: Henry Trentham
-  position: undergrad
+  position: assistant
   email: htrentham@gmail.com
   twitter:
   website:
@@ -337,7 +336,7 @@
   email: kh36969@utexas.edu
   twitter:
   website:
-  image: beaker_current.jpg
+  image: kuang_hu_current.jpg
   young_image: beaker_young.jpg
   favorite_activities:
     - Playing video games
@@ -347,6 +346,44 @@
   ORCID:
   GScholar:
   joined: 2019-05-19
+  
+- name: Yash Shukla
+  position: rotation
+  email: yash0311@utexas.edu
+  twitter:
+  website:
+  image: yash_shukla_current.jpg
+  young_image: yash_shukla_young.jpg
+  favorite_activities:
+    - Performing at open mics
+    - Checking out museums
+    - Meeting new people
+  quote: I was born not knowing and have had only a little time to change that here and there.
+  quote_author: Richard Feynman
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2019-09-03
+  
+- name: Mason Schechter
+  position: rotation
+  email: masonschechter@gmail.com
+  twitter:
+  website: www.gitlab.com/__mason__
+  image: mason_schechter_current.jpg
+  young_image: mason_schechter_young.jpg
+  favorite_activities:
+    - cooking
+    - hiking
+    - video gaming
+  quote: There is an art to flying, or rather a knack. The knack lies in learning how to throw yourself at the ground and miss.
+  quote_author: Douglas Adams
+  CV:
+  ORCID:
+  GScholar:
+  GitHub:
+  joined: 2019-09-03
   
 - name: Kameron Azarm
   position: undergrad
@@ -472,7 +509,7 @@
   position: postdoc
   joined: 2013-09-01
   departed: 2016-11-01
-  whereabouts: Research Assistant Proffesor at Vanderbilt University
+  whereabouts: Research Assistant Professor at Vanderbilt University
 
 - name: Isabel Strohkendl
   position: rotation
