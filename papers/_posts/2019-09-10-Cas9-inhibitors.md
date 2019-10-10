@@ -12,8 +12,8 @@ authors: "Kevin J Forsberg, Ishan V Bhatt, Danica T. Schmidtke, Kamyab Javanmard
 pdf: 0054-2019-eLife-Forsberg et al.pdf
 supplement: 0054-2019-eLife-Forsberg et al-supplement.pdf
 doi: 10.7554/eLife.46540
-pmcid:
-pmid:
+pmcid: PMC6739867 
+pmid: 31502535
 extra_text: ''
 category: paper
 tags:
