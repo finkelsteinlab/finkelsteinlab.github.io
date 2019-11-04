@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks."
+title: "Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks"
 volume: 10
 issue: 1
 pages: 2954

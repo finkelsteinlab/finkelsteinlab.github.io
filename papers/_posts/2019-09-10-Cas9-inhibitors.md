@@ -8,7 +8,7 @@ year: "2019"
 shortref: "Forsberg _et al._ eLife (2019)"
 nickname: "Cas9 inhibitors"
 journal: "eLife"
-authors: "Kevin J Forsberg, Ishan V Bhatt, Danica T. Schmidtke, Kamyab Javanmardi, Kaylee E Dillard, Barry L Stoddard, Ilya J Finkelstein, Brett K Kaiser, Harmit S Malik"
+authors: "Kevin J Forsberg, Ishan V Bhatt, Danica T. Schmidtke, Kamyab Javanmardi, Kaylee E Dillard, Barry L Stoddard, Ilya J Finkelstein, Brett K Kaiser & Harmit S Malik"
 pdf: 0054-2019-eLife-Forsberg et al.pdf
 supplement: 0054-2019-eLife-Forsberg et al-supplement.pdf
 doi: 10.7554/eLife.46540
@@ -16,7 +16,7 @@ pmcid: PMC6739867
 pmid: 31502535
 extra_text: ''
 category: paper
-tags:
+tags: [CRISPR-Cas; E. coli; S. pyogenes; anti-CRISPR; bacterial defense systems; functional metagenomics; human; human microbiome; infectious disease; microbiology; phage]
 ---
 {% include JB/setup %}
 
