@@ -10,7 +10,7 @@ nickname: "phosphorylated RPA"
 journal: "Molecular Cell"
 authors: "Michael M. Soniat, Logan R. Myler, Tanya T. Paull & Ilya J. Finkelstein "
 pdf: 0053-2019-MolCell-Soniat et al.pdf
-supplement: 0053-2019-MolCell-Soniat et al-supplement
+supplement: 0053-2019-MolCell-Soniat et al-supplement.pdf
 doi: 10.1016/j.molcel.2019.05.005
 pmcid: PMC6625828
 pmid: 31153714 
