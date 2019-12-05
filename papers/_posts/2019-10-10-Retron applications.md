@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Retrons and their applications in genome engineering"
-volume: 
-issue:
-pages:
+volume: 47
+issue: 21
+pages: 11007-11019
 year: "2019"
 shortref: "Simon et al. NAR (2019)"
 nickname: "Retrons applications"
@@ -12,7 +12,7 @@ authors: "Anna J. Simon, Andrew D. Ellington & Ilya J. Finkelstein"
 pdf: 0055-2019-NAR-Simon et al.pdf
 supplement: 0055-2019-NAR-Simon et al-supplement.pdf
 doi: 10.1093/nar/gkz865
-pmcid:
+pmcid: PMC6868368
 pmid:  31598685
 extra_text: ''
 category: paper

@@ -11,8 +11,8 @@ journal: "Cell"
 authors: "Anna L Mallam, Wisath Sae-Lee, Jeffrey M Schaub, Fan Tu, Anna Battenhouse, Yu Jin Jang, Jonghwan Kim, John B. Wallingford, Ilya J Finkelstein, Edward M Marcotte & Kevin Drew"
 pdf: 0056-2019-Cell-Mallam et al.pdf
 supplement: 0056-2019-Cell-Mallam et al-supplement.pdf 
-doi: 
-pmcid:
+doi: 10.1016/j.celrep.2019.09.060
+pmcid: PMC6873818 
 pmid: 31665645
 extra_text: ''
 category: paper
