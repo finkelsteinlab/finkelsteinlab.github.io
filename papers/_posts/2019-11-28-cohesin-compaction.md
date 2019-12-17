@@ -5,7 +5,7 @@ volume:
 issue:
 pages: eaaz4475
 year: "2019"
-shortref: "Kim_et al._Science (2019) "
+shortref: "Kim _et al._ Science (2019) "
 nickname: "cohesin compaction"
 journal: "Science"
 authors: "Yoori Kim&#42;, Zhubing Shi&#42;, Hongshan Zhang, Ilya J. Finkelstein&dagger; & Hongtao Yu&dagger; (&#42; co-first authors) (&dagger; co-corresponding)"
