@@ -7,7 +7,7 @@ pages: 1351-1368
 year: "2019"
 shortref: "Mallam et al. Cell (2019)"
 nickname: "discovery of human RNPs"
-journal: "Cell"
+journal: "Cell Reports"
 authors: "Anna L Mallam, Wisath Sae-Lee, Jeffrey M Schaub, Fan Tu, Anna Battenhouse, Yu Jin Jang, Jonghwan Kim, John B. Wallingford, Ilya J Finkelstein, Edward M Marcotte & Kevin Drew"
 pdf: 0056-2019-Cell-Mallam et al.pdf
 supplement: 0056-2019-Cell-Mallam et al-supplement.pdf 
