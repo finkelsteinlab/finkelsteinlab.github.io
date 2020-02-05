@@ -54,7 +54,9 @@
   ORCID: 0000-0002-2943-9397
   GScholar: jBffF0MAAAAJ
   joined: 2015-05-01
+  departed: 2020-01-10
   GitHub: hawkjo
+  whereabouts: Postdoctoral research fellow at EMBL, Heidelberg University, and the German Cancer Center 
 
 - name: Steve Jones
   position:  postdoc
@@ -388,6 +390,48 @@
   GitHub:
   joined: 2019-09-03
   departed: 2019-11-11
+  whereabouts: UT Austin
+  
+- name: Po-Chin (Brandon) Chiou
+  position: rotation
+  email: brandonchiou@utexas.edu
+  twitter:
+  website:
+  image: brandon_chiou_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Watching F1
+    - Eating watermelon all year long
+    - Having fun at home
+  quote: When something is important enough, you do it even if the odds are not in your favor. 
+  quote_author: Elon Musk
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-02-03
+  departed: 
+  whereabouts: UT Austin
+  
+- name: Chia-Wei (Alvin) Chou
+  position: rotation
+  email: alvinchou@utexas.edu
+  twitter:
+  website:
+  image: alvin_chou_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Sunday morning in the Gregory gymnasium
+    - Biking around Austin
+    - Brisket at any BBQ
+  quote: There is only one corner of the universe you can be sure of improving and that's your own self. 
+  quote_author: Aldous Huxley
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-02-03
+  departed: 
   whereabouts: UT Austin
   
 - name: Kameron Azarm
