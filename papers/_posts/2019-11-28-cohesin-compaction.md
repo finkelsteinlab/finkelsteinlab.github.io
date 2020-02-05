@@ -10,7 +10,7 @@ nickname: "cohesin compaction"
 journal: "Science"
 authors: "Yoori Kim&#42;, Zhubing Shi&#42;, Hongshan Zhang, Ilya J. Finkelstein&dagger; & Hongtao Yu&dagger; (&#42; co-first authors) (&dagger; co-corresponding)"
 pdf: 0057-2019-Science-Kim et al.pdf
-supplement:
+supplement: 0057-2019-Science-Kim et al-supplement.pdf
 doi: 10.1126/science.aaz4475
 pmcid:
 pmid: 31780627 
