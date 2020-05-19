@@ -410,11 +410,11 @@
   GScholar:
   linkedin: 
   joined: 2020-02-03
-  departed: 
+  departed: 2020-04-13
   whereabouts: UT Austin
   
 - name: Chia-Wei (Alvin) Chou
-  position: rotation
+  position: gradstudent
   email: alvinchou@utexas.edu
   twitter:
   website:
@@ -432,8 +432,28 @@
   linkedin: 
   joined: 2020-02-03
   departed: 
-  whereabouts: UT Austin
+  whereabouts: 
   
+- name: Parastoo Maleki 
+  position: postdoc
+  email: pmaleki@utexas.edu
+  twitter:
+  website:
+  image: parastoo_maleki_current.jpg
+  young_image: parastoo_maleki_young.jpg
+  favorite_activities:
+  quote: I haven't failed. I've just found 10,000 ways that won't work
+  quote_author: Thomas Edison
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: parastoo-maleki
+  joined: 2020-03-05
+  departed: 
+  whereabouts: 
+  
+
+
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01
