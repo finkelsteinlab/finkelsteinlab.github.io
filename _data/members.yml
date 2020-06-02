@@ -199,11 +199,11 @@
     - Saturday morning soccer at Zilker
     - Nighttime lounging at Spider House cafe
     - Sport climbing on that slippery limestone
-  quote: Invention is 93% perspiration 6% inspiration 3% perspiration and 2% butter scotch ripple.
+  quote: Invention, my dear friends, is 93% perspiration, 6% electricity, 4% evaporation, and 2% butter scotch ripple.
   quote_author: Willy Wonka
   CV:
   ORCID:
-  GScholar:
+  GScholar: EW4PM5YAAAAJ&hl=en&authuser=1
   joined: 2018-06-01
   departed:
   whereabouts:
@@ -452,7 +452,27 @@
   departed: 
   whereabouts: 
   
-
+- name: Alexis Hill
+  position: research_scientist
+  email: alexis.hill@utexas.edu
+  twitter:
+  website:
+  image: alexis_hill_current.jpg
+  young_image: alexis_hill_young.jpg
+  favorite_activities:
+    - Eating tacos
+    - Trying not to kill my succulents
+    - Discovering new craft cocktail bars
+  quote: I was a victim of a series of accidents, as are we all. 
+  quote_author: Kurt Vonnegut, The Sirens of Titan
+  CV:
+  ORCID:
+  GScholar:
+  GitHub: alexismhill3
+  linkedin: alexis-hill-a4a4ab122
+  joined: 2019-09-10
+  departed: 
+  whereabouts: 
 
 - name: Kameron Azarm
   position: undergrad
