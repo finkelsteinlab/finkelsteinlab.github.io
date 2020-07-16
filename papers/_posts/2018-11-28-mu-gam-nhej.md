@@ -1,20 +1,19 @@
 ---
 layout: paper
-title: "Phage Mu Gam protein promotes NHEJ in concert with
-Escherichia coli ligase"
-volume:
-issue:
-pages:
+title: "Phage Mu Gam protein promotes NHEJ in concert with Escherichia coli ligase"
+volume: 115
+issue: 50
+pages: E11614-E11622
 year: "2018"
 shortref: "Bhattacharyya et al. PNAS (2018)"
 nickname: "mu gam nhej"
 journal: "Proc Natl Acad Sci USA"
-authors: "Sudipta Bhattacharyyaa, Michael M. Soniat, David Walker, Sooin Janga, Ilya J. Finkelstein&dagger;,
-and Rasika M. Harshey&dagger; (&dagger; co-corresponding)"
+authors: "Sudipta Bhattacharyyaa, Michael M. Soniat, David Walker, Sooin Jang, Ilya J. Finkelstein&dagger;,
+& Rasika M. Harshey&dagger; (&dagger; co-corresponding)"
 pdf: 0047-2018-PNAS-Bhattacharyya et al.pdf
 supplement: 0047-2018-PNAS-Bhattacharyya et al-supplement.pdf
 doi: 10.1073/pnas.1816606115
-pmcid:
+pmcid: PMC6294893
 pmid: 30487222
 extra_text: ''
 category: paper
