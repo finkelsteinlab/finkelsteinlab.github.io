@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: ""
-volume:
+volume: 
 issue:
 pages:
 year: ""
@@ -9,11 +9,11 @@ shortref: ""
 nickname: ""
 journal: ""
 authors: ""
-pdf:
-supplement:
-doi:
+pdf: 
+supplement: 
+doi: 
 pmcid:
-pmid:
+pmid: 
 extra_text: ''
 category: paper
 tags:

@@ -6,7 +6,7 @@ issue:
 pages:
 year: "2020"
 shortref: "Eslami-Mossallam_et al._BioRxiv (2020)"
-nickname: "SpCas9 model"
+nickname: "SpCas9-model"
 journal: "BioRxiv"
 authors: "Behrouz Eslami-Mossallam&#42;, Misha Klein&#42;, Constantijn v.d. Smagt, Koen v.d. Sanden, Stephen K. Jones Jr., John A. Hawkins, Ilya J. Finkelstein&dagger; & Martin Depken&dagger; ; (&#42; co-first authors) (&dagger; co-corresponding)"
 pdf: 2020-BioRxiv-Eslami-Mossallam et al.pdf
