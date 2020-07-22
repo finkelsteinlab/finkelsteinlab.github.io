@@ -6,7 +6,7 @@ issue:
 pages:
 year: "2020"
 shortref: "Hsieh_et al._BioRxiv (2020)"
-nickname: "SARS-CoV-2 Structure"
+nickname: "SARS-CoV-2-Structure"
 journal: "BioRxiv"
 authors: "Ching-Lin Hsieh, Jory A. Goldsmith, Jeffrey M. Schaub, Andrea M. DiVenere, Hung-Che Kuo, Kamyab Javanmardi, Kevin C. Le, Daniel Wrapp, Alison Gene-Wei Lee, Yutong Liu, Chia-Wei Chou, Patrick O. Byrne, Christy K. Hjorth, Nicole V. Johnson, John Ludes-Meyers, Annalee W. Nguyen, Juyeon Park, Nianshuang Wang, Dzifa Amengor, Jenifer A. Maynard&dagger;, Ilya J. Finkelstein&dagger; & Jason S. McLellan&dagger; (&dagger; co-corresponding)"
 pdf: 2020-BioRxiv-Hsieh et al.pdf
