@@ -13,7 +13,7 @@ pdf: 0062-2020-NatMicrobiol-Frazer et al.pdf
 supplement: 
 doi: 10.1038/s41564-020-0760-7
 pmcid:
-pmid: 
+pmid: 32719507
 extra_text: ''
 category: paper
 tags:
