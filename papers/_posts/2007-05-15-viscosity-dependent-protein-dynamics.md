@@ -13,7 +13,7 @@ pdf: 0011-2007-BiophysJ-Finkelstein et al.pdf
 supplement: 0011-2007-BiophysJ-Finkelstein et al-supplement.pdf
 doi: 10.1529/biophysj.106.093708
 pmcid:
-pmid:
+pmid: 17446536
 extra_text: ''
 category: paper
 tags: []
