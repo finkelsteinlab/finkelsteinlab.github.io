@@ -8,7 +8,7 @@ year: "2020"
 shortref: "Frazer et al. NatMicrobiol (2020)"
 nickname: "Epigenetic-cell-fate"
 journal: "Nature Microbiology"
-authors: "Corey Frazer, Mae I. Staples, Yoori Kim, Matthew Hirakawa, Maureen A. Dowell, Nicole V. Johnson, Aaron D. Hernday, Veronica H. Ryan, Nicolas L. Fawzi, Ilya J. Finkelstein & Richard J. Bennett"
+authors: "Corey Frazer&#42;, Mae I. Staples&#42;, Yoori Kim, Matthew Hirakawa, Maureen A. Dowell, Nicole V. Johnson, Aaron D. Hernday, Veronica H. Ryan, Nicolas L. Fawzi, Ilya J. Finkelstein & Richard J. Bennett (&#42; co-first authors) "
 pdf: 0062-2020-NatMicrobiol-Frazer et al.pdf
 supplement: 
 doi: 10.1038/s41564-020-0760-7

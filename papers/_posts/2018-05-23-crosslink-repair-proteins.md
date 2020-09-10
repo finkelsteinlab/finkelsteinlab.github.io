@@ -8,7 +8,7 @@ year: "2018"
 shortref: "Seol _et al._ Nature Communications (2018)"
 nickname: "crosslink-repair-proteins"
 journal: "Nature Communications"
-authors: "Ja-Hwan Seol, Cory Holland, Xiaolei Li, Christopher Kim, Fuyang Li, Melisa Medina-Rivera, Robin Eichmiller, Ignacio F. Gallardo, Ilya J. Finkelstein, Paul Hasty, Eun Yong Shim, Jennifer A. Surtees & Sang Eun Lee"
+authors: "Ja-Hwan Seol&#42;, Cory Holland&#42;, Xiaolei Li&#42;, Christopher Kim, Fuyang Li, Melisa Medina-Rivera, Robin Eichmiller, Ignacio F. Gallardo, Ilya J. Finkelstein, Paul Hasty, Eun Yong Shim, Jennifer A. Surtees & Sang Eun Lee (&#42; co-first authors)"
 pdf: 0040-2018-NComms-Seol et al.pdf
 supplement: 0040-2018-NComms-Seol et al-supplement.pdf
 doi: 10.1038/s41467-018-04327-0

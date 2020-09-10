@@ -8,7 +8,7 @@ year: "2013"
 shortref: "Wang _et al._ NSMB (2013)"
 nickname: "RNAP-curtains"
 journal: "Nat. Struct. Mol. Biol."
-authors: "Feng Wang, Sy Redding, Ilya J Finkelstein, Jason Gorman, David R Reichman & Eric C Greene"
+authors: "Feng Wang&#42;, Sy Redding&#42;, Ilya J Finkelstein, Jason Gorman, David R Reichman & Eric C Greene (&#42; co-first authors)"
 pdf: 0020-2013-NSMB-Wang et al.pdf
 supplement: 0020-2013-NSMB-Wang et al-supplement.pdf
 doi: 10.1038/nsmb.2472

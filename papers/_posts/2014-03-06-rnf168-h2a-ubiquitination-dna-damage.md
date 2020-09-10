@@ -8,7 +8,7 @@ year: "2014"
 shortref: "Leung _et al._ PLoS Genetics (2014)"
 nickname: "DNA-damage-signaling-H2A"
 journal: "PLoS Genet."
-authors: "Justin W. Leung, Poonam Agarwal, Marella D. Canny, Fade Gong, Aaron D. Robison, Ilya J. Finkelstein, Daniel Durocher, Kyle M. Miller "
+authors: "Justin W. Leung&#42;, Poonam Agarwal&#42;, Marella D. Canny, Fade Gong, Aaron D. Robison, Ilya J. Finkelstein, Daniel Durocher & Kyle M. Miller (&#42; co-first authors) "
 pdf: 0022-2014-PLoS-Leung et al.PDF
 supplement:
 doi: 10.1371/journal.pgen.1004178

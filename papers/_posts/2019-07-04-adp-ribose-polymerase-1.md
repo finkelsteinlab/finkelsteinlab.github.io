@@ -8,7 +8,7 @@ year: "2019"
 shortref: "Caron_et al._ Nat. Commun. (2019)"
 nickname: "adp-ribose-polymerase-1"
 journal: "Nature Communications"
-authors: "Marie-Christine Caron, Ajit K. Sharma, Julia O’Sullivan, Logan R. Myler, Maria Tedim Ferreira, Amélie Rodrigue, Yan Coulombe, Chantal Ethier, Jean-Philippe Gagné, Marie-France Langelier, John M. Pascal, Ilya J. Finkelstein, Michael J. Hendzel, Guy G. Poirier & Jean-Yves Masson "
+authors: "Marie-Christine Caron&#42;, Ajit K. Sharma&#42;, Julia O’Sullivan, Logan R. Myler, Maria Tedim Ferreira, Amélie Rodrigue, Yan Coulombe, Chantal Ethier, Jean-Philippe Gagné, Marie-France Langelier, John M. Pascal, Ilya J. Finkelstein, Michael J. Hendzel&dagger;, Guy G. Poirier&dagger; & Jean-Yves Masson&dagger; (&#42; co-first authors) (&dagger; co-corresponding)"
 pdf: 0052-2019-NComms-Caron et al.pdf
 supplement: 0052-2019-NComms-Caron et al-supplement.pdf
 doi: 10.1038/s41467-019-10741-9
