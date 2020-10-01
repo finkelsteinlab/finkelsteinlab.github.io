@@ -8,7 +8,7 @@ year: "2020"
 shortref: "Strohkendl et al. BioRxiv (2020)"
 nickname: "Cas12a-nucleosomes"
 journal: "BioRxiv"
-authors: "Isabel Strohkendl, Fatema A. Saifuddin, Bryan A. Gibson, Michael K. Rose, Rick Russel&dagger; & Ilya J. Finkelstein&dagger; (&dagger; co-corresponding)"
+authors: "Isabel Strohkendl, Fatema A. Saifuddin, Bryan A. Gibson, Michael K. Rosen, Rick Russell&dagger; & Ilya J. Finkelstein&dagger; (&dagger; co-corresponding)"
 pdf: 2020-BioRxiv-Strohkendl et al.pdf
 supplement: 2020-BioRxiv-Strohkendl et al-supplement.pdf 
 doi: 10.1101/2020.07.18.210054
