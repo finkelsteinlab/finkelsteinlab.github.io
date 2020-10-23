@@ -471,8 +471,8 @@
   GitHub: alexismhill3
   linkedin: alexis-hill-a4a4ab122
   joined: 2019-09-10
-  departed: 
-  whereabouts: 
+  departed: 2020-10-16
+  whereabouts: UT Austin 
   
 - name: Carlos Calcines
   position: research_scientist
@@ -493,9 +493,68 @@
   GitHub: 
   linkedin: 
   joined: 2019-04-10
-  departed: 
+  departed: 2020-09-20
   whereabouts: National Autonomous University of Mexico (UNAM)
-  
+- name: Grace Hibshman
+  position: rotation
+  email: grace.hibshman@utexas.edu 
+  twitter: gracehibshman
+  website:
+  image: grace_hibshman_current.jpg
+  young_image: grace_hibshman_young.jpg
+  favorite_activities:
+    - Paddle boarding on ladybird lake
+    - Listening to music in Zilker park
+    - Trying new hole-in-the-wall restaurants
+  quote: It is from the champions of the impossible, rather than the slaves of the possible, that evolution draws its creative force.  
+  quote_author: Barbara Wootton
+  CV:
+  ORCID: 0000-0002-3470-4861
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 
+  whereabouts: UT Austin
+- name: Josh Lutgens
+  position: rotation
+  email: joshlutgens@gmail.com
+  twitter:
+  website:
+  image: josh_lutgens_current.jpg
+  young_image: josh_lutgens_young.jpg
+  favorite_activities:
+    - Going to Zilker park to play with dogs that aren't mine
+    - Hiking across any of the Greenbelt Trails
+    - Fishing where ever I can
+  quote: There is some good in this world, Mr. Frodo... and it's worth fighting for 
+  quote_author: J.R.R. Tolkien
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 
+  whereabouts: UT Austin
+- name: Qingqing Guo
+  position: rotation
+  email: qg778@utexas.edu
+  twitter:
+  website:
+  image: qingqing_guo_current.jpg
+  young_image: qingqing_guo_young.jpg
+  favorite_activities:
+    - Trying various local restaurants
+    - Walking around Austin
+    - Self-making coffee in the morning
+  quote: Research is to see what everybody else has seen, and think what nobody has thought. 
+  quote_author: Albert Szent-Györgyi
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 
+  whereabouts: UT Austin
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01

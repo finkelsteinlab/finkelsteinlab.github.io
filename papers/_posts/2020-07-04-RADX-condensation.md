@@ -12,7 +12,7 @@ authors: "Hongshan Zhang, Jeffrey M. Schaub & Ilya J. Finkelstein"
 pdf: 0059-2020-NAR-Zhang et al.pdf
 supplement: 0059-2020-NAR-Zhang et al-supplement.pdf
 doi: 10.1093/nar/gkaa559
-pmcid:
+pmcid: 
 pmid: 32621611
 extra_text: ''
 category: paper
