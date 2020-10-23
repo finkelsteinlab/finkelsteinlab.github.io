@@ -8,7 +8,7 @@ year: "2020"
 shortref: "Calcines-Cruz et al. BioRxiv (2020)"
 nickname: "Artificial-Virus"
 journal: "BioRxiv"
-authors: "Carlos Calcines-Cruz, Ilya J. Finkelstein&dagger;, Armando Hernandez-Garcia&dagger; (&dagger; co-corresponding)"
+authors: "Carlos Calcines-Cruz, Ilya J. Finkelstein&dagger; & Armando Hernandez-Garcia&dagger; (&dagger; co-corresponding)"
 pdf: 2020-BioRxiv-Calcines-Cruz et al.pdf
 supplement: 2020-BioRxiv-Calcines-Cruz et al-supplement.pdf
 doi: 10.1101/2020.10.17.343996
