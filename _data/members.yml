@@ -17,47 +17,6 @@
     - A [Taco Deli](https://www.tacodeli.com/location/spyglass/)-fueled hike through the [Greenbelt](https://en.wikipedia.org/wiki/Barton_Creek_Greenbelt).
     - Enjoying a drink at [Cosmic Coffee](https://www.cosmiccoffeebeer.com/) with my family.
 
-- name: Nicole Johnson
-  position: managerscientist
-  email: nvirginia.johnson@gmail.com
-  twitter: nicole_vjohnson
-  website:
-  image: nicole_johnson_current.jpg
-  young_image: nicole_johnson_young.jpg
-  favorite_activities:
-    - Early morning runs at Walnut Creek, Brushy Creek, or Lady Bird Lake.
-    - Kayaking around Lake Travis.
-    - Enjoying a crisp sour beer at Blue Owl or Jester King breweries.
-  quote: "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
-  quote_author: Richard Feynman
-  CV:
-  ORCID:
-  GScholar:
-  joined: 2017-02-01
-  departed: 2019-05-31
-  whereabouts: Graduate student at UT Austin
-
-- name: John Hawkins
-  position: postdoc
-  email: hawkjo@gmail.com
-  twitter:
-  website: https://hawkjo.github.io
-  image: john_hawkins_current.jpg
-  young_image: john_hawkins_young.jpg
-  favorite_activities:
-    - Backyard BBQs with friends
-    - Watching local filmmakers' movies at Alamo Drafthouse
-    - Kayaking on Town Lake to watch the fireworks on 4th of July
-  quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
-  quote_author: John von Neumann
-  CV: https://hawkjo.github.io/CV/
-  ORCID: 0000-0002-2943-9397
-  GScholar: jBffF0MAAAAJ
-  joined: 2015-05-01
-  departed: 2020-01-10
-  GitHub: hawkjo
-  whereabouts: Postdoctoral research fellow at EMBL, Heidelberg University, and the German Cancer Center 
-
 - name: Steve Jones
   position:  postdoc
   email: skjonesjr@utexas.edu
@@ -75,26 +34,6 @@
   ORCID: 0000-0001-8387-1917
   GScholar:
   joined: 2015-02-01
-
-- name: Shane McDevitt
-  position: postdoc
-  email: shanem@utexas.edu
-  twitter:
-  website:
-  image: shane_mcdevitt_current.jpg
-  young_image: beaker_young.jpg
-  favorite_activities:
-    - Cooking
-    - Exercising
-    - Drinking craft beers
-  quote: "Never memorize something that you can look up"
-  quote_author: Albert Einstein
-  CV:
-  ORCID: 0000-0001-9360-2841
-  GScholar:
-  joined: 2018-06-04
-  departed: 2019-02-08
-  whereabouts: MIA
 
 - name: Michael Soniat
   position: postdoc
@@ -167,26 +106,6 @@
   ORCID:
   GScholar:
   joined: 2015-01-01
-
-- name: Yoori Kim
-  position: gradstudent
-  email: danielyoori@gmail.com
-  twitter:
-  website:
-  image: yoori_kim_current.jpg
-  young_image: yoori_kim_young.jpg
-  favorite_activities:
-    - Beautiful sky
-    - Cheap, juicy beef steak
-    - Highway
-  quote: "Conditions for creativity are to be puzzled; to concentrate; to accept conflict and tension; to be born everyday; to feel a sense of self."
-  quote_author: Erich Pinchas Fromm
-  CV:
-  ORCID:
-  GScholar: xCq2U8sAAAAJ
-  joined: 2013-09-12
-  departed: 2018-12-21
-  whereabouts: Postdoctoral fellow at UT Southwestern
 
 - name: Kamyab Javanmardi
   position: gradstudent
@@ -262,26 +181,6 @@
   linkedin: jeffrey-schaub-75258592
   joined: 2016-05-01
 
-- name: Jake Kula
-  position: undergrad
-  email: jacobkula@utexas.edu
-  twitter:
-  website:
-  image: jacob_kula_current.jpg
-  young_image: jacob_kula_young.jpg
-  favorite_activities:
-    - Enjoying local bands and concerts
-    - Reading in a hammock in one of Austin's parks
-    - Playing pickup basketball
-  quote: Everyone you will ever meet knows something that you don’t. … Respect their knowledge and learn from them. It will bring out the best in all of you.
-  quote_author: Bill Nye
-  CV:
-  ORCID:
-  GScholar:
-  joined: 2018-12-01
-  departed: 2020-03-20
-  whereabouts: UT Austin
-
 - name: Giaochau Nguyen
   position: managerscientist
   email: giaochau.n@utexas.edu
@@ -301,7 +200,7 @@
   joined: 2016-06-01
 
 - name: Cynthia Terrace
-  position: undergrad
+  position: research_scientist
   email: citerrace@gmail.com
   twitter:
   website:
@@ -317,26 +216,8 @@
   ORCID:
   GScholar:
   joined: 2018-12-01
-  
-- name: Henry Trentham
-  position: assistant
-  email: htrentham@gmail.com
-  twitter:
-  website:
-  image: henry_trentham_current.jpg
-  young_image: henry_trentham_young.png
-  favorite_activities:
-    - Enjoying a dinner at Curra's Tex-Mex with family or friends
-    - Wake surfing on Lake Austin
-    - Appreciating Austin's frowing skyline late night at Butler Park
-  quote: Life, uh, finds a way
-  quote_author: Ian Malcolm
-  CV:
-  ORCID:
-  GScholar:
-  joined: 2019-07-05
-  departed: 2020-03-20
-  whereabouts: UT Austin
+  departed: 
+  whereabouts:
   
 - name: Kuang Hu
   position: gradstudent
@@ -354,6 +235,187 @@
   GScholar:
   joined: 2019-05-19
   
+- name: Chia-Wei (Alvin) Chou
+  position: gradstudent
+  email: alvinchou@utexas.edu
+  twitter:
+  website:
+  image: alvin_chou_current.jpg
+  young_image: alvin_chou_young.jpg
+  favorite_activities:
+    - Sunday morning in the Gregory gymnasium
+    - Biking around Austin
+    - Brisket at any BBQ
+  quote: There is only one corner of the universe you can be sure of improving and that's your own self. 
+  quote_author: Aldous Huxley
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-02-03
+  departed: 
+  whereabouts: 
+  
+- name: Parastoo Maleki 
+  position: postdoc
+  email: pmaleki@utexas.edu
+  twitter:
+  website:
+  image: parastoo_maleki_current.jpg
+  young_image: parastoo_maleki_young.jpg
+  favorite_activities:
+  quote: I haven't failed. I've just found 10,000 ways that won't work
+  quote_author: Thomas Edison
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: parastoo-maleki
+  joined: 2020-03-05
+  departed: 
+  whereabouts: 
+- name: Hayley Zorkic
+  position: undergrad
+  email: hayley.zorkic@utexas.edu
+  twitter:
+  website:
+  image: hayley_zorkic_current.jpg
+  young_image: hayley_zorkic_young.jpg
+  favorite_activities:
+    - Roller skating on rooftops at sunset
+    - Top Rope Climbing
+    - Country Dancing (pre-covid of course)
+  quote: Anyone can cook, but only the fearless can be great. 
+  quote_author: Gusteau (Ratatouille)
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-12-07
+  departed: 
+  whereabouts: UT Austin 
+- name: Ankur Annapareddy
+  position: rotation
+  email: ankurannapareddy@gmail.com 
+  twitter:
+  website:
+  image: ankur_annapareddy_current.jpg
+  young_image: ankur_annapareddy_young.jpg
+  favorite_activities:
+    - Hiking the greenbelt/kayaking on Lady Bird
+    - Finding new books at BookPeople
+    - Discovering new food trucks and BBQ
+  quote: Live as if you were to die tomorrow. Learn as if you were to live forever.  
+  quote_author: Mahatma Gandhi
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2021-01-04
+  departed: 
+  whereabouts: UT Austin
+- name: Alexis Hill
+  position: rotation
+  email: alexis.hill@utexas.edu
+  twitter:
+  website:
+  image: alexis_hill_current.jpg
+  young_image: alexis_hill_young.jpg
+  favorite_activities:
+    - Eating tacos
+    - Trying not to kill my succulents
+    - Discovering new craft cocktail bars
+  quote: I was a victim of a series of accidents, as are we all. 
+  quote_author: Kurt Vonnegut, The Sirens of Titan
+  CV:
+  ORCID:
+  GScholar:
+  GitHub: alexismhill3
+  linkedin: alexis-hill-a4a4ab122
+  joined: 2019-09-10
+  departed: 2020-10-16
+  whereabouts: UT Austin 
+  
+- name: Carlos Calcines
+  position: research_scientist
+  email: calcinescruz@gmail.com 
+  twitter:
+  website:
+  image: carlos_calcines_current.jpg
+  young_image: carlos_calcines_young.jpg
+  favorite_activities:
+    - Getting away from Austin for the weekend
+    - Tubing
+    - Maybe not going cliff jumping
+  quote: He allowed himself to be swayed by his conviction that human beings are not born once and for all on the day their mothers give birth to them, but that life obliges them over and over again to give birth to themselves. 
+  quote_author: Gabriel García Márquez, Love in the Time of Cholera
+  CV:
+  ORCID:
+  GScholar:
+  GitHub: 
+  linkedin: 
+  joined: 2019-04-10
+  departed: 2020-09-20
+  whereabouts: National Autonomous University of Mexico (UNAM)
+- name: Grace Hibshman
+  position: rotation
+  email: grace.hibshman@utexas.edu 
+  twitter: gracehibshman
+  website:
+  image: grace_hibshman_current.jpg
+  young_image: grace_hibshman_young.jpg
+  favorite_activities:
+    - Paddle boarding on ladybird lake
+    - Listening to music in Zilker park
+    - Trying new hole-in-the-wall restaurants
+  quote: It is from the champions of the impossible, rather than the slaves of the possible, that evolution draws its creative force.  
+  quote_author: Barbara Wootton
+  CV:
+  ORCID: 0000-0002-3470-4861
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 2020-12-18
+  whereabouts: UT Austin
+- name: Josh Lutgens
+  position: rotation
+  email: joshlutgens@gmail.com
+  twitter:
+  website:
+  image: josh_lutgens_current.jpg
+  young_image: josh_lutgens_young.jpg
+  favorite_activities:
+    - Going to Zilker park to play with dogs that aren't mine
+    - Hiking across any of the Greenbelt Trails
+    - Fishing where ever I can
+  quote: There is some good in this world, Mr. Frodo... and it's worth fighting for 
+  quote_author: J.R.R. Tolkien
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 2020-12-18
+  whereabouts: UT Austin
+- name: Qingqing Guo
+  position: rotation
+  email: qg778@utexas.edu
+  twitter:
+  website:
+  image: qingqing_guo_current.jpg
+  young_image: qingqing_guo_young.jpg
+  favorite_activities:
+    - Trying various local restaurants
+    - Walking around Austin
+    - Self-making coffee in the morning
+  quote: Research is to see what everybody else has seen, and think what nobody has thought. 
+  quote_author: Albert Szent-Györgyi
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2020-10-19
+  departed: 2020-12-18
+  whereabouts: UT Austin  
 - name: Yash Shukla
   position: rotation
   email: yash0311@utexas.edu
@@ -416,169 +478,124 @@
   joined: 2020-02-03
   departed: 2020-04-13
   whereabouts: UT Austin
-  
-- name: Chia-Wei (Alvin) Chou
-  position: gradstudent
-  email: alvinchou@utexas.edu
+   
+- name: Henry Trentham
+  position: assistant
+  email: htrentham@gmail.com
   twitter:
   website:
-  image: alvin_chou_current.jpg
-  young_image: alvin_chou_young.jpg
+  image: henry_trentham_current.jpg
+  young_image: henry_trentham_young.png
   favorite_activities:
-    - Sunday morning in the Gregory gymnasium
-    - Biking around Austin
-    - Brisket at any BBQ
-  quote: There is only one corner of the universe you can be sure of improving and that's your own self. 
-  quote_author: Aldous Huxley
+    - Enjoying a dinner at Curra's Tex-Mex with family or friends
+    - Wake surfing on Lake Austin
+    - Appreciating Austin's frowing skyline late night at Butler Park
+  quote: Life, uh, finds a way
+  quote_author: Ian Malcolm
   CV:
   ORCID:
   GScholar:
-  linkedin: 
-  joined: 2020-02-03
-  departed: 
-  whereabouts: 
-  
-- name: Parastoo Maleki 
-  position: postdoc
-  email: pmaleki@utexas.edu
-  twitter:
-  website:
-  image: parastoo_maleki_current.jpg
-  young_image: parastoo_maleki_young.jpg
-  favorite_activities:
-  quote: I haven't failed. I've just found 10,000 ways that won't work
-  quote_author: Thomas Edison
-  CV:
-  ORCID:
-  GScholar:
-  linkedin: parastoo-maleki
-  joined: 2020-03-05
-  departed: 
-  whereabouts: 
-  
-- name: Alexis Hill
-  position: rotation
-  email: alexis.hill@utexas.edu
-  twitter:
-  website:
-  image: alexis_hill_current.jpg
-  young_image: alexis_hill_young.jpg
-  favorite_activities:
-    - Eating tacos
-    - Trying not to kill my succulents
-    - Discovering new craft cocktail bars
-  quote: I was a victim of a series of accidents, as are we all. 
-  quote_author: Kurt Vonnegut, The Sirens of Titan
-  CV:
-  ORCID:
-  GScholar:
-  GitHub: alexismhill3
-  linkedin: alexis-hill-a4a4ab122
-  joined: 2019-09-10
-  departed: 2020-10-16
-  whereabouts: UT Austin 
-  
-- name: Carlos Calcines
-  position: research_scientist
-  email: calcinescruz@gmail.com 
-  twitter:
-  website:
-  image: carlos_calcines_current.jpg
-  young_image: carlos_calcines_young.jpg
-  favorite_activities:
-    - Getting away from Austin for the weekend
-    - Tubing
-    - Maybe not going cliff jumping
-  quote: He allowed himself to be swayed by his conviction that human beings are not born once and for all on the day their mothers give birth to them, but that life obliges them over and over again to give birth to themselves. 
-  quote_author: Gabriel García Márquez, Love in the Time of Cholera
-  CV:
-  ORCID:
-  GScholar:
-  GitHub: 
-  linkedin: 
-  joined: 2019-04-10
-  departed: 2020-09-20
-  whereabouts: National Autonomous University of Mexico (UNAM)
-- name: Grace Hibshman
-  position: rotation
-  email: grace.hibshman@utexas.edu 
-  twitter: gracehibshman
-  website:
-  image: grace_hibshman_current.jpg
-  young_image: grace_hibshman_young.jpg
-  favorite_activities:
-    - Paddle boarding on ladybird lake
-    - Listening to music in Zilker park
-    - Trying new hole-in-the-wall restaurants
-  quote: It is from the champions of the impossible, rather than the slaves of the possible, that evolution draws its creative force.  
-  quote_author: Barbara Wootton
-  CV:
-  ORCID: 0000-0002-3470-4861
-  GScholar:
-  linkedin: 
-  joined: 2020-10-19
-  departed: 
-  whereabouts: UT Austin
-- name: Josh Lutgens
-  position: rotation
-  email: joshlutgens@gmail.com
-  twitter:
-  website:
-  image: josh_lutgens_current.jpg
-  young_image: josh_lutgens_young.jpg
-  favorite_activities:
-    - Going to Zilker park to play with dogs that aren't mine
-    - Hiking across any of the Greenbelt Trails
-    - Fishing where ever I can
-  quote: There is some good in this world, Mr. Frodo... and it's worth fighting for 
-  quote_author: J.R.R. Tolkien
-  CV:
-  ORCID:
-  GScholar:
-  linkedin: 
-  joined: 2020-10-19
-  departed: 
-  whereabouts: UT Austin
-- name: Qingqing Guo
-  position: rotation
-  email: qg778@utexas.edu
-  twitter:
-  website:
-  image: qingqing_guo_current.jpg
-  young_image: qingqing_guo_young.jpg
-  favorite_activities:
-    - Trying various local restaurants
-    - Walking around Austin
-    - Self-making coffee in the morning
-  quote: Research is to see what everybody else has seen, and think what nobody has thought. 
-  quote_author: Albert Szent-Györgyi
-  CV:
-  ORCID:
-  GScholar:
-  linkedin: 
-  joined: 2020-10-19
-  departed: 
-  whereabouts: UT Austin
-- name: Hayley Zorkic
+  joined: 2019-07-05
+  departed: 2020-03-20
+  whereabouts: UT Austin  
+- name: Jake Kula
   position: undergrad
-  email: hayley.zorkic@utexas.edu
+  email: jacobkula@utexas.edu
   twitter:
   website:
-  image: hayley_zorkic_current.jpg
-  young_image: hayley_zorkic_young.jpg
+  image: jacob_kula_current.jpg
+  young_image: jacob_kula_young.jpg
   favorite_activities:
-    - Roller skating on rooftops at sunset
-    - Top Rope Climbing
-    - Country Dancing (pre-covid of course)
-  quote: Anyone can cook, but only the fearless can be great. 
-  quote_author: Gusteau (Ratatouille)
+    - Enjoying local bands and concerts
+    - Reading in a hammock in one of Austin's parks
+    - Playing pickup basketball
+  quote: Everyone you will ever meet knows something that you don’t. … Respect their knowledge and learn from them. It will bring out the best in all of you.
+  quote_author: Bill Nye
   CV:
   ORCID:
   GScholar:
-  linkedin: 
-  joined: 2020-12-07
-  departed: 
-  whereabouts: UT Austin
+  joined: 2018-12-01
+  departed: 2020-03-20
+  whereabouts: UT Austin 
+- name: Yoori Kim
+  position: gradstudent
+  email: danielyoori@gmail.com
+  twitter:
+  website:
+  image: yoori_kim_current.jpg
+  young_image: yoori_kim_young.jpg
+  favorite_activities:
+    - Beautiful sky
+    - Cheap, juicy beef steak
+    - Highway
+  quote: "Conditions for creativity are to be puzzled; to concentrate; to accept conflict and tension; to be born everyday; to feel a sense of self."
+  quote_author: Erich Pinchas Fromm
+  CV:
+  ORCID:
+  GScholar: xCq2U8sAAAAJ
+  joined: 2013-09-12
+  departed: 2018-12-21
+  whereabouts: Postdoctoral fellow at UT Southwestern  
+- name: Shane McDevitt
+  position: postdoc
+  email: shanem@utexas.edu
+  twitter:
+  website:
+  image: shane_mcdevitt_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Cooking
+    - Exercising
+    - Drinking craft beers
+  quote: "Never memorize something that you can look up"
+  quote_author: Albert Einstein
+  CV:
+  ORCID: 0000-0001-9360-2841
+  GScholar:
+  joined: 2018-06-04
+  departed: 2019-02-08
+  whereabouts: MIA
+- name: John Hawkins
+  position: postdoc
+  email: hawkjo@gmail.com
+  twitter:
+  website: https://hawkjo.github.io
+  image: john_hawkins_current.jpg
+  young_image: john_hawkins_young.jpg
+  favorite_activities:
+    - Backyard BBQs with friends
+    - Watching local filmmakers' movies at Alamo Drafthouse
+    - Kayaking on Town Lake to watch the fireworks on 4th of July
+  quote: "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin."
+  quote_author: John von Neumann
+  CV: https://hawkjo.github.io/CV/
+  ORCID: 0000-0002-2943-9397
+  GScholar: jBffF0MAAAAJ
+  joined: 2015-05-01
+  departed: 2020-01-10
+  GitHub: hawkjo
+  whereabouts: Postdoctoral research fellow at EMBL, Heidelberg University, and the German Cancer Center 
+  
+- name: Nicole Johnson
+  position: managerscientist
+  email: nvirginia.johnson@gmail.com
+  twitter: nicole_vjohnson
+  website:
+  image: nicole_johnson_current.jpg
+  young_image: nicole_johnson_young.jpg
+  favorite_activities:
+    - Early morning runs at Walnut Creek, Brushy Creek, or Lady Bird Lake.
+    - Kayaking around Lake Travis.
+    - Enjoying a crisp sour beer at Blue Owl or Jester King breweries.
+  quote: "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
+  quote_author: Richard Feynman
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2017-02-01
+  departed: 2019-05-31
+  whereabouts: Graduate student at UT Austin
+
 - name: Kameron Azarm
   position: undergrad
   joined: 2012-11-01
