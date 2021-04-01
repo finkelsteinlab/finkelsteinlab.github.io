@@ -198,27 +198,9 @@
   ORCID:
   GScholar:
   joined: 2016-06-01
+  departed:
+  whereabouts: Graduate student at UT Southwestern
 
-- name: Cynthia Terrace
-  position: research_scientist
-  email: citerrace@gmail.com
-  twitter:
-  website:
-  image: cynthia_terrace_current.jpg
-  young_image: cynthia_terrace_young.jpg
-  favorite_activities:
-    - Trying new varieties of coffee from Texas Coffee Traders
-    - Going to Voodoo Doughnut with friends
-    - Avoiding getting hit by cars while running around the city
-  quote: We especially need imagination in science. It is not all mathematics, nor all logic, but it is somewhat beauty and poetry.
-  quote_author: Maria Mitchell
-  CV:
-  ORCID:
-  GScholar:
-  joined: 2018-12-01
-  departed: 
-  whereabouts:
-  
 - name: Kuang Hu
   position: gradstudent
   email: kh36969@utexas.edu
@@ -256,23 +238,6 @@
   departed: 
   whereabouts: 
   
-- name: Parastoo Maleki 
-  position: postdoc
-  email: pmaleki@utexas.edu
-  twitter:
-  website:
-  image: parastoo_maleki_current.jpg
-  young_image: parastoo_maleki_young.jpg
-  favorite_activities:
-  quote: I haven't failed. I've just found 10,000 ways that won't work
-  quote_author: Thomas Edison
-  CV:
-  ORCID:
-  GScholar:
-  linkedin: parastoo-maleki
-  joined: 2020-03-05
-  departed: 2020-03-02
-  whereabouts: UT Austin
 - name: Hayley Zorkic
   position: undergrad
   email: hayley.zorkic@utexas.edu
@@ -293,6 +258,44 @@
   joined: 2020-12-07
   departed: 
   whereabouts: UT Austin 
+  
+- name: Parastoo Maleki 
+  position: postdoc
+  email: pmaleki@utexas.edu
+  twitter:
+  website:
+  image: parastoo_maleki_current.jpg
+  young_image: parastoo_maleki_young.jpg
+  favorite_activities:
+  quote: I haven't failed. I've just found 10,000 ways that won't work
+  quote_author: Thomas Edison
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: parastoo-maleki
+  joined: 2020-03-05
+  departed: 2021-03-02
+  whereabouts: UT Austin
+- name: Cynthia Terrace
+  position: research_scientist
+  email: citerrace@gmail.com
+  twitter:
+  website:
+  image: cynthia_terrace_current.jpg
+  young_image: cynthia_terrace_young.jpg
+  favorite_activities:
+    - Trying new varieties of coffee from Texas Coffee Traders
+    - Going to Voodoo Doughnut with friends
+    - Avoiding getting hit by cars while running around the city
+  quote: We especially need imagination in science. It is not all mathematics, nor all logic, but it is somewhat beauty and poetry.
+  quote_author: Maria Mitchell
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2018-12-01
+  departed: 2021-01-04
+  whereabouts: UT Austin
+  
 - name: Ankur Annapareddy
   position: rotation
   email: ankurannapareddy@gmail.com 
@@ -311,7 +314,7 @@
   GScholar:
   linkedin: 
   joined: 2021-01-04
-  departed: 
+  departed: 2021-03-12
   whereabouts: UT Austin
 - name: Alexis Hill
   position: rotation
@@ -332,7 +335,7 @@
   GitHub: alexismhill3
   linkedin: alexis-hill-a4a4ab122
   joined: 2019-09-10
-  departed: 2020-10-16
+  departed: 
   whereabouts: UT Austin 
   
 - name: Carlos Calcines
