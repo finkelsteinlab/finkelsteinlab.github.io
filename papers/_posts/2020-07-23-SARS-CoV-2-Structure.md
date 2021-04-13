@@ -17,6 +17,8 @@ pmid: 32703906
 extra_text: '
 **Press:**
 
+  - [Low-cost COVID-19 vaccine (New York Times)](https://www.nytimes.com/2021/04/05/health/hexapro-mclellan-vaccine.html)
+  
   - [COVID-19 vaccine innovation (UT News)](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/)
   
   - [Speeding up COVID-19 vaccine (KVUE)](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d)
