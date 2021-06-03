@@ -8,11 +8,11 @@ year: "2021"
 shortref: "Voss et al. Science (2021)"
 nickname: "SARS-CoV-2-IgG"
 journal: "Science"
-authors: "William N. Voss&#42;, Yixuan J. Hou&#42;, Nicole V. Johnson&#42;, George Delidakis, Jin Eyun Kim, Kamyab Javanmardi, Andrew P. Horton, Foteini Bartzoka, Chelsea J. Paresi, Yuri Tanno, Chia-Wei Chou, Shawn A. Abbasi, Whitney Pickens, Katia George, Daniel R. Boutz, Dalton M. Towers, Jonathan R. McDaniel, Dnaiel Billick, Jule Goike, Lori Rowe, Dhwani Batra, Jan Pohl, Justin Lee, Shivaprakash Gangappa, Suryaprakash Sambhara, Michelle Gadush, Nianshuang Wang, Maria D. Person, Brent L. Iverson, Jimmy D. Gollihar, John Dye, Andrew Herbert, Ilya J. Finkelstein, Ralph S. Baric, Jason S. McLellan, George Georgiou, Jason L. Lavinder&dagger;, Gregory C. Ippolito&dagger;(&#42; co-first authors) (&dagger; co-corresponding) "
+authors: "William N. Voss, Yixuan J. Hou, Nicole V. Johnson, George Delidakis, Jin Eyun Kim, Kamyab Javanmardi, Andrew P. Horton, Foteini Bartzoka, Chelsea J. Paresi, Yuri Tanno, Chia-Wei Chou, Shawn A. Abbasi, Whitney Pickens, Katia George, Daniel R. Boutz, Dalton M. Towers, Jonathan R. McDaniel, Dnaiel Billick, Jule Goike, Lori Rowe, Dhwani Batra, Jan Pohl, Justin Lee, Shivaprakash Gangappa, Suryaprakash Sambhara, Michelle Gadush, Nianshuang Wang, Maria D. Person, Brent L. Iverson, Jimmy D. Gollihar, John Dye, Andrew Herbert, Ilya J. Finkelstein, Ralph S. Baric, Jason S. McLellan, George Georgiou, Jason L. Lavinder&dagger;, Gregory C. Ippolito&dagger; (&dagger; co-corresponding) "
 pdf: 0068-2021-Science-Voss et al.pdf
 supplement: 0068-2021-Science-Voss et al-supplement.pdf
 doi: 10.1126/science.abg5268
-pmcid:
+pmcid: 
 pmid: 33947773
 extra_text: ''
 category: paper
