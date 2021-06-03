@@ -34,6 +34,8 @@
   ORCID: 0000-0001-8387-1917
   GScholar:
   joined: 2015-02-01
+  departed: 
+  whereabouts: 
 
 - name: Michael Soniat
   position: postdoc
@@ -180,27 +182,8 @@
   GScholar: KsYRdCgAAAAJ
   linkedin: jeffrey-schaub-75258592
   joined: 2016-05-01
-
-- name: Giaochau Nguyen
-  position: managerscientist
-  email: giaochau.n@utexas.edu
-  twitter:
-  website:
-  image: giaochau_nguyen_current.jpg
-  young_image: giaochau_nguyen_young.jpg
-  favorite_activities:
-    - Reading on a comfy bed
-    - Playing board games at Emerald Tavern
-    - Trying new foods
-  quote: Research is what I’m doing when I don’t know what I’m doing.
-  quote_author: Wernher von Braun
-  CV:
-  ORCID:
-  GScholar:
-  joined: 2016-06-01
   departed:
-  whereabouts: Graduate student at UT Southwestern
-
+  whereabouts:
 - name: Kuang Hu
   position: gradstudent
   email: kh36969@utexas.edu
@@ -259,6 +242,68 @@
   departed: 
   whereabouts: UT Austin 
   
+- name: Ankur Annapareddy
+  position: gradstudent
+  email: ankurannapareddy@gmail.com 
+  twitter:
+  website:
+  image: ankur_annapareddy_current.jpg
+  young_image: ankur_annapareddy_young.jpg
+  favorite_activities:
+    - Hiking the greenbelt/kayaking on Lady Bird
+    - Finding new books at BookPeople
+    - Discovering new food trucks and BBQ
+  quote: Live as if you were to die tomorrow. Learn as if you were to live forever.  
+  quote_author: Mahatma Gandhi
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2021-06-01
+  departed: 
+  whereabouts: 
+  
+- name: Lianne Dubbs
+  position: managerscientist
+  email: l.z.dubbs@utexas.edu
+  twitter:
+  website:
+  image: lianne_dubbs_current.jpg
+  young_image: lianne_dubbs_young.jpg
+  favorite_activities:
+    - Spending time with my family
+    - Reading (and re-reading) books that I own
+    - Browsing books at Barnes and Noble (pre- and post- COVID)
+  quote: Science konws no country, because knowledge belongs to humanity, and is the torch which illuminates the world.
+  quote_author: Louis Pasteur
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2021-06-01
+  departed:
+  whereabouts: 
+  
+  
+
+- name: Giaochau Nguyen
+  position: managerscientist
+  email: giaochau.n@utexas.edu
+  twitter:
+  website:
+  image: giaochau_nguyen_current.jpg
+  young_image: giaochau_nguyen_young.jpg
+  favorite_activities:
+    - Reading on a comfy bed
+    - Playing board games at Emerald Tavern
+    - Trying new foods
+  quote: Research is what I’m doing when I don’t know what I’m doing.
+  quote_author: Wernher von Braun
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2016-06-01
+  departed:
+  whereabouts: Graduate student at UT Southwestern
 - name: Parastoo Maleki 
   position: postdoc
   email: pmaleki@utexas.edu
@@ -295,27 +340,6 @@
   joined: 2018-12-01
   departed: 2021-01-04
   whereabouts: UT Austin
-  
-- name: Ankur Annapareddy
-  position: rotation
-  email: ankurannapareddy@gmail.com 
-  twitter:
-  website:
-  image: ankur_annapareddy_current.jpg
-  young_image: ankur_annapareddy_young.jpg
-  favorite_activities:
-    - Hiking the greenbelt/kayaking on Lady Bird
-    - Finding new books at BookPeople
-    - Discovering new food trucks and BBQ
-  quote: Live as if you were to die tomorrow. Learn as if you were to live forever.  
-  quote_author: Mahatma Gandhi
-  CV:
-  ORCID:
-  GScholar:
-  linkedin: 
-  joined: 2021-01-04
-  departed: 2021-03-12
-  whereabouts: UT Austin
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
@@ -335,8 +359,8 @@
   GitHub: alexismhill3
   linkedin: alexis-hill-a4a4ab122
   joined: 2019-09-10
-  departed: 
-  whereabouts: UT Austin 
+  departed: 2021-05-14
+  whereabouts: UT Austin
   
 - name: Carlos Calcines
   position: research_scientist
