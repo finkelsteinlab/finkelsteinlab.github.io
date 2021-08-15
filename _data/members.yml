@@ -363,7 +363,7 @@
   whereabouts: UT Austin
   
 - name: Carlos Calcines
-  position: research_scientist
+  position: postdoc
   email: calcinescruz@gmail.com 
   twitter:
   website:
@@ -381,8 +381,9 @@
   GitHub: 
   linkedin: 
   joined: 2019-04-10
-  departed: 2020-09-20
-  whereabouts: National Autonomous University of Mexico (UNAM)
+  departed: 
+  whereabouts: 
+
 - name: Grace Hibshman
   position: rotation
   email: grace.hibshman@utexas.edu 
