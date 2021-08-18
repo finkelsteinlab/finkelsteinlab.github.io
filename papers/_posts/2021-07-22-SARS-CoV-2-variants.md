@@ -8,7 +8,7 @@ year: "2021"
 shortref: "Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)"
 nickname: "SARS-CoV-2 variants genome seq."
 journal: "American Journal of Pathology"
-authors: " Randall J. Olsen, Paul A. Christensen&#42;, S. Wesley Long&#42;, Sishir Subedi&#42;, Parsa Hodjat, Robert Olson, Marcus Nguyen, James J. Davis, Prasanti Yerramilli, Matthew Odeja Saavedra, Lanye Pruitt, Kristina Reppond, Madison N. Shyer, Jessica Cambric, Ryan Gaad, Rashi M. Thakur, Akanksha Batajoo, Ilya J. Finkelstein, Jimmy Gollihar, and James M. Musser "
+authors: " Randall J. Olsen, Paul A. Christensen&#42;, S. Wesley Long&#42;, Sishir Subedi&#42;, Parsa Hodjat, Robert Olson, Marcus Nguyen, James J. Davis, Prasanti Yerramilli, Matthew Odeja Saavedra, Lanye Pruitt, Kristina Reppond, Madison N. Shyer, Jessica Cambric, Ryan Gaad, Rashi M. Thakur, Akanksha Batajoo, Ilya J. Finkelstein, Jimmy Gollihar, and James M. Musser(&#42; co-authors)"
 pdf: 0069-2021-AmJPathol-Olsen et al.pdf
 supplement: 
 doi: 10.1016/j.ajpath.2021.07.002
