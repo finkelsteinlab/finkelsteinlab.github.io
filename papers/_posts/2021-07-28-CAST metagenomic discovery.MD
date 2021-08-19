@@ -8,7 +8,7 @@ year: "2021"
 shortref: "Rybarski et al. BioRxiv (2021)"
 nickname: "CAST metagenomic discovery"
 journal: "BioRxiv"
-authors: " James R. Rybarski#42;, Kuang Hu#42;, Alexis M. Hill#42;, Claus O. Wilke, Ilya J. Finkelstein (&#42; co-first authors)"
+authors: " James R. Rybarski&#42;, Kuang Hu&#42;, Alexis M. Hill&#42;, Claus O. Wilke, Ilya J. Finkelstein (&#42; co-first authors)"
 pdf: 2021-BioRxiv-Rybarski et al.pdf
 supplement: 2021-BioRxiv-Rybarski et al-supplement.pdf
 doi: 10.1101/2021.08.16.456562
