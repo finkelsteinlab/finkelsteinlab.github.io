@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "RADX condenses single-stranded DNA to antagonize RAD51 loading"
-volume:
-issue:
-pages: gkaa559
+volume: 48
+issue: 14
+pages: 7834-7843
 year: "2020"
 shortref: "Zhang et al. NAR (2020)"
 nickname: "RADX condensation"

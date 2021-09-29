@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Trajectory of Growth of SARS-CoV-2 Variants in Houston, Texas, January through May 2021 Based on 12,476 Genome Sequences"
-volume: 
-issue:
-pages:
+volume: 191
+issue: 10
+pages: 1754-1773
 year: "2021"
 shortref: "Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)"
 nickname: "SARS-CoV-2 variants genome seq."

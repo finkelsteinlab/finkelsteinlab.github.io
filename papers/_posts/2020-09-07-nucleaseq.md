@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Massively parallel kinetic profiling of natural and engineered CRISPR nucleases"
-volume:
+volume: 39
 issue:
-pages:
+pages: 84-93
 year: "2020"
 shortref: "Jones_et al._ NatBiotech (2020)"
 nickname: "NucleaSeq"

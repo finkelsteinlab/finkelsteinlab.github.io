@@ -2,7 +2,7 @@
 layout: paper
 title: "Sortase-mediated fluorescent labeling of CRISPR complexes"
 volume: 616
-issue:
+issue: 
 pages: 43-59
 year: "2019"
 shortref: "Dillard_et al._Methods Enzymol. (2019) "

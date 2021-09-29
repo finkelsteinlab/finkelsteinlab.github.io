@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Human cohesin compacts DNA by loop extrusion"
-volume:
-issue:
-pages: eaaz4475
+volume: 366
+issue: 6471
+pages: 1345-1349
 year: "2019"
 shortref: "Kim _et al._ Science (2019) "
 nickname: "cohesin compaction"

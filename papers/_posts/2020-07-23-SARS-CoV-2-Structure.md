@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Structure-based Design of Prefusion-stabilized SARS-CoV-2 Spikes"
-volume:
-issue:
-pages: eabd0826
+volume: 369
+issue: 6510
+pages: 1501-1505
 year: "2020"
 shortref: "Hsieh_et al._Science(2020)"
 nickname: "SARS-CoV-2-Structure"

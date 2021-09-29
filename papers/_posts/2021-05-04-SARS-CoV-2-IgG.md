@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Prevalent, protective, and convergent IgG recognition of SARS-CoV-2 non-RBD spike epitopes"
-volume: 
-issue:
-pages: eabg5268
+volume: 372
+issue: 6546
+pages: 1108-1112
 year: "2021"
 shortref: "Voss et al. Science (2021)"
 nickname: "SARS-CoV-2-IgG"

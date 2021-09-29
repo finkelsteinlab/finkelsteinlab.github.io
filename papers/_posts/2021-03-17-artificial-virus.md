@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "CRISPR-guided programmable self-assembly of artificial virus-like nucleocapsids"
-volume: 
-issue:
-pages: 
+volume: 21
+issue: 7
+pages: 2752-2757
 year: "2021"
 shortref: "Calcines-Cruz et al. NanoLett(2021)"
 nickname: "Artificial-Virus"
