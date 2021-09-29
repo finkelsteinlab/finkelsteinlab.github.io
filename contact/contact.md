@@ -2,7 +2,7 @@
 
 ### Ilya J. Finkelstein, Ph.D.
 
-Assistant Professor  
+Associate Professor  
 [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/)  
 [The University of Texas at Austin](https://www.utexas.edu/)  
 Phone: (512) 475-6172 (lab)  
