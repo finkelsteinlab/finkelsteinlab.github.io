@@ -9,7 +9,7 @@ shortref: "Ma et al. eLife (2021)"
 nickname: "Cas1-Cas2 complex"
 journal: "eLife"
 authors: "Chien-Hui Ma, Kamyab Javanmardi, Ilya J. Finkelstein&dagger;, Makkuni Jayaram&dagger; (&dagger; co-corresponding) "
-pdf: 2021-eLife-Ma et al.pdf
+pdf: 0070-2021-eLife-Ma et al.pdf
 supplement: 
 doi: 10.7554/eLife.65763
 pmcid:
