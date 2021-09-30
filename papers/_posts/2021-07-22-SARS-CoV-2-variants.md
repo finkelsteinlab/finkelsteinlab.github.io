@@ -12,8 +12,8 @@ authors: " Randall J. Olsen, Paul A. Christensen&#42;, S. Wesley Long&#42;, Sish
 pdf: 0069-2021-AmJPathol-Olsen et al.pdf
 supplement: 
 doi: 10.1016/j.ajpath.2021.07.002
-pmcid:
-pmid: 
+pmcid: PMC8299152
+pmid: 34303698
 extra_text: ''
 category: paper
 tags:

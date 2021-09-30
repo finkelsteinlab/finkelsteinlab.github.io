@@ -12,7 +12,7 @@ authors: "William N. Voss, Yixuan J. Hou, Nicole V. Johnson, George Delidakis, J
 pdf: 0068-2021-Science-Voss et al.pdf
 supplement: 0068-2021-Science-Voss et al-supplement.pdf
 doi: 10.1126/science.abg5268
-pmcid: 
+pmcid: PMC7781304
 pmid: 33947773
 extra_text: ''
 category: paper
