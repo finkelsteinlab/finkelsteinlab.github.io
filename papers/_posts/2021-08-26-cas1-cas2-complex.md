@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Disintegration promotes proto-spacer integration by the Cas1-Cas2 complex"
-volume: 
+volume: 10
 issue:
-pages:
+pages: e65763
 year: "2021"
 shortref: "Ma_et_al._eLife (2021)"
 nickname: "Cas1-Cas2 complex"
