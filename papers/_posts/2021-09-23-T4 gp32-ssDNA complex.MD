@@ -9,8 +9,8 @@ shortref: "Blevins_et_al._Chem Sci. (2021)"
 nickname: "T4 gp32-ssDNA complex"
 journal: "Chem Sci"
 authors: "Molly S. Blevins, Jada N. Walker, Jeffrey M. Schaub, Ilya J. Finkelstein and Jennifer S. Brodbelt"
-pdf: 0071-ChemSci-Blevins et al.pdf
-supplement: 0071-ChemSci-Blevins et al-supplement.pdf
+pdf: 0071-2021-ChemSci-Blevins et al.pdf
+supplement: 0071-2021-ChemSci-Blevins et al-supplement.pdf
 doi: 10.1039/d1sc02861h
 pmcid:
 pmid: 

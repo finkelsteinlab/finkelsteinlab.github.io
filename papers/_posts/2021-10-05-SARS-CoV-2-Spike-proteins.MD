@@ -9,7 +9,7 @@ shortref: "Schaub_et_al._Nat. Protoc. (2021)"
 nickname: "SARS-CoV-2-Spike_Proteins"
 journal: "Nat Protoc"
 authors: "Jeffrey M. Schaub&#42;, Chia-Wei Chou&#42;, Hung-Che Kuo&#42;, Kamyab Javanmardi&#42;, Ching-Lin Hsieh, Jory Goldsmith, Andrea M. DiVenere, Kevin C. Le, Daniel Wrapp, Patrick O. Byrne, Christy K. Hjorth, Nicole V. Johnson, John Ludes-Meyers, Annalee W. Nguyen, Nianshuang Wang, Jason J. Lavinder, Gregory C. Ippolito, Jennifer A. Maynard, Jason S. McLellan, and Ilya J. Finkelstein (&#42; co-first authors)"
-pdf: 0072-NatProtoc-Schaub et al.pdf
+pdf: 0072-2021-NatProtoc-Schaub et al.pdf
 supplement: 
 doi: 10.1038/s41596-021-00623-0
 pmcid:
