@@ -9,9 +9,9 @@ shortref: "Hill et al._J. Open Source Softw. (2021)"
 nickname: "Python-package-gene-clusters"
 journal: "Journal of Open Source Software"
 authors: "Alexis M. Hill&#42;, James R. Rybarski&#42;, Kuang Hu, Ilya J. Finkelstein, and Claus O. Wilke(&#42; co-first authors) "
-pdf: 0073-2021-JOpenSourceSoftw-Hill et al
+pdf: 0073-2021-JOpenSourceSoftw-Hill et al.pdf
 supplement: 
-doi: 10.21105.joss.03678.pdf
+doi: 10.21105/joss.03678.pdf
 pmcid:
 pmid: 
 extra_text: ''
