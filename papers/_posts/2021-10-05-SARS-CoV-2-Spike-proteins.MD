@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Expression and characterization of SARS-CoV-2 Spike Proteins"
-volume: 
+volume: 16
 issue:
-pages:
+pages: 5339-5356
 year: "2021"
 shortref: "Schaub_et_al._Nat. Protoc. (2021)"
 nickname: "SARS-CoV-2-Spike_Proteins"

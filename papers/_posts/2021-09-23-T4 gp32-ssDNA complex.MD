@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Characterization of the T4 gp32-ssDNA complex by native, cross-linking, and ultraviolet photodissociation mass spectrometry"
-volume: 
-issue:
-pages:
+volume: 12
+issue: 41
+pages: 13764-13776
 year: "2021"
 shortref: "Blevins_et_al._Chem Sci. (2021)"
 nickname: "T4 gp32-ssDNA complex"
