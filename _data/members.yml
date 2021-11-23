@@ -35,7 +35,7 @@
   GScholar:
   joined: 2015-02-01
   departed: 2021-07-16
-  whereabouts: PI in Lithuania
+  whereabouts: PI at Vilnius University, Lithuania
 
 - name: Michael Soniat
   position: postdoc
@@ -403,12 +403,12 @@
   joined: 2021-08-20
  
 - name: Matthew Hooper
-  position: rotation student
+  position: rotation
   email: matthewhooper@utexas.edu
   twitter:
   website:
-  image: 
-  young_image: 
+  image: beaker_current.jpg
+  young_image: beaker_young.jpg
   favorite_activities:
     - Trying new coffee shops
     - Singing karaoke
@@ -420,6 +420,60 @@
   GScholar:
   joined: 2021-11-16
   
+- name: Arian Veyssi
+  position: rotation
+  email: veyssi@utexas.edu
+  twitter:
+  website:
+  image: arian_current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Eating delicious breakfast tacos
+    - Visiting Lake Travis
+    - Reading fiction books
+  quote: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+  quote_author: Marie Curie
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2021-10-25
+
+- name: Hsin-Ru Chan
+  position: rotation
+  email: jojoruchan13831xx@utexas.edu
+  twitter:
+  website:
+  image: hsin-ru-chan-current.jpg
+  young_image: hsin-ru-chan-young.jpg
+  favorite_activities:
+    - Grazing leisurely breakfast at my balcony
+    - Discovering new restaurants with friends
+    - Playing with neighbor's cats
+  quote: "Laughter is timeless, imagination has no age, and dreams are forever."
+  quote_author: Walt Disney
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2021-11-16
+
+- name: Charlie Johnson
+  position: rotation
+  email: cdjohnson98@utexas.edu
+  twitter:
+  website:
+  image: charlie-current.jpg
+  young_image: beaker_young.jpg
+  favorite_activities:
+    - Playing volleyball with friends
+    - Finding new restaurants 
+    - Kayaking on Lady Bird Lake
+  quote: "For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering of others. You'd be surprised how far that gets you."
+  quote_author: Neil deGrasse Tyson
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2021-10-25
+
 - name: Grace Hibshman
   position: rotation
   email: grace.hibshman@utexas.edu 
