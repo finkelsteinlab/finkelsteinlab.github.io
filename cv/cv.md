@@ -1,7 +1,7 @@
 # Ilya J. Finkelstein (abridged CV)
 
 <div class="research-image-container">
-  <img src="/assets/images/members/ilya-tie.jpg" align="right" class="research-image" width="400px" alt="IJF">
+  <img src="/assets/images/members/ilya-at-bench.jpg" align="right" class="research-image" width="400px" alt="IJF">
 </div>
 [MBB 3.422](https://maps.utexas.edu/buildings/utm/mbb)  
 [Dept. of Molecular Biosciences](https://molecularbiosci.utexas.edu/)  
@@ -9,7 +9,7 @@
 Austin, TX  78712-1199  
 lab: 	512-475-6172  
 website: [https://finkelsteinlab.org](https://finkelsteinlab.org)    
-e-mail: [ifinkelstein@cm.utexas.edu](mailto: ifinkelstein@cm.utexas.edu)  
+e-mail: [ilya@finkelsteinlab.org](mailto: ilya@finkelsteinlab.org)  
 
 ## Education
 **University of California, Berkeley (1997-2001)**  
@@ -20,11 +20,14 @@ Ph.D. Chemistry
 [(thesis: ~4 MB PDF)](/assets/pdfs/IJF_thesis_ultrafast_protein_dynamics.pdf)
 
 ## Professional Experience
-  **Assistant Professor (2012-present)**  
+  **Associate Professor (2019- )**
   [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/),  
   [Livestrong Cancer Institute](https://dellmed.utexas.edu/units/livestrong-cancer-institutes),  
   [Institute for Cellular and Molecular Biology](https://icmb.utexas.edu/),  
   [Center for Systems and Synthetic Biology](https://cssb.utexas.edu/),  
+  [The University of Texas at Austin](https://www.utexas.edu/)
+  **Assistant Professor (2012-2019)**  
+  [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/),   
   [The University of Texas at Austin](https://www.utexas.edu/)
 
   **Postdoctoral Fellow (2007-2012)**  
@@ -34,6 +37,9 @@ Ph.D. Chemistry
   Stanford University (with [Michael D. Fayer](https://web.stanford.edu/group/fayer/))
 
 ## Awards and Honors
+* Provost's Mentored Faculty Scholar
+* Lorene Morrow Kelley Research Fellowship
+* Norman Hackerman Award in Chemical Sciences, Welch Foundation (2021)
 * Fellow, William H. Tonn Professorial Fund (2018)
 * National Science Foundation CAREER Award (2015) 		
 * American Federation of Aging Research Junior Fellow (2014)
@@ -46,7 +52,7 @@ Ph.D. Chemistry
 * McBain and Stauffer Graduate Fellowship, Stanford University (2003)  
 * Chevron Research Fellowship (2000) 						
 
-## Five Significant Publications (from [45+](/papers/))
+## Five Significant Publications (from [76+](/papers/))
 * [**Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips.**](/papers/paper/champ-cascade)  
 Jung C.,* Hawkins JA.,* Jones SK.,* Xiao Y., Rybarski JR., Dillard KE., Hussmann J., Saifuddin FA., Savran CA., Ellington AD., Ke A., Press WH., Finkelstein IJ.   
 (2017). _Cell_ **170**, 35–47.e13. (* equal contribution)
@@ -79,6 +85,7 @@ _Nature Communications_ **7**, 10607.
 Post-replicative mismatch repair must identify rare DNA lesions (~1 mispair in 107-108 basepairs) in chromatin. Using single-molecule imaging, we demonstrate how two related eukaryotic mismatch sensors recognize these lesions on chromatin. Both factors can scan naked DNA, but only one of these complexes can also navigate on a chromatinized DNA substrate. This work begins to define the mechanisms of post-replicative mismatch repair on chromatin.
 
 ## Recent Professional Activities  
+* ASCB Faculty Research and Eductaion Development Mentor (2021)
 * Organizer: Molecular Biophysics Focus Group, Biophysical Society (2019)
 * Austin Forum on Technology and Society co-panelist (2018)
 * SXSW Interactive Conference co-panelist (2018)
@@ -87,4 +94,4 @@ Post-replicative mismatch repair must identify rare DNA lesions (~1 mispair in 1
 * Grant Reviewer: NSF, NIH, DHS, HHMI, French National Cancer Institute, Dutch Foundation for Fundamental Research
 
 
-_Updated August 8, 2018_
+_Updated January 27, 2022_
