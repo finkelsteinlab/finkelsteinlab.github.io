@@ -1,7 +1,7 @@
 # Ilya J. Finkelstein (abridged CV)
 
 <div class="research-image-container">
-  <img src="/assets/images/members/ilya-at-bench.jpg" align="right" class="research-image" width="400px" alt="IJF">
+  <img src="/assets/images/members/Ilya-at-bench.jpg" align="right" class="research-image" width="400px" alt="IJF">
 </div>
 [MBB 3.422](https://maps.utexas.edu/buildings/utm/mbb)  
 [Dept. of Molecular Biosciences](https://molecularbiosci.utexas.edu/)  
