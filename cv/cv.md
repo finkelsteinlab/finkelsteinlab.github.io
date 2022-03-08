@@ -26,6 +26,7 @@ Ph.D. Chemistry
   [Institute for Cellular and Molecular Biology](https://icmb.utexas.edu/),  
   [Center for Systems and Synthetic Biology](https://cssb.utexas.edu/),  
   [The University of Texas at Austin](https://www.utexas.edu/)
+  
   **Assistant Professor (2012-2019)**  
   [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/),   
   [The University of Texas at Austin](https://www.utexas.edu/)
@@ -94,4 +95,4 @@ Post-replicative mismatch repair must identify rare DNA lesions (~1 mispair in 1
 * Grant Reviewer: NSF, NIH, DHS, HHMI, French National Cancer Institute, Dutch Foundation for Fundamental Research
 
 
-_Updated January 27, 2022_
+_Updated March 8, 2022_
