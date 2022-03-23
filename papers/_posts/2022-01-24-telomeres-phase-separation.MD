@@ -9,8 +9,8 @@ shortref: "Jack et al. Dev. Cell (2022)"
 nickname: "telomeres phase separation"
 journal: "Dev. Cell"
 authors: "Amanda Jack&#42;, Yoonji Kim&#42;, Amy R. Strom &#42;, Daniel S.W. Lee, Byron Williams, Jeffrey M. Schaub, Elizabeth H. Kellogg, Ilya J. Finkelstein, Luke S. Ferro&dagger; Ahmet Yildiz&dagger;, and Clifford P. Brangwynne&dagger; (&#42; co-first authors) (&dagger; co-corresponding) "
-pdf: 0076-DevCell-Jack et al.pdf
-supplement: 0076-DevCell-Jack et al-supplement.pdf
+pdf: 0076-2022-DevCell-Jack et al.pdf
+supplement: 0076-2022-DevCell-Jack et al-supplement.pdf
 doi: 10.1016/j.devcel.2021.12.017
 pmcid:
 pmid: 

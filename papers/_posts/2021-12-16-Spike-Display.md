@@ -3,14 +3,14 @@ layout: paper
 title: "Rapid characterization of spike variants via mammalian cell surface display"
 volume: 16
 issue: 25
-pages: 5099-5111.e8
+pages: 5099-5111
 year: "2021"
 shortref: "Javanmardi et al. Mol. Cell (2021)"
 nickname: "Spike-Display"
 journal: "Mol. Cell"
 authors: "Kamyab Javanmardi&dagger;, Chia-Wei Chou, Cynthia Terrace, Ankur Annapareddy, Tamer S. Kaoud, Qingqing Guo, Josh Lutgens, Hayley Zorkic, Andrew P. Horton, Elizabeth C. Gardner, Giaochau Nguyen, Daniel R. Boutz, Jule Goike, Will N. Voss, Hung-Che Kuo, Kevin N. Dalby, Jimmy D. Gollihar & Ilya J. Finkelstein&dagger; (&dagger; co-corresponding)"
-pdf: 2021-MolCell-Javanmardi et al.pdf
-supplement: 2021-MolCell-Javanmardi et al-supplement.pdf
+pdf: 0075-2021-MolCell-Javanmardi et al.pdf
+supplement: 0075-2021-MolCell-Javanmardi et al-supplement.pdf
 doi: 10.1016/j.molcel.2021.11.024
 pmcid:
 pmid: 
