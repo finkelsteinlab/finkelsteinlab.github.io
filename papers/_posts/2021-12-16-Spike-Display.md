@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Rapid characterization of spike variants via mammalian cell surface display"
-volume: 16
-issue: 25
-pages: 5099-5111
+volume: 81
+issue: 24
+pages: 5099-5111.e8
 year: "2021"
 shortref: "Javanmardi et al. Mol. Cell (2021)"
 nickname: "Spike-Display"

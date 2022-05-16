@@ -1,19 +1,19 @@
 ---
 layout: paper
 title: "How Glutamate Promotes Liquid-liquid Phase Separation and DNA Binding Cooperativity of E. coli SSB Protein"
-volume: 
-issue:
-pages:
+volume: 434
+issue: 9
+pages: 167562
 year: "2022"
 shortref: "Kozlov et al. J. Mol. Bio. (2022)"
 nickname: "SSB-protein"
 journal: "J. Mol. Bio."
 authors: "Alexander G Kozlov, Xian Cheng, Hongshan Zhang, Min Kyung Shinn, Elizabeth Weiland, Binh Nguyen, Irina A Shkel, Emily Zytkiewicz, Ilya J Finkelstein, M Thomas Record Jr., Timothy M. Lohman"
 pdf: 0078-2022-JMolBio-Kozlov et al.pdf
-supplement: 
+supplement: 0078-2022-JMolBio-Kozlov et al-supplement.pdf
 doi: 10.1016/j.jmb.2022.167562
 pmcid:
-pmid: 
+pmid: 35351518
 extra_text: ''
 category: paper
 tags: DNA replication, liquid-liquid phase separation, single molecule DNA collapse, biomolecular condensates, salt effects

@@ -3,7 +3,7 @@ layout: paper
 title: "Compartmentalization of telomeres through DNA-scaffolded phase separation"
 volume: 57
 issue: 2
-pages: 277-290
+pages: 277-290.e9
 year: "2022"
 shortref: "Jack et al. Dev. Cell (2022)"
 nickname: "telomeres phase separation"
