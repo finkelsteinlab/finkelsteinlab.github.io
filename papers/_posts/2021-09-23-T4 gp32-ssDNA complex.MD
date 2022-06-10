@@ -12,8 +12,8 @@ authors: "Molly S. Blevins, Jada N. Walker, Jeffrey M. Schaub, Ilya J. Finkelste
 pdf: 0071-2021-ChemSci-Blevins et al.pdf
 supplement: 0071-2021-ChemSci-Blevins et al-supplement.pdf
 doi: 10.1039/d1sc02861h
-pmcid:
-pmid: 
+pmcid: PMC8549804
+pmid: 34760161
 extra_text: ''
 category: paper
 tags:

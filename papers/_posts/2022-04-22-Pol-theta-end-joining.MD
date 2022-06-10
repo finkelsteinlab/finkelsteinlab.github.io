@@ -9,8 +9,8 @@ shortref: "Schaub et al. NAR (2022)"
 nickname: "Pol-theta-end-joining"
 journal: "NAR"
 authors: "Jeffery M. Schaub&dagger;, Michael M. Soniat & Ilya J. Finkelstein&dagger;"
-pdf: 0079-2022-NAR-Schaub et al.pdf
-supplement: 0079-2022-NAR-Schaub et al-supplement.pdf
+pdf: 0078-2022-NAR-Schaub et al.pdf
+supplement: 0078-2022-NAR-Schaub et al-supplement.pdf
 doi: 10.1093/nar/gkac119
 pmcid: PMC9023281
 pmid: 35357490

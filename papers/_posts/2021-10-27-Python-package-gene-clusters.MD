@@ -12,8 +12,8 @@ authors: "Alexis M. Hill&#42;, James R. Rybarski&#42;, Kuang Hu, Ilya J. Finkels
 pdf: 0073-2021-JOpenSourceSoftw-Hill et al.pdf
 supplement: 
 doi: 10.21105/joss.03678
-pmcid:
-pmid: 
+pmcid: PMC9017871
+pmid: 35445164
 extra_text: ''
 category: paper
 tags:

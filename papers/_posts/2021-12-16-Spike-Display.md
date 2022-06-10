@@ -12,8 +12,8 @@ authors: "Kamyab Javanmardi&dagger;, Chia-Wei Chou, Cynthia Terrace, Ankur Annap
 pdf: 0075-2021-MolCell-Javanmardi et al.pdf
 supplement: 0075-2021-MolCell-Javanmardi et al-supplement.pdf
 doi: 10.1016/j.molcel.2021.11.024
-pmcid:
-pmid: 
+pmcid: PMC8675084
+pmid: 34919820
 extra_text: ''
 category: paper
 tags:

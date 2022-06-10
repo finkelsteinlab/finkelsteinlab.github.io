@@ -3,7 +3,7 @@ layout: paper
 title: "Metagenomic Discovery of CRISPR-Associated Transposons"
 volume: 118
 issue: 49
-pages:
+pages: e2112279118
 year: "2021"
 shortref: "Rybarski et al. PNAS (2021)"
 nickname: "CAST metagenomic discovery"
@@ -12,8 +12,8 @@ authors: " James R. Rybarski&#42;, Kuang Hu&#42;, Alexis M. Hill&#42;, Claus O. 
 pdf: 0074-2021-PNAS-Rybarski et al.pdf
 supplement: 0074-2021-PNAS-Rybarski et al-supplement.pdf
 doi: 10.1073/pnas.2112279118
-pmcid:
-pmid: 
+pmcid: PMC8670466
+pmid: 34845024
 extra_text: ''
 category: paper
 tags: [gene editing, bioinformatics, CAST, transposition, CRISPR RNA]

@@ -13,7 +13,7 @@ pdf: 0072-2021-NatProtoc-Schaub et al.pdf
 supplement: 
 doi: 10.1038/s41596-021-00623-0
 pmcid:
-pmid: 
+pmid: 34611365
 extra_text: ''
 category: paper
 tags:

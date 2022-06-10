@@ -338,10 +338,30 @@
   quote_author: Maria Mitchell
   CV:
   ORCID:
-  GScholar:
+  GScholar: Y8f5fY8AAAAJ
   joined: 2018-12-01
   departed: 2021-01-04
   whereabouts: UT Austin
+- name: Andrea Quezada
+  position: postdoc
+  email: andreagtzq@gmail.com
+  twitter: andreaquezadaa
+  website:
+  image: andrea_quezada_current.jpg
+  young_image: andrea_quezada_young.jpg
+  favorite_activities:
+    - Chasing exotic wildflowers
+    - Looking for the best places to dance
+    - Maybe not going cliff jumping
+  quote: If you know you are on the right track, if you have this inner knowledge, then nobody can turn you off. . . no matter what they say.
+  quote_author: Barbara McClinktock
+  CV:
+  ORCID: 0000-0002-5805-893X
+  GScholar:
+  GitHub: andreaquezada
+  linkedin: 
+  joined: 2022-06-01
+  
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
