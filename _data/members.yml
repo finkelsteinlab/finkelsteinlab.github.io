@@ -17,6 +17,19 @@
     - A [Taco Deli](https://www.tacodeli.com/location/spyglass/)-fueled hike through the [Greenbelt](https://en.wikipedia.org/wiki/Barton_Creek_Greenbelt).
     - Enjoying a drink at [Cosmic Coffee](https://www.cosmiccoffeebeer.com/) with my family.
 
+- name: Mary Arnold
+  position: research_scientist
+  email: mary_arnold@utexas.edu
+  image: mary-arnold-old.jpg
+  young_image: mary-arnold-young.jpg
+  favorite_activities:
+    - Hiking with my dog
+    - Finding new places to watch the sunset
+    - Playing board and role playing games with friends
+  quote: "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
+  quote_author: Carl Sagan
+  joined: 2022-07-11
+
 - name: Steve Jones
   position:  postdoc
   email: skjonesjr@utexas.edu
