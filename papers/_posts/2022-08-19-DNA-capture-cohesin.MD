@@ -11,7 +11,7 @@ journal: "BioRxiv"
 authors: "Parminder Kaur&dagger;, Zhubing Shi, Xiaotong Lu, Hongshan Zhang, Ilya J. Finkelstein, Yizhi Jane Tao, Hongtao Yu, Hong Wang&dagger; (&dagger; co-corresponding) "
 pdf: 2022-BioRxiv-Kaur et al.pdf
 supplement: 
-doi: 
+doi: 10.1101/2022.08.18.504320
 pmcid:
 pmid: 
 extra_text: ''
