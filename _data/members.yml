@@ -25,11 +25,24 @@
   favorite_activities:
     - Hiking with my dog
     - Finding new places to watch the sunset
-    - Playing board and role playing games with friends
+    - Playing board and table-top games with friends
   quote: "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
   quote_author: Carl Sagan
   joined: 2022-07-11
 
+- name: Henry Garcia
+  position: research_scientist
+  email: henry.garcia@austin.utexas.edu
+  image: henry_garcia_current.jpg
+  young_image: henry_garcia_young.jpg
+  favorite_activities:
+    - Biking around Austin
+    - Reading science-fiction novels
+    - Cooking
+  quote: "Any sufficiently advanced technology is indistinguishable from magic."
+  quote_author: Arthur C. Clarke
+  joined: 2022-08-01
+  
 - name: Steve Jones
   position:  postdoc
   email: skjonesjr@utexas.edu
@@ -67,6 +80,8 @@
   ORCID:
   GScholar:
   joined: 2016-07-17
+  departed: 2022-10-10
+  whereabouts: Soniat Lab, Thomas Jefferson University
 
 - name: Hongshan Zhang
   position: postdoc
@@ -141,8 +156,8 @@
   ORCID:
   GScholar: EW4PM5YAAAAJ&hl=en&authuser=1
   joined: 2018-06-01
-  departed:
-  whereabouts:
+  departed: 2022-09-23
+  whereabouts: California
 
 - name: Hung-Che (Jami) Kuo
   position: gradstudent
@@ -254,6 +269,29 @@
   GScholar:
   linkedin: 
   joined: 2020-12-07
+  departed: 2021-05-31
+  whereabouts: UT Austin 
+  
+
+  
+- name: Carlos Arguello
+  position: undergrad
+  email: carlos.arg.413@gmail.com
+  twitter:
+  website:
+  image: carlos_arguello_current.jpg
+  young_image: carlos_arguello_young.jpg
+  favorite_activities:
+    - Playing tabletop games with friends
+    - Cooking dishes from other countries
+    - Getting gelato and seeing live music at Central Market
+  quote: It is important to expect nothing, to take every experience, including the negative ones, as merely steps on the path, and to proceed. 
+  quote_author: Ran Dass
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2022-07-05
   departed: 
   whereabouts: UT Austin 
   
@@ -392,6 +430,23 @@
   GScholar:
   joined: 2022-06-02
   
+- name: Steven Zilko
+  position: rotation
+  email: sjzilko@utexas.edu
+  twitter:
+  website:
+  image: steven_zilko_current.jpg
+  young_image: steven_zilko_young.jpg 
+  favorite_activities:
+    - Searching for the best BBQ in Austin
+    - Hiking in the nearby Hill Country
+    - Trying local brews
+  quote: Friendship improves happiness, and abates misery, by doubling our joys, dividinig our grief. 
+  quote_author: Marcus Tullius Cicero
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2022-09-01
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
