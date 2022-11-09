@@ -274,6 +274,27 @@
   
 
   
+- name: Caitlin Kuriakose
+  position: undergrad
+  email: ckuriakose1018@utexas.edu
+  twitter:
+  website:
+  image: caitlin_kuriakose_current.jpg
+  young_image: caitlin_kuriakose_young.jpg
+  favorite_activities:
+    - Paddle boarding on Ladybird 
+    - Trying new Austin Foods
+    - 
+  quote: Above all, show sincere love to each other.
+  quote_author: 1 Peter 4:8
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2022-03-07
+  departed: 
+  whereabouts: UT Austin 
+  
 - name: Carlos Arguello
   position: undergrad
   email: carlos.arg.413@gmail.com
@@ -292,6 +313,26 @@
   GScholar:
   linkedin: 
   joined: 2022-07-05
+  departed: 
+  whereabouts: UT Austin 
+- name: Daphne Sahaya
+  position: undergrad
+  email: daphnesahaya@utexas.edu
+  twitter:
+  website:
+  image: daphne_sahaya_current.jpg
+  young_image: daphne_sahaya_young.jpg
+  favorite_activities:
+    - Trying new food
+    - Finding cute coffee shops to work in
+    - Taking pictures of sunsets
+  quote: Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. 
+  quote_author: Marie Curie
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2022-11-07
   departed: 
   whereabouts: UT Austin 
   
@@ -447,6 +488,24 @@
   ORCID:
   GScholar:
   joined: 2022-09-01
+- name: You-Chiun Chang
+  position: rotation
+  email: youchiun@utexas.edu
+  twitter:
+  website:
+  image: you-chiun_chang_current.jpg
+  young_image: you-chiun_chang_young.jpg 
+  favorite_activities:
+    - Enjoying BBQ
+    - Learning how to cook a perfect steak
+    - Exploring unfamiliar places around Austin
+  quote: I have not failed. I've just found 10,000 ways that won't work.
+  quote_author: Thomas Edison 
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2022-09-01
+
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
