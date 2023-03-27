@@ -50,12 +50,13 @@ $(document).ready(function(){
         <div class="persondata">
 
           <div class="top-bar">
-            <div class="person-name">{{ person.name }}</div>
+              <div class="person-name">{{ person.name }}  </div>
             <div class="person-joined">Joined: {{ person.joined | date: "%B %Y" }}</div>
           </div>
 
           <div class="bottom-bar">
             <div class="contact-links">
+                {% if person.pronouns %}<div><b>({{ person.pronouns }})</b> <br></div>{% endif %}
               <a href="mailto:{{ person.email }}">{{ person.email }}</a>
               {% if person.website %} | <a href="{{ person.website }}">Personal Site</a> {% endif %}              {% if person.CV %} | <a href="{{ person.CV }}">CV</a> {% endif %}
               {% if person.GScholar %} | <a href="https://scholar.google.com/citations?user={{ person.GScholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endif %}

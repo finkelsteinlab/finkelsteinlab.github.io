@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Values"
+description: "Our shared values"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+
+{% capture content %}{% include_relative values.md %}{% endcapture %}
+{{ content | markdownify }}
+
