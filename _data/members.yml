@@ -42,7 +42,21 @@
   quote: "Any sufficiently advanced technology is indistinguishable from magic."
   quote_author: Arthur C. Clarke
   joined: 2022-08-01
-  
+
+- name: Selma Sinan
+  position: research_scientist
+  email: selmasinan@utexas.edu
+  image: selma_sinan_current.jpg
+  young_image: selma_sinan_young.jpg
+  favorite_activities:
+    - Discovering new picnic places with my family
+    - Studying (Mathematics and Science) with my kids
+    - Trying new recipes in the kitchen
+  quote: "Knowledge is to understand/To understand who you are. If you do not know who you are/What's the use of learning?"
+  quote_author: Yunus Emre
+  CV: 
+  GScholar: hPyMB_UAAAAJ 
+  joined: 2023-01-01
 - name: Steve Jones
   position:  postdoc
   email: skjonesjr@utexas.edu
@@ -470,6 +484,7 @@
   ORCID:
   GScholar:
   joined: 2022-06-02
+  departed: 2023-04-23
   
 - name: Steven Zilko
   position: rotation
