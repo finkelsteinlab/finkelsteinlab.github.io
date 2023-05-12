@@ -484,7 +484,7 @@
   ORCID:
   GScholar:
   joined: 2022-06-02
-  departed: 2023-04-23
+  departed: 2023-04-21
   
 - name: Steven Zilko
   position: rotation
@@ -503,8 +503,9 @@
   ORCID:
   GScholar:
   joined: 2022-09-01
+  departed: 2023-04-21
 - name: You-Chiun Chang
-  position: rotation
+  position: gradstudent
   email: youchiun@utexas.edu
   twitter:
   website:
@@ -1071,4 +1072,14 @@
   position: manager
   joined: 2013-09-01
   departed: 2016-09-01
+  whereabouts: Austin, TX
+- name: Rodrigo Fregoso Ocampo
+  position: rotation
+  joined: 2022-11-07
+  departed: 2023-04-21
+  whereabouts: Austin, TX
+- name: Wei-Che Tseng
+  position: rotation
+  joined: 2023-01-30
+  departed: 2023-04-21
   whereabouts: Austin, TX
