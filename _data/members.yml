@@ -308,8 +308,8 @@
   GScholar:
   linkedin: 
   joined: 2022-03-07
-  departed: 
-  whereabouts: UT Austin 
+  departed: 2023-05-08
+  whereabouts: Austin, TX
   
 - name: Carlos Arguello
   position: undergrad
@@ -487,6 +487,7 @@
   GScholar:
   joined: 2022-06-02
   departed: 2023-04-21
+  whereabouts: UT Austin
   
 - name: Steven Zilko
   position: rotation
@@ -506,6 +507,7 @@
   GScholar:
   joined: 2022-09-01
   departed: 2023-04-21
+  whereabouts: UT Austin
 - name: You-Chiun Chang
   position: gradstudent
   email: youchiun@utexas.edu
@@ -1079,9 +1081,9 @@
   position: rotation
   joined: 2022-11-07
   departed: 2023-04-21
-  whereabouts: Austin, TX
+  whereabouts: UT Austin
 - name: Wei-Che Tseng
   position: rotation
   joined: 2023-01-30
   departed: 2023-04-21
-  whereabouts: Austin, TX
+  whereabouts: UT Austin
