@@ -29,6 +29,8 @@
   quote: "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
   quote_author: Carl Sagan
   joined: 2022-07-11
+  departed: 2023-07-21
+  whereabouts: Austin, TX
 
 - name: Henry Garcia
   position: research_scientist
@@ -42,6 +44,8 @@
   quote: "Any sufficiently advanced technology is indistinguishable from magic."
   quote_author: Arthur C. Clarke
   joined: 2022-08-01
+  departed: 2023-05-24
+  whereabouts: Austin, TX
 
 - name: Selma Sinan
   position: research_scientist
@@ -469,6 +473,8 @@
   GitHub: andreaquezada
   linkedin: 
   joined: 2022-06-01
+  departed: 2023-08-18
+  whereabouts: Research fellowship in Germany
 - name: Zeyi (Joey) Yu
   position: rotation
   email: Zeyiyu@utexas.edu)
