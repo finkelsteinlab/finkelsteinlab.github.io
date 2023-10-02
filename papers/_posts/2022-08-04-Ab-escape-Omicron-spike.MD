@@ -2,12 +2,12 @@
 layout: paper
 title: "Antibody escape and cryptic cross-domain stabilization in the SARS-CoV-2 Omicron spike protein"
 volume: 30
-issue:
-pages: 1-30
+issue: 9
+pages: 1242-1254.e6
 year: "2022"
 shortref: "Javanmardi et al. CellHostMicrobe (2022)"
 nickname: "Ab-escape-Omicron-spike"
-journal: "CellHostMicrobe"
+journal: "Cell Host Microbe"
 authors: "Kamyab Javanmardi&dagger;, Thomas H. Segall-Shapiro, Chia-Wei Chou, Daniel R. Boutz, Randall J. Olsen, Xuping Xie, Hongjie Xia, Pei-Yong Shi, Charlie D. Johnson, Ankur Annapareddy, Scott Weaver, James M. Musser, Andrew D. Ellington, Ilya J. Finkelstein&dagger;, Jimmy D. Gollihar&dagger;(&dagger; co-corresponding)"
 pdf: 0080-2022-CellHostMicrobe-Javanmardi et al.pdf
 supplement: 0080-2022-CellHostMicrobe-Javanmardi et al-supplement.pdf

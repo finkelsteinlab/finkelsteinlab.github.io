@@ -2,7 +2,7 @@
 layout: paper
 title: "A kinetic model predicts SpCas9 activity, improves off-target classification, and reveals the physical basis of targeting fidelity"
 volume: 13 
-issue:
+issue: 1367
 pages:
 year: "2022"
 shortref: "Eslami-Mossallam et al. Nat. Commun."

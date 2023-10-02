@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Massively Parallel Selection of NanoCluster Beacons"
-volume: 
-issue:
-pages:
+volume: 34
+issue: 41
+pages: 
 year: "2022"
 shortref: "Kuo et al. AdvMater (2022)"
 nickname: "NanoCluster-Beacans"
