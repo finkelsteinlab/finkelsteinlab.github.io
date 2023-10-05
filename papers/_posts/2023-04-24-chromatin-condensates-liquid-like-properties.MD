@@ -8,7 +8,7 @@ year: "2023"
 shortref: "Gibson et al. PNAS (2023)"
 nickname: "Chromatin-condensates-liquid-like-properties"
 journal: "PNAS"
-authors: "Bryan A. Gibson, Claudia Blaukopf, Tracy Lou, Lynda K. Doolittle, Ilya J. Finkelstein, Geeta J. Narlikar, Daniel W. Gerlich, Michael K. Rosen "
+authors: "Bryan A. Gibson, Claudia Blaukopf, Tracy Lou, Lifeng Chen, Lynda K. Doolittle, Ilya J. Finkelstein, Geeta J. Narlikar, Daniel W. Gerlich, and Michael K. Rosen "
 pdf: 0083-2023-Gibson et al.pdf
 supplement: 0083-2023-Gibson et al-supplement.pdf
 doi: 10.1073/pnas.2218085120

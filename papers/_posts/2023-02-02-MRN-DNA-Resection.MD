@@ -8,7 +8,7 @@ year: "2023"
 shortref: "Soniat et al. JBC (2023)"
 nickname: "MRN-Resection"
 journal: "Journal of Biological Chemistry"
-authors: "Michael M. Soniat&dagger;, Gioachau Nguyen, Hung-Che Kuo, and Ilya J. Finkelstein&dagger; (&dagger; co-corresponding) "
+authors: "Michael M. Soniat&dagger;, Gioachau Nguyen, Hung-Che Kuo, and Ilya J. Finkelstein&dagger; (&dagger; co-corresponding)"
 pdf: 0082-2023-Soniat et al.pdf
 supplement: 0082-2023-Soniat et al-supplement.pdf
 doi: 10.1016/j.jbc.2022.102802

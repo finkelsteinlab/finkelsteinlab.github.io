@@ -8,7 +8,7 @@ year: "2023"
 shortref: "Zhang et al. Mol. Cell (2022)"
 nickname: "Cohesin-Rloops"
 journal: "Molecular Cell"
-authors: "Hongshan Zhang&#42;, Zhubing Shi &#42;, Edward J. Banigan, Yoori Kim, Hongtao Yu&dagger;, Xiao-chen Bai&dagger;, Ilya J. Finkelstein&dagger;(&#42; co-first authors) (&dagger; co-corresponding)"
+authors: "Hongshan Zhang&#42;, Zhubing Shi&#42;, Edward J. Banigan, Yoori Kim, Hongtao Yu&dagger;, Xiao-chen Bai&dagger;, Ilya J. Finkelstein&dagger;(&#42; co-first authors) (&dagger; co-corresponding)"
 pdf: 0084-2023-Zhang et al.pdf
 supplement: 0084-2023-Zhang et al-supplement.pdf
 doi: 10.1016/j.molcel.2023.07.006

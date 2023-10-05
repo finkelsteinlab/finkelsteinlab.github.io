@@ -8,7 +8,7 @@ year: "2022"
 shortref: "Eslami-Mossallam et al. Nat. Commun."
 nickname: "SpCas9 kinetic model"
 journal: "Nat. Commun."
-authors: "Behrouz Eslami-Mossallam&#42;, Misha Klein&#42;, Constantijn V. D. Smagt&#42;, Koen V. D. Sanden&#42;, Stephen K. Jones Jr., John A. Hawkins, Ilya J. Finkelstein, and Martin Depken(&#42; co-first authors) (&dagger; co-corresponding) "
+authors: "Behrouz Eslami-Mossallam&#42;, Misha Klein&#42;, Constantijn V. D. Smagt&#42;, Koen V. D. Sanden&#42;, Stephen K. Jones Jr., John A. Hawkins, Ilya J. Finkelstein, and Martin Depken (&#42; co-first authors) "
 pdf: 0077-2022-NatCommun-Eslami-Mossallam et al.pdf
 supplement: 0077-2022-NatCommun-Eslami-Mossallam et al-supplement.pdf
 doi: 10.1038/s41467-022-28994-2
