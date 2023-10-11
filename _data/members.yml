@@ -531,7 +531,44 @@
   ORCID:
   GScholar:
   joined: 2022-09-01
-
+- name: Fumin Chen
+  position: gradstudent
+  email: fuminchen@utexas.edu
+  twitter:
+  website:
+  image: fumin_chen_current.jpg
+  young_image: fumin_chen_young.jpg 
+  favorite_activities:
+    - Live music
+    - Paddleboarding
+    - Barbecue
+  quote: Science is a process of searching for the black cat in a dark room, even when there is no cat.
+  quote_author: Aristotle
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2023-08-21
+  departed: 
+  whereabouts: 
+- name: Marty Garcia 
+  position: gradstudent
+  email: martin.garcia@austin.utexas.edu
+  twitter:
+  website:
+  image: marty_garcia_current.jpg
+  young_image: marty_garcia_young.jpg 
+  favorite_activities:
+    - Trying new restaurants
+    - walking around new areas
+    - Going to the lake
+  quote: Life is like a box of chocolates. You never know what you’re gonna get.
+  quote_author: Forrest Gump
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2023-10-02
+  departed: 
+  whereabouts: 
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
