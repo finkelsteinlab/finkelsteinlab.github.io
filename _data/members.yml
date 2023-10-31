@@ -549,6 +549,26 @@
   joined: 2023-08-21
   departed: 
   whereabouts: 
+  
+- name: Jesse Buffington
+  position: gradstudent
+  email: jesse.buffington@utexas.edu
+  twitter:
+  website:
+  image: jesse_buffington_current.jpg
+  young_image: jesse_buffington_young.jpg 
+  favorite_activities:
+    - Hiking
+    - Escape Games
+    - Reading
+  quote: It’s a universal law– intolerance is the first sign of an inadequate education. An ill-educated person behaves with arrogant impatience, whereas truly profound education breeds humility.
+  quote_author: Aleksander Solzhenitsyn
+  CV:
+  ORCID:
+  GScholar: 
+  joined: 2023-12-07
+  departed: 
+  whereabouts:
 - name: Marty Garcia 
   position: rotation
   email: martin.garcia@austin.utexas.edu

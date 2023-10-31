@@ -229,11 +229,11 @@
 - date: 2022-10-10
   text: Dr. Mike Soniat starts working at Thomas Jefferson University as an [assistant professor](https://www.soniatlab.com/team) !
 - date: 2022-10-10
-  text: Jesse Buffington joins the Finkelstein lab as a rotation student!
-- date: 2022-11-07
   text: Undergradute Daphne Sahaya joins the Finkelstein lab!
 - date: 2022-11-07
   text: Rodrigo Fregoso Ocampo joins the Finkelstein lab as a rotation student!
+- date: 2022-10-10
+  text: Jesse Buffington joins the Finkelstein lab as a rotation student!
 - date: 2023-01-01
   text: Selma Sinan joins the Finkelstein lab as a research scientist!
 - date: 2023-01-30
@@ -244,3 +244,5 @@
   text: You-Chiun Chang joins the lab!
 - date: 2023-05-12
   text: Dr. Jim Rybarski departs the lab to work at Moderna in Boston, MA. Congratulations!
+- date: 2023-08-31
+  text: Dr. Andrea Quezada departs the lab to work at Max Delbrück Center in Berlin, Germany! Congratulations!
