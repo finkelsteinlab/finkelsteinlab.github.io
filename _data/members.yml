@@ -120,7 +120,7 @@
   joined: 2018-01-02
 
 - name: John Cooper
-  position: gradstudent
+  position: postdoc
   email: jpcoope@utexas.edu
   twitter:
   website:
@@ -135,7 +135,7 @@
   CV:
   ORCID:
   GScholar:
-  joined: 2017-11-13
+  joined: 2024-02-08
 
 - name: Kaylee Dillard
   position: postdoc
@@ -178,7 +178,7 @@
   whereabouts: California
 
 - name: Hung-Che (Jami) Kuo
-  position: gradstudent
+  position: postdoc
   email: hckuo@utexas.edu
   twitter:
   website:
@@ -193,7 +193,7 @@
   CV:
   ORCID:
   GScholar:
-  joined: 2018-02-12
+  joined: 2023-11-29
 
 - name: Jim Rybarski
   position: postdoc
@@ -235,7 +235,7 @@
   departed: 2021-08-27
   whereabouts: Abbott Laboratories (Illinois)
 - name: Kuang Hu
-  position: gradstudent
+  position: postdoc
   email: kh36969@utexas.edu
   twitter:
   website:
@@ -248,7 +248,7 @@
   CV:
   ORCID:
   GScholar:
-  joined: 2019-05-19
+  joined: 2023-11-17
   
 - name: Chia-Wei (Alvin) Chou
   position: gradstudent
@@ -547,8 +547,8 @@
   ORCID:
   GScholar: es6O3yAAAAAJ
   joined: 2023-08-21
-  departed: 
-  whereabouts: 
+  departed: 2024-02-28
+  whereabouts: China
   
 - name: Jesse Buffington
   position: gradstudent
@@ -586,8 +586,8 @@
   ORCID:
   GScholar:
   joined: 2023-10-02
-  departed: 
-  whereabouts: 
+  departed: 2023-12-02
+  whereabouts: UT Austin
 - name: Alexis Hill
   position: rotation
   email: alexis.hill@utexas.edu
