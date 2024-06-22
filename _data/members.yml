@@ -137,6 +137,23 @@
   GScholar:
   joined: 2018-01-08
 
+- name: Joseph Woodman
+  position: gradstudent
+  email: woodmanj@my.utexas.edu
+  twitter:
+  website:
+  image: joseph_woodman_current.jpg
+  young_image: joseph_woodman_young.jpg
+  favorite_activities:
+    - Seeing live music
+    - Watching movies at AFS Cinema
+    - Getting a drink at a dive bar
+  quote: "To create, one must first question everything."
+  quote_author: Eileen Gray
+  CV:
+  ORCID:
+  GScholar:
+  joined: 2024-02-05
 - name: Kaylee Dillard
   position: postdoc
   email: kaylee.dillard@utexas.edu
