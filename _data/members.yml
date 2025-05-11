@@ -136,6 +136,8 @@
   ORCID:
   GScholar:
   joined: 2018-01-08
+  departed: 2025-01-01
+  whereabouts: Postdoctoral Fellow at Vilnius University (Lithuania)
 
 - name: Joseph Woodman
   position: gradstudent
@@ -211,6 +213,8 @@
   ORCID:
   GScholar:
   joined: 2023-11-29
+  departed: 2024-08-01
+  whereabouts: Postdoctoral Associate at Broad Institute
 
 - name: Jim Rybarski
   position: postdoc
@@ -266,6 +270,8 @@
   ORCID:
   GScholar:
   joined: 2023-11-17
+  departed: 2024-08-01
+  whereabouts: TX
   
 - name: Chia-Wei (Alvin) Chou
   position: gradstudent
@@ -285,8 +291,8 @@
   GScholar:
   linkedin: 
   joined: 2020-02-03
-  departed: 
-  whereabouts: 
+  departed: 2025-01-01
+  whereabouts: Postdoctoral at UT Austin
   
 - name: Hayley Zorkic
   position: undergrad
@@ -391,8 +397,8 @@
   GScholar:
   linkedin: 
   joined: 2021-06-01
-  departed: 
-  whereabouts: 
+  departed: 2025-01-01
+  whereabouts: TX
   
 - name: Lianne Dubbs
   position: managerscientist
