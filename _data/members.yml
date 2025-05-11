@@ -171,28 +171,9 @@
   quote_author: Richard Feynman
   CV:
   ORCID:
-  GScholar: qaGQYYAAAAAJ
+  GScholar:
   joined: 2024-12-10
-  
- - name: Chien Hui
-  position: research_scientist
-  email: chienhuima@austin.utexas.edu
-  twitter:
-  website:
-  image: chien_hui_current.jpg
-  young_image: chien_hui_young.jpg
-  favorite_activities:
-    - Jogging in local parks of Austin.
-    - Meeting friends through volunteer work at TCML (Taiwan Center of Mandarin Learning).
-    - Travel twice a day from north to south and observe the changes in Austin.
-  quote: “The bolts of your gates will be iron and bronze, and your strength will equal your days.”
-  quote_author: Deuteronomy‬ ‭33‬:‭25‬ ‭NIV‬‬
-  CV:
-  ORCID:
-  GScholar: 
-  joined: 2025-05-01
-  
-  
+    
 - name: Kaylee Dillard
   position: postdoc
   email: kaylee.dillard@utexas.edu
