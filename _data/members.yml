@@ -187,6 +187,7 @@
   ORCID:
   GScholar:
   joined: 2024-02-05
+  departed: 2025-08-01
    
 - name: Kaylee Dillard
   position: postdoc
@@ -408,6 +409,26 @@
   GScholar:
   linkedin: 
   joined: 2022-11-07
+  departed: 2025-08-01
+  whereabouts: UT Austin 
+
+  tion: undergrad
+  email: zgg249@utexas.edu
+  twitter:
+  website:
+  image: zowie_current.jpg
+  young_image: zowie_young.jpg
+  favorite_activities:
+    - Exploring the city
+    - Volunteering for different organizations
+    - Finding new places to read
+  quote: Anyone who has never made a mistake has never tried anything new. 
+  quote_author: Albert Einstein
+  CV:
+  ORCID:
+  GScholar:
+  linkedin: 
+  joined: 2025-08-01
   departed: 
   whereabouts: UT Austin 
   
