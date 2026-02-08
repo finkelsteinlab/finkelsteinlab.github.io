@@ -1,18 +1,18 @@
 ---
 layout: paper
 title: "High-speed AFM imaging reveals DNA capture and loop extrusion dynamics by cohesin-NIPBL"
-volume: 
-issue:
-pages:
+volume: 299
+issue: 11
+pages: 105296
 year: "2023"
-shortref: "Kaur et al."
+shortref: "Kaur et al. JBC (2023)"
 nickname: "AFM-cohesin-NIPBL"
 journal: "Journal of Biological Chemistry"
-authors: "Parminder Kaur&dagger;, Xiaotong Lu, Qi Xu, Elizabeth Marie Irvin, Colette Pappas, Hongshan Zhang, Ilya J. Finkelstein, Zhubing Shi, Yizhi Jane Tao, Hongtao Yu, Hong Wang&dagger; (&dagger; co-corresponding) "
+authors: "Parminder Kaur &dagger;, Xiaotong Lu, Qi Xu, Elizabeth Marie Irvin, Colette Pappas, Hongshan Zhang, Ilya J. Finkelstein, Zhubing Shi, Yizhi Jane Tao, Hongtao Yu, and Hong Wang &dagger; (&dagger; co-corresponding)"
 pdf: 0085-2023-Kaur et al.pdf
 supplement: 
 doi: 10.1016/j.jbc.2023.105296
-pmcid:
+pmcid: PMC10656236
 pmid: 37774974
 extra_text: ''
 category: paper
