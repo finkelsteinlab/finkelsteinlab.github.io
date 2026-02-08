@@ -20,11 +20,16 @@ Ph.D. Chemistry
 [(thesis: ~4 MB PDF)](/assets/pdfs/IJF_thesis_ultrafast_protein_dynamics.pdf)
 
 ## Professional Experience
-  **Associate Professor (2019- )**
+  **Professor (2025-present)**  
   [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/),  
   [Livestrong Cancer Institute](https://dellmed.utexas.edu/units/livestrong-cancer-institutes),  
   [Institute for Cellular and Molecular Biology](https://icmb.utexas.edu/),  
   [Center for Systems and Synthetic Biology](https://cssb.utexas.edu/),  
+  [The University of Texas at Austin](https://www.utexas.edu/)
+
+  **Associate Professor (2019-2025)**  
+  [Department of Molecular Biosciences](https://molecularbiosci.utexas.edu/),  
+  [Livestrong Cancer Institute](https://dellmed.utexas.edu/units/livestrong-cancer-institutes),  
   [The University of Texas at Austin](https://www.utexas.edu/)
   
   **Assistant Professor (2012-2019)**  
@@ -38,22 +43,24 @@ Ph.D. Chemistry
   Stanford University (with [Michael D. Fayer](https://web.stanford.edu/group/fayer/))
 
 ## Awards and Honors
-* Provost's Mentored Faculty Scholar
-* Lorene Morrow Kelley Research Fellowship
+* Edith and Peter O'Donnell Award in Biology, TAMEST (2025)
+* Provost's Aspiring and Research Leader Academy, UT-Austin (2025)
+* WelchX Collaborative Award, UT-Austin (2024)
+* Provost's Mentored Faculty Scholar, UT-Austin (2021)
+* Lorene Morrow Kelley Research Fellowship, UT-Austin (2021)
 * Norman Hackerman Award in Chemical Sciences, Welch Foundation (2021)
 * Fellow, William H. Tonn Professorial Fund (2018)
-* National Science Foundation CAREER Award (2015) 		
+* National Science Foundation CAREER Award (2015)
 * American Federation of Aging Research Junior Fellow (2014)
 * Emerging Investigator, Molecular BioSystems (2013)
 * Protege, The Academy of Medicine, Engineering and Science of Texas (2013)
-* CPRIT Fellow in Cancer Research (2012) 			
+* CPRIT Fellow in Cancer Research (2012)
 * NIH (K99/R00) Pathway to Independence Award (2011)
-* NIH NRSA (F32) Postdoctoral Fellow (2007)			
-* Veatch Graduate Fellowship, Stanford University (2005) 		
-* McBain and Stauffer Graduate Fellowship, Stanford University (2003)  
-* Chevron Research Fellowship (2000) 						
+* NIH NRSA (F32) Postdoctoral Fellow (2007)
+* Veatch Graduate Fellowship, Stanford University (2005)
+* McBain and Stauffer Graduate Fellowship, Stanford University (2003)
 
-## Five Significant Publications (from [76+](/papers/))
+## Five Significant Publications (from [97+](/papers/))
 * [**Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips.**](/papers/paper/champ-cascade)  
 Jung C.,* Hawkins JA.,* Jones SK.,* Xiao Y., Rybarski JR., Dillard KE., Hussmann J., Saifuddin FA., Savran CA., Ellington AD., Ke A., Press WH., Finkelstein IJ.   
 (2017). _Cell_ **170**, 35–47.e13. (* equal contribution)
@@ -86,13 +93,19 @@ _Nature Communications_ **7**, 10607.
 Post-replicative mismatch repair must identify rare DNA lesions (~1 mispair in 107-108 basepairs) in chromatin. Using single-molecule imaging, we demonstrate how two related eukaryotic mismatch sensors recognize these lesions on chromatin. Both factors can scan naked DNA, but only one of these complexes can also navigate on a chromatinized DNA substrate. This work begins to define the mechanisms of post-replicative mismatch repair on chromatin.
 
 ## Recent Professional Activities  
-* ASCB Faculty Research and Eductaion Development Mentor (2021)
+* Macromolecular Structure and Function (MSFC) Study Section (ad hoc), NIH (2025)
+* Cell and Molecular Technologies (CMT) Study Section (ad hoc), NIH (2025)
+* NCI Pathway to Independence Award Study Section (ad hoc), NIH (2024)
+* ASCB Faculty Research and Education Development Mentor (2021)
+* Genes, Genomes and Genetics Study Section (ad hoc), NIH (2021)
+* Genetic Mechanisms Study Section, NSF (2021)
+* PCMB Study Section, NIH (2021)
+* External PhD Thesis Committee, TU Delft (2019)
 * Organizer: Molecular Biophysics Focus Group, Biophysical Society (2019)
-* Austin Forum on Technology and Society co-panelist (2018)
-* SXSW Interactive Conference co-panelist (2018)
 * Member, Biophysical Society
-* Journal Reviewer: Nature, Science, Cell, Molecular Cell, Cell Reports, eLife, Proceedings of the National Academies of Science, Nature Communications, Nature Chemical Biology, Nature Structural and Molecular Biology, Nucleic Acids Research, Journal of the American Chemical Society, Scientific Reports, Journal of Biological Chemistry, Biochemistry, J Phys Chem B, PloS ONE, Analytical Chemistry, Analytical Biochemistry, BioEssays, Methods
-* Grant Reviewer: NSF, NIH, DHS, HHMI, French National Cancer Institute, Dutch Foundation for Fundamental Research
+* Member, American Association for the Advancement of Science
+* Journal Reviewer: Nature, Science, Cell, Molecular Cell, Cell Reports, eLife, Proceedings of the National Academies of Science, Nature Communications, Nature Chemical Biology, Nature Structural and Molecular Biology, Nucleic Acids Research, Journal of the American Chemical Society, Scientific Reports, Journal of Biological Chemistry, Journal of Molecular Biology, Biochemistry, J Phys Chem B, PLOS Bio, PLOS ONE, Analytical Chemistry, Analytical Biochemistry, BioEssays, Methods
+* Grant Reviewer: NIH, NSF, French National Cancer Institute, Dutch Foundation for Fundamental Research on Matter, HHMI International Scholars Program
 
 
-_Updated March 8, 2022_
+_Updated February 8, 2026_
