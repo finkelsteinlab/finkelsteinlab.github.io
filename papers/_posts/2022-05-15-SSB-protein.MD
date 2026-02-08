@@ -12,7 +12,7 @@ authors: "Alexander G Kozlov, Xian Cheng, Hongshan Zhang, Min Kyung Shinn, Eliza
 pdf: 0079-2022-JMolBio-Kozlov et al.pdf
 supplement: 0079-2022-JMolBio-Kozlov et al-supplement.pdf
 doi: 10.1016/j.jmb.2022.167562
-pmcid:
+pmcid: PMC9400470
 pmid: 35351518
 extra_text: ''
 category: paper

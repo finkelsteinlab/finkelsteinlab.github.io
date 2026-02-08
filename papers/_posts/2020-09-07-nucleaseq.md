@@ -2,17 +2,17 @@
 layout: paper
 title: "Massively parallel kinetic profiling of natural and engineered CRISPR nucleases"
 volume: 39
-issue:
+issue: 1
 pages: 84-93
-year: "2020"
-shortref: "Jones_et al._ NatBiotech (2020)"
+year: "2021"
+shortref: "Jones et al. Nat Biotechnol (2021)"
 nickname: "NucleaSeq"
 journal: "Nature Biotechnology"
 authors: "Stephen K. Jones Jr.&#42;, John A. Hawkins&#42;, Nicole V. Johnson, Cheulhee Jung, Kuang Hu, James R. Rybarski, Janice S. Chen, Jennifer A. Doudna, William H. Press & Ilya J. Finkelstein; (&#42; co-first authors)"
 pdf: 0063-2020-NatBiotech-Jones et al.pdf
 supplement: 0063-2020-NatBiotech-Jones et al-supplement.pdf
 doi: 10.1038/s41587-020-0646-5
-pmcid:
+pmcid: PMC9665413
 pmid: 32895548
 extra_text: ''
 category: paper

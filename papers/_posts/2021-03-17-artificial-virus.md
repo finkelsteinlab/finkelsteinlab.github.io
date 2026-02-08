@@ -12,7 +12,7 @@ authors: "Carlos Calcines-Cruz, Ilya J. Finkelstein&dagger; & Armando Hernandez-
 pdf: 0067-2021-NanoLett-Calcines-Cruz et al.pdf
 supplement: 0067-2021-NanoLett-Calcines-Cruz et al-supplement.pdf
 doi: 10.1021/acs.nanolett.0c04640
-pmcid:
+pmcid: PMC9724498
 pmid: 33729813
 extra_text: ''
 category: paper

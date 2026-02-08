@@ -3,7 +3,7 @@ layout: paper
 title: "Massively Parallel Selection of NanoCluster Beacons"
 volume: 34
 issue: 41
-pages: 
+pages: e2204957
 year: "2022"
 shortref: "Kuo et al. AdvMater (2022)"
 nickname: "NanoCluster-Beacans"
@@ -12,7 +12,7 @@ authors: "Yu-An Kuo, Cheulhee Jung, Yu-An Chen, Hung-Che Kuo, Oliver S. Zhao, Tr
 pdf: 0081-2022-AdvMater-Kuo et al.pdf
 supplement: 0081-2022-AdvMater-Kuo et al-supplement.pdf
 doi: 10.1002/adma.202204957
-pmcid:
+pmcid: PMC9588665
 pmid: 35945159
 extra_text: ''
 category: paper
