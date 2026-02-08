@@ -12,7 +12,7 @@ authors: "Ching-Lin Hsieh, Jory A. Goldsmith, Jeffrey M. Schaub, Andrea M. DiVen
 pdf: 0061-2020-Science-Hsieh et al.pdf
 supplement: 0061-2020-Science-Hsieh et al-supplement.pdf
 doi: 10.1126/science.abd0826
-pmcid:
+pmcid: PMC7402631
 pmid: 32703906
 extra_text: '
 **Press:**

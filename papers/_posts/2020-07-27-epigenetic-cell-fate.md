@@ -2,7 +2,7 @@
 layout: paper
 title: "Epigenetic cell fate in Candida albicans is controlled by transcription factor condensates acting at super-enhancer-like elements"
 volume: 5
-issue:
+issue: 11
 pages: 1374-1389
 year: "2020"
 shortref: "Frazer et al. NatMicrobiol (2020)"
@@ -12,7 +12,7 @@ authors: "Corey Frazer&#42;, Mae I. Staples&#42;, Yoori Kim, Matthew Hirakawa, M
 pdf: 0062-2020-NatMicrobiol-Frazer et al.pdf
 supplement: 
 doi: 10.1038/s41564-020-0760-7
-pmcid:
+pmcid: PMC7581547
 pmid: 32719507
 extra_text: ''
 category: paper
