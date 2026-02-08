@@ -9,7 +9,7 @@ shortref: "Nalefski et al. Scientific Reports (2025)"
 nickname: "Room-Temperature-CRISPR-Diagnostics"
 journal: "Scientific Reports"
 authors: "Eric A. Nalefski, Selma Sinan, Jason L. Cantera, Anastasia G. Kim, Remy M. Kooistra, Rafael E. Rivera, Jordyn P. Janshen, Sanchita Bhadra, Joshua D. Bishop, Andrew D. Ellington, Ilya J. Finkelstein, and Damian Madan"
-pdf:
+pdf: 0094-2025-Nalefski et al-SciRep.pdf
 supplement:
 doi: 10.1038/s41598-025-86373-5
 pmcid: PMC11785965

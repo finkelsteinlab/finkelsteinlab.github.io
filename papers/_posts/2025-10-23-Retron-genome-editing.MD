@@ -9,7 +9,7 @@ shortref: "Buffington et al. Nat Biotechnol (2025)"
 nickname: "Retron-genome-editing"
 journal: "Nature Biotechnology"
 authors: "Jesse D. Buffington&#42;, Hung-Che Kuo&#42;, Kuang Hu&#42;, You-Chiun Chang&#42;, Kamyab Javanmardi&#42;, Brittney Voigt, Yi-Ru Li, Mary E. Little, Sravan K. Devanathan, Blerta Xhemalçe, Ryan S. Gray, and Ilya J. Finkelstein &dagger; (&#42; co-first authors) (&dagger; corresponding)"
-pdf:
+pdf: 0093-2025-Buffington et al-NatBiotech.pdf
 supplement:
 doi: 10.1038/s41587-025-02879-3
 pmcid:

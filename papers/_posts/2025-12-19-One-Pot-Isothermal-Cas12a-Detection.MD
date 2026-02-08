@@ -9,7 +9,7 @@ shortref: "Sinan et al. ACS Synth Biol (2025)"
 nickname: "One-Pot-Isothermal-Cas12a-Detection"
 journal: "ACS Synthetic Biology"
 authors: "Selma Sinan, Remy M. Kooistra, Karunya Rajaraman, Zeba Islam, Damian Madan, Eric A. Nalefski &dagger;, and Ilya J. Finkelstein &dagger; (&dagger; co-corresponding)"
-pdf:
+pdf: 0096-2025-Sinan et al-ACSSynBio.pdf
 supplement:
 doi: 10.1021/acssynbio.5c00463
 pmcid:

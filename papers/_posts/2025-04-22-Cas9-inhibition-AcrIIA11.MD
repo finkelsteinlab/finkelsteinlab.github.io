@@ -9,7 +9,7 @@ shortref: "Dillard et al. NAR (2025)"
 nickname: "Cas9-inhibition-AcrIIA11"
 journal: "Nucleic Acids Research"
 authors: "Kaylee E. Dillard, Hongshan Zhang, Lianne Z. Dubbs, Chia-Wei Chou, Cynthia Terrace, Kamyab Javanmardi, Wantae Kim, Kevin J. Forsberg, and Ilya J. Finkelstein &dagger; (&dagger; corresponding)"
-pdf: 2021-BioRxiv-Dillard et al.pdf
+pdf: 0092-2025-Dillard et al-NAR.pdf
 supplement: 2021-BioRxiv-Dillard et al-supplement.pdf
 doi: 10.1093/nar/gkaf318
 pmcid: PMC12022753

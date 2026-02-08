@@ -9,7 +9,7 @@ shortref: "Nalefski et al. NAR (2025)"
 nickname: "Cas12a-trans-cleavage-diagnostics"
 journal: "Nucleic Acids Research"
 authors: "Eric A. Nalefski, Samantha Hedley, Karunya Rajaraman, Remy M. Kooistra, Ishira Parikh, Selma Sinan, Ilya J. Finkelstein, and Damian Madan"
-pdf:
+pdf: 0095-2025-Nalefski et al-NAR.pdf
 supplement:
 doi: 10.1093/nar/gkaf712
 pmcid: PMC12604663
