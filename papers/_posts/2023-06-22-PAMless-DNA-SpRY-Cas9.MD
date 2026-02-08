@@ -1,19 +1,19 @@
 ---
 layout: paper
-title: "Unraveling the mechanisms of PAMless DNA interrogation by SpRY Cas9"
-volume: 
-issue:
-pages:
-year: "2023"
-shortref: "Hibshman et al. BioRxiv (2023)"
+title: "Unraveling the mechanisms of PAMless DNA interrogation by SpRY-Cas9"
+volume: 15
+issue: 1
+pages: 3663
+year: "2024"
+shortref: "Hibshman et al. Nat Commun (2024)"
 nickname: "PAMless-DNA-SpRY-Cas9"
-journal: "BioRxiv"
-authors: "Grace N. Hibshman&#42;, Jack P. K. Bravo&#42;&dagger;, Hongshan Zhang, Tyler L. Dangerfield, Ilya J. Finkelstein, Kenneth A. Johnson, David W. Taylor&dagger; (&#42; co-first authors) (&dagger; co-corresponding)"
+journal: "Nature Communications"
+authors: "Grace N. Hibshman&#42;, Jack P. K. Bravo&#42;, Matthew M. Hooper, Tyler L. Dangerfield, Hongshan Zhang, Ilya J. Finkelstein, Kenneth A. Johnson, and David W. Taylor &dagger; (&#42; co-first authors) (&dagger; corresponding)"
 pdf: 2023-BioRxiv-Hibshman et al.pdf
 supplement: 
-doi: 10.1101/2023.06.22.546082
-pmcid:
-pmid: 
+doi: 10.1038/s41467-024-47830-3
+pmcid: PMC11061278
+pmid: 38688943
 extra_text: ''
 category: paper
 tags: 
