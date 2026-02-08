@@ -1,19 +1,19 @@
 ---
 layout: paper
-title: "Asgard archaea defense systems and their roles in the origin of immunity in eukaryotes"
-volume: 
-issue:
-pages:
-year: "2023"
-shortref: "Leão et al. BioRxiv (2023)"
+title: "Asgard archaea defense systems and their roles in the origin of eukaryotic immunity"
+volume: 15
+issue: 1
+pages: 6386
+year: "2024"
+shortref: "Leão et al. Nat Commun (2024)"
 nickname: "archaea-defense-immunity"
-journal: "BioRxiv"
-authors: "Pedro Leão&dagger;, Mary E. Little, Kathryn E. Appler, Daphne Sahaya, Emily Aguilar-Pine, Kathryn Currie, Ilya J. Finkelstein, Valerie De Anda1, and Brett J. Baker&dagger; (&dagger; co-corresponding) "
+journal: "Nature Communications"
+authors: "Pedro Leão, Mary E. Little, Kathryn E. Appler, Daphne Sahaya, Emily Aguilar-Pine, Kathryn Currie, Ilya J. Finkelstein, Valerie De Anda, and Brett J. Baker &dagger; (&dagger; corresponding)"
 pdf: 2023-BioRxiv-Leão et al.pdf
 supplement: 2023-BioRxiv-Leão et al-supplement.pdf
-doi: 10.1101/2023.09.13.557551
-pmcid:
-pmid: 
+doi: 10.1038/s41467-024-50195-2
+pmcid: PMC11291487
+pmid: 39085212
 extra_text: ''
 category: paper
 tags:
