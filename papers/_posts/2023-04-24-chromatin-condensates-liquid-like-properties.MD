@@ -3,7 +3,7 @@ layout: paper
 title: "In Diverse Conditions, Intrinsic Chromatin Condensates Have Liquid-like Material Properties"
 volume: 120
 issue: 18
-pages:
+pages: e2218085120
 year: "2023"
 shortref: "Gibson et al. PNAS (2023)"
 nickname: "Chromatin-condensates-liquid-like-properties"
