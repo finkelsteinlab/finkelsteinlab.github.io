@@ -1,19 +1,19 @@
 ---
 layout: paper
 title: "Distinct horizontal transfer mechanisms for type I and type V CRISPR-associated transposons"
-volume: 
-issue:
-pages:
-year: "2023"
-shortref: "Hu et al. BioRxiv (2023)"
+volume: 15
+issue: 1
+pages: 6653
+year: "2024"
+shortref: "Hu et al. Nat Commun (2024)"
 nickname: "horizontal-transfer"
-journal: "BioRxiv"
-authors: "Kuang Hu&dagger;, Chia-Wei Chou, Claus O. Wilke, Ilya J. Finkelstein&dagger; (&dagger; co-corresponding) "
+journal: "Nature Communications"
+authors: "Kuang Hu, Chia-Wei Chou, Claus O. Wilke, and Ilya J. Finkelstein &dagger; (&dagger; corresponding)"
 pdf: 2023-BioRxiv-Hu et al.pdf
 supplement: 2023-BioRxiv-Hu et al-supplement.pdf
-doi: 10.1101/2023.03.03.531003
-pmcid:
-pmid: 
+doi: 10.1038/s41467-024-50816-w
+pmcid: PMC11300857
+pmid: 39103341
 extra_text: ''
 category: paper
 tags: gene editing, transposition, bacterial defense, selfish genetic element
