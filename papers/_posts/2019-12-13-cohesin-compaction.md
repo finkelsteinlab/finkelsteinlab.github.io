@@ -12,8 +12,8 @@ authors: "Yoori Kim&#42;, Zhubing Shi&#42;, Hongshan Zhang, Ilya J. Finkelstein&
 pdf: 0057-2019-Science-Kim et al.pdf
 supplement: 0057-2019-Science-Kim et al-supplement.pdf
 doi: 10.1126/science.aaz4475
-pmcid:
-pmid: 31780627 
+pmcid: PMC7387118
+pmid: 31780627
 extra_text: ''
 category: paper
 tags:

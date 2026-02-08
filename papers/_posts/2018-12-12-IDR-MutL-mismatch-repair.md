@@ -2,18 +2,18 @@
 layout: paper
 title: "Intrinsically disordered regions regulate both catalytic and noncatalytic
 activities of the MutL&#945; mismatch repair complex."
-volume:
-issue:
-pages:
-year: "2018"
-shortref: "Kim and Furman et al. NAR (2018)"
+volume: 47
+issue: 4
+pages: 1823-1835
+year: "2019"
+shortref: "Kim et al. NAR (2019)"
 nickname: "mutl intrinsically disordered regions"
 journal: "Nucleic Acids Research"
 authors: "Yoori Kim&#42;, Christopher M. Furman&#42;, Carol M. Manhart, Eric Alani&dagger;, and Ilya J. Finkelstein&dagger; (&#42; co-first authors) (&dagger; co-corresponding) "
 pdf: 0048-2018-NAR-Kim et al.pdf
 supplement: 0048-2018-NAR-Kim et al-supplement.pdf
 doi: 10.1093/nar/gky1244
-pmcid:
+pmcid: PMC6393296
 pmid: 30541127
 extra_text: ''
 category: paper
