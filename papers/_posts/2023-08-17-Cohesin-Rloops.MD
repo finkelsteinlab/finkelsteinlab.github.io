@@ -5,7 +5,7 @@ volume: 83
 issue: 16
 pages: 2856-2871.e8
 year: "2023"
-shortref: "Zhang et al. Mol. Cell (2022)"
+shortref: "Zhang et al. Mol Cell (2023)"
 nickname: "Cohesin-Rloops"
 journal: "Molecular Cell"
 authors: "Hongshan Zhang&#42;, Zhubing Shi&#42;, Edward J. Banigan, Yoori Kim, Hongtao Yu&dagger;, Xiao-chen Bai&dagger;, Ilya J. Finkelstein&dagger;(&#42; co-first authors) (&dagger; co-corresponding)"
