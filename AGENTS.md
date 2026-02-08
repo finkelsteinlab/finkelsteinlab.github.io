@@ -261,9 +261,11 @@ Update title, address, phone, email as needed. Contains an embedded Google Maps 
 
 **File:** `index.html`
 
-- **Carousel:** Manually defined image slides from `assets/images/gallery/`. To add/remove images, edit the carousel HTML. Each slide needs a `<li>` indicator and a `<div class="item">` block.
-- **News widget:** Auto-shows the 5 most recent `_data/news.yml` entries.
-- **Papers widget:** Auto-shows the 4 most recent `papers/_posts/` entries.
+All content updates are done via YAML and markdown files — you should never need to edit HTML templates. The one exception is the homepage carousel, which has hardcoded image slides.
+
+- **Carousel (only reason to edit `index.html`):** Manually defined image slides from `assets/images/gallery/`. Each slide needs a `<li>` indicator and a `<div class="item">` block.
+- **News widget:** Auto-populated from the 5 most recent `_data/news.yml` entries.
+- **Papers widget:** Auto-populated from the 4 most recent `papers/_posts/` entries.
 - **Description text** at the top links to research page anchors.
 
 ---
