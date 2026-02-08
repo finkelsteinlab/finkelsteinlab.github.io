@@ -1,13 +1,13 @@
 ---
 layout: paper
 title: "A kinetic model predicts SpCas9 activity, improves off-target classification, and reveals the physical basis of targeting fidelity"
-volume: 13 
-issue: 1367
-pages:
+volume: 13
+issue: 1
+pages: 1367
 year: "2022"
-shortref: "Eslami-Mossallam et al. Nat. Commun."
-nickname: "SpCas9 kinetic model"
-journal: "Nat. Commun."
+shortref: "Eslami-Mossallam et al. Nat Commun (2022)"
+nickname: "SpCas9-kinetic-model"
+journal: "Nature Communications"
 authors: "Behrouz Eslami-Mossallam&#42;, Misha Klein&#42;, Constantijn V. D. Smagt&#42;, Koen V. D. Sanden&#42;, Stephen K. Jones Jr., John A. Hawkins, Ilya J. Finkelstein, and Martin Depken (&#42; co-first authors) "
 pdf: 0077-2022-NatCommun-Eslami-Mossallam et al.pdf
 supplement: 0077-2022-NatCommun-Eslami-Mossallam et al-supplement.pdf
