@@ -1,17 +1,17 @@
 ---
 layout: paper
-title: "Structural Basis for Target Discrimination and Activation by Cas13d. "
+title: "Structural Basis for Target Discrimination and Activation by Cas13d"
 volume: 
 issue: 
 pages: 
-year: "2024"
-shortref: "Chia-Wei Chou - Cas13d structure (2024)"
-nickname: "Cas13d structure"
-journal: "Submitted"
-authors: "Chia-Wei Cho;, Selma Sinan;, Hung-Che Kuo;, Carlos Arguello;, Rick Russell, Ilya J. Finkelstein &dagger; (&dagger; co-corresponding)"
+year: "2025"
+shortref: "Chou et al. bioRxiv (2025)"
+nickname: "Cas13d-structure"
+journal: "bioRxiv"
+authors: "Chia-Wei Chou, Selma Sinan, Hung-Che Kuo, Carlos Arguello, Daphne Sahaya, Rick Russell, and Ilya J. Finkelstein &dagger; (&dagger; corresponding)"
 pdf: 
 supplement:
-doi: 10.1038/s44319-024-00285-5
+doi: 10.1101/2025.09.12.675955
 pmcid: 
 pmid: 
 extra_text: ''
