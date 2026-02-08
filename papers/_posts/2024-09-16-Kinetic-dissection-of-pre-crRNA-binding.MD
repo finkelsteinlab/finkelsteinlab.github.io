@@ -5,15 +5,15 @@ volume: 30
 issue: 10
 pages: 1345-1355
 year: "2024"
-shortref: "Kinetic dissection of pre-crRNA binding  (2024)"
-nickname: "Kinetic dissection of pre-crRNA binding "
+shortref: "Sinan et al. RNA (2024)"
+nickname: "Kinetic-dissection-pre-crRNA-binding"
 journal: "RNA"
-authors: "Selma Sinan;, Nathan M Appleby;, Chia-Wei Chou ;, Ilya J Finkelstein ;, Rick Russell  &dagger; (&dagger; co-corresponding)"
-pdf: 0089-RNA-2024-Sinan
-supplement: 0089-RNA-2024-Sinan-Supplement
-doi:  10.1261/rna.080088.124
-pmcid: 
-pmid: 
+authors: "Selma Sinan, Nathan M. Appleby, Chia-Wei Chou, Ilya J. Finkelstein, and Rick Russell &dagger; (&dagger; corresponding)"
+pdf: 0089-RNA-2024-Sinan.pdf
+supplement: 0089-RNA-2024-Sinan-Supplement.pdf
+doi: 10.1261/rna.080088.124
+pmcid: PMC11404446
+pmid: 39009379
 extra_text: ''
 category: paper
 tags: CRISPR-Cas12a, Kinetic
