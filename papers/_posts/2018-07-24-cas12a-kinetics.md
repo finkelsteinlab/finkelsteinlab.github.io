@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a."
-volume:
-issue:
-pages:
+volume: 71
+issue: 5
+pages: 816-824.e3
 year: "2018"
 shortref: "Strohkendl _et al._ Mol. Cell (2018)"
 nickname: "cas12a-kinetics"
@@ -12,7 +12,7 @@ authors: "Isabel Strohkendl, Fatema A. Saifuddin, James R. Rybarski, Ilya J. Fin
 pdf: 0044-2018-MolCell-Strohkendl et al.pdf
 supplement: 0044-2018-MolCell-Strohkendl et al-supplement.pdf
 doi: 10.1016/j.molcel.2018.06.043
-pmcid:
+pmcid: PMC6679935
 pmid: 30078724
 extra_text: '
 **Press:**

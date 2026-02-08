@@ -1,9 +1,9 @@
 ---
 layout: paper
 title: "Assessing Protein Dynamics on Low-Complexity Single-Stranded DNA Curtains."
-volume:
-issue:
-pages:
+volume: 34
+issue: 49
+pages: 14882-14890
 year: "2018"
 shortref: "Schaub _et al._ Langmuir (2018)"
 nickname: ssDNA-curtains-method
@@ -12,7 +12,7 @@ authors: "Jeffrey M. Schaub, Hongshan Zhang, Michael M. Soniat, Ilya J. Finkelst
 pdf: 0045-2018-Langmuir-Schaub et al.pdf
 supplement: 0045-2018-Langmuir-Schaub et al-supplement.pdf
 doi: 10.1021/acs.langmuir.8b01812
-pmcid:
+pmcid: PMC6679933
 pmid: 30044093
 category: paper
 tags: [single molecule; DNA curtain; RPA, SSB, rolling circle replication]
