@@ -7,8 +7,8 @@ pages: 191-216
 year: "2024"
 shortref: "Quezada et al. MIMB (2024)"
 nickname: "Mammalian-Antigen-Display"
-journal: "MIMB"
-authors: "Andrea Quezada  &#42;&dagger;, Ankur Annapareddy &#42;, Kamyab Javanmardi ;, John Cooper ;, Ilya J Finkelstein &dagger;(&dagger; co-corresponding)"
+journal: "Methods in Molecular Biology"
+authors: "Andrea Quezada, Ankur Annapareddy, Kamyab Javanmardi, John Cooper, and Ilya J. Finkelstein &dagger; (&dagger; corresponding)"
 pdf: 0087-2024-Quezada et al.pdf
 supplement: 
 doi: 10.1007/978-1-0716-3666-4_12
