@@ -1,19 +1,19 @@
 ---
 layout: paper
 title: "PARP1 condensates differentially partition DNA repair proteins and enhance DNA ligation"
-volume: 32
-issue: 
-pages: 1-32
+volume: 25
+issue: 12
+pages: 5635-5666
 year: "2024"
-shortref: "PARP1 condensates EMBO Rep. (2024)"
-nickname: "PARP1 condensates "
-journal: "EMBO Rep."
-authors: "Christopher Chin Sang;, Gaelen Moore;, Maria Tereshchenko;, Hongshan Zhang;, Michael L Nosella;, Morgan Dasovich;, T Reid Alderson;, Anthony K L Leung;, Ilya J Finkelstein;, Julie D Forman-Kay;, and Hyun O Lee &dagger; (&dagger; co-corresponding)"
+shortref: "Chin Sang et al. EMBO Rep (2024)"
+nickname: "PARP1-condensates"
+journal: "EMBO Reports"
+authors: "Christopher Chin Sang, Gaelen Moore, Maria Tereshchenko, Hongshan Zhang, Michael L. Nosella, Morgan Dasovich, T. Reid Alderson, Anthony K. L. Leung, Ilya J. Finkelstein, Julie D. Forman-Kay, and Hyun O. Lee &dagger; (&dagger; corresponding)"
 pdf: 0091-2024-PARP1-condensates.pdf
 supplement: 0091-2024-PARP1-condensates-supplement.pdf
 doi: 10.1038/s44319-024-00285-5
-pmcid: 
-pmid: 
+pmcid: PMC11624282
+pmid: 39496836
 extra_text: ''
 category: paper
 tags: ADP-Ribosylation; Biomolecular Condensates; DNA Repair; PARP1; Phase Separation.
