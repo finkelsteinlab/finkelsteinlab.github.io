@@ -2,18 +2,18 @@
 layout: paper
 title: "Massively Parallel Profiling of RNA-targeting CRISPR-Cas13d"
 volume: 15
-issue: 498
-pages: 
+issue: 1
+pages: 498
 year: "2024"
-shortref: "Kuo et al. Nature Communications (2024)"
+shortref: "Kuo et al. Nat Commun (2024)"
 nickname: "Massively-Parallel-Profiling-CRISPR-Cas13d"
 journal: "Nature Communications"
-authors: "Hung-Che Kuo&dagger;, Joshua Prupes;, Chia-Wei Chou;, Ilya J. Finkelstein &dagger; (&dagger; co-corresponding)"
+authors: "Hung-Che Kuo &dagger;, Joshua Prupes, Chia-Wei Chou, and Ilya J. Finkelstein &dagger; (&dagger; co-corresponding)"
 pdf: 0086-2024-Kuo et al.pdf
 supplement: 0086-2024-Kuo et al-supplement.pdf
 doi: 10.1038/s41467-024-44738-w
-pmcid: 
-pmid: 
+pmcid: PMC10786891
+pmid: 38216559
 extra_text: ''
 category: paper
 tags: RNA-targeting CRISPR-Cas13d, CRISPR-Cas
