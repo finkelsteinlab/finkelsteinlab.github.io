@@ -24,9 +24,6 @@ Prospective graduate students with a strong background in molecular biophysics, 
 
 # Undergraduate Students
 
-The laboratory strives to include exceptional undergraduates with prior research experience in the life of the lab. To get started in research, please apply to these or related [Freshman Research Initiative](https://cns.utexas.edu/fri) streams:
-* [Antibiotics](https://cns.utexas.edu/component/cobalt/item/1423-antibiotics-discovery-and-function?Itemid=1971)
-* [Aptamer](https://cns.utexas.edu/component/cobalt/item/1424-aptamer?Itemid=1971)
-* [BioBricks](https://cns.utexas.edu/component/cobalt/item/1426-biobricks?Itemid=1971)
+The laboratory strives to include exceptional undergraduates with prior research experience in the life of the lab. To get started in research, please apply to our [BioBricks for Molecular Machines](https://fri.cns.utexas.edu/research-streams/biobricks) stream or related streams in the [Freshman Research Initiative](https://fri.cns.utexas.edu/).
 
 Students that are interested in joining the lab are encouraged to [email Ilya](mailto:ilya@finkelsteinlab.org) a resume, unofficial transcript, and a short (one-page) **summary of their prior research project**. Applications without a one page research summary will not be considered.
