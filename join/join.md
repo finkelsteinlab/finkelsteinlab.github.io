@@ -4,12 +4,12 @@ The Finkelstein group is an interdisciplinary team of biophysicists seeking to d
 
 Applicants with a strong background in bioinformatics, molecular (bio)physics, biomedical engineering, or computer science are strongly encouraged to apply. However, enthusiasm, a strong work ethic and a record of success in your graduate career are the only requirements. Please email Ilya a CV and a cover letter that explains why you are interested in the lab. In your email, please indicate whether you are eligible for postdoc fellowships, such as:
 
-* [NRSA NIH Postdoctoral Fellowship](https://grants.nih.gov/grants/guide/pa-files/PA-16-307.html)
-* [HFSP Postdoctoral Fellowship](http://www.hfsp.org/funding/postdoctoral-fellowships)
-* [Helen Hay Whitney Fellowship](http://hhwf.org/research-fellowship/)
+* [NRSA NIH Postdoctoral Fellowship (F32)](https://researchtraining.nih.gov/programs/fellowships/F32)
+* [HFSP Postdoctoral Fellowship](https://www.hfsp.org/funding/postdoctoral-fellowships)
+* [Helen Hay Whitney Fellowship](https://hhwf.org/research-fellowship/)
 * [Damon Runyon Fellowship](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-* [American Cancer Society Fellowship](https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/postdoctoral-fellowships.html)
-* [Jane Coffin Childs Fellowship](https://www.jccfund.org/fellowship-information/)
+* [American Cancer Society Fellowship](https://www.cancer.org/research/we-fund-cancer-research.html)
+* [Jane Coffin Childs Fellowship](https://www.jccfund.org/)
 
 Please note that this is not a comprehensive list.
 
