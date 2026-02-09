@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Ilya Finkelstein — Full CV"
+description: "Extended Curriculum Vitae"
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+
+<p><a href="/cv">&larr; Abridged CV</a> | <a href="/assets/pdfs/CV.Extended.Finkelstein.pdf">[PDF]</a></p>
+
+{% capture content %}{% include_relative cv-full.md %}{% endcapture %}
+  {{ content | markdownify }}
