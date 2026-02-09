@@ -238,14 +238,28 @@
   text: Selma Sinan joins the Finkelstein lab as a research scientist!
 - date: 2023-01-30
   text: Wei-Che Tseng joins the Finkelstein lab as a rotation student!
+- date: 2023-02-02
+  text: Michael and Giaochau's [MRN resection paper](/papers/paper/MRN-Resection) is published in the Journal of Biological Chemistry, describing how MRN and topoisomerase IIIa synchronize DNA resection.
 - date: 2023-02-10
   text: Dr. Ilya Finkelstein is one of the six [Functional Genomics Awardees](https://jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees) !
+- date: 2023-03-04
+  text: Kuang and Alvin's [CRISPR-associated transposon paper](/papers/paper/horizontal-transfer) is published in Nature Communications, revealing distinct horizontal transfer mechanisms for type I and type V systems.
 - date: 2023-04-21
   text: You-Chiun Chang joins the lab!
+- date: 2023-04-24
+  text: Our collaborative [chromatin condensates paper](/papers/paper/Chromatin-condensates-liquid-like-properties) with the Rosen, Narlikar, and Gerlich labs is published in PNAS.
 - date: 2023-05-12
   text: Dr. Jim Rybarski departs the lab to work at Moderna in Boston, MA. Congratulations!
+- date: 2023-06-22
+  text: Grace and Jack's [SpRY-Cas9 paper](/papers/paper/PAMless-DNA-SpRY-Cas9) is published in Nature Communications, a collaboration with the Taylor and Johnson labs.
+- date: 2023-08-17
+  text: Hongshan and Zhubing's [cohesin R-loops paper](/papers/paper/Cohesin-Rloops) is published in Molecular Cell, showing that CTCF and R-loops are boundaries of cohesin-mediated DNA looping.
 - date: 2023-08-31  
   text: Dr. Andrea Quezada departs the lab to work at Max Delbrück Center in Berlin, Germany! Congratulations!
+- date: 2023-09-13
+  text: Our collaborative [Asgard archaea defense paper](/papers/paper/archaea-defense-immunity) with the Baker lab is published in Nature Communications.
+- date: 2023-09-28
+  text: Parminder and Hongshan's [AFM cohesin-NIPBL paper](/papers/paper/AFM-cohesin-NIPBL) is published in the Journal of Biological Chemistry, a collaboration with the Wang and Yu labs.
 - date: 2023-11-13  
   text: Joe Woodman and Da Huo join the Finkelstein lab as rotation students!
 - date: 2023-11-17  
@@ -254,8 +268,14 @@
   text: Dr. Hung-Che (Jami) Kuo defends his PhD! Congrats!
 - date: 2024-02-08  
   text: Dr. John Cooper defends his PhD! Congrats!
+- date: 2024-04-23
+  text: Andrea, Ankur, Kamyab, and John's [mammalian antigen display methods chapter](/papers/paper/Mammalian-Antigen-Display) is published in Methods in Molecular Biology.
+- date: 2024-04-23
+  text: Jami's [Cas13d CHAMP paper](/papers/paper/Massively-Parallel-Profiling-CRISPR-Cas13d) is published in Nature Communications, describing massively parallel profiling of RNA-targeting CRISPR-Cas13d.
 - date: 2024-09-01  
   text: Abhirup Paul joins the Finkelstein lab as a rotation student!
+- date: 2024-09-16
+  text: Selma's [Cas12a pre-crRNA paper](/papers/paper/Kinetic-dissection-pre-crRNA-binding) is published in RNA, a collaboration with the Russell lab.
 - date: 2024-10-15  
   text: Sabranth Gupta and Paola Carneiro join the Finkelstein lab as rotation students!
 - date: 2024-11-18  
