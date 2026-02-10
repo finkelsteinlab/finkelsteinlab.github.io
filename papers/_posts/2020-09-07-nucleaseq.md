@@ -17,7 +17,7 @@ pmid: 32895548
 extra_text: '
 **Press:**
 
-  - [Matching CRISPR to the Job (UT News)](https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/) ([md](/assets/md/papers/2020-09-07-nucleaseq/press/ut-news.md))
+  - [Matching CRISPR to the Job (UT News)](https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/) ([md](/assets/md/papers/2020-09-07-nucleaseq/press/ut-news))
 
 '
 category: paper

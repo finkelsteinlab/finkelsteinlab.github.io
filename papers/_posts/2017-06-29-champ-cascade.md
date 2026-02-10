@@ -17,13 +17,13 @@ pmid: 28666121
 extra_text: '
 **Press:**
 
-  - [Austin-American Statesman](https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/statesman.md))
+  - [Austin-American Statesman](https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/statesman))
 
-  - [Teaching DNA sequencers new tricks (Nature News)](https://www.nature.com/articles/d41586-018-05769-8) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/nature-news.md))
+  - [Teaching DNA sequencers new tricks (Nature News)](https://www.nature.com/articles/d41586-018-05769-8) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/nature-news))
 
   - [New technique for safer gene therapy (Phys.org)](https://phys.org/news/2017-06-technique-enables-safer-gene-editing-therapy.html)
 
-  - [Scientists Develop Chip-Based Platform (Inside Precision Medicine)](https://www.insideprecisionmedicine.com/news-and-features/scientists-develop-chip-based-platform-to-scan-dna-for-off-target-crispr-effects/) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/inside-precision.md))
+  - [Scientists Develop Chip-Based Platform (Inside Precision Medicine)](https://www.insideprecisionmedicine.com/news-and-features/scientists-develop-chip-based-platform-to-scan-dna-for-off-target-crispr-effects/) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/inside-precision))
 
   - [Cell Press interview (audio)](http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0092867417306372/1-s2.0-S0092867417306372-mmc4.mp3/272196/html/S0092867417306372/9d684ed2d826aeefefb7d9ab691efc9c/mmc4.mp3?_role=author-interview)
 

@@ -17,7 +17,7 @@ pmid: 29925596
 extra_text: '
 **Press:**
 
-  * [Method makes DNA barcodes way more reliable (Futurity)](https://www.futurity.org/dna-barcode-1799862/) ([md](/assets/md/papers/2018-07-03-dna-barcodes/press/futurity.md))
+  * [Method makes DNA barcodes way more reliable (Futurity)](https://www.futurity.org/dna-barcode-1799862/) ([md](/assets/md/papers/2018-07-03-dna-barcodes/press/futurity))
 
   * [Reliable DNA barcodes (Phys.org)](https://phys.org/news/2018-06-dna-barcodes-reliably-game-changer-biomedical.html)
 
