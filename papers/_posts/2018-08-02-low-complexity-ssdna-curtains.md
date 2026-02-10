@@ -14,6 +14,7 @@ supplement: 0045-2018-Langmuir-Schaub et al-supplement.pdf
 doi: 10.1021/acs.langmuir.8b01812
 pmcid: PMC6679933
 pmid: 30044093
+markdown: 2018-08-02-low-complexity-ssdna-curtains
 category: paper
 tags: [single molecule; DNA curtain; RPA, SSB, rolling circle replication]
 ---
