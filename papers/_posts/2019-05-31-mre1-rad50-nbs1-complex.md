@@ -14,6 +14,7 @@ supplement:
 doi: 10.1007/978-1-4939-9520-2_20
 pmcid: PMC6667175 
 pmid: 31147924
+markdown: 2019-05-31-mre1-rad50-nbs1-complex
 extra_text: ''
 category: paper
 tags: [DNA curtains, Single-molecule imaging, Homologous recombination, DNA repair, MRN]
