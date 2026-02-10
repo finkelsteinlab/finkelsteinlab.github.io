@@ -14,6 +14,7 @@ supplement: 0024-2014-MolCell-Lee et al-supplement.pdf
 doi: 10.1016/j.molcel.2014.03.033
 pmcid: PMC4048639
 pmid: 24768536
+markdown: 2014-06-05-ftsk-collisions-curtains
 extra_text: ''
 category: paper
 tags: [Binding sites, Lambda phage, DNA, Escheria coli proteins, Protein structure, Protein transport]
