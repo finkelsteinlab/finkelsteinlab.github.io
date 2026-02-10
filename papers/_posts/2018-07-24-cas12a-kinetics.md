@@ -17,13 +17,11 @@ pmid: 30078724
 extra_text: '
 **Press:**
 
-  * [A better CRISPR enzyme (Axios)](https://www.axios.com/crispr-enzyme-cas12a-may-be-safer-than-cas9-45c48a24-d52b-41f8-9d47-c955578d2aed.html)
+  * [Making CRISPR better (ScienceDaily)](https://www.sciencedaily.com/releases/2018/08/180802141744.htm) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily.md))
 
-  * [Making CRISPR better (ScienceDaily)](https://www.sciencedaily.com/releases/2018/08/180802141744.htm)
+  * [CRISPR-Cas12a More Precise Than CRISPR-Cas9 (GEN News)](https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news.md))
 
-  * [How to make gene editing better (CNS)](https://cns.utexas.edu/news/how-to-make-the-gene-editing-tool-crispr-work-even-better)
-
-  * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/)
+  * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/innovation-toronto.md))
 
 '
 category: paper
