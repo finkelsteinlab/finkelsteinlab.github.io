@@ -35,41 +35,76 @@ layout: default
 (function() {
   var figRe = /^(Figure\s+\d|Fig[\.\s]+\d)/;
   var sel = '.paper-fulltext img[alt^="Figure"], .paper-fulltext img[alt^="Fig."], .paper-fulltext img[alt^="Fig "]';
-  var imgs = document.querySelectorAll(sel);
+  // Snapshot into array since we modify the DOM
+  var imgs = Array.prototype.slice.call(document.querySelectorAll(sel));
 
   for (var i = 0; i < imgs.length; i++) {
     var img = imgs[i];
     if (img.closest('.paper-figure')) continue;
     var parent = img.parentElement;
+
     var figure = document.createElement('figure');
     figure.className = 'paper-figure';
 
-    // Case 1: img is inside a <p> that also contains caption text (same paragraph)
-    if (parent.tagName === 'P' && figRe.test(parent.textContent)) {
-      // Extract the image from the paragraph
-      parent.parentNode.insertBefore(figure, parent);
-      figure.appendChild(img);
-      // Remaining content in the <p> is the caption
-      if (parent.textContent.trim()) {
-        var cap = document.createElement('figcaption');
-        while (parent.firstChild) cap.appendChild(parent.firstChild);
-        figure.appendChild(cap);
-        parent.parentNode.removeChild(parent);
+    // Collect nodes before and after the img within the parent
+    var beforeNodes = [];
+    var afterNodes = [];
+    var seenImg = false;
+    var children = Array.prototype.slice.call(parent.childNodes);
+    for (var j = 0; j < children.length; j++) {
+      if (children[j] === img) { seenImg = true; continue; }
+      if (!seenImg) beforeNodes.push(children[j]);
+      else afterNodes.push(children[j]);
+    }
+
+    // Check if "before" content looks like a figure caption
+    var beforeText = '';
+    for (var j = 0; j < beforeNodes.length; j++) beforeText += (beforeNodes[j].textContent || '');
+    var hasCaption = figRe.test(beforeText.trim());
+
+    // Also check: is the parent itself a heading element (h3/h4/h5)?
+    var isHeading = /^H[345]$/.test(parent.tagName);
+
+    // Build the figure element
+    parent.parentNode.insertBefore(figure, parent);
+    figure.appendChild(img);
+
+    // Add caption from "before" content
+    if (hasCaption && beforeNodes.length > 0) {
+      var cap = document.createElement('figcaption');
+      for (var j = 0; j < beforeNodes.length; j++) cap.appendChild(beforeNodes[j]);
+      figure.appendChild(cap);
+    }
+    // If parent was a heading, use it as caption
+    else if (isHeading && figRe.test(parent.textContent)) {
+      var cap = document.createElement('figcaption');
+      for (var j = 0; j < beforeNodes.length; j++) cap.appendChild(beforeNodes[j]);
+      figure.appendChild(cap);
+    }
+
+    // Put "after" content back into the document as a new <p>
+    if (afterNodes.length > 0) {
+      var afterText = '';
+      for (var j = 0; j < afterNodes.length; j++) afterText += (afterNodes[j].textContent || '');
+      if (afterText.trim()) {
+        var newP = document.createElement('p');
+        for (var j = 0; j < afterNodes.length; j++) newP.appendChild(afterNodes[j]);
+        figure.parentNode.insertBefore(newP, figure.nextSibling);
       }
     }
-    // Case 2: img is in its own <p>, caption is a preceding element
-    else if (parent.tagName === 'P') {
-      var prev = parent.previousElementSibling;
-      parent.parentNode.insertBefore(figure, parent);
-      // Move image out of <p> wrapper
-      figure.appendChild(img);
-      if (!parent.textContent.trim()) parent.parentNode.removeChild(parent);
 
-      // Check preceding element for caption
+    // Clean up empty parent
+    if (!parent.textContent.trim() && parent.parentNode) {
+      parent.parentNode.removeChild(parent);
+    }
+
+    // Check if preceding element is a separate caption (Case 2: img in own <p>)
+    if (!hasCaption) {
+      var prev = figure.previousElementSibling;
       if (prev) {
-        var tag = prev.tagName;
-        var text = prev.textContent || '';
-        if ((tag === 'P' || tag === 'H3' || tag === 'H4' || tag === 'H5') && figRe.test(text)) {
+        var pText = prev.textContent || '';
+        var pTag = prev.tagName;
+        if ((pTag === 'P' || pTag === 'H3' || pTag === 'H4' || pTag === 'H5') && figRe.test(pText.trim())) {
           var cap = document.createElement('figcaption');
           while (prev.firstChild) cap.appendChild(prev.firstChild);
           figure.appendChild(cap);
