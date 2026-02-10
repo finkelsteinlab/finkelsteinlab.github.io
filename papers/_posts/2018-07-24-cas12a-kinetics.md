@@ -18,9 +18,9 @@ markdown: 2018-07-24-cas12a-kinetics
 extra_text: '
 **Press:**
 
-  * [Making CRISPR better (ScienceDaily)](https://www.sciencedaily.com/releases/2018/08/180802141744.htm) ([pdf](/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily.pdf) &#124; [md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily))
+  * [Making CRISPR better (ScienceDaily)](https://www.sciencedaily.com/releases/2018/08/180802141744.htm) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily) &#124; [pdf](/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily.pdf))
 
-  * [CRISPR-Cas12a More Precise Than CRISPR-Cas9 (GEN News)](https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/) ([pdf](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news.pdf) &#124; [md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news))
+  * [CRISPR-Cas12a More Precise Than CRISPR-Cas9 (GEN News)](https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news) &#124; [pdf](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news.pdf))
 
   * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/)
 

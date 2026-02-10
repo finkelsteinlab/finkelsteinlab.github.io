@@ -18,9 +18,9 @@ markdown: 2021-12-07-CAST metagenomic discovery
 extra_text: '
 **Press:**
 
-  - [Potential New Gene Editing Tools Uncovered (UT News)](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) ([pdf](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news.pdf) &#124; [md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news))
+  - [Potential New Gene Editing Tools Uncovered (UT News)](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) ([md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news) &#124; [pdf](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news.pdf))
 
-  - [Potential new gene editing tools uncovered (EurekAlert)](https://www.eurekalert.org/news-releases/936789) ([pdf](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert.pdf) &#124; [md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert))
+  - [Potential new gene editing tools uncovered (EurekAlert)](https://www.eurekalert.org/news-releases/936789) ([md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert) &#124; [pdf](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert.pdf))
 
 '
 category: paper

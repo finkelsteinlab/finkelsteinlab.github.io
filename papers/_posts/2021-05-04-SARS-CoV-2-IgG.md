@@ -18,7 +18,7 @@ markdown: 2021-05-04-SARS-CoV-2-IgG
 extra_text: '
 **Press:**
 
-  - [Our Immune Systems Blanket the SARS-CoV-2 Spike Protein with Antibodies (UT News)](https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sars-cov-2-spike-protein-with-antibodies/) ([pdf](/assets/md/papers/2021-05-04-SARS-CoV-2-IgG/press/ut-news.pdf) &#124; [md](/assets/md/papers/2021-05-04-SARS-CoV-2-IgG/press/ut-news))
+  - [Our Immune Systems Blanket the SARS-CoV-2 Spike Protein with Antibodies (UT News)](https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sars-cov-2-spike-protein-with-antibodies/) ([md](/assets/md/papers/2021-05-04-SARS-CoV-2-IgG/press/ut-news) &#124; [pdf](/assets/md/papers/2021-05-04-SARS-CoV-2-IgG/press/ut-news.pdf))
 
 '
 category: paper

@@ -18,9 +18,9 @@ markdown: 2016-03-01-exo1-ssb-curtains
 extra_text: '
 **Press:**
 
-  * [The Daily Texan](https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/) ([pdf](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/daily-texan.pdf) &#124; [md](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/daily-texan))
+  * [The Daily Texan](https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/) ([md](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/daily-texan) &#124; [pdf](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/daily-texan.pdf))
 
-  * [UT College of Natural Sciences](https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled) ([pdf](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/cns.pdf) &#124; [md](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/cns))
+  * [UT College of Natural Sciences](https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled) ([md](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/cns) &#124; [pdf](/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/cns.pdf))
 
 '
 category: paper

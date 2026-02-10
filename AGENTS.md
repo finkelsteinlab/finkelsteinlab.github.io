@@ -324,7 +324,7 @@ External links from `_data/news.yml` and paper press coverage can be archived as
 
 - **Location:** `assets/md/papers/<paper-post-slug>/press/<outlet-slug>.md`
 - **Linking:** Added to paper post's `extra_text` field under `**Press:**` header
-- Format: `[Title (Outlet)](url) ([pdf](/assets/md/papers/.../press/slug.pdf) &#124; [md](/assets/md/papers/.../press/slug))`
+- Format: `[Title (Outlet)](url) ([md](/assets/md/papers/.../press/slug) &#124; [pdf](/assets/md/papers/.../press/slug.pdf))`
 - Links must NOT include `.md` extension
 - Use `&#124;` for the pipe character inside YAML `extra_text` strings
 
@@ -367,8 +367,8 @@ The `browser-pdf.js` helper lives at `~/.pi/agent/skills/browser-tools/browser-p
 
 #### Step 4: Update links
 
-- **Paper press:** `([pdf](/assets/md/papers/.../press/slug.pdf) &#124; [md](/assets/md/papers/.../press/slug))`
-- **News:** `([pdf](/assets/md/news/<slug>/article.pdf) &#124; [md](/assets/md/news/<slug>/))` — or place PDF alongside `index.md`
+- **Paper press:** `([md](/assets/md/papers/.../press/slug) &#124; [pdf](/assets/md/papers/.../press/slug.pdf))`
+- **News:** `([md](/assets/md/news/<slug>/) &#124; [pdf](/assets/md/news/<slug>/article.pdf))` — or place PDF alongside `index.md`
 
 #### Step 5: Commit
 
