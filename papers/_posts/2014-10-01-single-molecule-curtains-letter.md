@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/j.febslet.2014.05.021
 pmcid: PMC4163502
 pmid: 24859086
+markdown: 2014-10-01-single-molecule-curtains-letter
 extra_text: ''
 category: paper
 tags: [DNA, Protein binding, Spectrum analysis]
