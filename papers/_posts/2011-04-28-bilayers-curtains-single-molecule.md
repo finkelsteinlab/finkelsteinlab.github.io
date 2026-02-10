@@ -14,6 +14,7 @@ supplement:
 doi: 10.1007/978-1-61779-129-1_26
 pmcid: PMC3319767
 pmid: 21660710
+markdown: 2011-04-28-bilayers-curtains-single-molecule
 extra_text: ''
 category: paper
 tags: [DNA, Lipid bilayers, Nucleosomes]
