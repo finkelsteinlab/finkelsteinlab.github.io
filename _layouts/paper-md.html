@@ -34,45 +34,46 @@ layout: default
 // Wrap figure images + captions in styled <figure> boxes
 (function() {
   var figRe = /^(Figure\s+\d|Fig[\.\s]+\d)/;
-  var imgs = document.querySelectorAll('.paper-fulltext p > img[alt^="Figure"], .paper-fulltext p > img[alt^="Fig."], .paper-fulltext p > img[alt^="Fig "]');
+  var sel = '.paper-fulltext img[alt^="Figure"], .paper-fulltext img[alt^="Fig."], .paper-fulltext img[alt^="Fig "]';
+  var imgs = document.querySelectorAll(sel);
+
   for (var i = 0; i < imgs.length; i++) {
-    var imgP = imgs[i].parentElement;
-    if (imgP.closest('.paper-figure')) continue; // already wrapped
-    var prev = imgP.previousElementSibling;
+    var img = imgs[i];
+    if (img.closest('.paper-figure')) continue;
+    var parent = img.parentElement;
     var figure = document.createElement('figure');
     figure.className = 'paper-figure';
 
-    // Insert figure before the image paragraph, then move image in
-    imgP.parentNode.insertBefore(figure, imgP);
-    figure.appendChild(imgP);
-    // Unwrap the <p> so img is direct child of figure
-    while (imgP.firstChild) figure.insertBefore(imgP.firstChild, imgP);
-    figure.removeChild(imgP);
-
-    // Check preceding element for caption (could be <p>, <h3>, <h4>, etc.)
-    if (prev) {
-      var tag = prev.tagName;
-      var text = prev.textContent || '';
-      if ((tag === 'P' || tag === 'H3' || tag === 'H4' || tag === 'H5') && figRe.test(text)) {
+    // Case 1: img is inside a <p> that also contains caption text (same paragraph)
+    if (parent.tagName === 'P' && figRe.test(parent.textContent)) {
+      // Extract the image from the paragraph
+      parent.parentNode.insertBefore(figure, parent);
+      figure.appendChild(img);
+      // Remaining content in the <p> is the caption
+      if (parent.textContent.trim()) {
         var cap = document.createElement('figcaption');
-        while (prev.firstChild) cap.appendChild(prev.firstChild);
+        while (parent.firstChild) cap.appendChild(parent.firstChild);
         figure.appendChild(cap);
-        prev.parentNode.removeChild(prev);
+        parent.parentNode.removeChild(parent);
       }
     }
+    // Case 2: img is in its own <p>, caption is a preceding element
+    else if (parent.tagName === 'P') {
+      var prev = parent.previousElementSibling;
+      parent.parentNode.insertBefore(figure, parent);
+      // Move image out of <p> wrapper
+      figure.appendChild(img);
+      if (!parent.textContent.trim()) parent.parentNode.removeChild(parent);
 
-    // Also capture sub-panel descriptions that follow the image
-    // (paragraphs starting with bold panel labels like **(A)** or **a**)
-    var next = figure.nextElementSibling;
-    if (next && next.tagName === 'P') {
-      var nextText = next.textContent || '';
-      if (/^\*?\*?\(?[a-hA-H]\)?[\.\s\*]/.test(nextText) || /^\(\s*[a-hA-H]\s*\)/.test(nextText)) {
-        // This is a panel description paragraph — add to figcaption
-        var existingCap = figure.querySelector('figcaption');
-        if (existingCap) {
-          existingCap.appendChild(document.createElement('br'));
-          while (next.firstChild) existingCap.appendChild(next.firstChild);
-          next.parentNode.removeChild(next);
+      // Check preceding element for caption
+      if (prev) {
+        var tag = prev.tagName;
+        var text = prev.textContent || '';
+        if ((tag === 'P' || tag === 'H3' || tag === 'H4' || tag === 'H5') && figRe.test(text)) {
+          var cap = document.createElement('figcaption');
+          while (prev.firstChild) cap.appendChild(prev.firstChild);
+          figure.appendChild(cap);
+          prev.parentNode.removeChild(prev);
         }
       }
     }
