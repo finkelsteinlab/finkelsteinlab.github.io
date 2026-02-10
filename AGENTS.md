@@ -300,6 +300,46 @@ Do NOT put a full path or `/assets/md/` prefix in the `markdown` field — the t
 3. Add `markdown: <slug>` to the paper's front matter (before `extra_text:` or `category:`)
 4. Commit both the `assets/md/<slug>/` directory and the updated paper post
 
+### Reformatting PMC full-text archives for readability
+
+The `pmc-to-md.py` scraper produces raw output that needs cleanup. When reformatting a paper's `index.md`:
+
+**Header block:**
+- Author byline in bold after `# Title`
+- Journal, volume, issue, pages, year in italics
+- DOI as a link
+
+**Table of contents:**
+- Top-level headers only (Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusion, Acknowledgements, Funding)
+- Do NOT include subsections in the TOC
+
+**Scientific notation and units:**
+- Use Unicode superscripts for exponents: `10⁸`, `10⁹`, `10⁻¹`, etc. — not `10^8` or plain `108`
+- Use Unicode for units: `M⁻¹ s⁻¹`, `min⁻¹`
+- Use HTML `<sub>` for subscripts in kinetic parameters: `*k*<sub>cat</sub>`, `*K*<sub>M</sub>`, `*k*<sub>ss</sub>`, `IC₅₀`
+
+**Italics for gene/species/Latin terms:**
+- Use `*cis*`, `*trans*`, `*in vitro*`, `*in vivo*`, `*E. coli*`, etc.
+
+**Equations:**
+- Display in blockquotes with numbered labels: `> ![Eq. N](url) &nbsp;&nbsp;&nbsp; **(N)**`
+- Add descriptive label before each equation when applicable (e.g., "**3-parameter logistic model**")
+
+**Figures:**
+- Caption in italics *before* the image: `***Figure N.** Description...*`
+- Image on its own line after caption: `![Figure N.](filename.jpg)`
+- Condense verbose supplementary references in captions
+
+**Section structure:**
+- Horizontal rules (`---`) between major sections (after front matter, between Introduction/Methods/Results/Discussion/Conclusion)
+- No horizontal rules between subsections within Results or Methods
+
+**Back matter:**
+- Consolidate author contributions, present addresses, conflict of interest into compact sections
+- End with archive footer: `*Archived from [Source Name](URL) on YYYY-MM-DD.*`
+
+**Reference to example:** See `assets/md/2025-07-19-Cas12a-trans-cleavage-diagnostics/index.md`
+
 ### Notes
 
 - 83 papers currently have PMC full-text archives (82 with `markdown:` field + 1 IgG/Science with no figures on PMC)
