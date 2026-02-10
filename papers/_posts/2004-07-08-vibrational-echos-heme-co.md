@@ -14,6 +14,7 @@ supplement:
 doi: 10.1063/1.1758940
 pmcid: PMC2501118
 pmid: 15260618
+markdown: 2004-07-08-vibrational-echos-heme-co
 extra_text: ''
 category: paper
 tags: [Optical phase matching, Vibration analysis, Proteins]
