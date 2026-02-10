@@ -14,6 +14,7 @@ supplement: 0065-2021-SciAdv-Strohkendl et al-supplement.pdf
 doi: 10.1126/sciadv.abd6030
 pmcid: PMC7946368
 pmid: 33692102
+markdown: 2021-03-10-Cas12a-nucleosomes
 extra_text: ''
 category: paper
 tags:
