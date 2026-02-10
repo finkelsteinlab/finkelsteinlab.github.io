@@ -14,6 +14,7 @@ supplement: 0044-2018-MolCell-Strohkendl et al-supplement.pdf
 doi: 10.1016/j.molcel.2018.06.043
 pmcid: PMC6679935
 pmid: 30078724
+markdown: 2018-07-24-cas12a-kinetics
 extra_text: '
 **Press:**
 
