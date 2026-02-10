@@ -1,5 +1,7 @@
 ---
 layout: paper
+redirect_from:
+  - /papers/2021-10-27-Python-package-gene-clusters
 title: "Opfi: A Python package for identifying gene clusters in large genomics and metagenomics data sets"
 volume: 6
 issue: 66
