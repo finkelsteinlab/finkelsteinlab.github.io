@@ -14,6 +14,7 @@ supplement: 0070-2021-eLife-Ma et al-supplement.pdf
 doi: 10.7554/eLife.65763
 pmcid: PMC8390005
 pmid: 34435949
+markdown: 2021-08-26-cas1-cas2-complex
 extra_text: ''
 category: paper
 tags:
