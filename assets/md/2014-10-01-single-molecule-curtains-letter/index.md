@@ -6,16 +6,36 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/
 pmcid: PMC4163502
 ---
 
-# High-Throughput Single-Molecule Studies of Protein-DNA Interactions
+# High-Throughput Single-Molecule Studies of Protein–DNA Interactions
+
+**Aaron D. Robison and Ilya J. Finkelstein**
+
+*FEBS Lett.*, Volume 588, Issue 19, Pages 3539–46 (2014)
+
+**DOI:** [10.1016/j.febslet.2014.05.021](https://doi.org/10.1016/j.febslet.2014.05.021)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Discussion](#discussion)
+- [Concluding Remarks](#concluding-remarks)
+- [Acknowledgements](#acknowledgements)
+
+---
 
 ##  Abstract
 Fluorescence and force-based single-molecule studies of protein-nucleic acid interactions continue to shed critical insights into many aspects of DNA and RNA processing. As single-molecule assays are inherently low-throughput, obtaining statistically relevant datasets remains a major challenge. Additionally, most fluorescence-based single-molecule particle-tracking assays are limited to observing fluorescent proteins that are in the low-nanomolar range, as spurious background signals predominate at higher fluorophore concentrations. These technical limitations have traditionally limited the types of questions that could be addressed via single-molecule methods. In this review, we describe new approaches for high-throughput and high-concentration single-molecule biochemical studies. We conclude with a discussion of outstanding challenges for the single-molecule biologist and how these challenges can be tackled to further approach the biochemical complexity of the cell.
 **Keywords:** DNA curtains, Force Spectroscopy, Particle Tracking
+---
 ##  Introduction
 The advent of single-molecule methods—ultrasensitive tools that are capable of imaging and manipulating individual biochemical reactions—has revolutionized our understanding of biology. Single-molecule studies can directly interrogate transient biochemical steps that are obscured by ensemble averaging. These approaches are particularly useful for elucidating complex multi-step biochemical mechanisms and have proven especially amenable for studying protein-nucleic acid interactions. For example, single-molecule enzymology has shed critical insights into our understanding of DNA replication,[[1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R1)–[3](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R3)] transcription,[[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R4)–[6](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R6)] chromatin remodeling,[[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R7)] and DNA damage repair.[[8](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R8),[9](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R9)] The development of single-molecule experiments in cell-free extracts[[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R10)–[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R12)] and within living cells[[13](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R13),[14](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R14)] will continue to shed critical insights into all aspects of genome maintenance.
 In the last two decades, the single-molecule methods toolkit has continued to expand at a dizzying pace. The choice of an appropriate method is dictated largely by the biochemical details and relevant length-scales of the desired biological process. For example, single-molecule Förster Resonance Energy Transfer (smFRET) can be used to monitor protein-nucleic acid interactions on the ~5 nm length-scale. For a complete discussion of smFRET-based approaches, we direct the reader towards several comprehensive reviews.[[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R15)–[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R19)] As DNA replication, transcription, and repair frequently involve highly processive molecular motors, these reactions must be studied on kilobase-length DNA substrates. These reactions can be indirectly visualized via tethered particle motion (TPM), where a long DNA molecule is used to tether a micron-size bead to the surface of a flowcell. Changes in the DNA length are observed as changes in the Brownian motion of the tethered beads.[[20](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R20)–[22](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R22)] To directly visualize biochemical reactions with high spatiotemporal resolution, DNA molecules are immobilized and extended on the surface of a microscope flow cell. The biochemical reaction is then followed by fluorescently tracking the enzyme or by monitoring a change in the length of the substrate DNA molecule.
 These single-molecule particle-tracking experiments are hampered by two fundamental limitations. First, obtaining statistically relevant datasets is a challenge for experiments that are designed to observe individual molecules. This challenge is compounded by the fact that biochemical reconstitution of multi-subunit enzymatic machines (e.g. the replisome, chromatin remodelers, or DNA repair complexes) rarely approaches 100%. This biochemical heterogeneity further reduces the throughput of single-molecule data acquisition. Second, single-molecule fluorescence imaging must reliably discriminate weak signals from spurious background fluorescence. Most imaging experiments are carried out at extremely dilute (~1–10 nM) fluorescent protein concentrations. However, most transient biological interactions have evolved to be reversible in the 1–100 µM range, precluding their analysis by conventional single-molecule methods.[[23](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R23)]
 In this review, we summarize emerging experimental approaches for interrogating protein-nucleic acid interactions at the single-molecule level. We focus on methods that permit the organization, manipulation, and imaging of long DNA molecules. In addition, we highlight a general strategy to break the concentration barrier in single-molecule fluorescence imaging studies. We conclude with a summary of next-generation single-molecule methods that combine fluorescence imaging with force spectroscopy to probe protein-nucleic acid interactions with unprecedented resolution.
+---
 ##  Discussion
 ### A. Tracking Enzymes on Long DNA Substrates
 To visualize enzymes that traverse a long DNA substrate, the DNA molecule is immobilized on a microscope flow cell surface in an extended conformation. This is typically achieved by tethering DNA with streptavidin-biotin linkages on poly(ethylene glycol)-coated surfaces and extending the tethered DNA with hydrodynamic flow (see [Table 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#T1)).[[24](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R24),[25](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R25)] Alternatively, long DNA molecules can be suspended between two poly-L-lysine-coated silica beads adsorbed to the surface of a flow cell, forming DNA “tightropes.” As the DNA is tethered randomly on the flow cell surface, the number of DNA molecules per field-of-view must remain low. To avoid overlapping DNA molecules, only tens of DNA molecules are imaged within a single field-of-view. Moreover, because the DNA is randomly attached to the flow cell surface, individual DNA molecules have different tensions. Finally, for double-tethered DNA molecules, the orientation of the DNA sequence relative to its tether points is not known.
@@ -74,8 +94,14 @@ Unlike magnetic tweezers, optical tweezers use highly focused laser beams to tra
 ##### Figure 5.
 ![Figure 5](nihms598925f5.jpg)
 Dual DNA experiment showing (a) two α DNA molecules suspended between polystyrene beads held in place with optical tweezers. The probing DNA molecule (blue) is wrapped around the scanned DNA molecule (green). (b) A schematic showing the DNA scanning assay. The probing DNA is moved along the scanned DNA and upon encountering a bound protein, a force is measured on bead #1. This force is proportional to the distance αy.
+---
 ##  Concluding Remarks
 Single-molecule studies continue to add tremendous insights into our understanding of protein-nucleic acid interactions. In this review, we discussed emerging high-throughput single-molecule methods for observing and manipulating long-range protein-DNA interactions [[Table 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#T1)]. In addition, we discussed strategies for imaging individual molecules at high (µM) fluorophore concentrations [[Table 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#T2)]. Further integration with highly multiplexed and temperature-controlled microfluidic-based systems will expand the throughput of single-molecule biophysical studies.
 Complimentary aspects of a biochemical reaction can simultaneously be probed by a combination of single-molecule imaging and force spectroscopy modalities. For example, a combined fluorescence and optical tweezers microscope has been used to investigate protein-DNA interactions as a function of the DNA tension.[[83](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R83)–[85](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R85)] Magnetic tweezers have also been used in conjunction with fluorescence techniques such as FRET[[86](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R86)] and TIRF[[87](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R87)] and to visualize individual proteins bound to DNA.[[88](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R88)] Developing high-throughput versions of these methods will further enable single-molecule biophysical studies of multi-protein systems. Finally, the integration of new particle-manipulation modalities such as standing surface acoustic waves (SSAW),[[89](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R89)] hydrodynamic focusing,[[90](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R90)] and electrokinetic traps[[91](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/#R91)] with existing fluorescence and force-manipulation techniques will further increase the information content of _in vitro_ single-molecule approaches.
+---
 ##  ACKNOWLEDGEMENTS
 This research was supported in part by the Welch Foundation (F-l808) and by the NIH (GM097177 to I.J.F). Dr. Ilya Finkelstein is a CPRIT Scholar in Cancer Research.
+
+---
+
+*Archived from [PubMed Central (PMC4163502)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/) on 2025-07-19.*
