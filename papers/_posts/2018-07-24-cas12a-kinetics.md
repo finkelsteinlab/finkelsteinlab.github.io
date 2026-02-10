@@ -22,7 +22,7 @@ extra_text: '
 
   * [CRISPR-Cas12a More Precise Than CRISPR-Cas9 (GEN News)](https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news))
 
-  * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/) ([md](/assets/md/papers/2018-07-24-cas12a-kinetics/press/innovation-toronto))
+  * [Innovation Toronto](http://www.innovationtoronto.com/2018/08/new-cas12a-approach-could-open-the-door-for-gene-editing-safe-enough-for-use-in-humans/)
 
 '
 category: paper

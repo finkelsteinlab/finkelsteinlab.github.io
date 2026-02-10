@@ -28,7 +28,7 @@ extra_text: '
 
   - [UT Coronavirus Research (CBS DFW)](https://dfw.cbslocal.com/2020/07/23/ut-coronavirus-research-faster-vaccine-production/)
 
-  - [NDV-HXP-S enters human trials (KXAN)](https://www.kxan.com/news/texas/what-is-ndv-hxp-s-ut-austin-helped-make-it-now-its-entering-human-trials/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kxan))
+  - [NDV-HXP-S enters human trials (KXAN)](https://www.kxan.com/news/texas/what-is-ndv-hxp-s-ut-austin-helped-make-it-now-its-entering-human-trials/)
 
 '
 category: paper

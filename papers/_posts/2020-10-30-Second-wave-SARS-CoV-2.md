@@ -24,7 +24,7 @@ extra_text: '
 
   - [D614G mutation may make SARS-CoV-2 more contagious (Inside Precision Medicine)](https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/) ([md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/precision-med))
 
-  - [How UT researchers are working to thwart COVID-19 resistance (KXAN)](https://www.kxan.com/news/coronavirus/how-ut-researchers-are-working-to-thwart-covid-19s-resistance-to-treatments/) ([md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/kxan))
+  - [How UT researchers are working to thwart COVID-19 resistance (KXAN)](https://www.kxan.com/news/coronavirus/how-ut-researchers-are-working-to-thwart-covid-19s-resistance-to-treatments/)
 
 '
 category: paper

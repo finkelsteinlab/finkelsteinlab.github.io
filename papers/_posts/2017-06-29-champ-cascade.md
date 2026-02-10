@@ -20,7 +20,7 @@ extra_text: '
 
   - [Austin-American Statesman](https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/statesman))
 
-  - [Teaching DNA sequencers new tricks (Nature News)](https://www.nature.com/articles/d41586-018-05769-8) ([md](/assets/md/papers/2017-06-29-champ-cascade/press/nature-news))
+  - [Teaching DNA sequencers new tricks (Nature News)](https://www.nature.com/articles/d41586-018-05769-8)
 
   - [New technique for safer gene therapy (Phys.org)](https://phys.org/news/2017-06-technique-enables-safer-gene-editing-therapy.html)
 
