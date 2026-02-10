@@ -14,6 +14,7 @@ supplement: 0083-2023-Gibson et al-supplement.pdf
 doi: 10.1073/pnas.2218085120
 pmcid: PMC10161002
 pmid: 37094140
+markdown: 2023-04-24-chromatin-condensates-liquid-like-properties
 extra_text: ''
 category: paper
 tags: chromatin, phase separation, biomolecular condensate
