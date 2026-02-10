@@ -14,6 +14,7 @@ supplement:
 doi: 10.1371/journal.pgen.1004178
 pmcid: PMC3945288
 pmid: 24603765
+markdown: 2014-03-06-rnf168-h2a-ubiquitination-dna-damage
 extra_text: ''
 category: paper
 tags: [Cell cycle proteins, DNA repair, DNA-binding proteins, HEK293 cells, Nucleosomes, Ubiquitin]
