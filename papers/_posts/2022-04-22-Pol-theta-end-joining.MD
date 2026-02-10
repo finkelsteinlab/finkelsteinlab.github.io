@@ -14,6 +14,7 @@ supplement: 0078-2022-NAR-Schaub et al-supplement.pdf
 doi: 10.1093/nar/gkac119
 pmcid: PMC9023281
 pmid: 35357490
+markdown: 2022-04-22-Pol-theta-end-joining
 extra_text: ''
 category: paper
 tags: SF2 helicase, Replication Protein A, RAD51, PARP-1, PARylation, single-molecule, DNA curtains
