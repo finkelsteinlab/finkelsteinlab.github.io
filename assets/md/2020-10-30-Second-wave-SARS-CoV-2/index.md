@@ -8,170 +8,35 @@ pmcid: PMC7642679
 
 # Molecular Architecture of Early Dissemination and Massive Second Wave of the SARS-CoV-2 Virus in a Major Metropolitan Area
 
-# Molecular Architecture of Early Dissemination and Massive Second Wave of the SARS-CoV-2 Virus in a Major Metropolitan Area
-[S Wesley Long](https://pubmed.ncbi.nlm.nih.gov/?term="Long%20SW"\[Author\])
-### S Wesley Long
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-bDepartment of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, New York, USA
-cDepartment of Microbiology and Immunology, Weill Cornell Medical College, New York, New York, USA
-Find articles by [S Wesley Long](https://pubmed.ncbi.nlm.nih.gov/?term="Long%20SW"\[Author\])
-a,b,c,#, [Randall J Olsen](https://pubmed.ncbi.nlm.nih.gov/?term="Olsen%20RJ"\[Author\])
-### Randall J Olsen
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-bDepartment of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, New York, USA
-cDepartment of Microbiology and Immunology, Weill Cornell Medical College, New York, New York, USA
-Find articles by [Randall J Olsen](https://pubmed.ncbi.nlm.nih.gov/?term="Olsen%20RJ"\[Author\])
-a,b,c,#, [Paul A Christensen](https://pubmed.ncbi.nlm.nih.gov/?term="Christensen%20PA"\[Author\])
-### Paul A Christensen
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Paul A Christensen](https://pubmed.ncbi.nlm.nih.gov/?term="Christensen%20PA"\[Author\])
-a,#, [David W Bernard](https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20DW"\[Author\])
-### David W Bernard
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-bDepartment of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, New York, USA
-cDepartment of Microbiology and Immunology, Weill Cornell Medical College, New York, New York, USA
-Find articles by [David W Bernard](https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20DW"\[Author\])
-a,b,c, [James J Davis](https://pubmed.ncbi.nlm.nih.gov/?term="Davis%20JJ"\[Author\])
-### James J Davis
-dConsortium for Advanced Science and Engineering, University of Chicago, Chicago, Illinois, USA
-eComputing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, USA
-Find articles by [James J Davis](https://pubmed.ncbi.nlm.nih.gov/?term="Davis%20JJ"\[Author\])
-d,e, [Maulik Shukla](https://pubmed.ncbi.nlm.nih.gov/?term="Shukla%20M"\[Author\])
-### Maulik Shukla
-dConsortium for Advanced Science and Engineering, University of Chicago, Chicago, Illinois, USA
-eComputing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, USA
-Find articles by [Maulik Shukla](https://pubmed.ncbi.nlm.nih.gov/?term="Shukla%20M"\[Author\])
-d,e, [Marcus Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20M"\[Author\])
-### Marcus Nguyen
-dConsortium for Advanced Science and Engineering, University of Chicago, Chicago, Illinois, USA
-eComputing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, USA
-Find articles by [Marcus Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20M"\[Author\])
-d,e, [Matthew Ojeda Saavedra](https://pubmed.ncbi.nlm.nih.gov/?term="Saavedra%20MO"\[Author\])
-### Matthew Ojeda Saavedra
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Matthew Ojeda Saavedra](https://pubmed.ncbi.nlm.nih.gov/?term="Saavedra%20MO"\[Author\])
-a, [Prasanti Yerramilli](https://pubmed.ncbi.nlm.nih.gov/?term="Yerramilli%20P"\[Author\])
-### Prasanti Yerramilli
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Prasanti Yerramilli](https://pubmed.ncbi.nlm.nih.gov/?term="Yerramilli%20P"\[Author\])
-a, [Layne Pruitt](https://pubmed.ncbi.nlm.nih.gov/?term="Pruitt%20L"\[Author\])
-### Layne Pruitt
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Layne Pruitt](https://pubmed.ncbi.nlm.nih.gov/?term="Pruitt%20L"\[Author\])
-a, [Sishir Subedi](https://pubmed.ncbi.nlm.nih.gov/?term="Subedi%20S"\[Author\])
-### Sishir Subedi
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Sishir Subedi](https://pubmed.ncbi.nlm.nih.gov/?term="Subedi%20S"\[Author\])
-a, [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-### Hung-Che Kuo
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-Find articles by [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-f,g, [Heather Hendrickson](https://pubmed.ncbi.nlm.nih.gov/?term="Hendrickson%20H"\[Author\])
-### Heather Hendrickson
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Heather Hendrickson](https://pubmed.ncbi.nlm.nih.gov/?term="Hendrickson%20H"\[Author\])
-a, [Ghazaleh Eskandari](https://pubmed.ncbi.nlm.nih.gov/?term="Eskandari%20G"\[Author\])
-### Ghazaleh Eskandari
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Ghazaleh Eskandari](https://pubmed.ncbi.nlm.nih.gov/?term="Eskandari%20G"\[Author\])
-a, [Hoang A T Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20HAT"\[Author\])
-### Hoang A T Nguyen
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Hoang A T Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20HAT"\[Author\])
-a, [J Hunter Long](https://pubmed.ncbi.nlm.nih.gov/?term="Long%20JH"\[Author\])
-### J Hunter Long
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [J Hunter Long](https://pubmed.ncbi.nlm.nih.gov/?term="Long%20JH"\[Author\])
-a, [Muthiah Kumaraswami](https://pubmed.ncbi.nlm.nih.gov/?term="Kumaraswami%20M"\[Author\])
-### Muthiah Kumaraswami
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-Find articles by [Muthiah Kumaraswami](https://pubmed.ncbi.nlm.nih.gov/?term="Kumaraswami%20M"\[Author\])
-a, [Jule Goike](https://pubmed.ncbi.nlm.nih.gov/?term="Goike%20J"\[Author\])
-### Jule Goike
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-Find articles by [Jule Goike](https://pubmed.ncbi.nlm.nih.gov/?term="Goike%20J"\[Author\])
-f,g, [Daniel Boutz](https://pubmed.ncbi.nlm.nih.gov/?term="Boutz%20D"\[Author\])
-### Daniel Boutz
-hCCDC Army Research Laboratory-South, University of Texas, Austin, Texas, USA
-Find articles by [Daniel Boutz](https://pubmed.ncbi.nlm.nih.gov/?term="Boutz%20D"\[Author\])
-h, [Jimmy Gollihar](https://pubmed.ncbi.nlm.nih.gov/?term="Gollihar%20J"\[Author\])
-### Jimmy Gollihar
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-hCCDC Army Research Laboratory-South, University of Texas, Austin, Texas, USA
-Find articles by [Jimmy Gollihar](https://pubmed.ncbi.nlm.nih.gov/?term="Gollihar%20J"\[Author\])
-a,h, [Jason S McLellan](https://pubmed.ncbi.nlm.nih.gov/?term="McLellan%20JS"\[Author\])
-### Jason S McLellan
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-Find articles by [Jason S McLellan](https://pubmed.ncbi.nlm.nih.gov/?term="McLellan%20JS"\[Author\])
-f,g, [Chia-Wei Chou](https://pubmed.ncbi.nlm.nih.gov/?term="Chou%20CW"\[Author\])
-### Chia-Wei Chou
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-Find articles by [Chia-Wei Chou](https://pubmed.ncbi.nlm.nih.gov/?term="Chou%20CW"\[Author\])
-f,g, [Kamyab Javanmardi](https://pubmed.ncbi.nlm.nih.gov/?term="Javanmardi%20K"\[Author\])
-### Kamyab Javanmardi
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-Find articles by [Kamyab Javanmardi](https://pubmed.ncbi.nlm.nih.gov/?term="Javanmardi%20K"\[Author\])
-f,g, [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-### Ilya J Finkelstein
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-iCenter for Systems and Synthetic Biology, University of Texas at Austin, Austin, Texas, USA
-Find articles by [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-f,g,i, [James M Musser](https://pubmed.ncbi.nlm.nih.gov/?term="Musser%20JM"\[Author\])
-### James M Musser
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-bDepartment of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, New York, USA
-cDepartment of Microbiology and Immunology, Weill Cornell Medical College, New York, New York, USA
-Find articles by [James M Musser](https://pubmed.ncbi.nlm.nih.gov/?term="Musser%20JM"\[Author\])
-a,b,c,✉
-Editor: Robert A Bonomoj
-  * Author information
-  * Article notes
-  * Copyright and License information
+**Scott Wesley Long\*, Randall J. Olsen\*, Paul A. Christensen\*, David W. Bernard, James J. Davis, Maulik Shukla, Marcus Nguyen, Matthew Ojeda Saavedra, Prasanti Yerramilli, Layne Pruitt, Sishir Subedi, Hung-Che Kuo, Heather Hendrickson, Ghazaleh Eskandari, Hoang A.T. Nguyen, J. Hunter Long, Muthiah Kumaraswami, Jule Goike, Daniel Boutz, Jimmy Gollihar, Jason S. McLellan, Chia-Wei Chou, Kamyab Javanmardi, Ilya J. Finkelstein, and James Musser** (\* co-first authors)
 
-aCenter for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, Texas, USA
-bDepartment of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, New York, USA
-cDepartment of Microbiology and Immunology, Weill Cornell Medical College, New York, New York, USA
-dConsortium for Advanced Science and Engineering, University of Chicago, Chicago, Illinois, USA
-eComputing, Environment and Life Sciences, Argonne National Laboratory, Lemont, Illinois, USA
-fDepartment of Molecular Biosciences, The University of Texas at Austin, Austin, Texas, USA
-gInstitute for Cell and Molecular Biology, The University of Texas at Austin, Austin, Texas, USA
-hCCDC Army Research Laboratory-South, University of Texas, Austin, Texas, USA
-iCenter for Systems and Synthetic Biology, University of Texas at Austin, Austin, Texas, USA
-jLouis Stokes Veterans Affairs Medical Center
-✉
-Address correspondence to James M. Musser, jmmusser@houstonmethodist.org.
-#
-S. Wesley Long, Randall J. Olsen, and Paul A. Christensen contributed equally to this article. The order of co-first authors was determined by discussion and mutual agreement between the three co-first authors.
-✉
-Corresponding author.
-#
-Contributed equally.
-#### Roles
-**Robert A Bonomo** : Editor
-Received 2020 Sep 25; Accepted 2020 Oct 5; Collection date 2020 Nov-Dec.
-Copyright © 2020 Long et al.
-This is an open-access article distributed under the terms of the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-[PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
-PMCID: PMC7642679 PMID: [33127862](https://pubmed.ncbi.nlm.nih.gov/33127862/)
-**Previous version available:** This article is based on a previously available preprint posted on medRxiv on September 29, 2020: "[Molecular Architecture of Early Dissemination and Massive Second Wave of the SARS-CoV-2 Virus in a Major Metropolitan Area](https://pmc.ncbi.nlm.nih.gov/articles/PMC7536878/)".
-* * *
-There is concern about second and subsequent waves of COVID-19 caused by the SARS-CoV-2 coronavirus occurring in communities globally that had an initial disease wave. Metropolitan Houston, TX, with a population of 7 million, is experiencing a massive second disease wave that began in late May 2020. To understand SARS-CoV-2 molecular population genomic architecture and evolution and the relationship between virus genotypes and patient features, we sequenced the genomes of 5,085 SARS-CoV-2 strains from these two waves. Our report provides the first molecular characterization of SARS-CoV-2 strains causing two distinct COVID-19 disease waves.
-**KEYWORDS:** SARS-CoV-2, COVID-19 disease, genome sequencing, molecular population genomics, evolution, COVID-19
+*mBio*, Volume 11, Issue 6, e02707-20 (2020)
+
+**DOI:** [10.1128/mBio.02707-20](https://doi.org/10.1128/mBio.02707-20)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Materials and Methods](#materials-and-methods)
+- [Acknowledgments](#acknowledgments)
+
+---
 ##  ABSTRACT
 We sequenced the genomes of 5,085 severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) strains causing two coronavirus disease 2019 (COVID-19) disease waves in metropolitan Houston, TX, an ethnically diverse region with 7 million residents. The genomes were from viruses recovered in the earliest recognized phase of the pandemic in Houston and from viruses recovered in an ongoing massive second wave of infections. The virus was originally introduced into Houston many times independently. Virtually all strains in the second wave have a Gly614 amino acid replacement in the spike protein, a polymorphism that has been linked to increased transmission and infectivity. Patients infected with the Gly614 variant strains had significantly higher virus loads in the nasopharynx on initial diagnosis. We found little evidence of a significant relationship between virus genotype and altered virulence, stressing the linkage between disease severity, underlying medical conditions, and host genetics. Some regions of the spike protein—the primary target of global vaccine efforts—are replete with amino acid replacements, perhaps indicating the action of selection. We exploited the genomic data to generate defined single amino acid replacements in the receptor binding domain of spike protein that, importantly, produced decreased recognition by the neutralizing monoclonal antibody CR3022. Our report represents the first analysis of the molecular architecture of SARS-CoV-2 in two infection waves in a major metropolitan region. The findings will help us to understand the origin, composition, and trajectory of future infection waves and the potential effect of the host immune response and therapeutic maneuvers on SARS-CoV-2 evolution.
+---
 ##  INTRODUCTION
 Pandemic disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virus is now responsible for massive human morbidity and mortality worldwide ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B1)[–](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B2)[5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B5)). The virus was first documented to cause severe respiratory infections in Wuhan, China, beginning in late December 2019 ([6](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B6)[–](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B7)[9](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B9)). Global dissemination occurred extremely rapidly and has affected major population centers on most continents ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B10), [11](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B11)). In the United States, the Seattle and the New York City (NYC) regions have been especially important centers of coronavirus disease 2019 (COVID-19) caused by SARS-CoV-2. For example, as of 19 August 2020, there were 227,419 confirmed SARS-CoV-2 cases in NYC, causing 56,831 hospitalizations and 19,005 confirmed fatalities and 4,638 probable fatalities ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B12)). Similarly, in Seattle and King County, WA, 17,989 SARS-CoV-2-positive patients and 696 deaths had been reported as of 18 August 2020 ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B13)).
 The Houston metropolitan area is the fourth largest and most ethnically diverse city in the United States, with a population of approximately 7 million ([14](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B14)). The 2,400-bed Houston Methodist Hospital health system has seven hospitals and serves a large, multiethnic, and socioeconomically diverse patient population throughout greater Houston ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B13), [14](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B14)). The first COVID-19 case in metropolitan Houston was reported on 5 March 2020, with community spread occurring 1 week later ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B15)). Many of the first cases in our region were associated with national or international travel in areas known to have SARS-CoV-2 virus outbreaks ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B15)). A central molecular diagnostic laboratory serving all Houston Methodist hospitals and our very early adoption of a molecular test for the SARS-CoV-2 virus permitted us to rapidly identify SARS-CoV-2-positive patients and interrogate genomic variation among strains causing early infections in the greater Houston area. Our analysis of SARS-CoV-2 genomes causing disease in Houston has continued unabated since early March and is ongoing. Genome sequencing and related efforts were expanded extensively in late May as we recognized that a prominent second wave was under way ([Fig. 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#fig1)).
-### FIG 1.
+***Fig. 1***.
 ![FIG 1](mBio.02707-20-f0001.jpg)
 (A) Confirmed COVID-19 cases in the Greater Houston Metropolitan region. Data represent cumulative number of COVID-19 patients over time through 7 July 2020. Counties include Austin, Brazoria, Chambers, Fort Bend, Galveston, Harris, Liberty, Montgomery, and Waller. The shaded area represents the time period (indicated as month/day along the _x_ axis) during which virus genomes characterized in this study were recovered from COVID-19 patients. The red line represents the number of COVID-19 patients diagnosed in the Houston Methodist Hospital Molecular Diagnostic Laboratory. (B) Distribution of strains with either the Asp614 or Gly614 amino acid variant in spike protein among the two waves of COVID-19 patients diagnosed in the Houston Methodist Hospital Molecular Diagnostic Laboratory. The large inset shows major clade frequency for the time frame studied (indicated as month-day to month-day along the _x_ axis).
 Here, we report that SARS-CoV-2 was introduced to the Houston area many times, independently, from diverse geographic regions, with virus genotypes representing genetic clades causing disease in Europe, Asia, and South America and elsewhere in the United States. There was widespread community dissemination soon after COVID-19 cases were reported in Houston. Detection of strains with a Gly614 amino acid replacement in the spike protein, a polymorphism that has been linked to increased transmission and _in vitro_ cell infectivity, increased significantly over time and caused virtually all COVID-19 cases in the massive second disease wave. Patients infected with strains with the Gly614 variant had significantly higher virus loads in the nasopharynx on initial diagnosis. Some naturally occurring single amino acid replacements in the receptor binding domain (RBD) of spike protein resulted in decreased reactivity with a neutralizing monoclonal antibody, consistent with the idea that some virus variants arise due to host immune pressure.
+---
 ##  RESULTS
 ### Description of metropolitan Houston.
 Houston, TX, is located in the southwestern United States, 50 miles inland from the Gulf of Mexico. It is the most ethnically diverse city in the United States ([14](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B14)). Metropolitan Houston is comprised predominantly of Harris County plus parts of eight contiguous surrounding counties. In the aggregate, the metropolitan area includes 9,444 square miles. The estimated population size of metropolitan Houston is 7 million (<https://www.houston.org/houston-data>).
@@ -724,6 +589,7 @@ FIG S6
 Biochemical characterization of single amino acid variants of spike protein RBD. (A and B) Size exclusion chromatography (SEC) traces of the indicated spike-RBD variants. The dashed line indicates the elution peak of spike-6P. (C) Thermostability analysis of RBD variants. Each sample had three replicates, and only mean values were plotted. The black vertical dashed line indicates the first melting temperature of 6P-D614G. (D and E) ELISA-based binding affinities of ACE2 (D) and neutralizing monoclonal antibody CR3022 (E) to the indicated RBD variants. Download [FIG S6, PDF file, 0.3 MB](https://pmc.ncbi.nlm.nih.gov/articles/instance/7642679/bin/mBio.02707-20-sf006.pdf) (356.6KB, pdf) .
 Copyright © 2020 Long et al.
 This content is distributed under the terms of the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+---
 ##  DISCUSSION
 In this work, we analyzed the molecular population genomics, sociodemographic, and medical features of two waves of COVID-19 disease occurring in metropolitan Houston, TX, between early March and early July 2020. We also studied the biophysical and immunologic properties of some naturally occurring single amino acid changes in the spike protein RBD identified by sequencing the 5,085 genomes. We discovered that the first COVID-19 wave was caused by a heterogenous array of virus genotypes assigned to several different clades. The majority of cases in the first wave were related to strains that caused widespread disease in European and Asian countries, as well as other localities. We conclude that the SARS-CoV-2 virus was introduced into Houston many times independently, likely by individuals who had traveled to or from different parts of the world, including other communities in the United States. In support of this conclusion, the first cases in metropolitan Houston were associated with a travel history to a region with a known high incidence of COVID-19 ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B15)). The data are consistent with the fact that Houston is a large international city characterized by a multiethnic population and is a prominent transport hub with direct flights to major cities globally.
 The second wave of COVID-19 cases is also characterized by SARS-CoV-2 strains with diverse genotypes. Virtually all cases in the second and ongoing disease wave had been caused by strains with the Gly614 variant of spike protein ([Fig. 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#fig1)). Our data unambiguously demonstrate that strains with the Gly614 variant increased significantly in frequency in wave 2 relative to wave 1 in the Houston metropolitan region. This shift occurred very rapidly, in a matter of just a few months. Amino acid residue Asp614 is located in subdomain 2 (SD-2) of the spike protein and forms a hydrogen bond and electrostatic interaction with two residues in the S2 subunit of a neighboring protomer. Replacement of aspartate with glycine would eliminate both interactions, thereby substantively weakening the contact between the S1 and S2 subunits. We previously speculated ([74](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B74)) that this weakening produces a more highly fusogenic spike protein, as S1 must first dissociate from S2 before S2 can refold and mediate fusion of virus and cell membranes. Stated another way, virus strains with the Gly614 variant may be better able to enter host cells, potentially resulting in enhanced spread. Consistent with this idea, Korber et al. ([65](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B65)) showed that the Gly614 variant grows to a higher titer as pseudotyped virions. On initial diagnosis, infected individuals had lower real-time PCR (RT-PCR) cycle threshold values, suggesting higher upper respiratory tract viral loads. Our data ([Fig. 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#fig7)) are fully consistent with the finding, previously reported by Zhang et al. ([72](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B72)), that pseudovirus with the 614Gly variant infected ACE2 receptor-expressing cells more efficiently than the 614Asp variant. Similar results have been described by Hu et al. ([66](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B66)) and Lorenzo-Redondo et al. ([67](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B67)). Plante et al. ([75](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B75)) recently studied isogenic mutant SARS-CoV-2 strains with either the 614Asp or 614Gly variant and found that the 614Gly variant virus showed significantly increased replication in human lung epithelial cells _in vitro_ and increased infectious titers in nasal and tracheal washes obtained from experimentally infected hamsters. These results are consistent with the idea that the 614Gly variant bestows increased virus fitness in the upper respiratory tract ([75](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B75)).
@@ -740,6 +606,7 @@ In the aggregate, these findings suggest that mutations emerging within the spik
 ### Concluding statement.
 Our work represents analysis of the largest sample to date of SARS-CoV-2 genome sequences from patients in one metropolitan region in the United States. The investigation was facilitated by the fact that we had rapidly assessed a SARS-CoV-2 molecular diagnostic test in January 2020, more than a month before the first COVID-19 patient was diagnosed in Houston. In addition, our large health care system has seven hospitals and many facilities (e.g., outpatient care centers, emergency departments) located in geographically diverse areas of the city. We also provide reference laboratory services for other health care entities in the Houston area. Together, our facilities serve patients of diverse ethnicities and socioeconomic statuses. Thus, the data presented here likely reflect a broad overview of virus diversity causing COVID-19 infections throughout metropolitan Houston. We previously exploited these features to study influenza virus and _Klebsiella pneumoniae_ dissemination in metropolitan Houston ([84](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B84), [85](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#B85)). We acknowledge that not every “twig” of the SARS-CoV-2 evolutionary tree in Houston is represented in these data. The samples studied are not comprehensive with respect to the entire metropolitan region. For example, it is possible that our strain samples are not fully representative of individuals who are indigent, homeless, or of very low socioeconomic status. In addition, although the strain sample size was relatively large compared to other studies, the samples represented only about 10% of all COVID-19 cases in metropolitan Houston documented in the study period. In addition, some patient samples contained relatively small amounts of virus nucleic acid and did not yield adequate sequence data for high-quality genome analysis. Thus, our data likely underestimate the extent of genome diversity present among SARS-CoV-2 strains causing COVID-19 and will not identify all amino acid replacements in the virus in this geographic region. It will be important to sequence and analyze the genomes of additional SARS-CoV-2 strains causing COVID-19 cases in the ongoing second massive disease wave in metropolitan Houston, and such studies are under way. Data of this type will be especially important to have if a third wave and subsequent waves were to occur in metropolitan Houston, as it could provide insight into molecular and epidemiologic events contributing to them.
 The genomes reported here are an important data resource that will underpin our ongoing study of SARS-CoV-2 molecular evolution and dissemination and medical features of COVID-19 in Houston. As of 19 August 2020, there were 135,866 reported cases of COVID-19 in metropolitan Houston, and the number of cases is increasing daily. Although the full array of factors contributing to the massive second wave in Houston is not known, it is possible that the potential for increased transmissibility of SARS-CoV-2 with the Gly614 amino acid replacement may have played a role, as well as changes in behavior associated with the Memorial Day and July 4th holidays and relaxation of some of the social constraints imposed during the first wave. The availability of extensive virus genome data dating from the earliest reported cases of COVID-19 in metropolitan Houston, coupled with the database we have now constructed, may provide critical insights into the origin of the new infection spikes and waves that are occurring as public health constraints are further relaxed, schools and colleges reopen, holidays occur, commercial air travel increases, and individuals change their behavior because of COVID-19 “fatigue.” The genome data will also be useful in assessing ongoing molecular evolution in spike and other proteins as baseline herd immunity is generated, either by natural exposure to SARS-CoV-2 or by vaccination. The signal of potential selection contributing to some spike protein diversity and identification of naturally occurring mutant RBD variants with altered serologic recognition warrant close attention and expanded study.
+---
 ##  MATERIALS AND METHODS
 ### Patient specimens.
 All specimens were obtained from individuals who were registered patients at Houston Methodist hospitals, associated facilities (e.g., urgent care centers), or institutions in the greater Houston metropolitan region that use our laboratory services. Virtually all individuals met the criteria specified by the Centers for Disease Control and Prevention to be classified as a person under investigation.
@@ -773,6 +640,7 @@ The RBD spike mutants chosen for analysis were all RBD amino acid mutants identi
 Recombinant spike proteins were diluted to a final concentration of 0.05 mg/ml with 5× SYPRO orange (Sigma) in a 96-well qPCR plate. Continuous fluorescence measurements (λ excitation [λex] = 465 nm, λ emission [λem] = 580 nm) were collected with a Roche LightCycler 480 II instrument. The temperature was increased from 22°C to 95°C at a rate of 4.4°C/min. We report the first melting transition.
 ### Enzyme-linked immunosorbent assays.
 ELISAs were performed to characterize binding of S6P, S6P D614G, and S6P D614G-RBD variants to human ACE2 and the RBD-binding monoclonal antibody CR3022. The ACE2-hFc chimera was obtained from GenScript (Z03484), and the CR3022 antibody was purchased from Abcam ([Ab273073](https://www.ncbi.nlm.nih.gov/nuccore/Ab273073)). Corning 96-well high-binding plates (CLS9018BC) were coated with spike variants at 2 μg/ml overnight at 4°C. After four washes with phosphate-buffered saline–0.1% Tween 20 (PBST; 300 μl/well), plates were blocked with PBS–2% milk (PBSM) for 2 h at room temperature and again washed four times with PBST. These were serially diluted in PBSM 1:3 seven times in triplicate. After 1 h of incubation at room temperature, plates were washed four times in PBST, labeled with 50 μl mouse anti-human IgG1 Fc-HRP (SouthernBiotech, 9054-05) for 45 min in PBSM, and washed again in PBST before addition of 50 μl 1-step Ultra TMB-ELISA substrate (Thermo Scientific, 34028). Reactions were developed for 15 min and stopped by addition of 50 μl 4 M H2SO4. Absorbance intensity (450 nm) was normalized within a plate, and 50% effective concentration (EC50) values were calculated through 4-parameter logistic curve (4PL) analysis using GraphPad Prism 8.4.3.
+---
 ##  ACKNOWLEDGMENTS
 We thank Steven Hinrichs and colleagues at the Nebraska Public Health Laboratory and David Persse and colleagues at the Houston Health Department for providing samples used to validate our initial SARS-CoV-2 molecular assay. We thank Jessica Thomas and Zejuan Li, Erika Walker, Concepcion C. Cantu, the very talented and dedicated molecular technologists, and the many labor pool volunteers in the Molecular Diagnostics Laboratory for their dedication to patient care. We also thank Brandi Robinson, Harrold Cano, Cory Romero, Brooke Burns, and Hayder Mahmood for technical assistance. We are indebted to Marc Boom and Dirk Sostman for their support and to many very generous Houston philanthropists for their tremendous support of this ongoing project, including but not limited to an anonymous philanthropist, Ann and John Bookout III, Carolyn and John Bookout, Ting Tsung and the Wei Fong Chao Foundation, Ann and Leslie Doggett, Freeport LNG, the Hearst Foundations, the Jerold B. Katz Foundation, C. James and Carole Walter Looke, Diane and David Modesett, the Sherman Foundation, and Paula and Joseph C. “Rusty” Walter III. We gratefully acknowledge the originating and submitting laboratories of the SARS-CoV-2 genome sequences from GISAID’s EpiFlu Database used in some of the work presented here. We also thank many colleagues for critical reading of the manuscript and suggesting improvements and Sasha Pejerrey, Adrienne Winston, Heather McConnell, and Kathryn Stockbauer for editorial contributions. We appreciate Stephen Schaffner for his helpful comments regarding the correlation analysis. We are especially indebted to Nancy Jenkins and Neal Copeland for their scholarly suggestions to improve an early version of the manuscript.
 J. M. Musser conceptualized and designed the project; S. W. Long, R. J. Olsen, P. A. Christensen, D. W. Bernard, J. J. Davis, M. Shukla, M. Nguyen, M. O. Saavedra, P. Yerramilli, L. Pruitt, S. Subedi, H.-C. Kuo, H. Hendrickson, G. Eskandari, H. A. T. Nguyen, J. H. Long, M. Kumaraswami, J. Goike, D. Boutz, J. Gollihar, J. S. McLellan, C.-W. Chou, K. Javanmardi, and I. J. Finkelstein performed research. All of us contributed to writing the manuscript.
@@ -874,62 +742,7 @@ This study was supported by the Fondren Foundation, Houston Methodist Hospital a
   * 92.Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, Grisel O, Blondel M, Prettenhofer P, Weiss R, Dubourg V, Vanderplas J, Passos A, Cournapeau D, Brucher M, Perrot M, Duchesnay E. 2011. Scikit-learn: machine learning in Python. J Machine Learning Res 12:2825–2830. <https://www.jmlr.org/papers/v12/pedregosa11a.html>. [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=J%20Machine%20Learning%20Res&title=Scikit-learn:%20machine%20learning%20in%20Python&volume=12&publication_year=2011&pages=2825-2830&)]
   * 93.Cai Y, Zhang J, Xiao T, Peng H, Sterling SM, Walsh RM, Jr, Rawson S, Rits-Volloch S, Chen B. 2020. Distinct conformational states of SARS-CoV-2 spike protein. Science 12:1586–1592. doi: 10.1126/science.abd4251. [[DOI](https://doi.org/10.1126/science.abd4251)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7464562/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32694201/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Science&title=Distinct%20conformational%20states%20of%20SARS-CoV-2%20spike%20protein&volume=12&publication_year=2020&pages=1586-1592&pmid=32694201&doi=10.1126/science.abd4251&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1128/mBio.02707-20)
-  * [ PDF (4.4 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/pdf/mBio.02707-20.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [ABSTRACT](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#abstract2)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#s1)
-  * [RESULTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#s2)
-  * [DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#s3)
-  * [MATERIALS AND METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#s4)
-  * [ACKNOWLEDGMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#ack1)
-  * [Footnotes](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#fn-group1)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Ajournal)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC7642679)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/) on 2025-07-19.*
