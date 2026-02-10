@@ -3,7 +3,7 @@
 - date: 2018-08-10
   text: The website gets a major refresh as it moves from web2py (bleh!) to Jekyll+GitHub. Thanks to Jim and Nicole for their awesome help during this major undertaking.
 - date: 2018-03-12
-  text: IJF co-panels a discussion with Dan Gibson and Rachel Haurwitz on genome editing at [SXSW interactive](https://schedule.sxsw.com/2018/events/PP76751) ([md](/assets/md/news/2018-03-12-schedule-sxsw-interactive/)).
+  text: IJF co-panels a discussion with Dan Gibson and Rachel Haurwitz on genome editing at [SXSW interactive](https://schedule.sxsw.com/2018/events/PP76751).
 - date: 2018-08-07
   text: IJF co-panels a public discussion with Sahotra Sarkar on the promise and peril of CRISPR gene editing at the Austin Forum on Technology and Society.
 - date: 2018-03-28
@@ -41,7 +41,7 @@
 - date: 2018-07-25
   text: Congrats to Jeff Hongshan and Michael on their new [Langmuir paper](https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.8b01812) describing a better way to make ssDNA curtains!
 - date: 2015-07-30
-  text: Yoori Kim gets the prestigious [HHMI International Scholar Fellowship](https://www.hhmi.org/news/hhmi-selects-45-international-student-research-fellows) ([md](/assets/md/news/2015-07-30-hhmi-hhmi-international-scholar-fellowship/)). Congratulations Yoori!
+  text: Yoori Kim gets the prestigious [HHMI International Scholar Fellowship](https://www.hhmi.org/news/hhmi-selects-45-international-student-research-fellows). Congratulations Yoori!
 - date: 2013-09-01
   text: Yoori Kim joins the lab!
 - date: 2018-02-12
@@ -55,7 +55,7 @@
 - date: 2017-02-01
   text: Jim Rybarski officially joins the Finkelstein Lab as a graduate student!
 - date: 2017-08-01
-  text: Michael Soniat is awarded the [American Cancer Society Postdoctoral Fellowship](https://www.cancer.org/research/we-fund-cancer-research.html) ([md](/assets/md/news/2017-08-01-cancer-american-cancer-society-postdoctoral-fellowship/)).
+  text: Michael Soniat is awarded the [American Cancer Society Postdoctoral Fellowship](https://www.cancer.org/research/we-fund-cancer-research.html).
 - date: 2018-04-15
   text: Michael Soniat presents a talk at the annual Structural Biology of DNA Repair conference.
 - date: 2018-06-01
@@ -85,7 +85,7 @@
 - date: 2012-07-02
   text: IJF receives the NIH Pathway to Independence R00 award.
 - date: 2012-07-01
-  text: IJF is named a [CPRIT Scholar in Cancer Research](https://www.cprit.texas.gov/) ([md](/assets/md/news/2012-07-01-cprit-cprit-scholar-in-cancer-research/)). [CNS press release](https://cns.utexas.edu/news/two-assistant-profs-win-career-awards) ([md](/assets/md/news/2015-03-01-cns-cns-press-release/))
+  text: IJF is named a [CPRIT Scholar in Cancer Research](https://www.cprit.texas.gov/). [CNS press release](https://cns.utexas.edu/news/two-assistant-profs-win-career-awards) ([md](/assets/md/news/2015-03-01-cns-cns-press-release/))
 - date: 2015-05-02
   text: Jim Rybarski graduates with a B.S. in Biochemistry. Jim will be staying with us as a research scientist as he continues to ***crush*** science!
 - date: 2015-05-01
@@ -163,7 +163,7 @@
 - date: 2020-07-16
   text: Congrats to Stephen and Jeff on our collaborative manuscript with [Dr. Bill Press](https://www.oden.utexas.edu/people/348/). on DNA-based information encoding published in [PNAS](https://www.pnas.org/content/early/2020/07/15/2004821117). 
 - date: 2020-07-23
-  text: The Finkelstein, McLellan, and Maynard labs publish a paper in [Science](https://science.sciencemag.org/content/early/2020/07/22/science.abd0826) on a structure based design of SARS-CoV-2 spikes. Congrats to Jeff, Jami, Kamyab, Alvin, and the entire collaborative team. Our HexaPro work is covered by the [New York Times](https://www.nytimes.com/2021/04/05/health/hexapro-mclellan-vaccine.html), [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/ut-news)), [KXAN](https://www.kxan.com/news/texas/what-is-ndv-hxp-s-ut-austin-helped-make-it-now-its-entering-human-trials/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kxan)), [KVUE](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kvue)), and [CBS DFW](https://dfw.cbslocal.com/2020/07/23/ut-coronavirus-research-faster-vaccine-production/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/cbs)).
+  text: The Finkelstein, McLellan, and Maynard labs publish a paper in [Science](https://science.sciencemag.org/content/early/2020/07/22/science.abd0826) on a structure based design of SARS-CoV-2 spikes. Congrats to Jeff, Jami, Kamyab, Alvin, and the entire collaborative team. Our HexaPro work is covered by the [New York Times](https://www.nytimes.com/2021/04/05/health/hexapro-mclellan-vaccine.html), [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/ut-news)), [KXAN](https://www.kxan.com/news/texas/what-is-ndv-hxp-s-ut-austin-helped-make-it-now-its-entering-human-trials/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kxan)), [KVUE](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kvue)), and [CBS DFW](https://dfw.cbslocal.com/2020/07/23/ut-coronavirus-research-faster-vaccine-production/).
 - date: 2020-07-27
   text: Congrats to Yoori and Nicole on their collaborative paper in [Nature Microbiology](https://www.nature.com/articles/s41564-020-0760-7) with Dr. Richard Bennett.
 - date: 2020-08-31
@@ -307,7 +307,7 @@
 - date: 2025-08-01
   text: IJF is promoted to Full Professor in the Department of Molecular Biosciences.
 - date: 2025-05-01
-  text: The lab is awarded a [Cystic Fibrosis Foundation](https://www.cff.org/) ([md](/assets/md/news/2025-05-01-cff-cystic-fibrosis-foundation/)) grant for CFTR exon replacement without a DNA break using retron editors.
+  text: The lab is awarded a [Cystic Fibrosis Foundation](https://www.cff.org/) grant for CFTR exon replacement without a DNA break using retron editors.
 - date: 2025-07-29
   text: The lab receives an [Emily's Entourage](https://www.emilysentourage.org/emilys-entourage-awards-new-funding-to-university-of-texas-at-austin-to-advance-breakthrough-gene-editing-therapy-for-hard-to-treat-cystic-fibrosis-mutations/) research grant to develop retron-mediated correction of W1282X and N1303K CF mutations via CFTR exon 23-24 replacement. ([md](/assets/md/news/2025-07-29-emilys-entourage/))
 - date: 2025-09-13

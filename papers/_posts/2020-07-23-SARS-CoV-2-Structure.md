@@ -25,7 +25,7 @@ extra_text: '
 
   - [Speeding up COVID-19 vaccine (KVUE)](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kvue))
 
-  - [UT Coronavirus Research (CBS DFW)](https://dfw.cbslocal.com/2020/07/23/ut-coronavirus-research-faster-vaccine-production/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/cbs))
+  - [UT Coronavirus Research (CBS DFW)](https://dfw.cbslocal.com/2020/07/23/ut-coronavirus-research-faster-vaccine-production/)
 
   - [NDV-HXP-S enters human trials (KXAN)](https://www.kxan.com/news/texas/what-is-ndv-hxp-s-ut-austin-helped-make-it-now-its-entering-human-trials/) ([md](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kxan))
 
