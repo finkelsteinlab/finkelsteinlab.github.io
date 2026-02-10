@@ -14,6 +14,7 @@ supplement:
 doi: 10.1007/978-1-4939-9500-4_14
 pmcid: PMC6666396 
 pmid: 31127580 
+markdown: 2019-05-25-human-resectosome
 extra_text: ''
 category: paper
 tags: [DNA curtains, Homologous recombination, Bloom's syndrome helicase(BLM), DNA nuclease (DNA2), Exonuclease 1 (EXO1)]
