@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/j.pbiomolbio.2016.08.001
 pmcid: PMC5290259
 pmid: 27498169
+markdown: 2017-08-01-euk-resectosome-single-molecule-review
 extra_text: ''
 category: paper
 tags: [DNA, DNA double-stranded breaks, Eukaryota]
