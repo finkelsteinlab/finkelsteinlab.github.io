@@ -14,6 +14,7 @@ supplement: 0042-2018-PNAS-Hawkins et al-supplement.pdf
 doi: 10.1073/pnas.1802640115
 pmcid: PMC6142223
 pmid: 29925596
+markdown: 2018-07-03-dna-barcodes
 extra_text: '
 **Press:**
 
