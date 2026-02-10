@@ -14,6 +14,7 @@ supplement:
 doi: 10.1038/s41598-025-86373-5
 pmcid: PMC11785965
 pmid: 39890862
+markdown: 2025-01-31-Room-Temperature-CRISPR-Diagnostics
 extra_text: ''
 category: paper
 tags: CRISPR, Cas12a, diagnostics, room temperature
