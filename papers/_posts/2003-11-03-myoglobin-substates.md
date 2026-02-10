@@ -14,6 +14,7 @@ supplement: 0001-2003-JACS-Merchant et al-supplement.pdf
 doi: 10.1021/ja035654x
 pmcid: PMC2435512
 pmid: 14599220
+markdown: 2003-11-03-myoglobin-substates
 extra_text: ''
 category: paper
 tags: []
