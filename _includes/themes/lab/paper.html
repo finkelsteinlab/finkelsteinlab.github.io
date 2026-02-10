@@ -53,6 +53,9 @@ with gratitude.
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					<a class="off" href="/assets/pdfs/{{ page.pdf }}">PDF</a>
+					{% if page.markdown %}
+					| <a class="off" href="{{ page.markdown }}">Full text (md)</a>
+					{% endif %}
 					<br/>
 				{% endif %}
 				{% if page.fulltext %}
