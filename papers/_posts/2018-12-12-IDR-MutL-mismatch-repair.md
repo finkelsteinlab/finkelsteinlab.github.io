@@ -15,6 +15,7 @@ supplement: 0048-2018-NAR-Kim et al-supplement.pdf
 doi: 10.1093/nar/gky1244
 pmcid: PMC6393296
 pmid: 30541127
+markdown: 2018-12-12-IDR-MutL-mismatch-repair
 extra_text: ''
 category: paper
 tags: [Intrinsically disordered regions, chromatin, facilitated diffusion, mismatch repair, Mlh1-Pms1]
