@@ -14,7 +14,14 @@ supplement: 0074-2021-PNAS-Rybarski et al-supplement.pdf
 doi: 10.1073/pnas.2112279118
 pmcid: PMC8670466
 pmid: 34845024
-extra_text: ''
+extra_text: '
+**Press:**
+
+  - [Potential New Gene Editing Tools Uncovered (UT News)](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) ([md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news.md))
+
+  - [Potential new gene editing tools uncovered (EurekAlert)](https://www.eurekalert.org/news-releases/936789) ([md](/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert.md))
+
+'
 category: paper
 tags: [gene editing, bioinformatics, CAST, transposition, CRISPR RNA]
 ---
