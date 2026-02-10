@@ -18,6 +18,11 @@
                 {% assign all = all | append: pdf %}
               {% endif %}
 
+              {% if paper.markdown %}
+                {% capture md_link %}&nbsp;&nbsp;&nbsp;&nbsp;[<a href="{{ paper.markdown }}">MD</a>]{% endcapture %}
+                {% assign all = all | append: md_link %}
+              {% endif %}
+
               {% if paper.supplement %}
                 {% capture supplement %}&nbsp;&nbsp;&nbsp;&nbsp;[<a href="/assets/pdfs/{{ paper.supplement }}">Supplement</a>]{% endcapture %}
                 {% assign all = all | append: supplement %}
