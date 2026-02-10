@@ -6,7 +6,25 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/
 pmcid: PMC8549804
 ---
 
-[ Skip to main content ](https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/#main-content)
+# Characterization of the T4 gp32-ssDNA complex by native, cross-linking, and ultraviolet photodissociation mass spectrometry
+
+**Molly S. Blevins, Jada N. Walker, Jeffrey M. Schaub, Ilya J. Finkelstein, and Jennifer S. Brodbelt**
+
+*Chem. Sci.*, Volume 12, Issue 41, Pages 13764–13776 (2021)
+
+**DOI:** [10.1039/d1sc02861h](https://doi.org/10.1039/d1sc02861h)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Experimental](#experimental)
+- [Results and Discussion](#results-and-discussion)
+- [Conclusions](#conclusions)
+
+---
 
 ##  Abstract
 Protein–DNA interactions play crucial roles in DNA replication across all living organisms. Here, we apply a suite of mass spectrometry (MS) tools to characterize a protein-ssDNA complex, T4 gp32·ssDNA, with results that both support previous studies and simultaneously uncover novel insight into this non-covalent biological complex. Native mass spectrometry of the protein reveals the co-occurrence of Zn-bound monomers and homodimers, while addition of differing lengths of ssDNA generates a variety of protein:ssDNA complex stoichiometries (1 : 1, 2 : 1, 3 : 1), indicating sequential association of gp32 monomers with ssDNA. Ultraviolet photodissociation (UVPD) mass spectrometry allows characterization of the binding site of the ssDNA within the protein monomer _via_ analysis of holo ions, _i.e._ ssDNA-containing protein fragments, enabling interrogation of disordered regions of the protein which are inaccessible _via_ traditional crystallographic techniques. Finally, two complementary cross-linking (XL) approaches, bottom-up analysis of the crosslinked complexes as well as MS1 analysis of the intact complexes, are used to showcase the absence of ssDNA binding with the intact cross-linked homodimer and to generate two homodimer gp32 model structures which highlight that the homodimer interface overlaps with the monomer ssDNA-binding site. These models suggest that the homodimer may function in a regulatory capacity by controlling the extent of ssDNA binding of the protein monomer. In sum, this work underscores the utility of a multi-faceted mass spectrometry approach for detailed investigation of non-covalent protein-DNA complexes.
