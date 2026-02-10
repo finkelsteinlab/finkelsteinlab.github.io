@@ -14,7 +14,12 @@ supplement: 0063-2020-NatBiotech-Jones et al-supplement.pdf
 doi: 10.1038/s41587-020-0646-5
 pmcid: PMC9665413
 pmid: 32895548
-extra_text: ''
+extra_text: '
+**Press:**
+
+  - [Matching CRISPR to the Job (UT News)](https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/) ([md](/assets/md/papers/2020-09-07-nucleaseq/press/ut-news.md))
+
+'
 category: paper
 tags:
 ---
