@@ -14,6 +14,7 @@ supplement: 0028-2015-Langmuir-Gallardo et al-supplement.pdf
 doi: 10.1021/acs.langmuir.5b02416
 pmcid: PMC4624423
 pmid: 26325477  
+markdown: 2015-09-22-dna-curtain-arrays
 extra_text: ''
 category: paper
 tags: [DNA, Microscopy, Nanotechnology]
