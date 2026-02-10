@@ -14,6 +14,7 @@ supplement: 0034-2017-eLife-Spivey et al-supplement.pdf
 doi: 10.7554/eLife.20340
 pmcid: PMC5332158
 pmid: 28139976
+markdown: 2017-01-31-yeast-aging-multylm
 extra_text: ''
 category: paper 
 tags: [S. pombe, Aging, Biophysics, Cell biology, Fission yeast, Microfluidics, Microscopy, Replicative lifespan, Structural biology]
