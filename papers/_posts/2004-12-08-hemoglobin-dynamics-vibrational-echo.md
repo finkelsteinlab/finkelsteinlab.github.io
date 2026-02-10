@@ -14,6 +14,7 @@ supplement:
 doi: 10.1021/ja0454790
 pmcid: PMC2486496
 pmid: 15571392
+markdown: 2004-12-08-hemoglobin-dynamics-vibrational-echo
 extra_text: ''
 category: paper
 tags: []
