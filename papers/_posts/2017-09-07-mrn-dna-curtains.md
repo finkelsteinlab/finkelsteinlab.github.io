@@ -14,6 +14,7 @@ supplement: 0038-2017-MolCell-Myler et al-supplement.pdf
 doi: 10.1016/j.molcel.2017.08.002
 pmcid: PMC5609712
 pmid: 28867292
+markdown: 2017-09-07-mrn-dna-curtains
 extra_text: '**Highlights:**
 
   * [F1000 recommended](http://f1000.com/prime/730591997?bd=1)
