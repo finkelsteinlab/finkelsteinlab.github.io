@@ -310,3 +310,91 @@ The authors gratefully acknowledge a generous gift from Tito's Handmade Vodka. T
 ---
 
 *Archived from [PubMed Central (PMC12604663)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12604663/) on 2025-07-19.*
+
+---
+
+## References
+
+1. Wang JY, Pausch P, Doudna JA. Structural biology of CRISPR–Cas immunity and genome editing enzymes. *Nat Rev Micro*. 2022;20:641–56. [doi:10.1038/s41579-022-00739-4](https://doi.org/10.1038/s41579-022-00739-4)
+
+2. Zetsche B, Gootenberg JS, Abudayyeh OO, et al. Cpf1 is a single RNA-guided endonuclease of a class 2 CRISPR–Cas system. *Cell*. 2015;163:759–71. [doi:10.1016/j.cell.2015.09.038](https://doi.org/10.1016/j.cell.2015.09.038)
+
+3. Chen JS, Ma E, Harrington LB, et al. CRISPR–Cas12a target binding unleashes indiscriminate single-stranded DNase activity. *Science*. 2018;360:436–9. [doi:10.1126/science.aar6245](https://doi.org/10.1126/science.aar6245)
+
+4. Fuchs RT, Curcuru J, Mabuchi M, et al. Cas12a *trans*-cleavage can be modulated *in vitro* and is active on ssDNA, dsDNA, and RNA. *bioRxiv*. 8 April 2019, preprint: not peer reviewed. [doi:10.1101/600890](https://doi.org/10.1101/600890)
+
+5. Nalefski EA, Kooistra RM, Parikh I, et al. Determinants of CRISPR Cas12a nuclease activation by DNA and RNA targets. *Nucleic Acids Res*. 2024;52:4502–22. [doi:10.1093/nar/gkae152](https://doi.org/10.1093/nar/gkae152)
+
+6. Nalefski EA, Patel N, Leung PJY, et al. Kinetic analysis of Cas12a and Cas13a RNA-guided nucleases for development of improved CRISPR-based diagnostics. *iScience*. 2021;24:102996. [doi:10.1016/j.isci.2021.102996](https://doi.org/10.1016/j.isci.2021.102996)
+
+7. Li S-Y, Cheng Q-X, Wang J-M, et al. CRISPR–Cas12a-assisted nucleic acid detection. *Cell Discov*. 2018;4:20. [doi:10.1038/s41421-018-0028-z](https://doi.org/10.1038/s41421-018-0028-z)
+
+8. Smith CW, Nandu N, Kachwala MJ, et al. Probing CRISPR–Cas12a nuclease activity using double-stranded DNA-templated fluorescent substrates. *Biochemistry*. 2020;59:1474–81. [doi:10.1021/acs.biochem.0c00140](https://doi.org/10.1021/acs.biochem.0c00140)
+
+9. Gootenberg JS, Abudayyeh OO, Kellner MJ, et al. Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6. *Science*. 2018;360:439–44. [doi:10.1126/science.aaq0179](https://doi.org/10.1126/science.aaq0179)
+
+10. Fuchs RT, Curcuru JL, Mabuchi M, et al. Characterization of Cme and Yme thermostable Cas12a orthologs. *Commun Biol*. 2022;5:325. [doi:10.1038/s42003-022-03275-2](https://doi.org/10.1038/s42003-022-03275-2)
+
+11. Marino ND, Pinilla-Redondo R, Bondy-Denomy J. CRISPR–Cas12a targeting of ssDNA plays no detectable role in immunity. *Nucleic Acids Res*. 2022;50:6414–22. [doi:10.1093/nar/gkac462](https://doi.org/10.1093/nar/gkac462)
+
+12. Liu S, Rao X, Zhao R, et al. The trans DNA cleavage activity of Cas12a provides no detectable immunity against plasmid or phage. *Front Genome Ed*. 2022;4:929929. [doi:10.3389/fgeed.2022.929929](https://doi.org/10.3389/fgeed.2022.929929)
+
+13. Dmytrenko O, Neumann GC, Hallmark T, et al. Cas12a2 elicits abortive infection through RNA-triggered destruction of dsDNA. *Nature*. 2023;613:588–94. [doi:10.1038/s41586-022-05559-3](https://doi.org/10.1038/s41586-022-05559-3)
+
+14. Kaminski MM, Abudayyeh OO, Gootenberg JS, et al. CRISPR-based diagnostics. *Nat Biomed Eng*. 2021;5:643–56. [doi:10.1038/s41551-021-00760-7](https://doi.org/10.1038/s41551-021-00760-7)
+
+15. Li H, Xie Y, Chen F, et al. Amplification-free CRISPR/Cas detection technology: challenges, strategies, and perspectives. *Chem Soc Rev*. 2023;52:361–82. [doi:10.1039/D2CS00594H](https://doi.org/10.1039/D2CS00594H)
+
+16. Feng W, Zhang H, Le XC. Signal amplification by the *trans*-cleavage activity of CRISPR–Cas systems: kinetics and performance. *Anal Chem*. 2023;95:206–17. [doi:10.1021/acs.analchem.2c04555](https://doi.org/10.1021/acs.analchem.2c04555)
+
+17. Ramachandran A, Santiago JG. CRISPR enzyme kinetics for molecular diagnostics. *Anal Chem*. 2021;93:7456–64. [doi:10.1021/acs.analchem.1c00525](https://doi.org/10.1021/acs.analchem.1c00525)
+
+18. Lv H, Wang J, Zhang J, et al. Definition of CRISPR Cas12a *trans*-cleavage units to facilitate CRISPR diagnostics. *Front Microbiol*. 2021;12:766464. [doi:10.3389/fmicb.2021.766464](https://doi.org/10.3389/fmicb.2021.766464)
+
+19. Rossetti M, Merlo R, Bagheri N, et al. Enhancement of CRISPR/Cas12a *trans*-cleavage activity using hairpin DNA reporters. *Nucleic Acids Res*. 2022;50:8377–91. [doi:10.1093/nar/gkac578](https://doi.org/10.1093/nar/gkac578)
+
+20. Xie S, Xu B, Tang R, et al. Kinetics accelerated CRISPR–Cas12a enabling live-cell monitoring of Mn2+ homeostasis. *Anal Chem*. 2022;94:10159–67. [doi:10.1021/acs.analchem.2c01461](https://doi.org/10.1021/acs.analchem.2c01461)
+
+21. Worle E, Newman A, D'Silva J, et al. Allosteric activation of CRISPR–Cas12a requires the concerted movement of the bridge helix and helix 1 of the RuvC II domain. *Nucleic Acids Res*. 2022;50:10153–68. [doi:10.1093/nar/gkac767](https://doi.org/10.1093/nar/gkac767)
+
+22. Santiago JG. Inconsistent treatments of the kinetics of Clustered regularly Interspaced Short Palindromic Repeats (CRISPR) impair assessment of its diagnostic potential. *QRB Discovery*. 2022;3:e9. [doi:10.1017/qrd.2022.7](https://doi.org/10.1017/qrd.2022.7)
+
+23. Nalefski EA, Sinan S, Cantera JL, et al. Room temperature CRISPR diagnostics for low-resource settings. *Sci Rep*. 2025;15:3909. [doi:10.1038/s41598-025-86373-5](https://doi.org/10.1038/s41598-025-86373-5)
+
+24. Huyke DA, Ramachandran A, Bashkirov VI, et al. Enzyme kinetics and detector sensitivity determine limits of detection of amplification-free CRISPR–Cas12 and CRISPR–Cas13 diagnostics. *Anal Chem*. 2022;94:9826–34. [doi:10.1021/acs.analchem.2c01670](https://doi.org/10.1021/acs.analchem.2c01670)
+
+25. Johnson KA. New standards for collecting and fitting steady state kinetic data. *Beilstein J Org Chem*. 2019;15:16–29. [doi:10.3762/bjoc.15.2](https://doi.org/10.3762/bjoc.15.2)
+
+26. Holstein CA, Griffin M, Hong J, et al. Statistical method for determining and comparing limits of detection of bioassays. *Anal Chem*. 2015;87:9795–801. [doi:10.1021/acs.analchem.5b02082](https://doi.org/10.1021/acs.analchem.5b02082)
+
+27. Nouri R, Dong M, Politza AJ, et al. Figure of merit for CRISPR-based nucleic acid-sensing systems: improvement strategies and performance comparison. *ACS Sens*. 2022;7:900–11. [doi:10.1021/acssensors.2c00024](https://doi.org/10.1021/acssensors.2c00024)
+
+28. Motulski HJ. GraphPad curve fitting guide. 2024.
+
+29. Nguyen LT, Macaluso NC, Rakestraw NR, et al. Harnessing noncanonical crRNAs to improve functionality of Cas12a orthologs. *Cell Rep*. 2024;43:113777. [doi:10.1016/j.celrep.2024.113777](https://doi.org/10.1016/j.celrep.2024.113777)
+
+30. Drozdetski AV, Mukhopadhyay A, Onufriev AV. Strongly bent double-stranded DNA: reconciling theory and experiment. *Front Phys*. 2019;7:195. [doi:10.3389/fphy.2019.00195](https://doi.org/10.3389/fphy.2019.00195)
+
+31. Baumann CG, Smith SB, Bloomfield VA, et al. Ionic effects on the elasticity of single DNA molecules. *Proc Natl Acad Sci USA*. 1997;94:6185–90. [doi:10.1073/pnas.94.12.6185](https://doi.org/10.1073/pnas.94.12.6185)
+
+32. Stella S, Mesa P, Thomsen J, et al. Conformational activation promotes CRISPR–Cas12a catalysis and resetting of the endonuclease activity. *Cell*. 2018;175:1856–71. [doi:10.1016/j.cell.2018.10.045](https://doi.org/10.1016/j.cell.2018.10.045)
+
+33. Saha A, Ahsan M, Arantes PR, et al. An alpha-helical lid guides the target DNA toward catalysis in CRISPR–Cas12a. *Nat Commun*. 2024;15:1473. [doi:10.1038/s41467-024-45762-6](https://doi.org/10.1038/s41467-024-45762-6)
+
+34. Swarts DC, Jinek M. Cas9 versus Cas12a/Cpf1: structure-function comparisons and implications for genome editing. *WIREs RNA*. 2018;5:e1481. [doi:10.1002/wrna.1481](https://doi.org/10.1002/wrna.1481)
+
+35. Aslanzadeh J. Preventing PCR amplification carryover contamination in a clinical laboratory. *Ann Clin Lab Sci*. 2004;34:389–96.
+
+36. Bissonnette L, Bergeron MG. Next revolution in the molecular theranostics of infectious diseases: microfabricated systems for personalized medicine. *Expert Rev Mol Diagn*. 2006;6:433–50. [doi:10.1586/14737159.6.3.433](https://doi.org/10.1586/14737159.6.3.433)
+
+37. Borst A, Box ATA, Fluit AC. False-positive results and contamination in nucleic acid amplification assays: suggestions for a prevent and destroy strategy. *Eur J Clin Microbiol Infect Dis*. 2004;23:289–99. [doi:10.1007/s10096-004-1100-1](https://doi.org/10.1007/s10096-004-1100-1)
+
+38. Alberty RA, Hammes GG. Application of the theory of diffusion-controlled reactions to enzyme kinetics. *J Phys Chem*. 1958;62:154–9. [doi:10.1021/j150560a005](https://doi.org/10.1021/j150560a005)
+
+39. Chou KC, Zhou GP. Role of the protein outside active site on the diffusion-controlled reaction of enzymes. *J Am Chem Soc*. 1982;104:1409–13. [doi:10.1021/ja00369a043](https://doi.org/10.1021/ja00369a043)
+
+40. Zhou G-Q, Zhong W-Z. Diffusion-controled reactions of enzymes. *Eur J Biochem*. 1982;128:383–7. [doi:10.1111/j.1432-1033.1982.tb06976.x](https://doi.org/10.1111/j.1432-1033.1982.tb06976.x)
+
+41. Bar-Even A, Noor E, Savir Y, et al. The moderately efficient enzyme: evolutionary and physicochemical trends shaping enzyme parameters. *Biochemistry*. 2011;50:4402–10. [doi:10.1021/bi2002289](https://doi.org/10.1021/bi2002289)
+
+42. Swarts DC, Jinek M. Mechanistic insights into the *cis*- and *trans*-acting DNase activities of Cas12a. *Mol Cell*. 2019;73:589–600. [doi:10.1016/j.molcel.2018.11.021](https://doi.org/10.1016/j.molcel.2018.11.021)
