@@ -107,9 +107,7 @@ MCLELLAN, Jason, Jennifer MAYNARD, Andrea CHASSE, Ilya FINKELSTEIN, Mohammad JAV
 
 FINKELSTEIN, Ilya, Cheulhee Jung, John Hawkins, Stephen Knox JONES, James RYBARSKI, Fatema A. SAIFUDDIN, Cagri Savran, Andrew D. Ellington, and William H. PRESS. Chip hybridized association-mapping platform and methods of use. World Intellectual Property Organization WO2018232086A1, filed June 14, 2018, and issued December 20, 2018.
 
-## 
-
-## Awards and Honors
+**Awards and Honors**
 
 <table>
 <colgroup>
@@ -221,7 +219,7 @@ FINKELSTEIN, Ilya, Cheulhee Jung, John Hawkins, Stephen Knox JONES, James RYBARS
 | 2016 | **Welch Hall Renovation Architectural Committee,** College of Natural Sciences |
 | 2012‑13 | **Biochemistry Undergraduate Curriculum Reform Committee,** College of Natural Sciences |
 
-## University
+**University**
 
 | 2025 | **Kleberg Foundation limited submission Review Committee** |
 |----|----|
@@ -229,7 +227,7 @@ FINKELSTEIN, Ilya, Cheulhee Jung, John Hawkins, Stephen Knox JONES, James RYBARS
 | 2021‑ | **Limited submissions Proposal Review Committee**, UT‑Austin |
 | 2020‑22 | **External Member, Biomedical Engineering Graduate Committee**, UT‑Austin |
 
-## State, National and International
+**State, National and International**
 
 | 2025 | **Macromolecular Structure and Function (MSFC) Study Section (ad hoc),** NIH |
 |----|----|
@@ -249,8 +247,6 @@ FINKELSTEIN, Ilya, Cheulhee Jung, John Hawkins, Stephen Knox JONES, James RYBARS
 | 2015 | **Early Career Reviewer (MSFB Study Section, *ad hoc*)** , NIH |
 | 2014 | **Research Portfolio Review Committee**, Department of Homeland Security |
 | 2013 | **Judge**, Siemens Science & Math Competition, Semi‑Finals |
-
-## 
 
 **Seminars/Lectures**
 
@@ -366,11 +362,11 @@ FINKELSTEIN, Ilya, Cheulhee Jung, John Hawkins, Stephen Knox JONES, James RYBARS
 
 **Professional Services**
 
-## Peer Reviewing
+**Peer Reviewing**
 
 Nature, Science, Cell, Molecular Cell, Cell Reports, eLife, Proceedings of the National Academies of Science, Nature Communications, Nature Chemical Biology, Nature Structural and Molecular Biology, Nucleic Acids Research, Journal of the American Chemical Society, Scientific Reports, Journal of Biological Chemistry, Journal of Molecular Biology, Biochemistry, J Phys Chem B, PLOS Bio, PLOS ONE, Analytical Chemistry, Analytical Biochemistry, BioEssays, Methods
 
-## Grant Proposal Reviewing
+**Grant Proposal Reviewing**
 
 - National Institutes of Health
 
@@ -384,122 +380,120 @@ Nature, Science, Cell, Molecular Cell, Cell Reports, eLife, Proceedings of the N
 
 **Mentoring**
 
-**(**\[L\] = LinkedIn site; \[W\] = professional website**)**
+(<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn"> = LinkedIn; <img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website"> = website)
 
-## 
+**Visiting Faculty**
 
-## Visiting Faculty
+2014‑15 **Prof. Çağri A. Savran**, Professor of Mechanical Engineering, Purdue University. Founder & CEO, Savran Technologies Inc. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/cagri-savran/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=2871)
 
-2014‑15 **Prof. Çağri A. Savran**, Professor of Mechanical Engineering, Purdue University. Founder & CEO, Savran Technologies Inc. [\[L\]](https://www.linkedin.com/in/cagri-savran/)[\[W\]](https://engineering.purdue.edu/ME/People/ptProfile?resource_id=2871)
+**Postdoctoral Fellows**
 
-## Postdoctoral Fellows
+2022‑23 **Dr. Andrea Quezada**, Marie Curie fellow, Max Delbrück Center [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/andrea-quezada/)
 
-2022‑23 **Dr. Andrea Quezada**, Marie Curie fellow, Max Delbrück Center [\[L\]](https://www.linkedin.com/in/andrea-quezada/)
+2020‑21 **Dr. Parastoo Maleki**, Research Scientist, UT‑Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/parastoo-maleki/)
 
-2020‑21 **Dr. Parastoo Maleki**, Research Scientist, UT‑Austin. [\[L\]](https://www.linkedin.com/in/parastoo-maleki/)
+2020‑21 **Dr. Carlos Calcines‑Cruz**, Research Scientist, Mascoma LLC. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/ccalcines/)
 
-2029‑21 **Dr. Carlos Calcines‑Cruz**, Research Scientist, Mascoma LLC. [\[L\]](https://www.linkedin.com/in/ccalcines/)
+2018‑19 **Dr. Shane McDevitt**, Senior Medical Science Liaison ‑ Oncology at Bayer. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/shane-mcdevitt/)
 
-2018‑19 **Dr. Shane McDevitt**, Senior Medical Science Liaison ‑ Oncology at Bayer. [\[L\]](https://www.linkedin.com/in/shane-mcdevitt/)
+2016‑22 **Prof. Michael Soniat**, Assistant Professor at Jefferson University. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/michael-soniat%20a31126b7/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://www.soniatlab.com/)
 
-2016‑22 **Prof. Michael Soniat**, Assistant Professor at Jefferson University. [\[L\]](https://www.linkedin.com/in/michael-soniat%20a31126b7/)[\[W\]](https://www.soniatlab.com/)
+2016‑21 **Prof. Stephen Jones Jr.**, Assistant Professor at Vilnius University. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/stephenkjonesjr/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://www.joneslab.eu/)
 
-2016‑21 **Prof. Stephen Jones Jr.**, Assistant Professor at Vilnius University. [\[L\]](https://www.linkedin.com/in/stephenkjonesjr/)[\[W\]](https://www.joneslab.eu/)
+2015‑17 **Prof. Cheulhee Jung**, Associate Professor at Korea University. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/cheulhee-jung-17b56323/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](http://ku-model.com/)
 
-2015‑17 **Prof. Cheulhee Jung**, Associate Professor at Korea University. [\[L\]](https://www.linkedin.com/in/cheulhee-jung-17b56323/)[\[W\]](http://ku-model.com/)
+2013‑16 **Prof. Eric Spivey**, Assistant Professor at Vanderbilt University. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/eric-spivey-38470b8/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://engineering.vanderbilt.edu/bio/eric-spivey)
 
-2013‑16 **Prof. Eric Spivey**, Assistant Professor at Vanderbilt University. [\[L\]](https://www.linkedin.com/in/eric-spivey-38470b8/)[\[W\]](https://engineering.vanderbilt.edu/bio/eric-spivey)
+2013‑15 **Prof. Aaron Robison**, Assistant Professor, Christian University. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/aaron-robison-30907b3b/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://acu.edu/faculty/aaron-robison/)
 
-2013‑15 **Prof. Aaron Robison**, Assistant Professor, Christian University. [\[L\]](https://www.linkedin.com/in/aaron-robison-30907b3b/)[\[W\]](https://acu.edu/faculty/aaron-robison/)
+2012‑16 **Dr. Ignacio Gallardo**, Environmental Scientist at AECOM. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/ignacio-gallardo-8636202/)
 
-2012‑16 **Dr. Ignacio Gallardo**, Environmental Scientist at AECOM. [\[L\]](https://www.linkedin.com/in/ignacio-gallardo-8636202/)
+**Graduate Students**
 
-## Graduate Students (with last known location, \[LinkedIn\]\[Website\])
-
-2024- **Paola Carneiro,** Graduate Student, UT-Austin. PGEF Fellow \[L\]
+2024- **Paola Carneiro,** Graduate Student, UT-Austin. PGEF Fellow
 
 2022‑ **You‑Chiun Chang**, Graduate student, UT‑Austin.
 
-2022‑ **Jesse Buffington**, Graduate student, UT‑Austin. NIH F31 Fellow [\[L\]](https://www.linkedin.com/in/jesse-buffington-5502471b2/)
+2022‑ **Jesse Buffington**, Graduate student, UT‑Austin. NIH F31 Fellow [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/jesse-buffington-5502471b2/)
 
-2021‑25 **Ankur Annapareddy**, Graduate student, UT‑Austin. \[[L](https://www.linkedin.com/in/ankur-annapareddy-a07807327/)\]
+2021‑25 **Ankur Annapareddy**, Graduate student, UT‑Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/ankur-annapareddy-a07807327/)
 
-2020‑25 **Chia‑Wei (Alvin) Chou**, Graduate student, UT Austin. [\[L\]](https://www.linkedin.com/in/chia-wei-alvin-chou-2087a0164/)
+2020‑25 **Chia‑Wei (Alvin) Chou**, Graduate student, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/chia-wei-alvin-chou-2087a0164/)
 
 2019‑23 **Kuang Hu**, Graduate student, UT‑Austin.
 
-2018‑22 **Dr. Kamyab Javanmardi**, Senior Bioarchitect at Stealth Biotech Startup. [\[L\]](https://www.linkedin.com/in/kamyabjavanmardi/)
+2018‑22 **Dr. Kamyab Javanmardi**, Senior Bioarchitect at Stealth Biotech Startup. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/kamyabjavanmardi/)
 
-2018‑23 **Hung‑Che (Jami) Kuo**, Graduate student, UT‑Austin. [\[L\]](https://www.linkedin.com/in/hung-che-jami-kuo-233188157/)
+2018‑23 **Hung‑Che (Jami) Kuo**, Graduate student, UT‑Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/hung-che-jami-kuo-233188157/)
 
-2017‑24 **John Cooper**, Graduate student, UT Austin. [\[L\]](https://www.linkedin.com/in/john-cooper-88977b105/)
+2017‑24 **John Cooper**, Graduate student, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/john-cooper-88977b105/)
 
-2016‑21 **Dr. Jeffrey Schaub**, Senior Scientist at Abbott. [\[L\]](https://www.linkedin.com/in/jeffrey-schaub-75258592/)
+2016‑21 **Dr. Jeffrey Schaub**, Senior Scientist at Abbott. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/jeffrey-schaub-75258592/)
 
 2014‑20 **Dr.** **John Hawkins**, Postdoctoral research fellow at EMBL, Heidelberg
 
-2014‑21 **Dr. Kaylee Dillard**, Senior Scientist at Merck. [\[L\]](https://www.linkedin.com/in/kaylee-dillard-12b2bb19a/)
+2014‑21 **Dr. Kaylee Dillard**, Senior Scientist at Merck. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/kaylee-dillard-12b2bb19a/)
 
-2013‑23 **Dr. James (Jim) Rybarski**, Scientist of Quantitative Biology at Moderna. [\[L\]](https://www.linkedin.com/in/james-rybarski-890907201/)
+2013‑23 **Dr. James (Jim) Rybarski**, Scientist of Quantitative Biology at Moderna. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/james-rybarski-890907201/)
 
-2013‑18 **Prof. Yoori Kim**, Assistant Professor at DGIST, Daegu, South Korea. [\[L\]](https://www.linkedin.com/in/yoori-kim-ab234330/)[\[W\]](https://tinyurl.com/3w7r5yr3)
+2013‑18 **Prof. Yoori Kim**, Assistant Professor at DGIST, Daegu, South Korea. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/yoori-kim-ab234330/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://tinyurl.com/3w7r5yr3)
 
-2013‑18 **Dr. Logan Myler**, Assistant Professor at the University of Pittsburgh. [\[L\]](https://www.linkedin.com/in/logan-myler-94687a21/)\[[W](https://www.mylerlab.org/)\]
+2013‑18 **Dr. Logan Myler**, Assistant Professor at the University of Pittsburgh. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/logan-myler-94687a21/)[<img src="/assets/images/icons/website.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="Website">](https://www.mylerlab.org/)
 
-2012‑18 **Dr. Maxwell (Max) Brown**, Senior process engineer at ICU medical. [\[L\]](https://www.linkedin.com/in/maxwell-brown-phd-drbambam/)
+2012‑18 **Dr. Maxwell (Max) Brown**, Senior process engineer at ICU medical. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/maxwell-brown-phd-drbambam/)
 
-## Staff Scientists
+**Staff Scientists**
 
-2023‑ **Dr. Selma Sinan**, Staff Scientist, UT Austin. [\[L\]](https://www.linkedin.com/in/selma-sinan-4b8522219/)
+2023‑ **Dr. Selma Sinan**, Staff Scientist, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/selma-sinan-4b8522219/)
 
 2022‑23 **Henry Garcia**, Graduate student, UT Austin.
 
-2022‑23 **Mary Arnold**, Staff Scientist, UT Austin. [\[L\]](https://www.linkedin.com/in/mary-arnold-974a17192/)
+2022‑23 **Mary Arnold**, Staff Scientist, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/mary-arnold-974a17192/)
 
-2021‑23 **Lianne Dubbs**, Lab Manager and research scientist, UT Austin. [\[L\]](https://www.linkedin.com/in/ladubbs/)
+2021‑23 **Lianne Dubbs**, Lab Manager and research scientist, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/ladubbs/)
 
-2018‑ **Dr. Hongshan Zhang**, Research Scientist, UT‑Austin. [\[L\]](https://www.linkedin.com/in/hongshan-zhang-b3929214a/)
+2018‑ **Dr. Hongshan Zhang**, Research Scientist, UT‑Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/hongshan-zhang-b3929214a/)
 
-2017‑19 **Nicole Johnson**, Graduate student at UT Austin. [\[L\]](https://www.linkedin.com/in/nicolevirginiajohnson/)
+2017‑19 **Nicole Johnson**, Graduate student at UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/nicolevirginiajohnson/)
 
-2016‑21 **Giaochau Nguyen**, Graduate student at UT Southwestern. [\[L\]](https://www.linkedin.com/in/giaochau-nguyen-07b290b8/)
+2016‑21 **Giaochau Nguyen**, Graduate student at UT Southwestern. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/giaochau-nguyen-07b290b8/)
 
 2013‑16 **Armando de la Torre**, Budget Analyst, UT‑Austin
 
-## Undergraduate Students
+**Undergraduate Students**
 
 2025- **Anna Le**, Undergraduate Researcher, UT Austin.
 
 2025- **Jimin Han**, Undergraduate Researcher, UT Austin.
 
-2025- **Shreya Arvind**, Undergraduate Researcher, UT Austin. \[[L](https://www.linkedin.com/in/shreya-arvind-ab7b58242/)\]
+2025- **Shreya Arvind**, Undergraduate Researcher, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/shreya-arvind-ab7b58242/)
 
 2024- **Zowie Gaylor**, Undergraduate Researcher, UT Austin.
 
-2022-25 **Daphne Sahaya**, Undergraduate Researcher, UT Austin. [\[L\]](https://www.linkedin.com/in/daphne-sahaya-1703001b5/)
+2022-25 **Daphne Sahaya**, Undergraduate Researcher, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/daphne-sahaya-1703001b5/)
 
-2022‑23 **Carlos Arguello**, Undergraduate Researcher, UT Austin. [\[L\]](https://www.linkedin.com/in/carlos-arguello-07b74625a/)
+2022‑23 **Carlos Arguello**, Undergraduate Researcher, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/carlos-arguello-07b74625a/)
 
-2022‑23 **Caitlin Kuriakose**, Undergraduate Researcher, UT Austin. [\[L\]](https://www.linkedin.com/in/caitlin-kuriakose-781316199/)
+2022‑23 **Caitlin Kuriakose**, Undergraduate Researcher, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/caitlin-kuriakose-781316199/)
 
-2021‑22 **Tyler Washburn**, Neuroscience major, UT Austin. [\[L\]](https://www.linkedin.com/in/tyler-washburn/)
+2021‑22 **Tyler Washburn**, Neuroscience major, UT Austin. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/tyler-washburn/)
 
-2020‑21 **Hayley Zorkic**, Data Scientist at Thermo Fisher Scientific. [\[L\]](https://www.linkedin.com/in/hayley-zorkic/)
+2020‑21 **Hayley Zorkic**, Data Scientist at Thermo Fisher Scientific. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/hayley-zorkic/)
 
-2019‑21 **Henry Trentham**, Associate Scientist at Thermo Fisher Scientific [\[L\]](https://www.linkedin.com/in/henrymtrentham/)
+2019‑21 **Henry Trentham**, Associate Scientist at Thermo Fisher Scientific [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/henrymtrentham/)
 
-2018‑21 **Cynthia Terrace**, Graduate Student at the UC Berkeley. [\[L\]](https://www.linkedin.com/in/cynthia-terrace/)
+2018‑21 **Cynthia Terrace**, Graduate Student at the UC Berkeley. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/cynthia-terrace/)
 
-2018‑20 **Jake Kula**, MD Candidate, McGovern Medical School. [\[L\]](https://www.linkedin.com/in/jacob-k-595022155/)
+2018‑20 **Jake Kula**, MD Candidate, McGovern Medical School. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/jacob-k-595022155/)
 
-2015‑17 **Brianna Gonzales**, 2nd Lieutenant Medical Student. [\[L\]](https://www.linkedin.com/in/xenia-brianna-gonzalez-a89971117/)
+2015‑17 **Brianna Gonzales**, 2nd Lieutenant Medical Student. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/xenia-brianna-gonzalez-a89971117/)
 
-2014‑15 **Andrew Leal**, PhD Candidate at Boston University School of Medicine. [\[L\]](https://www.linkedin.com/in/andrew-leal-a7a62377//)
+2014‑15 **Andrew Leal**, PhD Candidate at Boston University School of Medicine. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/andrew-leal-a7a62377//)
 
-2014‑18 **Fatema Saifuddin**, Graduate Student at UCSF. [\[L\]](https://www.linkedin.com/in/fatema-saifuddin-43340392/)
+2014‑18 **Fatema Saifuddin**, Graduate Student at UCSF. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/fatema-saifuddin-43340392/)
 
-2014‑16 **Jesus De La O**, Staff Software Engineer at Indeed.com. [\[L\]](https://www.linkedin.com/in/jesus-de-la-o-a4173a12b/)
+2014‑16 **Jesus De La O**, Staff Software Engineer at Indeed.com. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/jesus-de-la-o-a4173a12b/)
 
-2013‑14 **Jacob Bobb**, Software engineer at Lost Boys Interactive. [\[L\]](https://www.linkedin.com/in/jacobbobb/)
+2013‑14 **Jacob Bobb**, Software engineer at Lost Boys Interactive. [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/jacobbobb/)
 
-2012‑14 **Kameron Azarm**, Associate Medical Director at BGB group [\[L\]](https://www.linkedin.com/in/kameron-azarm-a5193618a/)
+2012‑14 **Kameron Azarm**, Associate Medical Director at BGB group [<img src="/assets/images/icons/linkedin.svg" style="height:14px;width:14px;margin:0 1px;vertical-align:text-bottom;" alt="LinkedIn">](https://www.linkedin.com/in/kameron-azarm-a5193618a/)
