@@ -14,6 +14,7 @@ supplement: 0029-2016-NComms-Brown et al-supplement.pdf
 doi: 10.1038/ncomms10607
 pmcid: PMC4742970
 pmid: 26837705
+markdown: 2016-02-03-dna-bypass-roadblocks
 extra_text: ''
 category: paper
 tags: [Chromatin, DNA, Histones, DNA-binding proteins, Nucleosomes, MutS Homolog 2, MutS Homolog 3, Microscopy]
