@@ -8,8 +8,28 @@ pmcid: PMC6007489
 
 # Coordination of Rad1–Rad10 interactions with Msh2–Msh3, Saw1 and RPA is essential for functional 3′ non-homologous tail removal
 
+**Robin Eichmiller\*, Melisa Medina-Rivera\*, Rachel DeSanto, Eugen Minca, Christopher Kim, Cory Holland, Ja-Hwan Seol, Megan Schmit, Dominik Terber, Ilya J. Finkelstein, Sang Eun Lee, and Jennifer A. Surtees** (\* co-first authors)
+
+*Nucleic Acids Research*, Volume 46, Issue 10, Pages 5075–5096 (2018)
+
+**DOI:** [10.1093/nar/gky254](https://doi.org/10.1093/nar/gky254)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Materials and Methods](#materials-and-methods)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Acknowledgements](#acknowledgements)
+
+---
+
 ##  Abstract
 Double strand DNA break repair (DSBR) comprises multiple pathways. A subset of DSBR pathways, including single strand annealing, involve intermediates with 3′ non-homologous tails that must be removed to complete repair. In _Saccharomyces cerevisiae_ , Rad1–Rad10 is the structure-specific endonuclease that cleaves the tails in 3′ non-homologous tail removal (3′ NHTR). Rad1–Rad10 is also an essential component of the nucleotide excision repair (NER) pathway. In both cases, Rad1–Rad10 requires protein partners for recruitment to the relevant DNA intermediate. Msh2–Msh3 and Saw1 recruit Rad1–Rad10 in 3′ NHTR; Rad14 recruits Rad1–Rad10 in NER. We created two _rad1_ separation-of-function alleles, _rad1R203A,K205A_ and _rad1R218A_ ; both are defective in 3′ NHTR but functional in NER. _In vitro_ , rad1R203A,K205A was impaired at multiple steps in 3′ NHTR. The _rad1R218A in vivo_ phenotype resembles that of _msh2_ - or _msh3_ -deleted cells; recruitment of rad1R218A–Rad10 to recombination intermediates is defective. Interactions among rad1R218A–Rad10 and Msh2–Msh3 and Saw1 are altered and rad1R218A–Rad10 interactions with RPA are compromised. We propose a model in which Rad1–Rad10 is recruited and positioned at the recombination intermediate through interactions, between Saw1 and DNA, Rad1–Rad10 and Msh2–Msh3, Saw1 and Msh2–Msh3 and Rad1–Rad10 and RPA. When any of these interactions is altered, 3′ NHTR is impaired.
+---
 ##  INTRODUCTION
 Endogenous and exogenous DNA damage is a constant threat to genome stability. As a result, many distinct DNA repair pathways have evolved to cope with a wide variety of DNA lesions, from replication errors (e.g. mismatch repair; MMR) to UV lesions (e.g. nucleotide excision repair; NER) to double-strand DNA breaks (e.g. homologous recombination; HR) ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B1)). In addition to these apparently discrete pathways, components of different pathways will cooperate to allow repair of a broader range of lesions, such as DNA interstrand cross-links (interstrand cross-link repair; ICLR) ([2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B2)). The _Saccharomyces cerevisiae_ structure-specific endonuclease Rad1–Rad10 (Xpf-Ercc1 in mammalian cells) is involved in several distinct DNA repair pathways, including NER, ICLR and specialized forms of HR that involves 3′ non-homologous tail removal (3′ NHTR) ([2–5](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B2)). The regulation of Rad1–Rad10 recruitment to these distinct DNA lesions (and subsequent activation of its endonuclease activity) is a critical factor in ensuring appropriate DNA repair pathway selection.
 In NER, Rad14 interacts with Rad1–Rad10; this interaction is essential for recruitment of Rad1–Rad10 to NER lesions ([6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B6)). Rad1–Rad10 has specificity for double-strand/single-strand DNA (ds/ssDNA) junctions with 3′ ssDNA ([7](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B7),[8](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B8)) and is therefore recruited to the 5′ side of the bubble substrate generated around the lesion by other NER factors. Rad1–Rad10 then cleaves the DNA 2–5 deoxyribonucleotides upstream of the ds/ssDNA junction ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B8)); Rad2 cleaves on the other side of the bubble. The intervening sequence is removed and new DNA is synthesized to fill in the gap ([4](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B4)).
@@ -18,6 +38,7 @@ Msh2–Msh3 is also required for recruitment of Rad1–Rad10, but in contrast to
 Msh2–Msh3 localization to the recombination intermediate in the chromosome is largely dependent on _RAD52 in vivo_ ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12)), presumably because the DSB is not processed properly in its absence. _RAD52_ is not required for Msh2 recruitment in a plasmid-based system ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B18)). No other proteins have been implicated in Msh2–Msh3 recruitment, although the complex does interact with RPA ([22](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B22)), which could facilitate Msh2–Msh3 binding following the generation of 3′ ssDNA flaps to which RPA would bind. Msh2–Msh3 binding to the recombination intermediate is independent of Rad1–Rad10 and Saw1 ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12)). Binding of Msh2–Msh3 to these junctions is proposed to promote double-strand break repair through recombination in the presence of homologous sequences, but to allow unwinding of intermediates with homeologous sequences, i.e. heteroduplex rejection ([23](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B23),[24](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B24)). Interactions between Rad1–Rad10 and Msh2–Msh3 have been demonstrated by yeast two-hybrid analysis and co-immunoprecipitation experiments using yeast cell extracts ([25](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B25)) and were proposed to aid recruitment of Rad1–Rad10, although it is not clear whether these interactions are direct.
 Saw1 and Msh2–Msh3 have also been shown to interact with each other in co-immunoprecipitation experiments using cell lysates, ([11](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B11)), although these are not necessarily direct physical interactions. _In vitro_ transcription-translation experiments indicated a direct interaction between Saw1 and Msh2 alone, supporting the idea of a direct interaction with Msh2–Msh3 ([11](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B11)). Importantly, Saw1 also has structure-specific DNA-binding activity with a preference for DNA substrates with 3′ ssDNA tails ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12)). Therefore, Rad1–Rad10, Msh2–Msh3 and Saw1 have all been shown to interact with one another (directly or indirectly) and they all bind similar DNA substrates, with specificity for ds/ssDNA junctions with 3′ ssDNA tails. The single-stranded DNA binding protein complex RPA has also been implicated in positioning Xpf-Ercc1, the human homolog of Rad1–Rad10, on specific DNA substrates in NER and ICLR ([26–30](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B26)). These observations suggest the possibility of competition and/or cooperation among these proteins in initiating 3′NHTR, in which case the regulation and coordination of these interactions would be critical in ensuring proper function in 3′ NHTR.
 In an attempt to understand the regulation of Rad1–Rad10 recruitment to 3′ NHTR intermediates, thereby initiating removal of the 3′ ssDNA tails, we focused on the N-terminal region of Rad1. Although the C-terminal portion of Rad1 (and the mammalian homolog XPF) has been well-characterized ([6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B6),[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12),[31–35](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B31)), relatively little is known about the function of the N-terminal half of Rad1. One study demonstrated that the N-terminal 378 residues of XPF, the mammalian homolog of Rad1, retained non-specific DNA-binding activity ([36](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B36)). This region has been implicated in structure-specific recognition and its loss abrogated XPF-ERCC1 endonuclease activity _in vitro_ ([37](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B37)). Point mutations in this region of _Xenopus_ XPF exhibited defects in positioning on ICLR substrates; analogous mutations have been identified in human Fanconi anemia patients ([38](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B38)). We mutated a series of conserved residues in the N-terminal portion of Rad1 upstream of previously characterized alleles and identified two separation-of-function mutants that were functional for NER but defective in 3′ NHTR. Our analysis of these mutations _in vivo_ and _in vitro_ indicate that the rad1 mutant proteins are compromised in the regulation of protein-protein interactions among Rad1–Rad10, Msh2–Msh3, Saw1 and RPA, thereby abrogating 3′ NHTR function.
+---
 ##  MATERIALS AND METHODS
 ### Plasmids and yeast strain construction
 All yeast transformations were performed using the lithium acetate method ([39](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B39)). All plasmids, strains oligonucleotides are listed in [Supplementary Tables S1–S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#sup1).
@@ -53,6 +74,7 @@ This method was adapted from ([46](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007
 Reactions (100 μl) were performed in Co-IP Buffer (50 mM HEPES, pH 7.5, 1 mM EDTA, 1% Triton X, 0.1% NaDOC, 15 μg BSA, ±0.5 μg sonicated salmon sperm). His–Rad1–Rad10, rad1R203A,K205A-Rad10 or rad1R218A–Rad10 and Msh2–Msh3 were used in equimolar ratios. An excess of 6×His–Saw1 was used. The proteins were incubated together on ice for 20 min. Antibody, 1 μl of α-Rad10 or α-Saw1, was added and incubated at 4°C with rocking for 1 hour. Protein A/G Agarose (Pierce®) was added and incubated at 4°C with rocking for 1 h. The supernatant was removed and the beads were washed three times with Co-IP buffer at room temperature. 1× Laemmli Buffer was added and the beads were heated to 95°C for 15 min. The eluate was removed and analyzed by SDS-page (12%) gel followed by Coomassie or Silver Staining (Bio Rad). Gels were imaged in a Gel Doc (Bio Rad) and quantified using Image Lab™ (Bio Rad).
 ###  _In vivo_ Co-immunoprecipitations
 _RAD1_ and _rad1R218A_ were tagged with a C-terminal 3XHA tag at their genomic locus. Yeast lysates expressing Rad1–3HA and rad1R218A-3HA were prepared by lysing cells with glass beads in 0.6 ml cold IP150 solution (20 mM Tris–HCl pH 8.0, 150 mM NaCl, 0.5% NP-40) supplemented with protease inhibitor cocktail (Roche Life Science). Anti-HA monoclonal antibody (Roche Life Science) was added to pre-cleared cell lysate and incubated at 4°C for 90 min. A 50% slurry of Protein A/G Agarose (30 μl) was added to the lysate to immunoprecipitate Rad1–Rad10 or rad1R218A–Rad10, and the mixture was incubated for an additional 30 min at 4°C. The beads were collected by centrifugation and washed extensively with IP150. The bound protein was eluted by the addition of 1× Laemmli buffer and incubation at 95°C. The eluted proteins were separated by SDS-PAGE, transferred to nitrocellulose. The presence of RPA was detected by immunoblotting using α-Rpa1 polyclonal antibody.
+---
 ##  RESULTS
 ### Alanine mutations in the N-terminal region of Rad1
 While the C-terminal portion of Rad1 has been well-characterized ([6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B6)), little is known either functionally or structurally about the N-terminal region of Rad1 (Figure [1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F1)). This region is removed from the known enzymatic functions of the protein (endonuclease activity, interactions with Rad10 and Rad14). The analogous region of mammalian XPF protein has been implicated in DNA-binding activity and correct positioning on DNA substrates ([36–38](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B36)), although some work suggests that this region is not likely responsible for specific ds/ssDNA junction interactions ([31](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B31),[33](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B33)). Residues in this region may be important for protein-protein interactions ([30](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B30),[38](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B38)). An alignment of _S. cerevisiae_ Rad1 and human Xpf indicated that residues 179–492 of Rad1 align well with residues 78–378 of Xpf (Figure [1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F1)). To characterize this region of Rad1 in an unbiased manner, conserved charged residues in this alignment, which are more likely to be exposed and available for potential interactions with DNA and/or protein partners, were changed to alanine, alone or in combination, to generate 10 _rad1_ alleles targeting residues 203 through 456 (Figure [1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F1)).
@@ -136,6 +158,7 @@ Recent studies have indicated that interactions between the mammalian homolog of
 rad1R218A disrupts interaction with RPA. (**A**) Co-immunoprecipitation experiments from cells. Rad1-HA or rad1R218A-HA was immunoprecipitated with α-HA antibody and associated proteins were probed by western blot, using α−Rfa1 antibody. (**B**) A Representative gel of the endonuclease activity of purified His–Rad1–Rad10 (200 nM) on 3′ flap substrates in the absence or presence of increasing concentrations of RPA. (**C**) Representative gel of His–rad1R218A–Rad10 endonuclease activity in the absence or presence of RPA. (**D**) Quantification of multiple RPA titration experiments, using multiple different preparations of His–Rad1–Rad10 and RPA. (**E**) Quantification of stimulation of cleavage activity by RPA. Note that while the absolute activity of Rad1–Rad10 and rad1R218A–Rad10 in the absence and presence of RPA varies, the relative levels remain consistent. For both panels B and C, the reactions shown were all run on the same gel; some unrelated lanes were cropped out of the images.
 We next tested to see if this Rad1–Rad10/RPA interaction was functional _in vitro_. Using purified proteins, we tested the effect of yeast RPA on Rad1–Rad10’s ability to cleave a 3′ ssDNA flap substrate _in vitro_. This is a sub-optimal substrate for Rad1–Rad10 ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12)). We demonstrated that RPA is able to stimulate Rad1–Rad10 endonuclease activity on a 3′ flap substrate by ∼2-fold (Figure [11B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F11) and [D](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F11)). Importantly, SSB from _E. coli_ did not stimulate Rad1–Rad10’s endonuclease activity (data not shown). These experiments were performed under conditions in which RPA DNA-binding efficiency was between 50 and 85% (data not shown). These observations are consistent with RPA playing a role in positioning Rad1–Rad10 on the DNA substrate.
 Notably, the interaction with RPA was lost in the presence of rad1R218A–HA (Figure [11A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F11), lane 3). Furthermore, in contrast to wild-type His–Rad1–Rad10, His–rad1R218A–Rad10 endonuclease activity was insensitive to the presence of RPA (Figure [11C](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F11) and [D](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F11)). These results indicate that the interaction between Rad1–Rad10 and RPA is important for the stimulation of catalytic activity and that this interaction is disrupted in the _rad1R218A_ background.
+---
 ##  DISCUSSION
 ### Distinct molecular requirements for Rad1 in NER and 3′ NHTR
 In this study we identified two _rad1_ alleles within a poorly characterized region of _RAD1_ that exhibited separation-of-function phenotypes; both were functional for NER and severely impaired in 3′ NHTR. These phenotypes demonstrated that there are distinct molecular requirements for Rad1 in NER vs. 3′ NHTR, consistent with the different requirements of the two pathways ([Supplementary Figure S8](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#sup1)). For instance, recent work has implicated a role for sumoylated Saw1 in NER, but not 3′ NHTR ([47](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B47)). Similarly, different protein partners are required. Our results highlight the importance of Msh2–Msh3 in 3′ NHTR.
@@ -156,6 +179,7 @@ We propose a model for the initiation of the 3′NHTR of DSBR in which Rad1–Ra
 We propose that once Rad1–Rad10 is positioned, via interactions with Msh2–Msh3 and RPA (Figure [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F12)Biv) and its endonuclease activity is activated, Msh2–Msh3 dissociates from the DNA, either dissociating completely (Figure [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F12)Bv) or handing Rad1–Rad10(-Saw1) off to the DNA junction but remaining in contact with the multi-protein complex at the recombination intermediate. Msh2–Msh3 ATP binding and/or hydrolysis may impact these dynamics ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B19),[20](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B20)). Following cleavage, the DNA substrate for Msh2–Msh3, Rad1–Rad10 and Saw1 is no longer present and these proteins leave the DNA (Figure [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F12)Bvi) to allow DNA resynthesis to fill in the remaining gaps (Figure [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F12)Bvii).
 Thus far the role of Slx4 in 3′ NHTR remains unclear. It is not required for recruitment of Rad1–Rad10 to the recombination intermediate ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B12)). It is, however, required for cleavage of the 3′ ssDNA tails ([51](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B51)) and mammalian SLX4 stimulates XPF-ERCC1 endonuclease activity in ICLR ([52](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B52)). Mammalian SLX4 has been proposed to be critical for proper positioning of XPF-ERCC1 on its ICLR substrates ([38](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#B38)). These observations suggest a role for Slx4 in coordinating the mechanistic steps in 3′ NHTR downstream of Rad1–Rad10 recruitment. One intriguing possibility is that Msh2–Msh3 and Saw1 co-operate to localize Rad1–Rad10 to the recombination intermediate, where it remains poised for action until the arrival of Slx4 (Figure [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#F12)Biv).
 
+---
 ##  ACKNOWLEDGEMENTS
 We thank Dr Mark Sutton for helpful discussions. We are also grateful to the members of the Lee and Surtees labs for helpful discussions and to Dr. Shobhit Gogia, Calvin Yang, Jaime O’Connor and Mindy Haarmeyer for performing early _in vivo_ experiments. We thank Dr Eric Alani, in whose lab J.A.S. made the Rad10 antibodies.
 ##  SUPPLEMENTARY DATA
@@ -220,64 +244,7 @@ _Conflict of interest statement_. None declared.
   * 54. Diamante G., Phan C., Celis A.S., Krueger J., Kelson E.P., Fischhaber P.L.. SAW1 is required for SDSA double-strand break repair in S. cerevisiae. Biochem. Biophys. Res. Commun. 2014; 445:602–607. [[DOI](https://doi.org/10.1016/j.bbrc.2014.02.048)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4001863/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/24565838/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Biochem.%20Biophys.%20Res.%20Commun.&title=SAW1%20is%20required%20for%20SDSA%20double-strand%20break%20repair%20in%20S.%20cerevisiae&author=G.%20Diamante&author=C.%20Phan&author=A.S.%20Celis&author=J.%20Krueger&author=E.P.%20Kelson&volume=445&publication_year=2014&pages=602-607&pmid=24565838&doi=10.1016/j.bbrc.2014.02.048&)]
   * 55. Ito T., Chiba T., Ozawa R., Yoshida M., Hattori M., Sakaki Y.. A comprehensive two-hybrid analysis to explore the yeast protein interactome. Proc. Natl. Acad. Sci. U.S.A. 2001; 98:4569–4574. [[DOI](https://doi.org/10.1073/pnas.061034498)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC31875/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/11283351/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Proc.%20Natl.%20Acad.%20Sci.%20U.S.A.&title=A%20comprehensive%20two-hybrid%20analysis%20to%20explore%20the%20yeast%20protein%20interactome&author=T.%20Ito&author=T.%20Chiba&author=R.%20Ozawa&author=M.%20Yoshida&author=M.%20Hattori&volume=98&publication_year=2001&pages=4569-4574&pmid=11283351&doi=10.1073/pnas.061034498&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1093/nar/gky254)
-  * [ PDF (2.8 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/pdf/gky254.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#abstract1)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC1)
-  * [MATERIALS AND METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC2)
-  * [RESULTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC3)
-  * [DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC4)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#sec32)
-  * [ACKNOWLEDGEMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#ack1)
-  * [SUPPLEMENTARY DATA](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC5)
-  * [FUNDING](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#SEC6)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Ajournal)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC6007489)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/) on 2025-07-19.*
