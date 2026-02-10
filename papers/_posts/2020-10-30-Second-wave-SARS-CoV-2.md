@@ -14,6 +14,7 @@ supplement:
 doi: 10.1128/mBio.02707-20
 pmcid: PMC7642679
 pmid: 33127862
+markdown: 2020-10-30-Second-wave-SARS-CoV-2
 extra_text: '
 **Press:**
 
