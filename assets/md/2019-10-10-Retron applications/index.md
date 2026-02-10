@@ -8,11 +8,31 @@ pmcid: PMC6868368
 
 # Retrons and their applications in genome engineering
 
+**Anna J. Simon, Andrew D. Ellington, and Ilya J. Finkelstein**
+
+*Nucleic Acids Research*, Volume 47, Issue 21, Pages 11007–11019 (2019)
+
+**DOI:** [10.1093/nar/gkz865](https://doi.org/10.1093/nar/gkz865)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Retron Biology](#retron-biology)
+- [Retrons in Biotechnology](#retrons-in-biotechnology)
+- [Conclusions and Outlook](#conclusions-and-outlook)
+- [Acknowledgements](#acknowledgements)
+
+---
 ##  Abstract
 Precision genome editing technologies have transformed modern biology. These technologies have arisen from the redirection of natural biological machinery, such as bacteriophage lambda proteins for recombineering and CRISPR nucleases for eliciting site-specific double-strand breaks. Less well-known is a widely distributed class of bacterial retroelements, retrons, that employ specialized reverse transcriptases to produce noncoding intracellular DNAs. Retrons’ natural function and mechanism of genetic transmission have remained enigmatic. However, recent studies have harnessed their ability to produce DNA _in situ_ for genome editing and evolution. This review describes retron biology and function in both natural and synthetic contexts. We also highlight areas that require further study to advance retron-based precision genome editing platforms.
+---
 ##  INTRODUCTION
 The ability to precisely edit genomic loci has been a long-standing goal of biotechnology. Targeted genome editing is being exploited to probe genotype-phenotype relationships, repair disease-causing alleles, develop designer organisms with modified genomes, and to biologically record intra- and extracellular conditions. Classically, strain improvement has been achieved either via non-specific mutagenesis of genomes ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B1),[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B2)) or via targeted modifications of specific genes expressed on plasmids ([3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B3),[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B4)). Recombineering ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B5)) and CRISPR-based genome editing ([6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B6),[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B7)) have dramatically increased the ease and throughput of targeting individual genomic loci. Multiplexing and iterating recombineering- and CRISPR-based editing technologies have enabled high-throughput exploration of genotype–phenotype relationships and continuous evolution of synthetic genomes with novel properties, for example in Multiplex Automated Genome Engineering (‘MAGE’) ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B8)), Yeast Oligo-mediated Genome Engineering (‘YOGE’) ([9](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B9)), and iterative CRISPR EnAbled Trackable genome Engineering (‘iCREATE’) ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B10)).
 Retrons are a potentially useful tool for targeted genomic engineering because they produce intracellular DNAs via reverse transcription of noncoding structural RNAs ([11](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B11),[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B12)). While the natural biology of these widespread retroelements is largely unknown, retrons have recently been repurposed as _in situ_ sources of donor DNA for both recombineering- and CRISPR-based genome editing applications ([13–15](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B13)). This production of intracellular DNA has so far enabled recording of cellular states ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B13)), high-throughput genetic editing ([14](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B14)), and targeted genome mutation ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B15)). Here, we review retron biology and retron-enabled genome engineering applications. We conclude with a discussion of future prospects and challenges in retron-based genome editing.
+---
 ##  RETRON BIOLOGY
 ### Retron discovery and biochemistry
 Retrons were initially discovered in 1984 from the presence of short satellite RNA–DNA molecules in bacterial DNA preparations ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B16)). Gel electrophoresis of phenol-extracted chromosomal DNA from _Myxobacteria xanthus_ and _Stigmatella aurantica_ indicated a secondary satellite band with a mobility of ∼120–190 base pairs (bp) ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B16)). Subsequent studies revealed that these bands, termed multicopy single-stranded DNAs (msDNAs), are comprised of one strand of structured RNA, the ‘msr,’ connected to one strand of DNA, the ‘msd.’ The msr and msd molecules are joined by a 2′-5′ phosphodiester bond between a priming guanosine within a conserved AGC sequence in the msr and the phosphate of the 5′ end of the msd that covalently links the RNA and DNA strands into a single branched molecule (Figure [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#F1)). The msr and msd are encoded in a compact, contiguous transcriptional cassette that also includes a specialized reverse transcriptase (RT); we refer to this cassette as a whole as the retron. The discovery of retron RTs was particularly notable because they were the first discovered bacterially-encoded RTs ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B17)). _In vitro_ studies demonstrated that _Escherichia coli_ retron RTs and their paired msrs were both necessary and sufficient to produce msDNA with the characteristic 2′-5′ linkage ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B18),[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B19)). To date, 38 distinct retrons have been identified experimentally by their production of msDNA; 16 of these, which we subsequently refer to as the ‘experimentally validated retrons’, contain fully annotated and experimentally-validated msr-msd-RT cassettes. Table [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#tbl1) summarizes all experimentally-characterized retrons reported to date, along with their host organisms. Bioinformatic approaches have also identified hundreds of putative retrons that have not been characterized experimentally ([20–22](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B20)).
@@ -59,6 +79,7 @@ The apparent phylogenetic subgroup obtained from aligning RTs that includes Retr
 Beyond potential roles in pathogenesis, retrons may play adaptive roles in the utilization of non-traditional energy sources. For example, expression of Retron-Eco5 (Ec107) is strongly enhanced in cells that are starved for phosphate or entering stationary phase in rich media ([67](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B67)). Similarly, Retron-Eco1 (Ec86) expression resulted in significant downregulation of eight genes and upregulation of one gene. The eight downregulated genes were important in carbon utilization; the remaining gene upregulated the production of the ribosomal protein S2 ([65](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B65)). Beyond non-pathogenic _E. coli_ , retrons are especially common in myxococcal bacteria that undergo significant morphological changes, forming multicellular-like, ‘fruiting’ bodies in response to nutrient insufficiency, and show complex intercommunity behavior and predation ([68](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B68)); perhaps retrons in these species help enable these phenotypic changes. Additional studies are required to link retron expression and cell specialization.
 While there are several hypotheses about retrons’ biological roles, there is little known about their mechanism of action. One possibility is that retrons modulate host DNA-binding proteins via binding to the msDNA. Overexpression of some _E. coli_ retrons producing DNA with stems containing mismatched base pairs increases genomic mutation rates by ∼40-fold ([69](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B69)) and recombination rates in high-frequency recombination (Hfr) crosses with a competent _S. enterica_ Typhimurium donor strain ∼5–10-fold ([70](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B70)). This increase in genomic mutation rate likely occurs because the mismatch repair protein MutS is sequestered onto the mismatch-containing msDNA stem, reducing protein availability for genomic replication-associated mismatch repair. Notably, overexpression of retrons that produce msDNA with fully complementary stems does not increase mutation or Hfr rates ([70](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B70),[71](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B71)). While these increased mutation frequencies only occurred after ∼100-fold overexpression of the msDNA relative to standard lab growth conditions, this study may mimic intracellular or environmental conditions that increase retron expression to transiently increase genomic mutation rates ([69](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B69)). msDNA may sequester other DNA-binding proteins to regulate their activity and, in turn, gene expression patterns ([72](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B72),[73](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B73)). Additionally, msDNA may directly act as a post-transcriptional gene regulator, similarly to microRNAs or RNA-binding proteins ([74](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B74)).
 Finally, retrons might play a role in targeted genome diversification or adaptive immunity. DGRs are found in bacteria, viruses, and archaea and selectively diversify targeted loci known as ‘variable’ regions ([75](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B75)). These variable regions typically encode surface-displayed peptides that bind a changing set of ligands in their environments ([76](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B76),[77](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B77)). To target and diversify these regions, DGRs employ specialized RTs to reverse transcribe homologous regions known as ‘template’ regions, incorporating random nucleotides opposite from adenine residues on the RNA transcript intermediate. The mutated reverse transcript then specifically retrotransposes to the variable region. While the details of reverse transcription and transposition have yet to be determined, recent studies have found that, like retron-produced msDNA, the prototypical _Bordetella_ bacteriophage _brt_ RT produces a branched RNA-DNA structure most likely joined by 2′-5′ phosphodiester bonds ([78](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B78),[79](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B79)). These similarities between retron msDNA and DGR cDNA suggest that perhaps retron msDNA may home to genetic sequences via a mechanism that is analogous to DGR retrohoming. Alternatively, a recent study suggests that certain CRISPR-related RTs may have arisen from retron-like RTs, suggesting that retrons could potentially play a similar role in adaptive immunity or integration of specific RNA or DNA sequences into defined genomic positions ([80](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B80)).
+---
 ##  RETRONS IN BIOTECHNOLOGY
 Retrons are potentially powerful tools for genome editing because they can produce high copy number intracellular DNAs in orthogonal hosts. Early experiments indicated that a Retron-Eco2 (Ec67) msr and RT could successfully reverse transcribe a Retron-Eco3 (Ec73) msd, and vice-versa ([33](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B33)). This critical experiment defined that while a retron's msr and RT are paired, the msd is variable and can encode an intracellular DNA with an arbitrary sequence. This critical insight enabled the repurposing of retrons for biotechnological applications. To date, four studies have employed retrons for gene silencing or genome editing ([13–15](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B13),[81](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B81)). Below, we discuss the context, central findings, and potential further development of these studies.
 ### Gene targeting in bacteria
@@ -71,10 +92,12 @@ Retron-based editing in bacteria has been further adapted to support the possibi
 ### Heterologous expression of retrons
 Biotechnological retron applications were bolstered by early studies that retrons can produce satellite DNAs in eukaryotic hosts. For example, Retron-Eco2 (Ec67) expressed under the control of a Gal10 promoter produced msDNA in _S. cerevisiae_ ([83](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B83)). Robust msDNA production required the concurrent expression of the RT and the msr-msd. The resulting msDNA was the same length as seen in the native _E. coli_ host. In yeast, moving the RT to the 5′ side of the msr-msd region increased msDNA production sevenfold over that produced in the native orientation where the RT is to the 3′ side of the msr-msd region ([83](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B83)). Retron-Eco2 (Ec67) could also produce msDNA in mouse embryonic fibroblasts by expressing this 5′ RT-containing variant with T7 RNA polymerase ([84](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B84)). However, msDNA copy number was ∼25 copies per cell, ∼25-fold lower than seen in the native bacterial host. Nonetheless, these early studies established that retrons can be expressed in orthogonal hosts and that the host's RNAse H activity was sufficient to process the reverse-transcribed msd to generate msDNA.
 More recently, retrons have been used for aiding homology-directed repair of Cas9-targeted breaks in yeast in a platform termed Cas9 Retron precISe Parallel Editing via homologY (‘CRISPEY’) ([14](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B14)) (Figure [4D](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#F4)). The msr-msd of Retron-Eco1 (Ec86) was appended to a Cas9 single guide RNA (sgRNA) that targeted a genomic region of interest. Co-expression of this chimeric sgRNA-retron RNA, RT-Eco1 (Ec86) and Cas9 led to the co-localization of two functional units: (i) a Cas9 nuclease that generated a defined DNA break in the vicinity of the edit site; (ii) a DNA template derived from the msd segment of the sgRNA-retron RNA fusion. After Cas9 and RT induction, the reverse-transcribed msd could carry out homology-directed DNA break repair at high efficiency. Single nucleotide polymorphisms were incorporated in >96% of all clones and a 765 base pair insertion was observed in 87% of edited yeast cells. Ultimately, this technique was employed for the high-efficiency profiling of the effect of ∼16,000 single-nucleotide polymorphisms in yeast, enabling identification of 572 variants that impacted fitness during growth on glucose. This approach can now potentially be applied to the combinatorial diversification of targeted regions, similar to combinatorial recombineering-based platforms such as MAGE ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B8)), YOGE ([9](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B9)) or iCREATE ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#B10)).
+---
 ##  CONCLUSIONS AND OUTLOOK
 A recent renaissance in retron research is fuelled by their broad phylogenetic distribution, intriguing potential linkages to pathogenesis, and unique biotechnological capabilities. Even with their newfound popularity, retron function, mechanism of action, and evolutionary origins remain obscure. One critical gap is the lack of a retron RT structure, either alone or as part of a priming complex. Thus, we can only conjecture about the unique priming mechanism and the functions of accessory domains in retron RTs. The functions of other retron-associated ORFs are also unexplored. As with many natural biomolecules that have proven indispensable to modern biotechnologies, an improved understanding of natural retron function and biology should greatly accelerate biotechnology applications.
 Retrons are unique in their ability to produce satellite DNAs with arbitrary sequences _in vivo_. This is a feature that suddenly thrusts retrons to the fore of genome editing techniques, as they can be harnessed to enable genome editing without the need to introduce external oligonucleotides via electroporation or transfection. On the horizon are opportunities to harness retrons as dynamic, self-diversifying templates for editing targeted genes, thereby enabling targeted continuous evolution. Further optimizing retron expression and function in eukaryotic cells and organisms will likely enable diverse applications, such as the ability to mark cells during embryogenesis and carry out lineage analyses via continuous evolution of barcodes. In another vein, retron-produced DNA may also prove useful for generating highly programmable DNA nanostructures inside cells. Finally, retron-derived RTs may have unique applications on their own, just as Group II intron RTs have found applications for NGS library preparation.
 
+---
 ##  ACKNOWLEDGEMENTS
 The authors thank Y.G. Garcia Huante, L. Lopez, and members of the Finkelstein lab for helpful discussion and assistance with illustrations. We also thank the broader retroelement community for invaluable feedback relating to the revised retron nomenclature described herein.
 ##  SUPPLEMENTARY DATA
@@ -176,64 +199,7 @@ _Conflict of interest statement_. None declared.
   * 91. Rice S.A., Bieber J., Chun J.Y., Stacey G., Lampson B.C.. Diversity of retron elements in a population of rhizobia and other gram-negative bacteria. J. Bacteriol. 1993; 175:4250–4254. [[DOI](https://doi.org/10.1128/jb.175.13.4250-4254.1993)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC204857/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/7686549/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=J.%20Bacteriol.&title=Diversity%20of%20retron%20elements%20in%20a%20population%20of%20rhizobia%20and%20other%20gram-negative%20bacteria&author=S.A.%20Rice&author=J.%20Bieber&author=J.Y.%20Chun&author=G.%20Stacey&author=B.C.%20Lampson&volume=175&publication_year=1993&pages=4250-4254&pmid=7686549&doi=10.1128/jb.175.13.4250-4254.1993&)]
   * 92. Dhundale A.R., Furuichi T., Inouye S., Inouye M.. Distribution of multicopy single-stranded-DNA among Myxobacteria and related species. J. Bacteriol. 1985; 164:914–917. [[DOI](https://doi.org/10.1128/jb.164.2.914-917.1985)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC214339/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/3932332/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=J.%20Bacteriol.&title=Distribution%20of%20multicopy%20single-stranded-DNA%20among%20Myxobacteria%20and%20related%20species&author=A.R.%20Dhundale&author=T.%20Furuichi&author=S.%20Inouye&author=M.%20Inouye&volume=164&publication_year=1985&pages=914-917&pmid=3932332&doi=10.1128/jb.164.2.914-917.1985&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1093/nar/gkz865)
-  * [ PDF (664.9 KB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/pdf/gkz865.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#abstract1)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC1)
-  * [RETRON BIOLOGY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC2)
-  * [RETRONS IN BIOTECHNOLOGY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC3)
-  * [CONCLUSIONS AND OUTLOOK](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC4)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#sec13)
-  * [ACKNOWLEDGEMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#ACK1)
-  * [SUPPLEMENTARY DATA](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC5)
-  * [FUNDING](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#SEC6)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#REF1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Ajournal)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC6868368)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/) on 2025-07-19.*
