@@ -14,6 +14,7 @@ supplement: 0020-2013-NSMB-Wang et al-supplement.pdf
 doi: 10.1038/nsmb.2472
 pmcid: PMC3565103
 pmid: 23262491
+markdown: 2013-02-01-search-rnap-3d
 extra_text: ''
 category: paper
 tags: [Bacterial proteins, Diffusion, RNA polymerase, Kinetics, Promoter Regions, Transcription]
