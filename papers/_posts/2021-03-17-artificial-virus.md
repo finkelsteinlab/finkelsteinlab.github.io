@@ -14,6 +14,7 @@ supplement: 0067-2021-NanoLett-Calcines-Cruz et al-supplement.pdf
 doi: 10.1021/acs.nanolett.0c04640
 pmcid: PMC9724498
 pmid: 33729813
+markdown: 2021-03-17-artificial-virus
 extra_text: ''
 category: paper
 tags:
