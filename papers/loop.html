@@ -19,7 +19,7 @@
               {% endif %}
 
               {% if paper.markdown %}
-                {% capture md_link %}&nbsp;&nbsp;&nbsp;&nbsp;[<a href="{{ paper.markdown }}">MD</a>]{% endcapture %}
+                {% capture md_link %}&nbsp;&nbsp;&nbsp;&nbsp;[<a href="/assets/md/{{ paper.markdown }}/">MD</a>]{% endcapture %}
                 {% assign all = all | append: md_link %}
               {% endif %}
 
