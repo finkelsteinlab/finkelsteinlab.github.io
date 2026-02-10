@@ -14,6 +14,7 @@ supplement: 2023-BioRxiv-Hu et al-supplement.pdf
 doi: 10.1038/s41467-024-50816-w
 pmcid: PMC11300857
 pmid: 39103341
+markdown: 2023-03-04-horizontal-transfer
 extra_text: ''
 category: paper
 tags: gene editing, transposition, bacterial defense, selfish genetic element
