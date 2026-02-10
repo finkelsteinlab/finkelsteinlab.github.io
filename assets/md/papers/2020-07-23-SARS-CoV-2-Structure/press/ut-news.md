@@ -5,8 +5,8 @@ source_url: https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could
 archived: 2025-02-09
 ---
 
-UT Wordmark Primary UT Wordmark Formal Shield Texas UT News Camera Chevron Close Search Copy Link Download File Hamburger Menu Time Stamp Open in browser Load More Pull quote Cloudy and windy Cloudy Partly Cloudy Rain and snow Rain Showers Snow Sunny Thunderstorms Wind and Rain Windy Facebook Instagram LinkedIn Twitter email alert map calendar bullhorn
-[Skip to content ↓](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/#main)
+# COVID-19 Vaccine Innovation Could Dramatically Speed Up Worldwide Production
+
 AUSTIN, Texas — Responding to a need to quickly develop billions of doses of lifesaving COVID-19 vaccines, a scientific team at The University of Texas at Austin has successfully redesigned a key protein from the coronavirus, and the modification could enable much faster and more stable production of vaccines worldwide.
 The new findings are [described in the journal _Science_](https://science.sciencemag.org/lookup/doi/10.1126/science.abd0826) _._
 Most coronavirus vaccine candidates train the human immune system to recognize a key protein on the surface of the SARS-CoV-2 virus called the spike protein in order to fight infection. Researchers designed a new version of this protein that, when expressed in cells, produces up to 10 times more protein than that of an earlier synthetic spike protein already in use in multiple COVID-19 vaccines. Along with colleagues at the National Institutes of Health, several members of the UT research team also designed [the earlier version](https://test-texas-news.pantheonsite.io/2020/02/19/breakthrough-in-coronavirus-research-results-in-new-map-to-support-vaccine-design/) of the spike protein found in at least two COVID-19 vaccine candidates currently in U.S. clinical trials.
@@ -26,19 +26,6 @@ Biotechnology company Sino Biological has obtained a non-exclusive license from 
 The paper’s other authors are Kevin C. Le, Alison Gene-Wei Lee, Yutong Liu, John Ludes-Meyers, Annalee W. Nguyen, Juyeon Park, Dzifa Amengor, Jason J. Lavinder and Greg C. Ippolito.
 This work was supported by the National Institutes of Health, the Welch Foundation and the National Science Foundation. Finkelstein is a CPRIT Scholar in Cancer Research.
 _The University of Texas at Austin is committed to transparency and disclosure of all potential conflicts of interest. The authors submitted required financial disclosure forms with the university and hold intellectual property rights that may yield revenue from the discovery described in this research._
-**_NOTE TO REPORTERS: Photos, videos and illustrations are available here:_**[**_https://utexas.box.com/s/9xey3ugpyiy86k74uh60du9whrq1yzt7_**](https://utexas.box.com/s/9xey3ugpyiy86k74uh60du9whrq1yzt7)
-Email Share Link [Twitter Share Link](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnews.utexas.edu%2F2020%2F07%2F23%2Fcovid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production%2F&text=COVID-19%20Vaccine%20Innovation%20Could%20Dramatically%20Speed%20Up%20Worldwide%20Production) [Facebook Share Link](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnews.utexas.edu%2F2020%2F07%2F23%2Fcovid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production%2F&title=COVID-19%20Vaccine%20Innovation%20Could%20Dramatically%20Speed%20Up%20Worldwide%20Production&source=UT%20Austin%20News%20-%20The%20University%20of%20Texas%20at%20Austin) [LinkedIn Share Link](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.utexas.edu%2F2020%2F07%2F23%2Fcovid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production%2F)
-### Explore Latest Articles
-Feb 09, 2026
-## [Society for Affective Science Grants Early Career Award to UT Psychologist](https://liberalarts.utexas.edu/news/society-for-affective-science-grants-early-career-award-to-ut-psychologist)
-[Read More Society for Affective Science Grants Early Career Award to UT Psychologist](https://liberalarts.utexas.edu/news/society-for-affective-science-grants-early-career-award-to-ut-psychologist)
-Feb 06, 2026
-## [UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-[Read More UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-Feb 06, 2026
-## [An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-[Read More An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-
 ---
 
 *Archived from [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) on 2025-02-09.*

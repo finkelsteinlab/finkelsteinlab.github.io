@@ -5,8 +5,8 @@ source_url: https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-mad
 archived: 2025-02-09
 ---
 
-UT Wordmark Primary UT Wordmark Formal Shield Texas UT News Camera Chevron Close Search Copy Link Download File Hamburger Menu Time Stamp Open in browser Load More Pull quote Cloudy and windy Cloudy Partly Cloudy Rain and snow Rain Showers Snow Sunny Thunderstorms Wind and Rain Windy Facebook Instagram LinkedIn Twitter email alert map calendar bullhorn
-[Skip to content ↓](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/#main)
+# Coronavirus Mutation May Have Made It More Contagious
+
 AUSTIN, Texas — A study involving more than 5,000 COVID-19 patients in Houston finds that the virus that causes the disease is accumulating genetic mutations, one of which may have made it more contagious. According to the paper [published in the peer-reviewed journal _mBIO_](https://mbio.asm.org/content/11/6/e02707-20), that mutation, called D614G, is located in the spike protein that pries open our cells for viral entry. It’s the largest peer-reviewed study of SARS-CoV-2 genome sequences in one metropolitan region of the U.S. to date.
 The paper shows “the virus is mutating due to a combination of neutral drift — which just means random genetic changes that don’t help or hurt the virus — and pressure from our immune systems,” said Ilya Finkelstein, associate professor of molecular biosciences at The University of Texas at Austin and co-author of the study. The study was carried out by scientists at Houston Methodist Hospital, UT Austin and elsewhere.
 During the initial wave of the pandemic, 71% of the novel coronaviruses identified in patients in Houston had this mutation. When the second wave of the outbreak hit Houston during the summer, this variant had leaped to 99.9% prevalence. This mirrors a trend observed around the world. A study published in July based on more than 28,000 genome sequences found that variants carrying [the D614G mutation became the globally dominant form of SARS-CoV-2](https://doi.org/10.1016/j.cell.2020.06.043) in about a month. SARS-CoV-2 is the coronavirus that causes COVID-19.
@@ -23,18 +23,6 @@ The UT Austin team tested different genetic variants of the virus’s [spike pro
 The researchers found that SARS-CoV-2 was introduced to the Houston area many times, independently, from diverse geographic regions, with virus strains from Europe, Asia, South America and elsewhere in the United States. There was widespread community dissemination soon after COVID-19 cases were reported in Houston.
 This study was supported by the Fondren Foundation, Houston Methodist Hospital and Research Institute, the National Institutes of Health, the National Institute of Allergy and Infectious Diseases, the Welch Foundation, the National Science Foundation and the Defense Advanced Research Projects Agency. Ilya Finkelstein is a CPRIT scholar in cancer research, funded by the Cancer Prevention and Research Institute of Texas.
 An earlier version of the paper was [posted last month to the preprint server medRxiv](https://www.medrxiv.org/content/10.1101/2020.09.22.20199125v1) _._
-Email Share Link [Twitter Share Link](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnews.utexas.edu%2F2020%2F10%2F30%2Fcoronavirus-mutation-may-have-made-it-more-contagious%2F&text=Coronavirus%20Mutation%20May%20Have%20Made%20It%20More%20Contagious) [Facebook Share Link](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnews.utexas.edu%2F2020%2F10%2F30%2Fcoronavirus-mutation-may-have-made-it-more-contagious%2F&title=Coronavirus%20Mutation%20May%20Have%20Made%20It%20More%20Contagious&source=UT%20Austin%20News%20-%20The%20University%20of%20Texas%20at%20Austin) [LinkedIn Share Link](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.utexas.edu%2F2020%2F10%2F30%2Fcoronavirus-mutation-may-have-made-it-more-contagious%2F)
-### Explore Latest Articles
-Feb 09, 2026
-## [Society for Affective Science Grants Early Career Award to UT Psychologist](https://liberalarts.utexas.edu/news/society-for-affective-science-grants-early-career-award-to-ut-psychologist)
-[Read More Society for Affective Science Grants Early Career Award to UT Psychologist](https://liberalarts.utexas.edu/news/society-for-affective-science-grants-early-career-award-to-ut-psychologist)
-Feb 06, 2026
-## [UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-[Read More UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-Feb 06, 2026
-## [An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-[Read More An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-
 ---
 
 *Archived from [UT News](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/) on 2025-02-09.*

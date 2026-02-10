@@ -5,8 +5,10 @@ source_url: https://www.popularmechanics.com/science/a33327626/scientists-encode
 archived: 2025-02-09
 ---
 
-[Skip to Content](https://www.popularmechanics.com/science/a33327626/scientists-encoded-wizard-of-oz-in-dna/#main-content)
-STEVEN MCDOWELL/SCIENCE PHOTO LIBRARY//Getty Images
+# Scientists Encoded The Entire Wizard of Oz Into DNA
+
+*STEVEN MCDOWELL/SCIENCE PHOTO LIBRARY//Getty Images*
+
   * DNA can store far more data than a magnetic [hard drive](https://www.popularmechanics.com/technology/gear/a31787710/best-external-hard-drive/), but the technology is limited because the genetic material is prone to errors. 
   * Scientists at the University of Texas at Austin have come up with a way to store information in strands of DNA, while also [correcting those errors](https://cns.utexas.edu/news/power-of-dna-to-store-information-gets-an-upgrade).
   * To prove it, they've put the entirety of _The Wizard of Oz—_ translated into Esperanto— into strands of DNA, with greater accuracy than prior methods.

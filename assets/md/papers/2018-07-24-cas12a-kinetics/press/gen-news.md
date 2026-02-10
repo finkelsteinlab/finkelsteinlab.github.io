@@ -5,8 +5,9 @@ source_url: https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-
 archived: 2025-02-09
 ---
 
-CRISPR-Cas12a More Precise Than CRISPR-Cas9
-A quantitative kinetics study has dissected the reaction steps whereby Cas12a targets DNA. This study explains the DNA cleavage patterns measured in vivo and the observations of greater reported target specificity for Cas12a than for the Cas9 nuclease. [Molecular Cell]
+# CRISPR-Cas12a More Precise Than CRISPR-Cas9
+
+*A quantitative kinetics study has dissected the reaction steps whereby Cas12a targets DNA. This study explains the DNA cleavage patterns measured in vivo and the observations of greater reported target specificity for Cas12a than for the Cas9 nuclease. [Molecular Cell]*
 In CRISPR tool development, Cas9 got there firstest, but not necessarily with the mostest. So, even though Cas9 is currently king of the CRISPR gene modification hill, it may be pushed aside by the less familiar Cas12a, another CRISPR enzyme that is, according to scientists at the University of Texas at Austin (UT-Austin), more effective and precise.
 Various CRISPR systems are found in nature, where they help bacteria recognize and destroy viral infections. As these CRISPR systems came to be adapted for human purposes, they started to show just how varied they were, particularly with respect to their CRISPR-associated (Cas) enzymes, which follow guide RNA and cut DNA where guide RNA specifies.
 Alas, none of the Cas enzymes is perfect, not even the popular Cas9, the first Cas enzyme discovered by researchers. Because Cas enzymes occasionally fail to cut DNA in the right places, or even cut at all, they worry developers, who want to modify genomes with surgical precision, especially in therapeutic applications.
@@ -22,8 +23,6 @@ For Cas12a, it’s more like a Velcro strap. At each point along the way, the bo
 The researchers said that Cas12a still isn’t perfect, but the study also suggests ways that Cas12a can be improved further, perhaps one day realizing the dream of creating a “precision scalpel,” an essentially error-proof gene-editing tool.
 “On the whole, Cas12a is better, but there were some areas where Cas12a was still surprisingly blind to some mispairing between its RNA and the genomic target,” adds Dr. Finkelstein. “So, what our work does is show a clear path forward for improving Cas12a further.”
 The researchers are currently using these insights in a follow-on project designed to engineer an improved Cas12a.
-[News](https://www.genengnews.com/category/news)[Cellular, Molecular and Developmental Biology](https://www.genengnews.com/subject/cellular-molecular-and-developmental-biology)[CRISPR](https://www.genengnews.com/subject/crispr)[DNA](https://www.genengnews.com/subject/dna)[Gene editing](https://www.genengnews.com/subject/gene-editing)[Genetic engineering](https://www.genengnews.com/subject/genetic-engineering)[Genetic Engineering and Biotechnology](https://www.genengnews.com/subject/genetic-engineering-and-biotechnology)[Genetics](https://www.genengnews.com/subject/genetics)[Human genetics](https://www.genengnews.com/subject/human-genetics)[Human genome](https://www.genengnews.com/subject/human-genome)[Molecular biology](https://www.genengnews.com/subject/molecular-biology)[Nucleic acids](https://www.genengnews.com/subject/nucleic-acids)[RNA](https://www.genengnews.com/subject/rna)
-
 ---
 
 *Archived from [GEN News](https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/) on 2025-02-09.*

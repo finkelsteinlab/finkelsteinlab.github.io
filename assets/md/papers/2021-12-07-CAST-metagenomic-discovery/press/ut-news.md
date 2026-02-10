@@ -5,8 +5,8 @@ source_url: https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-
 archived: 2025-02-09
 ---
 
-UT Wordmark Primary UT Wordmark Formal Shield Texas UT News Camera Chevron Close Search Copy Link Download File Hamburger Menu Time Stamp Open in browser Load More Pull quote Cloudy and windy Cloudy Partly Cloudy Rain and snow Rain Showers Snow Sunny Thunderstorms Wind and Rain Windy Facebook Instagram LinkedIn Twitter email alert map calendar bullhorn
-[Skip to content ↓](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/#main)
+# Potential New Gene Editing Tools Uncovered
+
 AUSTIN, Texas — Few developments have rocked the biotechnology world or generated as much buzz as the discovery of CRISPR-Cas systems, a breakthrough in gene editing recognized in 2020 with a Nobel Prize. But these systems that naturally occur in bacteria are limited because they can make only small tweaks to genes. In recent years, scientists discovered a different system in bacteria that might lead to even more powerful methods for gene editing, given its unique ability to insert genes or whole sections of DNA in a genome.
 New research from The University of Texas at Austin dramatically expands the number of naturally occurring versions of this system, giving researchers a wealth of potential new tools for large-scale gene editing.
 Other scientists had identified clusters of genes that use CRISPR to insert themselves into different places in an organism’s genome, dubbed [CRISPR-associated transposons (CASTs)](https://www.pnas.org/content/114/35/E7358). Earlier work has shown they can be used to[ add an entire gene or large DNA sequence to the genome](https://news.mit.edu/2019/gene-editing-system-precisely-inserts-large-dna-sequences-0612), at least for bacteria.
@@ -22,18 +22,6 @@ The UT Austin team found 1,476 new putative CASTs, including three new families,
 In the short term, Finkelstein said many of these new systems should be adaptable to genetically engineering bacteria. The long-term challenge, Finkelstein said, is to “domesticate” the systems to work in our cells.
 “The holy grail is to get this working in mammalian cells,” Finkelstein said.
 This work was made possible in part by seed funding from UT Austin’s College of Natural Sciences through a Catalyst grant. Wilke holds the Jane and Roland Blumberg Centennial Professorship in Molecular Evolution and a Dwight W. and Blanche Faye Reeder Centennial Fellowship in Systematic and Evolutionary Biology. Finkelstein holds the Lorene Morrow Kelley Endowed Faculty Fellowship.
-Email Share Link [Twitter Share Link](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnews.utexas.edu%2F2021%2F12%2F03%2Fpotential-new-gene-editing-tools-uncovered%2F&text=Potential%20New%20Gene%20Editing%20Tools%20Uncovered) [Facebook Share Link](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnews.utexas.edu%2F2021%2F12%2F03%2Fpotential-new-gene-editing-tools-uncovered%2F&title=Potential%20New%20Gene%20Editing%20Tools%20Uncovered&source=UT%20Austin%20News%20-%20The%20University%20of%20Texas%20at%20Austin) [LinkedIn Share Link](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.utexas.edu%2F2021%2F12%2F03%2Fpotential-new-gene-editing-tools-uncovered%2F)
-### Explore Latest Articles
-Feb 06, 2026
-## [UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-[Read More UT Researchers Map the Path to Viable Carbon Capture](https://news.utexas.edu/2026/02/06/ut-researchers-map-the-path-to-viable-carbon-capture/)
-Feb 06, 2026
-## [An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-[Read More An Olympian Task](https://news.utexas.edu/2026/02/06/an-olympian-task/)
-Feb 05, 2026
-## [Department of Defense Funds UT Clinical Trial of Drug-Free Postpartum Depression Treatment](https://dellmed.utexas.edu/news/department-of-defense-funds-ut-clinical-trial-of-drug-free-postpartum-depression-treatment)
-[Read More Department of Defense Funds UT Clinical Trial of Drug-Free Postpartum Depression Treatment](https://dellmed.utexas.edu/news/department-of-defense-funds-ut-clinical-trial-of-drug-free-postpartum-depression-treatment)
-
 ---
 
 *Archived from [UT News](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) on 2025-02-09.*
