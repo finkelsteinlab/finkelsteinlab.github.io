@@ -14,6 +14,7 @@ supplement: 0079-2022-JMolBio-Kozlov et al-supplement.pdf
 doi: 10.1016/j.jmb.2022.167562
 pmcid: PMC9400470
 pmid: 35351518
+markdown: 2022-05-15-SSB-protein
 extra_text: ''
 category: paper
 tags: DNA replication, liquid-liquid phase separation, single molecule DNA collapse, biomolecular condensates, salt effects
