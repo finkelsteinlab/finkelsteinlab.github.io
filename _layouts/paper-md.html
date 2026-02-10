@@ -104,12 +104,13 @@ layout: default
       if (prev) {
         var pText = prev.textContent || '';
         var pTag = prev.tagName;
-        console.log('Case2 check:', pTag, figRe.test(pText.trim()), pText.substring(0,60));
+        window._figDebug = window._figDebug || [];
+        window._figDebug.push({tag: pTag, match: figRe.test(pText.trim()), text: pText.substring(0,80), childCount: prev.childNodes.length});
         if ((pTag === 'P' || pTag === 'H3' || pTag === 'H4' || pTag === 'H5') && figRe.test(pText.trim())) {
           var cap = document.createElement('figcaption');
           var count = 0;
           while (prev.firstChild) { cap.appendChild(prev.firstChild); count++; }
-          console.log('Moved', count, 'nodes to figcaption, innerHTML:', cap.innerHTML.substring(0,100));
+          window._figDebug.push({moved: count, capHTML: cap.innerHTML.substring(0,120)});
           figure.appendChild(cap);
           prev.parentNode.removeChild(prev);
         }
