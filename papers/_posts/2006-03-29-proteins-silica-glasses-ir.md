@@ -14,6 +14,7 @@ supplement: 0007-2006-JACS-Massari et al-supplement.pdf
 doi: 10.1021/ja058745y
 pmcid: PMC2532503
 pmid: 16551107
+markdown: 2006-03-29-proteins-silica-glasses-ir
 extra_text: ''
 category: paper
 tags: []
