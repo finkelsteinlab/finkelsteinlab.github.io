@@ -14,6 +14,7 @@ supplement: 0086-2024-Kuo et al-supplement.pdf
 doi: 10.1038/s41467-024-44738-w
 pmcid: PMC10786891
 pmid: 38216559
+markdown: 2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d
 extra_text: ''
 category: paper
 tags: RNA-targeting CRISPR-Cas13d, CRISPR-Cas
