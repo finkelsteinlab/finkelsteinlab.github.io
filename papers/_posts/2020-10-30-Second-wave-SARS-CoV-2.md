@@ -18,11 +18,11 @@ markdown: 2020-10-30-Second-wave-SARS-CoV-2
 extra_text: '
 **Press:**
 
-  - [Coronavirus Mutation May Have Made It More Contagious (UT News)](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/) ([md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/ut-news))
+  - [Coronavirus Mutation May Have Made It More Contagious (UT News)](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/) ([pdf](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/ut-news.pdf) &#124; [md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/ut-news))
 
-  - [Massive genetic study shows coronavirus mutating (Washington Post)](https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/) ([md](/assets/md/news/2020-09-29-washingtonpost-washington-post/))
+  - [Massive genetic study shows coronavirus mutating (Washington Post)](https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/) ([pdf](/assets/md/news/2020-09-29-washingtonpost-washington-post/washingtonpost.pdf) &#124; [md](/assets/md/news/2020-09-29-washingtonpost-washington-post/))
 
-  - [D614G mutation may make SARS-CoV-2 more contagious (Inside Precision Medicine)](https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/) ([md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/precision-med))
+  - [D614G mutation may make SARS-CoV-2 more contagious (Inside Precision Medicine)](https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/) ([pdf](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/precision-med.pdf) &#124; [md](/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/precision-med))
 
   - [How UT researchers are working to thwart COVID-19 resistance (KXAN)](https://www.kxan.com/news/coronavirus/how-ut-researchers-are-working-to-thwart-covid-19s-resistance-to-treatments/)
 
