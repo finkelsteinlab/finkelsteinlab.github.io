@@ -14,6 +14,7 @@ supplement:
 doi: 10.1038/s41596-021-00623-0
 pmcid: PMC9665560
 pmid: 34611365
+markdown: 2021-10-05-SARS-CoV-2-Spike-proteins
 extra_text: ''
 category: paper
 tags:
