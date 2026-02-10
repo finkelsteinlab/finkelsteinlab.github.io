@@ -8,25 +8,46 @@ pmcid: PMC3319767
 
 # Supported Lipid Bilayers and DNA Curtains for High-Throughput Single-Molecule Studies
 
+**Ilya J. Finkelstein and Eric C. Greene**
+
+*Methods Mol. Biol.*, Volume 745, Pages 447–461 (2011)
+
+**DOI:** [10.1007/978-1-61779-129-1_26](https://doi.org/10.1007/978-1-61779-129-1_26)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [1. Introduction](#1-introduction)
+- [2. Materials](#2-materials)
+- [3. Methods](#3-methods)
+- [Acknowledgments](#acknowledgments)
+- [4. Notes](#4-notes)
+
+---
+
 ##  Abstract
 Single-molecule studies of protein–DNA interactions continue to yield new information on numerous DNA processing pathways. For example, optical microscopy-based techniques permit the real-time observation of proteins that interact with DNA substrates, which in turn allows direct insight into reaction mechanisms. However, these experiments remain technically challenging and are limited by the paucity of stable chromophores and the difficulty of acquiring statistically significant observations. In this protocol, we describe a novel, high-throughput, nanofabricated experimental platform enabling real-time imaging of hundreds of individual protein–DNA complexes over hour timescales.
 **Keywords:** Single molecule, TIRF microscopy, nanofabrication, DNA curtains, nucleosome, DNA motors
+---
 ##  1. Introduction
 In recent years, fluorescence-based single-molecule imaging techniques have been used to follow the action of macromolecular machines along a DNA substrate. Direct observations of DNA replication ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R1)–[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R4)), transcription ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R5)–[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R7)), and repair ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R8)–[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10))atthe single-molecule level are continuing to offer fresh insights into these complex, multi-step reactions. The knowledge gained from these studies typically could not be accessed using traditional biochemical or biophysical approaches. Single-molecule experiments offer the advantage of being able to study rare or short-lived intermediates that can be obfuscated among the often-heterogenous populations of molecules that are studied in traditional biochemical assays.
 Despite decades of intense technique development, single-molecule observations of protein–DNA interactions continue to be experimentally challenging. The relatively short fluorescent lifetimes of most organic dyes significantly limit the accessible reaction timescales. The molecules under investigation usually must be anchored to a surface that is inherently different from the normal environments encountered within cells. In addition, experimental platforms that manipulate the target DNA via optical or magnetic tweezers are typically carried out on single DNA molecules in a serial fashion (i.e., one molecule at a time), and this low data throughout often limit the scope of the experimental results. In the protocol presented here, we describe a method for rapid, real-time imaging of hundreds of individual protein–DNA complexes over extended, biological timescales within a biologically friendly microenvironment. The method is flexible and can be used to address a number of different biological problems. We have successfully applied this experimental approach to observe the diffusion and translocation of DNA repair proteins ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10), [11](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R11)), the localization of nucleosomes along an intrinsic DNA-binding energy landscape ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R12)), and to follow the polymerization activity of recombinases on double-stranded DNA ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R13)–[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R15)).
 In this protocol, we describe a nanofabricated, micro-fluidic system for simultaneous imaging of hundreds of DNA molecules in real time ([Fig. 26.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F1)). The DNA molecules are organized into “DNA curtains” on the surface of a micro-fluidic sample chamber that is otherwise coated with a fluid lipid bilayer. Various aspects of the DNA curtains technology have been presented previously ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)–[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R19)). Briefly, the experimental system consists of a total internal reflection fluorescence (TIRF) microscope builtaround an inverted Nikon TE2000 microscope. Laser illumination is provided by a ~200 mW 488 nm diode laser. The laser beam impinges on a DOVE prism atop a flowcell constructed from a silica microscope slide containing nanofabricated barriers to lipid diffusion ([Fig. 26.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F2)). An evanescent wave is generated at the water–silica interface, illuminating a shallow observation volume at the flowcell surface. Fluorescence from molecules immobilized at the surface (see below) is collected by a 60×, N.A.1.2 water immersion objective. The signal is passed through a holographic 488 nm notch filter and imaged on a back-thinned 512 × 512 pixel EM-CCD. For multi-color fluorescence imaging, the signal is passed through a DualView beam splitter and each color imaged on one half of the CCD chip.
-### Fig. 26.1.
+***Fig. 26.***1.
 ![Fig. 26.1](nihms-366794-f0001.jpg)
 Schematic of the fluorescence microscope setup. The flowcell is placed on a microscope stage in an inverted configuration. A 488 nm laser impinges on a DOVE prism that rests atop the flowcell. Fluorescent signal is collected by a high N.A. objective and is passed through a 488 nm notch filter and a DualView beam splitter before being imaged on a 512 × 512 pixel EM-CCD. A syringe pump delivers continuous buffer flow through the flowcell inlet port.
-### Fig. 26.2.
+***Fig. 26.***2.
 ![Fig. 26.2](nihms-366794-f0002.jpg)
 Overview of electron beam lithography. (**a**) For e-beam lithography, the slide is first coated with PMMA, and a layer of Aquasave, and an electron beam rastered across the surface to burn through these layers creating a pattern that defines the shapes of the diffusion barriers. (**b**) Chromium (Cr) is deposited on the entire surface, and (**c**)the remaining PMMA is lifted off, leaving behind the nanofabricated barriers.
 The surface of the flowcell is passivated by a fluid lipid bilayer ([20](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R20)–[22](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R22)). DNA is immobilized at the lipid bilayer by a streptavidin–biotin linkage and extended into the evanescent wave via shear buffer flow delivered by a syringe pump. The fluidity of the lipid bilayer permits organization of individual DNA molecules at nanofabricated diffusion barriers ([Fig. 26.3](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F3)). The spacing, density, and orientation of DNA molecules relative to one another may be controlled by appropriately designed diffusion barriers ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R17)). Recently, we have also extended the DNA curtain technology to generate DNA arrays that are immobilized at both ends ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)).
-### Fig. 26.3.
+***Fig. 26.***3.
 ![Fig. 26.3](nihms-366794-f0003.jpg)
 Assembly of DNA curtains. (**a**) A schematic illustration of DNA molecules assembled into DNA curtains on a fluid lipid bilayer. DNA is tethered to the bilayer by a streptavidin–biotin linkage. In the presence of buffer flow, individual DNA molecules are pushed through the lipid bilayer until the molecules assemble at nanofabricated diffusion barriers. (**b**) A single field of view permits the observation of up to four rows of assembled λ-DNA curtains in the absence (left panel) and presence (right panel) of buffer flow. The DNA molecules have been decorated with QD-labeled RNA polymerase.
 For our studies we label the proteins with highly fluorescent semiconductor nanocrystal quantum dots (QDs). Quantum dotsare relatively small (~10–20 nm diameter) nanoparticles that display broad excitation spectra, narrow emission peaks, large Stokes shifts, large absorbance cross sections, and very high quantum yields ([23](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R23)). Individual QDs can be readily visualized at data collection rates of 100 frames/s and the QDs do not bleach even after prolonged illumination ([23](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R23)–[26](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R26)). This allows imaging for extended periods (up to hours) without risk of photobleaching the sample. To specifically label a protein of interest, an epitope tag is engineered into the protein. Antibodies raised against the epitope tag are chemically linked to QDs and the QD–antibody complex is conjugated with the protein prior to visualization on the DNA curtain.
 The DNA can be viewed by staining with very low concentrations (1–2 nM) of the intercalating dye YOYO1. To avoid rapid photobleaching of YOYO1 and concomitant DNA damage due to the reactivity of excited fluorophores with molecular oxygen, we employ an enzymatic oxygen scavenging system. The coupled activity of glucose oxidase and catalase in a buffer containing millimolar amounts of glucose significantly reduces DNA breaks and permits observations of individual molecules for tens of minutes ([27](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R27)). Although this approach does not inhibit the biochemical activity of many enzymes ([9](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R9), [10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10)), care should be taken to biochemically assay all the protein–DNA interactions in the presence of YOYO1, as well as all additional buffer components. If necessary, YOYO1 may be used to stain the DNA at the beginning of an experiment and subsequently flushed out by washing the flowcell with a high-salt (500 mM NaCl or 10 mM MgCl2) buffer. In addition, alternative labeling procedures that employ recognition of digoxigenin (DIG)-labeled DNA by anti-DIG antibody–QD conjugates have also been developed ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R13), [14](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R14), [28](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R28)). These labeling methods leave the duplex almost completely unperturbed and do not require intercalating DNA dyes or an oxygen scavenging system to visualize the DNA curtains.
+---
 ##  2. Materials
 ### 2.1. TIRF Microscope
   1. Laser: 488 nm, ~200 mW cw diode laser (Coherent).
@@ -91,6 +112,7 @@ The DNA can be viewed by staining with very low concentrations (1–2 nM) of the
 
 ### 2.9. Data Processing Software
 For experiments requiring tracking of QD-labeled proteins, the pointspread function of the fluorescent QD signal is fit to a 2D Gaussian for each frame of the multi-frame particle trajectory ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10)). The strong fluorescence signal from QDs and the resulting high _S_ /_N_ ratio offer a high precision fit to within several nanometers ([29](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R29), [30](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R30)). In practice, accuracy of the particle trajectory is limited due to the Brownian motion fluctuations of the double-stranded DNA ([31](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R31), [32](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R32)). Our lab has developed several in-house particle tracking programs that were written in MAT-LAB and IgorPro, and excellent commercial and free software tools for routine particle tracking have also been reported ([33](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R33)).
+---
 ##  3. Methods
 ### 3.1. Nanofabrication of Lipid Diffusion Barriers
 Nanofabricated barrier patterns are made by electron beam (e-beam) lithography, which yields uniform barrier patterns of high quality with nanometer precision ([Fig. 26.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F2)). The general process of e-beam lithography involves first coating the microscope slide with a thin polymer film (a bilayer of polymethylmethacrylate (PMMA), followed by a layer of Aquasave conducting polymer). An electron beam is then used to “burn” a desired pattern into the polymer film and expose the underlying slide surface. Metal (we typically use chromium) is vaporized under vacuum and deposited over the entire surface, including the exposed slide surface and the PMMA. The remaining polymer is then peeled away in a process called “liftoff,” leaving behind themetal pattern on the microscope slide, which acts as lipid diffusion barriers when assembling the DNA curtains. 
@@ -160,8 +182,10 @@ The flowcell is constructed from a segment of double-sided tape sandwiched betwe
   3. Focus the objective at the slide surface by adjusting the focus knob until the DNA fluorescence signal is maximized. Adjust the 488 nm laser beam and total internal reflection angle to maximize the fluorescence signal (_see_ [Note 10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#FN10)). Experiments that use YOYO1-stained DNA must include an oxygen scavenging system for extended imaging ([27](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R27)).
   4. For experiments that utilize QD-tagged proteins, inject the protein of interest in the appropriate reaction buffer to initiate the experiment.
 
+---
 ##  Acknowledgments
 We thank the many members of the Greene Laboratory who have worked on developing the DNA curtain experimental platform, in particular, Teresa Fazio for establishing the nanofabrication process. The Greene Laboratory is supported by the Howard Hughes Medical Institute, the National Institutes of Health, the National Science Foundation, the Susan G. Komen Foundation, and the Irma T. Hirschl Trust. IJF is supported by the NIH Fellowship #F32GM80864. We apologize to any colleagues whose work we were not able to cite due to length limitations.
+---
 ##  4. Notes
 1
 The silica slides tend to shatter if drilled too quickly or with blunted drill bits. Work slowly, under a constant stream of running water, and change the drill bits frequently.
@@ -183,3 +207,7 @@ Most laboratory plastics are susceptible to chloroform. Care must be taken to av
 Over time, the small unilamellar vesicles formed during initial sonication slowly fuse to make larger, more stable structures. Aged liposome stocks yield patchy bilayers with substantially reduced fluidity and poor surface blocking properties.
 10
 For experiments that do not use fluorescently stained DNA, it is possible to focus on the nanofabricated pattern or random imperfections on the slide surface.
+
+---
+
+*Archived from [PubMed Central (PMC3319767)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/) on 2025-07-19.*
