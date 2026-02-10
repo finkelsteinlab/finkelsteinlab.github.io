@@ -8,58 +8,34 @@ pmcid: PMC6625828
 
 # RPA phosphorylation inhibits DNA resection
 
-# RPA phosphorylation inhibits DNA resection
-[Michael M Soniat](https://pubmed.ncbi.nlm.nih.gov/?term="Soniat%20MM"\[Author\])
-### Michael M Soniat
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-2Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX 78712 USA
-Find articles by [Michael M Soniat](https://pubmed.ncbi.nlm.nih.gov/?term="Soniat%20MM"\[Author\])
-1,2, [Logan R Myler](https://pubmed.ncbi.nlm.nih.gov/?term="Myler%20LR"\[Author\])
-### Logan R Myler
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-2Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX 78712 USA
-Find articles by [Logan R Myler](https://pubmed.ncbi.nlm.nih.gov/?term="Myler%20LR"\[Author\])
-1,2, [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-### Hung-Che Kuo
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-2Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX 78712 USA
-Find articles by [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-1,2, [Tanya T Paull](https://pubmed.ncbi.nlm.nih.gov/?term="Paull%20TT"\[Author\])
-### Tanya T Paull
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-3Howard Hughes Medical Institute, The University of Texas at Austin, Austin, TX 78712 USA
-Find articles by [Tanya T Paull](https://pubmed.ncbi.nlm.nih.gov/?term="Paull%20TT"\[Author\])
-1,3, [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-### Ilya J Finkelstein
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-2Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX 78712 USA
-4Lead Contact
-Find articles by [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-1,2,4,*
-  * Author information
-  * Article notes
-  * Copyright and License information
+**Michael M. Soniat, Logan R. Myler, Hung-Che Kuo, Tanya T. Paull, and Ilya J. Finkelstein**
 
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712 USA
-2Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX 78712 USA
-3Howard Hughes Medical Institute, The University of Texas at Austin, Austin, TX 78712 USA
-4Lead Contact
-AUTHOR CONTRIBUTIONS
-M.M.S. and L.R.M. conducted all single-molecule experiments and pull-down assays. M.M.S. and H.-C.K. performed and analyzed the cell culture experiments. T.T.P. and I.J.F. directed the project. M.M.S, L.R.M., and I.J.F. co-wrote the paper with input from all co-authors.
-*
-Correspondence to: ifinkelstein@cm.utexas.edu
-Issue date 2019 Jul 11.
-[PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
-PMCID: PMC6625828 NIHMSID: NIHMS1528765 PMID: [31153714](https://pubmed.ncbi.nlm.nih.gov/31153714/)
-The publisher's version of this article is available at [Mol Cell](https://doi.org/10.1016/j.molcel.2019.05.005)
+*Molecular Cell*, Volume 75, Issue 1, Pages 145–153 (2019)
+
+**DOI:** [10.1016/j.molcel.2019.05.005](https://doi.org/10.1016/j.molcel.2019.05.005)
+
+---
+
+## Table of Contents
+
+- [Summary](#summary)
+- [Introduction](#introduction)
+- [Results](#results)
+- [Discussion](#discussion)
+- [STAR Methods](#star-methods)
+- [Acknowledgements](#acknowledgements)
+
+---
 ##  SUMMARY
 Genetic recombination in all kingdoms of life initiates when helicases and nucleases process (resect) the free DNA ends to expose single-stranded (ss) DNA overhangs. Resection regulation in bacteria is programmed by a DNA sequence, but a general mechanism limiting resection in eukaryotes has remained elusive. Using single-molecule imaging of reconstituted human DNA repair factors, we identify phosphorylated RPA (pRPA) as a negative resection regulator. BLM helicase together with EXO1 and DNA2 nucleases catalyze kilobase-length DNA resection on nucleosome-coated DNA. The resulting ssDNA is rapidly bound by RPA, which further stimulates DNA resection. RPA is phosphorylated during resection as part of the DNA damage response (DDR). Remarkably, pRPA inhibits DNA resection in cellular assays and _in vitro_ via inhibition of BLM helicase. pRPA suppresses BLM initiation at DNA ends and promotes the intrinsic helicase strand-switching activity. These findings establish that pRPA provides a feedback loop between DNA resection and the DDR.
 **Keywords:** RPA, BLM, single-molecule, EXO1, DNA2, double-strand break, DNA repair
 ##  Graphical Abstract
 ![graphic file with name nihms-1528765-f0005.jpg](nihms-1528765-f0005.jpg)
+---
 ##  INTRODUCTION
 Homologous recombination (HR) is a universally conserved DNA double-strand break (DSB) repair pathway that uses the information stored in a sister chromatid to repair the broken genome ([Jasin and Rothstein, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R31)). In eukaryotes, homologous recombination is initiated by the MRE11-RAD50-NBS1 (MRN) complex, which rapidly localizes to DSBs in human cells ([Lisby et al., 2004](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R34)). MRN initiates HR by removing adducts from the DNA ends and by loading the Bloom’s Syndrome helicase (BLM) along with Exonuclease 1 (EXO1) or DNA2 nuclease/helicase ([Lisby et al., 2004](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R34); [Myler and Finkelstein, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R41); [Symington, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R56)). Single-stranded DNA (ssDNA) is generated by nucleolytic degradation (i.e., resection) of one of the two DNA strands. Replication protein A (RPA) rapidly coats the ssDNA that is generated during DNA resection. RPA-ssDNA filaments are phosphorylated by ATR, together with ATM, CDK, and DNA-PKcs ([Ciccia and Elledge, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R12); [Maréchal and Zou, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R36)). Although RPA phosphorylation is induced in response to DNA damage and is frequently used as a readout of DSB resection, cells expressing phosphomimetic RPA mutants have defects in DNA recombination and repair ([Binz et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R4), [2004](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R5)). However, the role of RPA phosphorylation during DNA resection and the mechanisms that measure and terminate DNA resection are not fully understood.
 Here, we use single-molecule fluorescence imaging and cellular assays to establish that RPA phosphorylation is a critical regulator of eukaryotic resection on chromatin. BLM, in concert with RPA, stimulates processive resection by EXO1 and DNA2 nucleases. However, RPA32 phosphorylation inhibits DNA resection _in vitro_ and in cells. Phosphorylated RPA (pRPA) drastically slows both BLM/EXO1 and BLM/DNA2 resectosomes and stimulates BLM strand switching when the nuclease is omitted from the reaction. Moreover, BLM/EXO1 and BLM/DNA2 can resect past nucleosomes in the presence of RPA but are blocked when pRPA is added to the reaction. Thus, phosphorylated RPA is a critical negative regulator of DNA resection and other processes that involve BLM helicase.
+---
 ##  RESULTS
 ### Mechanism of BLM/EXO1 and BLM/DNA2-mediated DNA resection
 We established a single-molecule DNA curtain assay to image the role of RPA during DNA resection ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F1)). In this assay, BLM helicase and the nucleases EXO1 or DNA2 are imaged on 48.5 kb-long DNA molecules that are organized on the surface of a lipid-coated microfluidic flowcell ([Gallardo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R23)). Recombinant BLM was labeled with an anti-FLAG (when with EXO1) or anti-HA antibody (when with DNA2) conjugated to a fluorescent nanoparticle (quantum dot; QD) ([Figure 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F1) and [S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#SD1), [STAR Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S9)). Biotinylated EXO1 was coupled to a streptavidin-conjugated QD and DNA2 coupled to an anti-FLAG antibody conjugated QD that emits in a spectrally distinct fluorescent channel ([Figures 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F1) and [S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#SD1))([Myler et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R42)). Ensemble and single-molecule resection experiments confirmed that the fluorescent labels do not interfere with EXO1, BLM, or DNA enzymatic activities ([Figure S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#SD1)).
@@ -94,10 +70,12 @@ We next sought to determine whether nucleosomes are an additional barrier to DNA
 (G) A summary of how RPA phosphorylation negatively regulates DNA resection on chromatin.
 Both BLM/EXO1 and BLM/DNA2 were able to resect past a nucleosome in the absence and presence of wt RPA ([Figure 4C](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)–[F](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)). In >60% of such collisions, the nucleosome was pushed by the BLM/EXO1 (or DNA2) resectosome. Of these pushed nucleosomes, H2A signals were lost in ~10% of BLM/EXO1 (N=5/50) and BLM/DNA2 (N=5/54) trajectories without RPA. In the presence of RPA, H2A signal was lost in 24% of BLM/EXO1 trajectories (N=16/68) and 30% of BLM/DNA2 trajectories (N=15/50). Loss of H2A can indicate complete octamer disassembly or formation of a tetrasome containing H3 and H4. Nucleosome collisions reduced both the DNA resection processivities (5 ± 3 kb, N=68 for BLM/EXO1; 5 ± 2 kb, N=50 for BLM/DNA2) and velocities (10 ± 7 bp s−1, N=68 for BLM/EXO1; 5 ± 3 bp s−1, N=50 for BLM/DNA2) relative to naked DNA in the presence of RPA ([Figure 4F](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)). Moreover, resection stalls at higher-density nucleosome substrates that are more akin to chromatin (Figure S5C).
 Resection with pRPA or pmRPA showed drastically different nucleosome collision outcomes ([Figure 4C](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)–[F](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)). Both BLM/EXO1 and BLM/DNA2 were completely inhibited by the first nucleosome that the complexes encountered (N=40 and 35, respectively). Taken together, these results show that BLM assists both EXO1 and DNA2 to resect past single nucleosome barriers. Nucleosomes remain associated with the DNA, as has been observed previously for the RecBCD complex ([Finkelstein et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R20)). Most surprisingly, phosphorylated RPA immediately stalls resection at the first encountered nucleosome.
+---
 ##  DISCUSSION
 Here, we show that RPA stimulates long-range DNA resection via a physical interaction between RPA70N and BLM ([Figure 3G](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F3)). RPA binds ssDNA with a KD of ~10−10 M with a 5’→3’ polarity, positioning the RPA70N subunit in close proximity to BLM on the 3’-strand to stimulate its helicase activity. RPA also stimulates BLM translocation past individual nucleosomes, but not nucleosome arrays. Limited resection past one or two nucleosomes may be sufficient when a sister chromatid is in close proximity to complete HR ([Hua et al., 1997](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R29); [Rubnitz and Subramani, 1984](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R51); [Sugawara et al., 2000](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R55)). Consistent with this model, dedicated chromatin remodelers (e.g., SMARCAD1, INO80, ANP32E, SRCAP) are essential for long-range resection ([Chen et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R11); [Costelloe et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R13); [Dong et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R16); [Gospodinov et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R26); [Gursoy-Yuzugullu et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R28)) ([Figure 4G](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4)).
 Phosphorylation of RPA abrogates or changes its interaction with BLM, increasing the helicase’s intrinsic strand-switching activity. Regulation of BLM strand switching may be important during the later stages of HR (i.e., joint molecule dissolution, Holliday junction migration, resolution of ultra-fine bridges, and at stalled replication forks) ([Bachrati and Hickson, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R2); [Croteau et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R14)). In addition to the effect on BLM, RPA phosphorylation has variously been reported to retain or decrease its ability to melt ssDNA structures ([Binz and Wold, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R3); [Fried et al., 1996](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R22); [Liu et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R35); [Oakley et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R48); [Patrick et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R49)). Additional studies are required to resolve the effects of RPA phosphorylation on its DNA binding and ssDNA melting activities.
 Eukaryotes terminate DNA resection via multiple overlapping strategies. Additional mechanisms include the recruitment of the helicase HELB, possibly to remove stalled resectosomes from DNA ([Tkáč et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R57)). DNA resection is also suppressed by the 53BP1 effector complex, Shieldin ([Dev et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R15); [Ghezraoui et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R24); [Gupta et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R27); [Mirman et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R39); [Noordermeer et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R47)). Post-translational modification of EXO1, BLM, and DNA2 also limit DNA resection in a cell cycle-dependent manner ([Böhm and Bernstein, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R6); [Chen et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R10); [Tomimatsu et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#R59)). This work underscores that RPA—an interaction hub for multiple DNA replication and repair proteins—is also critical for regulating resection. More broadly, phosphorylation-dependent changes in inter-subunit RPA interactions may be general regulators of DNA maintenance factors important for preserving genomic integrity.
+---
 ##  STAR METHODS
 ### Method Details
 #### Protein Cloning and Purification
@@ -124,6 +102,7 @@ U2OS cells encoding the DR-GFP reporter (U2OS-DR) were transfected with siRPA2 2
 #### Quantification and Statistical Analysis
 For [Figures 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F1)–[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#F4), n represents the number of molecules. Quantification and statistical analyses were done using MATLAB (version: R2015b). Fluorescent particles were tracked using an in-house ImageJ script (available upon request where the positions of individual molecules on DNA were determined by fitting the point spread function to a 2D Gaussian. Trajectories were used to calculate the velocity and processivity for the BLM/EXO1 or BLM/DNA2 complexes. Binding lifetimes were fit to either a single exponential decay using a custom MATLAB script. Statistical details of experiments can be found in the Results and figure legends where indicated.
 
+---
 ##  ACKNOWLEDGEMENTS
 We thank Kyle Miller, Jim Daley, and Marc Wold for reagents. This work was supported by the NIH (GM120554 to I.J.F, CA092584 to I.J.F., and CA212452 to L.R.M.), CPRIT (R1214 to I.J.F., RP110465 to T.T.P.), the Welch Foundation (F-l808 to I.J.F.), and the American Cancer Society (PF-17-169-01-DMC to M.M.S.). T.T.P. is an investigator of the Howard Hughes Medical Institute. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 
@@ -193,64 +172,7 @@ We thank Kyle Miller, Jim Daley, and Marc Wold for reagents. This work was suppo
   63. Zhou Y, and Paull TT (2015). Direct measurement of single-stranded DNA intermediates in mammalian cells by quantitative polymerase chain reaction. Analytical Biochemistry 479, 48–50. [[DOI](https://doi.org/10.1016/j.ab.2015.03.025)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/25841672/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Analytical%20Biochemistry&title=Direct%20measurement%20of%20single-stranded%20DNA%20intermediates%20in%20mammalian%20cells%20by%20quantitative%20polymerase%20chain%20reaction&author=Y%20Zhou&author=TT%20Paull&volume=479&publication_year=2015&pages=48-50&pmid=25841672&doi=10.1016/j.ab.2015.03.025&)]
   64. Zhou C, Pourmal S, and Pavletich NP (2015). Dna2 nuclease-helicase structure, mechanism and regulation by Rpa. Elife 4. [[DOI](https://doi.org/10.7554/eLife.09832)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4716839/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/26491943/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Elife&title=Dna2%20nuclease-helicase%20structure,%20mechanism%20and%20regulation%20by%20Rpa&author=C%20Zhou&author=S%20Pourmal&author=NP%20Pavletich&publication_year=2015&pages=4&pmid=26491943&doi=10.7554/eLife.09832&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1016/j.molcel.2019.05.005)
-  * [ PDF (957.0 KB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/pdf/nihms-1528765.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [SUMMARY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#ABS1)
-  * [Graphical Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#ABS2)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S1)
-  * [RESULTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S2)
-  * [DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S8)
-  * [STAR METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S9)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#SM1)
-  * [ACKNOWLEDGEMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#S19)
-  * [Footnotes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#fn-group1)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Amanuscript)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC6625828)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/) on 2025-07-19.*
