@@ -14,6 +14,7 @@ supplement: 2023-BioRxiv-Leão et al-supplement.pdf
 doi: 10.1038/s41467-024-50195-2
 pmcid: PMC11291487
 pmid: 39085212
+markdown: 2023-09-13-archaea-defense-immunity
 extra_text: ''
 category: paper
 tags:
