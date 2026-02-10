@@ -33,9 +33,11 @@ layout: default
 <script>
 // Wrap figure images + captions in styled <figure> boxes
 (function() {
-  var imgs = document.querySelectorAll('.paper-fulltext p > img[alt^="Figure"]');
+  var figRe = /^(Figure\s+\d|Fig[\.\s]+\d)/;
+  var imgs = document.querySelectorAll('.paper-fulltext p > img[alt^="Figure"], .paper-fulltext p > img[alt^="Fig."], .paper-fulltext p > img[alt^="Fig "]');
   for (var i = 0; i < imgs.length; i++) {
     var imgP = imgs[i].parentElement;
+    if (imgP.closest('.paper-figure')) continue; // already wrapped
     var prev = imgP.previousElementSibling;
     var figure = document.createElement('figure');
     figure.className = 'paper-figure';
@@ -47,14 +49,31 @@ layout: default
     while (imgP.firstChild) figure.insertBefore(imgP.firstChild, imgP);
     figure.removeChild(imgP);
 
-    // Move caption into figcaption if preceding <p> starts with "Figure" or "Fig"
-    if (prev && prev.tagName === 'P') {
+    // Check preceding element for caption (could be <p>, <h3>, <h4>, etc.)
+    if (prev) {
+      var tag = prev.tagName;
       var text = prev.textContent || '';
-      if (/^Figure\s+\d/.test(text) || /^Fig[\.\s]/.test(text)) {
+      if ((tag === 'P' || tag === 'H3' || tag === 'H4' || tag === 'H5') && figRe.test(text)) {
         var cap = document.createElement('figcaption');
         while (prev.firstChild) cap.appendChild(prev.firstChild);
         figure.appendChild(cap);
         prev.parentNode.removeChild(prev);
+      }
+    }
+
+    // Also capture sub-panel descriptions that follow the image
+    // (paragraphs starting with bold panel labels like **(A)** or **a**)
+    var next = figure.nextElementSibling;
+    if (next && next.tagName === 'P') {
+      var nextText = next.textContent || '';
+      if (/^\*?\*?\(?[a-hA-H]\)?[\.\s\*]/.test(nextText) || /^\(\s*[a-hA-H]\s*\)/.test(nextText)) {
+        // This is a panel description paragraph — add to figcaption
+        var existingCap = figure.querySelector('figcaption');
+        if (existingCap) {
+          existingCap.appendChild(document.createElement('br'));
+          while (next.firstChild) existingCap.appendChild(next.firstChild);
+          next.parentNode.removeChild(next);
+        }
       }
     }
   }

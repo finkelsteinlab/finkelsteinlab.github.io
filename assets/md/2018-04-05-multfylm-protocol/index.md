@@ -538,11 +538,14 @@ FullVac | 10 sec
 Purge time | 10 sec  
 WEC | Continuous  
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t004/)
+
 ***Figure 2.*** Soft lithography.
 ![Figure 2.](BioProtoc-8-07-2783-g002.jpg)
 A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.
+
 ***Figure 3.*** Microfluidic fittings.
 ![Figure 3.](BioProtoc-8-07-2783-g003.jpg)
+
 ***Figure 5.*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM. 
 ![Figure 5.](BioProtoc-8-07-2783-g005.jpg)
 A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).
