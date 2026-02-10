@@ -8,16 +8,36 @@ pmcid: PMC7430644
 
 # RADX condenses single-stranded DNA to antagonize RAD51 loading
 
+**Hongshan Zhang, Jeffrey M. Schaub, and Ilya J. Finkelstein**
+
+*Nucleic Acids Research*, Volume 48, Issue 14, Pages 7834–7843 (2020)
+
+**DOI:** [10.1093/nar/gkaa559](https://doi.org/10.1093/nar/gkaa559)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Materials and Methods](#materials-and-methods)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Acknowledgements](#acknowledgements)
+
+---
 ##  Abstract
 RADX is a mammalian single-stranded DNA-binding protein that stabilizes telomeres and stalled replication forks. Cellular biology studies have shown that the balance between RADX and Replication Protein A (RPA) is critical for DNA replication integrity. RADX is also a negative regulator of RAD51-mediated homologous recombination at stalled forks. However, the mechanism of RADX acting on DNA and its interactions with RPA and RAD51 are enigmatic. Using single-molecule imaging of the key proteins _in vitro_ , we reveal that RADX condenses ssDNA filaments, even when the ssDNA is coated with RPA at physiological protein ratios. RADX compacts RPA-coated ssDNA filaments via higher-order assemblies that can capture ssDNA _in trans_. Furthermore, RADX blocks RPA displacement by RAD51 and prevents RAD51 loading on ssDNA. Our results indicate that RADX is an ssDNA condensation protein that inhibits RAD51 filament formation and may antagonize other ssDNA-binding proteins on RPA-coated ssDNA.
+---
 ##  INTRODUCTION
 Genomic single-stranded DNA (ssDNA) is generated during DNA repair and replication. During DNA replication, for example, discontinuous synthesis of the lagging strand exposes short stretches of ssDNA that must be protected against nucleolytic degradation. Single-stranded DNA is also generated when replication forks stall at DNA lesions or as a result of cellular stress ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B1),[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B2)). Stalled replication forks can generate additional ssDNA because of DNA polymerase and replicative helicase uncoupling, or due to the action of fork reversal enzymes and subsequent resection by the homologous recombination (HR) machinery ([3](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B3),[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B4)). The ssDNA-binding proteins Replication Protein A (RPA) and RADX, as well as the recombinase RAD51, maintain replication fork stability. Together, these proteins regulate replication mechanisms to maintain genome stability at stalled replication forks ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B5),[6](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B6)).
 RPA is the major ssDNA-binding protein in eukaryotic cells. RPA consists of three heterotrimeric subunits—RPA70, RPA32 and RPA14—that collectively encode six oligonucleotide/ oligosaccharide-binding (OB)-folds to bind ssDNA with sub-nanomolar affinity ([7](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B7)). Among its diverse functions, RPA removes secondary structure, protecting ssDNA from reannealing and degradation, and acts as a loading platform for downstream repair proteins ([8–10](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B8)). One of these proteins is the recombinase RAD51. RAD51 displaces RPA from ssDNA in a cooperative binding reaction mediated by BRCA2 ([11](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B11)). The ssDNA-RAD51 nucleoprotein filament then performs the homology search and strand invasion during double-strand break repair by homologous recombination ([12–14](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B12)). RAD51 also has multiple additional functions at replication forks, including regulation of fork reversal and protection of the reversed fork from excessive degradation mediated by exonucleases ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B15)).
 RADX was first identified via its enrichment at stalled replication forks and subsequently shown to bind ssDNA ([16–18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B16)). RADX encodes three putative OB-folds with a domain organization that is reminiscent of RPA70 (Figure [1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F1)). Biochemical studies revealed that RADX binds ssDNA via an N-terminal OB-fold cluster ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B16)). Consistent with this observation, an OB-deficient mutant RADX does not rescue _RADXΔ_ cells, indicating that DNA binding is essential for its cellular activities ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B18)). The depletion of RADX aggravated the fork progression defect arising from elevated RPA expression, suggesting the balance between RADX and RPA ssDNA-binding activates is critical for DNA replication integrity ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B16)). RADX-depleted cells exhibit excessive RAD51 activity and illegitimate recombination, suggesting that RADX is a negative regulator of RAD51 that functions at replication forks to maintain genome stability ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B17)). A recent study also showed that RADX is involved in telomere maintenance by binding single-stranded telomeric DNA along with POT1 to antagonize RAD51 ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B19)). The mechanistic basis of how RADX acts on ssDNA to negatively regulate RAD51 is unclear.
-### Figure 1.
+***Figure 1.***
 ![Figure 1.](gkaa559fig1.jpg)
 RADX condenses single-stranded DNA. (**A**) Putative RADX domain organization with three OB-folds. (**B**) Illustration of the single-tethered ssDNA curtain assay. (**C**) Cartoon illustration (top) and a typical kymograph showing that 0.1 nM RADX rapidly binds and compacts ssDNA. The extent and rate of compaction were monitored via movement of the fluorescently labeled ssDNA end (green). After ssDNA binding, RADX was visualized by anti-Flag-ATTO647N (magenta). Horizontal lines indicate when RADX and anti-Flag-ATTO647N were injected. (**D**) Quantification of RADX-induced ssDNA compaction percentage. (**E**) Quantification of RADX-induced ssDNA compaction rate. Violin plots: open circles indicate the median and vertical lines show 95% quantiles of each distribution. At least 25 ssDNA molecules were measured for each condition. ns, _P_ > 0.05.
 Here, we use single-molecule fluorescent imaging to dissect the functions of RADX on ssDNA substrates. RADX binds ssDNA avidly to condense both naked and RPA-coated ssDNA. Surprisingly, RADX does not displace RPA from ssDNA, but can still condense RPA-ssDNA filaments, even when RPA is present at a 100-fold excess over RADX. Furthermore, RADX inhibits RPA to RAD51 exchange on ssDNA via the formation of higher-order RPA-ssDNA structures that are refractory to RAD51 loading. We conclude that RADX preserves stalled replication forks and uncapped telomeres by antagonizing RAD51-mediated recombination via its ssDNA-condensation activity.
+---
 ##  MATERIALS AND METHODS
 ### Proteins and nucleic acids
 Oligonucleotides were purchased from Integrated DNA Technologies ([Supplementary Table S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)). The plasmids for human wtRPA (pIF47), RPA-GFP (pIF48) and human RAD51 (pIF224) were generous gifts from Dr Marc Wold and Dr Mauro Modesti, respectively ([20–22](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B20)). RPA ([Supplementary Figure S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)), RPA-GFP ([Supplementary Figure S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)), and RAD51 ([Supplementary Figure S1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)) purifications followed previously-published protocols (22,[23](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B23)).
@@ -33,6 +53,7 @@ Flowcells were prepared as previously described ([25](https://pmc.ncbi.nlm.nih.g
 DNA molecules were labeled at the 3′-end via a fluorescent anti-dsDNA antibody and tracked using a custom-written particle tracking script in FIJI ([24](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B24)). The resulting trajectories were analyzed in MATLAB (Mathworks) to calculate the rate and extent of DNA compaction. For RPA-GFP-coated ssDNA molecules, the GFP intensity was calculated by summing the total pixel intensity over a defined area over every frame using FIJI. Rolling circle amplification generates ssDNA molecules with a broad distribution of lengths ([24](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B24)). To normalize across this distribution, we measured the change in each molecule's length based on that molecule's extension in the absence of any protein. Kymographs were generated by taking a single-pixel wide section of regions of interest. Protein–protein and protein-oligo colocalization analysis were scored manually based on the fluorescent overlap. We only analyzed molecules that were spatially separated from each other.
 ### RADX and RPA competition experiments
 These experiments were carried out in three steps. First, ssDNA substrates were coated with RPA-GFP. Next, a mixture of RPA-GFP and Flag-RADX was injected into the flowcell at 1:1, 10:1 and 100:1 molar ratios (2:2, 20:2 and 200:2 nM RPA-GFP:RADX). Finally, anti-Flag-ATTO647N antibodies were injected into the flowcell to visualize RADX.
+---
 ##  RESULTS
 ### RADX compacts ssDNA
 We adapted the DNA curtain assay for high-throughput single-molecule imaging of RADX-ssDNA interactions (Figure [1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F1)). Wild type (wt) RADX encoding a single N-terminal Flag epitope was overexpressed and purified from insect cells ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B18)) ([Supplementary Figure S1C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)). The ssDNA substrate was produced for single-molecule imaging via rolling circle replication of a low-complexity oligonucleotide minicircle ([24](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B24)). A low complexity ssDNA substrate reduces secondary ssDNA structures, which may complicate the analysis of RADX–ssDNA interactions. One end of the ssDNA was immobilized on the surface of a fluid lipid bilayer via a biotin-streptavidin linkage. The second end was fluorescently labeled with an Alexa488-labeled anti-double-stranded DNA (dsDNA) antibody that targets the 28 base pair (bp) dsDNA mini-circle (Figure [1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F1)).
@@ -58,15 +79,17 @@ We monitored RAD51 filament formation by measuring the extension of fluorescentl
 ![Figure 4.](gkaa559fig4.jpg)
 RADX protects RPA from displacement by RAD51 to inhibit RAD51 filament extension. (**A**) Kymographs of 1 μM RAD51 binding and extending naked (top) or RPA-coated (bottom) ssDNA. (**B**) Quantification of the change in ssDNA length after RAD51 loading (at least 27 ssDNA molecules for the naked and RPA-coated experiments, respectively). (**C**) Kymographs showing that 1 μM RAD51 is unable to displace RADX and extend ssDNA or RPA–ssDNA. 2 nM RADX were used in these experiments. (**D**) Quantification of RADX-compacted ssDNA or RPA-ssDNA length after RAD51 is added to the flowcell (at least 21 ssDNA molecules for the naked and RPA-coated experiments, respectively). (**E**) Normalized RPA-GFP fluorescent intensity as a function of time in the presence of RADX (magenta, _N_ = 45), RADX and RAD51 (black, _N_ = 56), or RAD51 alone (blue, _N_ = 40). (**F**) RADX blocks RPA displacement by RAD51 from double-tethered ssDNA. The red box indicates the region where RPA is co-localized with RADX. The gray box indicates an RPA segment without RADX. 2 nM RPA, 2 nM RADX, and 1 μM RAD51 were used in the experiments. (**G**) Normalized RPA-GFP fluorescent intensity in the presence of RAD51 (black, _N_ = 65), co-localized with RADX in the presence of RAD51 (red, _N_ = 53), and in the absence of RADX and RAD51 (blue, _N_ = 50).
 Next, we tested whether RADX prevents RAD51 loading on RPA-coated filaments. First, we confirmed that 1 μM RAD51 can rapidly replace RPA from ssDNA curtains in imaging buffer containing 2 mM ATP and 2 mM CaCl2 (Figure [4A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4) bottom, [Supplementary Figure S6B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sup1)). As expected, RPA was rapidly replaced by RAD51 along ssDNA, and the ssDNA was extended five-fold (Figure [4B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4)). Injecting 2 nM RADX into the RPA-ssDNA curtains inhibited RAD51 filament formation (Figure [4C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4) bottom). In the presence of RADX, RAD51 cannot extend RPA–ssDNA substrates (Figure [4D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4)), nor can it efficiently displace RPA-GFP from the ssDNA (Figure [4E](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4)). To directly observe the dynamics of RPA in the presence of RADX and RAD51, we used double-tethered RPA-coated ssDNA curtains pre-bound with RADX. These curtains were incubated with 1 μM RAD51 in imaging buffer containing 2 mM ATP and 2 mM CaCl2 (Figure [4F](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4)). The fluorescence intensity of RPA foci that co-localized with RADX did not decrease, indicating that RADX prevents the removal of RPA by RAD51. In contrast, RPA was rapidly replaced by RAD51 on those segments of the ssDNA substrates that lacked RADX foci (Figure [4G](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F4)). Taken together, these results demonstrate that RADX inhibits RAD51 filament formation and prevents RPA displacement by RAD51.
+---
 ##  DISCUSSION
 Figure [5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F5) summarizes our integrated model for how RADX antagonizes RAD51 activity. RADX uses its three putative OB-folds to bind ssDNA. Protein-protein interactions between RADX monomers assemble the ssDNA substrate into higher-order compacted structures. RADX and RPA have similar, sub-nanomolar binding affinities for ssDNA ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B18),[40](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B40)). However, RADX cannot directly exchange with RPA under the conditions tested in these assays, but sub-saturating RADX binding is sufficient to condense RPA-coated ssDNA and to prevent extensive RAD51 filament assembly. In addition to blocking RPA removal and RAD51 filament assembly, a recent biochemical study also suggested that RADX disassembles pre-formed RAD51 filaments ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B17)). Thus, RADX inhibits RAD51 filament assembly and may also aid in disassembly of pre-formed RAD51 filaments.
-### Figure 5.
+***Figure 5.***
 ![Figure 5.](gkaa559fig5.jpg)
 Proposed model of how RADX antagonizes RAD51. RADX compacts RPA–ssDNA filaments, inhibiting RPA displacement and RAD51 filament formation. RADX also removes RAD51 from ssDNA via an unknown mechanism.
 Loss of RADX leads to excessive RAD51 activity at stalled replication forks, slowing elongation, and causing fork collapse. These studies suggest that RADX antagonizes RAD51 at replication forks to balance fork remodeling and stabilization to maintain genome stability ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B17)). Intriguingly, a recent study also showed that RADX is involved in telomere protection ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B19)). RADX binds exposed single-stranded telomeric DNA along with POT1 to antagonize the accumulation of RAD51 and reduce sister telomere associations. Depletion of either RAD51 or BRCA2 at telomeres rescued RADX depletion, suggesting that RADX also antagonizes homologous recombination in this context ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B19)).
 How does RADX stabilize stalled replication forks? Forks that are stalled at lesions are reversed by specialized enzymes to provide time for repair of the lesion ([41](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B41),[42](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B42)). However, inappropriate fork reversal can slow fork elongation and result in fork cleavage ([43](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B43)). One possibility is that RADX is recruited to stalled forks where it compacts ssDNA resulting from dsDNA unwinding during stalled replication. This directly inhibits inappropriate RAD51-mediated fork reversal. An alternative possibility is that RADX may be involved in fork restoration and may prevent forks from entering the fork protection stage. This stage is characterized by the loading of RAD51 by BRCA2 and the initiation of homologous recombination ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B15),[44](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B44),[45](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B45)). By blocking RAD51 loading and/or actively dissociating short RAD51 filaments, RADX can antagonize the transition into HR-mediated fork repair. In sum, RADX may be involved in the restoration of fork replication by preventing RAD51 loading and filament formation by condensing ssDNA.
 Our observation that RADX forms higher-order oligomers to condense ssDNA raises multiple questions regarding the structural features of this complex and how it is regulated at stalled forks. For example, we cannot distinguish whether RADX oligomers induce large knt-sized loops and/or RADX monomers or dimers can create multiple small loops that condense into larger structures. RADX–ssDNA oligomers also need to be disassembled after the lesion is repaired and DNA replication resumes. RADX–ssDNA dissolution can be catalyzed by one or more motor proteins that are required for resuming fork activity ([46](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B46),[47](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B47)). For example, BLM helicase may be able to translocate on the ssDNA to strip RADX, akin to its ability to remove RPA and RAD51 from ssDNA ([48](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B48),[49](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B49)). Additional possibilities may involve RADX post-translational modifications that either reduce interactions between RADX monomers and/or reduce the affinity of the RADX OB-folds for ssDNA. In direct analogy to RADX, both RAD51 and RPA are phosphorylated and SUMOylated throughout the cell cycle and in response to DNA damage ([50–52](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B50)). Another open question is the interplay between BRCA2/RAD51 and RADX. Cyclin-dependent kinase phosphorylation of the C-terminus of BRCA2 stabilizes RAD51 filaments and regulates fork protection by preventing MRE11-dependent degradation ([53](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B53),[54](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B54)). Perhaps BRCA2 can also shift the balance between RADX and RAD51 on ssDNA. Future biophysical and molecular biology studies will need to focus on how RADX forms multi-protein complexes in solution and on ssDNA, how these complexes block RAD51, and how these activities are integrated with other enzymes to restart DNA replication at stalled forks.
 
+---
 ##  ACKNOWLEDGEMENTS
 We are grateful to Dr Miaw-Sheue Tsai and the Expression and Molecular Biology (EMB) Core in Structural Cell Biology of DNA Repair Machines (SBDR) program for providing protein pellets. We thank Dr David Cortez for expression constructs, preliminary data, and ongoing conversations regarding RADX biology. Dr Marc Wold and Dr Mauro Modesti shared RPA and RAD51 overexpression vectors. Finally, we thank members of the Finkelstein lab for carefully reading this manuscript.
 
@@ -131,65 +154,7 @@ _Conflict of interest statement_. None declared.
   * 53. Esashi F., Christ N., Gannon J., Liu Y., Hunt T., Jasin M., West S.C.. CDK-dependent phosphorylation of BRCA2 as a regulatory mechanism for recombinational repair. Nature. 2005; 434:598–604. [[DOI](https://doi.org/10.1038/nature03404)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/15800615/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Nature&title=CDK-dependent%20phosphorylation%20of%20BRCA2%20as%20a%20regulatory%20mechanism%20for%20recombinational%20repair&author=F.%20Esashi&author=N.%20Christ&author=J.%20Gannon&author=Y.%20Liu&author=T.%20Hunt&volume=434&publication_year=2005&pages=598-604&pmid=15800615&doi=10.1038/nature03404&)]
   * 54. Schlacher K., Christ N., Siaud N., Egashira A., Wu H., Jasin M.. Double-strand break repair-independent role for BRCA2 in blocking stalled replication fork degradation by MRE11. Cell. 2011; 145:529–542. [[DOI](https://doi.org/10.1016/j.cell.2011.03.041)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3261725/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/21565612/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Cell&title=Double-strand%20break%20repair-independent%20role%20for%20BRCA2%20in%20blocking%20stalled%20replication%20fork%20degradation%20by%20MRE11&author=K.%20Schlacher&author=N.%20Christ&author=N.%20Siaud&author=A.%20Egashira&author=H.%20Wu&volume=145&publication_year=2011&pages=529-542&pmid=21565612&doi=10.1016/j.cell.2011.03.041&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1093/nar/gkaa559)
-  * [ PDF (2.6 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/pdf/gkaa559.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#abstract1)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC1)
-  * [MATERIALS AND METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC2)
-  * [RESULTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC3)
-  * [DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC4)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#sec15)
-  * [ACKNOWLEDGEMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#ACK1)
-  * [Contributor Information](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#_ci93_)
-  * [SUPPLEMENTARY DATA](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC5)
-  * [FUNDING](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#SEC6)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#REF1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Ajournal)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC7430644)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/) on 2025-07-19.*
