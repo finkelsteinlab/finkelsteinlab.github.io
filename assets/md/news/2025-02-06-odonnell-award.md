@@ -7,6 +7,8 @@ archived: 2025-02-09
 
 # 2025 O'Donnell Award in Biological Sciences: Ilya J. Finkelstein, Ph.D.
 
+![2025 O'Donnell Awards Recipients](/assets/md/news/2025-02-06-odonnell-award/2025-odonnell-recipients.png)
+
 **Pioneering molecular biologist Ilya J. Finkelstein, Ph.D., Associate Professor at The University of Texas at Austin, is the recipient of the 2025 Edith and Peter O'Donnell Award in Biological Sciences from TAMEST. He was chosen for his work improving the safety and efficacy of gene editing and understanding the mechanisms of DNA repair to potentially cure diseases.**
 
 Imagine being able to cure diseases, such as cancer, by fixing mistakes in your own DNA. Dr. Finkelstein and his team are aiming to do exactly that by studying how our cells maintain their genetic information, and how we can edit it safely.
