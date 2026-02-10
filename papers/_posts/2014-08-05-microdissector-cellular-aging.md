@@ -14,6 +14,7 @@ supplement: 0026-2014-AC-Spivey et al-supplement.pdf
 doi: 10.1021/ac500893a
 pmcid: PMC4636036
 pmid: 24992972
+markdown: 2014-08-05-microdissector-cellular-aging
 extra_text: ''
 category: paper
 tags: [Cellular senescence, High-throughput screening assays, Microfluidics]
