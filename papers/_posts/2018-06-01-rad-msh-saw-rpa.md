@@ -14,6 +14,7 @@ supplement: 0041-2018-NAR-Eichmiller et al-supplement.pdf
 doi: 10.1093/nar/gky254
 pmcid: PMC6007489
 pmid: 29660012
+markdown: 2018-06-01-rad-msh-saw-rpa
 extra_text: ''
 category: paper
 tags: [Genome integrity, DNA repair, DNA replication]
