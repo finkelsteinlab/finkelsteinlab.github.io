@@ -14,6 +14,7 @@ supplement:
 doi: 10.1073/pnas.0707718104
 pmcid: PMC2042171
 pmid: 17916624
+markdown: 2007-10-09-neuroglobin-ultrafast
 extra_text: ''
 category: paper
 tags: [Myoglobin mutants, Protein dynamics, Energy landscape]
