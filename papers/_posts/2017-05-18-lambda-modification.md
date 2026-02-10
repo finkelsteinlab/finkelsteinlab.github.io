@@ -14,6 +14,7 @@ supplement: 0035-2017-SciRep-Kim et al-supplement.pdf
 doi: 10.1038/s41598-017-01984-x
 pmcid: PMC5437064
 pmid: 28522818
+markdown: 2017-05-18-lambda-modification
 extra_text: ''
 category: paper 
 tags: []
