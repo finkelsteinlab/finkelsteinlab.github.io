@@ -14,6 +14,7 @@ supplement:
 doi: 10.1038/s41467-024-47830-3
 pmcid: PMC11061278
 pmid: 38688943
+markdown: 2023-06-22-PAMless-DNA-SpRY-Cas9
 extra_text: ''
 category: paper
 tags: 
