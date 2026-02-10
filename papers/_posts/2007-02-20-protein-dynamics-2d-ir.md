@@ -14,6 +14,7 @@ supplement:
 doi: 10.1073/pnas.0610027104
 pmcid: PMC1815234
 pmid: 17296942
+markdown: 2007-02-20-protein-dynamics-2d-ir
 extra_text: ''
 category: paper
 tags: [Horseradish peroxidase, Ultrafast]
