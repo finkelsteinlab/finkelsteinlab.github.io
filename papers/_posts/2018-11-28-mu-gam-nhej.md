@@ -15,6 +15,7 @@ supplement: 0047-2018-PNAS-Bhattacharyya et al-supplement.pdf
 doi: 10.1073/pnas.1816606115
 pmcid: PMC6294893
 pmid: 30487222
+markdown: 2018-11-28-mu-gam-nhej
 extra_text: ''
 category: paper
 tags: [phage MuGam, NHEJ, RecBCD, E. coli ligase]
