@@ -14,6 +14,7 @@ supplement: 0077-2022-NatCommun-Eslami-Mossallam et al-supplement.pdf
 doi: 10.1038/s41467-022-28994-2
 pmcid: PMC8924176
 pmid: 35292641
+markdown: 2022-03-15-SpCas9-kinetic-model
 extra_text: ''
 category: paper
 tags:
