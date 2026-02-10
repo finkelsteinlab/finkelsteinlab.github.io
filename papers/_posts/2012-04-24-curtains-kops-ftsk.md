@@ -14,6 +14,7 @@ supplement: 0018-2012-PNAS-Lee et al-supplement.pdf
 doi: 10.1073/pnas.1201613109
 pmcid: PMC3340036  
 pmid: 22493241
+markdown: 2012-04-24-curtains-kops-ftsk
 extra_text: ''
 category: paper
 tags: [DNA, Escheria coli proteins, Membrane proteins, Nucleic acid conformation]
