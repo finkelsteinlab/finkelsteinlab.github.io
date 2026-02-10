@@ -14,6 +14,7 @@ supplement:
 doi: 10.1093/nar/gkaf712
 pmcid: PMC12604663
 pmid: 40716775
+markdown: 2025-07-19-Cas12a-trans-cleavage-diagnostics
 extra_text: ''
 category: paper
 tags: CRISPR, Cas12a, diagnostics
