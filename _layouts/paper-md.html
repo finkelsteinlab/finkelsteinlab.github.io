@@ -61,6 +61,8 @@ layout: default
     var beforeText = '';
     for (var j = 0; j < beforeNodes.length; j++) beforeText += (beforeNodes[j].textContent || '');
     var hasCaption = figRe.test(beforeText.trim());
+    window._figDebug2 = window._figDebug2 || [];
+    window._figDebug2.push({parentTag: parent.tagName, beforeText: beforeText.substring(0,60), hasCaption: hasCaption, beforeCount: beforeNodes.length, afterCount: afterNodes.length, parentText: parent.textContent.substring(0,60)});
 
     // Also check: is the parent itself a heading element (h3/h4/h5)?
     var isHeading = /^H[345]$/.test(parent.tagName);
