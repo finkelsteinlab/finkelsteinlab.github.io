@@ -14,6 +14,7 @@ supplement: 0040-2018-NComms-Seol et al-supplement.pdf
 doi: 10.1038/s41467-018-04327-0
 pmcid: PMC5966407
 pmid: 29795289
+markdown: 2018-05-23-crosslink-repair-proteins
 extra_text: ''
 category: paper 
 tags: []
