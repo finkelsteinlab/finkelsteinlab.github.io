@@ -14,6 +14,7 @@ supplement: 0043-2018-eLife-Greenstein et al-supplement.pdf
 doi: 10.7554/eLife.32948
 pmcid: PMC6070336
 pmid: 30020075
+markdown: 2018-07-18-heterochromatin-spreading-epigenetics
 extra_text: ''
 category: paper
 tags: [S. pombe, Cellular identity, Chromosomes, Epigentic inheritance, Gene expression, Heterochromatin spreading, Multigenerational single cell tracking]
