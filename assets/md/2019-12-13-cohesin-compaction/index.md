@@ -8,11 +8,25 @@ pmcid: PMC7387118
 
 # Human cohesin compacts DNA by loop extrusion
 
+**Yoori Kim\*, Zhubing Shi\*, Hongshan Zhang, Ilya J. Finkelstein†, and Hongtao Yu†** (\* co-first authors; † co-corresponding)
+
+*Science*, Volume 366, Issue 6471, Pages 1345–1349 (2019)
+
+**DOI:** [10.1126/science.aaz4475](https://doi.org/10.1126/science.aaz4475)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Acknowledgments](#acknowledgments)
+
+---
 ##  Abstract
 Cohesin is a chromosome-bound multisubunit ATPase complex. Following its loading onto chromosomes, cohesin generates chromosome loops to regulate chromosome functions. It has been suggested that cohesin organizes the genome via loop extrusion, but direct evidence is lacking. Here, we use single-molecule imaging to show that recombinant human cohesin-NIPBL complex compacts both naked and nucleosome-bound DNA by extruding DNA loops. DNA compaction by cohesin requires ATP hydrolysis, and is force-sensitive. This compaction is processive over tens of kilobases (kb) at an average rate of 0.5 kb per second. Compaction of double-tethered DNA suggests that a cohesin dimer extrudes DNA loops bidirectionally. Our results establish cohesin-NIPBL as an ATP-driven molecular machine capable of loop extrusion.
 * * *
 The ring-shaped cohesin complex binds chromosomes both topologically and non-topologically and regulates diverse chromosome-based processes, including chromosome segregation, DNA repair, and transcription ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R1)–[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R7)). Human cohesin consists of the SMC1-SMC3 heterodimeric ATPase, the kleisin subunit RAD21 that links the ATPase heads, and either one of the helical repeat proteins STAG1 or STAG2 ([Fig. 1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F1)). Cohesin is loaded on chromosomes by the NIPBL-MAU2 complex ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R8)–[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R10)). Mutations of cohesin subunits and NIPBL result in human developmental diseases with multisystem dysfunctions, collectively referred to as cohesinopathy ([9](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R9), [11](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R11)), likely due to transcriptional defects caused by cohesin deficiency. High-throughput chromosome conformation capture (Hi-C) experiments suggest that cohesin mediates the formation of chromosome loops and topologically associated domains (TADs) through a process termed loop extrusion ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R5), [12](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R12)–[20](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R20)). Single-molecule studies have demonstrated that the related SMC complex condensin can extrude DNA loops ([21](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R21), [22](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R22)). In contrast, cohesin has been reported to slide on DNA through ATP-independent passive diffusion in vitro ([23](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R23)–[25](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R25)). Whether cohesin also has intrinsic loop extrusion activity remains an open question. Here, we addressed this question with single-molecule studies using recombinant human cohesin.
-## Fig. 1. Human cohesin-NIPBLC compacts linear DNA.
+***Fig. 1.*** Human cohesin-NIPBLC compacts linear DNA.
 ![Fig. 1.](nihms-1606083-f0001.jpg)
 (**A**) Schematic representation of human cohesin-NIPBL. CC, coiled coil. (**B**) Coomassie staining of purified recombinant human cohesin and cohesin-NIPBLC. (**C**) The ATPase activities (Mean ± SEM) of human cohesin and cohesin-NIPBLC (50 nM) in the absence or presence of 500 nM 40-bp dsDNA. (**D**) Illustration of DNA curtains bound by human cohesin-NIPBLC. One end of DNA is tethered to the surface. (**E**) An image of fluorescently labeled cohesin-NIPBLC (magenta) on single-tethered DNA molecules stained with YOYO-1 (green). (**F**) Representative kymographs showing DNA condensation mediated by cohesin-NIPBLC at two applied forces. Red gradient triangle indicates the protein injection time window. The concentration of protein traversing the flowcell was diluted for a few minutes by constant buffer flow. (**G** and **H**) Quantification of the percentage of DNA length condensed (G) and the DNA condensation rate (H). Boxplots indicate the median, 10th, and 90th percentiles of the distribution. _P_ -values are obtained from two-tailed _t_ test: **** _p_ < 0.0001. At least 25 DNA molecules were measured for each condition.
 The cohesin loader NIPBL remains bound to cohesin on chromosomes ([26](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R26), [27](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R27)), and is required for chromosome looping in cells ([15](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R15)). We thus expressed and purified the recombinant human cohesin complex alone or bound to the C-terminal region of NIPBL (NIPBLC, residues 1163–2804) in insect cells ([Fig. 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F1) and [fig. S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1)). Cohesin alone had low basal ATPase activity, and this activity was greatly stimulated by NIPBLC and DNA ([Fig. 1C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F1)) ([28](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R28), [29](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R29)). The ATPase-deficient cohesin SMC1A-E1157Q/SMC3-E1144Q (EQ) mutant exhibited minimal ATPase activity even in the presence of NIPBLC and DNA. Negative-stain electron microscopy showed that 51% (n=352) of the chemically crosslinked cohesin-NIPBLC complex particles displayed a bent-rod-like conformation with an overall length of ~50 nm ([fig. S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1), [B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1) and [C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1)), while the rest of the particles had a shorter, thicker rod shape with a length of ~33 nm. These conformations likely represent different forms of cohesin, with SMC1-SMC3 hinge domains partially or fully folded back toward their head domains, as had been previously observed for both human and yeast cohesin ([30](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R30), [31](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R31)).
@@ -24,21 +38,22 @@ We never detected stepwise DNA condensation events, suggesting that DNA compacti
 Surprisingly, after DNA was fully compacted by cohesin-NIPBLC at 0.3 pN, increasing the applied force to 0.8 pN did not fully extend the DNA, and the bound cohesin only back-tracked slightly ([fig. S6A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1)). This suggested that the completion of DNA compaction might lead to the formation of more stable cohesin-DNA assemblies, providing a plausible explanation for the observation that ATP is not required to maintain cohesin-dependent TADs after their formation in cells ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R18)).
 Cohesin can bind DNA by entrapment of DNA inside the lumen of its ring (topological binding) or by physical interaction with DNA that does not involve the opening of its ring (non-topological binding). Topological DNA binding is salt-resistant ([29](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R29)). Injection of high-salt buffer dislodged the bound cohesin and fully reversed DNA compaction ([fig. S6A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1) and [movie S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD7)). Thus, cohesin-NIPBLC that is capable of loop extrusion might not be topologically bound to DNA. Analysis of the fluorescent intensities from DNA and QD-protein complexes indicated that cohesin-mediated DNA compaction preferably occurred at the untethered DNA ends ([figs. S6A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1) and [S7](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1)). The underlying reason for this preference is unclear but could be due to the ease of formation of seed DNA loops near the ends or flow-induced higher occupancy of cohesin at DNA ends. Regardless, our data indicated that cohesin-NIPBLC is a processive DNA motor that compacts DNA.
 DNA is packaged into chromatin in the nucleus. We next tested whether cohesin-NIPBLC could compact nucleosome-bound DNA ([Fig. 2A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)). We incorporated 1–6 QD-labeled human nucleosomes on each DNA substrate via salt dialysis ([Fig. 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2), [B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2) and [C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)), and visualized the nucleosome-bound DNA substrate upon injection of unlabeled cohesin-NIPBLC at multiple applied forces ([Fig. 2D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)). The extent of nucleosome-DNA compaction was about 80% ([Fig. 2E](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)), and the average rate of the compaction was 0.5 kb s−1 ([Fig. 2F](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)). Compaction of nucleosome-bound DNA was also force-sensitive and dependent on ATP hydrolysis ([Fig. 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2), [D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2) to [F](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)). Thus, cohesin-NIPBLC compacts nucleosome-bound DNA with properties similar to those of naked DNA. Nucleosomes impede the movement of topologically loaded cohesin ([23](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R23), [24](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R24)). Our finding that cohesin-NIPBLC compacts naked and nucleosome-bound DNA with similar rates again suggested that the loop-extruding cohesin might not be topologically loaded. Furthermore, high-salt washout of cohesin revealed that nucleosomes themselves were not repositioned during cohesin-dependent compaction ([Fig. 2D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F2)). These data suggested that cohesin can act on chromatin without having to displace or slide nucleosomes.
-## Fig. 2. Cohesin-NIPBLC compacts nucleosomal DNA.
+***Fig. 2.*** Cohesin-NIPBLC compacts nucleosomal DNA.
 ![Fig. 2.](nihms-1606083-f0002.jpg)
 (**A**) An illustration of nucleosomal DNA compaction by cohesin-NIPBLC. (**B**) An image of QD-labeled nucleosomes deposited on single-tethered DNA curtain with or without flow. (**C**) Distribution of the number of nucleosomes per DNA (Mean ± SD). (**D**) Representative kymographs of the compaction of nucleosome-bound DNA by WT or EQ cohesin-NIPBLC at different applied forces with or without ATP. (**E**) Percentage of the length of nucleosome-bound DNA condensed in (D). (**F**) Compaction rate of nucleosome-bound DNA by cohesin-NIPBLC. At least 25 DNA molecules were measured for each condition in (E) and (F).
 To directly visualize loop extrusion by cohesin, we prepared ‘U’-shaped DNA by tethering both DNA ends to the surface and monitored the looping events in real time ([movie S4](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD10)). A small loop formed immediately after cohesin-NIPBLC injection, and gradually elongated until the motor stalled or one side of the loop reached either DNA-tethering point ([Fig. 3A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3), [fig. S8A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1), and [movies S5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD6) to [S7](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD3)). Both arms of the ‘U’-shaped DNA were shortened during the process. These results are consistent with cohesin-NIPBLC extruding DNA loops bidirectionally, as unidirectional asymmetric loop extrusion is expected to shorten only one arm of the ‘U’-shaped DNA. The loop was stably maintained for a few minutes, and injection of a high-salt buffer quickly restored the DNA to its original ‘U’-shape ([movie S8](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD2)). As expected, we did not detect any looping activity in the absence of ATP or with the cohesin EQ mutant.
-## Fig. 3. Real-time visualization of loop extrusion by cohesin-NIPBLC.
+***Fig. 3.*** Real-time visualization of loop extrusion by cohesin-NIPBLC.
 ![Fig. 3.](nihms-1606083-f0003.jpg)
 (**A**) A time-course showing DNA loop extrusion by cohesin-NIPBLC on YOYO-1 stained ‘U’-shaped DNA (top). Scale bar, 2 μm. Both DNA ends (dashed circle) are tethered to the surface and the extruding loop is extended at 0.1 ml/min buffer flow. Upon cohesin-NIPBLC injection, a small loop appeared at the tip of the DNA and elongated until the base of the loop (arrow) reaches one tethering point. A brief shutoff of flow retracted DNA completely, indicating DNA was not stuck to the surface. Injection of a high-salt buffer (500 mM NaCI) disrupted the loop. The scaled colormap (middle panel) shows that the DNA intensity matches the growing loop. The schematic drawing (bottom panel) depicts a model of loop extrusion. (**B**) Time-course montage of loop extrusion showing the localization of labeled cohesin-NIPBLC (indicated by white arrowheads) at the base of the DNA loop. Turning the flow on and off showed that the cohesin-NIPBLC complex moved with the DNA, confirming that it was indeed bound to the DNA loop. (**C**) A representative kymograph showing the movement of a labeled cohesin-NIPBLC complex toward the DNA-tethering points. (**D** and **E**) Quantification of the loop size (D) and the rate of loop extrusion (E) by Alexa647-labeled cohesin-NIPBLC.
 To visualize cohesin-NIPBLC at the base of the loop, we directly labeled cohesin-NIPBLC containing SNAPf-tagged STAG1 with Alexa Fluro 647 dye (Alexa647). Alexa647-labeled cohesin completely compacted DNA with a similar rate as the unlabeled complex ([fig. S8B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1)). Cohesin-NIPBLC bound at the base of the extruding loop ([Fig. 3B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3), [fig. S8C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD1), and [movie S9](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SD4)). Consistent with symmetric, bidirectional loop extrusion, cohesin-NIPBLC moved toward DNA-tethering points during the process ([Fig. 3C](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3)). The average size of extruded loops was 33 kb, and the mean rate of loop extrusion was 0.5 kb s−1 ([Fig. 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3), [D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3) and [E](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F3)).
 A single condensin complex can extrude DNA loops asymmetrically and in one direction ([22](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R22)). A single cohesin complex might be able to perform symmetric loop extrusion. Alternatively, two cohesin complexes might act in concert to extrude loops in both directions. To determine how many cohesin molecules perform loop extrusion, we analyzed photobleaching steps of Alexa647-labeled cohesin-NIPBLC on DNA loops. On about 50% of DNA loops, we observed two fluorescent foci, with one each at the loop base and tip ([Fig. 4A](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4)). The number of photobleaching steps of both Alexa647-cohesin foci peaked at 2 ([Fig. 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4), [B](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4) to [D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4)). Cohesin foci on DNA that did not form loops had no discrete peaks for the number of photobleaching steps ([Fig. 4D](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4)). Thus, the loop-extruding complexes most frequently contained two cohesin molecules. These data suggested that a cohesin-NIPBLC dimer might be the minimal functional unit for loop extrusion.
-## Fig. 4. Cohesin-NIPBLC dimers promote loop extrusion.
+***Fig. 4.*** Cohesin-NIPBLC dimers promote loop extrusion.
 ![Fig. 4.](nihms-1606083-f0004.jpg)
 (**A**) Top panel, a representative image of Alexa647-labeled cohesin-NIPBLC complexes bound to both the base and the tip of a DNA loop. Bottom panel, the number of Alexa647-cohesin foci on each DNA loop (_n_ =51 DNA molecules). (**B**) A representative two-step photobleaching trace of cohesin at the loop base was plotted, with the corresponding DNA loop image and its kymograph shown above the trace. Dashed red line: photobleaching steps; gray: intermittent blinking indicating single fluors. (**C**) The intensity distribution of single photobleaching steps of Alexa647-cohesin at the DNA loop was fit to a Gaussian distribution (red line). (**D**) The distribution of the number of cohesin-NIPBLC molecules at the DNA loop base (left panel) and at the loop tip (right panel). (**E**) Model for bidirectional loop extrusion by a cohesin-NIPBLC dimer.
 Collectively, our results supported a model in which a cohesin-NIPBLC dimer extrudes DNA loops symmetrically in both directions ([Fig. 4E](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#F4)). Bidirectional loop extrusion by a cohesin dimer also explains the observed and simulated Hi-C maps of chromosome loops ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R5), [19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#R19)). We observed loop extrusion by recombinant human cohesin-NIPBLC at relatively low applied forces and low salt concentrations. We anticipate that cellular crowding, MAU2, the N-terminal region of NIPBL, and other cohesin interactors further stabilize cohesin on DNA and enhance its intrinsic loop extrusion activity in cells.
 High-salt buffer dislodged loop-extruding cohesin from DNA. Cohesin-NIPBLC bound to DNA at low salt exhibited diffusion kinetics much slower than those of topologically loaded cohesin. Finally, nucleosomes do not hinder cohesin-mediated DNA compaction. These findings suggested that cohesin mediates loop extrusion through non-topological or pseudo-topological interactions with DNA.
 
+---
 ##  ACKNOWLEDGMENTS
 We thank Zhuqing Ouyang and Sotaro Kikuchi for their initial biochemical characterization of cohesin and its loader complex, and the staff of the Electron Microscopy Core Facility at University of Texas Southwestern Medical Center for technical support.
 Funding:
@@ -89,59 +104,7 @@ This study was supported by the Howard Hughes Medical Institute, the National In
   * 42.Hammer O, Harper DA, Ryan PD, PAST: Paleontological statistics software package for education and data analysis. Palaeontol. Electronica 4,1–9 (2001). [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Palaeontol.%20Electronica&title=PAST:%20Paleontological%20statistics%20software%20package%20for%20education%20and%20data%20analysis&author=O%20Hammer&author=DA%20Harper&author=PD%20Ryan&volume=4&publication_year=2001&pages=1-9&)]
   * 43.Efron B, Tibshirani RJ, An Introduction to the Bootstrap (Chapman & Hall/CRC Monographs on Statistics and Applied Probability 57, CRC, ed. 1,1994). [[Google Scholar](https://scholar.google.com/scholar_lookup?title=An%20Introduction%20to%20the%20Bootstrap&author=B%20Efron&author=RJ%20Tibshirani&publication_year=1994&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1126/science.aaz4475)
-  * [ PDF (1.6 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/pdf/nihms-1606083.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#ABS1)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#SM1)
-  * [ACKNOWLEDGMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#S1)
-  * [Footnotes](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#fn-group1)
-  * [REFERENCES AND NOTES](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Amanuscript)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC7387118)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/) on 2025-07-19.*
