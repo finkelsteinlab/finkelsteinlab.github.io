@@ -14,6 +14,7 @@ supplement: 0057-2019-Science-Kim et al-supplement.pdf
 doi: 10.1126/science.aaz4475
 pmcid: PMC7387118
 pmid: 31780627
+markdown: 2019-12-13-cohesin-compaction
 extra_text: ''
 category: paper
 tags:
