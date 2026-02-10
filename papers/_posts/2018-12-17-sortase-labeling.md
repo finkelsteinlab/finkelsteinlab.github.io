@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/bs.mie.2018.10.031
 pmcid: PMC6380366 
 pmid:  30691654
+markdown: 2018-12-17-sortase-labeling
 extra_text: ''
 category: paper
 tags: [CRISPR, sortase, DNA curtains, cascade, cas3, cas1–cas2, protein labeling, fluorescence]
