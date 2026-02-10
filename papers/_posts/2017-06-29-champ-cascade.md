@@ -14,6 +14,7 @@ supplement: 0036-2017-Cell-Jung et al-supplement.pdf
 doi: 10.1016/j.cell.2017.05.044
 pmcid: PMC5552236
 pmid: 28666121
+markdown: 2017-06-29-champ-cascade
 extra_text: '
 **Press:**
 
