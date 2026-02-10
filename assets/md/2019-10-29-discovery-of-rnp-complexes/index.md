@@ -8,100 +8,35 @@ pmcid: PMC6873818
 
 # Systematic Discovery of Endogenous Human Ribonucleoprotein Complexes
 
-# Systematic Discovery of Endogenous Human Ribonucleoprotein Complexes
-[Anna L Mallam](https://pubmed.ncbi.nlm.nih.gov/?term="Mallam%20AL"\[Author\])
-### Anna L Mallam
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-4These authors contributed equally
-Find articles by [Anna L Mallam](https://pubmed.ncbi.nlm.nih.gov/?term="Mallam%20AL"\[Author\])
-1,2,3,4,*, [Wisath Sae-Lee](https://pubmed.ncbi.nlm.nih.gov/?term="Sae-Lee%20W"\[Author\])
-### Wisath Sae-Lee
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Wisath Sae-Lee](https://pubmed.ncbi.nlm.nih.gov/?term="Sae-Lee%20W"\[Author\])
-1,2,3, [Jeffrey M Schaub](https://pubmed.ncbi.nlm.nih.gov/?term="Schaub%20JM"\[Author\])
-### Jeffrey M Schaub
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Jeffrey M Schaub](https://pubmed.ncbi.nlm.nih.gov/?term="Schaub%20JM"\[Author\])
-1,2,3, [Fan Tu](https://pubmed.ncbi.nlm.nih.gov/?term="Tu%20F"\[Author\])
-### Fan Tu
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Fan Tu](https://pubmed.ncbi.nlm.nih.gov/?term="Tu%20F"\[Author\])
-1,2,3, [Anna Battenhouse](https://pubmed.ncbi.nlm.nih.gov/?term="Battenhouse%20A"\[Author\])
-### Anna Battenhouse
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Anna Battenhouse](https://pubmed.ncbi.nlm.nih.gov/?term="Battenhouse%20A"\[Author\])
-1,2,3, [Yu Jin Jang](https://pubmed.ncbi.nlm.nih.gov/?term="Jang%20YJ"\[Author\])
-### Yu Jin Jang
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Yu Jin Jang](https://pubmed.ncbi.nlm.nih.gov/?term="Jang%20YJ"\[Author\])
-1, [Jonghwan Kim](https://pubmed.ncbi.nlm.nih.gov/?term="Kim%20J"\[Author\])
-### Jonghwan Kim
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Jonghwan Kim](https://pubmed.ncbi.nlm.nih.gov/?term="Kim%20J"\[Author\])
-1, [John B Wallingford](https://pubmed.ncbi.nlm.nih.gov/?term="Wallingford%20JB"\[Author\])
-### John B Wallingford
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [John B Wallingford](https://pubmed.ncbi.nlm.nih.gov/?term="Wallingford%20JB"\[Author\])
-1,2,3, [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-### Ilya J Finkelstein
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-1,2,3, [Edward M Marcotte](https://pubmed.ncbi.nlm.nih.gov/?term="Marcotte%20EM"\[Author\])
-### Edward M Marcotte
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Edward M Marcotte](https://pubmed.ncbi.nlm.nih.gov/?term="Marcotte%20EM"\[Author\])
-1,2,3,*, [Kevin Drew](https://pubmed.ncbi.nlm.nih.gov/?term="Drew%20K"\[Author\])
-### Kevin Drew
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-4These authors contributed equally
-5Lead Contact
-Find articles by [Kevin Drew](https://pubmed.ncbi.nlm.nih.gov/?term="Drew%20K"\[Author\])
-1,2,3,4,5,*
-  * Author information
-  * Copyright and License information
+**Anna L. Mallam\*, Wisath Sae-Lee, Jeffrey M. Schaub, Fan Tu, Anna Battenhouse, Yu Jin Jang, Jonghwan Kim, John B. Wallingford, Ilya J. Finkelstein, Edward M. Marcotte†, and Kevin Drew\*†** (\* co-first authors; † co-corresponding)
 
-1Department of Molecular Biosciences, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-4These authors contributed equally
-5Lead Contact
-AUTHOR CONTRIBUTIONS
-A.L.M., E.M.M., and K.D. conceptualized the project. A.L.M., W.S.-L., J.M.S., F.T., Y.J.J., and K.D. performed experiments. A.L.M., J.M.S., J.B.W., I.J.F., E.M.M., and K.D. performed experimental analysis. A.L.M., A.B., and K.D. performed computational analysis. K.D. wrote software code. A.L.M., J.B.W., E.M.M., and K.D. wrote the paper with input from all authors.
-*
-Correspondence: amallam@utexas.edu (A.L.M.), marcotte@icmb.utexas.edu (E.M.M.), kdrew@utexas.edu (K.D.)
-This is an open access article under the CC BY license (<http://creativecommons.org/licenses/by/4.0/>).
-[PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
-PMCID: PMC6873818 NIHMSID: NIHMS1542672 PMID: [31665645](https://pubmed.ncbi.nlm.nih.gov/31665645/)
-The publisher's version of this article is available at [Cell Rep](https://doi.org/10.1016/j.celrep.2019.09.060)
+*Cell Reports*, Volume 29, Issue 5, Pages 1351–1368 (2019)
+
+**DOI:** [10.1016/j.celrep.2019.09.060](https://doi.org/10.1016/j.celrep.2019.09.060)
+
+---
+
+## Table of Contents
+
+- [Summary](#summary)
+- [Introduction](#introduction)
+- [Results and Discussion](#results-and-discussion)
+- [STAR Methods](#star-methods)
+- [Acknowledgments](#acknowledgments)
+
+---
 ##  SUMMARY
 RNA-binding proteins (RBPs) play essential roles in biology and are frequently associated with human disease. Although recent studies have systematically identified individual RNA-binding proteins, their higher-order assembly into ribonucleoprotein (RNP) complexes has not been systematically investigated. Here, we describe a proteomics method for systematic identification of RNP complexes in human cells. We identify 1,428 protein complexes that associate with RNA, indicating that more than 20% of known human protein complexes contain RNA. To explore the role of RNA in the assembly of each complex, we identify complexes that dissociate, change composition, or form stable protein-only complexes in the absence of RNA. We use our method to systematically identify cell-type-specific RNA-associated proteins in mouse embryonic stem cells and finally, distribute our resource, rna.MAP, in an easy-to-use online interface ([rna.proteincomplexes.org](http://rna.proteincomplexes.org)). Our system thus provides a methodology for explorations across human tissues, disease states, and throughout all domains of life.
 ##  In Brief
 Ribonucleoprotein (RNP) complexes carry out many essential biological processes. Mallam et al. developed differential fractionation (DIF-FRAC), a proteomics method to systematically discover RNP complexes. Using their method, they discovered previously unknown RNP complexes, classified complexes by their RNA-dependent stability, and identified previously unknown roles for RNA in known protein complexes.
 ##  Graphical Abstract
 ![graphic file with name nihms-1542672-f0001.jpg](nihms-1542672-f0001.jpg)
+---
 ##  INTRODUCTION
 RNA-binding proteins (RBPs) play essential roles in diverse biological processes and in most cases act within higher order multi-protein complexes called ribonucleoprotein (RNP) complexes ([Castello et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R17); [Gerstberger et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R36); [Hentze et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R43)). Understanding RNPs is of particular importance because of their indispensable role in many essential cellular functions, such as mRNA splicing (spliceosome) ([Wahl et al., 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R111)), translation (ribosome) ([Ramakrishnan, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R89)), gene silencing ([Kawamata and Tomari, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R58)), and degradation (exosome) ([Houseley et al., 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R47)). Moreover, RNPs also play more specific roles in, for example, mRNA transport and localization in developing embryos and mature neurons ([Holt and Bullock, 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R46); [Sahoo et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R92)) and assembly of phase separated organelles ([Mittag and Parker, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R82)). Furthermore, RNPs are strongly implicated in human diseases including amyotrophic lateral sclerosis (ALS) ([Scotter et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R97)), spinocerebellar ataxia ([Yue et al., 2001](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R127)), and autism ([Voineagu et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R109)). Accordingly, substantial recent effort has been focused on systematic identification of RNA-binding proteins ([Baltz et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R5); [Bao et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R6); [Beckmann et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R8); [Brannan et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R13); [Castello et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R16), [2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R18); [Caudron-Herger et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R19); [Conrad et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R22); [He et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R41); [Huang et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R48); [Kramer et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R66); [Queiroz et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R88); [Treiber et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R105); [Trendel et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R106)).
 Strikingly, however, we still lack any systematic characterization of the assembly of individual proteins which associate with RNA in higher order RNP complexes, leaving a crucial gap in our knowledge. Here we define an RNA-associated protein as a protein that physically interacts directly with RNA or indirectly with RNA through a secondary interacting molecule. A worldwide effort is currently under way to systematically identify multi-protein complexes using high-throughput mass spectrometry techniques ([Hein et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R42); [Huttlin et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R50)), but none of these techniques identify an RNA component within the complexes. We therefore set out to develop a method for systematic identification of RNA-associated higher order multi-protein complexes that requires no genetic manipulation (i.e., tag-free) and would be easily adaptable to diverse cell types.
 Here, we present differential fractionation (DIF-FRAC) for interaction analysis, which measures the sensitivity of protein complexes to a given treatment (e.g., RNase A) using native size-exclusion chromatography followed by mass spectrometry. DIF-FRAC is based on a high-throughput co-fractionation mass spectrometry (CF-MS) approach that we developed and applied to a diverse set of tissues and cells types en route to generating human and metazoan protein complex maps ([Drew et al., 2017a](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R26); [Havugimana et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R40); [Wan et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R112)). DIF-FRAC builds upon CF-MS by comparing chromatographic separations of cellular lysate under control and RNA-degrading conditions ([Figure 1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#F1)). A statistical framework is then applied to discover RNP complexes by identifying concurrent shifts of known protein complex subunits upon RNA degradation ([Figure 1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#F1)).
-### Figure 1. Differential Fractionation (DIF-FRAC) Identifies RNP Complexes.
+***Figure 1.*** Differential Fractionation (DIF-FRAC) Identifies RNP Complexes.
 ![Figure 1.](nihms-1542672-f0002.jpg)
 (A) The DIF-FRAC workflow requires two equivalent cell culture lysates for a control and an RNase A-treated sample. Lysate is separated into fractions using size-exclusion chromatography (SEC), and proteins in each fraction are identified using mass spectrometry to determine individual protein elution profiles proteome-wide for each condition. An elution shift of a protein upon RNase A treatment is indicative of an RNA-protein association. Elution shifts are cross-referenced with known protein complexes to identify RNP complexes.
 (B) Separations of HEK293T lysate under control (black) and RNase A-treated (red) conditions monitored by bulk SEC absorbance profiles at A280 show loss of high-molecular weight signal upon treatment.
@@ -115,6 +50,7 @@ Here, we present differential fractionation (DIF-FRAC) for interaction analysis,
 (J) DIF-FRAC p value calculated on HEK293T data shows strong ability to discriminate known RNA-binding proteins from other proteins. See also [Figure S2B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#SD1).
 Analysis of DIF-FRAC data answers important questions as to the role of RNA plays in macromolecular complexes. Specifically, we identify RNP complexes that (1) dissociate, (2) form stable protein-only complexes also in the absence of RNA, and (3) change composition in the absence of RNA, suggesting specific roles for RNA in each of these cases. The technical flexibility of DIF-FRAC in discovering RNA-associated interactions can potentially be expanded to virtually any tissue and organism. To demonstrate the versatility of our method to additional non-human samples, we apply DIF-FRAC to mouse embryonic stem cells (mESCs), identifying 1,165 RNA-associated proteins, to show that the method is highly adaptable and can be extended to discover RNP complexes in diverse samples.
 Finally, we created a system-wide resource of 1,428 RNP complexes, many of which are previously unreported as having an RNA component, representing 20% of known human protein complexes. We provide our resource, rna.MAP, to the community as a fully searchable web database at [rna.proteincomplexes.org](http://rna.proteincomplexes.org).
+---
 ##  RESULTS AND DISCUSSION
 ### Differential Fractionation (DIF-FRAC) Identifies RNP Complexes
 The DIF-FRAC strategy builds upon our previous strategy of CF-MS for identifying protein complexes in cellular lysate ([Havugimana et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R40); [Wan et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#R112)). CF-MS chromatographically separates protein complexes into fractions and uses a mass spectrometry pipeline to identify resident proteins in each fraction. The chromatographic elution profile of each protein is correlated to elution profiles from other proteins, and similar profiles suggest physical interactions. Likewise, the DIF-FRAC strategy detects RNP complexes by identifying changes in the CF-MS elution profile of a protein complex’s subunits upon degradation of RNA ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#F1)).
@@ -257,6 +193,7 @@ One final limitation of our approach involves the variation of protein abundance
 Here, we report the design, development, and application of a robust fractionation-based strategy to determine RNP complexes on a proteome-wide scale. We successfully used DIF-FRAC to identify 115 stable RNP complexes throughout the human interactome and applied DIF-FRAC to multiple cell types and species. Combining this with previous data, we generate a resource of the RNA-bound human proteome and demonstrate that upward of 20% of protein complexes contain an RNA component, highlighting the prevalence of RNP complexes in the cellular milieu. Together our results provide a valuable tool for researchers to investigate the role of RNPs in protein function and disease.
 The DIF-FRAC methodology offers important advances over previous techniques to examine RNA-protein interactions. Specifically, interactions are probed proteome-wide in a native, whole-lysate sample using a strategy that is not reliant on labeling or cross-linking efficiency. We show that DIF-FRAC can be applied effectively to multiple cell types and organisms and has the potential to provide information on protein-RNA interactions in disease states. Furthermore, DIF-FRAC is a broadly applicable framework that can be extended to examine other large-scale proteomic changes in a system of interest.
 We also introduce three classifications of RNP complexes (apo-stable, structural, and compositional) that provide a useful framework to organize the roles of RNAs in macromolecular complexes. Additionally, DIF-FRAC provides information on the biochemical characteristics (i.e., molecular weight, solubility) of RNP complexes in the presence and absence of RNA that offer clues to disease pathophysiology. We anticipate this technique to be a powerful tool to uncover the molecular mechanisms of RNA-related diseases. Overall, the DIF-FRAC method described and demonstrated here charts new territories in the cellular landscape of RNA-protein interactions. We have used DIF-FRAC to provide the first system-wide resource of human RNPs, providing a broadly applicable tool for studying cellular interactions and responses in multiple cell types and states.
+---
 ##  STAR⋆METHODS
 ### LEAD CONTACT AND MATERIALS AVAILABILITY
 Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Kevin Drew (kdrew@utexas.edu). This study did not generate new reagents.
@@ -366,6 +303,7 @@ MSBlender | <https://github.com/marcottelab/MSblender> | N/A
   * RNP complexes fall into three categories: Apo-stable, structural, and compositional
   * Discovery of previously unknown roles for RNA in known protein complexes
 
+---
 ##  ACKNOWLEDGMENTS
 We would like to thank Ophelia Papoulas for proteomic expertise, Matt Davis for helpful comments, Claire D. McWhite for plotting software, and the Texas Advanced Computing Center for high-performance computing. This work was supported by grants from the NIH (K99 HD092613 to K.D.; R35 GM122480, DP1 GM106408, R21 GM119021, R01 DK110520, and R01 HD085901 to E.M.M.; R01 GM112722 to J.K.; R01 HL117164 and R01 HD085901 to J.B.W.; and R01 GM120554 to I.J.F.); NSF (IOS-1237975 to E.M.M. and 1453358 to I.J.F.); the Army Research Office (W911NF-12-1-0390 to E.M.M.); and The Welch Foundation (F1515 to E.M.M. and F1808 to I.J.F.). Data collection by the UT Austin Proteomics Facility was supported by CPRIT grant RP110782 to Maria Person.
 
@@ -503,64 +441,7 @@ We would like to thank Ophelia Papoulas for proteomic expertise, Matt Davis for 
   131. Zhao LY, Liu J, Sidhu GS, Niu Y, Liu Y, Wang R, and Liao D (2004). Negative regulation of p53 functions by Daxx and the involvement of MDM2. J. Biol. Chem 279, 50566–50579. [[DOI](https://doi.org/10.1074/jbc.M406743200)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/15364927/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=J.%20Biol.%20Chem&title=Negative%20regulation%20of%20p53%20functions%20by%20Daxx%20and%20the%20involvement%20of%20MDM2&author=LY%20Zhao&author=J%20Liu&author=GS%20Sidhu&author=Y%20Niu&author=Y%20Liu&volume=279&publication_year=2004&pages=50566-50579&pmid=15364927&doi=10.1074/jbc.M406743200&)]
   132. Zheng R, Shen Z, Tripathi V, Xuan Z, Freier SM, Bennett CF, Prasanth SG, and Prasanth KV (2010). Polypurine-repeat-containing RNAs: a novel class of long non-coding RNA in mammalian cells. J. Cell Sci 123, 3734–3744. [[DOI](https://doi.org/10.1242/jcs.070466)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4481618/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/20940252/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=J.%20Cell%20Sci&title=Polypurine-repeat-containing%20RNAs:%20a%20novel%20class%20of%20long%20non-coding%20RNA%20in%20mammalian%20cells&author=R%20Zheng&author=Z%20Shen&author=V%20Tripathi&author=Z%20Xuan&author=SM%20Freier&volume=123&publication_year=2010&pages=3734-3744&pmid=20940252&doi=10.1242/jcs.070466&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1016/j.celrep.2019.09.060)
-  * [ PDF (2.8 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/pdf/nihms-1542672.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [SUMMARY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#ABS1)
-  * [In Brief](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#ABS2)
-  * [Graphical Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#ABS3)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#S1)
-  * [RESULTS AND DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#S2)
-  * [STAR⋆METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#S12)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#SM1)
-  * [ACKNOWLEDGMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#S37)
-  * [Footnotes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#fn-group1)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Amanuscript)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC6873818)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/) on 2025-07-19.*
