@@ -14,6 +14,7 @@ supplement:
 doi: 10.1039/b811681b
 pmcid: PMC2726709
 pmid: 18931785
+markdown: 2008-11-04-single-molecule-hr
 extra_text: ''
 category: paper
 tags: []
