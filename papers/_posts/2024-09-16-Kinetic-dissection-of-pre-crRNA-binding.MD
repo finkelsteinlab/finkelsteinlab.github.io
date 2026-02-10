@@ -14,6 +14,7 @@ supplement: 0089-RNA-2024-Sinan-Supplement.pdf
 doi: 10.1261/rna.080088.124
 pmcid: PMC11404446
 pmid: 39009379
+markdown: 2024-09-16-Kinetic-dissection-of-pre-crRNA-binding
 extra_text: ''
 category: paper
 tags: CRISPR-Cas12a, Kinetic
