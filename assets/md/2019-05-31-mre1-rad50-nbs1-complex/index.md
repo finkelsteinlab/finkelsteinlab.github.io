@@ -8,9 +8,28 @@ pmcid: PMC6667175
 
 # Purification and Biophysical Characterization of the Mre11-Rad50-Nbs1 Complex
 
+**Logan R. Myler, Michael M. Soniat, Xiaoming Zhang, Rajashree A. Deshpande, Tanya T. Paull, and Ilya J. Finkelstein**
+
+*Methods Mol. Biol.*, Volume 2004, Pages 269–287 (2019)
+
+**DOI:** [10.1007/978-1-4939-9562-2_17](https://doi.org/10.1007/978-1-4939-9562-2_17)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [1. Introduction](#1-introduction)
+- [2. Materials](#2-materials)
+- [3. Methods](#3-methods)
+- [Acknowledgments](#acknowledgments)
+- [4. Notes](#4-notes)
+
+---
 ##  Abstract
 The Mre11-Rad50-Nbs1 (MRN) complex coordinates the repair of DNA double-strand breaks, replication fork restart, meiosis, class-switch recombination, and telomere maintenance. As such, MRN is an essential molecular machine that has homologs in all organisms of life, from bacteriophage to humans. In human cells, MRN is a >500 kDa multifunctional complex that encodes DNA binding, ATPase, and both endonuclease and exonuclease activities. MRN also forms larger assemblies and interacts with multiple DNA repair and replication factors. The enzymatic properties of MRN have been the subject of intense research for over 20 years, and more recently, single-molecule biophysics studies are beginning to probe its many biochemical activities. Here, we describe the methods used to overexpress, fluorescently label, and visualize MRN and its activities on single molecules of DNA.
 **Keywords:** DNA curtains, Single-molecule imaging, Homologous recombination, DNA repair, MRN
+---
 ##  1. Introduction
 DNA double-strand breaks (DSBs) are particularly toxic DNA lesions because they disrupt the physical continuity of the DNA duplex [[1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R1), [2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R2)]. DSBs can arise from genotoxic agents such as cisplatin, etoposide, and ionizing radiation, but are also programmatically generated during meiosis and class switch recombination [[3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R3)–[5](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R5)]. In addition, telomeres can be recognized as DSBs, and end protection mechanisms must be maintained [[6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R6)]. The repair of DSBs is essential for cell survival and DSB repair is differentially regulated in cancer cells, providing a promising avenue for therapeutic strategies that target DSB repair-deficient tumors [[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R7)–[9](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R9)].
 The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recognizes DNA ends and coordinates the repair of DSBs and other DNA lesions (_see_ [Fig. 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#F1)). Eukaryotes evolved an additional regulatory subunit (Nbs1 in humans; Xrs2 in yeast) that interacts with other DNA maintenance proteins and further fine-tunes the enzymatic activities of MR. MRN is involved in both DNA damage signaling and the enzymatic processing that ultimately leads to repair [[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R10)–[14](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R14)]. The MRN complex facilitates these activities via both catalytic and noncatalytic functions. Mre11 is both a 3′−5′ exonuclease and an endonuclease, which can be abolished by a single point mutation (H129N in the human protein) [[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R15)–[17](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R17)]. Both nucleolytic activities are stimulated by the addition of manganese in the reaction buffer. The physiological context for this manganese requirement is unclear, as Mg2+ is likely the predominant cation in nuclei. Mre11 complexes strongly with Rad50, an SMC-like protein that contains two Walker ATPase domains that are linked by long (>50 nm) coiled-coil arms that contain a zinc hook [[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R18)]. This zinc hook facilitates multiple interactions that regulate the activity of the rest of the complex [[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R18)–[20](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R20)]. The Walker ATPase domains and a short patch of the coiled-coil arms interact with Mre11 to form the globular domain of MRN [[21](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R21), [22](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R22)]. Nbs1 serves as a loading platform for interacting partners with the MRN complex, regulates the ATPase activity of Rad50, and localizes the complex to the nucleus [[23](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R23)–[27](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R27)].
@@ -19,6 +38,7 @@ The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recogni
 Overview of MRN architecture and associated DNA maintenance pathways. (A) Domain map of Mre11, Rad50, and Nbs1 (B) Illustration of MRN complex architecture [[42](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R42)]. (C) MRN-associated DNA maintenance pathways
 Partial crystal structures, small-angle x-ray scattering analysis, and atomic force microscopy have begun to unravel MRN’s conformational plasticity [[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R18), [28](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R28)–[30](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R30)]. At least two conformations of the globular domain have been observed, which are dependent on the ATP binding of the Rad50 subunit [[21](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R21), [31](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R31)–[37](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R37)]. In the “closed” state, a dimer of Rad50 ATPase domains coordinate ATP in an antiparallel manner, restricting access to the Mre11 nuclease but promoting DNA binding [[14](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R14)]. After ATP hydrolysis, the MRN complex transitions to the “open” state, giving Mre11 access to the DNA for nucleolytic cleavage.
 Many of these biophysical insights have been gleaned from comparative studies of bacterial, archaeal, and phage Mre11-Rad50 homologs. This is because obtaining large quantities of biochemically active human MRN complex remains a challenge in the field [[38](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#R38)]. Additionally, imaging-based single-molecule studies require fluorescently labeled MRN complexes to directly visualize activity. Here, we present a protocol for purifying human MRN and its associated subcomplexes from insect cells. In addition, we describe both single-molecule and ensemble biochemical methods to probe MRN’s DNA binding and endonuclease activities. We anticipate that this protocol will serve as a useful guide for future studies of human MRN in various DNA repair processes.
+---
 ##  2. Materials
 ### 2.1. Media, Strains, Plasmids
   1. DH10Bac cells.
@@ -90,6 +110,7 @@ Many of these biophysical insights have been gleaned from comparative studies of
   7. SpeedVac.
   8. YoYo-1 (ThermoFisher Scientific).
 
+---
 ##  3. Methods
 ### 3.1. Insect Cell Culture
 #### 3.1.1. Bacmid Production
@@ -240,6 +261,7 @@ An ensemble assay for MRN nuclease activity. (**a**) Schematic of the ensemble a
   10. Load the reaction on a denaturing polyacrylamide gel (16% acrylamide, 20% formamide, 6 M urea) at 40 W for 1.5 h.
   11. Expose to a phosphor screen, and scan on a Typhoon phosphorimager (_see_ [Note 11](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#FN12)).
 
+---
 ##  Acknowledgments
 We are indebted to Dr. Mauro Modesti for reagents. This work was supported by CPRIT (to I.J.F.), the National Institutes of Health (GM120554 and CA092584 to I.J.F.) and the Welch Foundation (F-l808 to I.J.F.). M.M.S. is supported by a postdoctoral fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452). T.T.P. is an investigator of the Howard Hughes Medical Institute. I.J.F. is a CPRIT Scholar in cancer research.
 ##  4 Notes
@@ -265,3 +287,7 @@ The presence of manganese in the MRN cleavage buffer dims the quantum dots. To c
 Molecules of Ku that colocalize with MRN and retract to the chromium barriers after turning buffer flow off should be analyzed. The disappearance of Ku at these sites should be quantified based on the amount of time before removal. As controls, nuclease-dead MRN(H129N) or the omission of manganese or ATP from the cleavage buffer should result in Ku remaining on the DNA for the length of the movie ([Fig. 5](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#F5)).
 11.
 The appearance of a band at ~30 nt indicates MRN cleavage of the DNA next to a Ku-blocked end. As controls, nuclease-dead MRN(H129N) or the omission of manganese, ATP, MRN, or Nbs1 can be used to see the loss of cleavage product ([Fig. 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/#F6)).
+
+---
+
+*Archived from [PubMed Central (PMC6667175)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/) on 2025-07-19.*
