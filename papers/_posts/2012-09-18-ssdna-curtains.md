@@ -14,6 +14,7 @@ supplement:
 doi: 10.1021/ac302117z
 pmcid: PMC3475199
 pmid: 22950646
+markdown: 2012-09-18-ssdna-curtains
 extra_text: ''
 category: paper
 tags: [DNA, Single stranded DNA, DNA-binding proteins, Diffusion, Microscopy, Protein Binding, Replication Protein A]
