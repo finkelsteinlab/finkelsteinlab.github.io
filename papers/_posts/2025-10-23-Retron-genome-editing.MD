@@ -14,7 +14,18 @@ supplement:
 doi: 10.1038/s41587-025-02879-3
 pmcid:
 pmid: 41131151
-extra_text: ''
+extra_text: '
+**Press:**
+
+  - [New Gene-Editing Tech Holds Promise (UT CNS News)](https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-promise-treating-complex-genetic-diseases) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/cns.md))
+
+  - [Powerful New DNA Editing Method (SciTechDaily)](https://scitechdaily.com/powerful-new-dna-editing-method-raises-hopes-for-cures/) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/scitechdaily.md))
+
+  - [Scientists just made gene editing far more powerful (ScienceDaily)](https://www.sciencedaily.com/releases/2025/10/251025084545.htm) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/sciencedaily.md))
+
+  - [New gene-editing tech holds promise (EurekAlert)](https://www.eurekalert.org/news-releases/1102990) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert.md))
+
+'
 category: paper
 tags: retron, genome editing, CRISPR
 ---
