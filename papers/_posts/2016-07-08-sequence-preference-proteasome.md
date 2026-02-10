@@ -14,6 +14,7 @@ supplement: 0031-2016-JBC-Yu et al-supplement.pdf
 doi: 10.1074/jbc.M116.727578
 pmcid: PMC4938175
 pmid: 27226608
+markdown: 2016-07-08-sequence-preference-proteasome
 extra_text: ''
 category: paper
 tags: [ATP-dependent protease, intrinsically disordered protein, proteasome, protein degradation, protein stability, protein targeting, ubiquitylation]
