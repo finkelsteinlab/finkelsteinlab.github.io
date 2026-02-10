@@ -14,6 +14,7 @@ supplement: 0053-2019-MolCell-Soniat et al-supplement.pdf
 doi: 10.1016/j.molcel.2019.05.005
 pmcid: PMC6625828
 pmid: 31153714 
+markdown: 2019-07-11-rpa-phosphorylation
 extra_text: ''
 category: paper
 tags: [DNA repair, end resection, RPA, phosphorylated RPA, BLM helicase]
