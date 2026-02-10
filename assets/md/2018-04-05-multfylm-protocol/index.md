@@ -6,11 +6,32 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/
 pmcid: PMC5951408
 ---
 
-# A Microfluidic Device for Massively Parallel,Whole-lifespan Imaging of Single Fission Yeast Cells
+# A Microfluidic Device for Massively Parallel, Whole-lifespan Imaging of Single Fission Yeast Cells
+
+**Stephen K. Jones Jr, Eric C. Spivey, James R. Rybarski, and Ilya J. Finkelstein**
+
+*Bio-protocol*, Volume 8, Issue 7, e2783 (2018)
+
+**DOI:** [10.21769/BioProtoc.2783](https://doi.org/10.21769/BioProtoc.2783)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Background](#background)
+- [Materials and Reagents](#materials-and-reagents)
+- [Procedure](#procedure)
+- [Data Analysis](#data-analysis)
+- [Notes](#notes)
+- [Acknowledgments](#acknowledgments)
+
+---
 
 ##  Abstract
 Whole-lifespan single-cell analysis has greatly increased our understanding of fundamental cellular processes such as cellular aging. To observe individual cells across their entire lifespan, all progeny must be removed from the growth medium, typically via manual microdissection. However, manual microdissection is laborious, low-throughput, and incompatible with fluorescence microscopy. Here, we describe assembly and operation of the multiplexed-Fission Yeast Lifespan Microdissector (multFYLM), a high-throughput microfluidic device for rapidly acquiring single-cell whole-lifespan imaging. multFYLM captures approximately one thousand rod-shaped fission yeast cells from up to six different genetic backgrounds or treatment regimens. The immobilized cells are fluorescently imaged for over a week, while the progeny cells are removed from the device. The resulting datasets yield high-resolution multi-channel images that record each cell’s replicative lifespan. We anticipate that the multFYLM will be broadly applicable for single-cell whole-lifespan studies in the fission yeast (_Schizosaccharomyces pombe_) and other symmetrically-dividing unicellular organisms. 
 **Keywords:** Cellular aging, Lifespan, Microdissection, Microfluidics, Lithography, Fabrication
+---
 ##  Background
 Cellular aging results in the cumulative decline of cellular function that eventually leads to mortality. Most studies of cellular aging focus on the replicative lifespan of model unicellular organisms, such as budding yeast _Saccharomyces cerevisiae_ ([Nyström and Liu, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r19); [Wasko and Kaeberlein, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r30); [Wierman and Smith, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r31); [Ruetenik and Barrientos, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r21)). The replicative lifespan (RLS) of a cell is defined as the number of daughters produced by a mother cell over the course of its life ([Henderson and Gottschling, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r8); [ Sutphin _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r27)). RLS studies have greatly expanded our understanding of cellular aging in mitotically active cells. For example, in budding yeast, old mothers preferentially retain misfolded proteins and other cellular senescence factors from the budding daughter cells ([ Aguilaniu _et al._ , 2003 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r1); [Hughes and Gottschling, 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r10); [ Liu _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r14); [ Saka _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r22); [ Zhou _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r34); [ Paoletti _et al._ , 2016 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r20)). This feat is achieved by restricting the flow of these ‘senescence factors’ across the bud septum, preventing their accumulation in the rejuvenated daughters ([ Shcheprova _et al._ , 2008 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r23); Higuchi-[ Sanabria _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r9)). Whether senescence factors are also segregated in symmetrically dividing cells is unclear ([ Wang _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r29); [ Coelho _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r4); [Nakaoka and Wakamoto, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r17)). Indeed, relatively little is known about the mechanisms and causes of aging in symmetrically dividing cells. 
 Whole-lifespan cellular aging studies require the separation of aging cells from their progeny. Pioneering, early studies in budding yeast removed daughter cells from their mothers via manual microdissection ([Mortimer and Johnston, 1959](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r16)). Since the first such study in 1959, manual microdissection still remains a popular, albeit laborious method for studying replicative aging in most unicellular organisms ([Mortimer and Johnston, 1959](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r16); [ Kennedy _et al._ , 1994 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r12); [Barker and Walmsley, 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r2); [ Fu _et al._ , 2008 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r6)). However, the low-throughput and laborious nature of this assay limits our current understanding of replicative aging. Most recently, removal of progeny cells has been automated in microfluidic devices that capture and retain individual aging cells ([ Wang _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r29); [ Lee _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r13); [ Xie _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r32); [ Zhang _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r33); [ Tian _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r28); [ Crane _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r5); [Nobs and Maerkl, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r18); [ Jo _et al._ , 2015 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r11); [ Liu _et al._ , 2015 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r15); [Nakaoka and Wakamoto, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r17); [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). Using such devices, relatively large cohorts of individual cells (100 s to 1,000 s of cells) can then be tracked independently from one another. However, most of these approaches focused on prokaryotic cells or the asymmetrically dividing budding yeast (Spivey and Finkelstein, 2014; [ Chen _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r3)). 
@@ -113,12 +134,13 @@ _Note: This product has been discontinued._
 Chamber design file available at:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLMChamber.scad>
 
-### Figure 4. Epifluorescent microscope prepared for imaging of the multFYLM.
+***Figure 4.*** Epifluorescent microscope prepared for imaging of the multFYLM.
 ![Figure 4.](BioProtoc-8-07-2783-g004.jpg)
 A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.
 ##  Software
   1. NIS-Elements Advanced Research (v4.30.02; Nikon Instruments)
 
+---
 ##  Procedure
   1. Microfabrication
 multFYLM microfabrication follows conventional soft lithography methods. The first step is to generate a patterned mold, which can be used to cast devices in elastomeric silicone (PDMS). Such molds, or ‘master’ structures are created on silicon wafers, using UV lithography to deposit patterns on the surface in an epoxy resin (SU-8). The patterns are dictated by masks, which restrict the ability of a UV light source to cross-link the resin. Their alignment is critical to the proper patterning on the wafer, as features of the final master are contained on each of the two masks. A developer is used to remove unexposed resin, leaving a master that is now ready for use ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g001)). A master can be used repeatedly for at least two years to make hundreds of multFYLM devices. 
@@ -476,7 +498,7 @@ Camera ROI file:
       2. If prompted, it is not necessary to complete the current loop before finishing.
     47. Image analysis software may now be used to create videos and analyze the collected data.
 
-### Figure 1. Overview of the multFYLM design.
+***Figure 1.*** Overview of the multFYLM design.
 ![Figure 1.](BioProtoc-8-07-2783-g001.jpg)
 The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).
 ### Table 1. First plasma cleaning program.
@@ -516,12 +538,12 @@ FullVac | 10 sec
 Purge time | 10 sec  
 WEC | Continuous  
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t004/)
-### Figure 2. Soft lithography.
+***Figure 2.*** Soft lithography.
 ![Figure 2.](BioProtoc-8-07-2783-g002.jpg)
 A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.
-### Figure 3. Microfluidic fittings.
+***Figure 3.*** Microfluidic fittings.
 ![Figure 3.](BioProtoc-8-07-2783-g003.jpg)
-### Figure 5. _Schizosaccharomyces pombe_ cells loaded into the multFYLM. 
+***Figure 5.*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM. 
 ![Figure 5.](BioProtoc-8-07-2783-g005.jpg)
 A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).
 ### Table 5. Example parameters for multi-dimensional image acquisition.
@@ -590,7 +612,12 @@ Information on how data collected using this methodology is analyzed can be foun
     1. 36.13 g of the YES 225 powder; add diH2O up to 1 L total volume. 
     2. Filter sterilize the solution–this will also remove small particulates that can lead to clogged passages. Autoclave treatment is not sufficient, as it will sterilize the solution but will not remove particulates
 
+---
 ##  Acknowledgments
 We would like to thank members of the Finkelstein laboratory for their input and advice during the development and preparation of this method. This work was generously supported by the following grants and fellowships: the American Federation for Aging Research (AFAR-020 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the NIH (F32 AG053051 to S.K.J.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Science Foundation. This protocol was adapted from prior designs (Spivey _et al._ , 2014; [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). 
 ##  Citation
 Readers should cite both the Bio-protocol article and [the original research article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) where this protocol was used.
+
+---
+
+*Archived from [PubMed Central (PMC5951408)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/) on 2025-07-19.*
