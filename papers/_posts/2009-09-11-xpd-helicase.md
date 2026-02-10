@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/j.molcel.2009.08.012
 pmcid: PMC3033736
 pmid: 19748351
+markdown: 2009-09-11-xpd-helicase
 extra_text: ''
 category: paper
 tags: []
