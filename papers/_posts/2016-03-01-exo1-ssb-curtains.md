@@ -14,6 +14,7 @@ supplement: 0030-2016-PNAS-Myler et al-supplement.pdf
 doi: 10.1073/pnas.1516674113
 pmcid: PMC4780606
 pmid: 26884156
+markdown: 2016-03-01-exo1-ssb-curtains
 extra_text: '
 **Press:**
 
