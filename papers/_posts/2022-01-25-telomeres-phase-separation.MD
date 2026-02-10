@@ -14,6 +14,7 @@ supplement: 0076-2022-DevCell-Jack et al-supplement.pdf
 doi: 10.1016/j.devcel.2021.12.017
 pmcid: PMC8988007
 pmid: 35077681
+markdown: 2022-01-25-telomeres-phase-separation
 extra_text: ''
 category: paper
 tags:
