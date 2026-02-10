@@ -14,6 +14,7 @@ supplement: 0082-2023-Soniat et al-supplement.pdf
 doi: 10.1016/j.jbc.2022.102802
 pmcid: PMC9971906
 pmid: 36529288
+markdown: 2023-02-02-MRN-DNA-Resection
 extra_text: ''
 category: paper
 tags: DNA resection, double-strand break, single molecule, DNA curtains, BLMDNA2
