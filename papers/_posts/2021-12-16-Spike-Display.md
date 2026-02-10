@@ -14,6 +14,7 @@ supplement: 0075-2021-MolCell-Javanmardi et al-supplement.pdf
 doi: 10.1016/j.molcel.2021.11.024
 pmcid: PMC8675084
 pmid: 34919820
+markdown: 2021-12-16-Spike-Display
 extra_text: ''
 category: paper
 tags:
