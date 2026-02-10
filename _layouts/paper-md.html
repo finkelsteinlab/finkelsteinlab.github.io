@@ -35,7 +35,6 @@ layout: default
 (function() {
   var figRe = /^(Figure\s+\d|Fig[\.\s]+\d)/;
   var sel = '.paper-fulltext img[alt^="Figure"], .paper-fulltext img[alt^="Fig."], .paper-fulltext img[alt^="Fig "]';
-  // Snapshot into array since we modify the DOM
   var imgs = Array.prototype.slice.call(document.querySelectorAll(sel));
 
   for (var i = 0; i < imgs.length; i++) {
@@ -61,8 +60,6 @@ layout: default
     var beforeText = '';
     for (var j = 0; j < beforeNodes.length; j++) beforeText += (beforeNodes[j].textContent || '');
     var hasCaption = figRe.test(beforeText.trim());
-    window._figDebug2 = window._figDebug2 || [];
-    window._figDebug2.push({parentTag: parent.tagName, beforeText: beforeText.substring(0,60), hasCaption: hasCaption, beforeCount: beforeNodes.length, afterCount: afterNodes.length, parentText: parent.textContent.substring(0,60)});
 
     // Also check: is the parent itself a heading element (h3/h4/h5)?
     var isHeading = /^H[345]$/.test(parent.tagName);
@@ -71,7 +68,7 @@ layout: default
     parent.parentNode.insertBefore(figure, parent);
     figure.appendChild(img);
 
-    // Add caption from "before" content
+    // Add caption from "before" content (Case 1: caption + img in same element)
     if (hasCaption && beforeNodes.length > 0) {
       var cap = document.createElement('figcaption');
       for (var j = 0; j < beforeNodes.length; j++) cap.appendChild(beforeNodes[j]);
@@ -106,13 +103,9 @@ layout: default
       if (prev) {
         var pText = prev.textContent || '';
         var pTag = prev.tagName;
-        window._figDebug = window._figDebug || [];
-        window._figDebug.push({tag: pTag, match: figRe.test(pText.trim()), text: pText.substring(0,80), childCount: prev.childNodes.length});
         if ((pTag === 'P' || pTag === 'H3' || pTag === 'H4' || pTag === 'H5') && figRe.test(pText.trim())) {
           var cap = document.createElement('figcaption');
-          var count = 0;
-          while (prev.firstChild) { cap.appendChild(prev.firstChild); count++; }
-          window._figDebug.push({moved: count, capHTML: cap.innerHTML.substring(0,120)});
+          while (prev.firstChild) cap.appendChild(prev.firstChild);
           figure.appendChild(cap);
           prev.parentNode.removeChild(prev);
         }
