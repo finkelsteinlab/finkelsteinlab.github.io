@@ -14,6 +14,7 @@ supplement:
 doi: 10.1038/s41564-020-0760-7
 pmcid: PMC7581547
 pmid: 32719507
+markdown: 2020-07-27-epigenetic-cell-fate
 extra_text: ''
 category: paper
 tags:
