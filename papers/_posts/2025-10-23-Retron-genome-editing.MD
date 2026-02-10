@@ -23,7 +23,7 @@ extra_text: '
 
   - [Scientists just made gene editing far more powerful (ScienceDaily)](https://www.sciencedaily.com/releases/2025/10/251025084545.htm) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/sciencedaily))
 
-  - [New gene-editing tech holds promise (EurekAlert)](https://www.eurekalert.org/news-releases/1102990) ([md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert))
+  - [New gene-editing tech holds promise (EurekAlert)](https://www.eurekalert.org/news-releases/1102990) ([pdf](/assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert.pdf) &#124; [md](/assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert))
 
 '
 category: paper
