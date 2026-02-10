@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/j.ajpath.2021.07.002
 pmcid: PMC8299152
 pmid: 34303698
+markdown: 2021-07-03-SARS-CoV-2-variants
 extra_text: ''
 category: paper
 tags:
