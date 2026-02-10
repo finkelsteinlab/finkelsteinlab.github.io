@@ -14,6 +14,7 @@ supplement: 0052-2019-NComms-Caron et al-supplement.pdf
 doi: 10.1038/s41467-019-10741-9
 pmcid: PMC6609622 
 pmid: 31273204
+markdown: 2019-07-04-adp-ribose-polymerase-1
 extra_text: ''
 category: paper
 tags:
