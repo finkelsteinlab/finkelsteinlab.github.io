@@ -8,14 +8,33 @@ pmcid: PMC11291487
 
 # Asgard archaea defense systems and their roles in the origin of eukaryotic immunity
 
+**Pedro Leão, Mary E. Little, Kathryn E. Appler, Daphne Sahaya, Emily Aguilar-Pine, Kathryn Currie, Ilya J. Finkelstein, Valerie De Anda, and Brett J. Baker†** († corresponding)
+
+*Nature Communications*, Volume 15, Issue 1, Pages 6386 (2024)
+
+**DOI:** [10.1038/s41467-024-50195-2](https://doi.org/10.1038/s41467-024-50195-2)
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Results and Discussion](#results-and-discussion)
+- [Methods](#methods)
+- [Acknowledgements](#acknowledgements)
+
+---
 ##  Abstract
 Dozens of new antiviral systems have been recently characterized in bacteria. Some of these systems are present in eukaryotes and appear to have originated in prokaryotes, but little is known about these defense mechanisms in archaea. Here, we explore the diversity and distribution of defense systems in archaea and identify 2610 complete systems in _Asgardarchaeota_ , a group of archaea related to eukaryotes. The Asgard defense systems comprise 89 unique systems, including argonaute, NLR, Mokosh, viperin, Lassamu, and CBASS. Asgard viperin and argonaute proteins have structural homology to eukaryotic proteins, and phylogenetic analyses suggest that eukaryotic viperin proteins were derived from Asgard viperins. We show that Asgard viperins display anti-phage activity when heterologously expressed in bacteria. Eukaryotic and bacterial argonaute proteins appear to have originated in _Asgardarchaeota_ , and Asgard argonaute proteins have argonaute-PIWI domains, key components of eukaryotic RNA interference systems. Our results support that _Asgardarchaeota_ played important roles in the origin of antiviral defense systems in eukaryotes.
 **Subject terms:** Molecular evolution, Archaeal evolution, RNAi, Innate immunity, Bacteriophages
 * * *
 Bacteria possess many types of antiviral immune systems, some of which are present also in eukaryotes. Here, Leão et al. explore the diversity and distribution of antiviral defense systems in archaea and their evolutionary relationships with bacterial and eukaryotic immune systems, supporting that Asgard archaea played important roles in the origin of eukaryotic innate immunity.
+---
 ##  Introduction
 Organisms across the tree of life contain complex defense systems (DS) to battle viral infections[1]–[3]. Over the past decade, dozens of new DS have been identified and characterized in bacteria, sparking a debate about a potential link between these systems and the origins of innate immune mechanisms in eukaryotes. More recently, protein components of bacterial NLR (Nucleotide-binding domain leucine-rich repeat), CBASS (Cyclic oligonucleotide-based antiphage signaling system), viperins (virus-inhibitory protein, endoplasmic reticulum-associated, interferon (IFN)-inducible), argonautes, and other DS have been shown to exhibit homology with proteins involved in the eukaryotic immune system[4]. Most of the research on prokaryotic defense systems has focused on bacteria, with archaea representing <3% of the genomes in these studies[5]–[7]. Thus, very little is known about the diversity or evolution of these systems in archaea.
 Recently, diverse novel genomes have been obtained belonging to the archaea most closely related to eukaryotes, commonly referred to as “Asgard” archaea, the phylum Asgardarchaeota[8]. In addition to being sister lineages to eukaryotes, these archaea also contain an array of genes that are hallmarks of complex cellular life involved in signal processing, transcription, and translocations, among other processes[9]. The Asgard archaea are descendants of the ancestral host that gave rise to eukaryotic life. One newly described order, the Hodarchaeales (within the Heimdallarchaeia class), shared a common ancestor with eukaryotes[8]. Here, we characterize defense systems in archaea and show that Asgard archaea have a broad array of these DS. We also show that Asgards contributed to the origins of innate immune mechanisms in eukaryotes.
+---
 ##  Results and discussion
 ### Distribution of Defense Systems across the tree of life
 To explore the diversity and distribution of DS in archaea, we used 132 previously described defense systems to search through a comprehensive dataset containing 3408 publicly available genomes, and a newly expanded set of Asgardarchaeota genomes (869). A total of 30,761 defense system-associated genes have been identified across these archaeal genomes, belonging to 11,466 complete defense systems, with an average of 4.55 DS genes per archaeal genome (Fig. [1]; Supplementary Data [1]). Of a total of 132 previously described DS, 89 were found in these genomes. 27.5% of these archaeal genomes do not contain any known DS. A total of 2610 complete DS were identified in Asgardarchaeota genomes. These varied among the classes between 1 and 65, with an average of 4.9 DS per genome. These numbers are similar to those reported in bacteria, on average 5.6 DS identified by Tesson et al.[6] and 5.8 DS by Millman et al.[7]. The DPANN archaea contain the lowest number, with a mean of 2.6 DS per genome. As previously reported in bacteria, the most prevalent DS in archaea are the restriction-modification (RM) and CRISPR systems[6],[10]. These DSs represent 45% and 22% of all known defense systems in archaeal genomes, respectively (Supplementary Data [1]).
@@ -49,6 +68,7 @@ Another DS of interest is Mokosh, which degrades foreign viral transcripts to pr
 ![Fig. 4](41467_2024_50195_Fig4_HTML.jpg)
 Based on our reconstructions of structures and phylogeny in the study, we propose that early forms of both the viperin and argonautes defense systems were inherited from Asgardarchaeota via the LECA (last eukaryotic common ancestor) into modern eukaryotes. However, other systems present in Asgard-like Mokosh appear to have originated from bacteria, highlighting that both prokaryotes have an important role on the origin of defense mechanisms in Eukaryotes. The known mechanisms of mokosh, argonaute, and viperin defense systems are illustrated at the bottom. Created using BioRender.com, released under a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International license.
 This study sheds light on the roles of archaea in the origin of innate immune mechanisms in eukaryotes. Asgardarchaeota emerges as a key player in the origins of viperins and argonautes, with ancestral forms of these proteins tracing back to the last eukaryotic common ancestor (LECA) and prior (Fig. [4]). We found remarkable conservation observed in the sequences, structure, and function of these DS proteins compared to their eukaryotic counterparts. Models of eukaryogenesis involve the interaction between a bacterium and an archaeon; our findings reveal that early eukaryotes inherited robust defense mechanisms against viral infections from both ancestral partners (Fig. [4]). The compatibility of some of these proteins (asVips and asAgos) with those in eukaryotes suggests these systems may provide biomedical or biotechnology applications in eukaryotes.
+---
 ##  Methods
 ### Known defense systems identification
 A database of Archaeal genomes available from NCBI was built containing 646 genomes from the DPANN group, 668 genomes from TACK superphylum, 1408 genomes belonging to Euryarchaeota phylum, and 869 Asgard archaea genomes[36]. This database only contains complete or high-quality genomes. To guarantee the quality of the genomes, a CheckM v1.2.1 screening was performed and only genomes presenting a completeness higher than 45%, and contamination lower than 10% were included. Another database containing 716 bacterial genomes from 71 different phyla was built following the same procedure. The distribution and diversity of known defense systems in archaeal genomes was checked running DefenseFinder v1.0.9[6] with models v1.2.2. and default parameters on the custom databases.
@@ -69,6 +89,7 @@ All primers were purchased from IDT (Supplementary Data [2]). asVip genes were s
 ### Plaque assays
 Plaque assays were performed according to standard protocols[47]. Overnight cultures were diluted 1:100 in LB supplemented with 1.25 mM MgCl2, 1.25 mM CaCl2 and Isopropyl β-D-1-thiogalactopyranoside (IPTG; final concentration of 0.5 mM) for induction of asVip expression and grown to an OD600 ∼0.3. Bacteria from these outgrowth cultures were combined with serial dilutions of phage lysate and incubated at 37 °C for 15 min before being mixed with 0.5% agar and plated on agar plates. After solidifying, the plates were incubated overnight at 37 °C. Plaques were imaged using an Azure Biosystems 600 imaging system, and their areas were measured using FIJI’s ‘Analyze Particles’ plugin[49]. Three biological replicates were pooled for analysis. A two-tailed t-test was used to calculate statistical significance.
 
+---
 ##  Acknowledgements
 This work was supported by the Moore-Simons Project on the Origin of the Eukaryotic Cell, Simons and Moore Foundations 73592LPI to B.J.B. (10.46714/735925LPI) and Welch Foundation (F-1808) to I.J.F.
 ##  Author contributions
@@ -76,3 +97,7 @@ P.L., B.J.B. and V.D.A designed the study. B.J.B. and I.J.F. supervised and prov
 
 ##  Data availability
 The final assembled and annotated asgard genomes used in this study are available in NCBI under BioProjects PRJNA743900, PRJNA692327, PRJNA1112871. All the other defense system proteins used in this study can have their accession number recovered from the respective supplementary information files. The raw data used to generate the figures presented in this work, and supplementary file can be found here: 10.6084/m9.figshare.25838197.
+
+---
+
+*Archived from [PubMed Central (PMC11291487)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11291487/) on 2025-07-19.*
