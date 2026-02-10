@@ -14,6 +14,7 @@ supplement: 0016-2010-Nature-Finkelstein et al-supplement.pdf
 doi: 10.1038/nature09561
 pmcid: PMC3230117
 pmid: 21107319
+markdown: 2010-12-16-dna-translocase-curtains
 extra_text: ''
 category: paper
 tags: []
