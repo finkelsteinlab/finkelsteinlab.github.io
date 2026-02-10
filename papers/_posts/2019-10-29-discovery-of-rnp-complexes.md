@@ -14,6 +14,7 @@ supplement: 0056-2019-CellReports-Mallam et al-supplement.pdf
 doi: 10.1016/j.celrep.2019.09.060
 pmcid: PMC6873818 
 pmid: 31665645
+markdown: 2019-10-29-discovery-of-rnp-complexes
 extra_text: ''
 category: paper
 tags: [ ribonucleoprotein complex, RNP, RNA binding protein, RBP, proteomics, DIFFRAC,
