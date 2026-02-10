@@ -401,3 +401,29 @@ strong {
   vertical-align:super;
   font-size:0.8em;
 }
+
+// Paper full-text figure boxes
+.paper-figure {
+  background: #f8f6f1;
+  border: 1px solid #e8e4da;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 1.5em 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e8e4da;
+  }
+}

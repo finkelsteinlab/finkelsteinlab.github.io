@@ -29,3 +29,34 @@ layout: default
 </div>
 
 <div class="bigspacer"></div>
+
+<script>
+// Wrap figure images + captions in styled <figure> boxes
+(function() {
+  var imgs = document.querySelectorAll('.paper-fulltext p > img[alt^="Figure"]');
+  for (var i = 0; i < imgs.length; i++) {
+    var imgP = imgs[i].parentElement;
+    var prev = imgP.previousElementSibling;
+    var figure = document.createElement('figure');
+    figure.className = 'paper-figure';
+
+    // Insert figure before the image paragraph, then move image in
+    imgP.parentNode.insertBefore(figure, imgP);
+    figure.appendChild(imgP);
+    // Unwrap the <p> so img is direct child of figure
+    while (imgP.firstChild) figure.insertBefore(imgP.firstChild, imgP);
+    figure.removeChild(imgP);
+
+    // Move caption into figcaption if preceding <p> starts with "Figure" or "Fig"
+    if (prev && prev.tagName === 'P') {
+      var text = prev.textContent || '';
+      if (/^Figure\s+\d/.test(text) || /^Fig[\.\s]/.test(text)) {
+        var cap = document.createElement('figcaption');
+        while (prev.firstChild) cap.appendChild(prev.firstChild);
+        figure.appendChild(cap);
+        prev.parentNode.removeChild(prev);
+      }
+    }
+  }
+})();
+</script>
