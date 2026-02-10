@@ -8,58 +8,36 @@ pmcid: PMC6679935
 
 # Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a
 
-# Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a
-[Isabel Strohkendl](https://pubmed.ncbi.nlm.nih.gov/?term="Strohkendl%20I"\[Author\])
-### Isabel Strohkendl
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Isabel Strohkendl](https://pubmed.ncbi.nlm.nih.gov/?term="Strohkendl%20I"\[Author\])
-1, [Fatema A Saifuddin](https://pubmed.ncbi.nlm.nih.gov/?term="Saifuddin%20FA"\[Author\])
-### Fatema A Saifuddin
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Fatema A Saifuddin](https://pubmed.ncbi.nlm.nih.gov/?term="Saifuddin%20FA"\[Author\])
-1,2, [James R Rybarski](https://pubmed.ncbi.nlm.nih.gov/?term="Rybarski%20JR"\[Author\])
-### James R Rybarski
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [James R Rybarski](https://pubmed.ncbi.nlm.nih.gov/?term="Rybarski%20JR"\[Author\])
-1,2, [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-### Ilya J Finkelstein
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-1,2, [Rick Russell](https://pubmed.ncbi.nlm.nih.gov/?term="Russell%20R"\[Author\])
-### Rick Russell
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Lead Contact
-Find articles by [Rick Russell](https://pubmed.ncbi.nlm.nih.gov/?term="Russell%20R"\[Author\])
-1,3,*
-  * Author information
-  * Article notes
-  * Copyright and License information
+**Isabel Strohkendl, Fatema A. Saifuddin, James R. Rybarski, Ilya J. Finkelstein, and Rick Russell**
 
-1Department of Molecular Biosciences and the Institute for Cellular and Molecular Biology, University of Texas at Austin, Austin, TX 78712, USA
-2Center for Systems and Synthetic Biology, University of Texas at Austin, Austin, TX 78712, USA
-3Lead Contact
-AUTHOR CONTRIBUTIONS
-Conceptualization, all authors; Methodology, I.S., F.A.S., I.J.F., and R.R.; Investigation, I.S. and F.A.S.; Writing – Original Draft, I.S. and R.R.; Writing – Review & Editing, all authors; Funding Acquisition, I.J.F. and R.R.
-*
-Correspondence: rick_russell@cm.utexas.edu
-Issue date 2018 Sep 6.
-[PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
-PMCID: PMC6679935 NIHMSID: NIHMS1040849 PMID: [30078724](https://pubmed.ncbi.nlm.nih.gov/30078724/)
-The publisher's version of this article is available at [Mol Cell](https://doi.org/10.1016/j.molcel.2018.06.043)
+*Mol. Cell*, Volume 71, Issue 5, Pages 816–828.e3 (2018)
+
+**DOI:** [10.1016/j.molcel.2018.06.043](https://doi.org/10.1016/j.molcel.2018.06.043)
+
+---
+
+## Table of Contents
+
+- [Summary](#summary)
+- [Introduction](#introduction)
+- [Results](#results)
+- [Discussion](#discussion)
+- [STAR Methods](#star-methods)
+- [Acknowledgments](#acknowledgments)
+
+---
 ##  SUMMARY
 Class 2 CRISPR-Cas nucleases are programmable genome editing tools with promising applications in human health and disease. However, DNA cleavage at off-target sites that resemble the target sequence is a pervasive problem that remains poorly understood mechanistically. Here, we use quantitative kinetics to dissect the reaction steps of DNA targeting by _Acidaminococcus sp_ Cas12a (also known as Cpf1). We show that Cas12a binds DNA tightly in two kinetically separable steps. Protospacer-adjacent motif (PAM) recognition is followed by rate-limiting R-loop propagation, leading to inevitable DNA cleavage of both strands. Despite functionally irreversible binding, Cas12a discriminates strongly against mismatches along most of the DNA target sequence. This result implies substantial reversibility during R-loop formation—a late transition state—and defies common descriptions of a “seed” region. Our results provide a quantitative basis for the DNA cleavage patterns measured _in vivo_ and observations of greater reported target specificity for Cas12a than for the Cas9 nuclease.
 ##  Graphical Abstract
 ![graphic file with name nihms-1040849-f0001.jpg](nihms-1040849-f0001.jpg)
 ##  In Brief
 Strohkendl et al. dissect DNA binding and cleavage by CRISPR-Cas12a. They show that binding is functionally irreversible, yet Cas12a discriminates against mismatches with the target DNA extending beyond a seed region. These results suggest that R-loop propagation is readily reversible, enabling Cas12a to select DNA sequences more precisely than Cas9.
+---
 ##  INTRODUCTION
 CRISPR-Cas systems are revolutionary new tools for gene editing applications ([Hsu et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R14)). The nuclease enzymes in these systems can be readily programmed by the rational design of a CRISPR RNA (crRNA) sequence. Targets are identified via protospacer-adjacent motif (PAM) recognition and formation of a helix between the guide RNA and the DNA or RNA target, which licenses cleavage of the target. The information inherent in the ~20 base pairs formed by the crRNA and the target is sufficient, in principle, to uniquely target a single sequence, even in large eukaryotic genomes.
 Class 2 CRISPR-Cas systems are particularly useful because they use a single polypeptide for both recognition and cleavage of the target DNA or RNA. However, Cas9, the prototypical class 2 enzyme used in eukaryotic cells, invariably falls short of targeting a single unique site, as related “off-target” DNA sequences are also recognized and cleaved at significant levels ([Sternberg and Doudna, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R31)). The existence of off-target cleavage events is not surprising, as molecular interactions are never perfectly specific. For example, mismatches in DNA-RNA duplexes typically incur penalties of only 2–5 kcal/mol in solution ([Sugimoto et al., 1995](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R33); [Watkins et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R40)). Even with one or two mismatches, a 20-bp helix is stable ([Herschlag, 1991](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R12)), and complexes formed with imperfect targets may be sufficiently long-lived to favor cleavage over enzyme dissociation ([Bisaria et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R1)). Despite the importance of these off-target cleavage events, we still lack a full understanding of the biophysical basis for the specificity of CRISPR-Cas enzymes.
 Cas12a (also known as Cpf1) is a class 2 enzyme ([Makarova et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R22); [Shmakov et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R26); [Zetsche et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R47)) that has recently emerged as a more specific alternative to Cas9 ([Figure 1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F1)) ([Kim et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R17); [Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34)). Indeed, both _Acidaminococcus sp_. BV3L6 Cas12a (AsCas12a) and _Lachnospiraceae_ bacterium Cas12a (LbCas12a) showed little or no tolerance for mismatches in mammalian cells ([Kim et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R17), [2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R18); [Kleinstiver et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R19); [Tóth et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R37); [Tu et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R38); [Zhong et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R49)). In contrast, Cas9 discriminates strongly against mismatches only within the first ~10 bp of the RNA-DNA helix (R-loop) proximal to the PAM ([Fu et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R7); [Hsu et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R13); [Slaymaker et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R29)). Cas12a is also capable of processing its own precursor crRNA, unlike Cas9, and can, therefore, be used for multiplexed applications ([Fonfara et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R6); [Zetsche et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R48)).
-### Figure 1. Cas12a Binding and Dissociation with a Matched Target DNA.
+***Figure 1.*** Cas12a Binding and Dissociation with a Matched Target DNA.
 ![Figure 1.](nihms-1040849-f0002.jpg)
 (A) Schematic depiction of AsCas12a in complex with crRNA (black) and DNA (blue). The PAM is highlighted in orange. The RuvC nuclease active site, where the D908A mutation is located, is indicated with a red circle. The 20-bp R-loop formed between the crRNA and the TS lines the recognition lobe, and the NTS is predicted to line the nuclease lobe (dashed line). One of the REC domains is omitted to allow visualization of the R-loop.
 (B) Schematic and sequence of the target DNA substrate. Red triangles mark cleavage sites. Lighter triangles on the NTS indicate cleavage sites in “trimming” events that follow the initial cleavage event.
@@ -70,6 +48,7 @@ Cas12a (also known as Cpf1) is a class 2 enzyme ([Makarova et al., 2015](https:/
 See also [Figures S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1) and [S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1).
 One striking question that arises is how different CRISPR-Cas enzymes can have different levels of specificity, despite using the chemically identical R-loop as the source of sequence-specific DNA binding. A common feature of CRISPR-Cas systems and other RNA-directed enzymes is that the targeting RNA includes a “seed” region. The seed region, which, for CRISPR-Cas enzymes, is a subset of nucleotides within the crRNA that base pairs with PAM-proximal nucleotides, is highly sensitive against mismatches and is, therefore, critical for target affinity and specificity ([Gorski et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R10); [Jinek et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R15); [Wiedenheft et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R42)). A crystal structure of Cas12a from _Francisella novicidia_ (FnCas12a) showed that the bound crRNA includes a 5-nt region that is pre-ordered for base-pair formation ([Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34)) with PAM-proximal nucleotides. This pre-ordering of the crRNA may contribute to a PAM-proximal seed region, but it cannot account for the high cleavage specificity seen throughout the R-loop beyond these 5 nt. Indeed, little is known about how Cas12a achieves its high specificity despite the many published crystal structures ([Dong et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R5); [Gao et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R8); [Stella et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R30); [Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34); [Yamano et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R45), [2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R46)) and _in vivo_ targeting results.
 Here, we report a quantitative dissection of the binding and cleavage reactions of Cas12a, pre-loaded with a defined crRNA, toward a perfectly matched DNA target and a series of targets with single mismatches at each position within the R-loop. We find that DNA binding is rate limiting for cleavage, both for matched and mismatched targets. While this behavior generally abrogates specificity of enzymes, we find that Cas12a discriminates strongly against mismatches across most of the R-loop, suggesting reversibility within the process of R-loop formation and a seed region that defies the strict boundary observed for Cas9. Our results provide fundamental insights into DNA targeting by Cas12a, and the origins of greater DNA target specificity of Cas12a than Cas9. In addition, our work suggests strategies for further improvement of specificity through enzyme engineering.
+---
 ##  RESULTS
 ### A Kinetic Framework for Recognition and Cleavage of a Matched DNA Target
 We first generated a complete kinetic framework for Cas12a on a matched DNA target. The rates of DNA binding and dissociation, as well as cleavage of each DNA strand, were measured using a crRNA-loaded AsCas12a (henceforth referred to as Cas12a) and an oligonucleotide DNA target ([Figure 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F1)). Our target DNA included a 5’-TTTA-3’ PAM sequence, which conforms to the consensus 5’-TTTV-3’ PAM ([Kim et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R18)), adjacent to 24 bp that matched the crRNA targeting sequence. The target DNA was 32P labeled at the 5’ end of either the target strand (TS) or the non-target strand (NTS).
@@ -79,7 +58,7 @@ The rate constant for dissociation of Cas12a(D908A) from the target DNA (_k_ off
 The very slow dissociation from the matched target suggested that release of the PAM-proximal DNA product after cleavage would also be very slow and would result in a stoichiometric burst of processed target DNA. Indeed, we observed such a stoichiometric burst ([Figure 1F](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F1)). The lack of detectable enzyme turnover is consistent with previous observations of Cas12a as a “single turnover” enzyme ([Chen et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R4); [Singh et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R28)), and the stoichiometry of the product indicates that Cas12a is fully active and that each Cas12a molecule binds and cleaves one DNA target.
 Our measured rate constants for binding and dissociation of Cas12a from the matched DNA target give a calculated _K_ D value of 54 ± 4 fM (_k_ off/_k_ on). This value is 103-fold lower than the recently reported value of 0.1 nM from single-molecule fluorescence experiments ([Singh et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R28)) and 105-fold lower than that determined via binding affinity assays with FnCas12a in the absence of Mg2+ ion ([Fonfara et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R6)). The previous studies used direct measurements of the fraction of DNA target bound rather than kinetics measurements, and they did not provide the >32-hr incubation required to reach equilibrium (i.e., at least one half-life of the bound complex), which would lead to apparently weaker binding of Cas12a. Although our measured equilibrium constant is extraordinarily low for an enzyme-substrate interaction, reflecting a very stable complex, the value is three orders of magnitude higher than the predicted _K_ D value for a 20-bp RNA:DNA duplex of the same sequence (~0.02 fM) ([Sugimoto et al., 1995](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R33)).
 We next measured cleavage of the NTS and the TS by individually radiolabeling each strand in separate reactions ([Figure 2A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F2)). For each strand of the target DNA, we used hyperbolic fits to the observed rate constants from multiple Cas12a concentrations to determine the observed rate constants for cleavage. We obtained a maximal rate constant of 5.2 (±0.6) × 10−2 s−1 for NTS cleavage and a 10-fold lower value for TS cleavage, 5.1 (±0.2) × 10−3 s−1. The slower TS cleavage is consistent with a recent report that the NTS is expected to line the nuclease lobe of Cas12a, which contains the RuvC nuclease domain ([Stella et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R30); [Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34)) ([Figure 1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F1)), and is thus poised for cleavage. In contrast, the TS:crRNA heteroduplex (R-loop) lines the recognition lobe and may require substantial movement of the TS and/or the single RuvC nuclease domain to position the TS for cleavage ([Stella et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R30); [Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34)).
-#### Figure 2. Cleavage of a Matched DNA Target by Cas12a.
+***Figure 2.*** Cleavage of a Matched DNA Target by Cas12a.
 ![Figure 2.](nihms-1040849-f0003.jpg)
 (A) Representative gels and corresponding plot showing multiple product bands upon Cas12a-mediated cleavage of the NTS (left) and TS (right). Reactions included 10 or 50 nM Cas12a, as indicated.
 (B) Rapid release of the PAM-distal cleavage product following cleavage of the TS. The top band indicates Cas12a-bound DNA target, and the bottom band indicates the released PAM-distal product after DNA cleavage. The middle band indicates DNA target that remains unbound because it is present in 1.5-fold excess relative to Cas12a. The plot on the right indicates the amount of released PAM-distal product relative to the amount of Cas12a, giving a dissociation rate constant of 4.5 (±1.3) × 10−3 s−1.
@@ -87,7 +66,7 @@ Close inspection of the DNA cleavage reactions revealed multiple products for ea
 Together, our results show that DNA cleavage by Cas12a occurs orders of magnitude faster than dissociation from a matched DNA target, indicating that essentially every complete binding event of Cas12a results in DNA cleavage ([Bisaria et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R1)). A key consequence of this irreversible binding is that the specificity of Cas12a against mismatches must be determined by the relative binding kinetics, not by differences in equilibrium binding.
 ### Single Mismatches throughout the R-Loop Slow Cas12a Binding
 To measure the specificity of Cas12a against mismatches between the crRNA and target DNA, we introduced single base-pair changes in the DNA at each position throughout the R-loop ([Table S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1)). The _k_ on values were reduced substantially for mismatched DNA targets, with pronounced effects along nearly the entire length of the R-loop ([Figures 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F3) and [S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1); [Table S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1)). PAM-proximal mismatches gave ~150- to 600-fold decreases, and PAM-distal mismatches gave up to 65-fold decreases. Additionally, we found that the identity of the nucleotide mismatch can impact the binding rate, as C16G slowed binding by nearly 70-fold, while C16T slowed binding by only 7-fold. A mismatch at position 21 did not decrease the rate of binding, supporting previous findings that a conserved aromatic residue (W382) stacks on position 20 of the RNA-DNA duplex and prevents further R-loop propagation ([Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34); [Yamano et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R45)).
-#### Figure 3. Mismatches throughout the R-Loop Reduce the Affinity of Cas12a for Target DNA.
+***Figure 3.*** Mismatches throughout the R-Loop Reduce the Affinity of Cas12a for Target DNA.
 ![Figure 3.](nihms-1040849-f0004.jpg)
 Bar graphs, left and center, represent the rates of binding and dissociation, respectively, of Cas12a for a mismatched target (MM) normalized by the corresponding rates for the matched (i.e., perfect) target DNA (PT). The combination of the relative rate constants gives the overall effect on affinity, as depicted in the graph at the right. Error bars in the left and center panels represent the normalized SE of the fit and the normalized SEM (n ≥ 3) for binding and dissociation, respectively. Error bars in the right panel reflect the propagated errors from binding and dissociation reactions. Target names are defined as the mismatch position and substituted nucleotide within the NTS.
 See also [Figure S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1) and [Tables S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1) and [S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1).
@@ -96,16 +75,17 @@ To further explore the effects of sequence mismatches on Cas12a binding, we meas
 The combined effects of mismatches on _k_ on and _k_ off reveal a high level of thermodynamic discrimination by Cas12a for its perfect target DNA ([Figure 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F3)). Mismatches throughout the R-loop weaken binding substantially, with typical effects ranging from 50-fold to approximately 1,000-fold. Although the effects of single mismatches are large, the resulting complexes are still quite stable, with sub-nanomolar affinity. The thermodynamic effects of mismatches do not display a detectable trend across the R-loop, in contrast to some expectations for seed regions (see [Discussion](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S7)).
 ### Mismatches Do Not Impact DNA Cleavage Rates after R-Loop Formation
 We next measured cleavage of each strand of a subset of the mismatched targets by using labeled targets as described earlier and saturating Cas12a concentrations ([Figures 4A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F4) and [S3D](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1); [Table S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1)). Mismatches decreased the observed rate constant for NTS cleavage in a manner that paralleled the slower R-loop formation determined from our binding data ([Figure 4B](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F4)). The correspondence of these rate constants across a range of >100-fold suggests that the rate of NTS cleavage is limited by propagation of the R-loop.
-#### Figure 4. Mismatches Impede R-Loop Propagation, Affecting Binding and Observed Rates of Cleavage.
+***Figure 4.*** Mismatches Impede R-Loop Propagation, Affecting Binding and Observed Rates of Cleavage.
 ![Figure 4.](nihms-1040849-f0005.jpg)
 (A) Bar graphs represent the observed rates of cleavage for a mismatched target (_k_ obsMM) normalized to the matched target rate (_k_ obsPT). Error bars reflect the normalized SE of the fit. Red bars indicate NTS cleavage; yellow bars indicate TS cleavage. (B and C) Plots showing the correlation between effects of mismatches on binding (R-loop formation) and DNA cleavage. As the rate of R-loop formation decreases from mismatches, the rate of NTS cleavage mirrors this decrease (B). Values of _k_ R-loop are the _k_ max values derived from Cas12a binding fits. The gray line denotes a 1:1 correspondence between the rate constants for R-loop formation and NTS cleavage. In contrast, the observed rate of TS cleavage is not decreased by mutation, unless the rate of R-loop formation approaches or is less than the rate of cleavage of the matched target (C). The gray curve models the expected rate constant observed as _k_ R-loop is varied and the rate constant for TS cleavage remains at a value of 0.0051 s−1 (STAR Methods). In both panels, horizontal error bars reflect the standard error of _k_ max determined from a hyperbolic fit to the Cas12a concentration dependence of the binding rate constant. Vertical error bars represent the standard error of the maximal rate constant for cleavage from a hyperbolic fit to the Cas12a concentration dependence of the observed rate constant for cleavage.
 See also [Figure S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1) and [Table S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1).
 Because TS cleavage is approximately 10-fold slower than NTS cleavage for the matched target, we expected that mismatches that slow R-loop propagation, and thus NTS cleavage, by less than 10-fold would not decrease the observed rate of TS cleavage substantially. For mismatches that give larger effects, cleavage of both strands would be rate limited by R-loop propagation, so that the observed rate of TS cleavage would be decreased to that of R-loop propagation and NTS cleavage (modeled by the solid curve in [Figure 4C](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F4)). Indeed, the effects of both sets of mismatches conformed to this simple model. Thus, our results support a model in which mismatches between the DNA and crRNA slow R-loop propagation and have no additional effects on the cleavage rates of either DNA strand after the R-loop is fully formed.
 ### Cas12a Binding Remains Rate Limiting at a Physiological Mg2+ Concentration
 Biological Mg2+ concentrations are between 0.2 and 1 mM in mammalian nuclei ([Günther, 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R11)) and only slightly higher in bacterial cells ([Lusk et al., 1968](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R21)), much lower than the 5–10 mM used in most _in vitro_ studies. To extend our kinetic framework to a cellular milieu, we also conducted reactions at the lower Mg2+ concentration of 1 mM ([Figure S4](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SD1)). Cas12a binding to its perfect target DNA was slowed by 30%, to 8.1 (±1.2) × 107 M−1 s−1, and Cas12a(D908A) dissociation was accelerated 6-fold, to a value of 3.3 (±0.6) 10−5 s−1. Cleavage of the NTS, with an observed rate constant of 0.020 ± 0.001 s−1, remained orders of magnitude faster than Cas12a dissociation. Thus, at a near-physiological Mg2+ concentration, Cas12a remains an efficient DNA nuclease. The increased dissociation rate demonstrates the importance of Mg2+ for stability of the ternary complex, but the affinity remains very high (_K_ D = 410 ± 100 fM), and DNA binding is still rate limiting for cleavage. Thus, it is likely that DNA binding remains rate limiting for cleavage _in vivo_ and that target specificity is determined by differences in the rate constant for Cas12a binding, not differences in affinity.
+---
 ##  DISCUSSION
 Cas12a is currently a subject of intense interest for its simplicity and potential for high target specificity _in vivo_. Here, we provide a detailed kinetic mechanism that outlines a mechanistic basis for its extraordinary specificity. A quantitative kinetic analysis of the physical and chemical steps of DNA targeting shows that binding of Cas12a to target DNA involves two kinetically separable steps ([Figure 5](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F5)). An initial step likely represents PAM recognition, which is rapid and reversible. Next, the R-loop forms with a rate constant of ~0.1 s−1, as revealed by a plateau in the binding rate constant and by 2-AP fluorescence experiments. The same rate constant is obtained whether the 2-AP probe is near the PAM-proximal end or the PAM-distal end, indicating that the R-loop propagates quickly after initiating adjacent to the PAM. After R-loop formation, the NTS is cleaved rapidly, so that R-loop formation limits the cleavage rate under saturating conditions. Following this cleavage event, there is additional trimming of 4 nt of the NTS and cleavage of the TS 10-fold more slowly. The DNA cleavage steps are not impacted detectably by single mismatches between the crRNA and the target DNA. Instead, the decreased observed cleavage rates arise from decreases in the rate of R-loop formation.
-### Figure 5. Model and Kinetic Framework for Cas12a Target Recognition and Cleavage.
+***Figure 5.*** Model and Kinetic Framework for Cas12a Target Recognition and Cleavage.
 ![Figure 5.](nihms-1040849-f0006.jpg)
 Cas12a specificity is determined during R-loop formation. Due to the late transition state for R-loop formation, Cas12a is able to discriminate against mismatches across the R-loop. Cleavage of the NTS strand occurs rapidly (_k_ cNTS), so that R-loop formation is rate limiting for cleavage even under saturating conditions. TS cleavage occurs ~10-fold more slowly (_k_ cTS). A mismatch (red curve) increases the energy barrier for R-loop formation, resulting in a decreased rate of R-loop formation with no direct effect on the DNA cleavage steps. Breaks in the free energy profile indicate irreversible cleavage steps. Valleys correspond to the ground states of Cas12a, shown in the cartoon below the profile (aligned by gray panels).
 DNA cleavage is less precise than previously thought, as the NTS is trimmed toward the PAM and the TS is cleaved at multiple positions. These cleavage events imply that there is considerable mobility of the NTS and the RuvC domain and that there is flexibility in positioning of the TS in the nuclease active site. Additionally, the multiple cleavage events are consistent with recent data indicating that the RuvC domain becomes highly active upon R-loop formation, rapidly cleaving exogenous ssDNA ([Chen et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R4); [Li et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R20)). Biologically, the trimming of the target DNA ends is significant, because it leads to non-cohesive DNA ends, which require filling in by a polymerase but could also be subjected to resection during DNA repair ([Chang et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R3)). Additionally, the rapid release of the PAM-distal cleavage product following TS cleavage ([Singh et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R28); [Figure 1E](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F1)) would produce an unprotected 5’ overhang available for binding by repair factors or annealing to a new DNA with microhomology.
@@ -113,6 +93,7 @@ Our kinetic analysis showed that substrate dissociation is orders of magnitude s
 The pattern of mismatch effects on Cas12a specificity is consistent with some descriptions of the roles and origins of a seed region but defies others. The decrease in binding kinetics and, consequently, in cleavage specificity is generally larger in PAM-proximal than PAM-distal positions, supporting descriptions of a seed region that invoke increased specificity close to the PAM ([Gorski et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R10); [Swarts et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R34)). On the other hand, substantial specificity remains present for more PAM-distal positions, which differs from Cas9 and other studied enzymes that use seed regions for target recognition ([Jinek et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R15); [Wang et al., 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R39)). Additionally, the effects of mismatches on DNA target affinity are uniform across the R-loop, in contrast to descriptions of seed regions that invoke higher thermodynamic specificity originating from pre-ordering of the crRNA in the PAM-proximal region ([Gorski et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R10)). The kinetic origin of the seed region for Cas12a probably reflects that the R-loop forms through a defined pathway, starting from the PAM, and that the PAM-proximal base pairs are formed in the transition state for R-loop formation to a greater extent than the PAM-distal base pairs.
 Our results have important implications for applications of Cas12a _in vivo_. The finding that Cas12a binding to target DNA is rate limiting for cleavage suggests that the levels of discrimination against off-target cleavage in cells are determined by the extent to which the rate of target binding, not the affinity, is decreased by a given mismatch ([Bisaria et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R1)). DNA super-coiling _in vivo_ may facilitate rate-limiting R-loop formation, as observed for Cas9 and the multisubunit Cascade complex ([Szczelkun et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R35); [Westra et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R41)), but there is no expectation of a change in the magnitudes of the mismatch penalties or in their distribution within the R-loop. Indeed, the reported patterns of off-target DNA cleavage _in vivo_ show decreased discrimination at the PAM-distal end and in the center of the R-loop ([Kim et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R17); [Kim et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R18); [Kleinstiver et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R19)), closely resembling the effects of mismatches on the binding rate constant rather than effects on equilibrium binding ([Figure 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#F3)).
 Our results also highlight a key difference between Cas12a and Cas9. As noted earlier, the positions of strong discrimination against mismatches are confined to a PAM-proximal “seed” region for Cas9, as measured both in cells by DNA cleavage and _in vitro_ by binding experiments ([Boyle et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R2); [Hsu et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R13); [Singh et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R27); [Sternberg et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R32)). Analogous to our results for Cas12a and supported by recent kinetics experiments on Cas9 ([Gong et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#R9)), it appears likely that DNA binding also limits the rate of cleavage by Cas9 _in vivo_. Thus, the limited seed region for Cas9 specificity implies that the transition state for R-loop formation is reached upon formation of fewer base pairs than for Cas12a. We conclude, from this difference, that the position of the transition state for binding can be influenced by properties of the Cas endonuclease, not just by the intrinsic reversibility of the R-loop, which would be equivalent for Cas12a and Cas9. Further, the variation in transition state position suggests the possibility of engineering nucleases to shift the transition state even further into the PAM-distal region of the R-loop, extending the region and the overall levels of specificity for gene editing applications.
+---
 ##  STAR★METHODS
 ### CONTACT FOR REAGENT AND RESOURCE SHARING
 Requests for further information and reagents should be directed to the Lead Contact, Rick Russell (rick_russell@cm.utexas.edu).
@@ -145,6 +126,7 @@ The raw data reported in this paper are available from Mendeley Datasets at <htt
   * Specificity against mismatches suggests a late transition state for R-loop formation
   * Data explain _in vivo_ cleavage patterns by Cas12a and differences from Cas9
 
+---
 ##  ACKNOWLEDGMENTS
 We thank Prof. Ken Johnson and Dr. Shanzhong Gong for use of the stopped-flow fluorimeter and for guidance with the 2-AP fluorescence experiments, Prof. Ailong Ke for providing a Twin-Strep-Sumo expression vector, and Prof. Dan Herschlag and members of the Russell and Finkelstein labs for comments on the manuscript. This work was supported by NIGMS grants P01GM066275 (to R.R., co-investigator) and R01GM124141 (to I.J.F.) and by Welch Foundation grants F-1563 (to R.R.) and F-1808 (to I.J.F.).
 
@@ -199,68 +181,7 @@ We thank Prof. Ken Johnson and Dr. Shanzhong Gong for use of the stopped-flow fl
   48. Zetsche B, Heidenreich M, Mohanraju P, Fedorova I, Kneppers J, DeGennaro EM, Winblad N, Choudhury SR, Abudayyeh OO, Gootenberg JS, et al. (2017). Multiplex gene editing by CRISPR-Cpf1 using a single crRNA array. Nat. Biotechnol 35, 31–34. [[DOI](https://doi.org/10.1038/nbt.3737)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5225075/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/27918548/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Nat.%20Biotechnol&title=Multiplex%20gene%20editing%20by%20CRISPR-Cpf1%20using%20a%20single%20crRNA%20array&author=B%20Zetsche&author=M%20Heidenreich&author=P%20Mohanraju&author=I%20Fedorova&author=J%20Kneppers&volume=35&publication_year=2017&pages=31-34&pmid=27918548&doi=10.1038/nbt.3737&)]
   49. Zhong G, Wang H, Li Y, Tran MH, and Farzan M (2017). Cpf1 proteins excise CRISPR RNAs from mRNA transcripts in mammalian cells. Nat. Chem. Biol 13, 839–841. [[DOI](https://doi.org/10.1038/nchembio.2410)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5577360/)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/28628097/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Nat.%20Chem.%20Biol&title=Cpf1%20proteins%20excise%20CRISPR%20RNAs%20from%20mRNA%20transcripts%20in%20mammalian%20cells&author=G%20Zhong&author=H%20Wang&author=Y%20Li&author=MH%20Tran&author=M%20Farzan&volume=13&publication_year=2017&pages=839-841&pmid=28628097&doi=10.1038/nchembio.2410&)]
 
-## ACTIONS
-  * [ View on publisher site ](https://doi.org/10.1016/j.molcel.2018.06.043)
-  * [ PDF (1.9 MB) ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/pdf/nihms-1040849.pdf)
-  * Cite
-  * Collections
-  * Permalink
-## PERMALINK
-Copy
 
-## RESOURCES
-###  Similar articles 
-###  Cited by other articles 
-###  Links to NCBI Databases 
-## On this page
-  * [SUMMARY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#ABS1)
-  * [Graphical Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#ABS2)
-  * [In Brief](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#ABS3)
-  * [INTRODUCTION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S1)
-  * [RESULTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S2)
-  * [DISCUSSION](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S7)
-  * [STAR★METHODS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S8)
-  * [METHOD DETAILS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S10)
-  * [QUANTIFICATION AND STATISTICAL ANALYSIS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S18)
-  * [DATA AND SOFTWARE AVAILABILITY](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S19)
-  * [Supplementary Material](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#SM1)
-  * [ACKNOWLEDGMENTS](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#S20)
-  * [Footnotes](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#fn-group1)
-  * [REFERENCES](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#ref-list1)
-  * [Associated Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/#_ad93_)
+---
 
-## Cite
-* Copy
-  * [ Download .nbib .nbib ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/ "Download a file for external citation management software")
-  * Format: AMA  APA  MLA  NLM 
-
-## Add to Collections
-Create a new collection
-Add to an existing collection
-Name your collection *
-Choose a collection 
-Unable to load your collection due to an error  
-[Please try again](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/)
-Add  Cancel 
-Follow NCBI 
-[ NCBI on X (formerly known as Twitter) ](https://twitter.com/ncbi) [ NCBI on Facebook ](https://www.facebook.com/ncbi.nlm) [ NCBI on LinkedIn ](https://www.linkedin.com/company/ncbinlm) [ NCBI on GitHub ](https://github.com/ncbi) [ NCBI RSS feed ](https://ncbiinsights.ncbi.nlm.nih.gov/)
-Connect with NLM 
-[ NLM on X (formerly known as Twitter) ](https://twitter.com/nlm_nih) [ NLM on Facebook ](https://www.facebook.com/nationallibraryofmedicine) [ NLM on YouTube ](https://www.youtube.com/user/NLMNIH)
-[National Library of Medicine   
-8600 Rockville Pike  
-Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%0A%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%0A%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323)
-  * [ Web Policies ](https://www.nlm.nih.gov/web_policies.html)
-  * [ FOIA ](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
-  * [ HHS Vulnerability Disclosure ](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
-
-  * [ Help ](https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Amanuscript)
-  * [ Accessibility ](https://www.nlm.nih.gov/accessibility.html)
-  * [ Careers ](https://www.nlm.nih.gov/careers/careers.html)
-
-  * [ NLM ](https://www.nlm.nih.gov/)
-  * [ NIH ](https://www.nih.gov/)
-  * [ HHS ](https://www.hhs.gov/)
-  * [ USA.gov ](https://www.usa.gov/)
-
-Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/8a2a0396/var/data/static/img/arrow_upward.svg)
-  *[*]: required
+*Archived from [PubMed Central (PMC6679935)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/) on 2025-07-19.*
