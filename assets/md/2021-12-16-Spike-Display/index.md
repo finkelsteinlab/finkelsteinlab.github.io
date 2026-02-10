@@ -8,104 +8,24 @@ pmcid: PMC8675084
 
 # Rapid characterization of spike variants via mammalian cell surface display
 
-# Rapid characterization of spike variants via mammalian cell surface display
-[Kamyab Javanmardi](https://pubmed.ncbi.nlm.nih.gov/?term="Javanmardi%20K"\[Author\])
-### Kamyab Javanmardi
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Kamyab Javanmardi](https://pubmed.ncbi.nlm.nih.gov/?term="Javanmardi%20K"\[Author\])
-1,∗, [Chia-Wei Chou](https://pubmed.ncbi.nlm.nih.gov/?term="Chou%20CW"\[Author\])
-### Chia-Wei Chou
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Chia-Wei Chou](https://pubmed.ncbi.nlm.nih.gov/?term="Chou%20CW"\[Author\])
-1, [Cynthia I Terrace](https://pubmed.ncbi.nlm.nih.gov/?term="Terrace%20CI"\[Author\])
-### Cynthia I Terrace
-2CCDC Army Research Laboratory-South, Austin, TX, USA
-Find articles by [Cynthia I Terrace](https://pubmed.ncbi.nlm.nih.gov/?term="Terrace%20CI"\[Author\])
-2, [Ankur Annapareddy](https://pubmed.ncbi.nlm.nih.gov/?term="Annapareddy%20A"\[Author\])
-### Ankur Annapareddy
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Ankur Annapareddy](https://pubmed.ncbi.nlm.nih.gov/?term="Annapareddy%20A"\[Author\])
-1, [Tamer S Kaoud](https://pubmed.ncbi.nlm.nih.gov/?term="Kaoud%20TS"\[Author\])
-### Tamer S Kaoud
-3Division of Chemical Biology and Medicinal Chemistry, College of Pharmacy, The University of Texas at Austin, Austin, TX, USA
-Find articles by [Tamer S Kaoud](https://pubmed.ncbi.nlm.nih.gov/?term="Kaoud%20TS"\[Author\])
-3, [Qingqing Guo](https://pubmed.ncbi.nlm.nih.gov/?term="Guo%20Q"\[Author\])
-### Qingqing Guo
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Qingqing Guo](https://pubmed.ncbi.nlm.nih.gov/?term="Guo%20Q"\[Author\])
-1, [Josh Lutgens](https://pubmed.ncbi.nlm.nih.gov/?term="Lutgens%20J"\[Author\])
-### Josh Lutgens
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Josh Lutgens](https://pubmed.ncbi.nlm.nih.gov/?term="Lutgens%20J"\[Author\])
-1, [Hayley Zorkic](https://pubmed.ncbi.nlm.nih.gov/?term="Zorkic%20H"\[Author\])
-### Hayley Zorkic
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Hayley Zorkic](https://pubmed.ncbi.nlm.nih.gov/?term="Zorkic%20H"\[Author\])
-1, [Andrew P Horton](https://pubmed.ncbi.nlm.nih.gov/?term="Horton%20AP"\[Author\])
-### Andrew P Horton
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Andrew P Horton](https://pubmed.ncbi.nlm.nih.gov/?term="Horton%20AP"\[Author\])
-1, [Elizabeth C Gardner](https://pubmed.ncbi.nlm.nih.gov/?term="Gardner%20EC"\[Author\])
-### Elizabeth C Gardner
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Elizabeth C Gardner](https://pubmed.ncbi.nlm.nih.gov/?term="Gardner%20EC"\[Author\])
-1, [Giaochau Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20G"\[Author\])
-### Giaochau Nguyen
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Giaochau Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term="Nguyen%20G"\[Author\])
-1, [Daniel R Boutz](https://pubmed.ncbi.nlm.nih.gov/?term="Boutz%20DR"\[Author\])
-### Daniel R Boutz
-2CCDC Army Research Laboratory-South, Austin, TX, USA
-Find articles by [Daniel R Boutz](https://pubmed.ncbi.nlm.nih.gov/?term="Boutz%20DR"\[Author\])
-2, [Jule Goike](https://pubmed.ncbi.nlm.nih.gov/?term="Goike%20J"\[Author\])
-### Jule Goike
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Jule Goike](https://pubmed.ncbi.nlm.nih.gov/?term="Goike%20J"\[Author\])
-1, [William N Voss](https://pubmed.ncbi.nlm.nih.gov/?term="Voss%20WN"\[Author\])
-### William N Voss
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [William N Voss](https://pubmed.ncbi.nlm.nih.gov/?term="Voss%20WN"\[Author\])
-1, [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-### Hung-Che Kuo
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-Find articles by [Hung-Che Kuo](https://pubmed.ncbi.nlm.nih.gov/?term="Kuo%20HC"\[Author\])
-1, [Kevin N Dalby](https://pubmed.ncbi.nlm.nih.gov/?term="Dalby%20KN"\[Author\])
-### Kevin N Dalby
-3Division of Chemical Biology and Medicinal Chemistry, College of Pharmacy, The University of Texas at Austin, Austin, TX, USA
-Find articles by [Kevin N Dalby](https://pubmed.ncbi.nlm.nih.gov/?term="Dalby%20KN"\[Author\])
-3, [Jimmy D Gollihar](https://pubmed.ncbi.nlm.nih.gov/?term="Gollihar%20JD"\[Author\])
-### Jimmy D Gollihar
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-2CCDC Army Research Laboratory-South, Austin, TX, USA
-4Center for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, TX, USA
-5Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA
-Find articles by [Jimmy D Gollihar](https://pubmed.ncbi.nlm.nih.gov/?term="Gollihar%20JD"\[Author\])
-1,2,4,5, [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-### Ilya J Finkelstein
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-5Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA
-Find articles by [Ilya J Finkelstein](https://pubmed.ncbi.nlm.nih.gov/?term="Finkelstein%20IJ"\[Author\])
-1,5,6,∗∗
-  * Author information
-  * Article notes
-  * Copyright and License information
+**Kamyab Javanmardi†, Chia-Wei Chou, Cynthia Terrace, Ankur Annapareddy, Tamer S. Kaoud, Qingqing Guo, Josh Lutgens, Hayley Zorkic, Andrew P. Horton, Elizabeth C. Gardner, Giaochau Nguyen, Daniel R. Boutz, Jule Goike, Will N. Voss, Hung-Che Kuo, Kevin N. Dalby, Jimmy D. Gollihar, and Ilya J. Finkelstein†** († co-corresponding)
 
-1Department of Molecular Biosciences, The University of Texas at Austin, Austin, TX 78712, USA
-2CCDC Army Research Laboratory-South, Austin, TX, USA
-3Division of Chemical Biology and Medicinal Chemistry, College of Pharmacy, The University of Texas at Austin, Austin, TX, USA
-4Center for Molecular and Translational Human Infectious Diseases Research, Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston Methodist Hospital, Houston, TX, USA
-5Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA
-∗
-Corresponding author kjavanmardi@utexas.edu
-∗∗
-Corresponding author ilya@finkelsteinlab.org
-6
-Lead contact
-Received 2021 Apr 30; Revised 2021 Sep 16; Accepted 2021 Nov 19.
-© 2021 The Authors. Published by Elsevier Inc.
-This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
-[PMC Copyright notice](https://pmc.ncbi.nlm.nih.gov/about/copyright/)
-PMCID: PMC8675084 PMID: [34919820](https://pubmed.ncbi.nlm.nih.gov/34919820/)
+*Mol. Cell*, Volume 81, Issue 24, Pages 5099–5111.e8 (2021)
+
+**DOI:** [10.1016/j.molcel.2021.11.024](https://doi.org/10.1016/j.molcel.2021.11.024)
+
+---
+
+## Table of Contents
+
+- [Summary](#summary)
+- [Introduction](#introduction)
+- [Design](#design)
+- [Results](#results)
+- [Discussion](#discussion)
+- [STAR Methods](#star-methods)
+
+---
 ##  Summary
 The SARS-CoV-2 spike protein is a critical component of vaccines and a target for neutralizing monoclonal antibodies (nAbs). Spike is also undergoing immunogenic selection with variants that increase infectivity and partially escape convalescent plasma. Here, we describe Spike Display, a high-throughput platform to rapidly characterize glycosylated spike ectodomains across multiple coronavirus-family proteins. We assayed ∼200 variant SARS-CoV-2 spikes for their expression, ACE2 binding, and recognition by 13 nAbs. An alanine scan of all five N-terminal domain (NTD) loops highlights a public epitope in the N1, N3, and N5 loops recognized by most NTD-binding nAbs. NTD mutations in variants of concern B.1.1.7 (alpha), B.1.351 (beta), B.1.1.28 (gamma), B.1.427/B.1.429 (epsilon), and B.1.617.2 (delta) impact spike expression and escape most NTD-targeting nAbs. Finally, B.1.351 and B.1.1.28 completely escape a potent ACE2 mimic. We anticipate that Spike Display will accelerate antigen design, deep scanning mutagenesis, and antibody epitope mapping for SARS-CoV-2 and other emerging viral threats.
 **Keywords:** COVID-19, variants, cell display, N-terminal domain, receptor-binding domain
@@ -123,15 +43,18 @@ An ACE2 peptide mimic has lost potency against several broadly circulating varia
 
 * * *
 The SARS-CoV-2 spike protein is a critical target of the immune system. Javanmardi et al. report a mammalian cell display platform for rapidly screening the antigenicity and ACE2 affinity of spike variants. This platform, termed Spike Display, accelerates antigen design and antibody epitope mapping for viral glycoproteins.
+---
 ##  Introduction
 Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of the COVID-19 pandemic, causing > 200 million infections and > 4.3 million deaths worldwide (as of August 14, 2021). Related betacoronaviruses SARS-CoV-1 and Middle Eastern Respiratory Syndrome (MERS) have also caused epidemics, in 2002 and 2012, respectively ([Abdelrahman et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib1); [Peiris et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib54); [Zumla et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib80)). Human coronavirus (HKU1), first discovered in 2004, often manifests as a mild upper respiratory disease ([Woo et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib69)). The large reservoir of diverse and endemic coronaviruses in animals, and their frequent zoonotic transmission, suggests that future human outbreaks are inevitable ([Grange et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib23); [Kreuder Johnson et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib36); [Li et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib41)).
 Coronaviruses infect cells via attachment of viral transmembrane spike (S) glycoproteins ([Li, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib40)). SARS-CoV-2 spike interacts with angiotensin-converting enzyme 2 (ACE2) and other cell surface receptors to mediate fusion between the virus envelope and cell membrane ([Cantuti-Castelvetri et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib9); [Yan et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib73); [Zhang et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib77)). Spike homotrimers consist of the S1 and S2 functional subdomains ([Wrapp et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib70)). After spike binds ACE2, structural rearrangements in the spike and cleavage by host proteases separate the S1 subunit from the S2 stalk ([Li, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib40)). The S2 stalk then undergoes further conformational changes that lead to membrane fusion and cell entry. The S1 subunit, which is composed of the N-terminal domain (NTD) and receptor-binding domain (RBD) ([Wrapp et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib70)), is the key determinant of tissue and host tropism ([Li, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib40)).
 Humoral immunity to the spike glycoprotein is the most potent means of protection from SARS-CoV-2 ([McMahan et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib52)). SARS-CoV-2 vaccines generate a strong polyclonal antibody response by delivering spikes via immunization ([Baden et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib5); [Polack et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib57); [Yu et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib75)). Spike is also the primary target for prophylactic and therapeutic neutralizing monoclonal antibodies (nAbs) and ACE2 binding inhibitors ([Cao et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib10); [Chan et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib13), [2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib12); [Linsky et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib43); [Piccoli et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib55)). However, spike mutates and recombines, establishing new variants for immunogenic selection ([Bobay et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib7)). Multiple variants of concern (VOCs) have increased viral transmissibility and antibody escape ([Bobay et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib7); [Li et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib41)). Since the emergence of a globally dominant D614G mutation ([Korber et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib35); [Long et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib46); [Yurkovetskiy et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib76)), newer VOCs with compound spike mutations have taken hold. The B.1.1.7 (alpha) ([Davies et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib18); [Leung et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib39)), B.1.351 (beta) ([Wang et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib67)), B.1.1.28 (gamma) ([Hoffmann et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib30)), B.1.427/B.1.429 (epsilon) ([Deng et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib19); [McCallum et al., 2021a](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib49)), and B.1.617.2 (delta) ([Planas et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib56)) lineages are of particular concern because they partially evade monoclonal antibodies, convalescent sera, and vaccine-induced humoral immunity ([Garcia-Beltran et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib22)). The antigenicity and infectivity of new virus variants are often assayed via live virus, pseudotyped virus, and animal protection experiments. These assays are low throughput and require lengthy viral preparations ([Wang et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib67)).
 Cell surface display of the spike protein or its subdomains is a high-throughput platform approach to functionally characterize key aspects of SARS-CoV-2 variants ([Starr et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib60); [Wagner et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib66)). For example, Starr et al. and others have expressed the RBD on the surface of yeast cells to measure the subdomain expression, ACE2 binding affinity, and RBD-targeting nAb escape ([Greaney et al., 2021b](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib27), [2021a](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib26); [Linsky et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib43); [Starr et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib61); [Urdaniz et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib64)). However, all spike VOCs include critical mutations that are outside the RBD. Moreover, the humoral immune response produces potent nAbs that target the NTD as well as the RBD. Here, we describe a new experimental platform that measures spike expression, receptor binding, and antibody escape across variant spike homotrimers on the surface of mammalian cells.
 Spike Display is a high-throughput platform to characterize spike glycoproteins from diverse coronavirus families. Complex spike variants are displayed on the surface of mammalian cells and assayed via flow cytometry. Spikes can be cleaved from cell surfaces to further accelerate structural and biophysical characterization. Using this platform, we mapped an NTD supersite that is recognized by the majority of NTD-directed nAbs. We also characterized the individual mutations composing the B.1.1.7, B.1.351, B.1.1.28, B.1.427/B.1.429, and B.1.617.2 variants using flow cytometry and biolayer interferometry (BLI). All five complex variants show escape from NTD-targeting nAbs, whereas B.1.351, B.1.1248, and to a lesser degree B.1.427/B.1.429 escape some RBD-targeting nAbs. Destabilizing mutations such as Δ242-244 and R246I in B.1.351, which enable nAb escape, are compensated for by stabilizing mutations D215G and K417N. The conserved N501Y mutation found in B.1.1.7, B.1.351, and B.1.1.28 also increases ACE2 binding affinity. Most VOCs also escape the ACE2-mimetic LCB1 peptide, suggesting that micropeptide inhibitors must be updated or used as part of a multi-component inhibitor cocktail ([Cao et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib10)). We anticipate that Spike Display will accelerate antigen design, spike characterization, and epitope mapping to aid ongoing and future pandemic countermeasures.
+---
 ##  Design
 Pandemic countermeasures require the rapid design of antigens for vaccines, profiling patient antibody responses, and the surveillance of emerging viral lineages. Cell surface display can facilitate these goals by coupling the phenotypes of protein variants to their DNA sequence. Screening surface-displayed proteins via flow cytometry also eliminates time-consuming protein purification steps. _S. cerevisiae_ is an attractive display chassis that has been used for epitope mapping and deep mutational scanning (DMS) of the SARS-CoV-2 spike RBD ([Greaney et al., 2021b](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib27), [2021a](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib26); [Starr et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib61), [2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib60); [Urdaniz et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib64)). These experiments provide valuable insight into the mechanisms for viral evolution and immune escape but also face several limitations. First, yeast is unable to produce full-length spikes. The RBD constitutes only one domain of a highly dynamic and complex homotrimer. Antibodies that target the spike NTD, S2, and other regions outside the RBD are an important source of nAbs and, in turn, viral escape strategies. Second, antigens produced in yeast do not recapitulate mammalian glycosylation ([Hamilton et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib28)). These differences may alter a protein’s antigenicity toward cell receptors and antibodies ([Grant et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib25)). To overcome these limitations, we developed a mammalian cell surface display platform for viral glycoproteins.
 Spike Display is designed for phenotypic screening of full-length viral glycoproteins on the surface of mammalian cells. As a proof of principle, we displayed the SARS-CoV-2 spike protein on the surface of human embryonic kidney (HEK293T) cells. HEK293Ts and other mammalian cell lines express the spike homotrimers with glycosylation patterns comparable to authentic viral spike proteins ([Allen et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib3); [Yao et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib74)). We use a SARS-CoV-2 spike ectodomain coding sequence (residues 1–1208) containing six pre-fusion stabilizing prolines ([Hsieh et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib31); [Wrapp et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib70)) and a mutated furin cleavage site to improve spike stability and expression. The promoters, chimeric introns, and terminators were also optimized to further boost protein expression in mammalian cells. Combinations of N-terminal secretion tags and C-terminal linkers were screened for optimal surface display density. Due to the variability of plasmid transfections in mammalian cell cultures, we included a triple FLAG epitope tag as a proxy for spike expression levels and as an internal control for signal normalization. Transfected cells expressing spikes can be immunostained and analyzed by flow cytometry. A 3C protease cleavage site and a Strep II tag are included in the C-terminal linker to enable the cleavage and rapid purification of surface-displayed spikes. This allows users to characterize spike variants cleaved from cell surfaces using conventional biochemical and biophysical methods (i.e., negative-stain electron microscopy [nsEM] and BLI). We anticipate that Spike Display will be a valuable tool for current and future pandemic countermeasures.
+---
 ##  Results
 ### Assessing spike variants on mammalian cell surfaces
 We express the SARS-CoV-2 spike ectodomain on the surface of human embryonic kidney (HEK293T) cells. Six proline substitutions stabilize the homotrimeric complex in the pre-fusion state, along with the globally dominant D614G mutation (termed 6P-D614G) ([Hsieh et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib31); [Korber et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib35); [Long et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib46)). Spike is directed to cell membranes via an N-terminal Ig kappa secretion signal and a C-terminal PDGFR-β transmembrane domain ([Lim et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib42)). The 58 amino acid (aa) flexible linker includes a triple FLAG (3xFLAG) epitope tag as a proxy for expression, a StrepII tag for purification, and a 3C protease cleavage site ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#fig1)A). Immunostained fixed cells show spike at the cell membrane ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#fig1)B; [Figures S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#mmc1)A and S1B). We confirmed the native homotrimeric assembly via nsEM of spikes that were cleaved from the cell surface by 3C protease ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#fig1)C). Two-dimensional class averages indicate that > 99% of the surface-displayed spikes are in the pre-fusion conformation, with the majority (71%) of the particles having one RBD up ([Figure S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#mmc1)C). These results are consistent with previous assessments of HexaPro (6P) and D614G spike RBD up-down equilibrium ([Hsieh et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib31); [Wrapp et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib70); [Yurkovetskiy et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib76)).
@@ -193,6 +116,7 @@ ACE2 mimics lose effectiveness against some variants of concern
 (A) Schematic of the LCB1 peptide and ACE2 competing for RBD binding.
 (B) Co-structure (PDB: [7JZL](http://pdb:7JZL) [[Cao et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib10)]) of LCB1 (green) binding the RBD (yellow) with contacting residues (white) and four notable VOC mutations (orange) highlighted.
 (C) Competition assay with a constant concentration of ACE2 and increasing concentrations of LCB1 using spike displayed VOCs (error bars, SD of three biological replicates as measured by flow cytometry).
+---
 ##  Discussion
 We developed Spike Display to accelerate vaccine design and to rapidly assess the effects of mutations in emerging virus strains. Pre-fusion stabilized spike is the primary antigen delivered via immunization. Pre-fusion stabilization requires laborious biochemical assays following structure-guided selection of promising stabilizing mutations ([Hsieh et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib31); [Juraszek et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib33); [Pallesen et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib53); [Wrapp et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib70)). Spike Display shortens this workflow by rapidly assessing the expression of individual point mutants and their combinatorial derivatives ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#fig1)D). Spikes can be cleaved from cell surfaces for structural and biophysical characterization. We anticipate that Spike Display can be adapted for diverse coronavirus-family spikes and other viral antigens ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#fig1)E) ([Bruun et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib8); [Starr et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib60); [Zhou et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib79)).
 Spike Display complements structure-function studies for high-resolution epitope mapping. We focused on the NTD because it is under heavy mutational pressure in circulating SARS-CoV-2 variants and elicits nAbs in convalescent patients ([Chi et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib15); [Liu et al., 2020a](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib44); [McCallum et al., 2021b](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib50); [Suryadevara et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib62); [Voss et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib65)). The mechanisms of NTD-mediated viral inhibition remain unknown, but NTD-binding antibodies do not block ACE2 binding. Our NTD scan uncovered that most of the NTD-binding nAbs recognize a public epitope composed of the N3 and N5 loops. These loops may be required for additional conformations that occur after ACE2 recognition. Although circulating variants escape first-generation NTD-binding nAbs, these epitopes are an important target for second-generation antibody therapeutics. We conclude that the NTD is under strong evolutionary pressure and that existing NTD-targeting nAbs must be paired with nAbs that target other epitopes to avoid therapeutic evasion.
@@ -201,6 +125,7 @@ Spike Display accelerates the characterization of antibody-spike interactions an
 ### Limitations
 The following caveats must be kept in mind when designing experiments conducted on surface-tethered proteins. The C-terminal transmembrane domain and linker peptide may alter antibody accessibility relative to native spike proteins. Simultaneous binding of the spike antigen and FLAG epitopes may slightly alter conformations and epitope accessibility. These effects should be considered when profiling antibodies with different binding modes. The glycosylation pattern may also not match that seen in native viruses. Using pre-fusion stabilizing mutations in the base construct (6P-D614G) increases the overall expression level but may alter intra-trimer conformational changes, such as the recently reported opening of the S2 domains ([Huang et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib32)). When profiling large changes in the antigenicity of variant spikes, we compared binding at a limited set of antibody concentrations. Performing a serial dilution series with eight or more antibody concentrations will reflect changes in the apparent binding kinetics ([Adams et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib2); [Greaney et al., 2021b](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib27); [Starr et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib60)). If such information is necessary for a particular application, Spike Display can perform comprehensive titration curves. Follow-up viral neutralization assays, structural studies, and other biophysical assays should be conducted to further bolster these _in vitro_ measurements.
 Spike Display is not yet compatible with high-throughput pooled variant screening and DMS. Current iterations of Spike Display screen viral glycoprotein variants one at a time, making this a useful platform for rapid assessment of protein stability, epitope mapping of antibody-binding sites, and assessment of circulating variants of interest. However, we anticipate that Spike Display library sizes can be extended by several orders of magnitude with recently developed DMS tools in mammalian cells ([Matreyek et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/#bib48)). Using pooled libraries and fluoresce-assisted cell sorting will further increase the experimental throughput of this platform.
+---
 ##  STAR★Methods
 ### Key resources table
 REAGENT or RESOURCE | SOURCE | IDENTIFIER  
@@ -418,3 +343,7 @@ Document S2. Article plus supplemental information
 • This paper analyzes existing, publicly available data from previous publications. Datasets are listed in the key resources table.
 • This paper does not report original code.
 • Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon reasonable request.
+
+---
+
+*Archived from [PubMed Central (PMC8675084)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/) on 2025-07-19.*
