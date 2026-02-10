@@ -14,6 +14,7 @@ supplement:
 doi: 10.1016/j.jbc.2023.105296
 pmcid: PMC10656236
 pmid: 37774974
+markdown: 2023-09-28-AFM-cohesin-NIPBL
 extra_text: ''
 category: paper
 tags:: High-speed AFM imaging, cohesin DNA binding and loop extrusion, protein-DNA interaction dynamics, multi-subunit protein complexes, protein conformational changes
