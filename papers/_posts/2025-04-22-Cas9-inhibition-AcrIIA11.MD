@@ -14,6 +14,7 @@ supplement: 2021-BioRxiv-Dillard et al-supplement.pdf
 doi: 10.1093/nar/gkaf318
 pmcid: PMC12022753
 pmid: 40277083
+markdown: 2025-04-22-Cas9-inhibition-AcrIIA11
 extra_text: ''
 category: paper
 tags: Anti-CRISPR, single-molecule, DNA Curtains, Acr
