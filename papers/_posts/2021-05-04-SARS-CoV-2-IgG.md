@@ -14,6 +14,7 @@ supplement: 0068-2021-Science-Voss et al-supplement.pdf
 doi: 10.1126/science.abg5268
 pmcid: PMC7781304
 pmid: 33947773
+markdown: 2021-05-04-SARS-CoV-2-IgG
 extra_text: '
 **Press:**
 
