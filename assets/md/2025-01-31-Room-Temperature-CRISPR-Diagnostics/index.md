@@ -23,6 +23,7 @@ pmcid: PMC11785965
 - [Materials and Methods](#materials-and-methods)
 - [Results](#results)
 - [Discussion](#discussion)
+- [References](#references)
 
 ---
 
@@ -200,3 +201,59 @@ The compatibility of RPA-TsCas12a with lateral flow addresses a long-standing is
 ---
 
 *Archived from [PubMed Central (PMC11785965)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11785965/) on 2025-07-19.*
+
+---
+
+## References
+
+1. Land, K. J., Boeras, D. I., Chen, X.-S., Ramsay, A. R. & Peeling, R. W. REASSURED diagnostics to inform disease control strategies, strengthen health systems and improve patient outcomes. *Nat. Microbiol.* **4**, 46–54 (2019). [DOI: 10.1038/s41564-018-0295-3](https://doi.org/10.1038/s41564-018-0295-3)
+
+2. Mabey, D., Peeling, R. W., Ustianowski, A. & Perkins, M. D. Diagnostics for the developing world. *Nat. Rev. Microbiol.* **2**, 231–240 (2004). [DOI: 10.1038/nrmicro841](https://doi.org/10.1038/nrmicro841)
+
+3. Oliveira, B. B., Veigas, B. & Baptista, P. V. Isothermal amplification of nucleic acids: The race for the Next "Gold Standard". *Front. Sens.* **2**, 752600 (2021).
+
+4. García-Bernalt Diego, J., Fernández-Soto, P. & Muro, A. The future of point-of-care nucleic acid amplification diagnostics after COVID-19: Time to walk the walk. *Int. J. Mol. Sci.* **23**, 14110 (2022). [DOI: 10.3390/ijms232214110](https://doi.org/10.3390/ijms232214110)
+
+5. Cantera, J. L. et al. Assessment of eight nucleic acid amplification technologies for potential use to detect infectious agents in low-resource settings. *PLOS ONE* **14**, e0215756 (2019). [DOI: 10.1371/journal.pone.0215756](https://doi.org/10.1371/journal.pone.0215756)
+
+6. LaBarre, P. et al. A simple, inexpensive device for nucleic acid amplification without electricity—toward instrument-free molecular diagnostics in low-resource settings. *PLoS ONE* **6**, e19738 (2011). [DOI: 10.1371/journal.pone.0019738](https://doi.org/10.1371/journal.pone.0019738)
+
+7. Chen, J. S. et al. CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity. *Science* **360**, 436–439 (2018). [DOI: 10.1126/science.aar6245](https://doi.org/10.1126/science.aar6245)
+
+8. Ghouneimy, A., Mahas, A., Marsic, T., Aman, R. & Mahfouz, M. CRISPR-based diagnostics: Challenges and potential solutions toward point-of-care applications. *ACS Synth. Biol.* **12**, 1–16 (2023). [DOI: 10.1021/acssynbio.2c00496](https://doi.org/10.1021/acssynbio.2c00496)
+
+9. Gootenberg, J. S. et al. Nucleic acid detection with CRISPR-Cas13a/C2c2. *Science* **356**, 438–442 (2017). [DOI: 10.1126/science.aam9321](https://doi.org/10.1126/science.aam9321)
+
+10. Kaminski, M. M., Abudayyeh, O. O., Gootenberg, J. S., Zhang, F. & Collins, J. J. CRISPR-based diagnostics. *Nat. Biomed. Eng.* **5**, 643–656 (2021). [DOI: 10.1038/s41551-021-00760-7](https://doi.org/10.1038/s41551-021-00760-7)
+
+11. Li, H. et al. Amplification-free CRISPR/Cas detection technology: Challenges, strategies, and perspectives. *Chem. Soc. Rev.* **52**, 361–382 (2023). [DOI: 10.1039/d2cs00594h](https://doi.org/10.1039/d2cs00594h)
+
+12. Nalefski, E. A. et al. Kinetic analysis of Cas12a and Cas13a RNA-Guided nucleases for development of improved CRISPR-based diagnostics. *iScience* **24**, 102996 (2021). [DOI: 10.1016/j.isci.2021.102996](https://doi.org/10.1016/j.isci.2021.102996)
+
+13. Smith, J. S. et al. Human papillomavirus type distribution in invasive cervical cancer and high-grade cervical lesions: A meta-analysis update. *Int. J. Cancer* **121**, 621–632 (2007). [DOI: 10.1002/ijc.22527](https://doi.org/10.1002/ijc.22527)
+
+14. Daher, R. K., Stewart, G., Boissinot, M. & Bergeron, M. G. Recombinase polymerase amplification for diagnostic applications. *Clin. Chem.* **62**, 947–958 (2016). [DOI: 10.1373/clinchem.2015.245829](https://doi.org/10.1373/clinchem.2015.245829)
+
+15. Nguyen, L. T. et al. Harnessing noncanonical crRNAs to improve functionality of Cas12a orthologs. *Cell Rep.* **43**, 113777 (2024). [DOI: 10.1016/j.celrep.2024.113777](https://doi.org/10.1016/j.celrep.2024.113777)
+
+16. Nalefski, E. A. et al. Determinants of CRISPR Cas12a nuclease activation by DNA and RNA targets. *Nucl. Acid. Res.* **52**, 4502–4522 (2024). [DOI: 10.1093/nar/gkae152](https://doi.org/10.1093/nar/gkae152)
+
+17. Kleinstiver, B. P. et al. Engineered CRISPR–Cas12a variants with increased activities and improved targeting ranges for gene, epigenetic and base editing. *Nat. Biotechnol.* **37**, 276–282 (2019). [DOI: 10.1038/s41587-018-0011-0](https://doi.org/10.1038/s41587-018-0011-0)
+
+18. Schindele, P. & Puchta, H. Engineering CRISPR/*Lb*Cas12a for highly efficient, temperature-tolerant plant gene editing. *Plant. Biotechnol. J.* **18**, 1118–1120 (2020). [DOI: 10.1111/pbi.13275](https://doi.org/10.1111/pbi.13275)
+
+19. Lu, S. et al. Fast and sensitive detection of SARS-CoV-2 RNA using suboptimal protospacer adjacent motifs for Cas12a. *Nat. Biomed. Eng.* **6**, 286–297 (2022). [DOI: 10.1038/s41551-022-00861-x](https://doi.org/10.1038/s41551-022-00861-x)
+
+20. Zhang, G., Fauzi Haroon, M., Zhang, R., Hikmawan, T. & Stingl, U. Draft genome sequences of two *Thiomicrospira* strains isolated from the brine-seawater interface of Kebrit Deep in the Red Sea. *Genome Announc.* **4**, e00110-16 (2016). [DOI: 10.1128/genomeA.00110-16](https://doi.org/10.1128/genomeA.00110-16)
+
+21. Eder, W., Jahnke, L. L., Schmidt, M. & Huber, R. Microbial diversity of the brine-seawater interface of the Kebrit Deep, Red Sea, studied via 16S rRNA gene sequences and cultivation methods. *Appl. Environ. Microbiol.* **67**, 3077–3085 (2001). [DOI: 10.1128/AEM.67.7.3077-3085.2001](https://doi.org/10.1128/AEM.67.7.3077-3085.2001)
+
+22. Gunde-Cimerman, N., Plemenitaš, A. & Oren, A. Strategies of adaptation of microorganisms of the three domains of life to high salt concentrations. *FEMS Microbiol. Rev.* **42**, 353–375 (2018). [DOI: 10.1093/femsre/fuy009](https://doi.org/10.1093/femsre/fuy009)
+
+23. Nouri, R., Dong, M., Politza, A. J. & Guan, W. Figure of merit for CRISPR-based nucleic acid-sensing systems: Improvement strategies and performance comparison. *ACS Sens.* **7**, 900–911 (2022). [DOI: 10.1021/acssensors.2c00024](https://doi.org/10.1021/acssensors.2c00024)
+
+24. Aslanzadeh, J. Preventing PCR amplification carryover contamination in a clinical laboratory. *Ann. Clin. Lab. Sci.* **34**, 389–396 (2004).
+
+25. Borst, A., Box, A. T. A. & Fluit, A. C. False-positive results and contamination in nucleic acid amplification assays: Suggestions for a prevent and destroy strategy. *Eur. J. Clin. Microbiol. Infect. Dis.* **23**, 289–299 (2004). [DOI: 10.1007/s10096-004-1100-1](https://doi.org/10.1007/s10096-004-1100-1)
+
+26. Bissonnette, L. & Bergeron, M. G. Next revolution in the molecular theranostics of infectious diseases: Microfabricated systems for personalized medicine. *Expert. Rev. Mol. Diagn.* **6**, 433–450 (2006). [DOI: 10.1586/14737159.6.3.433](https://doi.org/10.1586/14737159.6.3.433)
