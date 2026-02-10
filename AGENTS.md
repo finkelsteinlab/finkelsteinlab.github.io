@@ -270,6 +270,65 @@ All content updates are done via YAML and markdown files — you should never ne
 
 ---
 
+## Full-Text Paper Markdown (PMC Scraping)
+
+Papers with a `pmcid` field can have full-text HTML scraped from PubMed Central and saved as local markdown with figures.
+
+### How it works
+
+- **Script:** `/tmp/pmc-to-md.py` (or recreate — it crawls PMC, downloads figures, strips chrome)
+- **Output:** `assets/md/<paper-slug>/index.md` + figure JPGs in same directory
+- **Linking:** Add `markdown: <paper-slug>` to the paper's front matter (the slug is the filename stem, e.g., `2023-06-22-PAMless-DNA-SpRY-Cas9`)
+- **Templates:** `papers/loop.html` shows `[MD]` badge; `_includes/themes/lab/paper.html` shows `Full text (md)` link
+- **Layouts:** `_layouts/paper-md.html` renders the archived markdown with back-navigation
+
+### Critical: the `markdown` field stores ONLY the slug
+
+The templates prepend `/assets/md/` and append `/` to build the URL:
+```
+markdown: 2023-06-22-PAMless-DNA-SpRY-Cas9
+→ href="/assets/md/2023-06-22-PAMless-DNA-SpRY-Cas9/"
+→ serves assets/md/2023-06-22-PAMless-DNA-SpRY-Cas9/index.md
+```
+
+Do NOT put a full path or `/assets/md/` prefix in the `markdown` field — the templates add it.
+
+### Adding full-text for a new paper
+
+1. Ensure the paper post has a `pmcid` field
+2. Run: `uv run /tmp/pmc-to-md.py papers/_posts/<filename>`
+3. Add `markdown: <slug>` to the paper's front matter (before `extra_text:` or `category:`)
+4. Commit both the `assets/md/<slug>/` directory and the updated paper post
+
+### Notes
+
+- 83 papers currently have PMC full-text archives (82 with `markdown:` field + 1 IgG/Science with no figures on PMC)
+- Figure naming varies by journal — the script uses a catch-all approach (keeps all PMC CDN blob images except UI icons)
+- The `paper-md` layout uses `paper_slug` from the archive's front matter to link back to the paper post
+- Papers without `pmcid` (preprints, older papers not in PMC) need PDF→MD conversion via `marker_single` instead
+
+---
+
+## News and Press Archives
+
+External links from `_data/news.yml` and paper press coverage can be archived as local markdown.
+
+### News archives
+
+- **Location:** `assets/md/news/<date-domain-slug>/index.md`
+- **Layout:** `_layouts/news-md.html`
+- **Linking:** Add `([md](/assets/md/news/<slug>/))` after the external link in `news.yml`
+- Links must NOT include `.md` extension — Jekyll converts `.md` files to `.html`
+
+### Paper press archives
+
+- **Location:** `assets/md/papers/<paper-post-slug>/press/<outlet-slug>.md`
+- **Linking:** Added to paper post's `extra_text` field under `**Press:**` header
+- Format: `[Title (Outlet)](url) ([md](/assets/md/papers/.../press/slug))`
+- Links must NOT include `.md` extension
+
+---
+
 ## Deployment
 
 1. Make edits and commit.
