@@ -324,8 +324,59 @@ External links from `_data/news.yml` and paper press coverage can be archived as
 
 - **Location:** `assets/md/papers/<paper-post-slug>/press/<outlet-slug>.md`
 - **Linking:** Added to paper post's `extra_text` field under `**Press:**` header
-- Format: `[Title (Outlet)](url) ([md](/assets/md/papers/.../press/slug))`
+- Format: `[Title (Outlet)](url) ([pdf](/assets/md/papers/.../press/slug.pdf) &#124; [md](/assets/md/papers/.../press/slug))`
 - Links must NOT include `.md` extension
+- Use `&#124;` for the pipe character inside YAML `extra_text` strings
+
+### Scraping workflow for news/press articles
+
+Always produce **both** a clean markdown archive and a PDF snapshot for every article.
+
+#### Step 1: Scrape with crawl4ai
+
+```bash
+crwl crawl <URL> -o md -bc
+```
+
+#### Step 2: Write clean markdown
+
+- Use `layout: news-md` front matter with `title`, `source_url`, `archived` (YYYY-MM-DD) fields
+- Add a proper `# Heading` and any subtitle/byline
+- Clean body text with proper paragraph spacing
+- Fix broken or mangled links (common in EurekAlert scrapes)
+- Format metadata (journal, DOI, etc.) as inline `**Label:** value` pairs, not separate headings
+- Remove all site navigation chrome, social share buttons, footers, cookie banners
+- Add `---` separator before metadata block and before the archive footer
+- End with: `*Archived from [Source Name](URL) on YYYY-MM-DD.*`
+- **Goal: human-readable, clean article** — not a raw scrape dump
+
+#### Step 3: Print to PDF from Chrome
+
+```bash
+# Ensure Chrome is running
+~/.pi/agent/skills/browser-tools/browser-ensure.js --profile
+
+# Navigate to the source URL
+~/.pi/agent/skills/browser-tools/browser-nav.js <URL>
+
+# Print to PDF (uses puppeteer Page.pdf via CDP)
+cd ~/.pi/agent/skills/browser-tools && node browser-pdf.js <output-path.pdf>
+```
+
+The `browser-pdf.js` helper lives at `~/.pi/agent/skills/browser-tools/browser-pdf.js`.
+
+#### Step 4: Update links
+
+- **Paper press:** `([pdf](/assets/md/papers/.../press/slug.pdf) &#124; [md](/assets/md/papers/.../press/slug))`
+- **News:** `([pdf](/assets/md/news/<slug>/article.pdf) &#124; [md](/assets/md/news/<slug>/))` — or place PDF alongside `index.md`
+
+#### Step 5: Commit
+
+Commit the markdown, PDF, and link update together.
+
+#### Example output
+
+See: `assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert.md` and `.pdf`
 
 ---
 
