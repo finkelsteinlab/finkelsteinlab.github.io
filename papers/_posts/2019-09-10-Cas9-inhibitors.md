@@ -14,6 +14,7 @@ supplement: 0054-2019-eLife-Forsberg et al-supplement.pdf
 doi: 10.7554/eLife.46540
 pmcid: PMC6739867 
 pmid: 31502535
+markdown: 2019-09-10-Cas9-inhibitors
 extra_text: ''
 category: paper
 tags: [CRISPR-Cas; E. coli; S. pyogenes; anti-CRISPR; bacterial defense systems; functional metagenomics; human; human microbiome; infectious disease; microbiology; phage]
