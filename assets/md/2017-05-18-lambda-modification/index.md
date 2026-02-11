@@ -24,6 +24,7 @@ pmcid: PMC5437064
 - [Discussion](#discussion)
 - [Materials and Methods](#materials-and-methods)
 - [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 ---
 
@@ -109,7 +110,7 @@ Fluorescent particles were tracked in FIJI with a custom-written particle tracki
 yPCNA-binding distributions were determined by calculating the distance between the center of DNA-bound fluorescent particles and the chromium barrier. yPCNAs were deemed to be on the DNA substrate if they retracted to the chromium barrier when buffer flow was toggled off and on. All binding distributions were collected from at least three flowcells. When indicated, these were fit to a Gaussian distribution using the MATLAB curve-fitting toolbox.
 #### Statistical methods
 Error bars on the yPCNA binding distributions were calculated in MATLAB using bootstrap analysis with replacement[62]. Statistical tests were conducted in the PAST3 software package[63] or in MATLAB (Mathworks). A Pearson’s chi-squared test was used to determine whether the different DNA substrates have statistically significant effects on yPCNA sliding (Tables [S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/#MOESM1) and [S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/#MOESM1)). The significance threshold was set at 0.05 in all tests.
-Wild type yRFC nonspecifically loads yPCNA on homoduplex DNA[43]. This makes it difficult to determine whether the mild enrichment at the (CAG)13 repeat is statistically significant for any single target DNA. Therefore, we used the two-tailed t test to determine whether loading yPCNA at the (CAG)13 repeat on all three DNA substrates has the same normalized frequency as loading on all homoduplex DNA sequences (the null hypothesis). For this test, the entire DNA substrate was divided into eight windows, each containing 5 kb of DNA. A 5 kb window captures >99% of all target-bound yPCNAs within our spatial resolution, as determined by analysis of the 5′-ssDNA flap structure (Fig. [4]). Thus, each modified DNA substrate has a single window with a (CAG)13 repeat and 7 windows with nonspecific homoduplex DNA. A two-tailed t-test demonstrated that the mild enrichment in the (CAG)13 window is statistically significant relative to yPCNA binding in all other homoduplex windows (Fig. [S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/#MOESM1)).
+Wild type yRFC nonspecifically loads yPCNA on homoduplex DNA[43]. This makes it difficult to determine whether the mild enrichment at the (CAG)13 repeat is statistically significant for any single target DNA. Therefore, we used the two-tailed t test to determine whether loading yPCNA at the (CAG)13 repeat on all three DNA substrates has the same normalized frequency as loading on all homoduplex DNA sequences (the null hypothesis). For this test, the entire DNA substrate was divided into eight windows, each containing 5 kb of DNA. A 5 kb window captures >99% of all target-bound yPCNAs within our spatial resolution, as determined by analysis of the 5′-ssDNA flap structure ([Fig. 4](#fig4)). Thus, each modified DNA substrate has a single window with a (CAG)13 repeat and 7 windows with nonspecific homoduplex DNA. A two-tailed t-test demonstrated that the mild enrichment in the (CAG)13 window is statistically significant relative to yPCNA binding in all other homoduplex windows (Fig. [S3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/#MOESM1)).
 #### Measuring diffusion coefficients
 _y_ PCNA diffusion coefficients were measured on double-tethered DNA curtains that extend DNA molecules between two micro-fabricated chromium features in the absence of buffer flow[32], [34]. The average separation between the two chromium features was 13 µm (~80% extension relative to B-form DNA). Trajectories of individual molecules were used to calculate the one-dimensional (1D) mean squared displacement (MSD) as a function of time interval using:
 MSD(nΔt)=1N−n∑i=1N−n(yi+n−yi)2 | 1  
@@ -128,6 +129,74 @@ We are indebted to Manju Hingorani, Bruce Stillman, and Francisco Blanco for sha
 Y.K., A.D. and I.J.F. designed the experiments and wrote the main manuscript text. Y.K., A.D. and A.A.L. performed the experiments. A.D. and A.A.L. contributed to Figures 1–3 and Y.K. prepared Figures 4 and 5, as well as the supplemental figures. Y.K. and A.D. contributed equally to the preparation of the manuscript. All authors have reviewed and given approval to the submitted manuscript.
 ### Competing Interests
 The authors declare that they have no competing interests.
+
+---
+
+## References
+
+1. Bustamante C. In singulo Biochemistry: When Less Is More. Annual Review of Biochemistry. 2008;77:45–50.
+2. Ha T. Single-molecule methods leap ahead. Nat Meth. 2014;11:1015–1018.
+3. Ngo TTM, et al. Asymmetric unwrapping of nucleosomes under tension directed by DNA local flexibility. Cell. 2015;160:1135–1144.
+4. Kemmerich FE, et al. Simultaneous Single-Molecule Force and Fluorescence Sampling of DNA Nanostructure Conformations Using Magnetic Tweezers. Nano Lett. 2016;16:381–386.
+5. Candelli A, Wuite GJL, Peterman EJG. Combining optical trapping, fluorescence microscopy and micro-fluidics for single molecule studies of DNA–protein interactions. Physical Chemistry Chemical Physics. 2011;13:7263–2853.
+6. Cordova JC, Das DK, Manning HW, Lang MJ. Combining single-molecule manipulation and single-molecule detection. Curr. Opin. Struct. Biol. 2014;28:142–148.
+7. Chemla YR. High-resolution, hybrid optical trapping methods, and their application to nucleic acid processing proteins. Biopolymers. 2016;105:704–714.
+8. Liu S, et al. A Viral Packaging Motor Varies Its DNA Rotation and Step Size to Preserve Subunit Coordination as the Capsid Fills. Cell. 2014;157:702–713.
+9. Thorpe HM, Smith MC. In vitro site-specific integration of bacteriophage DNA catalyzed by a recombinase of the resolvase/invertase family. Proc. Natl. Acad. Sci. USA. 1998;95:5505–5510.
+10. Bell JC, Plank JL, Dombrowski CC, Kowalczykowski SC. Direct imaging of RecA nucleation and growth on single molecules of SSB-coated ssDNA. Nature. 2012;491:274–8.
+11. Luzzietti N, Knappe S, Richter I, Seidel R. Nicking enzyme-based internal labeling of DNA at multiple loci. Nat. Protocols. 2012;7:643–653.
+12. Luzzietti N, et al. Efficient preparation of internally modified single-molecule constructs using nicking enzymes. Nucl. Acids Res. 2011;39:e15–e15.
+13. Berezney JP, Saleh OA. Locked nucleic acid oligomers as handles for single molecule manipulation. Nucl. Acids Res. 2014;42:e150–e150.
+14. Zohar H, Hetherington CL, Bustamante C, Muller SJ. Peptide Nucleic Acids as Tools for Single-Molecule Sequence Detection and Manipulation. Nano Lett. 2010;10:4697–4701.
+15. Zohar H, Muller SJ. Labeling DNA for single-molecule experiments: methods of labeling internal specific sequences on double-stranded DNA. Nanoscale. 2011;3:3027–3039.
+16. Kuhn H, Frank-Kamenetskii MD. Labeling of unique sequences in double-stranded DNA at sites of vicinal nicks generated by nicking endonucleases. Nucl. Acids Res. 2008;36:e40–e40.
+17. Luzzietti N, et al. Efficient preparation of internally modified single-molecule constructs using nicking enzymes. Nucl. Acids Res. 2011;39:e15–e15.
+18. Yardimci H, et al. Bypass of a protein barrier by a replicative DNA helicase. Nature. 2012;492:205–209.
+19. Gorman J, et al. Single-molecule imaging reveals target-search mechanisms during DNA mismatch repair. Proc Natl Acad Sci USA. 2012;109:e3074–e3083.
+20. Pluciennik A, et al. Extrahelical (CAG)/(CTG) triplet repeat elements support proliferating cell nuclear antigen loading and MutLα endonuclease activation. Proc. Natl. Acad. Sci. USA. 2013;110:12277–12282.
+21. Iyer RR, Pluciennik A, Napierala M, Wells RD. DNA triplet repeat expansion and mismatch repair. Annual Review of Biochemistry. 2015;84:199–226.
+22. Schmidt MHM, Pearson CE. Disease-associated repeat instability and mismatch repair. DNA Repair (Amst.). 2016;38:117–126.
+23. Hendrix RW. Lambda II. Cold Spring Harbor Laboratory, 1983.
+24. Chauthaiwale VM, Therwath A, Deshpande VV. Bacteriophage lambda as a cloning vector. Microbiol Rev. 1992;56:577–591.
+25. Hernandez VJ, Edlind TD, Young RF, Ihler GM. The DNA between Rz and cosR in bacteriophage lambda is nonessential. Gene. 1985;33:363–365.
+26. Sharan SK, Thomason LC, Kuznetsov SG, Court DL. Recombineering: A Homologous Recombination-Based Method of Genetic Engineering. Nat Protoc. 2009;4:206–223.
+27. Pines G, Freed EF, Winkler JD, Gill RT. Bacterial Recombineering: Genome Engineering via Phage-Based Homologous Recombination. ACS Synth Biol. 2015;4:1176–1185.
+28. Datsenko KA, Wanner BL. One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc. Natl. Acad. Sci. USA. 2000;97:6640–6645.
+29. Liu P, Jenkins NA, Copeland NG. A Highly Efficient Recombineering-Based Method for Generating Conditional Knockout Mutations. Genome Res. 2003;13:476–484.
+30. George HJ, Watson RJ, Harbrecht DF, DeLorbe WJ. A Bacteriophage λ cI857 Cassette Controls λ PL Expression Vectors at Physiologic Temperatures. Nat Biotech. 1987;5:600–603.
+31. Chang CY, Nam K, Young R. S gene expression and the timing of lysis by bacteriophage lambda. J Bacteriol. 1995;177:3283–3294.
+32. Gallardo IF, et al. High-Throughput Universal DNA Curtain Arrays for Single-Molecule Fluorescence Imaging. Langmuir. 2015;31:10310–10317.
+33. Robison AD, Finkelstein IJ. Rapid prototyping of multichannel microfluidic devices for single-molecule DNA curtain imaging. Anal. Chem. 2014;86:4157–4163.
+34. Finkelstein IJ, Greene EC. Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. Methods Mol. Biol. 2011;745:447–461.
+35. Simons A, Tils D, von Wilcken-Bergmann B, Müller-Hill B. Possible ideal lac operator: Escherichia coli lac operator-like sequences from eukaryotic genomes lack the central G X C pair. Proc Natl Acad Sci USA. 1984;81:1624–1628.
+36. Finkelstein IJ, Visnapuu M-L, Greene EC. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468:983–987.
+37. Price AC, et al. DNA Motion Capture Reveals the Mechanical Properties of DNA at the Mesoscale. Biophysical Journal. 2015;108:2532–2540.
+38. Lee JY, Finkelstein IJ, Arciszewska LK, Sherratt DJ, Greene EC. Single-molecule imaging of FtsK translocation reveals mechanistic features of protein-protein collisions on DNA. Mol. Cell. 2014;54:832–843.
+39. Myler LR, et al. Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. Proc. Natl. Acad. Sci. USA. 2016;113:e1170–e1179.
+40. Brown MW, et al. Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions. Nat Commun. 2016;7:10607.
+41. Fien K, Stillman B. Identification of replication factor C from Saccharomyces cerevisiae: a component of the leading-strand DNA replication complex. Mol. Cell. Biol. 1992;12:155–163.
+42. Krishna TSR, Kong X-P, Gary S, Burgers PM, Kuriyan J. Crystal structure of the eukaryotic DNA polymerase processivity factor PCNA. Cell. 1994;79:1233–1243.
+43. Majka J, Burgers PMJ. The PCNA-RFC families of DNA clamps and clamp loaders. Prog. Nucleic Acid Res. Mol. Biol. 2004;78:227–260.
+44. Gomes XV, Burgers PMJ. ATP Utilization by Yeast Replication Factor I. ATP-Mediated Interaction with DNA and with Proliferating Cell Nuclear Antigen. J. Biol. Chem. 2001;276:34768–34775.
+45. Bowman GD, O'Donnell M, Kuriyan J. Structural analysis of a eukaryotic sliding DNA clamp–clamp loader complex. Nature. 2004;429:724–730.
+46. Finkelstein J, Antony E, Hingorani MM, O'Donnell M. Overproduction and analysis of eukaryotic multiprotein complexes in Escherichia coli using a dual-vector strategy. Analytical Biochemistry. 2003;319:78–87.
+47. Dieckman LM, Freudenthal BD, Washington MT. PCNA structure and function: insights from structures of PCNA complexes and post-translationally modified PCNA. Subcell. Biochem. 2012;62:281–299.
+48. Gomes XV, Schmidt SLG, Burgers PMJ. ATP Utilization by Yeast Replication Factor II. Multiple Stepwise ATP Binding Events are Required to Load Proliferating Cell Nuclear Antigen onto Primed DNA. J. Biol. Chem. 2001;276:34776–34783.
+49. Kochaniak AB, et al. Proliferating cell nuclear antigen uses two distinct modes to move along DNA. J. Biol. Chem. 2009;284:17700–17710.
+50. Yao N, Hurwitz J, O'Donnell M. Dynamics of β and Proliferating Cell Nuclear Antigen Sliding Clamps in Traversing DNA Secondary Structure. J. Biol. Chem. 2000;275:1421–1432.
+51. Mills JB, Vacano E, Hagerman PJ. Flexibility of single-stranded DNA: use of gapped duplex helices to determine the persistence lengths of poly(dT) and poly(dA). J Mol Biol. 1999;285:245–257.
+52. Zheng M, et al. Secondary structure of single-stranded DNA binding protein: circular dichroism and fluorescence studies. Biochemistry. 1988;27:1751–1756.
+53. Pearson CE, Sinden RR. Alternative structures in duplex DNA formed within the trinucleotide repeats of the myotonic dystrophy and fragile X loci. Biochemistry. 1996;35:5041–5053.
+54. Gacy AM, et al. Trinucleotide repeats that expand in human disease form hairpin structures in vitro. Cell. 1995;81:533–540.
+55. Mitas M, et al. Hairpin properties of single-stranded DNA containing a GC-rich triplet repeat: (CTG)15. Nucleic Acids Res. 1995;23:1050–1059.
+56. Gorman J, et al. Dynamic basis for one-dimensional DNA scanning by the mismatch repair complex Msh2-Msh6. Mol Cell. 2007;28:359–370.
+57. Goellner EM, et al. PCNA and Msh2-Msh6 activate an Mlh1-Pms1 endonuclease pathway required for Exo1-independent mismatch repair. Mol Cell. 2014;55:291–304.
+58. Court DL, Sawitzke JA, Thomason LC. Genetic engineering using homologous recombination. Annu Rev Genet. 2002;36:361–388.
+59. Thomason LC, Costantino N, Court DL. E. coli genome manipulation by P1 transduction. Curr Protoc Mol Biol. 2007;Chapter 1:Unit 1.17.
+60. Schindelin J, et al. Fiji: an open-source platform for biological-image analysis. Nat Methods. 2012;9:676–682.
+61. Visnapuu ML, Greene EC. Single-molecule imaging of DNA curtains reveals intrinsic energy landscapes for nucleosome deposition. Nat Struct Mol Biol. 2009;16:1056–1062.
+62. Efron B, Tibshirani RJ. An Introduction to the Bootstrap. Chapman and Hall/CRC; 1994.
+63. Hammer Ø, Harper DAT, Ryan PD. PAST: Paleontological statistics software package for education and data analysis. Palaeontologia Electronica. 2001;4:9.
 
 ---
 

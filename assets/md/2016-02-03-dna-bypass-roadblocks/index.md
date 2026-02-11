@@ -144,6 +144,74 @@ Insertion of the flap oligonucleotide abolishes an _Nco_ I site within the λ-DN
 Alkaline agarose gels were used to monitor complete re-ligation of the nicked λ-DNA. 1.5 μg of proteinase K treated DNA was loaded into a 0.6% alkaline agarose gel using 6 × alkaline gel-loading buffer (300 mM NaOH, 6 mM EDTA, 18% (w/v) glycerol and 0.15% (w/v) Orange G (NEB)). Gels were run in 1x alkaline electrophoresis buffer (50 mM EDTA pH 8.0, 1 M NaOH) for 24 h at 20 V and 4 °C. Gels were incubated in neutralization buffer (1 M Tris-Cl pH 7.6, 1.5 M NaCl) for 45 min at RT, stained in a solution of 1 × TAE and 0.5 μg ml−1 ethidium bromide for 30 min, and de-stained by soaking in ddH20 for 20 min. Gels were imaged with a Typhoon gel imager.
 ### Visualizing via single-molecule fluorescence imaging
 To directly visualize the flap oligonucleotide within DNA curtains, oligonucleotides MB35 and MB36 were inserted into the DNA to generate a substrate with a 3′-ssDNA flap terminated with a DIG label. The oligonucleotide was incorporated into the DNA substrate, purified and assembled into DNA curtains. The digylated DNA was labelled _in situ_ with 12.5 ng μl−1 of DIG monoclonal antibody (Life Technologies #700772) followed by 10 nM of Goat anti-Rabbit QD605 conjugate (Life Technologies #Q-11401MP). The average signal from 150 frames was used to calculate the QD position.
+## References
+
+1. Tafvizi A., Mirny L. A. & van Oijen A. M. Dancing on DNA: kinetic aspects of search processes on DNA. *Chem. Phys. Chem.* 12, 1481–1489 (2011).
+
+2. Halford S. E. & Marko J. F. How do site-specific DNA-binding proteins find their targets? *Nucleic Acids Res.* 32, 3040–3052 (2004).
+
+3. Blainey P. C. et al. Nonspecifically bound proteins spin while diffusing along DNA. *Nat. Struct. Mol. Biol.* 16, 1224–1229 (2009).
+
+4. Cravens S. L. et al. Molecular crowding enhances facilitated diffusion of two human DNA glycosylases. *Nucleic Acids Res.* 43, 4087–4097 (2015).
+
+5. Schonhoft J. D. & Stivers J. T. Timing facilitated site transfer of an enzyme on DNA. *Nat. Chem. Biol.* 8, 205–210 (2012).
+
+6. Elf J., Li G.-W. & Xie X. S. Probing transcription factor dynamics at the single-molecule level in a living cell. *Science* 316, 1191–1194 (2007).
+
+7. Koh H. R., Kidwell M. A., Ragunathan K., Doudna J. A. & Myong S. ATP-independent diffusion of double-stranded RNA binding proteins. *Proc. Natl Acad. Sci.* 110, 151–156 (2013).
+
+8. Chandradoss S. D., Schirle N. T., Szczepaniak M., MacRae I. J. & Joo C. A dynamic search process underlies microRNA targeting. *Cell* 162, 96–107 (2015).
+
+9. Marcovitz A. & Levy Y. Obstacles may facilitate and direct DNA search by proteins. *Biophys. J.* 104, 2042–2050 (2013).
+
+10. Brackley C. A., Cates M. E. & Marenduzzo D. Intracellular facilitated diffusion: searchers, crowders, and blockers. *Phys. Rev. Lett.* 111, 108101 (2013).
+
+11. Jiricny J. Postreplicative mismatch repair. *Cold Spring Harb. Perspect. Biol.* 5, a012633 (2013).
+
+12. Kunkel T. A. & Erie D. A. DNA mismatch repair. *Annu. Rev. Biochem.* 74, 681–710 (2005).
+
+13. Gradia S. et al. hMSH2-hMSH6 forms a hydrolysis-independent sliding clamp on mismatched DNA. *Mol. Cell* 3, 255–261 (1999).
+
+14. Lee J.-B. et al. Single-molecule views of MutS on mismatched DNA. *DNA Repair* 20, 82–93 (2014).
+
+15. Erie D. A. & Weninger K. R. Single molecule studies of DNA mismatch repair. *DNA Repair* 20, 71–81 (2014).
+
+16. Pluciennik A. & Modrich P. Protein roadblocks and helix discontinuities are barriers to the initiation of mismatch repair. *Proc. Natl Acad. Sci. USA* 104, 12709–12713 (2007).
+
+17. Gorman J., Plys A. J., Visnapuu M.-L., Alani E. & Greene E. C. Visualizing one-dimensional diffusion of eukaryotic DNA repair factors along a chromatin lattice. *Nat. Struct. Mol. Biol.* 17, 932–938 (2010).
+
+18. Li F., Tian L., Gu L. & Li G.-M. Evidence that nucleosomes inhibit mismatch repair in eukaryotic cells. *J. Biol. Chem.* 284, 33056–33061 (2009).
+
+19. Sogo J. M., Stahl H., Koller T. & Knippers R. Structure of replicating simian virus 40 minichromosomes: the replication fork, core histone segregation and terminal structures. *J. Mol. Biol.* 189, 189–204 (1986).
+
+20. Shell S. S., Putnam C. D. & Kolodner R. D. Chimeric Saccharomyces cerevisiae Msh6 protein with an Msh3 mispair-binding domain combines properties of both proteins. *Proc. Natl Acad. Sci. USA* 104, 10956–10961 (2007).
+
+21. Hombauer H., Srivatsan A., Putnam C. D. & Kolodner R. D. Mismatch repair, but not heteroduplex rejection, is temporally coupled to DNA replication. *Science* 334, 1713–1716 (2011).
+
+22. Goellner E. M., Putnam C. D. & Kolodner R. D. Exonuclease 1-dependent and independent mismatch repair. *DNA Repair* 32, 24–32 (2015).
+
+23. Sugawara N., Pâques F., Colaiácovo M. & Haber J. E. Role of Saccharomyces cerevisiae Msh2 and Msh3 repair proteins in double-strand break-induced recombination. *Proc. Natl Acad. Sci. USA* 94, 9214–9219 (1997).
+
+24. Li F. et al. Role of Saw1 in Rad1/Rad10 complex assembly at recombination intermediates in budding yeast. *EMBO J.* 32, 461–472 (2013).
+
+25. Iyer R. R., Pluciennik A., Napierala M. & Wells R. D. DNA triplet repeat expansion and mismatch repair. *Annu. Rev. Biochem.* 84, 199–226 (2015).
+
+26. Spies M. & Fishel R. Mismatch repair during homologous and homeologous recombination. *Cold Spring Harb. Perspect. Biol.* 7, a022657 (2015).
+
+27. Gorman J. et al. Dynamic basis for one-dimensional DNA scanning by the mismatch repair complex Msh2-Msh6. *Mol. Cell* 28, 359–370 (2007).
+
+28. Gallardo I. F. et al. High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. *Langmuir* 31, 10310–10317 (2015).
+
+29. Robison A. D. & Finkelstein I. J. Rapid prototyping of multichannel microfluidic devices for single-molecule DNA curtain imaging. *Anal. Chem.* 86, 4157–4163 (2014).
+
+30. Finkelstein I. J., Visnapuu M.-L. & Greene E. C. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. *Nature* 468, 983–987 (2010).
+
+31. Hohng S. & Ha T. Near-complete suppression of quantum dot blinking in ambient conditions. *J. Am. Chem. Soc.* 126, 1324–1325 (2004).
+
+*Note: References 32-70 are cited in the text and available at the [original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4742970/).*
+
+
+---
 ##  Additional information
 **How to cite this article:** Brown, M. W. _et al_. Dynamic DNA binding licences a repair factor to bypass roadblocks in search of DNA lesions. _Nat. Commun._ 7:10607 doi: 10.1038/ncomms10607 (2016).
 

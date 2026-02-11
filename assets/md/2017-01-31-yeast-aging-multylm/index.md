@@ -49,7 +49,7 @@ Here, we report the first high-throughput characterization of both RLS and aging
 ### A high-throughput microfluidic assay for measuring the replicative lifespan of fission yeast
 Replicative lifespan assays require the separation of cells after every division. This is traditionally done via manual micro-dissection of sibling cells, a laborious process that is especially difficult for symmetrically dividing fission yeast. We recently developed a microfluidic platform for capturing and immobilizing individual fission yeast cells via their old cell tips ([Spivey et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib68)). However, our first-generation device could only observe a single strain per experiment, required an unconventional fabrication strategy, and suffered from frequent cell loss that ultimately shortened the observation time. To address these limitations, we developed a multiplexed fission yeast lifespan microdissector (multFYLM, [Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig1)), along with a dedicated software package designed to streamline the analysis and quantification of raw microscopy data. Single cells are geometrically constrained within catch channels, preserving the orientation of the cell poles over multiple generations ([Figure 1A–B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig1)). The cells divide by medial fission, thereby ensuring that the oldest cell pole is retained deep within the catch channel. If new-pole tips are loaded initially, then these outward-facing tips become the old-pole tips after the first division.
 
-***Figure 1.*** A multiplexed fission yeast lifespan microdissector (multFYLM).
+***[Figure 1](#fig1).*** A multiplexed fission yeast lifespan microdissector (multFYLM).
 (**A**) Illustration of multFYLM (gray) loaded with fission yeast (orange). Blue arrows represent the media flow though the multFYLM. (**B**) Left: Fission yeast cells initially grow from the old-pole end (magenta). After new end takeoff (NETO), growth begins at the new-pole end (green). Right: multFYLM permits tracking of the old-pole cell, as well as its most recent siblings. (**C**) Optical image of a multFYLM showing six independent subsystems. Arrows indicate direction of media flow. Scanning electron micrographs of (**D**) a multFYLM subsystem and (**E**) a single catch channel. The channel is long enough to accommodate the old-pole cell, as well as the most recent new-pole sibling. (**F**) White-light microscope image of a row of catch channels loaded with cells. (**G**) Time-lapse images (**H**) and single-cell traces of a replicating cell. The old-pole (magenta) is held in place while the new-pole (green) is free to grow. The old-pole of the most recent sibling (black) extends until it is removed by flow into the central trench (after ~2 hr 30 m).
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.003](https://doi.org/10.7554/eLife.20340.003)
 ![Figure 1.](elife-20340-fig1.jpg)
@@ -78,7 +78,7 @@ An inverted fluorescence microscope with a programmable motorized stage allowed 
 ### The fission yeast replicative lifespan is not affected by aging
 We used the multFYLM to measure the fission yeast RLS ([Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig2)). From these data, we plotted the replicative survival curve ([Figure 2A](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig2)) and determined the survival function, [Figure 2B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig2)). The hazard rate (also called the death rate) can be calculated for any generational age using this function. Surprisingly, the fission yeast survival curve did not fit the traditional aging-dependent Gompertz model, ([Gompertz, 1825](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib23); [Greenwood, 1928](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib24); [Wilson, 1993](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib77)), which describes survival and hazard in terms of a generation-dependent (_i.e.,_ aging) and a generation-independent term ([Equation (2)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#equ2) in Materials and methods). The RLS data were best described by a single exponential decay, corresponding to a generation-independent hazard rate. Strikingly, the hazard rate does not increase as the replicative age increases; instead, it remains steady at an average ~2% chance of death per cell per generation. For comparison, we also analyzed the survival data and hazard function for budding yeast (_S. cerevisiae_) grown in a microfluidic device ([Jo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib32)). As expected, the budding yeast hazard function increases with each generation and fits the aging-dependent Gompertz model. Thus, the replicative age, 
 
-***Figure 2.*** The fission yeast replicative lifespan (RLS).
+***[Figure 2](#fig2).*** The fission yeast replicative lifespan (RLS).
 (**A**) Survival curves for wild-type _S. pombe_ (black) and wild-type _S. cerevisiae_ (brown, data from [Jo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib32)); both were grown in microfluidic microdissection devices. Numbers indicate the average lifespan. Red lines are a fit to a Gompertz (_S. cerevisiae_) and exponential decay (_S. pombe_) survival models. Shading indicates 95% confidence interval (C.I.). Dashed blue line: 50% survival. (**B**) Hazard rate curves for the data shown in (**A**). The hazard rate increases dramatically with increased replicative age for _S. cerevisiae_ but not for _S. pombe_.
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.008](https://doi.org/10.7554/eLife.20340.008)
 ![Figure 2.](elife-20340-fig2.jpg)
@@ -94,7 +94,7 @@ The RLS is defined by the number of generations at which 50% of the starting cel
 ### Aging-associated phenotypes do not correlate with death in fission yeast
 Prior RLS studies have identified three common phenotypes associated with cellular aging ([Henderson et al., 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib28); [Piper, 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib62)). In budding yeast, aging mother cells increase in cell size, progressively slow their doubling times, and produce daughters with decreased fitness ([Mortimer and Johnston, 1959](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib57); [Bartholomew and Mittwer, 1953](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib4); [Kennedy et al., 1994](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib38)). Whether older fission yeast cells also undergo similar aging-associated phenotypes remains unresolved. To answer these outstanding questions, we examined time-dependent changes in morphology, doubling times, and sibling health in individual fission yeast cells as they approached death. Quantitative observation of cell length revealed two classes of dying cells: the majority (72%; n = 234) died prior to reaching the normal division length (<16.2 µm, [Figure 3A–B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)). The remaining cells (28%; n = 92) showed an elongated phenotype and exceeded the average division time by more than three-fold. In _S. pombe,_ cell length is strongly correlated with division time and cell length, indicating that cell cycle checkpoints were likely dysregulated in these dying cells ([Mitchison and Nurse, 1985](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib56); [Sveiczer et al., 1996](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib70); [Wood and Nurse, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib80); [Hachet et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib26)). Despite these differences in length at death, most cells had normal doubling times throughout their lifespan ([Figure 3C–D](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)). Next, we investigated whether there were any morphological changes in the generations preceding death. The majority of cells retained wild type cell lengths and doubling rates until the penultimate cell division. In the two generations immediately preceding death, there was a mild, but statistically significant change in the distributions of cell lengths ([Figure 3E](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)) and doubling times ([Figure 3F](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)). However, we did not observe any predictable trends for individual cells, arguing against a consistent pattern of age-related decline. In sum, _S. pombe_ dies without any aging-associated morphological changes.
 
-***Figure 3.*** Fission yeast does not show signs of aging.
+***[Figure 3](#fig3).*** Fission yeast does not show signs of aging.
 ![Figure 3.](elife-20340-fig3.jpg)
 (**A**) Images of cells showing a short (top) and long (bottom) phenotype at death. Triangles indicate the old-pole, new-pole, and the new-pole of the previous division as in [Figure 1G](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig1). Scale bar: 10 µm. (**B**) Histogram of cell length at death. The birth length was 8.3 ± 1.5 µm (mean ± st. dev., n = 326) and the length at division was 16 ± 2.2 µm (n = 326). (**C**) Cells dying with either short (top) or long (bottom) phenotype have normal length and (**D**) doubling times prior to death, as indicated by five representative cells. (**E**) Distribution of length and (**F**) doubling time at division in the five generations preceding death. Cells were post-synchronized to the time of death. The black bar shows the median value for each generation (n > 290 cells for all conditions). Sequential generations were compared using the Kolmogorov-Smirnov test (* for p<0.05, ** for p<0.01).
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.011](https://doi.org/10.7554/eLife.20340.011)
@@ -124,14 +124,14 @@ DOI: 10.7554/eLife.20340.015
 Time-lapse images of a cell where the last new-pole cell does not divide. Scale bar is 20 µm.
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.015](https://doi.org/10.7554/eLife.20340.015)
 
-***Figure 4.*** Analysis of siblings born during the last division of a dying cell.
+***[Figure 4](#fig4).*** Analysis of siblings born during the last division of a dying cell.
 ![Figure 4.](elife-20340-fig4.jpg)
 (**A**) Last new-pole sibling continued to divide (top), died after one division (middle) or died without dividing (bottom). (**B**) The distribution of last-sibling phenotypes as a function of the old-pole replicative age (n = 245). Error bars are st. dev. measured by bootstrap analysis. (**C**) The length at division and (**D**) the doubling time of the new-pole siblings. Vertical black lines and gray bars show the mean and standard deviation of the total cell population.
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.012](https://doi.org/10.7554/eLife.20340.012)
 ### Genetic manipulation and rapamycin treatment extend replicative lifespan
 The histone deacetylase Sir2p modulates lifespan and aging in a wide variety of organisms from yeasts to mice ([Wierman and Smith, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib76); [Donmez and Guarente, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib16); [Ganley and Kobayashi, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib22)). For example, _sir2_ deletion (_sir2Δ_) in budding yeast reduces the replicative lifespan by ~50% ([Jo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib32); [Kaeberlein et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib35)), whereas Sir2p overexpression can increase the RLS by up to 30% ([Kaeberlein et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib35)). The _S. pombe_ genome encodes three Sir2p homologs, one of which shares a high degree of sequence similarity and biochemical functions with the budding yeast Sir2p ([Shankaranarayana et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib66); [Freeman-Cook et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib20)). Although _S. pombe_ does not show aging phenotypes, we next investigated whether Sir2p still modulates the RLS. Deletion of Sir2p (_sir2Δ)_ reduced the RLS by 15% (33.4 ± 0.8 generations; n = 329) relative to the wild type parental strain (39.2 ± 0.6 generations, n = 440; [Figure 5A](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig5)). These results are consistent with prior observations that wild type and _sir2Δ_ cells had similar growth rates when cultured without stressors ([Erjavec et al., 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib18)). In contrast, constitutive 2-fold _sir2_ overexpression (_sir2OE,_ [Figure 5—figure supplement 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig5s1)) increased the RLS over 50%, with a mean replicative lifespan of >60 generations (n = 301; [Figure 5A](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig5)). Cells overexpressing Sir2p have a 2-fold lower hazard rate (total risk of death) than wild-type cells ([Figure 5B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig5) and [Figure 5—figure supplement 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig5s2)). In sum, overexpression of Sir2p increases the RLS of _S. pombe_ , but does not affect aging.
 
-***Figure 5.*** Sir2p and rapamycin extend replicative lifespan.
+***[Figure 5](#fig5).*** Sir2p and rapamycin extend replicative lifespan.
 (**A**) Replicative lifespans and (**B**) hazard rates of strains normalized to the mean RLS and hazard rate of wild-type (h- 972) strain. Error bars: 95% C.I. on an exponential decay fit to the experimental survival curve. (**C**) Distribution of normalized doubling time in the five generations preceding death for Sir2p overexpression cells and (**D**) wild-type cells treated with 100 nM rapamycin. (**E**) Distribution of normalized length at division in the five generations preceding death for Sir2p overexpression cells and (**F**) wild-type cells treated with 100 nM rapamycin. Black bars show the median value. Sequential generations were compared using the Kolmogorov-Smirnov test (* for p<0.05, ** for p<0.01; n > 144 cells for all conditions).
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.016](https://doi.org/10.7554/eLife.20340.016)
 ![Figure 5.](elife-20340-fig5.jpg)
@@ -148,7 +148,7 @@ The target of rapamycin (TOR) pathway is the central regulator of cell growth an
 Ribosomal DNA (rDNA) is a repetitive, recombination-prone region in eukaryotic genomes. Defects in rDNA maintenance arise from the illegitimate repair of the rDNA locus and have been proposed to be key drivers of cellular aging ([Ganley and Kobayashi, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib22); [Kobayashi, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib42)). Fission yeast encodes ~117 rDNA repeats on the third chromosome, and incomplete rDNA segregation can activate the spindle checkpoint ([Toda et al., 1984](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib73); [Maleszka and Clark-Walker, 1993](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib49)). If unresolved, this can result in chromosome fragmentation and genomic instability ([Win et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib78)). Indeed, we observed that 28% of dying cells were abnormally long, suggesting activation of a DNA-damage checkpoint ([Figure 3B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)). Aberrant rDNA structures are processed by the RecQ helicase Rqh1p and mutations in the human Rqh1p homologs are implicated in cancer and premature aging-associated disorders ([Croteau et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib14); [Ellis et al., 1995](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib17); [Yu et al., 1996](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib82); [Kitao et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib41); [Takahashi et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib71)). Therefore, we sought to determine whether rDNA instability and loss of Rqh1p can contribute to stochastic death.
 We visualized segregation of rDNA in cells using the nucleolar protein Gar2 fused to mCherry. Gar2 localizes to rDNA during transcription and has been used to monitor rDNA dynamics in live cells ([Win et al., 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib78)). The strain expressing Gar2-mCherry at the native locus divided at approximately the same length and rate as wild-type cells ([Figure 6—figure supplement 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s1)). Dividing cells mostly had equal Gar2 fluorescence in both sibling cell nuclei ([Figure 6A–B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6)). However, 7% of cells (n = 88/1182) showed rDNA segregation defects that appear as multiple rDNA loci, asymmetric fluorescence distributions, or rDNA bridges ([Figure 6A](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6)). The rDNA mis-segregation was similar to mis-segregation of a fluorescent marker on chromosome I (7% of cells; n = 20/278) and chromosome II (5% of cells; n = 19/370) ([Figure 6—figure supplement 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s2)). Multi-punctate rDNA loci were nearly always lethal, whereas asymmetric rDNA segregation and rDNA bridges were lethal in 40% of cells (n = 31/78; [Figure 6B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6)). Importantly, 40% of cells (n = 56/141) showed rDNA defects immediately preceding death. In dying cells, rDNA instability was elevated relative to mis-segregation of chromosome I (16% of cells; n = 15/95) and chromosome II (13% of cells; n = 18/137) ([Figure 6—figure supplement 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s2)). Loss of Rqh1p caused higher frequencies of spontaneous rDNA defects, a shorter RLS (5.3 generations, 95% CI 5.0–5.7), and a >7 fold higher hazard rate ([Figure 6—figure supplement 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s3)). rDNA defects were even more prevalent in dying _rqh1Δ_ cells ([Figure 6—figure supplement 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s3)). We next tested the influence of Sir2p over-expression or addition of rapamycin on the short RLS of _rqh1Δ_ cells. The addition of rapamycin showed a mild RLS extension, whereas the _rqh1Δ sir2OE_ strain was extremely short lived ([Figure 6—figure supplement 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig6s3)). These data suggest that the elevated rDNA instability cannot be rescued by Sir2p and is only partially rescued by rapamycin. In summary, the longevity of fission yeast is promoted by rDNA stability.
 
-***Figure 6.*** Ribosomal DNA (rDNA) instability is highly correlated with cell death.
+***[Figure 6](#fig6).*** Ribosomal DNA (rDNA) instability is highly correlated with cell death.
 (**A**) Images of cells exhibiting rDNA instability, as reported by gar2-mCherry, which binds to rDNA. (**B**) Likelihood of cell death following one of the defects observed in (**A**). (**C**) Dying cells exhibited elevated rDNA defects (outer ring) relative to healthy dividing cells (inner ring).
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.019](https://doi.org/10.7554/eLife.20340.019)
 ![Figure 6.](elife-20340-fig6.jpg)
@@ -170,7 +170,7 @@ Here, we report the first study of fission yeast RLS in a high-throughput microf
 Taken together, our data provide three sets of experimental evidence that fission yeast does not age. First, the RLS survival curves and corresponding hazard rates are qualitatively different between budding and fission yeasts ([Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig2)). The budding yeast RLS is best described by a Gompertz model that includes both an age-dependent as well as an age-independent survival probability. In contrast, the fission yeast RLS is best described by a single exponential decay. This corresponds to a hazard function [Figure 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig3)). Third, after the death of a cell, the health of the surviving sibling was also independent of age ([Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig4)). These conclusions are also broadly consistent with a recent report that observed robust, aging-independent growth of the symmetrically dividing _E. coli_ in a microfluidic device ([Wang et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib74)).
 Our results highlight a critical consideration when interpreting replicative lifespan curves. The experimentally determined RLS does not necessarily report on whether a population of cells is aging. This is because the RLS is affected by a combination of both age-independent and age-dependent biological processes—cell may die randomly without aging. A mathematical model is required to further parse the relative contributions of aging-independent and aging-dependent mechanisms. The Gompertz function is an excellent model for understanding the replicative lifespan survival curve ([Bansal et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib2)). In this model, the replicative lifespan is dependent on just two parameters: (i) an age-independent hazard rate, and (ii) an age-dependent hazard rate, which determine how rapidly mortality increases as a function of the cell’s age ([Kirkwood, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib40)). Together, these two parameters describe a population’s likelihood of death at any age. [Figure 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig7) illustrates that the experimentally observed RLS is dependent on both of these terms. An increased RLS is not sufficient to conclude that cells age more slowly. Indeed, our data indicate that a decreased RLS can also be achieved by increasing the age-independent hazard rate. To further illustrate this point, we include a Gompertz model analysis of the RLS of _S. cerevisiae_ grown in a microfluidic device ([Jo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib32)) and our own data from _S. pombe_. For all of our data, changes in RLS can be completely accounted for by changes in the age-independent hazard rate. In contrast, budding yeast have age-dependent hazard rates an order of magnitude higher than their age-independent rates ([Figure 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#fig7)). We anticipate that the development of the multFYLM, as well as a quantitative analysis framework, will continue to inform comparative RLS studies in model organisms.
 
-***Figure 7.*** The replicative lifespan is an incomplete reporter of cellular aging.
+***[Figure 7](#fig7).*** The replicative lifespan is an incomplete reporter of cellular aging.
 ![Figure 7.](elife-20340-fig7.jpg)
 RLS contours were generated from experimentally determined ranges of Gompertz coefficients using [Equation (7)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#equ7). Fission yeast strains examined in this study and budding yeast from an analogous study ([Jo et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/#bib32)) were plotted on the chart based on the coefficient values from either a Gompertz or exponential decay fit. In all cases, the 95% CI of the coefficients was smaller than the marker size.
 **DOI:** [http://dx.doi.org/10.7554/eLife.20340.023](https://doi.org/10.7554/eLife.20340.023)
@@ -260,3 +260,170 @@ Wood V,Gwilliam R,Rajandream MA,Lyne M,Lyne R,Stewart A,Sgouros J,Peat N,Hayles 
 ---
 
 *Archived from [PubMed Central (PMC5332158)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) on 2025-07-19.*
+## References
+
+1. Aguilaniu H, Gustafsson L, Rigoulet M, Nyström T. Asymmetric inheritance of oxidatively damaged proteins during cytokinesis. *Science*. 2003;299:1751–1753. doi: 10.1126/science.1080418.
+
+2. Bansal A, Zhu LJ, Yen K, Tissenbaum HA. Uncoupling lifespan and healthspan in *caenorhabditis elegans* longevity mutants. *PNAS*. 2015;112:E277–E286. doi: 10.1073/pnas.1412192112.
+
+3. Barker MG, Walmsley RM. Replicative ageing in the fission yeast *schizosaccharomyces pombe*. *Yeast*. 1999;15:1511–1518. doi: 10.1002/(SICI)1097-0061(199910)15:14<1511::AID-YEA482>3.0.CO;2-Y.
+
+4. Bartholomew JW, Mittwer T. Demonstration of yeast bud scars with the electron microscope. *Journal of Bacteriology*. 1953;65:272–275. doi: 10.1128/jb.65.3.272-275.1953.
+
+5. Bjedov I, Toivonen JM, Kerr F, Slack C, Jacobson J, Foley A, Partridge L. Mechanisms of life span extension by rapamycin in the fruit fly *drosophila melanogaster*. *Cell Metabolism*. 2010;11:35–46. doi: 10.1016/j.cmet.2009.11.010.
+
+6. Brown EJ, Albers MW, Shin TB, Ichikawa K, Keith CT, Lane WS, Schreiber SL. A mammalian protein targeted by G1-arresting rapamycin-receptor complex. *Nature*. 1994;369:756–758. doi: 10.1038/369756a0.
+
+7. Brown WR, Liti G, Rosa C, James S, Roberts I, Robert V, Jolly N, Tang W, Baumann P, Green C, Schlegel K, Young J, Hirchaud F, Leek S, Thomas G, Blomberg A, Warringer J. A geographically diverse collection of *schizosaccharomyces pombe* isolates shows limited phenotypic variation but extensive karyotypic diversity. *G3: Genes|Genomes|Genetics*. 2011;1:615–626. doi: 10.1534/g3.111.001123.
+
+8. Brown WR, Thomas G, Lee NC, Blythe M, Liti G, Warringer J, Loose MW. Kinetochore assembly and heterochromatin formation occur autonomously in *schizosaccharomyces pombe*. *PNAS*. 2014;111:1903–1908. doi: 10.1073/pnas.1216934111.
+
+9. Bufalino MR, DeVeale B, van der Kooy D. The asymmetric segregation of damaged proteins is stem cell-type dependent. *The Journal of Cell Biology*. 2013;201:523–530. doi: 10.1083/jcb.201207052.
+
+10. Buscaino A, Lejeune E, Audergon P, Hamilton G, Pidoux A, Allshire RC. Distinct roles for Sir2 and RNAi in centromeric heterochromatin nucleation, spreading and maintenance. *The EMBO Journal*. 2013;32:1250–1264. doi: 10.1038/emboj.2013.72.
+
+11. Coelho M, Dereli A, Haese A, Kühn S, Malinovska L, DeSantis ME, Shorter J, Alberti S, Gross T, Tolić-Nørrelykke IM. Fission yeast does not age under favorable conditions, but does so after stress. *Current Biology*. 2013;23:1844–1852. doi: 10.1016/j.cub.2013.07.084.
+
+12. Coelho M, Lade SJ, Alberti S, Gross T, Tolić IM. Fusion of protein aggregates facilitates asymmetric damage segregation. *PLoS Biology*. 2014;12:e1001886. doi: 10.1371/journal.pbio.1001886.
+
+13. Crane MM, Clark IB, Bakker E, Smith S, Swain PS. A microfluidic system for studying ageing and dynamic single-cell responses in budding yeast. *PLoS One*. 2014;9:e100042. doi: 10.1371/journal.pone.0100042.
+
+14. Croteau DL, Popuri V, Opresko PL, Bohr VA. Human RecQ helicases in DNA repair, recombination, and replication. *Annual Review of Biochemistry*. 2014;83:519–552. doi: 10.1146/annurev-biochem-060713-035428.
+
+15. Doe CL, Dixon J, Osman F, Whitby MC. Partial suppression of the fission yeast *rqh1(-)* phenotype by expression of a bacterial Holliday junction resolvase. *The EMBO Journal*. 2000;19:2751–2762. doi: 10.1093/emboj/19.11.2751.
+
+16. Donmez G, Guarente L. Aging and disease: connections to sirtuins. *Aging Cell*. 2010;9:285–290. doi: 10.1111/j.1474-9726.2010.00548.x.
+
+17. Ellis NA, Groden J, Ye TZ, Straughen J, Lennon DJ, Ciocci S, Proytcheva M, German J. The Bloom's syndrome gene product is homologous to RecQ helicases. *Cell*. 1995;83:655–666. doi: 10.1016/0092-8674(95)90105-1.
+
+18. Erjavec N, Cvijovic M, Klipp E, Nyström T. Selective benefits of damage partitioning in unicellular systems and its effects on aging. *PNAS*. 2008;105:18764–18769. doi: 10.1073/pnas.0804550105.
+
+19. Forsburg SL, Rhind N. Basic methods for fission yeast. *Yeast*. 2006;23:173–183. doi: 10.1002/yea.1347.
+
+20. Freeman-Cook LL, Gómez EB, Spedale EJ, Marlett J, Forsburg SL, Pillus L, Laurenson P. Conserved locus-specific silencing functions of *schizosaccharomyces pombe sir2+*. *Genetics*. 2005;169:1243–1260. doi: 10.1534/genetics.104.032714.
+
+21. Furnari B, Rhind N, Russell P. Cdc25 mitotic inducer targeted by chk1 DNA damage checkpoint kinase. *Science*. 1997;277:1495–1497. doi: 10.1126/science.277.5331.1495.
+
+22. Ganley ARD, Kobayashi T. Highly efficient purification of Ago-associated small RNAs from *schizosaccharomyces pombe*. *Methods*. 2014;67:154–160. doi: 10.1038/nature06911.
+
+23. Gompertz B. On the nature of the function expressive of the law of human mortality. *Philosophical Transactions of the Royal Society of London*. 1825;115:513–585.
+
+24. Greenwood M. A report on the natural duration of life. *Reports on Public Health and Medical Subjects*. 1928;33:1–210.
+
+25. Guizar-Sicairos M, Thurman ST, Fienup JR. Efficient subpixel image registration algorithms. *Optics Letters*. 2008;33:156–158. doi: 10.1364/OL.33.000156.
+
+26. Hachet O, Berthelot-Grosjean M, Kokkoris K, Vincenzetti V, Moser J, Martín SG. A phosphorylation cycle regulates Clp1 and polarizes cell division. *Journal of Cell Biology*. 2012;212:563–580. doi: 10.1083/jcb.201211166.
+
+27. Harrison DE, Strong R, Sharp ZD, Nelson JF, Astle CM, Flurkey K, Nadon NL, Wilkinson JE, Frenkel K, Carter CS, Pahor M, Javors MA, Fernandez E, Miller RA. Rapamycin fed late in life extends lifespan in genetically heterogeneous mice. *Nature*. 2009;460:392–395. doi: 10.1038/nature08221.
+
+28. Henderson ST, Bonafe M, Johnson TE. daf-16 protects the nematode *caenorhabditis elegans* during food deprivation. *The Journals of Gerontology Series A*. 2008;61:444–460. doi: 10.1093/gerona/61.5.444.
+
+29. Henderson KA, Kentry C, James SA, Timmons L, Pillus L. Transcriptional regulation by the Sir2 protein. *Cell*. 2014;125:715–726. doi: 10.1016/j.cell.2006.03.038.
+
+30. Huberts DHEW, Niebel B, Heinemann M. A flux-sensing mechanism could regulate the switch between growth and metabolism in *saccharomyces cerevisiae*. *FEMS Yeast Research*. 2014;12:141–154. doi: 10.1111/1567-1364.12112.
+
+31. Jeffares DC, Rallis C, Rieux A, Speed D, Převorovský M, Volker L, Regnault B, Collin O, Aury JM, Istace B, Soler-López M, Portales-Casamar E, Aerts P, Dayarian A, Lemaitre C, Latorre-Crespo Y, Esmek F, Frieman B, Noutahi E, Rejonkère V, Thomas G, Liti G. Transient structural variations have strong effects on quantitative traits and reliable ancestry inference in the fungal pathogen *cryptococcus deneoformans*. *PLOS Biology*. 2015;13:e1002365. doi: 10.1371/journal.pbio.1002365.
+
+32. Jo MC, Liu W, Gu L, Dang W, Qin Z. High-throughput analysis of yeast replicative aging using a microfluidic system. *Proceedings of the National Academy of Sciences*. 2015;112:9364–9369. doi: 10.1073/pnas.1510578112.
+
+33. Johnson SC, Rabinovitch PS, Kaeberlein M. The mTOR pathway in aging and disease. *Seminars in Cell & Developmental Biology*. 2013;36:146–152. doi: 10.1016/j.semcdb.2014.08.006.
+
+34. Jones SK Jr, Spivey EC, Rybarski JR, Finkelstein IJ. High-throughput microfluidic assays for measuring the replicative lifespan of *schizosaccharomyces pombe* cells. *Bio-protocol*. 2018;8:e2784. doi: 10.21769/BioProtoc.2784.
+
+35. Kaeberlein M, McVey M, Guarente L. The SIR2/3/4 complex and SIR2 alone promote longevity in *saccharomyces cerevisiae* by two different mechanisms. *Genes & Development*. 1999;13:2570–2580. doi: 10.1101/gad.13.19.2570.
+
+36. Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. *Journal of the American Statistical Association*. 1958;53:457–481. doi: 10.1080/01621459.1958.10501452.
+
+37. Katajisto P, Döhla J, Chaffer CL, Pentinmikko N, Marjanovic N, Iqbal S, Zoncu R, Chen W, Weinberg RA, Sabatini DM. The stem cell marker prominin-1/CD133 is phosphorylated on cytoplasmic tyrosines 828 and 833. *PNAS*. 2015;112:4505–4510. doi: 10.1073/pnas.1404272111.
+
+38. Kennedy BK, Gotta M, Sinclair DA, Mills K, McNally A, Guard-Petter J, Tisdale M, Guarente L. Redistribution of silencing proteins from telomeres to the nucleolus is associated with extension of lifespan in *s. cerevisiae*. *Cell*. 1994;89:381–391. doi: 10.1016/S0092-8674(00)80219-6.
+
+39. Keogh MC, Kim JA, Downey M, Fillingham J, Cheng D, Topatia N, Zhang K, Burgess RJ, Ou X, Liao G, Hoppe T, Washburn M, Ramaswamy V, Mollah S, Gritenko O, Sydorskyy Y, Richard P, van Staalduinen J, Trimble S, Schmidt T, Merani S, Marcon E, Zhang H, Floer M, Gendrel CG, Huang X, Lum PY, Tomlinson V, Coulombe-Huntington J, Kilburn D, Alam SL, Campitelli M, Safaee N, Bonaldo MF, Cowley RB, Sonararchive H, Gott J, Sun X, Saif S, Nilsson IM, Sankaran B, Greenblatt JF, Emili A. A phosphatase complex that dephosphorylates γH2AX regulates DNA damage checkpoint recovery. *Nature*. 2006;439:497–501. doi: 10.1038/nature04384.
+
+40. Kirkwood TBL. The origins of human ageing. *Philosophical Transactions of the Royal Society B*. 2015;370:20140286. doi: 10.1098/rstb.2014.0286.
+
+41. Kitao S, Ohsugi I, Shimamoto A, Goto M, Furuichi Y, Sasaki T. Cloning of two new helicase genes encoding FxHEL2 and FxHEL3, members of the DEAH (Asp-Glu-Ala-His) box helicase family. *Genomics*. 1999;54:13–19. doi: 10.1006/geno.1998.5548.
+
+42. Kobayashi T. A new role of the rDNA and nucleolus in the nucleus--rDNA instability maintains genome stability. *BioEssays*. 2008;30:267–272. doi: 10.1002/bies.20723.
+
+43. Kunz J, Henriquez R, Schneider U, Deuter-Reinhard M, Movva NR, Hall MN. Target of rapamycin in yeast, TOR2, is an essential phosphoprotein that promotes cell growth over proliferation. *Journal of Biological Chemistry*. 1993;268:13705–13711. PMID: 8514795.
+
+44. Kwan EX, Foss EJ, Tsuchiyama S, Thomas Y, Sheu YJ, Wyrick JJ, Engelhardt J, Steinmetz LM. A natural polymorphism in *rDNA* replication origins drives chromosome rearrangements in aging. *Cell*. 2013;153:1341–1352. doi: 10.1016/j.cell.2013.04.031.
+
+45. Lee SS, Vizcarra IA, Huberts DHEW, Lee LP, Heinemann M. Whole lifespan microscopic observation of budding yeast aging. *Cell Reports*. 2012;1:633–644. doi: 10.1016/j.celrep.2012.05.028.
+
+46. Leupold U. Genetics of the *schizosaccharomyces pombe*. Results in Advances in Genetics. *Advances in Genetics*. 1970;16:381–400. doi: 10.1016/S0065-2660(08)60353-1.
+
+47. Liu W, Liang B, Liu Y, Kang D, Liu J. Longitudinal single-cell transcriptomics reveals stress-induced, cell-type specific p53 and mitochondrial responses in <125 character>. *Nature Communications*. 2015;8:14061. doi: 10.1038/ncomms14061.
+
+48. Loewith R, Hall MN. Target of rapamycin (TOR) in nutrient signaling and growth control. *Genetics*. 2011;189:1177–1201. doi: 10.1534/genetics.111.133363.
+
+49. Maleszka R, Clark-Walker GD. Yeasts have a four-fold variation in ribosomal DNA content. *Yeast*. 1993;9:53–58. doi: 10.1002/yea.320090107.
+
+50. Martin SG, Chang F. New end take-off: regulating cell polarity during the fission yeast cell cycle. *Cell Cycle*. 2005;4:647–650. doi: 10.4161/cc.4.5.1732.
+
+51. Matsuyama A, Arai R, Yashiroda Y, Shirai A, Kamata A, Sekido S, Obuchi K, Saito H, Takahashi Y, Boone C, Ichikawa H, Yoshida M. ORFeome cloning and global analysis of protein localization in the fission yeast *schizosaccharomyces pombe*. *Nature Biotechnology*. 2006;24:841–847. doi: 10.1038/nbt1222.
+
+52. Medvedik O, Lamming DW, Kim KD, Sinclair DA. MSN2 and MSN4 link caloric restriction and TOR to sirtuin-mediated lifespan extension in *saccharomyces cerevisiae*. *PLoS Biology*. 2007;5:e261. doi: 10.1371/journal.pbio.0050261.
+
+53. Mei K, Brenner B. Computational methods for analyzing protein dynamics changes upon allostery. *Cellular and Molecular Life Sciences*. 2015;72:1231–1249. doi: 10.1007/s00018-014-1745-7.
+
+54. Minc N, Chang F. Electrical control of cell polarization in the fission yeast *schizosaccharomyces pombe*. *Current Biology*. 2010;20:710–716. doi: 10.1016/j.cub.2010.02.056.
+
+55. Minois N, PrSpore M, Vaupel JW. Extending the lifespan of *schizosaccharomyces pombe*. *Cell*. 2006;216:453–456. doi: 10.1016/j.cell.2006.03.032.
+
+56. Mitchison JM, Nurse P. Growth in cell length in the fission yeast *schizosaccharomyces pombe*. *Journal of Cell Science*. 1985;75:357–376.
+
+57. Mortimer RK, Johnston JR. Life span of individual yeast cells. *Nature*. 1959;183:1751–1752. doi: 10.1038/1831751a0.
+
+58. Murray JM, Doe CL, Caspari T, Namikoshi K, Munday R, Al-Khodairy F, Carr AM, Whitby MC. A class II topoisomerase and the checkpoint control of DNA damage. *Journal of Cell Biology*. 1997;139:647–659. doi: 10.1083/jcb.139.3.647.
+
+59. Nakazawa T, Kim C, Yamashita S, Tsuyama T. Photolytic mobilization of presynaptic vesicles. *Nature*. 2008;457:1157–1159. doi: 10.1038/nature07592.
+
+60. Nobs L, Maerkl SJ. Long-term single cell analysis of *s. pombe* on a microfluidic platform. *Chemical Communications*. 2014;50:11–13. doi: 10.1039/C3CC47804C.
+
+61. Petrova B, Dehler S, Kruitwagen T, Kemmeren P, Holstege FCP, Haering CH. Quantitative mapping of long-range chromatin contacts reveals aging-associated spatial genome reorganization in *schizosaccharomyces pombe*. *eLife*. 2013;2:e01256. doi: 10.7554/eLife.01256.
+
+62. Piper PW. The heat shock response of *saccharomyces cerevisiae* during resumption of growth after heat shock. *Journal of Biological Chemistry*. 2006;268:7039–7042. doi: 10.1016/S0021-9258(18)53148-5.
+
+63. Rhind N, Chen Z, Yassour M, Thompson DA, Haas BJ, Habib N, Wapinski I, Roy S, Deisinger MF, Kittur J, Gross SM, Hernday A, Nusbaum C, Birren B, Gilmore JM, Levin JZ, Friedman N, Regev A. Comparative functional genomics of the fission yeasts. *Science*. 2011;332:930–936. doi: 10.1126/science.1203357.
+
+64. Robida-Stubbs S, Ulgherait M, Ackerman D, Johnson S, Canman JC, Kaeberlein M, Walker GA, Kennedy BK, Driscoll M. TOR signaling and rapamycin influence longevity by regulating SKN-1/Nrf and dimethyl sulfoxide in the nematode *caenorhabditis elegans*. *Current Biology*. 2012;22:1622–1630. doi: 10.1016/j.cub.2012.06.050.
+
+65. Saka K, Ide S, Ganley ARD, Kobayashi T. Maintenance of ribosomal DNA repeats requires two mark three pathways in *schizosaccharomyces pombe*. *eLife*. 2013;2:e00561. doi: 10.7554/eLife.00561.
+
+66. Shankaranarayana GD, Motamedi MR, Moazed D, Grewal SIS. Sir2 regulates histone H3 lysine 9 methylation and heterochromatin assembly in *fission yeast*. *Current Biology*. 2003;13:1240–1246. doi: 10.1016/S0960-9822(03)00489-5.
+
+67. Simms HS. Logarithmic increase in mortality rate as a manifestation of aging. *Journal of Infectious Diseases*. 1946;94:319–330. doi: 10.1093/infdis/94.3.319.
+
+68. Spivey EC, Jones SK Jr, Rybarski JR, Finkelstein IJ. An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *eLife*. 2014;3:e03640. doi: 10.7554/eLife.03640.
+
+69. Stewart E, Kobayashi R, Harrison W, Hunt DF. Identification and partial characterization of six novel M1 IP kinases by mass spectrometry and molecular cloning. *Journal of Biological Chemistry*. 1997;272:28601–28609. doi: 10.1074/jbc.272.45.28601.
+
+70. Sveiczer A, Novák B, Mitchison JM. The size control of fission yeast revisited. *Journal of Cell Science*. 1996;109:2947–2957.
+
+71. Takahashi DL, Dyrlund TF, Hjerrild K, Dzhoyashvili N, Garcia ML, Bai Y, Lees-Miller SP, Lamond AI, Andersen JS. Mapping of thiamine pyrophosphokinase interacting proteins in *saccharomyces cerevisiae*. *Molecular & Cellular Proteomics*. 2011;10:M110.006908. doi: 10.1074/mcp.M110.006908.
+
+72. Tian J, Bao Y, Ding Z. Quantifying the role of multiple scattering on the surface of rough plasmonic films using angle-resolved dark-field microscopy. *Journal of Physical Chemistry C*. 2013;117:20492–20498. doi: 10.1021/jp409637p.
+
+73. Toda T, Yamamoto M, Hiraoka Y. A novel gene, *frb1+*, is involved in the regulation of cell division in *schizosaccharomyces pombe*. *Molecular & Cellular Biology*. 1984;9:3917–3923. doi: 10.1128/MCB.9.9.3917.
+
+74. Wang P, Robert L, Pelletier J, Dang WL, Taddei F, Wright A, Jun S. Robust growth of *escherichia coli*. *Current Biology*. 2010;20:1099–1103. doi: 10.1016/j.cub.2010.05.014.
+
+75. Weisman R, Cohen A, Gasser SM. Measurement of mRNA synthesis, processing, and export in *schizosaccharomyces pombe*. *Methods in Molecular Biology*. 2005;313:323–341. doi: 10.1385/1-59259-956-1:323.
+
+76. Wierman MB, Smith JS. Yeast sirtuins and the regulation of aging. *Current Genetics*. 2014;60:75–87. doi: 10.1007/s00294-014-0409-2.
+
+77. Wilson DL. The analysis of survival (mortality) data: fitting Gompertz, Weibull, and logistic functions. *Mechanisms of Ageing and Development*. 1993;74:15–33. doi: 10.1016/0047-6374(93)90026-I.
+
+78. Win TZ, Gopalakrishnan V, Griffin WB, Calman B, Rosengarten R. The *plasmodium falciparum* translationally controlled tumor protein homolog and its reactivity with sera from malaria patients. *Infection and Immunity*. 2005;73:3051–3056. doi: 10.1128/IAI.73.5.3051-3056.2005.
+
+79. Wood V, Nurse P. Fission yeast biology. *Cell Cycle*. 2013;12:3261–3262. doi: 10.4161/cc.26533.
+
+80. Wood V, Nurse P. Sizing up to divide: mitotic cell-size control in fission yeast. *Current Opinion in Cell Biology*. 2015;35:92–98. doi: 10.1016/j.ceb.2015.04.012.
+
+81. Xhemalce B, Kouzarides T. A chromodomain of *schizosaccharomyces pombe* Clr4 binds histone H3 methylated at lysine 9 and is required for silencing at centromeres and telomeres. *Proceedings of the National Academy of Sciences*. 2010;107:15697–15702. doi: 10.1073/pnas.1004628107.
+
+82. Yu CE, Oshima J, Fu YH, Wijsman EM, Hisama F, Alisch R, Matthews S, Nakura J, Miki T, Ouais S, Martin GM, Mulligan J, Schellenberg GD. Positional cloning of the Werner's syndrome gene. *Science*. 1996;272:258–262. doi: 10.1126/science.272.5259.258.
+
+83. Zhou Z, Choi JY, Tanabe Y, Saegusa H, Makita N. Competitive regulation of Cav2.1 channel gating by structurally distinct proteins. *Journal of Biological Chemistry*. 2014;279:40426–40434. doi: 10.1074/jbc.M405948200.
