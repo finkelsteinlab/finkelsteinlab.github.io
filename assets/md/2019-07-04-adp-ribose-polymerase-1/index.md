@@ -148,4 +148,156 @@ The source data and uncropped gel pictures underlying Figs. [1A–G](https://pmc
 
 ---
 
+## References
+
+1. Vilenchik MM, Knudson AG. Endogenous DNA double-strand breaks: production, fidelity of repair, and induction of cancer. *Proc. Natl Acad. Sci. USA*. 2003;100:12871–12876.
+
+2. Ciccia A, Elledge SJ. The DNA damage response: making it safe to play with knives. *Mol. Cell*. 2010;40:179–204.
+
+3. Jungmichel S, et al. Proteome-wide identification of poly(ADP-Ribosyl)ation targets in different genotoxic stress responses. *Mol. Cell*. 2013;52:272–285.
+
+4. Zhang Y, Wang J, Ding M, Yu Y. Site-specific characterization of the Asp- and Glu-ADP-ribosylated proteome. *Nat. Methods*. 2013;10:981–984.
+
+5. Gagne JP, et al. Quantitative site-specific ADP-ribosylation profiling of DNA-dependent PARPs. *DNA Repair (Amst.)*. 2015;30:68–79.
+
+6. Gagne JP, et al. Quantitative proteomics profiling of the poly(ADP-ribose)-related response to genotoxic stress. *Nucleic Acids Res.*. 2012;40:7788–7805.
+
+7. Gibson BA, et al. Chemical genetic discovery of PARP targets reveals a role for PARP-1 in transcription elongation. *Science*. 2016;353:45–50.
+
+8. Wacker DA, Frizzell KM, Zhang T, Kraus WL. Regulation of chromatin structure and chromatin-dependent transcription by poly(ADP-ribose) polymerase-1: possible targets for drug-based therapies. *Subcell. Biochem.*. 2007;41:45–69.
+
+9. Strickfaden H, et al. Poly(ADP-ribosyl)ation-dependent transient chromatin decondensation and histone displacement following laser microirradiation. *J. Biol. Chem.*. 2016;291:1789–1802.
+
+10. Haince JF, et al. PARP1-dependent kinetics of recruitment of MRE11 and NBS1 proteins to multiple DNA damage sites. *J. Biol. Chem.*. 2008;283:1197–1208.
+
+11. Krietsch J, et al. Reprogramming cellular events by poly(ADP-ribose)-binding proteins. *Mol. Aspects Med.*. 2013;34:1066–1087.
+
+12. Altmeyer M, et al. Liquid demixing of intrinsically disordered proteins is seeded by poly(ADP-ribose). *Nat. Commun.*. 2015;6:8088.
+
+13. D'Amours D, Sallmann FR, Dixit VM, Poirier GG. Gain-of-function of poly(ADP-ribose) polymerase-1 upon cleavage by apoptotic proteases: implications for apoptosis. *J. Cell Sci.*. 2001;114:3771–3778.
+
+14. Slade D, et al. The structure and catalytic mechanism of a poly(ADP-ribose) glycohydrolase. *Nature*. 2011;477:616–620.
+
+15. Maya-Mendoza A, et al. High speed of fork progression induces DNA replication stress and genomic instability. *Nature*. 2018;559:279–284.
+
+16. Hanzlikova H, et al. The importance of poly(ADP-ribose) polymerase as a sensor of unligated Okazaki fragments during DNA replication. *Mol. Cell*. 2018;71:319–331.
+
+17. Zimmermann M, et al. CRISPR screens identify genomic ribonucleotides as a source of PARP-trapping lesions. *Nature*. 2018;559:285–289.
+
+18. Ame JC, Spenlehauer C, de Murcia G. The PARP superfamily. *Bioessays*. 2004;26:882–893.
+
+19. Ray Chaudhuri A, Nussenzweig A. The multifaceted roles of PARP1 in DNA repair and chromatin remodelling. *Nat. Rev. Mol. Cell Biol.*. 2017;18:610–621.
+
+20. Rulten SL, et al. PARP-3 and APLF function together to accelerate nonhomologous end-joining. *Mol. Cell*. 2011;41:33–45.
+
+21. De Murcia JM, et al. Requirement of poly(ADP-ribose) polymerase in recovery from DNA damage in mice and in cells. *Proc. Natl Acad. Sci. USA*. 1997;94:7303–7307.
+
+22. Couto CA-M, et al. PARP regulates nonhomologous end joining through retention of Ku at double-strand breaks. *J. Cell Biol.*. 2011;194:367–375.
+
+23. Langelier MF, Planck JL, Roy S, Pascal JM. Crystal structures of poly(ADP-ribose) polymerase-1 (PARP-1) zinc fingers bound to DNA: structural and functional insights into DNA-dependent PARP-1 activity. *J. Biol. Chem.*. 2011;286:10690–10701.
+
+24. Langelier MF, Ruhl DD, Planck JL, Kraus WL, Pascal JM. The Zn3 domain of human poly(ADP-ribose) polymerase-1 (PARP-1) functions in both DNA-dependent poly(ADP-ribose) synthesis activity and chromatin compaction. *J. Biol. Chem.*. 2010;285:18877–18887.
+
+25. Langelier MF, Zandarashvili L, Aguiar PM, Black BE, Pascal JM. NAD(+) analog reveals PARP-1 substrate-blocking mechanism and allosteric communication from catalytic center to DNA-binding domains. *Nat. Commun.*. 2018;9:844.
+
+26. Yun MH, Hiom K. CtIP-BRCA1 modulates the choice of DNA double-strand-break repair pathway throughout the cell cycle. *Nature*. 2009;459:460–463.
+
+27. Nakamura K, et al. Collaborative action of Brca1 and CtIP in elimination of covalent modifications from double-strand breaks to facilitate subsequent break repair. *PLoS Genet.*. 2010;6:e1000828.
+
+28. Cruz-Garcia A, Lopez-Saavedra A, Huertas P. BRCA1 accelerates CtIP-mediated DNA-end resection. *Cell Rep.*. 2014;9:451–459.
+
+29. Nimonkar AV, et al. BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. *Genes Dev.*. 2011;25:350–362.
+
+30. Tkac J, et al. HELB is a feedback inhibitor of DNA end resection. *Mol. Cell*. 2016;61:405–418.
+
+31. Zimmermann M, Lottersberger F, Buonomo SB, Sfeir A, de Lange T. 53BP1 regulates DSB repair using Rif1 to control 5' end resection. *Science*. 2013;339:700–704.
+
+32. Escribano-Diaz C, et al. A cell cycle-dependent regulatory circuit composed of 53BP1-RIF1 and BRCA1-CtIP controls DNA repair pathway choice. *Mol. Cell*. 2013;49:872–883.
+
+33. Isabelle M, et al. Investigation of PARP-1, PARP-2, and PARG interactomes by affinity-purification mass spectrometry. *Proteome Sci.*. 2010;8:22.
+
+34. LaFargue CJ, Dal Molin GZ, Sood AK, Coleman RL. Exploring and comparing adverse events between PARP inhibitors. *Lancet Oncol.*. 2019;20:e15–e28.
+
+35. Drean A, Lord CJ, Ashworth A. PARP inhibitor combination therapy. *Crit. Rev. Oncol. Hematol.*. 2016;108:73–85.
+
+36. Mortusewicz O, Ame JC, Schreiber V, Leonhardt H. Feedback-regulated poly(ADP-ribosyl)ation by PARP-1 is required for rapid response to DNA damage in living cells. *Nucleic Acids Res.*. 2007;35:7665–7675.
+
+37. Aleksandrov R, et al. Protein dynamics in complex DNA lesions. *Mol. Cell*. 2018;69:1046–1061.
+
+38. Murai J, et al. Trapping of PARP1 and PARP2 by clinical PARP inhibitors. *Cancer Res.*. 2012;72:5588–5599.
+
+39. Nam EA, et al. Thr-1989 phosphorylation is a marker of active ataxia telangiectasia-mutated and Rad3-related (ATR) kinase. *J. Biol. Chem.*. 2011;286:28707–28714.
+
+40. Sartori AA, et al. Human CtIP promotes DNA end resection. *Nature*. 2007;450:509–514.
+
+41. Iacovoni JS, et al. High-resolution profiling of gammaH2AX around DNA double strand breaks in the mammalian genome. *EMBO J.*. 2010;29:1446–1457.
+
+42. Zhou Y, Caron P, Legube G, Paull TT. Quantitation of DNA double-strand break resection intermediates in human cells. *Nucleic Acids Res.*. 2014;42:e19.
+
+43. Gallardo IF, et al. High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. *Langmuir*. 2015;31:10310–10317.
+
+44. Krietsch J, et al. PARP activation regulates the RNA-binding protein NONO in the DNA damage response to DNA double-strand breaks. *Nucleic Acids Res.*. 2012;40:10287–10301.
+
+45. Bunting SF, et al. 53BP1 inhibits homologous recombination in Brca1-deficient cells by blocking resection of DNA breaks. *Cell*. 2010;141:243–254.
+
+46. Schultz N, Lopez E, Saleh-Gohari N, Helleday T. Poly(ADP-ribose) polymerase (PARP-1) has a controlling role in homologous recombination. *Nucleic Acids Res.*. 2003;31:4959–4964.
+
+47. He YJ, et al. DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells. *Nature*. 2018;563:522–526.
+
+48. Noordermeer SM, et al. The shieldin complex mediates 53BP1-dependent DNA repair. *Nature*. 2018;560:117–121.
+
+49. Mirman Z, et al. 53BP1-RIF1-shieldin counteracts DSB resection through CST- and Polalpha-dependent fill-in. *Nature*. 2018;560:112–116.
+
+50. Findlay S, Heath J, Luo VM, Malina A, Morin T, Coulombe Y, Djerir B, Li Z, Samiei A, Simo-Cheyou E, Karam M, Bagci H, Rahat D, Grapton D, Lavoie EG, Bhave C, Khaled H, Kuasne H, Mann KK, Klein KO, Bhave C, Greenwood CM, Tabach Y, Park M, Cote JF, Masson JY, Marechal A, Orthwein A. SHLD2/FAM35A co-operates with REV7 to coordinate DNA double-strand break repair pathway choice. *EMBO J.*. 2018;37:e100158.
+
+51. Spagnolo L, Barbeau J, Curtin NJ, Morris EP, Pearl LH. Visualization of a DNA-PK/PARP1 complex. *Nucleic Acids Res.*. 2012;40:4168–4177.
+
+52. Wang M, et al. PARP-1 and Ku compete for repair of DNA double strand breaks by distinct NHEJ pathways. *Nucleic Acids Res.*. 2006;34:6170–6182.
+
+53. Ying S, Hamdy FC, Helleday T. Mre11-dependent degradation of stalled DNA replication forks is prevented by BRCA2 and PARP1. *Cancer Res.*. 2012;72:2814–2821.
+
+54. Soni A, et al. Inhibition of Parp1 by BMN673 effectively sensitizes cells to radiotherapy by upsetting the balance of repair pathways processing DNA double-strand breaks. *Mol. Cancer Ther.*. 2018;17:2206–2216.
+
+55. Fouquin A, et al. PARP2 controls double-strand break repair pathway choice by limiting 53BP1 accumulation at DNA damage sites and promoting end-resection. *Nucleic Acids Res.*. 2017;45:12325–12339.
+
+56. Shen Y, Rehman FL, Feng Y, Boshuizen J, Bajrami I, Elliott R, Wang B, Lord CJ, Post LE, Ashworth A. BMN 673, a novel and highly potent PARP1/2 inhibitor for the treatment of human cancers with DNA repair deficiency. *Clin. Cancer Res.*. 2013;19:5003–5015.
+
+57. Oikawa A, Tohda H, Kanai M, Miwa M, Sugimura T. Inhibitors of poly(adenosine diphosphate ribose) polymerase induce sister chromatid exchanges. *Biochem. Biophys. Res. Commun.*. 1980;97:1311–1316.
+
+58. Hori T. High incidence of sister chromatid exchanges and chromatid interchanges in the conditions of lowered activity of poly(ADP-ribose)polymerase. *Biochem. Biophys. Res. Commun.*. 1981;102:38–45.
+
+59. Morrison C, et al. Genetic interaction between PARP and DNA-PK in V(D)J recombination and tumorigenesis. *Nat. Genet.*. 1997;17:479–482.
+
+60. Hu Y, et al. PARP1-driven poly-ADP-ribosylation regulates BRCA1 function in homologous recombination-mediated DNA repair. *Cancer Discov.*. 2014;4:1430–1447.
+
+61. Gottipati P, et al. Poly(ADP-ribose) polymerase is hyperactivated in homologous recombination-defective cells. *Cancer Res.*. 2010;70:5389–5398.
+
+62. Patel AG, Sarkaria JN, Kaufmann SH. Nonhomologous end joining drives poly(ADP-ribose) polymerase (PARP) inhibitor lethality in homologous recombination-deficient cells. *Proc. Natl Acad. Sci. USA*. 2011;108:3406–3411.
+
+63. Mirza MR, et al. Niraparib maintenance therapy in platinum-sensitive, recurrent ovarian cancer. *New Engl. J. Med.*. 2016;375:2154–2164.
+
+64. Zou L, Cortez D, Elledge SJ. Regulation of ATR substrate selection by Rad17-dependent loading of Rad9 complexes onto chromatin. *Genes Dev.*. 2002;16:198–208.
+
+65. Niraj J, et al. The identification of FANCD2 DNA binding domains reveals nuclear localization sequences. *Nucleic Acids Res.*. 2017;45:8341–8357.
+
+66. Schonenberger F, Deutzmann A, Ferrando-May E, Merhof D. Discrimination of cell cycle phases in PCNA-immunolabeled cells. *BMC Bioinformatics*. 2015;16:180.
+
+67. Dery U, et al. A glycine-arginine domain in control of the human MRE11 DNA repair protein. *Mol. Cell. Biol.*. 2008;28:3058–3069.
+
+68. Herbert AD, Carr AM, Hoffmann E. FindFoci: a focus detection algorithm with automated parameter training that closely matches human assignments, reduces human inconsistencies and increases speed of analysis. *PLoS ONE*. 2014;9:e114749.
+
+69. Langelier MF, Planck JL, Servent KM, Pascal JM. Purification of human PARP-1 and PARP-1 domains from Escherichia coli for structural and biochemical analysis. *Methods Mol. Biol.*. 2011;780:209–226.
+
+70. Buisson R, et al. Cooperation of breast cancer proteins PALB2 and piccolo BRCA2 in stimulating homologous recombination. *Nat. Struct. Mol. Biol.*. 2010;17:1247–1254.
+
+71. Yu Z, et al. The MRE11 GAR motif regulates DNA double-strand break processing and ATR activation. *Cell Res.*. 2012;22:305–320.
+
+72. Henricksen LA, Umbricht CB, Wold MS. Recombinant replication protein A: expression, complex formation, and functional characterization. *J. Biol. Chem.*. 1994;269:11121–11132.
+
+73. Myler LR, et al. Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. *Proc. Natl Acad. Sci. USA*. 2016;113:E1170–E1179.
+
+74. Efron B, Tibshirani R. *An Introduction to the Bootstrap*. Chapman & Hall, London, 1993.
+
+---
+
 *Archived from [PubMed Central (PMC6609622)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609622/) on 2025-07-19.*

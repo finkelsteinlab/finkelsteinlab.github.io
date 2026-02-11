@@ -260,4 +260,170 @@ The values for the A substate line centers and relative populations, along with 
 
 ---
 
+## References
+
+1. Frauenfelder H, Sligar SG, Wolynes PG. Science. 1991;254:1598–1603.
+
+2. Hong MK, Braunstein D, Cowen BR, Frauenfelder H, Iben IET, Mourant JR, Ormos P, Scholl R, Schulte A, Steinbach PJ, Xie A, Young RD. Biophys J. 1990;58:429–436.
+
+3. Andrews BK, Romo T, Clarage JB, Pettitt BM, Phillips GN Jr. Structure. 1998;6:587–594.
+
+4. Campbell BF, Chance MR, Friedman JM. Science. 1987;238:373–376.
+
+5. Frauenfelder H, McMahon BH, Austin RH, Chu K, Groves JT. Proc Natl Acad Sci USA. 2001;98:2370–2374.
+
+6. Ansari A, Berendzen J, Braunstein D, Cowen BR, Frauenfelder H, Hong MK, Iben IET, Johnson JB, Ormos P, Sauke TB, Scholl R, Schulte A, Steinbach PJ, Vittitow J, Young RD. Biophys Chem. 1987;26:337–355.
+
+7. Caughey WS, Shimada H, Choc MG, Tucker MP. Proc Natl Acad Sci USA. 1981;78:2903–2907.
+
+8. Rector KD, Engholm JR, Rella CW, Hill JR, Dlott DD, Fayer MD. J Phys Chem A. 1999;103:2381–2387.
+
+9. Springer BA, Sligar SG, Olson JS, Phillips GN Jr. Chem Rev. 1994;94:699–714.
+
+10. Tian WD, Sage JT, Champion PM, Chien E, Sligar SG. Biochemistry. 1996;35:3487–3502.
+
+11. Zhu L, Sage JT, Rigos AA, Morikis D, Champion PM. J Mol Biol. 1992;224:207–215.
+
+12. Shimada H, Caughey WS. J Biol Chem. 1982;257:1893–1900.
+
+13. Johnson JB, Lamb DC, Frauenfelder H, Müller JD, McMahon B, Nienhaus GU, Young RD. Biophys J. 1996;71:1563–1573.
+
+14. Müller JD, McMahon BH, Chen EYT, Sligar SG, Nienhaus GU. Biophys J. 1999;77:1036–1051.
+
+15. Phillips GN Jr, Teodoro ML, Li T, Smith B, Olson JS. J Phys Chem B. 1999;103:8817–8829.
+
+16. Fayer MD. Annu Rev Phys Chem. 2001;52:315–356.
+
+17. Morikis D, Champion PM, Springer BA, Sligar SG. Biochemistry. 1989;28:4791–4800.
+
+18. Nienhaus GU, Mourant JR, Chu K, Frauenfelder H. Biochemistry. 1994;33:13413–13430.
+
+19. Oldfield E, Guo K, Augspurger JD, Dykstra CE. J Am Chem Soc. 1991;113:7537–7541.
+
+20. Rovira C, Schulze B, Eichinger M, Evanseck JD, Parrinello M. Biophys J. 2001;81:435–445.
+
+21. Schulze BG, Evanseck JD. J Am Chem Soc. 1999;121:6444–6454.
+
+22. Meller J, Elber R. Biophys J. 1998;74:789–802.
+
+23. Elber R, Karplus M. Science. 1987;235:318–321.
+
+24. Vitkup D, Ringe D, Petsko GA, Karplus M. Nat Struct Biol. 2000;7:34–38.
+
+25. Kushkuley B, Stavrov SS. Biophys J. 1996;70:1214–1229.
+
+26. Kushkuley B, Stavrov SS. Biophys J. 1997;72:899–912.
+
+27. Kendrew JC, Dickerson RE, Strandberg BE, Hart RG, Davies DR, Phillips DC, Shore VC. Nature. 1960;185:422–427.
+
+28. Kachalova GS, Popov AN, Bartunik HD. Science. 1999;284:473–476.
+
+29. Vojtechovsky J, Chu K, Berendzen J, Sweet RM, Schlichting I. Biophys J. 1999;77:2153–2174.
+
+30. Franzen S. J Am Chem Soc. 2002;124:13271–13281.
+
+31. Li TS, Quillin ML, Phillips GN Jr, Olson JS. Biochemistry. 1994;33:1433–1446.
+
+32. Yang F, Phillips GN Jr. J Mol Biol. 1996;256:762–774.
+
+33. Schulze BG, Grubmuller H, Evanseck JD. J Am Chem Soc. 2000;122:8700–8711.
+
+34. Jewsbury P, Kitagawa T. Biophys J. 1994;67:2236–2250.
+
+35. Zimdars D, Tokmakoff A, Chen S, Greenfield SR, Fayer MD, Smith TI, Schwettman HA. Phys Rev Lett. 1993;70:2718–2721.
+
+36. Tokmakoff A, Fayer MD. Acc Chem Res. 1995;28:437–445.
+
+37. Hamm P, Lim M, Hochstrasser RM. Phys Rev Lett. 1998;81:5326–5329.
+
+38. Merchant KA, Thompson DE, Fayer MD. Phys Rev Lett. 2001;86:3899–3902.
+
+39. Thompson DE, Merchant KA, Fayer MD. J Chem Phys. 2001;115:317–330.
+
+40. Merchant KA, Thompson DE, Xu QH, Williams RB, Loring RF, Fayer MD. Biophys J. 2002;82:3277–3288.
+
+41. Golonzka O, Khalil M, Demirdoven N, Tokmakoff A. Phys Rev Lett. 2001;86:2154–2157.
+
+42. Zanni MT, Asplund MC, Hochstrasser RM. J Chem Phys. 2001;114:4579–4590.
+
+43. Zanni MT, Gnanakaran S, Stenger J, Hochstrasser RM. J Phys Chem B. 2001;105:6520–6535.
+
+44. Piryatinski A, Skinner JL. J Phys Chem B. 2002;106:8055–8063.
+
+45. Merchant KA, Noid WG, Akiyama R, Finkelstein IJ, Goun A, McClain BL, Loring RF, Fayer MD. J Am Chem Soc. 2003;125:13804–13818.
+
+46. Asbury JB, Steinel T, Stromberg C, Gaffney KJ, Piletic IR, Goun A, Fayer MD. Phys Rev Lett. 2003;91:237402.
+
+47. Mukamel S. Principles of Nonlinear Optical Spectroscopy. Oxford University Press; New York: 1995.
+
+48. Joo T, Jia Y, Yu JY, Lang MJ, Fleming GR. J Chem Phys. 1996;104:6089–6108.
+
+49. de Boeij WP, Pshenichnikov MS, Wiersma DA. J Phys Chem. 1996;100:11806–11823.
+
+50. Fleming GR, Cho M. Annu Rev Phys Chem. 1996;47:109–134.
+
+51. Joo T, Albrecht AC. Chem Phys. 1993;176:233–247.
+
+52. Hamm P, Hochstrasser RM. In: Fayer MD, editor. Ultrafast Infrared and Raman Spectroscopy. Marcel Dekker; New York: 2001. pp. 273–347.
+
+53. Loring RF, Mukamel S. J Chem Phys. 1985;83:2116–2128.
+
+54. Fayer MD. Ultrafast Infrared and Raman Spectroscopy. Dekker; New York: 2001.
+
+55. Elber R, Roitberg A, Simmerling C, Goldstein R, Li H, Verkhivker G, Keasar C, Zhang J, Ulitsky A. Comput Phys Commun. 1995;91:159–189.
+
+56. Weiner SJ, Kollman PA, Nguyen DT, Case DA. J Comput Chem. 1986;7:230–252.
+
+57. Park ES, Andrews SS, Hu RB, Boxer SG. J Phys Chem B. 1999;103:9813–9817.
+
+58. Gallagher Faeder SM, Jonas DM. Phys Rev A. 2000;62:033820.
+
+59. Sung J, Silbey RJ. J Chem Phys. 2001;115:9266–9287.
+
+60. Rector KD, Rella CW, Kwok AS, Hill JR, Sligar SG, Chien EYT, Dlott DD, Fayer MD. J Phys Chem B. 1997;101:1468–1475.
+
+61. Rella CW, Rector KD, Kwok A, Hill JR, Schwettman HA, Dlott DD, Fayer MD. J Phys Chem. 1996;100:15620–15629.
+
+62. Akiyama R, Loring RF. J Chem Phys. 2002;116:4655–4664.
+
+63. Park ES, Boxer SG. J Phys Chem B. 2002;106:5800–5806.
+
+64. Park ES, Thomas MR, Boxer SG. J Am Chem Soc. 2000;122:12297–12303.
+
+65. Park ES, Boxer SG. J Phys Chem B. 2002;106:5800–5806.
+
+66. Decatur SM. J Am Chem Soc. 1998;120:1−12.
+
+67. Noid WG, Loring RF. J Phys Chem B. 2004;108:6536–6543.
+
+68. Honig B, Nicholls A. Science. 1995;268:1144–1149.
+
+69. Davydov R, Kofman V, Nocek JM, Noble RW, Hui H, Hoffman BM. Biochemistry. 2004;43:6330–6338.
+
+70. Goodno GD, Astinov V, Miller RJD. J Phys Chem A. 1999;103:10630–10643.
+
+71. Sagnella DE, Straub JE. J Phys Chem B. 2001;105:7057–7063.
+
+72. Finkelstein IJ, Goun A, Loring RF, Fayer MD. (in preparation)
+
+73. Romero-Herrera AE, Goodman M, Dene H, Bartnicki DE, Mizukami H. J Mol Evol. 1981;17:140–147.
+
+74. Barrick D, Ho NT, Simplaceanu V, Dahlquist FW, Ho C. Nat Struct Biol. 1997;4:78–83.
+
+75. Dlott DD, Fayer MD, Hill JR, Rella CW, Suslick KS, Ziegler CJ. J Am Chem Soc. 1996;118:7853–7854.
+
+76. Eberly JH. Quantum Optics. Wiley; New York: 1977.
+
+77. Tokmakoff A, Kwok AS, Urdahl RS, Francis RS, Fayer MD. Chem Phys Lett. 1995;234:289–295.
+
+78. Ormos P, Ansari A, Braunstein D, Cowen BR, Frauenfelder H, Hong MK, Iben IET, Sauke TB, Steinbach PJ, Young RD. Biophys J. 1990;57:191–199.
+
+79. Noid WG, Finkelstein IJ, Merchant KA, Fayer MD, Loring RF. (in preparation)
+
+80. Quillin ML, Arduini RM, Olson JS, Phillips GN., Jr J Mol Biol. 1993;234:140–155.
+
+81. Hill JR, Tokmakoff A, Peterson KA, Sauter B, Zimdars D, Dlott DD, Fayer MD. J Phys Chem. 1994;98:11213–11219.
+
+---
+
 *Archived from [PubMed Central (PMC2435512)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2435512/) on 2025-07-19.*

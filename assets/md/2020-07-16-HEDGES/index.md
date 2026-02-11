@@ -192,4 +192,54 @@ The computer code used for the generation and testing of the inner HEDGES code a
 
 ---
 
+## References
+
+1. Church G. M., Gao Y., Kosuri S., "Next-generation digital information storage in DNA." *Science* 337, 1628 (2012). DOI: 10.1126/science.1226355
+
+2. Goldman N., et al., "Towards practical, high-capacity, low-maintenance information storage in synthesized DNA." *Nature* 494, 77–80 (2013). DOI: 10.1038/nature11875
+
+3. Grass R. N., Heckel R., Pudda M., Paunescu D., Stark W. J., "Robust chemical preservation of digital information on DNA in silica with error-correcting codes." *Angew. Chem. Int. Ed.* 54, 2552–2555 (2015). DOI: 10.1002/anie.201411378
+
+4. Bornholt J., et al., "A DNA-based archival storage system." *Comput. Architect. News* 44, 637–649 (2016).
+
+5. Erlich Y., Zielinski D., "DNA Fountain enables a robust and efficient storage architecture." *Science* 255, 950–954 (2017). DOI: 10.1126/science.aaj2038
+
+6. Yazdi S. M. H. T., Gabrys R., Milenkovic O., "Portable and error-free DNA-based data storage." *Nat. Sci. Rep.* 7, 5011 (2017). DOI: 10.1038/s41598-017-05188-1
+
+7. Organick L., Ang S. D., Chen Y.-J., "Random access in large-scale DNA data storage." *Nat. Biotechnol.* 36, 242–248 (2018). DOI: 10.1038/nbt.4079
+
+8. Ceze L., Nivala J., Strauss K., "Molecular digital data storage using DNA." *Nat. Rev. Genet.* 20, 456–466 (2019). DOI: 10.1038/s41576-019-0125-3
+
+9. MacWilliams F. J., Sloane N. J. A., *The Theory of Error-Correcting Codes* (North Holland, 1983).
+
+10. Roth R. M., *Introduction to Coding Theory* (Cambridge University Press, 2006).
+
+11. Moon T. K., *Error Correction Coding: Mathematical Methods and Algorithms* (Wiley, 2005).
+
+12. Lin S., Costello D. J., *Error Control Coding* (Pearson, 2nd ed., 2004).
+
+13. Mitzenmacher M., "A survey of results for deletion channels and related synchronization channels." *Probab. Surv.* 6, 1–33 (2009).
+
+14. Li R., "New developments in coding against insertions and deletions." Honors thesis, Carnegie Mellon University, Pittsburgh, PA.
+
+15. Wicker S. B., Bhargava V. K., *An Introduction to Reed-Solomon Codes* (Wiley-IEEE, 1994).
+
+16. Vigenère B. de, *Traicté des chiffres ou secrètes manières d'escrire* (Abel l'Angelier, Paris, 1586).
+
+17. Hart P. E., Nilsson N. J., Raphael B., "A formal basis for the heuristic determination of minimum cost paths." *IEEE Trans. Sys. Sci. Cyber.* 4, 100–107 (1968).
+
+18. Hawkins J. A., Jones S. K., Finkelstein I. J., Press W. H., "Indel-correcting DNA barcodes for high-throughput sequencing." *Proc. Natl. Acad. Sci. U.S.A.* 115, E6217–E6226 (2018). DOI: 10.1073/pnas.1802640115
+
+19. Chen Y.-C., Liu T., Yu C.-H., Chiang T.-Y., Hwang C.-C., "Effects of GC bias in next-generation-sequencing data on de novo genome assembly." *PloS One* 8, e62856 (2013). DOI: 10.1371/journal.pone.0062856
+
+20. Jain M., et al., "Nanopore sequencing and assembly of a human genome with ultra-long reads." *Nat. Biotechnol.* 36, 338–345 (2018). DOI: 10.1038/nbt.4060
+
+21. Press W. H., Teukolsky S. A., Vetterling W. T., Flannery B. P., *Numerical Recipes: The Art of Scientific Computing* (Cambridge University Press, 3rd ed., 2007).
+
+22. Klar B., "Bounds on tail probabilities of discrete distributions." *Probab. Eng. Inf. Sci.* 14, 161–171 (2000).
+
+23. Press W. H., Hawkins J. A., Jones S. K. Jr, Schaub J. M., Finkelstein I. J., "HEDGES error-correcting code for DNA storage corrects indels and allows sequence constraints." NCBI BioProject, deposited May 12, 2020. DOI: 10.1073/pnas.2004821117
+
+---
+
 *Archived from [PubMed Central (PMC7414044)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7414044/) on 2025-07-19.*

@@ -148,4 +148,100 @@ frequency–frequency correlation function.
 
 ---
 
+## References
+
+1. Jimenez R, Salazar G, Yin J, Joo T, Romesberg FE. Proc Natl Acad Sci USA. 2004;101:3803–3808. doi: 10.1073/pnas.0305745101.
+
+2. Ma B, Shatsky M, Wolfson HJ, Nussinov R. Protein Sci. 2002;11:184–197. doi: 10.1110/ps.21302.
+
+3. Vazquez-Laslop N, Zheleznova EE, Markham PN, Brennan RG, Neyfakh AA. Biochem Soc Trans. 2000;28:517–520.
+
+4. Veitch NC, Smith AT. Adv Inorg Chem. 2000;51:107–162.
+
+5. Fenimore PW, Frauenfelder H, McMahon BH, Parak FG. Proc Natl Acad Sci USA. 2002;99:16047–16051. doi: 10.1073/pnas.212637899.
+
+6. Frauenfelder H, McMahon BH, Austin RH, Chu K, Groves JT. Proc Natl Acad Sci USA. 2001;98:2370–2374. doi: 10.1073/pnas.041614298.
+
+7. Massari AM, Finkelstein IJ, Fayer MD. J Am Chem Soc. 2006;128:3990–3997. doi: 10.1021/ja058745y.
+
+8. Merchant KA, Noid WG, Akiyama R, Finkelstein IJ, Goun A, McClain BL, Loring RF, Fayer MD. J Am Chem Soc. 2003;125:13804–13818. doi: 10.1021/ja035654x.
+
+9. Mukherjee P, Kass I, Arkin IT, Zanni MT. Proc Natl Acad Sci USA. 2006;103:3528–3533. doi: 10.1073/pnas.0508833103.
+
+10. Chung HS, Khalil M, Smith AW, Ganim Z, Tokmakoff A. Proc Natl Acad Sci USA. 2005;102:612–617. doi: 10.1073/pnas.0408646102.
+
+11. Wang J, Chen J, Hochstrasser RM. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 2006;110:7545–7555. doi: 10.1021/jp057564f.
+
+12. Bredenbeck J, Helbing J, Kumita JR, Woolley GA, Hamm P. Proc Natl Acad Sci USA. 2005;102:2379–2384. doi: 10.1073/pnas.0406948102.
+
+13. Finkelstein IJ, Goj A, McClain BL, Massari AM, Merchant KA, Loring RF, Fayer MD. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 2005;109:16959–16966. doi: 10.1021/jp0517201.
+
+14. Massari AM, McClain BL, Finkelstein IJ, Lee AP, Reynolds HL, Bren KL, Fayer MD. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 2006;110:18803–18810. doi: 10.1021/jp054959q.
+
+15. Veitch NC. Phytochemistry. 2004;65:249–259. doi: 10.1016/j.phytochem.2003.10.022.
+
+16. Aitken SM, Turnbull JL, Percival MD, English AM. Biochemistry. 2001;40:13980–13989. doi: 10.1021/bi010445f.
+
+17. Spiro TG, Wasbotten IH. J Inorg Biochem. 2005;99:34–44. doi: 10.1016/j.jinorgbio.2004.09.026.
+
+18. Kaposi AD, Vanderkooi JM, Stavrov SS. Biophys J. 2006;91:4191–4200. doi: 10.1529/biophysj.105.068254.
+
+19. Khajehpour M, Troxler T, Vanderkooi JM. Biochemistry. 2003;42:2672–2679. doi: 10.1021/bi020325n.
+
+20. Kaposi AD, Prabhu NV, Dalosto SD, Sharp KA, Wright WW, Stavrov SS, Vanderkooi JM. Biophys Chem. 2003;106:1–14. doi: 10.1016/s0301-4622(03)00122-4.
+
+21. Williams RB, Loring RF, Fayer MD. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 2001;105:4068–4071.
+
+22. Park ES, Andrews SS, Hu RB, Boxer SG. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 1999;103:9813–9817.
+
+23. Summers JB, Mazdiyasni H, Holms JH, Ratajczyk JD, Dyer RD, Carter GW. J Med Chem. 1987;30:574–580. doi: 10.1021/jm00386a022.
+
+24. Carlsson GH, Nicholls P, Svistunenko D, Berglund GI, Hajdu J. Biochemistry. 2005;44:635–642. doi: 10.1021/bi0483211.
+
+25. Meno K, Jennings S, Smith AT, Henriksen A, Gajhede M. Acta Crystallogr D. 2002;58:1803–1812. doi: 10.1107/s090744490201329x.
+
+26. Gajhede M, Schuller DJ, Henriksen A, Smith AT, Poulos TL. Nat Struct Biol. 1997;4:1032–1038. doi: 10.1038/nsb1297-1032.
+
+27. Henriksen A, Gajhede M, Baker P, Smith AT, Burke JF. Acta Crystallogr D. 1995;51:121–123. doi: 10.1107/S0907444994008723.
+
+28. Howes BD, Heering HA, Roberts TO, Schneider-Belhadadd F, Smith AT, Smulevich G. Biopolymers. 2001;62:261–267. doi: 10.1002/bip.1021.
+
+29. Howes BD, Rodriguez-Lopez JN, Smith AT, Smulevich G. Biochemistry. 1997;36:1532–1543. doi: 10.1021/bi962502o.
+
+30. Smulevich G, Feis A, Indiani C, Becucci M, Marzocchi MP. J Biol Inorg Chem. 1999;4:39–47. doi: 10.1007/s007750050287.
+
+31. Kaposi AD, Fidy J, Manas ES, Vanderkooi JM, Wright WW. Biochim Biophys Acta. 1999;1435:41–50. doi: 10.1016/s0167-4838(99)00206-x.
+
+32. Henriksen A, Schuller DJ, Meno K, Welinder KG, Smith AT, Gajhede M. Biochemistry. 1998;37:8054–8060. doi: 10.1021/bi980234j.
+
+33. Holzbaur IE, English AM, Ismail AA. J Am Chem Soc. 1996;118:3354–3359.
+
+34. Ingledew WJ, Rich PR. Biochem Soc Trans. 2005;33:886–889. doi: 10.1042/BST0330886.
+
+35. Hashimoto S, Takeuchi H. Biochemistry. 2006;45:9660–9667. doi: 10.1021/bi060466f.
+
+36. Johnson JB, Lamb DC, Frauenfelder H, Müller JD, McMahon B, Nienhaus GU, Young RD. Biophys J. 1996;71:1563–1573. doi: 10.1016/S0006-3495(96)79359-1.
+
+37. Smulevich G, Paoli M, Burke JF, Sanders SA, Thorneley RN, Smith AT. Biochemistry. 1994;33:7398–7407. doi: 10.1021/bi00189a046.
+
+38. Rector KD, Kwok AS, Ferrante C, Tokmakoff A, Rella CW, Fayer MD. J Chem Phys. 1997;106:10027–10036.
+
+39. Roberts ST, Loparo JJ, Tokmakoff A. J Chem Phys. 2006;125 doi: 10.1063/1.2232271. 084502.
+
+40. Mukamel S. Principles of Nonlinear Optical Spectroscopy. New York: Oxford Univ Press; 1995.
+
+41. Massari AM, Finkelstein IJ, McClain BL, Goj A, Wen X, Bren KL, Loring RF, Fayer MD. J Am Chem Soc. 2005;127:14279–14289. doi: 10.1021/ja053627w.
+
+42. Bai YS, Fayer MD. Phys Rev B Condens Matter. 1989;39:11066. doi: 10.1103/physrevb.39.11066.
+
+43. Schmidt J, Sundlass N, Skinner J. Chem Phys Lett. 2003;378:559–566.
+
+44. Asbury JB, Steinel T, Fayer MD. J Luminescence. 2004;107:271–286. doi: 10.1016/j.jlumin.2003.12.035.
+
+45. Zanni MT, Gnanakaran S, Stenger J, Hochstrasser RM. J Phys Chem B Condens Matter Mater Surf Interfaces Biophys. 2001;105:6520–6535.
+
+46. Khalil M, Demirdoven N, Tokmakoff A. Phys Rev Lett. 2003;90 doi: 10.1103/PhysRevLett.90.047401. 047401–047404.
+
+---
+
 *Archived from [PubMed Central (PMC1815234)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1815234/) on 2025-07-19.*

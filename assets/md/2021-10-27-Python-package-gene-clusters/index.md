@@ -56,4 +56,21 @@ The authors would like to thank the staff of the Texas Advanced Computing Center
 
 ---
 
+## References
+
+1. Blin K, Shaw S, Steinke K, Villebro R, Ziemert N, Lee SY, Medema MH, & Weber T (2019). "antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline." Nucleic Acids Research, 47(W1), W81–W87. doi: 10.1093/nar/gkz310
+2. Buchfink B, Reuter K, & Drost H-G (2021). "Sensitive protein alignments at tree-of-life scale using DIAMOND." Nature Methods, 18(4), 366–368. doi: 10.1038/s41592-021-01101-x
+3. Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, & Madden TL (2009). "BLAST+: Architecture and applications." BMC Bioinformatics, 10(1), 421. doi: 10.1186/1471-2105-10-421
+4. Edgar RC (2007). "PILER-CR: Fast and accurate identification of CRISPR repeats." BMC Bioinformatics, 8(1), 18. doi: 10.1186/1471-2105-8-18
+5. Fischbach M, & Voigt CA (2010). "Prokaryotic gene clusters: A rich toolbox for synthetic biology." Biotechnology Journal, 5(12), 1277–1296. doi: 10.1002/biot.201000181
+6. Grüning B, Dale R, Sjödin A, Chapman B, Rowe J, Tomkins-Tinch CH, Valieris R, Köster J, & The Bioconda Team (2018). "Bioconda: sustainable and comprehensive software distribution for the life sciences." Nature Methods, 15(7), 475–476. doi: 10.1038/s41592-018-0046-7
+7. Rybarski JR, Hu K, Hill AM, Wilke CO, & Finkelstein IJ (2021). "Metagenomic discovery of CRISPR-associated transposons." bioRxiv. doi: 10.1101/2021.08.16.456562
+8. Santos-Aberturas J, Chandra G, Frattaruolo L, Lacret R, Pham TH, Vior NM, Eyles TH, & Truman AW (2019). "Uncovering the unexplored diversity of thioamidated ribosomal peptides in Actinobacteria using the RiPPER genome mining tool." Nucleic Acids Research, 47(9), 4624–4637. doi: 10.1093/nar/gkz192
+9. Shi J, & Liang C (2019). "Generic Repeat Finder: A High-Sensitivity Tool for Genome-Wide De Novo Repeat Detection." Plant Physiology, 180(4), 1803–1815. doi: 10.1104/pp.19.00386
+10. Steinegger M, & Söding J (2017). "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets." Nature Biotechnology, 35(11), 1026–1028. doi: 10.1038/nbt.3988
+11. van Heel AJ, de Jong A, Song C, Viel JH, Kok J, & Kuipers OP (2018). "BAGEL4: a user-friendly web server to thoroughly mine RiPPs and bacteriocins." Nucleic Acids Research, 46(W1), W278–W281. doi: 10.1093/nar/gky383
+12. Zulkower V, & Rosser S (2020). "DNA Features Viewer: a sequence annotation formatting and plotting library for Python." Bioinformatics, 36(15), 4350–4352. doi: 10.1093/bioinformatics/btaa213
+
+---
+
 *Archived from [PubMed Central (PMC9017871)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9017871/) on 2025-07-19.*

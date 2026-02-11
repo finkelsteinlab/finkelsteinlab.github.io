@@ -196,4 +196,68 @@ This work was supported by the National Institutes of Health (GM097177 and GM120
 
 ---
 
+## References
+
+1. Antos JM, Chew G-L, Guimaraes CP, et al. Site-specific N- and C-terminal labeling of a single polypeptide using sortases of different specificity. *Journal of the American Chemical Society*. 2009;131:10800–10801.
+
+2. Carrico IS, Carlson BL, Bertozzi CR. Introducing genetically encoded aldehydes into proteins. *Nature Chemical Biology*. 2007;3:321–322.
+
+3. Chen JS, Dagdas YS, Kleinstiver BP, et al. Enhanced proofreading governs CRISPR–Cas9 targeting accuracy. *Nature*. 2017;550:407–410.
+
+4. Cole NB. Site-specific protein labeling with SNAP-tags. *Current Protocols in Protein Science*. 2013;73:30.1.1–30.1.16.
+
+5. Cranfill PJ, Sell BR, Baird MA, et al. Quantitative assessment of fluorescent proteins. *Nature Methods*. 2016;13:557–562.
+
+6. Dagdas YS, Chen JS, Sternberg SH, Doudna JA, Yildiz A. A conformational checkpoint between DNA binding and cleavage by CRISPR-Cas9. *Science Advances*. 2017;3:eaao0027.
+
+7. Dillard KE, Brown MW, Johnson NV, et al. Assembly and translocation of a CRISPR-Cas primed acquisition complex. *Cell*. 2018;175:934–946.
+
+8. Gallardo IF, Pasupathy P, Brown M, et al. High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. *Langmuir*. 2015;31:10310–10317.
+
+9. Gautier A, Juillerat A, Heinis C, et al. An engineered protein tag for multiprotein labeling in living cells. *Chemistry & Biology*. 2008;15:128–136.
+
+10. Guimaraes CP, Witte MD, Theile CS, et al. Site-specific C-terminal and internal loop labeling of proteins using sortase-mediated reactions. *Nature Protocols*. 2013;8:1787–1799.
+
+11. Hansen SR, Rodgers ML, Hoskins AA. Fluorescent labeling of proteins in whole cell extracts for single-molecule imaging. *Methods in Enzymology*. 2016;581:83–104.
+
+12. Hink MA, Griep RA, Borst JW, et al. Structural dynamics of green fluorescent protein alone and fused with a single chain Fv protein. *Journal of Biological Chemistry*. 2000;275:17556–17560.
+
+13. Jung C, Hawkins JA, Jones SK, et al. Massively parallel biophysical analysis of CRISPR-Cas complexes on next generation sequencing chips. *Cell*. 2017;170:35–47.
+
+14. Kim Y, Ho SO, Gassman NR, et al. Efficient site-specific labeling of proteins via cysteines. *Bioconjugate Chemistry*. 2008;19:786–791.
+
+15. Los GV, Encell LP, McDougall MG, et al. HaloTag: A novel protein labeling technology for cell imaging and protein analysis. *ACS Chemical Biology*. 2008;3:373–382.
+
+16. Redding S, Sternberg SH, Marshall M, et al. Surveillance and processing of foreign DNA by the *Escherichia coli* CRISPR-Cas system. *Cell*. 2015;163:854–865.
+
+17. Schaub JM, Zhang H, Soniat MM, Finkelstein IJ. Assessing protein dynamics on low-complexity single-stranded DNA curtains. *Langmuir*. 2018.
+
+18. Shi X, Jung Y, Lin L-J, et al. Quantitative fluorescent labeling of aldehyde-tagged proteins for single-molecule imaging. *Nature Methods*. 2012;9:499–503.
+
+19. Shi J, Kundrat L, Pishesha N, et al. Engineered red blood cells as carriers for systemic delivery of a wide array of functional probes. *Proceedings of the National Academy of Sciences of the United States of America*. 2014;111:10131–10136.
+
+20. Singh D, Mallon J, Poddar A, et al. Real-time observation of DNA target interrogation and product release by the RNA-guided endonuclease CRISPR Cpf1 (Cas12a). *Proceedings of the National Academy of Sciences of the United States of America*. 2018;115:5444–5449.
+
+21. Singh D, Wang Y, Mallon J, et al. Mechanisms of improved specificity of engineered Cas9s revealed by single-molecule FRET analysis. *Nature Structural & Molecular Biology*. 2018;25:347–354.
+
+22. Soniat MM, Myler LR, Schaub JM, et al. Next-generation DNA curtains for single-molecule studies of homologous recombination. *Methods in Enzymology*. 2017;592:259–281.
+
+23. Sternberg SH, LaFrance B, Kaplan M, Doudna JA. Conformational control of DNA target cleavage by CRISPR-Cas9. *Nature*. 2015;527:110–113.
+
+24. Sternberg SH, Redding S, Jinek M, Greene EC, Doudna JA. DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. *Nature*. 2014;507:62–67.
+
+25. Sun X, Zhang A, Baker B, et al. Development of SNAP-tag fluorogenic probes for wash-free fluorescence imaging. *Chembiochem*. 2011;12:2217–2226.
+
+26. Theile CS, Witte MD, Blom AEM, et al. Site-specific N-terminal labeling of proteins using sortase-mediated reactions. *Nature Protocols*. 2013;8:1800–1807.
+
+27. Wright AV, Liu J-J, Knott GJ, et al. Structures of the CRISPR genome integration complex. *Science*. 2017;357:eaao0679.
+
+28. Xiao Y, Luo M, Dolan AE, Liao M, Ke A. Structure basis for RNA-guided DNA degradation by Cascade and Cas3. *Science*. 2018;361:eaat0839.
+
+29. Xue C, Zhu Y, Zhang X, Shin Y-K, Sashital DG. Real-time observation of target search by the CRISPR surveillance complex Cascade. *Cell Reports*. 2017;21:3717–3727.
+
+30. Yang M, Peng S, Sun R, et al. The conformational dynamics of Cas9 governing DNA cleavage are revealed by single-molecule FRET. *Cell Reports*. 2018;22:372–382.
+
+---
+
 *Archived from [PubMed Central (PMC6380366)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6380366/) on 2025-07-19.*

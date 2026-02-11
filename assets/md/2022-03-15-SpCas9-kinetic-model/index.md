@@ -184,6 +184,151 @@ The data supporting the findings of this study are available from the correspond
 ##  Code availability
 The code enabling quantitative off-target activity prediction for any guide-target pair is available on our GitLab page (<https://gitlab.tudelft.nl/depken_group/SpCas9_kinetic_model_dashboard>). There you will also find a small dashboard application, allowing time resolved activity predictions given a particular sequence and enzyme concentration. A clone of the repository at publication is also permanently available at 10.5281/zenodo.5790798. The purpose made optimization code will be made available upon request.
 
+## References
+
+1. Sander JD, Joung JK. CRISPR-Cas systems for editing, regulating and targeting genomes. *Nat. Biotechnol.* 2014;32:347-350. [doi:10.1038/nbt.2842](https://doi.org/10.1038/nbt.2842)
+
+2. Wang H, La Russa M, Qi LS. CRISPR/Cas9 in Genome Editing and Beyond. *Annu. Rev. Biochem.* 2016;85:227-264. [doi:10.1146/annurev-biochem-060815-014607](https://doi.org/10.1146/annurev-biochem-060815-014607)
+
+3. Chen B, et al. Dynamic imaging of genomic loci in living human cells by an optimized CRISPR/Cas system. *Cell.* 2013;155:1479-1491. [doi:10.1016/j.cell.2013.12.001](https://doi.org/10.1016/j.cell.2013.12.001)
+
+4. Gilbert LA, et al. CRISPR-mediated modular RNA-guided regulation of transcription in eukaryotes. *Cell.* 2013;154:442. [doi:10.1016/j.cell.2013.06.044](https://doi.org/10.1016/j.cell.2013.06.044)
+
+5. Jost M, et al. Titrating gene expression using libraries of systematically attenuated CRISPR guide RNAs. *Nat. Biotechnol.* 2020;38:355-364. [doi:10.1038/s41587-019-0387-5](https://doi.org/10.1038/s41587-019-0387-5)
+
+6. Niu D, et al. Inactivation of porcine endogenous retrovirus in pigs using CRISPR-Cas9. *Science.* 2017;357:1303-1307. [doi:10.1126/science.aan4187](https://doi.org/10.1126/science.aan4187)
+
+7. Hammond A, et al. A CRISPR-Cas9 gene drive system targeting female reproduction in the malaria mosquito vector Anopheles gambiae. *Nat. Biotechnol.* 2016;34:78-83. [doi:10.1038/nbt.3439](https://doi.org/10.1038/nbt.3439)
+
+8. Amoasii L, et al. Gene editing restores dystrophin expression in a canine model of Duchenne muscular dystrophy. *Science.* 2018;362:1-6. [doi:10.1126/science.aau1549](https://doi.org/10.1126/science.aau1549)
+
+9. Park CY, et al. Functional Correction of Large Factor VIII Gene Chromosomal Inversions in Hemophilia A Patient-Derived iPSCs Using CRISPR-Cas9. *Cell Stem Cell.* 2015;17:213-220. [doi:10.1016/j.stem.2015.07.001](https://doi.org/10.1016/j.stem.2015.07.001)
+
+10. Jinek M, et al. A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity. *Science.* 2012;337:816-822. [doi:10.1126/science.1225829](https://doi.org/10.1126/science.1225829)
+
+11. Boyle EA, et al. High-throughput biochemical profiling reveals sequence determinants of dCas9 off-target binding and unbinding. *Proc. Natl Acad. Sci.* 2017;114:5461-5466. [doi:10.1073/pnas.1700557114](https://doi.org/10.1073/pnas.1700557114)
+
+12. Doench JG, et al. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. *Nat. Biotechnol.* 2016;34:184-191. [doi:10.1038/nbt.3437](https://doi.org/10.1038/nbt.3437)
+
+13. Fu Y, et al. High-frequency off-target mutagenesis induced by CRISPR-Cas nucleases in human cells. *Nat. Biotechnol.* 2013;31:822-826. [doi:10.1038/nbt.2623](https://doi.org/10.1038/nbt.2623)
+
+14. Hsu PD, et al. DNA targeting specificity of RNA-guided Cas9 nucleases. *Nat. Biotechnol.* 2013;31:827-832. [doi:10.1038/nbt.2647](https://doi.org/10.1038/nbt.2647)
+
+15. Jones SK Jr, et al. Massively parallel kinetic profiling of natural and engineered CRISPR nucleases. *Nat. Biotechnol.* 2021;39:84-93. [doi:10.1038/s41587-020-0646-5](https://doi.org/10.1038/s41587-020-0646-5)
+
+16. Kim D, Luk K, Wolfe SA, Kim J-S. Evaluating and Enhancing Target Specificity of Gene-Editing Nucleases and Deaminases. *Annu. Rev. Biochem.* 2019;88:191-220. [doi:10.1146/annurev-biochem-013118-111730](https://doi.org/10.1146/annurev-biochem-013118-111730)
+
+17. Pattanayak V, et al. High-throughput profiling of off-target DNA cleavage reveals RNA-programmed Cas9 nuclease specificity. *Nat. Biotechnol.* 2013;31:839-843. [doi:10.1038/nbt.2673](https://doi.org/10.1038/nbt.2673)
+
+18. Tsai SQ, Joung JK. Defining and improving the genome-wide specificities of CRISPR-Cas9 nucleases. *Nat. Rev. Genet.* 2016;17:300-312. [doi:10.1038/nrg.2016.28](https://doi.org/10.1038/nrg.2016.28)
+
+19. Cullot G, et al. CRISPR-Cas9 genome editing induces megabase-scale chromosomal truncations. *Nat. Commun.* 2019;10:1-14. [doi:10.1038/s41467-019-09006-2](https://doi.org/10.1038/s41467-019-09006-2)
+
+20. Labun K, Montague TG, Gagnon JA, Thyme SB, Valen E. CHOPCHOP v2: a web tool for the next generation of CRISPR genome engineering. *Nucleic Acids Res.* 2016;44:W272-W276. [doi:10.1093/nar/gkw398](https://doi.org/10.1093/nar/gkw398)
+
+21. Heigwer F, Kerr G, Boutros M. E-CRISP: Fast CRISPR target site identification. *Nat. Methods.* 2014;11:122-123. [doi:10.1038/nmeth.2812](https://doi.org/10.1038/nmeth.2812)
+
+22. Listgarten J, et al. Prediction of off-target activities for the end-to-end design of CRISPR guide RNAs. *Nat. Biomed. Eng.* 2018;2:38-47. [doi:10.1038/s41551-017-0178-6](https://doi.org/10.1038/s41551-017-0178-6)
+
+23. Chuai G, et al. DeepCRISPR: Optimized CRISPR guide RNA design by deep learning. *Genome Biol.* 2018;19:1-18. [doi:10.1186/s13059-018-1459-4](https://doi.org/10.1186/s13059-018-1459-4)
+
+24. Zhang D, Hurst T, Duan D, Chen S-J. Unified energetics analysis unravels SpCas9 cleavage activity for optimal gRNA design. *Proc. Natl Acad. Sci.* 2019;116:8693-8698. [doi:10.1073/pnas.1820523116](https://doi.org/10.1073/pnas.1820523116)
+
+25. Stemmer M, Thumberger T, Del Sol Keyer M, Wittbrodt J, Mateo JL. CCTop: An intuitive, flexible and reliable CRISPR/Cas9 target prediction tool. *PLoS One.* 2015;10:1-11. [doi:10.1371/journal.pone.0124633](https://doi.org/10.1371/journal.pone.0124633)
+
+26. Tycko J, Myer VE, Hsu PD. Methods for Optimizing CRISPR-Cas9 Genome Editing Specificity. *Mol. Cell.* 2016;63:355-370. [doi:10.1016/j.molcel.2016.07.004](https://doi.org/10.1016/j.molcel.2016.07.004)
+
+27. Farasat I, Salis HM. A Biophysical Model of CRISPR/Cas9 Activity for Rational Design of Genome Editing and Gene Regulation. *PLoS Comput. Biol.* 2016;12:1-33. [doi:10.1371/journal.pcbi.1004724](https://doi.org/10.1371/journal.pcbi.1004724)
+
+28. Alkan F, Wenzel A, Anthon C, Havgaard JH, Gorodkin J. CRISPR-Cas9 off-targeting assessment with nucleic acid duplex energy parameters. *Genome Biol.* 2018;19:177. [doi:10.1186/s13059-018-1534-x](https://doi.org/10.1186/s13059-018-1534-x)
+
+29. Bisaria N, Jarmoskaite I, Herschlag D. Lessons from Enzyme Kinetics Reveal Specificity Principles for RNA-Guided Nucleases in RNA Interference and CRISPR-Based Genome Editing. *Cell Syst.* 2017;4:21-29. [doi:10.1016/j.cels.2016.12.010](https://doi.org/10.1016/j.cels.2016.12.010)
+
+30. Klein M, Eslami-Mossallam B, Arroyo DG, Depken M. Hybridization Kinetics Explains CRISPR-Cas Off-Targeting Rules. *Cell Rep.* 2018;22:1413-1423. [doi:10.1016/j.celrep.2018.01.045](https://doi.org/10.1016/j.celrep.2018.01.045)
+
+31. Jung C, et al. Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips. *Cell.* 2017;170:35-47.e13. [doi:10.1016/j.cell.2017.05.044](https://doi.org/10.1016/j.cell.2017.05.044)
+
+32. O'Geen H, et al. A genome-wide analysis of Cas9 binding specificity using ChIP-seq and targeted sequence capture. *Nucleic Acids Res.* 2015;43:3389-3404. [doi:10.1093/nar/gkv137](https://doi.org/10.1093/nar/gkv137)
+
+33. Kuscu C, Arslan S, Singh R, Thorpe J, Adli M. Genome-wide analysis reveals characteristics of off-target sites bound by the Cas9 endonuclease. *Nat. Biotechnol.* 2014;32:677-683. [doi:10.1038/nbt.2916](https://doi.org/10.1038/nbt.2916)
+
+34. Wu X, et al. Genome-wide binding of the CRISPR endonuclease Cas9 in mammalian cells. *Nat. Biotechnol.* 2014;32:670-676. [doi:10.1038/nbt.2889](https://doi.org/10.1038/nbt.2889)
+
+35. Cameron P, et al. Mapping the genomic landscape of CRISPR-Cas9 cleavage. *Nat. Methods.* 2017;14:600-606. [doi:10.1038/nmeth.4284](https://doi.org/10.1038/nmeth.4284)
+
+36. Tsai SQ, et al. CIRCLE-seq: A highly sensitive in vitro screen for genome-wide CRISPR-Cas9 nuclease off-targets. *Nat. Methods.* 2017;14:607-614. [doi:10.1038/nmeth.4278](https://doi.org/10.1038/nmeth.4278)
+
+37. Kim D, et al. Digenome-seq: Genome-wide profiling of CRISPR-Cas9 off-target effects in human cells. *Nat. Methods.* 2015;12:237-243. [doi:10.1038/nmeth.3284](https://doi.org/10.1038/nmeth.3284)
+
+38. Tsai SQ, et al. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. *Nat. Biotechnol.* 2015;33:187-198. [doi:10.1038/nbt.3117](https://doi.org/10.1038/nbt.3117)
+
+39. Frock RL, et al. Genome-wide detection of DNA double-stranded breaks induced by engineered nucleases. *Nat. Biotechnol.* 2015;33:179-188. [doi:10.1038/nbt.3101](https://doi.org/10.1038/nbt.3101)
+
+40. Yan WX, et al. BLISS is a versatile and quantitative method for genome-wide profiling of DNA double-strand breaks. *Nat. Commun.* 2017;8:1-9. [doi:10.1038/ncomms15058](https://doi.org/10.1038/ncomms15058)
+
+41. Slaymaker IM, et al. Rationally engineered Cas9 nucleases with improved specificity. *Science.* 2016;351:84-88. [doi:10.1126/science.aad5227](https://doi.org/10.1126/science.aad5227)
+
+42. Ivanov IE, et al. Cas9 interrogates DNA in discrete steps modulated by mismatches and supercoiling. *Proc. Natl Acad. Sci. U.S.A.* 2020;117:5853-5860. [doi:10.1073/pnas.1913445117](https://doi.org/10.1073/pnas.1913445117)
+
+43. Haeussler M, et al. Evaluation of off-target and on-target scoring algorithms and integration into the guide RNA selection tool CRISPOR. *Genome Biol.* 2016;17:1-12. [doi:10.1186/s13059-016-1012-2](https://doi.org/10.1186/s13059-016-1012-2)
+
+44. Anders C, Niewoehner O, Duerst A, Jinek M. Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease. *Nature.* 2014;513:569-573. [doi:10.1038/nature13579](https://doi.org/10.1038/nature13579)
+
+45. Jiang F, Zhou K, Gressel S, Doudna JA. A Cas9 guide RNA complex preorganized for target DNA recognition. *Science.* 2015;348:1477-1482. [doi:10.1126/science.aab1452](https://doi.org/10.1126/science.aab1452)
+
+46. Josephs EA, et al. Structure and specificity of the RNA-guided endonuclease Cas9 during DNA interrogation, target binding and cleavage. *Nucleic Acids Res.* 2015;43:8924-8941. [doi:10.1093/nar/gkv892](https://doi.org/10.1093/nar/gkv892)
+
+47. Rutkauskas M, et al. Directional R-loop formation by the CRISPR-Cas surveillance complex Cascade provides efficient off-target site rejection. *Cell Rep.* 2015;10:1534-1543. [doi:10.1016/j.celrep.2015.01.067](https://doi.org/10.1016/j.celrep.2015.01.067)
+
+48. Szczelkun MD, et al. Direct observation of R-loop formation by single RNA-guided Cas9 and Cascade effector complexes. *Proc. Natl Acad. Sci.* 2014;111:9798-9803. [doi:10.1073/pnas.1402597111](https://doi.org/10.1073/pnas.1402597111)
+
+49. Xiao Y, et al. Structure Basis for Directional R-loop Formation and Substrate Handover Mechanisms in Type I CRISPR-Cas System. *Cell.* 2017;170:48-60.e11. [doi:10.1016/j.cell.2017.06.012](https://doi.org/10.1016/j.cell.2017.06.012)
+
+50. Sternberg SH, LaFrance B, Kaplan M, Doudna JA. Conformational control of DNA target cleavage by CRISPR-Cas9. *Nature.* 2015;527:110-113. [doi:10.1038/nature15544](https://doi.org/10.1038/nature15544)
+
+51. Dagdas YS, Chen JS, Sternberg SH, Doudna JA, Yildiz A. A conformational checkpoint between DNA binding and cleavage by CRISPR-Cas9. *Sci. Adv.* 2017;3:1-9. [doi:10.1126/sciadv.aao0027](https://doi.org/10.1126/sciadv.aao0027)
+
+52. Sung K, Park J, Kim Y, Lee NK, Kim SK. Target Specificity of Cas9 Nuclease via DNA Rearrangement Regulated by the REC2 Domain. *J. Am. Chem. Soc.* 2018;140:7778-7781. [doi:10.1021/jacs.8b03102](https://doi.org/10.1021/jacs.8b03102)
+
+53. Yang M, et al. The Conformational Dynamics of Cas9 Governing DNA Cleavage Are Revealed by Single-Molecule FRET. *Cell Rep.* 2018;22:372-382. [doi:10.1016/j.celrep.2017.12.048](https://doi.org/10.1016/j.celrep.2017.12.048)
+
+54. Chen JS, et al. Enhanced proofreading governs CRISPR-Cas9 targeting accuracy. *Nature.* 2017;550:407-410. [doi:10.1038/nature24268](https://doi.org/10.1038/nature24268)
+
+55. Irmisch P, Ouldridge TE, Seidel R. Modeling DNA-Strand Displacement Reactions in the Presence of Base-Pair Mismatches. *J. Am. Chem. Soc.* 2020;142:11451-11463. [doi:10.1021/jacs.0c03105](https://doi.org/10.1021/jacs.0c03105)
+
+56. Srinivas N, et al. On the biophysics and kinetics of toehold-mediated DNA strand displacement. *Nucleic Acids Res.* 2013;41:10641-10658. [doi:10.1093/nar/gkt801](https://doi.org/10.1093/nar/gkt801)
+
+57. Sulc P, et al. Modelling toehold-mediated RNA strand displacement. *Biophys. J.* 2015;108:1238-1247. [doi:10.1016/j.bpj.2015.01.023](https://doi.org/10.1016/j.bpj.2015.01.023)
+
+58. Broadwater DWB, Kim HD. The Effect of Basepair Mismatch on DNA Strand Displacement. *Biophys. J.* 2016;110:1476-1484. [doi:10.1016/j.bpj.2016.02.027](https://doi.org/10.1016/j.bpj.2016.02.027)
+
+59. Kirkpatrick S, Gelatt CD, Vecchi MP. Optimization by simulated annealing. *Science.* 1983;220:671-680. [doi:10.1126/science.220.4598.671](https://doi.org/10.1126/science.220.4598.671)
+
+60. Jiang F, et al. Structures of a CRISPR-Cas9 R-loop complex primed for DNA cleavage. *Science.* 2016;351:867-871. [doi:10.1126/science.aad8282](https://doi.org/10.1126/science.aad8282)
+
+61. Jinek M, et al. Structures of Cas9 endonucleases reveal RNA-mediated conformational activation. *Science.* 2014;343:1247997. [doi:10.1126/science.1247997](https://doi.org/10.1126/science.1247997)
+
+62. Kim D, et al. Genome-wide target specificities of CRISPR-Cas9 nucleases revealed by multiplex Digenome-seq. *Genome Res.* 2016;26:406-415. [doi:10.1101/gr.199588.115](https://doi.org/10.1101/gr.199588.115)
+
+63. Dahlman JE, et al. Orthogonal gene knockout and activation with a catalytically active Cas9 nuclease. *Nat. Biotechnol.* 2015;33:1159-1161. [doi:10.1038/nbt.3390](https://doi.org/10.1038/nbt.3390)
+
+64. Chen JS, et al. CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity. *Science.* 2018;360:436-439. [doi:10.1126/science.aar6245](https://doi.org/10.1126/science.aar6245)
+
+65. Gootenberg JS, et al. Nucleic acid detection with CRISPR-Cas13a/C2c2. *Science.* 2017;356:438-442. [doi:10.1126/science.aam9321](https://doi.org/10.1126/science.aam9321)
+
+66. Gootenberg JS, et al. Multiplexed and portable nucleic acid detection platform with Cas13, Cas12a, and Csm6. *Science.* 2018;360:439-444. [doi:10.1126/science.aaq0179](https://doi.org/10.1126/science.aaq0179)
+
+67. Harrington LB, et al. Programmed DNA destruction by miniature CRISPR-Cas14 enzymes. *Science.* 2018;362:839-842. [doi:10.1126/science.aav4294](https://doi.org/10.1126/science.aav4294)
+
+68. Kim D, et al. Genome-wide analysis reveals specificities of Cpf1 endonucleases in human cells. *Nat. Biotechnol.* 2016;34:863-868. [doi:10.1038/nbt.3609](https://doi.org/10.1038/nbt.3609)
+
+69. Kleinstiver BP, et al. Genome-wide specificities of CRISPR-Cas Cpf1 nucleases in human cells. *Nat. Biotechnol.* 2016;34:869-874. [doi:10.1038/nbt.3620](https://doi.org/10.1038/nbt.3620)
+
+70. Kleinstiver BP, et al. High-fidelity CRISPR-Cas9 nucleases with no detectable genome-wide off-target effects. *Nature.* 2016;529:490-495. [doi:10.1038/nature16526](https://doi.org/10.1038/nature16526)
+
+71. Amrani N, et al. NmeCas9 is an intrinsically high-fidelity genome-editing platform. *Genome Biol.* 2018;19:214. [doi:10.1186/s13059-018-1591-1](https://doi.org/10.1186/s13059-018-1591-1)
+
+
 ---
 
 *Archived from [PubMed Central (PMC8924176)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/) on 2025-07-19.*

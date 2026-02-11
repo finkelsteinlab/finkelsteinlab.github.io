@@ -214,4 +214,82 @@ _Author contributions:_ Conceptualization: K.J.F., I.J.F.; Data curation and for
 
 ---
 
+## References
+
+1. Mayo-Muñoz D, Pinilla-Redondo R, Birkholz N, et al. (2023) A host of armor: prokaryotic immune strategies against mobile genetic elements. _Cell Rep._ 42:872.
+2. Georjon H, Bernheim A. (2023) The highly diverse antiphage defence systems of bacteria. _Nat Rev Microbiol._ 21:686–700.
+3. Mayo-Muñoz D, Pinilla-Redondo R, Camara-Wilpert S, et al. (2024) Inhibitors of bacterial immune systems: discovery, mechanisms and applications. _Nat Rev Genet._ 25:237–54.
+4. Pons BJ, van Houte S, Westra ER, et al. (2023) Ecology and evolution of phages encoding anti-CRISPR proteins. _J Mol Biol._ 435:167974.
+5. Jinek M, Chylinski K, Fonfara I, et al. (2012) A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. _Science_ 337:816–21.
+6. Gasiunas G, Barrangou R, Horvath P, et al. (2012) Cas9–crRNA ribonucleoprotein complex mediates specific DNA cleavage for adaptive immunity in bacteria. _Proc Natl Acad Sci USA_ 109:E2579–E2586.
+7. Singh D, Sternberg SH, Fei J, et al. (2016) Real-time observation of DNA recognition and rejection by the RNA-guided endonuclease Cas9. _Nat Commun._ 7:12778.
+8. Sternberg SH, Redding S, Jinek M, et al. (2014) DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. _Nature_ 507:62–7.
+9. Bondy-Denomy J, Pawluk A, Maxwell KL, et al. (2013) Bacteriophage genes that inactivate the CRISPR–Cas bacterial immune system. _Nature_ 493:429–32.
+10. Chowdhury S, Carter J, Rollins MF, et al. (2017) Structure reveals mechanisms of viral suppressors that intercept a CRISPR RNA-guided surveillance complex. _Cell_ 169:47–57.
+11. Bondy-Denomy J, Garcia B, Strum S, et al. (2015) Multiple mechanisms for CRISPR–Cas inhibition by anti-CRISPR proteins. _Nature_ 526:136–9.
+12. Guo TW, Bartesaghi A, Yang H, et al. (2017) Cryo-EM structures reveal mechanism and inhibition of DNA targeting by a CRISPR–Cas surveillance complex. _Cell_ 171:414–26.
+13. Wang X, Yao D, Xu J-G, et al. (2016) Structural basis of Cas3 inhibition by the bacteriophage protein AcrF3. _Nat Struct Mol Biol._ 23:868–70.
+14. Wiegand T, Karambelkar S, Bondy-Denomy J, et al. (2020) Structures and strategies of anti-CRISPR-mediated immune suppression. _Annu Rev Microbiol._ 74:21–37.
+15. Pawluk A, Staals RHJ, Taylor C, et al. (2016) Inactivation of CRISPR-Cas systems by anti-CRISPR proteins in diverse bacterial species. _Nat Microbiol._ 1:16085.
+16. Pawluk A, Amrani N, Zhang Y, et al. (2016) Naturally occurring off-switches for CRISPR–Cas9. _Cell_ 167:1829–38.
+17. Rauch BJ, Silvis MR, Hultquist JF, et al. (2017) Inhibition of CRISPR–Cas9 with bacteriophage proteins. _Cell_ 168:150–8.
+18. Hynes AP, Rousseau GM, Lemay M-L, et al. (2017) An anti-CRISPR from a virulent streptococcal phage inhibits Streptococcus pyogenes Cas9. _Nat Microbiol._ 2:1374–80.
+19. Hynes AP, Rousseau GM, Agudelo D, et al. (2018) Widespread anti-CRISPR proteins in virulent bacteriophages inhibit a range of Cas9 proteins. _Nat Commun._ 9:2919.
+20. Watters KE, Fellmann C, Bai HB, et al. (2018) Systematic discovery of natural CRISPR–Cas12a inhibitors. _Science_ 362:236–9.
+21. Forsberg KJ, Bhatt IV, Schmidtke DT, et al. (2019) Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome. _eLife_ 8:e46540.
+22. Uribe RV, van der Helm E, Misiakou M-A, et al. (2019) Discovery and characterization of Cas9 inhibitors disseminated across seven bacterial phyla. _Cell Host Microbe_ 25:233–41.
+23. Forsberg KJ, Schmidtke DT, Werther R, et al. (2021) The novel anti-CRISPR AcrIIA22 relieves DNA torsion in target plasmids and impairs SpyCas9 activity. _PLoS Biol._ 19:e3001428.
+24. Allemailem KS, Almatroudi A, Alrumaihi F, et al. (2024) Current updates of CRISPR–Cas system and anti-CRISPR proteins: innovative applications to improve the genome editing strategies. _Int J Nanomed._ 19:10185–212.
+25. Choudhary N, Tandi D, Verma RK, et al. (2023) A comprehensive appraisal of mechanism of anti-CRISPR proteins: an advanced genome editor to amend the CRISPR gene editing. _Front Plant Sci._ 14:1164461.
+26. Bondy-Denomy J, Davidson AR, Doudna JA, et al. (2018) A unified resource for tracking anti-CRISPR names. _CRISPR J._ 1:304–5.
+27. Forsberg KJ. (2023) Anti-CRISPR discovery: using magnets to find needles in haystacks. _J Mol Biol._ 435:167952.
+28. Chou-Zheng L, Howell O, Boyle TA, et al. (2024) AcrIIIA1 is a protein–RNA anti-CRISPR complex that targets core Cas and accessory nucleases. _Nucleic Acids Res._ 52:13490–514.
+29. Hwang S, Maxwell KL. (2019) Meet the anti-CRISPRs: widespread protein inhibitors of CRISPR–Cas systems. _CRISPR J._ 2:23–30.
+30. Davidson AR, Lu W-T, Stanley SY, et al. (2020) Anti-CRISPRs: protein inhibitors of CRISPR–Cas systems. _Annu Rev Biochem._ 89:309–32.
+31. Jia N, Patel DJ. (2021) Structure-based functional mechanisms and biotechnology applications of anti-CRISPR proteins. _Nat Rev Mol Cell Biol._ 22:563–79.
+32. Harrington LB, Doxzen KW, Ma E, et al. (2017) A broad-spectrum inhibitor of CRISPR–Cas9. _Cell_ 170:1224–33.
+33. Lee J, Mou H, Ibraheim R, et al. (2019) Tissue-restricted genome editing in vivo specified by microRNA-repressible anti-CRISPR proteins. _RNA_ 25:1421–31.
+34. Hoffmann MD, Aschenbrenner S, Grosse S, et al. (2019) Cell-specific CRISPR–Cas9 activation by microRNA-dependent expression of anti-CRISPR proteins. _Nucleic Acids Res._ 47:e75.
+35. Matsumoto D, Tamamura H, Nomura W. (2020) A cell cycle-dependent CRISPR–Cas9 activation system based on an anti-CRISPR protein shows improved genome editing accuracy. _Commun Biol._ 3:601.
+36. Marsiglia J, Vaalavirta K, Knight E, et al. (2024) Computationally guided high-throughput engineering of an anti-CRISPR protein for precise genome editing in human cells. _Cell Rep Methods_ 4:100882.
+37. Nakamura M, Srinivasan P, Chavez M, et al. (2019) Anti-CRISPR-mediated control of gene editing and synthetic circuits in eukaryotic cells. _Nat Commun._ 10:194.
+38. Marino ND, Zhang JY, Borges AL, et al. (2018) Discovery of widespread type I and type V CRISPR–Cas inhibitors. _Science_ 362:240–2.
+39. Shin J, Jiang F, Liu J-J, et al. (2017) Disabling Cas9 by an anti-CRISPR DNA mimic. _Sci Adv._ 3:e1701620.
+40. Li C, Psatha N, Gil S, et al. (2018) HDAd5/35++ Adenovirus vector expressing anti-CRISPR peptides decreases CRISPR/Cas9 toxicity in Human hematopoietic stem cells. _Mol Ther Methods Clin Dev._ 9:390–401.
+41. Lee J, Mir A, Edraki A, et al. (2018) Potent Cas9 inhibition in bacterial and Human cells by AcrIIC4 and AcrIIC5 anti-CRISPR proteins. _mBio_ 9:e02321–18.
+42. Soares Medeiros LC, South L, Peng D, et al. (2017) Rapid, selection-free, high-efficiency genome editing in protozoan parasites using CRISPR–Cas9 ribonucleoproteins. _mBio_ 8:e01788–17.
+43. Acharya S, Mishra A, Paul D, et al. (2019) Francisella novicida Cas9 interrogates genomic DNA with very high specificity and can be used for mammalian genome editing. _Proc Natl Acad Sci USA_ 116:20959–68.
+44. Malakhov MP, Mattern MR, Malakhova OA, et al. (2004) SUMO fusions and SUMO-specific protease for efficient expression and purification of proteins. _J Struct Funct Genomics_ 5:75–86.
+45. Esvelt KM, Mali P, Braff JL, et al. (2013) Orthogonal Cas9 proteins for RNA-guided gene regulation and editing. _Nat Methods_ 10:1116–21.
+46. Ran FA, Cong L, Yan WX, et al. (2015) In vivo genome editing using Staphylococcus aureus Cas9. _Nature_ 520:186–91.
+47. Maggio I, Gonçalves MA. (2015) Genome editing at the crossroads of delivery, specificity, and fidelity. _Trends Biotechnol._ 33:280–91.
+48. Kleinstiver BP, Prew MS, Tsai SQ, et al. (2015) Engineered CRISPR-Cas9 nucleases with altered PAM specificities. _Nature_ 523:481–5.
+49. Grant T, Rohou A, Grigorieff N. (2018) cisTEM, user-friendly software for single-particle image processing. _eLife_ 7:e35383.
+50. Punjani A, Rubinstein JL, Fleet DJ, et al. (2017) cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination. _Nat Methods_ 14:290–6.
+51. Finkelstein IJ, Greene EC. (2011) Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. _Methods Mol Biol._ 745:447–61.
+52. Ma CJ, Gibb B, Kwon Y, et al. (2017) Protein dynamics of human RPA and RAD51 on ssDNA during assembly and recruitment of RAD51 by BRCA2. _Nucleic Acids Res._ 45:749–61.
+53. Gibb B, Silverstein TD, Finkelstein IJ, et al. (2014) Protein dynamics during presynaptic-complex assembly on individual single-stranded DNA molecules. _Nat Struct Mol Biol._ 21:893–900.
+54. Ran FA, Cong L, Yan WX, et al. (2015) In vivo genome editing using Staphylococcus aureus Cas9. _Nature_ 520:186–91.
+55. Kleinstiver BP, Prew MS, Tsai SQ, et al. (2015) Engineered CRISPR-Cas9 nucleases with altered PAM specificities. _Nature_ 523:481–5.
+56. Broeders M, Herrero-Hernandez P, Ernst MPT, et al. (2020) Shielding off: conditioning gene expression by AAV-mediated transduction. _Mol Ther._ 28:2465–78.
+57. Vakulskas CA, Dever DP, Rettig GR, et al. (2018) A high-fidelity Cas9 mutant delivered as a ribonucleoprotein complex enables efficient gene editing in human hematopoietic stem and progenitor cells. _Nat Med._ 24:1216–24.
+58. Gaudelli NM, Lam DK, Rees HA, et al. (2020) Directed evolution of adenine base editors with increased activity and therapeutic application. _Nat Biotechnol._ 38:892–900.
+59. Rees HA, Wilson C, Doman JL, et al. (2019) Analysis and minimization of cellular RNA editing by DNA adenine base editors. _Sci Adv._ 5:eaax5717.
+60. Dong D, Ren K, Qiu X, et al. (2016) The crystal structure of Cpf1 in complex with CRISPR RNA. _Nature_ 532:522–6.
+61. Globyte V, Lee SH, Bae T, et al. (2019) CRISPR/Cas9 searches for a protospacer adjacent motif by lateral diffusion. _EMBO J._ 38:e99466.
+62. Jones DL, Leroy P, Unoson C, et al. (2017) Kinetics of dCas9 target search in Escherichia coli. _Science_ 357:1420–4.
+63. Sternberg SH, Redding S, Jinek M, et al. (2014) DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. _Nature_ 507:62–7.
+64. Swarts DC, Jinek M. (2019) Mechanistic insights into the cis- and trans-acting DNase activities of Cas12a. _Mol Cell_ 73:589–600.
+65. Strohkendl I, Saifuddin FA, Rybarski JR, et al. (2018) Kinetic basis for DNA target specificity of CRISPR-Cas12a. _Mol Cell_ 71:816–24.
+66. Sampson TR, Saroj SD, Llewellyn AC, et al. (2013) A CRISPR/Cas system mediates bacterial innate immune evasion and virulence. _Nature_ 497:254–7.
+67. Edraki A, Mir A, Ibraheim R, et al. (2019) A compact, high-accuracy Cas9 with a dinucleotide PAM for in vivo genome editing. _Mol Cell_ 73:714–26.
+68. Forni D, Cagliani R, Pontremoli C, et al. (2024) AcrIF9 tames CRISPR-Cas immunity through DNA mimicry and exploits limited target site deformation for broad-range Cascade inhibition. _Nucleic Acids Res._ 52:2363–83.
+69. Szczelkun MD, Friedhoff P, Seidel R. (2024) Bacteriophage AcrIF9 sequesters type I-F CRISPR-Cas surveillance complexes. _Nat Commun._ 15:1537.
+70. Knight SC, Xie L, Deng W, et al. (2015) Dynamics of CRISPR-Cas9 genome interrogation in living cells. _Science_ 350:823–6.
+71. Kim I, Jeong M, Ka D, et al. (2018) Solution structure and dynamics of anti-CRISPR AcrIIA4, the Cas9 inhibitor. _Sci Rep._ 8:3883.
+72. Liu L, Yin M, Wang M, et al. (2020) Phage AcrIIA2 DNA mimicry: structural basis of the CRISPR and anti-CRISPR arms race. _Mol Cell_ 78:176–84.
+73. Liu L, Yin M, Wang M, et al. (2019) Structural basis for the RNA-guided ribonuclease activity of CRISPR-Cas13d. _Cell_ 178:1262–71.
+
+---
+
 *Archived from [PubMed Central (PMC12022753)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12022753/) on 2025-07-19.*

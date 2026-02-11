@@ -115,4 +115,60 @@ The authors would like to thank Dr. Kusai Merchant for important contributions t
 
 ---
 
+## References
+
+1. Zimdars D, Tokmakoff A, Chen S, Greenfield SR, Fayer MD, Smith TI, Schwettman HA. Phys. Rev. Lett. 1993;70:2718. doi: 10.1103/PhysRevLett.70.2718.
+
+2. Tokmakoff A, Zimdars D, Sauter B, Francis RS, Kwok AS, Fayer MD. J. Chem. Phys. 1994;101:1741.
+
+3. Hamm P, Hochstrasser RM. In: Ultrafast Infrared and Raman Spectroscopy. Fayer MD, editor. Vol. 26. New York: Dekker; 2001. p. 273.
+
+4. Fayer MD. Annu. Rev. Phys. Chem. 2001;52:315. doi: 10.1146/annurev.physchem.52.1.315.
+
+5. Asplund MC, Zanni MT, Hochstrasser RM. Proc. Natl. Acad. Sci. U.S.A. 2000;97:8219. doi: 10.1073/pnas.140227997.
+
+6. Asbury JB, Steinel T, Stromberg C, Gaffney KJ, Piletic IR, Goun A, Fayer MD. Phys. Rev. Lett. 2003;91:237402. doi: 10.1103/PhysRevLett.91.237402.
+
+7. Fourkas JT. Annu. Rev. Phys. Chem. 2002;53:17. doi: 10.1146/annurev.physchem.53.082001.144216.
+
+8. Mukamel S. Principles of Nonlinear Optical Spectroscopy. New York: Oxford University Press; 1995.
+
+9. Rector KD, Kwok AS, Ferrante C, Tokmakoff A, Rella CW, Fayer MD. J. Chem. Phys. 1997;106:10027.
+
+10. Hamm P, Lim M, Asplund M, Hochstrasser RM. Chem. Phys. Lett. 1999;301:167.
+
+11. Braunstein D, Ansari A, Berendzen J, et al. Proc. Natl. Acad. Sci. U.S.A. 1988;85:8497. doi: 10.1073/pnas.85.22.8497.
+
+12. Tokmakoff A, Kwok AS, Urdahl RS, Francis RS, Fayer MD. Chem. Phys. Lett. 1995;234:289.
+
+13. Merchant KA, Thompson DE, Fayer MD. Phys. Rev. Lett. 2001;86:3899. doi: 10.1103/PhysRevLett.86.3899.
+
+14. Thompson DE, Merchant KA, Fayer MD. J. Chem. Phys. 2001;115:317.
+
+15. Merchant KA, Thompson DE, Fayer MD. Phys. Rev. A. 2002;65:023817. doi: 10.1103/PhysRevLett.86.3899.
+
+16. Merchant KA, Xu Q-H, Thompson DE, Fayer MD. J. Phys. Chem. A. 2002;106:8839.
+
+17. Merchant KA, Noid WG, Akiyama R, Finkelstein IJ, Goun A, McClain BL, Loring RF, Fayer MD. J. Am. Chem. Soc. 2003;125:13804. doi: 10.1021/ja035654x.
+
+18. Springer BA, Sligar SG. Proc. Natl. Acad. Sci. U.S.A. 1987;84:8961. doi: 10.1073/pnas.84.24.8961.
+
+19. Antonini E, Brunori M. Hemoglobin and Myoglobin in Their Reactions with Ligands. North-Holland, Amsterdam: 1971.
+
+20. Hill JR, Dlott DD, Rella CW, Peterson KA, Decatur SM, Boxer SG, Fayer MD. J. Phys. Chem. 1996;100:12100.
+
+21. Boyd RW. Nonlinear Optics. San Diego: Academic; 1992.
+
+22. Asbury JB, Steinel T, Stromberg C, Gaffney KJ, Piletic IR, Goun A, Fayer MD. Chem. Phys. Lett. 2003;374:362. doi: 10.1103/PhysRevLett.91.237402.
+
+23. Golonzka O, Khalil M, Demirdoven N, Tokmakoff A. Phys. Rev. Lett. 2001;86:2154. doi: 10.1103/PhysRevLett.86.2154.
+
+24. Zanni MT, Asplund MC, Hochstrasser RM. J. Chem. Phys. 2001;114:4579.
+
+25. Zanni MT, Gnanakaran S, Stenger J, Hochstrasser RM. J. Phys. Chem. B. 2001;105:6520.
+
+26. Piryatinski A, Skinner JL. J. Phys. Chem. B. 2002;106:8055.
+
+---
+
 *Archived from [PubMed Central (PMC2501118)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2501118/) on 2025-07-19.*

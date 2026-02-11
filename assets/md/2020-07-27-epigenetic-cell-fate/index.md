@@ -160,20 +160,20 @@ Statistical methods were not used to predetermine sample sizes for any experimen
 All quantitative data shown in this study for bar graphs represents the mean ± S.D. Bar plots have been overlaid with individual data points whenever possible. Quantitative data for box and whisker plots represents all data points, maximum to minimum, with the central line corresponding to the median, the “+” corresponding to the mean, the 25–75th percentiles corresponding to the box, and the 95–5th percentiles corresponding to the whiskers. Data presented in box plots shows the median (central line) and 10–90th percentiles (ends of box). Individual data points are overlaid on the plots.
 All data points were recorded and taken into account for analysis to accurately represent biological and technical replicates for each experiment performed. Statistical analysis was carried out using GraphPad Prism software (version 8.4.2). Calculations for statistical significance were performed using the following tests: two-tailed unpaired Mann-Whitney U-test; two-sample one-sided K-S test; ordinary one-way ANOVA with Dunnett’s multiple comparisons test; two-tailed unpaired t-test with Welch’s correction. Experiments were repeated at least twice unless otherwise noted and were reproducible throughout.
 ##  Extended Data
-### Extended Data Fig. 1. ChIP-chip data for master white-opaque TFs at select _C. albicans_ genes.
+### Extended Data [Fig. 1](#fig1). ChIP-chip data for master white-opaque TFs at select _C. albicans_ genes.
 ![Extended Data Fig. 1](nihms-1607054-f0007.jpg)
 Top, ChIP-chip enrichment peaks shown for Wor1 (orange), Wor2 (pink), Wor3 (blue), Czf1 (green), Efg1 (purple) and Ahr1 (red). Solid lines indicate TF binding and dotted lines indicate controls. ORFs are represented by purple boxes and lighter purple boxes represent untranslated regions. Bottom, Positions of consensus DNA binding sites for each TF. The large circles represent motif hits with >75% of the maximum score, medium circles represent motif hits that have 50–75% of the maximum score, and small circles represent motif hits that have 25–50% of the maximum score. ChIP enrichment plot generated from data in refs.[27](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/#R27),[30](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/#R30),[36](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/#R36) and motif analysis performed using data from refs.[27](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/#R27),[30](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/#R30).
-### Extended Data Fig. 2. Purified _C. albicans_ white-opaque TFs used in this study.
+### Extended Data [Fig. 2](#fig2). Purified _C. albicans_ white-opaque TFs used in this study.
 ![Extended Data Fig. 2](nihms-1607054-f0008.jpg)
 **a,** Schematic of TF expression constructs, including 6x histidine tag, MBP, and TEV protease site.
 **b,** Purified proteins used in this study. SDS-PAGE gel of _C. albicans_ Wor1, Efg1, Czf1 and Wor4 HIS6-MBP-TF fusion proteins, as well as proteins with different PrLD deletions and those where the DBD has been replaced with GFP.
 **c,** Image of a HIS6-MBP-Efg1 protein solution (30 μM) without (left) and with (right) the addition of TEV protease for 30 min at 22°C. Cloudiness indicates formation of phase-separated condensates, as confirmed by microscopy. Protein droplets formed in 10 mM Tris-HCl, pH 7.4, 150 mM NaCl at 22°C. Scale bar; 5 μm. Representative data for an experiment repeated more than three times with similar results.
-### Extended Data Fig. 3. Hexanediol treatment selectively disrupts _C. albicans_ TF condensates even during co-compartmentalization with other TFs.
+### Extended Data [Fig. 3](#fig3). Hexanediol treatment selectively disrupts _C. albicans_ TF condensates even during co-compartmentalization with other TFs.
 ![Extended Data Fig. 3](nihms-1607054-f0009.jpg)
 **a,** Images of Efg1, Czf1, Wor1 (_CaCm_ Wor1), and Wor4 droplets at the indicated concentrations with or without 10% 1,6- or 2,5-hexanediol. For hexanediol treatment, proteins were incubated with TEV for 30 minutes in 10 mM Tris-HCl, pH 7.4, 150 mM NaCl, at 22°C, and then mixed with 1,6- or 2,5-hexanediol in the same buffer, incubated for 10 minutes, and imaged. Wor1, Wor4, and Czf1 assays also included 5% PEG-8000. Where indicated for Wor4, hexanediol was added for 10 minutes and then TEV/PEG-8000 added and the sample incubated for an additional 30 minutes prior to imaging. Images represent a single experimental replicate with assays repeated at least twice with similar results. Scale bars; 10 μm.
 **b,** Representative images of fluorescently labeled Efg1, Wor1 (_Ca_ Wor1), Wor4, and Czf1 proteins compartmentalized within Efg1 condensates, and treated with 10% 1,6- or 2,5-hexanediol. Unlabeled bulk protein (15 μM) was mixed with each of the fluorescently labeled proteins (37.5 nM) in 10 mM Tris-HCl, pH 7.4, 150 mM NaCl. Proteins were then incubated at 22°C with TEV for 30 minutes and treated with 1,6- or 2,5-hexanediol in the same buffer for 10 minutes prior to imaging. Dylight NHS-Ester labeling of the 4 proteins used fluors of 488, 550, 405, and 633 nm. Images represent a single experimental replicate with assays performed three times with similar results. Scale bar, 10 μm; images are maximum Z-stack projections.
 **c,** Representative images of fluorescently labeled Efg1, Wor1 (_Ca_ Wor1), Wor4, and Czf1 proteins compartmentalized within Czf1, Wor1(_Ca_ Wor1), or Wor4 condensates. Unlabeled bulk proteins (15 μM) were mixed with each of the fluorescently labeled proteins (37.5 nM) in 10 mM Tris-HCl, pH 7.4, 150 mM NaCl. Proteins were then incubated at 22°C with TEV for 30 min. Dylight NHS-Ester labeling of the 4 proteins used fluors of 488, 550, 405, and 633 nm. Images represent a single experimental replicate, with assays performed three times with similar results. Scale bars, 10 μm; images are maximum Z-stack projections.
-### Extended Data Fig. 4. PrLDs enable the co-partitioning of _C. albicans_ white-opaque TFs.
+### Extended Data [Fig. 4](#fig4). PrLDs enable the co-partitioning of _C. albicans_ white-opaque TFs.
 ![Extended Data Fig. 4](nihms-1607054-f0010.jpg)
 Analysis of the ability of full-length or truncated TFs to co-partition within Efg1 condensates.
 **a,** Schematics of the GFP fusion proteins tested in phase separation assays.
@@ -186,3 +186,17 @@ We would like to thank Robert Tjian for the gift of reporter cell lines, Steven 
 ---
 
 *Archived from [PubMed Central (PMC7581547)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/) on 2025-07-19.*
+
+## References
+
+1. Wilkinson AC, Nakauchi H & Gottgens B Mammalian transcription factor networks: recent advances in interrogating biological complexity. Cell Syst. 5, 319–331 (2017).
+
+2. Moris N, Pina C & Arias AM Transition states and cell fate decisions in epigenetic landscapes. Nat. Rev. Genet 17, 693–703 (2016).
+
+3. Sabari BR et al. Coactivator condensation at super-enhancers links phase separation and gene control. Science 361, eaar3958 (2018).
+
+4. Plys AJ & Kingston RE Dynamic condensates activate transcription. Science 361, 329–330 (2018).
+
+5. Patel A et al. A liquid-to-solid phase transition of the ALS protein FUS accelerated by disease mutation. Cell 162, 1066–1077 (2015).
+
+6. Kato M et al. Cell-free formation of RNA granules: low complexity sequence domains form dynamic fibers within hydrogels. Cell 149, 753–767 (2012).
