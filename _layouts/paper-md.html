@@ -45,6 +45,13 @@ layout: default
     var figure = document.createElement('figure');
     figure.className = 'paper-figure';
 
+    // Assign an id based on figure number from alt text (e.g. "Fig. 1" -> "fig1")
+    var altText = img.getAttribute('alt') || '';
+    var figNumMatch = altText.match(/(?:Figure|Fig\.?)\s*(\d+)/i);
+    if (figNumMatch) {
+      figure.id = 'fig' + figNumMatch[1];
+    }
+
     // Collect nodes before and after the img within the parent
     var beforeNodes = [];
     var afterNodes = [];

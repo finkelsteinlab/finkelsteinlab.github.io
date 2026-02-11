@@ -34,14 +34,14 @@ Single-molecule studies of protein–DNA interactions continue to yield new info
 ##  1. Introduction
 In recent years, fluorescence-based single-molecule imaging techniques have been used to follow the action of macromolecular machines along a DNA substrate. Direct observations of DNA replication ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R1)–[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R4)), transcription ([5](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R5)–[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R7)), and repair ([8](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R8)–[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10))atthe single-molecule level are continuing to offer fresh insights into these complex, multi-step reactions. The knowledge gained from these studies typically could not be accessed using traditional biochemical or biophysical approaches. Single-molecule experiments offer the advantage of being able to study rare or short-lived intermediates that can be obfuscated among the often-heterogenous populations of molecules that are studied in traditional biochemical assays.
 Despite decades of intense technique development, single-molecule observations of protein–DNA interactions continue to be experimentally challenging. The relatively short fluorescent lifetimes of most organic dyes significantly limit the accessible reaction timescales. The molecules under investigation usually must be anchored to a surface that is inherently different from the normal environments encountered within cells. In addition, experimental platforms that manipulate the target DNA via optical or magnetic tweezers are typically carried out on single DNA molecules in a serial fashion (i.e., one molecule at a time), and this low data throughout often limit the scope of the experimental results. In the protocol presented here, we describe a method for rapid, real-time imaging of hundreds of individual protein–DNA complexes over extended, biological timescales within a biologically friendly microenvironment. The method is flexible and can be used to address a number of different biological problems. We have successfully applied this experimental approach to observe the diffusion and translocation of DNA repair proteins ([10](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R10), [11](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R11)), the localization of nucleosomes along an intrinsic DNA-binding energy landscape ([12](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R12)), and to follow the polymerization activity of recombinases on double-stranded DNA ([13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R13)–[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R15)).
-In this protocol, we describe a nanofabricated, micro-fluidic system for simultaneous imaging of hundreds of DNA molecules in real time ([Fig. 26.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F1)). The DNA molecules are organized into “DNA curtains” on the surface of a micro-fluidic sample chamber that is otherwise coated with a fluid lipid bilayer. Various aspects of the DNA curtains technology have been presented previously ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)–[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R19)). Briefly, the experimental system consists of a total internal reflection fluorescence (TIRF) microscope builtaround an inverted Nikon TE2000 microscope. Laser illumination is provided by a ~200 mW 488 nm diode laser. The laser beam impinges on a DOVE prism atop a flowcell constructed from a silica microscope slide containing nanofabricated barriers to lipid diffusion ([Fig. 26.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F2)). An evanescent wave is generated at the water–silica interface, illuminating a shallow observation volume at the flowcell surface. Fluorescence from molecules immobilized at the surface (see below) is collected by a 60×, N.A.1.2 water immersion objective. The signal is passed through a holographic 488 nm notch filter and imaged on a back-thinned 512 × 512 pixel EM-CCD. For multi-color fluorescence imaging, the signal is passed through a DualView beam splitter and each color imaged on one half of the CCD chip.
+In this protocol, we describe a nanofabricated, micro-fluidic system for simultaneous imaging of hundreds of DNA molecules in real time ([Fig. 26.1](#fig1)). The DNA molecules are organized into “DNA curtains” on the surface of a micro-fluidic sample chamber that is otherwise coated with a fluid lipid bilayer. Various aspects of the DNA curtains technology have been presented previously ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)–[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R19)). Briefly, the experimental system consists of a total internal reflection fluorescence (TIRF) microscope builtaround an inverted Nikon TE2000 microscope. Laser illumination is provided by a ~200 mW 488 nm diode laser. The laser beam impinges on a DOVE prism atop a flowcell constructed from a silica microscope slide containing nanofabricated barriers to lipid diffusion ([Fig. 26.2](#fig2)). An evanescent wave is generated at the water–silica interface, illuminating a shallow observation volume at the flowcell surface. Fluorescence from molecules immobilized at the surface (see below) is collected by a 60×, N.A.1.2 water immersion objective. The signal is passed through a holographic 488 nm notch filter and imaged on a back-thinned 512 × 512 pixel EM-CCD. For multi-color fluorescence imaging, the signal is passed through a DualView beam splitter and each color imaged on one half of the CCD chip.
 ***Fig. 26.***1.
 ![Fig. 26.1](nihms-366794-f0001.jpg)
 Schematic of the fluorescence microscope setup. The flowcell is placed on a microscope stage in an inverted configuration. A 488 nm laser impinges on a DOVE prism that rests atop the flowcell. Fluorescent signal is collected by a high N.A. objective and is passed through a 488 nm notch filter and a DualView beam splitter before being imaged on a 512 × 512 pixel EM-CCD. A syringe pump delivers continuous buffer flow through the flowcell inlet port.
 ***Fig. 26.***2.
 ![Fig. 26.2](nihms-366794-f0002.jpg)
 Overview of electron beam lithography. (**a**) For e-beam lithography, the slide is first coated with PMMA, and a layer of Aquasave, and an electron beam rastered across the surface to burn through these layers creating a pattern that defines the shapes of the diffusion barriers. (**b**) Chromium (Cr) is deposited on the entire surface, and (**c**)the remaining PMMA is lifted off, leaving behind the nanofabricated barriers.
-The surface of the flowcell is passivated by a fluid lipid bilayer ([20](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R20)–[22](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R22)). DNA is immobilized at the lipid bilayer by a streptavidin–biotin linkage and extended into the evanescent wave via shear buffer flow delivered by a syringe pump. The fluidity of the lipid bilayer permits organization of individual DNA molecules at nanofabricated diffusion barriers ([Fig. 26.3](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F3)). The spacing, density, and orientation of DNA molecules relative to one another may be controlled by appropriately designed diffusion barriers ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R17)). Recently, we have also extended the DNA curtain technology to generate DNA arrays that are immobilized at both ends ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)).
+The surface of the flowcell is passivated by a fluid lipid bilayer ([20](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R20)–[22](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R22)). DNA is immobilized at the lipid bilayer by a streptavidin–biotin linkage and extended into the evanescent wave via shear buffer flow delivered by a syringe pump. The fluidity of the lipid bilayer permits organization of individual DNA molecules at nanofabricated diffusion barriers ([Fig. 26.3](#fig3)). The spacing, density, and orientation of DNA molecules relative to one another may be controlled by appropriately designed diffusion barriers ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R17)). Recently, we have also extended the DNA curtain technology to generate DNA arrays that are immobilized at both ends ([16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#R16)).
 ***Fig. 26.***3.
 ![Fig. 26.3](nihms-366794-f0003.jpg)
 Assembly of DNA curtains. (**a**) A schematic illustration of DNA molecules assembled into DNA curtains on a fluid lipid bilayer. DNA is tethered to the bilayer by a streptavidin–biotin linkage. In the presence of buffer flow, individual DNA molecules are pushed through the lipid bilayer until the molecules assemble at nanofabricated diffusion barriers. (**b**) A single field of view permits the observation of up to four rows of assembled λ-DNA curtains in the absence (left panel) and presence (right panel) of buffer flow. The DNA molecules have been decorated with QD-labeled RNA polymerase.
@@ -115,7 +115,7 @@ For experiments requiring tracking of QD-labeled proteins, the pointspread funct
 ---
 ##  3. Methods
 ### 3.1. Nanofabrication of Lipid Diffusion Barriers
-Nanofabricated barrier patterns are made by electron beam (e-beam) lithography, which yields uniform barrier patterns of high quality with nanometer precision ([Fig. 26.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F2)). The general process of e-beam lithography involves first coating the microscope slide with a thin polymer film (a bilayer of polymethylmethacrylate (PMMA), followed by a layer of Aquasave conducting polymer). An electron beam is then used to “burn” a desired pattern into the polymer film and expose the underlying slide surface. Metal (we typically use chromium) is vaporized under vacuum and deposited over the entire surface, including the exposed slide surface and the PMMA. The remaining polymer is then peeled away in a process called “liftoff,” leaving behind themetal pattern on the microscope slide, which acts as lipid diffusion barriers when assembling the DNA curtains. 
+Nanofabricated barrier patterns are made by electron beam (e-beam) lithography, which yields uniform barrier patterns of high quality with nanometer precision ([Fig. 26.2](#fig2)). The general process of e-beam lithography involves first coating the microscope slide with a thin polymer film (a bilayer of polymethylmethacrylate (PMMA), followed by a layer of Aquasave conducting polymer). An electron beam is then used to “burn” a desired pattern into the polymer film and expose the underlying slide surface. Metal (we typically use chromium) is vaporized under vacuum and deposited over the entire surface, including the exposed slide surface and the PMMA. The remaining polymer is then peeled away in a process called “liftoff,” leaving behind themetal pattern on the microscope slide, which acts as lipid diffusion barriers when assembling the DNA curtains. 
   1. Drill quartz slides on a high-speed drill press using fresh diamond-tipped drills (_see_ [Note 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#FN1)).
   2. Clean slides in NanoStrip solution for ~30 min (_see_ [Note 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#FN2)).
   3. The NanoStrip solution may be reused for several rounds of cleaning.
@@ -154,7 +154,7 @@ Genomic DNA from the bacteriophage λ is 48.5 kb long, commercially available, a
   8. Filter the liposome solution using a 0.22 μm nylon syringe filter into 1.5 ml Eppendorf tubes. Store the liposome solution at 4°C for up to 2 weeks (_see_ [Note 9](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#FN9)). Do not freeze. The final concentration of liposome solution is 10 mg/ml DOPC with 0.5% (w/w) biotinylated DOPE and 8% (w/w) mPEG(550) DOPE.
 
 ### 3.5. Construction of Flowcells
-The flowcell is constructed from a segment of double-sided tape sandwiched between a silica microscope slide and a glass coverslip ([Fig. 26.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/#F1)). Tube ports are attached to pre-drilled holes in the silica slides. In practice, 5–10 flowcells are assembled simultaneously and stored in a vacuum dessicator for up to a week, but prolonged storage compromises surface quality, which can prevent deposition of a fluid bilayer. 
+The flowcell is constructed from a segment of double-sided tape sandwiched between a silica microscope slide and a glass coverslip ([Fig. 26.1](#fig1)). Tube ports are attached to pre-drilled holes in the silica slides. In practice, 5–10 flowcells are assembled simultaneously and stored in a vacuum dessicator for up to a week, but prolonged storage compromises surface quality, which can prevent deposition of a fluid bilayer. 
   1. Nanofabricated slides (_see_ **Section 3.1**) are rinsed in filtered MilliQ H2O, gently agitated in 2% Hellmanex cleaning solution for 1 h, rinsed thoroughly in H2O, soaked 1hin1M NaOH, and rinsed again with water and 100% methanol.
   2. The slides are dried under a dry nitrogen steam and baked at 120°C in a vacuum oven for an hour. Cleaned silica slides that have not been assembled into flowcells may be stored in the vacuum oven indefinitely.
   3. To assemble the flowcell, mask off a segment of double-sided tape with a narrow strip of paper. This paper will eventually be cut out, and the resulting channel in the tape will form the observation chamber for microscopy experiments.
@@ -207,6 +207,74 @@ Most laboratory plastics are susceptible to chloroform. Care must be taken to av
 Over time, the small unilamellar vesicles formed during initial sonication slowly fuse to make larger, more stable structures. Aged liposome stocks yield patchy bilayers with substantially reduced fluidity and poor surface blocking properties.
 10
 For experiments that do not use fluorescently stained DNA, it is possible to focus on the nanofabricated pattern or random imperfections on the slide surface.
+
+## References
+
+1. Hamdan SM, Loparo JJ, Takahashi M, Richardson CC, van Oijen AM. Dynamics of DNA replication loops reveal temporal control of lagging-strand synthesis. Nature. 2009;457:336–339.
+
+2. van Oijen AM. Single-molecule studies of complex systems: the replisome. Mol Biosyst. 2007;3:117–125.
+
+3. Perumal SK, Yue H, Hu Z, Spiering MM, Benkovic SJ. Single-molecule studies of DNA replisome function. Biochim Biophys Acta. 2010;1804:1094–1112.
+
+4. Yao NY, Georgescu RE, Finkelstein J, O'Donnell ME. Single-molecule analysis reveals that the lagging strand increases replisome processivity but slows replication fork progression. Proc Natl Acad Sci USA. 2009;106:13236–13241.
+
+5. Bai L, Santangelo TJ, Wang MD. Single-molecule analysis of RNA polymerase transcription. Annu Rev Biophys Biomol Struct. 2006;35:343–360.
+
+6. Hodges C, Bintu L, Lubkowska L, Kashlev M, Bustamante C. Nucleosomal fluctuations govern the transcription dynamics of RNA polymerase II. Science. 2009;325:626–628.
+
+7. Herbert KM, Greenleaf WJ, Block SM. Single-molecule studies of RNA polymerase: motoring along. Annu Rev Biochem. 2008;77:149–176.
+
+8. Finkelstein IJ, Greene EC. Single molecule studies of homologous recombination. Mol Biosyst. 2008;4:1094–2104.
+
+9. Spies M, Amitani I, Baskin RJ, Kowalczykowski SC. RecBCD enzyme switches lead motor subunits in response to chi recognition. Cell. 2007;131:694–705.
+
+10. Gorman J, Chowdhury A, Surtees JA, Shimada J, Reichman DR, Alani E, Greene EC. Dynamic basis for one-dimensional DNA scanning by the mismatch repair complex Msh2-Msh6. Mol Cell. 2007;28:359–370.
+
+11. Kwon Y, Seong C, Chi P, Greene EC, Klein H, Sung P. ATP-dependent chromatin remodeling by the Saccharomyces cerevisiae homologous recombination factor Rdh54. J Biol Chem. 2008;283:10445–10452.
+
+12. Visnapuu ML, Greene EC. Single-molecule imaging of DNA curtains reveals intrinsic energy landscapes for nucleosome deposition. Nat Struct Mol Biol. 2009;16:1056–1062.
+
+13. Robertson RB, Moses DN, Kwon Y, Chan P, Zhao W, Chi P, Klein H, Sung P, Greene EC. Visualizing the disassembly of S. cerevisiae Rad51 nucleoprotein filaments. J Mol Biol. 2009;388:703–720.
+
+14. Robertson RB, Moses DN, Kwon Y, Chan P, Chi P, Klein H, Sung P, Greene EC. Visualizing the disassembly of S. cerevisiae Rad51 nucleoprotein filaments. Proc Natl Acad Sci USA. 2009;106:12688–12693.
+
+15. Prasad TK, Yeykal CC, Greene EC. Visualizing the assembly of human Rad51 filaments on double-stranded DNA. J Mol Biol. 2006;363:713–728.
+
+16. Gorman J, Fazio T, Wang F, Wind S, Greene EC. Nanofabricated racks of aligned and anchored DNA substrates for single-molecule imaging. Langmuir. 2009;26:1372–1379.
+
+17. Visnapuu ML, Fazio T, Wind S, Greene EC. Parallel arrays of geometric nanowells for assembling curtains of DNA with controlled lateral dispersion. Langmuir. 2008;24:11293–11299.
+
+18. Fazio T, Visnapuu ML, Wind S, Greene EC. DNA curtains and nanoscale curtain rods: high-throughput tools for single molecule imaging. Langmuir. 2008;24:10524–10531.
+
+19. Graneli A, Yeykal CC, Prasad TK, Greene EC. Organized arrays of individual DNA molecules tethered to supported lipid bilayers. Langmuir. 2006;22:292–299.
+
+20. Visnapuu ML, Duzdevich D, Greene EC. The importance of surfaces in single-molecule bioscience. Mol Biosyst. 2008;4:394–403.
+
+21. Groves JT, Ulman N, Boxer SG. Micropatterning fluid lipid bilayers on solid supports. Science. 1997;275:651–653.
+
+22. Richter RP, Berat R, Brisson AR. Formation of solid-supported lipid bilayers: an integrated view. Langmuir. 2006;22:3497–3505.
+
+23. Jaiswal JK, Mattoussi H, Mauro JM, Simon SM. Long-term multiple color imaging of live cells using quantum dot bioconjugates. Nat Biotechnol. 2003;21:47–51.
+
+24. Medintz IL, Uyeda HT, Goldman ER, Mattoussi H. Quantum dot bioconjugates for imaging, labeling and sensing. Nat Mater. 2005;4:435–446.
+
+25. Ebenstein Y, Gassman N, Kim S, Kim Y, Ho S, Samuel R, Michalet X, Weiss S. Lighting up individual DNA binding proteins with quantum dots. Nano Lett. 2009;9:1598–1603.
+
+26. Pinaud F, Michalet X, Bentolila LA, Tsay JM, Doose S, Li JJ, Iyer G, Weiss S. Advances in fluorescence imaging with quantum dot bio-probes. Biomaterials. 2006;27:1679–1687.
+
+27. Rasnik I, McKinney SA, Ha T. Nonblinking and long-lasting single-molecule fluorescence imaging. Nat Methods. 2006;3:891–893.
+
+28. Escude C, Geron-Landre B, Crut A, Desbiolles P. Multicolor detection of combed DNA molecules using quantum dots. Methods Mol Biol. 2009;544:357–366.
+
+29. Thompson RE, Larson DR, Webb WW. Precise nanometer localization analysis for individual fluorescent probes. Biophys J. 2002;82:2775–2783.
+
+30. Yildiz A, Selvin PR. Fluorescence imaging with one nanometer accuracy: application to molecular motors. Acc Chem Res. 2005;38:574–582.
+
+31. Gueroui Z, Freyssingeas E, Place C, Berge B. Transverse fluctuation analysis of single extended DNA molecules. Eur Phys J E Soft Matter. 2003;11:105–108.
+
+32. Quake SR, Babcock H, Chu S. The dynamics of partially extended single molecules of DNA. Nature. 1997;388:151–154.
+
+33. Carter BC, Shubeita GT, Gross SP. Tracking single particles: a user-friendly quantitative evaluation. Phys Biol. 2005;2:60–72.
 
 ---
 

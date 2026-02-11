@@ -50,7 +50,7 @@ Flowcells and lipid bilayers were prepared as described.[3](https://pmc.ncbi.nlm
 ### Microscopy
 Experiments were performed with a custom-built prism-type total internal reflection fluorescence (TIRF) microscope equipped with a 200 mW diode-pumped solid-state laser (488 nm; Coherent), and the laser power at the face of the prism was ~5 mW, as described.[6](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R6)–[8](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R8)
 ### Results & Discussion
-φ29 DNA polymerase is highly processive and can generate ssDNA molecules (≥=70,000 nucleotides (nt) in length)[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R15),[16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R16) in rolling circle replication assays using a circular ssDNA template (M13mp18; 7,249-nt) ([Figure 1A & 1B](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#F1)). The ssDNA products harbor a single biotin at the 5′ end, which can be linked to a lipid bilayer through a tetravalent streptavidin linkage ([Figure 1C](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#F1)). Single-stranded DNA molecules cannot be stretched by the hydrodynamic forces accessible within our system (≳1 pN), nor can they be labeled with fluorescent intercalating dyes. To overcome these issues, we chose scRPA-eGFP as an ssDNA-labeling reagent based on several criteria. First, scRPA binds tightly to ssDNA (Ka≈109–1011 M−1),[13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R13) so ssDNA binding is expected to occur at low protein concentrations amenable to single-molecule imaging. Second, RPA eliminates secondary structure in ssDNA, protects ssDNA from damage, and increases the persistence length of ssDNA;[13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R13),[17](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R17) these features should ensure that ssDNA bound by RPA could be readily stretched by buffer flow ([Figure 1C & 1D](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#F1)). Third, scRPA retains biological function _in vivo_ when labeled with eGFP on the C-terminus of the 32-kDa subunit,[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R18) ensuring that the labeled protein would retain all relevant activities related to its biological functions.
+φ29 DNA polymerase is highly processive and can generate ssDNA molecules (≥=70,000 nucleotides (nt) in length)[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R15),[16](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R16) in rolling circle replication assays using a circular ssDNA template (M13mp18; 7,249-nt) ([Figure 1A & 1B](#fig1)). The ssDNA products harbor a single biotin at the 5′ end, which can be linked to a lipid bilayer through a tetravalent streptavidin linkage ([Figure 1C](#fig1)). Single-stranded DNA molecules cannot be stretched by the hydrodynamic forces accessible within our system (≳1 pN), nor can they be labeled with fluorescent intercalating dyes. To overcome these issues, we chose scRPA-eGFP as an ssDNA-labeling reagent based on several criteria. First, scRPA binds tightly to ssDNA (Ka≈109–1011 M−1),[13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R13) so ssDNA binding is expected to occur at low protein concentrations amenable to single-molecule imaging. Second, RPA eliminates secondary structure in ssDNA, protects ssDNA from damage, and increases the persistence length of ssDNA;[13](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R13),[17](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R17) these features should ensure that ssDNA bound by RPA could be readily stretched by buffer flow ([Figure 1C & 1D](#fig1)). Third, scRPA retains biological function _in vivo_ when labeled with eGFP on the C-terminus of the 32-kDa subunit,[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/#R18) ensuring that the labeled protein would retain all relevant activities related to its biological functions.
 
 ***Figure 1.***
 ![Figure 1](nihms406083f1.jpg)
@@ -69,6 +69,46 @@ In summary, ssDNA is a key intermediate in nearly all reactions related to DNA m
 ---
 ##  Acknowledgments
 This research was funded by NIH grants (GM074739 and GM082848) to E.C.G. This work was partially supported by the Nanoscale Science and Engineering Initiative of the National Science Foundation under NSF Award No. CHE-0641523 and by the New York State Office of Science, Technology, and Academic Research (NYSTAR). E.C.G. is an Early Career Scientist with the Howard Hughes Medical Institute.
+
+## References
+
+1. Fazio T, Visnapuu ML, Wind S, Greene EC. DNA curtains and nanoscale curtain rods: high-throughput tools for single molecule imaging. Langmuir. 2008;24:10524–31. doi: 10.1021/la801762h.
+
+2. Gorman J, Fazio T, Wang F, Wind S, Greene E. Nanofabricated racks of aligned and anchored DNA substrates for single-molecule imaging. Langmuir. 2010;26:1372–9. doi: 10.1021/la902443e.
+
+3. Greene E, Wind S, Fazio T, Gorman J, Visnapuu M. DNA curtains for high-throughput single-molecule optical imaging. Methods Enzymol. 2010;472:293–315. doi: 10.1016/S0076-6879(10)72006-1.
+
+4. Visnapuu ML, Fazio T, Wind S, Greene EC. Parallel arrays of geometric nanowells for assembling curtains of DNA with controlled lateral dispersion. Langmuir. 2008;24:11293–11299. doi: 10.1021/la8017634.
+
+5. Granéli A, Yeykal C, Prasad T, Greene E. Organized arrays of individual DNA molecules tethered to supported lipid bilayers. Langmuir. 2006;22:292–299. doi: 10.1021/la051944a.
+
+6. Visnapuu ML, Greene E. Single-molecule imaging of DNA curtains reveals intrinsic energy landscapes for nucleosome deposition. Nat Struct Mol Biol. 2009;16:1056–1062. doi: 10.1038/nsmb.1655.
+
+7. Gorman J, Plys A, Visnapuu M, Alani E, Greene E. Visualizing one-dimensional diffusion of eukaryotic DNA repair factors along a chromatin lattice. Nat Struct Mol Biol. 2010;17:932–8. doi: 10.1038/nsmb.1858.
+
+8. Finkelstein I, Visnapuu ML, Greene E. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468:983–987. doi: 10.1038/nature09561.
+
+9. Gorman J, et al. Dynamic basis for one-dimensional DNA scanning by the mismatch repair complex Msh2-Msh6. Mol Cell. 2007;28:359–70. doi: 10.1016/j.molcel.2007.09.008.
+
+10. Ha T, Kozlov A, Lohman T. Single-molecule views of protein movement on single-stranded DNA. Annu Rev Biophys. 2012;41:295–319. doi: 10.1146/annurev-biophys-042910-155351.
+
+11. Tycon M, Dail C, Faison K, Melvin W, Fecko C. Quantification of dye-mediated photodamage during single-molecule DNA imaging. Anal Biochem. 2012;426:13–21. doi: 10.1016/j.ab.2012.03.021.
+
+12. Bustamante C, Bryant Z, Smith S. Ten years of tension: single-molecule DNA mechanics. Nature. 2003;421:423–427. doi: 10.1038/nature01405.
+
+13. Wold M. Replication protein A: a heterotrimeric, single-stranded DNA-binding protein required for eukaryotic DNA metabolism. Annu Rev Biochem. 1997;66:61–92. doi: 10.1146/annurev.biochem.66.1.61.
+
+14. Niu H, et al. Mechanism of ATP-dependent DNA end-resection machinery from Saccharomyces cerevisiae. Nature. 2010;467:108–111. doi: 10.1038/nature09318.
+
+15. Blanco L, et al. Highly efficient DNA synthesis by the phage 29 DNA polymerase. Symmetrical mode of DNA replication. J Biol Chem. 1989;264:8925–8940.
+
+16. Brockman C, Kim S, Latinwo F, Schroeder C. Direct observation of single flexible polymers using single stranded DNA. Soft Matter. 2011;7:8005–8012. doi: 10.1039/C1SM05297G.
+
+17. Treuner K, Ramsperger U, Knippers R. Replication protein A induces the unwinding of long double-stranded DNA regions. J Mol Biol. 1996;259:104–112. doi: 10.1006/jmbi.1996.0305.
+
+18. Lisby M, Barlow J, Burgess R, Rothstein R. Choreography of the DNA damage response: spatiotemporal relationships among checkpoint and repair proteins. Cell. 2004;118:699–713. doi: 10.1016/j.cell.2004.08.015.
+
+19. Bernstein K, Gangloff S, Rothstein R. The RecQ DNA helicases in DNA repair. Annu Rev Genet. 2010;44:393–417. doi: 10.1146/annurev-genet-102209-163602.
 
 ---
 
