@@ -119,7 +119,7 @@ _Manufacturer: Electron Microscopy Sciences, catalog number: 2423610._
     9. Light source shutter (SmartShutter; Sutter Instrument)
     10. Shutter controller (Lambda SC; Sutter Instrument)
     11. Computer-controlled syringe pump (KD Scientific, model: LEGATO® 210) 
-_Note: This pump is configured for two syringes. If more than two syringes are required, either multiple pumps can be used, or adapters can be fabricated ([Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g004)) to allow additional syringes to be driven. _
+_Note: This pump is configured for two syringes. If more than two syringes are required, either multiple pumps can be used, or adapters can be fabricated ([Fig. 4](#fig4)) to allow additional syringes to be driven. _
     12. Light source (Newport, model: SOLA-SE-II; Lumencorp)
   4. Cell loading and image acquisition
     1. Shaking incubator (Thermo Fisher Scientific, Thermo ScientificTM, catalog number: 4333) 
@@ -135,6 +135,7 @@ Chamber design file available at:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLMChamber.scad>
 
 ***Figure 4.*** Epifluorescent microscope prepared for imaging of the multFYLM.
+{: #fig4 }
 ![Figure 4.](BioProtoc-8-07-2783-g004.jpg)
 A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.
 ##  Software
@@ -143,7 +144,7 @@ A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lin
 ---
 ##  Procedure
   1. Microfabrication
-multFYLM microfabrication follows conventional soft lithography methods. The first step is to generate a patterned mold, which can be used to cast devices in elastomeric silicone (PDMS). Such molds, or ‘master’ structures are created on silicon wafers, using UV lithography to deposit patterns on the surface in an epoxy resin (SU-8). The patterns are dictated by masks, which restrict the ability of a UV light source to cross-link the resin. Their alignment is critical to the proper patterning on the wafer, as features of the final master are contained on each of the two masks. A developer is used to remove unexposed resin, leaving a master that is now ready for use ([Figure 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g001)). A master can be used repeatedly for at least two years to make hundreds of multFYLM devices. 
+multFYLM microfabrication follows conventional soft lithography methods. The first step is to generate a patterned mold, which can be used to cast devices in elastomeric silicone (PDMS). Such molds, or 'master' structures are created on silicon wafers, using UV lithography to deposit patterns on the surface in an epoxy resin (SU-8). The patterns are dictated by masks, which restrict the ability of a UV light source to cross-link the resin. Their alignment is critical to the proper patterning on the wafer, as features of the final master are contained on each of the two masks. A developer is used to remove unexposed resin, leaving a master that is now ready for use ([Fig. 1](#fig1)). A master can be used repeatedly for at least two years to make hundreds of multFYLM devices. 
 _Note: The procedures detailed below should be performed in a cleanroom. All instrument settings are unique to the equipment used and included as a guideline. These settings will need to be adjusted to match the instruments available in a user’s cleanroom. All microfabrication steps should be completed in a single day; although suitable stopping points may exist, they have not been tested._
     1. Rinse the polished wafer surface with acetone, isopropanol, and then water.
     2. Air-dry the wafer while setting up the plasma cleaner.
@@ -254,7 +255,7 @@ Use developer to remove the unexposed resin from the wafer surface. This process
   2. multFYLM assembly
 Assembly of the multFYLM via soft-lithography proceeds once the master structure is complete. The master structure is used as a mold for PDMS. Before the PDMS hardens, ports are added to allow media flow into the microfluidic structures. Once the silicone has set, it is cleaned and adhered to a large cover glass. The thin, transparent cover glass forms the base of the multFYLM and allows imaging of cells that are captured within the individual arms of the device.
 **_Cast the multFYLM in polydimethylsiloxane (PDMS)_**
-Prepare a PDMS solution according to the manufacturer’s protocol ([Figure 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g002)). Wrap the master structure with tape to create a vertical barrier for the PDMS. Pour half of the solution onto the master structure. Soft-bake the first layer until it is tacky, then place a clean port over each conduit passage present on the master structure. Pour the remaining PDMS onto the first layer, then bake it until all the PDMS has fully hardened. 
+Prepare a PDMS solution according to the manufacturer's protocol ([Fig. 2](#fig2)). Wrap the master structure with tape to create a vertical barrier for the PDMS. Pour half of the solution onto the master structure. Soft-bake the first layer until it is tacky, then place a clean port over each conduit passage present on the master structure. Pour the remaining PDMS onto the first layer, then bake it until all the PDMS has fully hardened. 
      * 1
 Preheat oven to 75 °C.
      * 2
@@ -356,7 +357,7 @@ Apply light pressure to the multFYLM to assure that it has fully-adhered to the 
 **_Microscope and microfluidics setup_**
 Whole-lifespan imaging adds additional technical challenges to operating any microfluidic device. First, the microfluidic system must provide fresh media to the captured cells while also removing waste. Imperfections in the flow path can cause air bubbles that dislodge cells, potentially disrupting a multi-day experiment. Moreover, additional precautions must be taken to remove cells that are trapped upstream of the multFYLM. This is because these cells may grow into microcolonies during multFYLM operation, ultimately obstructing the flow of fresh media to the device. Second, the microscope should be equipped with stable optical and mechanical components for up to a week of continuous imaging. An active feedback focus-finding system ensures that the multFYLM can be imaged for several days without requiring any user intervention. Similarly, a light source (_i.e._ , LED lamp) that does not change in output intensity or spectrum during a week of continuous operation is recommended. Finally, we recommend that the entire device is enclosed in an incubator jacket that maintains optimal growth conditions for the desired cells (see Equipment D8). 
 **_Prepare microfluidic tubing_**
-Clean all the microfluidic fittings ([Figure 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g003)) that will be used for attaching to the multFYLM, then fit them onto microfluidic tubing. It is necessary to put a right angle in the tubing immediately after the fittings that will attach to the nanoports, otherwise the tubing will not clear the environmental chamber and microscope components. 
+Clean all the microfluidic fittings ([Fig. 3](#fig3)) that will be used for attaching to the multFYLM, then fit them onto microfluidic tubing. It is necessary to put a right angle in the tubing immediately after the fittings that will attach to the nanoports, otherwise the tubing will not clear the environmental chamber and microscope components. 
      * 44
 Submerge all microfluidic fittings in a beaker containing 2% Hellmannex detergent and sonicate in a bath sonicator for 20 min on the sonication setting.
      * 45
@@ -416,7 +417,7 @@ Make a liter of degassed, filtered YES 225 media, and culture the yeast strains 
     8. Incubate the new cell culture in a shaking incubator at 30 °C until the OD595 is 0.5 to 1.0 (4-6 h). 
     9. Degas the YES 225 media by placing it in a vacuum desiccator with the bottle cap loose for 15 min. This should be done just prior to loading the media into syringes.
 **_Connect and clean media/waste lines_**
-Load the prepared media into syringes large enough to hold enough media for the entire experimental time course. Clean the media and waste lines using ethanol and sterile water, as sterility is essential to experimental success. Install the multFYLM in the environmental chamber, then connect the waste lines ([Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g004)). 
+Load the prepared media into syringes large enough to hold enough media for the entire experimental time course. Clean the media and waste lines using ethanol and sterile water, as sterility is essential to experimental success. Install the multFYLM in the environmental chamber, then connect the waste lines ([Fig. 4](#fig4)). 
     10. Turn on the syringe pump.
     11. Determine how many flowpaths within the multFYLM will be used.
 Only three or four of the available six flowpaths are typically used due to spatial constraints and image collection rates. All six flowpaths can be used if the image collection rate is infrequent enough, the lines do not over-torque the multFYLM, and all areas can be observed by the microscope.
@@ -457,7 +458,7 @@ Carefully vortex and load cells into each entry port, then attach the media line
     29. Set the syringe pump at a rate of 40 µl/min and run.
     30. As YES media begins to exit each media line, gently attach it to an entry port.
 Be very careful while attaching: use a drop-to-drop connection strategy to avoid introducing air to the flowpaths, and do not torque on the multFYLM. Ports can easily separate, or the cover glass can crack.
-    31. Observe the cells using white light and the 10x objective. They should be filling the channels of the microfluidic flowpath, starting near the entry ports first ([Figure 5A](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g005)). 
+    31. Observe the cells using white light and the 10x objective. They should be filling the channels of the microfluidic flowpath, starting near the entry ports first ([Fig. 5A](#fig5)). 
     32. Create a program for the pump with the following parameters:
       1. One minute at a flow rate of 55 µl/min
       2. Fourteen minutes at 5 µl/min.
@@ -472,7 +473,7 @@ Using the NIS Elements software, set up a multi-dimensional acquisition strategy
       1. In the Zyla settings menu in NIS Elements, use the ‘Commands’ > ‘ROI’ > ‘Load ROI’ drop-down menu and then select the *.CAMROI file downloaded from below.
 Camera ROI file:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLM_ROI_2X2_new.camroi>
-      2. In the same sub-menu, select ‘Use current ROI’ ([Figure 5B](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-g005)). 
+      2. In the same sub-menu, select 'Use current ROI' ([Fig. 5B](#fig5)). 
     38. Under the ND Acquisition menu, set the folder and file names.
       1. Path: Location where the generated files will be stored.
       2. Filename: Name of the files to be generated. A three-digit number will be appended to the end automatically.
@@ -499,6 +500,7 @@ Camera ROI file:
     47. Image analysis software may now be used to create videos and analyze the collected data.
 
 ***Figure 1.*** Overview of the multFYLM design.
+{: #fig1 }
 ![Figure 1.](BioProtoc-8-07-2783-g001.jpg)
 The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).
 ### Table 1. First plasma cleaning program.
@@ -540,13 +542,16 @@ WEC | Continuous
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t004/)
 
 ***Figure 2.*** Soft lithography.
+{: #fig2 }
 ![Figure 2.](BioProtoc-8-07-2783-g002.jpg)
 A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.
 
 ***Figure 3.*** Microfluidic fittings.
+{: #fig3 }
 ![Figure 3.](BioProtoc-8-07-2783-g003.jpg)
 
-***Figure 5.*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM. 
+***Figure 5.*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM.
+{: #fig5 }
 ![Figure 5.](BioProtoc-8-07-2783-g005.jpg)
 A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).
 ### Table 5. Example parameters for multi-dimensional image acquisition.
@@ -620,6 +625,78 @@ Information on how data collected using this methodology is analyzed can be foun
 We would like to thank members of the Finkelstein laboratory for their input and advice during the development and preparation of this method. This work was generously supported by the following grants and fellowships: the American Federation for Aging Research (AFAR-020 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the NIH (F32 AG053051 to S.K.J.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Science Foundation. This protocol was adapted from prior designs (Spivey _et al._ , 2014; [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). 
 ##  Citation
 Readers should cite both the Bio-protocol article and [the original research article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) where this protocol was used.
+
+---
+
+## References
+
+1. Aguilaniu H., Gustafsson L., Rigoulet M. and Nystrom T. (2003). Asymmetric inheritance of oxidatively damaged proteins during cytokinesis. *Science* 299(5613): 1751-1753. DOI: 10.1126/science.1080418
+
+2. Barker M. G. and Walmsley R. M. (1999). Replicative ageing in the fission yeast *Schizosaccharomyces pombe*. *Yeast* 15(14): 1511-1518. DOI: 10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p
+
+3. Chen K. L., Crane M. M. and Kaeberlein M. (2017). Microfluidic technologies for yeast replicative lifespan studies. *Mech Ageing Dev* 161(Pt B): 262-269. DOI: 10.1016/j.mad.2016.03.009
+
+4. Coelho M., Dereli A., Haese A., Kuhn S., Malinovska L., DeSantis M. E., Shorter J., Alberti S., Gross T. and Tolic-Norrelykke I. M. (2013). Fission yeast does not age under favorable conditions, but does so after stress. *Curr Biol* 23(19): 1844-1852. DOI: 10.1016/j.cub.2013.07.084
+
+5. Crane M. M., Clark I. B., Bakker E., Smith S. and Swain P. S. (2014). A microfluidic system for studying ageing and dynamic single-cell responses in budding yeast. *PLoS One* 9(6): e100042. DOI: 10.1371/journal.pone.0100042
+
+6. Fu X. H., Meng F. L., Hu Y. and Zhou J. Q. (2008). *Candida albicans*, a distinctive fungal model for cellular aging study. *Aging Cell* 7(5): 746-757. DOI: 10.1111/j.1474-9726.2008.00424.x
+
+7. Greenstein R. A., Jones S. K., Spivey E. C., Rybarski J. R., Finkelstein I., and Al-Sady B. (2017). A memory element imposes epigenetic behavior on intrinsically labile RNAi-induced heterochromatin spread. *BioRxiv* 237479.
+
+8. Henderson K. A. and Gottschling D. E. (2008). A mother's sacrifice: what is she keeping for herself? *Curr Opin Cell Biol* 20: 723-728. DOI: 10.1016/j.ceb.2008.09.004
+
+9. Higuchi-Sanabria R., Pernice W. M., Vevea J. D., Alessi Wolken D. M., Boldogh I. R. and Pon L. A. (2014). Role of asymmetric cell division in lifespan control in *Saccharomyces cerevisiae*. *FEMS Yeast Res* 14(8): 1133-1146. DOI: 10.1111/1567-1364.12216
+
+10. Hughes A. L. and Gottschling D. E. (2012). An early age increase in vacuolar pH limits mitochondrial function and lifespan in yeast. *Nature* 492(7428): 261-265. DOI: 10.1038/nature11654
+
+11. Jo M. C., Liu W., Gu L., Dang W. and Qin L. (2015). High-throughput analysis of yeast replicative aging using a microfluidic system. *Proc Natl Acad Sci U S A* 112(30): 9364-9369. DOI: 10.1073/pnas.1510328112
+
+12. Kennedy B. K., Austriaco N. R. Jr. and Guarente L. (1994). Daughter cells of *Saccharomyces cerevisiae* from old mothers display a reduced life span. *J Cell Biol* 127(6 Pt 2): 1985-1993. DOI: 10.1083/jcb.127.6.1985
+
+13. Lee S. S., Avalos Vizcarra I., Huberts D. H., Lee L. P. and Heinemann M. (2012). Whole lifespan microscopic observation of budding yeast aging through a microfluidic dissection platform. *Proc Natl Acad Sci U S A* 109(13): 4916-4920. DOI: 10.1073/pnas.1113505109
+
+14. Liu B., Larsson L., Caballero A., Hao X., Öling D., Grantham J. and Nyström T. (2010). The polarisome is required for segregation and retrograde transport of protein aggregates. *Cell* 140: 257-267. DOI: 10.1016/j.cell.2009.12.031
+
+15. Liu P., Young T. Z. and Acar M. (2015). Yeast replicator: A high-throughput multiplexed microfluidics platform for automated measurements of single-cell aging. *Cell Rep* 13: 634-644. DOI: 10.1016/j.celrep.2015.09.012
+
+16. Mortimer R. K. and Johnston J. R. (1959). Life span of individual yeast cells. *Nature* 183(4677): 1751-1752. DOI: 10.1038/1831751a0
+
+17. Nakaoka H. and Wakamoto Y. (2017). Aging, mortality, and the fast growth trade-off of *Schizosaccharomyces pombe*. *PLoS Biol* 15(6): e2001109. DOI: 10.1371/journal.pbio.2001109
+
+18. Nobs J. B. and Maerkl S. J. (2014). Long-term single cell analysis of *S. pombe* on a microfluidic microchemostat array. *PLoS One* 9(4): e93466. DOI: 10.1371/journal.pone.0093466
+
+19. Nyström T. and Liu B. (2014). The mystery of aging and rejuvenation- a budding topic. *Curr Opin Microbiol* 18: 61-67. DOI: 10.1016/j.mib.2014.02.003
+
+20. Paoletti C., Quintin S., Matifas A. and Charvin G. (2016). Kinetics of formation and asymmetrical distribution of Hsp104-Bound protein aggregates in yeast. *Biophys J* 110(7): 1605-1614. DOI: 10.1016/j.bpj.2016.02.034
+
+21. Ruetenik A. and Barrientos A. (2015). Dietary restriction, mitochondrial function and aging: from yeast to humans. *Biochim Biophys Acta* 1847(11): 1434-1447. DOI: 10.1016/j.bbabio.2015.05.005
+
+22. Saka K., Ide S., Ganley A. R. and Kobayashi T. (2013). Cellular senescence in yeast is regulated by rDNA noncoding transcription. *Curr Biol* 23(18): 1794-1798. DOI: 10.1016/j.cub.2013.07.048
+
+23. Shcheprova Z., Baldi S., Frei S. B., Gonnet G. and Barral Y. (2008). A mechanism for asymmetric segregation of age during yeast budding. *Nature* 454(7205): 728-734. DOI: 10.1038/nature07212
+
+24. Spivey E. C. and Finkelstein I. J. (2014). From cradle to grave: high-throughput studies of aging in model organisms. *Mol Biosyst* 10(7): 1658-1667. DOI: 10.1039/c3mb70604d
+
+25. Spivey E. C., Jones S. K., Rybarski J. R., Saifuddin F. A. and Finkelstein I. J. (2017). An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *Elife* 6. DOI: 10.7554/eLife.20340
+
+26. Spivey E. C., Xhemalce B., Shear J. B. and Finkelstein I. J. (2014). 3D-printed microfluidic microdissector for high-throughput studies of cellular aging. *Anal Chem* 86(15): 7406-7412. DOI: 10.1021/ac500893a
+
+27. Sutphin G. L., Delaney J. R. and Kaeberlein M. (2014). Replicative life span analysis in budding yeast. *Methods Mol Biol* 1205: 341-357. DOI: 10.1007/978-1-4939-1363-3_20
+
+28. Tian Y., Luo C. and Ouyang Q. (2013). A microfluidic synchronizer for fission yeast cells. *Lab Chip* 13(20): 4071-4077. DOI: 10.1039/c3lc50639h
+
+29. Wang P., Robert L., Pelletier J., Dang W. L., Taddei F., Wright A. and Jun S. (2010). Robust growth of *Escherichia coli*. *Curr Biol* 20(12): 1099-1103. DOI: 10.1016/j.cub.2010.04.045
+
+30. Wasko B. M. and Kaeberlein M. (2014). Yeast replicative aging: a paradigm for defining conserved longevity interventions. *FEMS Yeast Res* 14(1): 148-159. DOI: 10.1111/1567-1364.12104
+
+31. Wierman M. B. and Smith J. S. (2014). Yeast sirtuins and the regulation of aging. *FEMS Yeast Res* 14(1): 73-88. DOI: 10.1111/1567-1364.12115
+
+32. Xie Z., Zhang Y., Zou K., Brandman O., Luo C., Ouyang Q. and Li H. (2012). Molecular phenotyping of aging in single yeast cells using a novel microfluidic device. *Aging Cell* 11(4): 599-606. DOI: 10.1111/j.1474-9726.2012.00821.x
+
+33. Zhang Y., Luo C., Zou K., Xie Z., Brandman O., Ouyang Q. and Li H. (2012). Single cell analysis of yeast replicative aging using a new generation of microfluidic device. *PLoS One* 7(11): e48275. DOI: 10.1371/journal.pone.0048275
+
+34. Zhou C., Slaughter B. D., Unruh J. R., Guo F., Yu Z., Mickey K., Narkar A., Ross R. T., McClain M. and Li R. (2014). Organelle-based aggregation and retention of damaged proteins in asymmetrically dividing cells. *Cell* 159(3): 530-542. DOI: 10.1016/j.cell.2014.09.026
 
 ---
 

@@ -24,6 +24,7 @@ pmcid: PMC5609712
 - [Discussion](#discussion)
 - [STAR Methods](#star-methods)
 - [Acknowledgments](#acknowledgments)
+- [References](#references)
 
 ---
 
@@ -184,6 +185,59 @@ Data have been deposited to Mendeley Data and are available at: doi:10.17632/4ck
 ---
 ##  Acknowledgments
 We are grateful to members of the Finkelstein and Paull laboratories for useful discussions and for critically reading the manuscript. This work was supported by the National Institute of General Medical Sciences of the National Institutes of Health (GM120554 to I.J.F.), the National Cancer Institute of the National Institutes of Health (CA092584 to I.J.F., CA212452 to L.R.M.), CPRIT (R1214 to I.J.F., RP110465 to T.T.P.), and the Welch Foundation (F-l808 to I.J.F.). I.J.F. is a CPRIT Scholar in Cancer Research. Y.K. is a Howard Hughes Medical Institute international graduate student fellow. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. We are indebted to our colleagues Karolyn Luger, Mauro Modesti, Paul Modrich, Dale Ramsden, and Marc Wold for valuable reagents.
+
+---
+
+## References
+
+1. Anand R, Ranjha L, Cannavo E, Cejka P. Phosphorylated CtIP Functions as a Co-factor of the MRE11-RAD50-NBS1 Endonuclease in DNA End Resection. Mol Cell. 2016;64:940–950. doi: 10.1016/j.molcel.2016.10.017.
+2. Blier PR, Griffith AJ, Craft J, Hardin JA. Binding of Ku protein to DNA. Measurement of affinity for ends and demonstration of binding to nicks. J Biol Chem. 1993;268:7594–7601.
+3. Bogomazova AN, Lagarkova MA, Tskhovrebova LV, Shutova MV, Kiselev SL. Error-prone nonhomologous end joining repair operates in human pluripotent stem cells during late G2. Aging. 2011;3:584–596. doi: 10.18632/aging.100336.
+4. Branzei D, Foiani M. Regulation of DNA repair throughout the cell cycle. Nat Rev Mol Cell Biol. 2008;9:297–308. doi: 10.1038/nrm2351.
+5. Brown MW, Kim Y, Williams GM, Huck JD, Surtees JA, Finkelstein IJ. Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions. Nat Commun. 2016;7:10607. doi: 10.1038/ncomms10607.
+6. Cannavo E, Cejka P. Sae2 promotes dsDNA endonuclease activity within Mre11-Rad50-Xrs2 to resect DNA breaks. Nature. 2014;514:122–125. doi: 10.1038/nature13771.
+7. Cejka P. DNA End Resection: Nucleases Team Up with the Right Partners to Initiate Homologous Recombination. J Biol Chem. 2015;290:22931–22938. doi: 10.1074/jbc.R115.675942.
+8. Cejka P, Cannavo E, Polaczek P, Masuda-Sasa T, Pokharel S, Campbell JL, Kowalczykowski SC. DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2. Nature. 2010;467:112–116. doi: 10.1038/nature09355.
+9. Chanut P, Britton S, Coates J, Jackson SP, Calsou P. Coordinated nuclease activities counteract Ku at single-ended DNA double-strand breaks. Nat Commun. 2016;7:12889. doi: 10.1038/ncomms12889.
+10. Davidson IF, Goetz D, Zaczek MP, Molodtsov MI, Veld PJ, Hin't Weissmann F, Litos G, Cisneros DA, Ocampo-Hafalla M, Ladurner R, et al. Rapid movement and transcriptional re-localization of human cohesin on DNA. EMBO J. 2016:e201695402. doi: 10.15252/embj.201695402.
+11. Deshpande RA, Lee JH, Arora S, Paull TT. Nbs1 Converts the Human Mre11/Rad50 Nuclease Complex into an Endo/Exonuclease Machine Specific for Protein-DNA Adducts. Mol Cell. 2016;64:593–606. doi: 10.1016/j.molcel.2016.10.010.
+12. Gallardo IF, Pasupathy P, Brown M, Manhart CM, Neikirk DP, Alani E, Finkelstein IJ. High-Throughput Universal DNA Curtain Arrays for Single-Molecule Fluorescence Imaging. Langmuir. 2015;31:10310–10317. doi: 10.1021/acs.langmuir.5b02416.
+13. Garcia V, Phelps SE, Gray S, Neale MJ. Bidirectional resection of DNA double-strand breaks by Mre11 and Exo1. Nature. 2011;479:241–244. doi: 10.1038/nature10515.
+14. Genschel J, Modrich P. Mechanism of 5′-directed excision in human mismatch repair. Mol Cell. 2003;12:1077–1086. doi: 10.1016/s1097-2765(03)00428-3.
+15. Grundy GJ, Moulding HA, Caldecott KW, Rulten SL. One ring to bring them all--the role of Ku in mammalian non-homologous end joining. DNA Repair. 2014;17:30–38. doi: 10.1016/j.dnarep.2014.02.019.
+16. Guirouilh-Barbat J, Redon C, Pommier Y. Transcription-coupled DNA double-strand breaks are mediated via the nucleotide excision repair and the Mre11-Rad50-Nbs1 complex. Mol Biol Cell. 2008;19:3969–3981. doi: 10.1091/mbc.E08-02-0215.
+17. Haince J-F, McDonald D, Rodrigue A, Déry U, Masson J-Y, Hendzel MJ, Poirier GG. PARP1-dependent kinetics of recruitment of MRE11 and NBS1 proteins to multiple DNA damage sites. J Biol Chem. 2008;283:1197–1208. doi: 10.1074/jbc.M706734200.
+18. Hohl M, Kwon Y, Galván SM, Xue X, Tous C, Aguilera A, Sung P, Petrini JHJ. The Rad50 coiled-coil domain is indispensable for Mre11 complex functions. Nat Struct Mol Biol. 2011;18:1124–1131. doi: 10.1038/nsmb.2116.
+19. de Jager M, Dronkert ML, Modesti M, Beerens CE, Kanaar R, van Gent DC. DNA-binding and strand-annealing activities of human Mre11: implications for its roles in DNA double-strand break repair pathways. Nucleic Acids Res. 2001;29:1317–1325. doi: 10.1093/nar/29.6.1317.
+20. Krasner DS, Daley JM, Sung P, Niu H. Interplay between Ku and Replication Protein A in the Restriction of Exo1-mediated DNA Break End Resection. J Biol Chem. 2015;290:18806–18816. doi: 10.1074/jbc.M115.660191.
+21. Lafrance-Vanasse J, Williams GJ, Tainer JA. Envisioning the dynamics and flexibility of Mre11-Rad50-Nbs1 complex to decipher its roles in DNA replication and repair. Prog Biophys Mol Biol. 2015;117:182–193. doi: 10.1016/j.pbiomolbio.2014.12.004.
+22. Lamarche BJ, Orazio NI, Weitzman MD. The MRN complex in double-strand break repair and telomere maintenance. FEBS Lett. 2010;584:3682–3695. doi: 10.1016/j.febslet.2010.07.029.
+23. Lammens K, Bemeleit DJ, Möckel C, Clausing E, Schele A, Hartung S, Schiller CB, Lucas M, Angermüller C, Söding J, et al. The Mre11:Rad50 structure shows an ATP-dependent molecular clamp in DNA double-strand break repair. Cell. 2011;145:54–66. doi: 10.1016/j.cell.2011.02.038.
+24. Langerak P, Mejia-Ramirez E, Limbo O, Russell P. Release of Ku and MRN from DNA ends by Mre11 nuclease activity and Ctp1 is required for homologous recombination repair of double-strand breaks. PLoS Genet. 2011;7:e1002271. doi: 10.1371/journal.pgen.1002271.
+25. Lee J-H, Mand MR, Deshpande RA, Kinoshita E, Yang S-H, Wyman C, Paull TT. Ataxia telangiectasia-mutated (ATM) kinase activity is regulated by ATP-driven conformational changes in the Mre11/Rad50/Nbs1 (MRN) complex. J Biol Chem. 2013;288:12840–12851. doi: 10.1074/jbc.M113.460378.
+26. Lim HS, Kim JS, Park YB, Gwon GH, Cho Y. Crystal structure of the Mre11-Rad50-ATPγS complex: understanding the interplay between Mre11 and Rad50. Genes Dev. 2011;25:1091–1104. doi: 10.1101/gad.2037811.
+27. Lisby M, Barlow JH, Burgess RC, Rothstein R. Choreography of the DNA Damage Response: Spatiotemporal Relationships among Checkpoint and Repair Proteins. Cell. 2004;118:699–713. doi: 10.1016/j.cell.2004.08.015.
+28. Liu Y, Sung S, Kim Y, Li F, Gwon G, Jo A, Kim A-K, Kim T, Song O-K, Lee SE, et al. ATP-dependent DNA binding, unwinding, and resection by the Mre11/Rad50 complex. EMBO J. 2016;35:743–758. doi: 10.15252/embj.201592462.
+29. Makharashvili N, Tubbs AT, Yang SH, Wang H, Barton O, Zhou Y, Deshpande RA, Lee JH, Löbrich M, Sleckman BP, et al. Catalytic and noncatalytic roles of the CtIP endonuclease in double-strand break end resection. Mol Cell. 2014;54:1022–1033. doi: 10.1016/j.molcel.2014.04.011.
+30. Myler LR, Gallardo IF, Zhou Y, Gong F, Yang S-H, Wold MS, Miller KM, Paull TT, Finkelstein IJ. Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. Proc Natl Acad Sci. 2016;113:e1170–e1179. doi: 10.1073/pnas.1516674113.
+31. Neale MJ, Pan J, Keeney S. Endonucleolytic processing of covalent protein-linked DNA double-strand breaks. Nature. 2005;436:1053–1057. doi: 10.1038/nature03872.
+32. Nicolette ML, Lee K, Guo Z, Rani M, Chow JM, Lee SE, Paull TT. Mre11-Rad50-Xrs2 and Sae2 promote 5′ strand resection of DNA double-strand breaks. Nat Struct Mol Biol. 2010;17:1478–1485. doi: 10.1038/nsmb.1957.
+33. Nimonkar AV, Genschel J, Kinoshita E, Polaczek P, Campbell JL, Wyman C, Modrich P, Kowalczykowski SC. BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. Genes Dev. 2011;25:350–362. doi: 10.1101/gad.2003811.
+34. Niu H, Chung WH, Zhu Z, Kwon Y, Zhao W, Chi P, Prakash R, Seong C, Liu D, Lu L, et al. Mechanism of the ATP-dependent DNA end-resection machinery from Saccharomyces cerevisiae. Nature. 2010;467:108–111. doi: 10.1038/nature09318.
+35. Park YB, Hohl M, Padjasek M, Jeong E, Jin KS, Krężel A, Petrini JHJ, Cho Y. Eukaryotic Rad50 functions as a rod-shaped dimer. Nat Struct Mol Biol. 2017;24:248–257. doi: 10.1038/nsmb.3369.
+36. Paull TT, Gellert M. Nbs1 potentiates ATP-driven DNA unwinding and endonuclease cleavage by the Mre11/Rad50 complex. Genes Dev. 1999;13:1276–1288. doi: 10.1101/gad.13.10.1276.
+37. Seifert FU, Lammens K, Stoehr G, Kessler B, Hopfner K-P. Structural mechanism of ATP-dependent DNA binding and DNA end bridging by eukaryotic Rad50. EMBO J. 2016;35:759–772. doi: 10.15252/embj.201592934.
+38. Shahar OD, Raghu Ram EVS, Shimshoni E, Hareli S, Meshorer E, Goldberg M. Live imaging of induced and controlled DNA double-strand break formation reveals extremely low repair by homologous recombination in human cells. Oncogene. 2012;31:3495–3504. doi: 10.1038/onc.2011.516.
+39. Shao Z, Davis AJ, Fattah KR, So S, Sun J, Lee KJ, Harrison L, Yang J, Chen DJ. Persistently bound Ku at DNA ends attenuates DNA end resection and homologous recombination. DNA Repair. 2012;11:310–316. doi: 10.1016/j.dnarep.2011.12.007.
+40. Shibata A, Conrad S, Birraux J, Geuting V, Barton O, Ismail A, Kakarougkas A, Meek K, Taucher-Scholz G, Löbrich M, et al. Factors determining DNA double-strand break repair pathway choice in G2 phase. EMBO J. 2011;30:1079–1092. doi: 10.1038/emboj.2011.27.
+41. Shibata A, Moiani D, Arvai AS, Perry J, Harding SM, Genois MM, Maity R, van Rossum-Fikkert S, Kertokalio A, Romoli F, et al. DNA double-strand break repair pathway choice is directed by distinct MRE11 nuclease activities. Mol Cell. 2014;53:7–18. doi: 10.1016/j.molcel.2013.11.003.
+42. Sirbu BM, Couch FB, Feigerle JT, Bhaskara S, Hiebert SW, Cortez D. Analysis of protein dynamics at active, stalled, and collapsed replication forks. Genes Dev. 2011;25:1320–1327. doi: 10.1101/gad.2053211.
+43. Stigler J, Çamdere GÖ, Koshland DE, Greene EC. Single-Molecule Imaging Reveals a Collapsed Conformational State for DNA-Bound Cohesin. Cell Rep. 2016;15:988–998. doi: 10.1016/j.celrep.2016.04.003.
+44. Symington LS, Gautier J. Double-strand break end resection and repair pathway choice. Annu Rev Genet. 2011;45:247–271. doi: 10.1146/annurev-genet-110410-132435.
+45. Walker JR, Corpina RA, Goldberg J. Structure of the Ku heterodimer bound to DNA and its implications for double-strand break repair. Nature. 2001;412:607–614. doi: 10.1038/35088000.
+46. Williams GJ, Lees-Miller SP, Tainer JA. Mre11-Rad50-Nbs1 conformations and the control of sensing, signaling, and effector responses at DNA double-strand breaks. DNA Repair. 2010;9:1299–1306. doi: 10.1016/j.dnarep.2010.10.001.
+47. Williams RS, Moncalian G, Williams JS, Yamada Y, Limbo O, Shin DS, Groocock LM, Cahill D, Hitomi C, Guenther G, et al. Mre11 dimers coordinate DNA end bridging and nuclease processing in double-strand-break repair. Cell. 2008;135:97–109. doi: 10.1016/j.cell.2008.08.017.
+48. Yang S-H, Zhou R, Campbell J, Chen J, Ha T, Paull TT. The SOSS1 single-stranded DNA binding complex promotes DNA end resection in concert with Exo1. EMBO J. 2013;32:126–139. doi: 10.1038/emboj.2012.314.
 
 ---
 
