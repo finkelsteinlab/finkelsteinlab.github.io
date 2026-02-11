@@ -207,4 +207,113 @@ interquartile range.
 
 ---
 
+## References
+
+1. Finley D. (2009) Recognition and processing of ubiquitin-protein conjugates by the proteasome. *Annu. Rev. Biochem.* 78, 477–513.
+2. Finley D., Chen X., and Walters K. J. (2016) Gates, channels, and switches: elements of the proteasome machine. *Trends Biochem. Sci.* 41, 77–93.
+3. Komander D., and Rape M. (2012) The ubiquitin code. *Annu. Rev. Biochem.* 81, 203–229.
+4. Husnjak K., and Dikic I. (2012) Ubiquitin-binding proteins: decoders of ubiquitin-mediated cellular functions. *Annu. Rev. Biochem.* 81, 291–322.
+5. Thrower J. S., Hoffman L., Rechsteiner M., and Pickart C. M. (2000) Recognition of the polyubiquitin proteolytic signal. *EMBO J.* 19, 94–102.
+6. Terrell J., Shih S., Dunn R., and Hicke L. (1998) A function for monoubiquitination in the internalization of a G protein-coupled receptor. *Mol. Cell* 1, 193–202.
+7. Hicke L., and Riezman H. (1996) Ubiquitination of a yeast plasma membrane receptor signals its ligand-stimulated endocytosis. *Cell* 84, 277–287.
+8. Galan J. M., and Haguenauer-Tsapis R. (1997) Ubiquitin lys63 is involved in ubiquitination of a yeast plasma membrane protein. *EMBO J.* 16, 5847–5854.
+9. Jackson S. P., and Durocher D. (2013) Regulation of DNA damage responses by ubiquitin and SUMO. *Mol. Cell* 49, 795–807.
+10. Kirkpatrick D. S., Hathaway N. A., Hanna J., Elsasser S., Rush J., Finley D., King R. W., and Gygi S. P. (2006) Quantitative analysis of in vitro ubiquitinated cyclin B1 reveals complex chain topology. *Nat. Cell Biol.* 8, 700–710.
+11. Xu P., Duong D. M., Seyfried N. T., Cheng D., Xie Y., Robert J., Rush J., Hochstrasser M., Finley D., and Peng J. (2009) Quantitative proteomics reveals the function of unconventional ubiquitin chains in proteasomal degradation. *Cell* 137, 133–145.
+12. Dimova N. V., Hathaway N. A., Lee B.-H., Kirkpatrick D. S., Berkowitz M. L., Gygi S. P., Finley D., and King R. W. (2012) APC/C-mediated multiple monoubiquitylation provides an alternative degradation signal for cyclin B1. *Nat. Cell Biol.* 14, 168–176.
+13. Kravtsova-Ivantsiv Y., Cohen S., and Ciechanover A. (2009) Modification by single ubiquitin moieties rather than polyubiquitination is sufficient for proteasomal processing of the p105 NF-κB precursor. *Mol. Cell* 33, 496–504.
+14. Lu Y., Lee B.-H., King R. W., Finley D., and Kirschner M. W. (2015) Substrate degradation by the proteasome: a single-molecule kinetic analysis. *Science* 348, 1250834.
+15. Shabek N., Herman-Bachinsky Y., and Ciechanover A. (2009) Ubiquitin degradation with its substrate, or as a monomer in a ubiquitination-independent mode, provides clues to proteasome regulation. *Proc. Natl. Acad. Sci. U.S.A.* 106, 11907–11912.
+16. Baboshina O. V., and Haas A. L. (1996) Novel multiubiquitin chain linkages catalyzed by the conjugating enzymes E2EPF and RAD6 are recognized by 26 S proteasome subunit 5. *J. Biol. Chem.* 271, 2823–2831.
+17. Hofmann R. M., and Pickart C. M. (2001) In vitro assembly and recognition of Lys-63 polyubiquitin chains. *J. Biol. Chem.* 276, 27936–27943.
+18. Saeki Y., Kudo T., Sone T., Kikuchi Y., Yokosawa H., Toh-e A., and Tanaka K. (2009) Lysine 63-linked polyubiquitin chain may serve as a targeting signal for the 26S proteasome. *EMBO J.* 28, 359–371.
+19. Nathan J. A., Kim H. T., Ting L., Gygi S. P., and Goldberg A. L. (2013) Why do cellular proteins linked to K63-polyubiquitin chains not associate with proteasomes? *EMBO J.* 32, 552–565.
+20. Jacobson A. D., Zhang N.-Y., Xu P., Han K.-J., Noone S., Peng J., and Liu C.-W. (2009) The lysine 48 and lysine 63 ubiquitin conjugates are processed differently by the 26 S proteasome. *J. Biol. Chem.* 284, 35485–35494.
+21. Prakash S., Tian L., Ratliff K. S., Lehotzky R. E., and Matouschek A. (2004) An unstructured initiation site is required for efficient proteasome-mediated degradation. *Nat. Struct. Mol. Biol.* 11, 830–837.
+22. Takeuchi J., Chen H., and Coffino P. (2007) Proteasome substrate degradation requires association plus extended peptide. *EMBO J.* 26, 123–131.
+23. van der Lee R., Lang B., Kruse K., Gsponer J., Sánchez de Groot N., Huynen M. A., Matouschek A., Fuxreiter M., and Babu M. M. (2014) Intrinsically disordered segments affect protein half-life in the cell and during evolution. *Cell Rep.* 8, 1832–1844.
+24. Zhao M., Zhang N.-Y., Zurawel A., Hansen K. C., and Liu C.-W. (2010) Degradation of some polyubiquitinated proteins requires an intrinsic proteasomal binding element in the substrates. *J. Biol. Chem.* 285, 4771–4780.
+25. Prakash S., Inobe T., Hatch A. J., and Matouschek A. (2009) Substrate selection by the proteasome during degradation of protein complexes. *Nat. Chem. Biol.* 5, 29–36.
+26. Inobe T., Fishbain S., Prakash S., and Matouschek A. (2011) Defining the geometry of the two-component proteasome degron. *Nat. Chem. Biol.* 7, 161–167.
+27. Fishbain S., Prakash S., Herrig A., Elsasser S., and Matouschek A. (2011) Rad23 escapes degradation because it lacks a proteasome initiation region. *Nat. Commun.* 2, 192.
+28. Fishbain S., Inobe T., Israeli E., Chavali S., Yu H., Kago G., Babu M. M., and Matouschek A. (2015) Sequence composition of disordered regions fine-tunes protein half-life. *Nat. Struct. Mol. Biol.* 22, 214–221.
+29. Guharoy M., Bhowmick P., Sallam M., and Tompa P. (2016) Tripartite degrons confer diversity and specificity on regulated protein degradation in the ubiquitin-proteasome system. *Nat. Commun.* 7, 10239.
+30. Rape M., Hoppe T., Gorr I., Kalocay M., Richly H., and Jentsch S. (2001) Mobilization of processed, membrane-tethered SPT23 transcription factor by CDC48(UFD1/NPL4), a ubiquitin-selective chaperone. *Cell* 107, 667–677.
+31. Richly H., Rape M., Braun S., Rumpf S., Hoege C., and Jentsch S. (2005) A series of ubiquitin binding factors connects CDC48/p97 to substrate multiubiquitylation and proteasomal targeting. *Cell* 120, 73–84.
+32. Wójcik C., Rowicka M., Kudlicki A., Nowis D., McConnell E., Kujawa M., and DeMartino G. N. (2006) Valosin-containing protein (p97) is a regulator of endoplasmic reticulum stress and of the degradation of N-end rule and ubiquitin-fusion degradation pathway substrates in mammalian cells. *Mol. Biol. Cell* 17, 4606–4618.
+33. Beskow A., Grimberg K. B., Bott L. C., Salomons F. A., Dantuma N. P., and Young P. (2009) A conserved unfoldase activity for the p97 AAA-ATPase in proteasomal degradation. *J. Mol. Biol.* 394, 732–746.
+34. Raman M., Havens C. G., Walter J. C., and Harper J. W. (2011) A genome-wide screen identifies p97 as an essential regulator of DNA damage-dependent CDT1 destruction. *Mol. Cell* 44, 72–84.
+35. Verma R., Oania R., Fang R., Smith G. T., and Deshaies R. J. (2011) Cdc48/p97 mediates UV-dependent turnover of RNA Pol II. *Mol. Cell* 41, 82–92.
+36. den Besten W., Verma R., Kleiger G., Oania R. S., and Deshaies R. J. (2012) NEDD8 links cullin-RING ubiquitin ligase function to the p97 pathway. *Nat. Struct. Mol. Biol.* 19, 511–516.
+37. Mumberg D., Müller R., and Funk M. (1995) Yeast vectors for the controlled expression of heterologous proteins in different genetic backgrounds. *Gene* 156, 119–122.
+38. Strack R. L., Hein B., Bhattacharyya D., Hell S. W., Keenan R. J., and Glick B. S. (2009) A rapidly maturing far-red derivative of DsRed-Express2 for whole-cell labeling. *Biochemistry* 48, 8279–8281.
+39. Breker M., Gymrek M., and Schuldiner M. (2013) A novel single-cell screening platform reveals proteome plasticity during yeast stress responses. *J. Cell Biol.* 200, 839–850.
+40. Lee M. V., Topper S. E., Hubler S. L., Hose J., Wenger C. D., Coon J. J., and Gasch A. P. (2011) A dynamic model of proteome changes reveals new roles for transcript alteration in yeast. *Mol. Syst. Biol.* 7, 514.
+41. Schauber C., Chen L., Tongaonkar P., Vega I., Lambertson D., Potts W., and Madura K. (1998) Rad23 links DNA repair to the ubiquitin/proteasome pathway. *Nature* 391, 715–718.
+42. Chen L., and Madura K. (2002) Rad23 promotes the targeting of proteolytic substrates to the proteasome. *Mol. Cell. Biol.* 22, 4902–4913.
+43. Elsasser S., Gali R. R., Schwickart M., Larsen C. N., Leggett D. S., Müller B., Feng M. T., Tübing F., Dittmar G. A., and Finley D. (2002) Proteasome subunit Rpn1 binds ubiquitin-like protein domains. *Nat. Cell Biol.* 4, 725–730.
+44. Tsubuki S., Saito Y., and Kawashima S. (1994) Purification and characterization of an endogenous inhibitor specific to the Z-Leu-Leu-Leu-MCA degrading activity in proteasome and its identification as heat-shock protein 90. *FEBS Lett.* 344, 229–233.
+45. Fleming J. A., Lightcap E. S., Sadis S., Thoroddsen V., Bulawa C. E., and Blackman R. K. (2002) Complementary whole-genome technologies reveal the cellular response to proteasome inhibition by PS-341. *Proc. Natl. Acad. Sci. U.S.A.* 99, 1461–1466.
+46. Jentsch S., McGrath J. P., and Varshavsky A. (1987) The yeast DNA repair gene RAD6 encodes a ubiquitin-conjugating enzyme. *Nature* 329, 131–134.
+47. Öling D., Eisele F., Kvint K., and Nyström T. (2014) Opposing roles of Ubp3-dependent deubiquitination regulate replicative life span and heat resistance. *EMBO J.* 33, 747–761.
+48. Murakami Y., Matsufuji S., Kameji T., Hayashi S., Igarashi K., Tamura T., Tanaka K., and Ichihara A. (1992) Ornithine decarboxylase is degraded by the 26S proteasome without ubiquitination. *Nature* 360, 597–599.
+49. Zhang M., Pickart C. M., and Coffino P. (2003) Determinants of proteasome recognition of ornithine decarboxylase, a ubiquitin-independent substrate. *EMBO J.* 22, 1488–1496.
+50. Verma R., Chen S., Feldman R., Schieltz D., Yates J., Dohmen J., and Deshaies R. J. (2000) Proteasomal proteomics: identification of nucleotide-sensitive proteasome-interacting proteins by mass spectrometric analysis of affinity-purified proteasomes. *Mol. Biol. Cell* 11, 3425–3439.
+51. Johnson E. S., Bartel B., Seufert W., and Varshavsky A. (1992) Ubiquitin as a degradation signal. *EMBO J.* 11, 497–505.
+52. Hwang C.-S., Shemorry A., and Varshavsky A. (2010) N-terminal acetylation of cellular proteins creates specific degradation signals. *Science* 327, 973–977.
+53. Shaner N. C., Campbell R. E., Steinbach P. A., Giepmans B. N., Palmer A. E., and Tsien R. Y. (2004) Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein. *Nat. Biotechnol.* 22, 1567–1572.
+54. Hinnebusch A. G., and Fink G. R. (1983) Positive regulation in the general amino acid control of Saccharomyces cerevisiae. *Proc. Natl. Acad. Sci. U.S.A.* 80, 5374–5378.
+55. Klopotowski T., and Wiater A. (1965) Synergism of aminotriazole and phosphate on the inhibition of yeast imidazole glycerol phosphate dehydratase. *Arch. Biochem. Biophys.* 112, 562–566.
+56. Lupas A., Flanagan J. M., Tamura T., and Baumeister W. (1997) Self-compartmentalizing proteases. *Trends Biochem. Sci.* 22, 399–404.
+57. Peth A., Besche H. C., and Goldberg A. L. (2009) Ubiquitinated proteins activate the proteasome by binding to Usp14/Ubp6, which causes 20S gate opening. *Mol. Cell* 36, 794–804.
+58. Wilkinson C. R., Penney M., McGurk G., Wallace M., and Gordon C. (1999) The 26S proteasome of the fission yeast Schizosaccharomyces pombe. *Philos. Trans. R. Soc. Lond. B Biol. Sci.* 354, 1523–1532.
+59. Hiyama H., Yokoi M., Masutani C., Sugasawa K., Maekawa T., Tanaka K., Hoeijmakers J. H., and Hanaoka F. (1999) Interaction of hHR23 with S5a. The ubiquitin-like domain of hHR23 mediates interaction with S5a subunit of 26 S proteasome. *J. Biol. Chem.* 274, 28019–28025.
+60. Benjamini Y., and Hochberg Y. (1995) Controlling the false discovery rate: a practical and powerful approach to multiple testing. *J. R. Stat. Soc. Series B Stat. Methodol.* 57, 289–300.
+61. Kyte J., and Doolittle R. F. (1982) A simple method for displaying the hydropathic character of a protein. *J. Mol. Biol.* 157, 105–132.
+62. Vihinen M., Torkkila E., and Riikonen P. (1994) Accuracy of protein flexibility predictions. *Proteins* 19, 141–149.
+63. Cilia E., Pancsa R., Tompa P., Lenaerts T., and Vranken W. F. (2013) From protein sequence to dynamics and disorder with DynaMine. *Nat. Commun.* 4, 2741.
+64. Cilia E., Pancsa R., Tompa P., Lenaerts T., and Vranken W. F. (2014) The DynaMine webserver: predicting protein dynamics from sequence. *Nucleic Acids Res.* 42, W264–W270.
+65. Zhang X., Ibrahimi O. A., Olsen S. K., Umemori H., Mohammadi M., and Ornitz D. M. (2006) Receptor specificity of the fibroblast growth factor family. The complete mammalian FGF family. *J. Biol. Chem.* 281, 15694–15700.
+66. Buljan M., Chalancon G., Eustermann S., Wagner G. P., Fuxreiter M., Bateman A., and Babu M. M. (2012) Tissue-specific splicing of disordered segments that embed binding motifs rewires protein interaction networks. *Mol. Cell* 46, 871–883.
+67. Rape M., and Kirschner M. W. (2004) Autonomous regulation of the anaphase-promoting complex couples mitosis to S-phase entry. *Nature* 432, 588–595.
+68. Lu D., Hsiao J. Y., Davey N. E., Van Voorhis V. A., Foster S. A., Tang C., and Morgan D. O. (2014) Multiple mechanisms determine the order of APC/C substrate degradation in mitosis. *J. Cell Biol.* 207, 23–39.
+69. Williamson A., Wickliffe K. E., Mellone B. G., Song L., Karpen G. H., and Rape M. (2009) Identification of a physiological E2 module for the human anaphase-promoting complex. *Proc. Natl. Acad. Sci. U.S.A.* 106, 18213–18218.
+70. Bucciantini M., Giannoni E., Chiti F., Baroni F., Formigli L., Zurdo J., Taddei N., Ramponi G., Dobson C. M., and Stefani M. (2002) Inherent toxicity of aggregates implies a common mechanism for protein misfolding diseases. *Nature* 416, 507–511.
+71. Holmberg C. I., Staniszewski K. E., Mensah K. N., Matouschek A., and Morimoto R. I. (2004) Inefficient degradation of truncated polyglutamine proteins by the proteasome. *EMBO J.* 23, 4307–4318.
+72. Venkatraman P., Wetzel R., Tanaka M., Nukina N., and Goldberg A. L. (2004) Eukaryotic proteasomes cannot digest polyglutamine sequences and release them during degradation of polyglutamine-containing proteins. *Mol. Cell* 14, 95–104.
+73. Martin A., Baker T. A., and Sauer R. T. (2005) Rebuilt AAA + motors reveal operating principles for ATP-fuelled machines. *Nature* 437, 1115–1120.
+74. Sauer R. T., and Baker T. A. (2011) AAA+ proteases: ATP-fueled machines of protein destruction. *Annu. Rev. Biochem.* 80, 587–612.
+75. Olivares A. O., Baker T. A., and Sauer R. T. (2016) Mechanistic insights into bacterial AAA+ proteases and protein-remodelling machines. *Nat. Rev. Microbiol.* 14, 33–44.
+76. Glynn S. E., Martin A., Nager A. R., Baker T. A., and Sauer R. T. (2009) Structures of asymmetric ClpX hexamers reveal nucleotide-dependent motions in a AAA+ protein-unfolding machine. *Cell* 139, 744–756.
+77. Maillard R. A., Chistol G., Sen M., Righini M., Tan J., Kaiser C. M., Hodges C., Martin A., and Bustamante C. (2011) ClpX(P) generates mechanical force to unfold and translocate its protein substrates. *Cell* 145, 459–469.
+78. Aubin-Tam M.-E., Olivares A. O., Sauer R. T., Baker T. A., and Lang M. J. (2011) Single-molecule protein unfolding and translocation by an ATP-fueled proteolytic machine. *Cell* 145, 257–267.
+79. Martin A., Baker T. A., and Sauer R. T. (2008) Protein unfolding by a AAA+ protease is dependent on ATP-hydrolysis rates and substrate energy landscapes. *Nat. Struct. Mol. Biol.* 15, 139–145.
+80. Kenniston J. A., Baker T. A., Fernandez J. M., and Sauer R. T. (2003) Linkage between ATP consumption and mechanical unfolding during the protein processing reactions of an AAA+ degradation machine. *Cell* 114, 511–520.
+81. Martin A., Baker T. A., and Sauer R. T. (2008) Diverse pore loops of the AAA+ ClpX machine mediate unassisted and adaptor-dependent recognition of ssrA-tagged substrates. *Mol. Cell* 29, 441–450.
+82. Iosefson O., Nager A. R., Baker T. A., and Sauer R. T. (2015) Coordinated gripping of substrate by subunits of a AAA+ proteolytic machine. *Nat. Chem. Biol.* 11, 201–206.
+83. Beckwith R., Estrin E., Worden E. J., and Martin A. (2013) Reconstitution of the 26S proteasome reveals functional asymmetries in its AAA+ unfoldase. *Nat. Struct. Mol. Biol.* 20, 1164–1172.
+84. Lander G. C., Estrin E., Matyskiela M. E., Bashore C., Nogales E., and Martin A. (2012) Complete subunit architecture of the proteasome regulatory particle. *Nature* 482, 186–191.
+85. Lander G. C., Martin A., and Nogales E. (2013) The proteasome under the microscope: the regulatory particle in focus. *Curr. Opin. Struct. Biol.* 23, 243–251.
+86. Schweitzer A., Aufderheide A., Rudack T., Beck F., Pfeifer G., Plitzko J. M., Sakata E., Schulten K., Förster F., and Baumeister W. (2016) Structure of the human 26S proteasome at a resolution of 3.9 Å. *Proc. Natl. Acad. Sci. U.S.A.* 113, 7816–7821.
+87. Dougan D. A., Reid B. G., Horwich A. L., and Bukau B. (2002) ClpS, a substrate modulator of the ClpAP machine. *Mol. Cell* 9, 673–683.
+88. Flynn J. M., Neher S. B., Kim Y.-I., Sauer R. T., and Baker T. A. (2003) Proteomic discovery of cellular substrates of the ClpXP protease reveals five classes of ClpX-recognition signals. *Mol. Cell* 11, 671–683.
+89. Asher G., Reuven N., and Shaul Y. (2006) 20S proteasomes and protein degradation "by default". *Bioessays* 28, 844–849.
+90. Li X., Amazit L., Long W., Lonard D. M., Monaco J. J., and O'Malley B. W. (2007) Ubiquitin- and ATP-independent proteolytic turnover of p21 by the REGγ-proteasome pathway. *Mol. Cell* 26, 831–842.
+91. Murakami Y., Matsufuji S., Hayashi S., Tanahashi N., and Tanaka K. (1999) Degradation of ornithine decarboxylase by the 26S proteasome. *Biochem. Biophys. Res. Commun.* 267, 1–6.
+92. Verma R., Aravind L., Oania R., McDonald W. H., Yates J. R., 3rd, Koonin E. V., and Deshaies R. J. (2002) Role of Rpn11 metalloprotease in deubiquitination and degradation by the 26S proteasome. *Science* 298, 611–615.
+93. Fishbain S., Inobe T., Israeli E., Chavali S., Yu H., Kago G., Babu M. M., and Matouschek A. (2015) Sequence composition of disordered regions fine-tunes protein half-life. *Nat. Struct. Mol. Biol.* 22, 214–221.
+94. Inobe T., and Matouschek A. (2014) Paradigms of protein degradation by the proteasome. *Curr. Opin. Struct. Biol.* 24, 156–164.
+95. Prasad R., De Wergifosse P., Goffeau A., and Balzi E. (1995) Molecular cloning and characterization of a novel gene of Candida albicans, CDR1, conferring multiple resistance to drugs and antifungals. *Curr. Genet.* 27, 320–329.
+96. Matsuyama A., Arai R., Yashiroda Y., Shirai A., Kamata A., Sekido S., Kobayashi Y., Hashimoto A., Hamamoto M., Hiraoka Y., Horinouchi S., and Yoshida M. (2006) ORFeome cloning and global analysis of protein localization in the fission yeast Schizosaccharomyces pombe. *Nat. Biotechnol.* 24, 841–847.
+97. Shaner N. C., Lin M. Z., McKeown M. R., Steinbach P. A., Hazelwood K. L., Davidson M. W., and Tsien R. Y. (2008) Improving the photostability of bright monomeric orange and red fluorescent proteins. *Nat. Methods* 5, 545–551.
+98. Jang S. K., Kräusslich H. G., Nicklin M. J., Duke G. M., Palmenberg A. C., and Wimmer E. (1988) A segment of the 5′ nontranslated region of encephalomyocarditis virus RNA directs internal entry of ribosomes during in vitro translation. *J. Virol.* 62, 2636–2643.
+99. Muñoz V., and Serrano L. (1994) Elucidating the folding problem of helical peptides using empirical parameters. *Nat. Struct. Biol.* 1, 399–409.
+100. Dosztányi Z., Csizmok V., Tompa P., and Simon I. (2005) IUPred: web server for the prediction of intrinsically unstructured regions of proteins based on estimated energy content. *Bioinformatics* 21, 3433–3434.
+101. Rice P., Longden I., and Bleasby A. (2000) EMBOSS: the European Molecular Biology Open Software Suite. *Trends Genet.* 16, 276–277.
+102. Wootton J. C., and Federhen S. (1993) Statistics of local complexity in amino acid sequences and sequence databases. *Comput. Chem.* 17, 149–163.
+103. Wootton J. C. (1994) Non-globular domains in protein sequences: automated segmentation using complexity measures. *Comput. Chem.* 18, 269–285.
+104. Larman H. B., Zhao Z., Laserson U., Li M. Z., Ciccia A., Gakidis M. A., Church G. M., Kesari S., Leproust E. M., Solimini N. L., and Elledge S. J. (2011) Autoantigen discovery with a synthetic human peptidome. *Nat. Biotechnol.* 29, 535–541.
+
+---
+
 *Archived from [PubMed Central (PMC4938175)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938175/) on 2025-07-19.*

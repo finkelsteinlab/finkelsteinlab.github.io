@@ -165,6 +165,83 @@ We thank J. Haber, R. Kolodner, R. Nairn, R. Rothstein, and X. Zhao for reagents
 Conceptualization: F.L., C.H., E.Y.S., J.A.S. and S.E.L.; investigation: J.H.S., C.H., X.L., C.K., F.L., R.E. and M.M.R.; resources: I.F.G., I.J.F. and P.H.; writing—review and editing: J.H.S., C.H., C.K., F.L., E.Y.S., J.A.S. and S.E.L.
 #
 
+##  References
+
+1. Wang LC, Gautier J. The Fanconi anemia pathway and ICL repair: implications for cancer therapy. Crit. Rev. Biochem. Mol. Biol. 2010;45:424–439.
+2. Deans AJ, West SC. DNA interstrand crosslink repair and cancer. Nat. Rev. Cancer. 2011;11:467–480.
+3. Sengerova B, Wang AT, McHugh PJ. Orchestrating the nucleases involved in DNA interstrand cross-link (ICL) repair. Cell Cycle (Georget., Tex.) 2011;10:3999–4008.
+4. Wang X, et al. Involvement of nucleotide excision repair in a recombination-independent and error-prone pathway of DNA interstrand cross-link repair. Mol. Cell. Biol. 2001;21:713–720.
+5. Sarkar S, Davies AA, Ulrich HD, McHugh PJ. DNA interstrand crosslink repair during G1 involves nucleotide excision repair and DNA polymerase zeta. EMBO J. 2006;25:1285–1294.
+6. Muniandy PA, Thapa D, Thazhathveetil AK, Liu ST, Seidman MM. Repair of laser-localized DNA interstrand cross-links in G1 phase mammalian cells. J. Biol. Chem. 2009;284:27908–27917.
+7. Williams HL, Gottesman ME, Gautier J. Replication-independent repair of DNA interstrand crosslinks. Mol. Cell. 2012;47:140–147.
+8. Grossmann KF, Ward AM, Matkovic ME, Folias AE, Moses RE. S. cerevisiae has three pathways for DNA interstrand crosslink repair. Mutat. Res. 2001;487:73–83.
+9. Moldovan GL, D'Andrea AD. How the Fanconi anemia pathway guards the genome. Annu. Rev. Genet. 2009;43:223–249.
+10. Duxin JP, Walter JC. What is the DNA repair defect underlying Fanconi anemia? Curr. Opin. Cell Biol. 2015;37:49–60.
+11. Yan Z, et al. A histone-fold complex and FANCM form a conserved DNA-remodeling complex to maintain genome stability. Mol. Cell. 2010;37:865–878.
+12. Fricke WM, Brill SJ. Slx1-Slx4 is a second structure-specific endonuclease functionally redundant with Sgs1-Top3. Genes Dev. 2003;17:1768–1778.
+13. Daee DL, Myung K. Fanconi-like crosslink repair in yeast. Genome Integr. 2012;3:7.
+14. van Vuuren AJ, et al. Evidence for a repair enzyme complex involving ERCC1 and complementing activities of ERCC4, ERCC11 and xeroderma pigmentosum group F. EMBO J. 1993;12:3693–3701.
+15. Aboussekhra A, et al. Mammalian DNA nucleotide excision repair reconstituted with purified protein components. Cell. 1995;80:859–868.
+16. Sijbers AM, et al. Xeroderma pigmentosum group F caused by a defect in a structure-specific DNA repair endonuclease. Cell. 1996;86:811–822.
+17. Woodrick J, et al. A new sub-pathway of long-patch base excision repair involving 5' gap formation. EMBO J. 2017;36:1605–1622.
+18. Schiestl RH, Prakash S. RAD1, an excision repair gene of Saccharomyces cerevisiae, is also involved in recombination. Mol. Cell Biol. 1988;8:3619–3626.
+19. Davies AA, Friedberg EC, Tomkinson AE, Wood RD, West SC. Role of the Rad1 and Rad10 proteins in nucleotide excision repair and recombination. J. Biol. Chem. 1995;270:24638–24641.
+20. Guillet M, Boiteux S. Endogenous DNA abasic sites cause cell death in the absence of Apn1, Apn2 and Rad1/Rad10 in Saccharomyces cerevisiae. EMBO J. 2002;21:2833–2841.
+21. Karumbati AS, et al. The role of yeast DNA 3'-phosphatase Tpp1 and rad1/Rad10 endonuclease in processing spontaneous and induced base lesions. J. Biol. Chem. 2003;278:31434–31443.
+22. Li L, Elledge SJ, Peterson CA, Bales ES, Legerski RJ. Specific association between the human DNA repair proteins XPA and ERCC1. Proc. Natl Acad. Sci. USA. 1994;91:5012–5016.
+23. Klein Douwel D, et al. XPF-ERCC1 acts in unhooking DNA interstrand crosslinks in cooperation with FANCD2 and FANCP/SLX4. Mol. Cell. 2014;54:460–471.
+24. Hodskinson MR, et al. Mouse SLX4 is a tumor suppressor that stimulates the activity of the nuclease XPF-ERCC1 in DNA crosslink repair. Mol. Cell. 2014;54:472–484.
+25. Guzder SN, Sommers CH, Prakash L, Prakash S. Complex formation with damage recognition protein Rad14 is essential for Saccharomyces cerevisiae Rad1-Rad10 nuclease to perform its function in nucleotide excision repair in vivo. Mol. Cell Biol. 2006;26:1135–1141.
+26. Guzder SN, et al. Requirement of yeast Rad1-Rad10 nuclease for the removal of 3'-blocked termini from DNA strand breaks induced by reactive oxygen species. Genes Dev. 2004;18:2283–2291.
+27. Prakash S, Prakash L. Nucleotide excision repair in yeast. Mutat. Res. 2000;451:13–24.
+28. Li F, et al. Role of Saw1 in Rad1/Rad10 complex assembly at recombination intermediates in budding yeast. EMBO J. 2013;32:461–472.
+29. De Silva IU, McHugh PJ, Clingen PH, Hartley JA. Defining the roles of nucleotide excision repair and recombination in the repair of DNA interstrand cross-links in mammalian cells. Mol. Cell Biol. 2000;20:7980–7990.
+30. Su Y, Orelli B, Madireddy A, Niedernhofer LJ, Scharer OD. Multiple DNA binding domains mediate the function of the ERCC1-XPF protein in nucleotide excision repair. J. Biol. Chem. 2012;287:21846–21855.
+31. Orelli B, et al. The XPA-binding domain of ERCC1 is required for nucleotide excision repair but not other DNA repair pathways. J. Biol. Chem. 2010;285:3705–3712.
+32. Niedernhofer LJ, et al. The structure-specific endonuclease Ercc1-Xpf is required for targeted gene correction. Hum. Mol. Genet. 2004;13:2629–2638.
+33. Kashiyama K, et al. Tan syndrome: Concealing a spliced XPF mutation through a complex genomic rearrangement. J. Hum. Genet. 2013;58:259–265.
+34. Long DT, Räschle M, Joukov V, Walter JC. Mechanism of RAD51-dependent DNA interstrand crosslink repair. Science. 2011;333:305–309.
+35. Yamachika T, et al. A role for the nucleotide excision repair factor XPF in the processing of DNA interstrand cross-links in mammalian cells. Biochemistry. 2005;44:11070–11080.
+36. Li F, et al. Structural and functional insights into the role of Saw1 in mediating Rad1-Rad10-catalyzed 3' flap removal. Nucleic Acids Res. 2013;41:3534–3545.
+37. Andreassen PR, D'Andrea AD, Taniguchi T. ATR couples FANCD2 monoubiquitination and the DNA damage response. Genes Dev. 2004;18:1958–1963.
+38. Niedernhofer LJ, et al. Mouse deficient in the DNA repair gene XPA. Mutat. Res. 2004;554:239–250.
+39. Shen X, et al. Characterization of RNA ligase and kinase activity of recombinant vaccinia virus capping enzyme. J. Virol. 1998;72:6907–6912.
+40. Andersen SL, et al. Interaction of Fanconi anemia protein FANCD2 with BRCA1-associated RING domain proteins. Genes Dev. 2004;18:2992–3002.
+41. Svendsen JM, et al. Mammalian BTBD12/SLX4 assembles a Holliday junction resolvase and is required for DNA repair. Cell. 2009;138:63–77.
+42. Murina O, Frick LD, Müller Y, Seidel R, Schärer OD. The structure-specific nuclease SLX4 is required for telomere length maintenance. Nat. Struct. Mol. Biol. 2014;21:517–525.
+43. Garner E, Raj K. Protective mechanisms against atherosclerosis. Cardiovasc. Res. 2016;109:427–434.
+44. Fekairi S, et al. Human SLX4 is a scaffold for SLX1, XPF, MUS81, and EME1 nucleases: implications for ICL repair. J. Cell Biol. 2009;187:497–506.
+45. Wyatt HD, et al. Essential roles for Canadian SLX4 in genomic stability and telomere regulation. Cell Cycle. 2013;12:1739–1751.
+46. Pronk JC, et al. Localization of the Fanconi anemia complementation group A protein to discrete foci induced by DNA interstrand cross-links. Proc. Natl Acad. Sci. USA. 1992;89:9598–9602.
+47. Langelier MF, Zandarashvili L, Tzeng HT, Pascal JM. DNA damage modulates nucleosome dynamics and histone tail phosphorylation. Nat. Commun. 2018;9:5356.
+48. Constantinou A, et al. Network of human oxidative stress-responsive genes and characterization of oxidative stress-induced p53 expression. Eur. J. Biochem. 2000;267:1400–1408.
+49. Petermann E, Orta ML, Issaeva N, Schultz N, Helleday T. Hydroxyurea-stalled replication forks become progressively inactivated and require two different RAD51-mediated pathways for restart and repair. Mol. Cell. 2010;37:492–502.
+50. Lisby M, Barlow JH, Burgess RC, Rothstein R. Choreography of the DNA damage response: spatiotemporal relationships among checkpoint and repair proteins. Cell. 2004;118:699–713.
+51. Dronkert ML, Kanaar R. Repair of DNA interstrand cross-links. Mutat. Res. 2001;486:217–247.
+52. Desany BA, et al. Recovery from DNA replicational stress. Mol. Cell. Biol. 1998;18:6037–6046.
+53. Osborn AJ, Elledge SJ, Zou L. Checking on the fork: the DNA-damage checkpoint. Curr. Opin. Cell Biol. 2002;14:331–341.
+54. Fishman-Lobell J, Rudin N, Haber JE. Two alternative pathways of double-strand break repair that are kinetically separable and independently modulated. Mol. Cell. Biol. 1992;12:1292–1303.
+55. Ogawa T, Shinohara A, Nabetani A, Ikeya T, Yu X, Egelman EH, Ogawa H. RecA-like recombination proteins in eukaryotes: functions and structures of RAD51 proteins. J. Biol. Chem. 1993;268:3270–3278.
+56. Svendsen JM, Harper JW. Switching the Fanconi anemia pathway on and off. Genes Dev. 2010;24:1236–1241.
+57. Zou L, Elledge SJ. Sensing DNA damage through ATRIP and ATR. Science. 2003;300:1542–1548.
+58. Schärer OD. XPG: its role in DNA repair and its application in biotechnology. Chembiochem. 2008;9:399–407.
+59. Fousteri M, Vermeulen W, van Zeeland AA, Mullenders LH. Transcription-coupled nucleotide excision repair in mammalian cells: molecular mechanisms and biological effects. Cell Res. 2006;16:859–869.
+60. Sung P. Yeast Rad55 and Rad57 proteins form a heterodimer that functions with replication protein A to promote DNA strand exchange by Rad51 recombinase. Genes Dev. 1997;11:1111–1121.
+61. Boddy MN, et al. Mus81-Eme1 are essential components of a Holliday junction resolvase. Cell. 2001;107:537–548.
+62. Ciccia A, Constantinou A, West SC. Identification and characterization of the structure-selective nuclease MUS81-EME1. J. Biol. Chem. 2003;278:25172–25178.
+63. Pepe A, West SC. MUS81-EME2 promotes flap processing and Holliday junction resolution in a structure-selective manner. J. Biol. Chem. 2014;289:5555–5570.
+64. Constantinou A, et al. Functional role of the N-terminal tandem BRCA1 RING domain in ubiquitin conjugation and its comparison with a C-terminal RING variant. J. Biol. Chem. 2002;277:21537–21544.
+65. Kratz K, et al. Deficiency of nucleotide excision repair factor XPA causes xeroderma pigmentosum with neurological complications. J. Clin. Invest. 2002;110:483–489.
+66. Jeffrey PD, et al. The crystal structure of the box-H/ACA snoRNP core. Mol. Cell. 2003;12:1287–1298.
+67. Niedernhofer LJ, et al. Accumulation of damaged proteins in aging and age-related diseases. J. Gerontol. A Biol. Sci. Med. Sci. 2008;63:364–375.
+68. Helleday T, Lo J, Petermann E, Caldecott KW. DNA repair pathways as targets for cancer therapy. Nat. Rev. Cancer. 2008;8:193–204.
+69. McHugh PJ, Gill RD, Waters R, Hartley JA. Excision repair of DNA interstrand cross-links in mammalian cells. Biochemistry. 1999;38:8006–8018.
+70. Huang RP, et al. Proteomic profiling of human plasma by antibody arrays and mass spectrometry. J. Proteome Res. 2005;4:2070–2079.
+71. Rothstein R, et al. Interaction of exoribonucleases and RAD51 independent homologous recombination. Mol. Cell. Biol. 2007;27:4133–4144.
+72. Sugawara N, et al. Role of Saccharomyces cerevisiae nucleotide excision repair gene RAD1 and its human homolog in interstrand cross-link repair. Mol. Cell. Biol. 1996;16:4521–4529.
+73. Heyer WD, et al. Regulation of homologous recombination in eukaryotes. Annu. Rev. Genet. 2010;44:113–139.
+74. Bessler JB, et al. Abrogation of the Fanconi anemia signaling pathway results in increased chromosome instability and spontaneous myelodysplasia. Blood. 2012;119:5650–5660.
+
 ---
 
 *Archived from [PubMed Central (PMC5966407)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5966407/) on 2025-07-19.*

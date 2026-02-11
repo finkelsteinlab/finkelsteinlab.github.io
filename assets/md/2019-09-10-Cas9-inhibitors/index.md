@@ -250,6 +250,88 @@ Sequencing data is available on NCBI BioProject under accession number PRJNA5269
 The following dataset was generated:
 Forsberg KJ, Bhatt IV, Schmidtke DT, Javanmardi K, Dillard KE, Stoddard BL, Finkelstein IJ, Kaiser BK, Malik HS. 2019. Functional Metagenomic Selection Reveals Potent Cas9 Inhibitors in Human Oral and Fecal Metagenomes. NCBI BioProject. PRJNA526924
 
+## References
+
+1. Barrangou R, Fremaux C, Deveau H, Richards M, Boyaval P, Moineau S, Romero DA, Horvath P (2007) CRISPR provides acquired resistance against viruses in prokaryotes. Science 315:1709–1712.
+2. Basgall EM, Goetting SC, Goeckel ME, Giersch RM, Roggenkamp E, Schrock MN, Halloran M, Finnigan GC (2018) Gene drive inhibition by the anti-CRISPR proteins AcrIIA2 and AcrIIA4 in Saccharomyces cerevisiae. Microbiology 164:464–474.
+3. Bateman A, Birney E, Durbin R, Eddy SR, Howe KL, Sonnhammer EL (2000) The pfam protein families database. Nucleic Acids Research 28:263–266.
+4. Bondy-Denomy J, Pawluk A, Maxwell KL, Davidson AR (2013) Bacteriophage genes that inactivate the CRISPR/Cas bacterial immune system. Nature 493:429–432.
+5. Bondy-Denomy J, Garcia B, Strum S, Du M, Rollins MF, Hidalgo-Reyes Y, Wiedenheft B, Maxwell KL, Davidson AR (2015) Multiple mechanisms for CRISPR-Cas inhibition by anti-CRISPR proteins. Nature 526:136–139.
+6. Bondy-Denomy J, Davidson AR, Doudna JA, Fineran PC, Maxwell KL, Moineau S, Peng X, Sontheimer EJ, Wiedenheft B (2018) A Unified Resource for Tracking Anti-CRISPR Names. The CRISPR Journal 1:304–305.
+7. Borges AL, Davidson AR, Bondy-Denomy J (2017) The discovery, mechanisms, and evolutionary impact of Anti-CRISPRs. Annual Review of Virology 4:37–59.
+8. Bubeck F, Hoffmann MD, Harteveld Z, Aschenbrenner S, Bietz A, Waldhauer MC, Börner K, Fakhiri J, Schmelas C, Dietz L, Grimm D, Correia BE, Eils R, Niopek D (2018) Engineered anti-CRISPR proteins for optogenetic control of CRISPR-Cas9. Nature Methods 15:924–927.
+9. Burstein D, Sun CL, Brown CT, Sharon I, Anantharaman K, Probst AJ, Thomas BC, Banfield JF (2016) Major bacterial lineages are essentially devoid of CRISPR-Cas viral defence systems. Nature Communications 7:10613.
+10. Chylinski K, Makarova KS, Charpentier E, Koonin EV (2014) Classification and evolution of type II CRISPR-Cas systems. Nucleic Acids Research 42:6091–6105.
+11. Clemente JC, Pehrsson EC, Blaser MJ, Sandhu K, Gao Z, Wang B, Magris M, Hidalgo G, Contreras M, Noya-Alarcón Ó, Lander O, McDonald J, Cox M, Walter J, Oh PL, Ruiz JF, Rodriguez S, Shen N, Song SJ, Metcalf J, Knight R, Dantas G, Dominguez-Bello MG (2015) The microbiome of uncontacted amerindians. Science Advances 1:e1500183.
+12. Crawley AB, Henriksen JR, Barrangou R (2018) CRISPRdisco: an automated pipeline for the discovery and analysis of CRISPR-Cas systems. The CRISPR Journal 1:171–181.
+13. de la Bastide M, McCombie WR (2007) Assembling genomic DNA sequences with PHRAP. Current Protocols in Bioinformatics 17:11.4.1–11.411.
+14. Dong D, Guo M, Wang S, Zhu Y, Wang S, Xiong Z, Yang J, Xu Z, Huang Z (2017) Structural basis of CRISPR-SpyCas9 inhibition by an anti-CRISPR protein. Nature 546:436–439.
+15. Esvelt KM, Mali P, Braff JL, Moosburner M, Yaung SJ, Church GM (2013) Orthogonal Cas9 proteins for RNA-guided gene regulation and editing. Nature Methods 10:1116–1121.
+16. Faure G, Makarova KS, Koonin EV (2019) CRISPR-Cas: complex functional networks and multiple roles beyond adaptive immunity. Journal of Molecular Biology 431:3–20.
+17. Finn RD, Clements J, Eddy SR (2011) HMMER web server: interactive sequence similarity searching. Nucleic Acids Research 39:W29–W37.
+18. Forsberg KJ, Reyes A, Wang B, Selleck EM, Sommer MO, Dantas G (2012) The shared antibiotic resistome of soil Bacteria and human pathogens. Science 337:1107–1111.
+19. Forsberg KJ, Patel S, Wencewicz TA, Dantas G (2015) The tetracycline destructases: a novel family of Tetracycline-Inactivating enzymes. Chemistry & Biology 22:888–897.
+20. Forsberg KJ, Patel S, Witt E, Wang B, Ellison TD, Dantas G (2016) Identification of genes conferring tolerance to Lignocellulose-Derived inhibitors by functional selections in soil metagenomes. Applied and Environmental Microbiology 82:528–537.
+21. Genee HJ, Bali AP, Petersen SD, Siedler S, Bonde MT, Gronenberg LS, Kristensen M, Harrison SJ, Sommer MO (2016) Functional mining of transporters using synthetic selections. Nature Chemical Biology 12:1015–1022.
+22. Haft DH, Loftus BJ, Richardson DL, Yang F, Eisen JA, Paulsen IT, White O (2001) TIGRFAMs: a protein family resource for the functional identification of proteins. Nucleic Acids Research 29:41–43.
+23. Handelsman J (2004) Metagenomics: application of genomics to uncultured microorganisms. Microbiology and Molecular Biology Reviews 68:669–685.
+24. Harrington LB, Doxzen KW, Ma E, Liu JJ, Knott GJ, Edraki A, Garcia B, Amrani N, Chen JS, Cofsky JC, Kranzusch PJ, Sontheimer EJ, Davidson AR, Maxwell KL, Doudna JA (2017) A Broad-Spectrum inhibitor of CRISPR-Cas9. Cell 170:1224–1233.
+25. Hatfull GF (2015) Dark matter of the biosphere: the amazing world of bacteriophage diversity. Journal of Virology 89:8107–8110.
+26. He F, Bhoobalan-Chitty Y, Van LB, Kjeldsen AL, Dedola M, Makarova KS, Koonin EV, Brodersen DE, Peng X (2018) Anti-CRISPR proteins encoded by archaeal lytic viruses inhibit subtype I-D immunity. Nature Microbiology 3:461–469.
+27. Hille F, Richter H, Wong SP, Bratovič M, Ressel S, Charpentier E (2018) The biology of CRISPR-Cas: backward and forward. Cell 172:1239–1259.
+28. Høyland-Kroghsbo NM, Paczkowski J, Mukherjee S, Broniewski J, Westra E, Bondy-Denomy J, Bassler BL (2017) Quorum sensing controls the Pseudomonas aeruginosa CRISPR-Cas adaptive immune system. PNAS 114:131–135.
+29. Hynes AP, Rousseau GM, Lemay ML, Horvath P, Romero DA, Fremaux C, Moineau S (2017) An anti-CRISPR from a virulent streptococcal phage inhibits Streptococcus pyogenes Cas9. Nature Microbiology 2:1374–1380.
+30. Hynes AP, Rousseau GM, Agudelo D, Goulet A, Amigues B, Loehr J, Romero DA, Fremaux C, Horvath P, Doyon Y, Cambillau C, Moineau S (2018) Widespread anti-CRISPR proteins in virulent bacteriophages inhibit a range of Cas9 proteins. Nature Communications 9:2919.
+31. Iqbal HA, Craig JW, Brady SF (2014) Antibacterial enzymes from the functional screening of metagenomic libraries hosted in Ralstonia metallidurans. FEMS Microbiology Letters 354:19–26.
+32. Jiang F, Liu JJ, Osuna BA, Xu M, Berry JD, Rauch BJ, Nogales E, Bondy-Denomy J, Doudna JA (2019) Temperature-Responsive competitive inhibition of CRISPR-Cas9. Molecular Cell 73:601–610.
+33. Ka D, An SY, Suh JY, Bae E (2018) Crystal structure of an anti-CRISPR protein, AcrIIA1. Nucleic Acids Research 46:485–492.
+34. Knott GJ, Doudna JA (2018) CRISPR-Cas guides the future of genetic engineering. Science 361:866–869.
+35. Koonin EV, Makarova KS (2017) Mobile genetic elements and evolution of CRISPR-Cas systems: all the way there and back. Genome Biology and Evolution 9:2812–2825.
+36. Lee SA, Gallagher LA, Thongdee M, Staudinger BJ, Lippman S, Singh PK, Manoil C (2015) General and condition-specific essential functions of Pseudomonas aeruginosa. PNAS 112:5189–5194.
+37. Lee J, Mir A, Edraki A, Garcia B, Amrani N, Lou HE, Gainetdinov I, Pawluk A, Ibraheim R, Gao XD, Liu P, Davidson AR, Maxwell KL, Sontheimer EJ (2018) Potent Cas9 inhibition in bacterial and human cells by AcrIIC4 and AcrIIC5 Anti-CRISPR proteins. mBio 9:e02321-18.
+38. Li W, Godzik A (2006) Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics 22:1658–1659.
+39. Liu L, Yin M, Wang M, Wang Y (2019) Phage AcrIIA2 DNA mimicry: structural basis of the CRISPR and Anti-CRISPR arms race. Molecular Cell 73:611–620.
+40. Lutz R, Bujard H (1997) Independent and tight regulation of transcriptional units in Escherichia coli via the LacR/O, the TetR/O and AraC/I1-I2 regulatory elements. Nucleic Acids Research 25:1203–1210.
+41. Makarova KS, Wolf YI, Alkhnbashi OS, Costa F, Shah SA, Saunders SJ, Barrangou R, Brouns SJ, Charpentier E, Haft DH, Horvath P, Moineau S, Mojica FJ, Terns RM, Terns MP, White MF, Yakunin AF, Garrett RA, van der Oost J, Backofen R, Koonin EV (2015) An updated evolutionary classification of CRISPR-Cas systems. Nature Reviews Microbiology 13:722–736.
+42. Makarova KS, Wolf YI, Koonin EV (2018) Classification and nomenclature of CRISPR-Cas systems: where from here?. The CRISPR Journal 1:325–336.
+43. Marino ND, Zhang JY, Borges AL, Sousa AA, Leon LM, Rauch BJ, Walton RT, Berry JD, Joung JK, Kleinstiver BP, Bondy-Denomy J (2018) Discovery of widespread type I and type V CRISPR-Cas inhibitors. Science 362:240–242.
+44. Marraffini LA, Sontheimer EJ (2008) CRISPR interference limits horizontal gene transfer in staphylococci by targeting DNA. Science 322:1843–1845.
+45. Marshall R, Maxwell CS, Collins SP, Jacobsen T, Luo ML, Begemann MB, Gray BN, January E, Singer A, He Y, Beisel CL, Noireaux V (2018) Rapid and scalable characterization of CRISPR technologies using an E. coli Cell-Free Transcription-Translation System. Molecular Cell 69:146–157.
+46. Mendler K, Chen H, Parks DH, Hug LA, Doxey AC (2018) AnnoTree: visualization and exploration of a functionally annotated microbial tree of life. bioRxiv.
+47. Nakamura M, Srinivasan P, Chavez M, Carter MA, Dominguez AA, La Russa M, Lau MB, Abbott TR, Xu X, Zhao D, Gao Y, Kipniss NH, Smolke CD, Bondy-Denomy J, Qi LS (2019) Anti-CRISPR-mediated control of gene editing and synthetic circuits in eukaryotic cells. Nature Communications 10:194.
+48. (2015) Making your own electrocompetent cells. protocols.io.
+49. Paez-Espino D, Chen IA, Palaniappan K, Ratner A, Chu K, Szeto E, Pillay M, Huang J, Markowitz VM, Nielsen T, Huntemann M, K Reddy TB, Pavlopoulos GA, Sullivan MB, Campbell BJ, Chen F, McMahon K, Hallam SJ, Denef V, Cavicchioli R, Caffrey SM, Streit WR, Webster J, Handley KM, Salekdeh GH, Tsesmetzis N, Setubal JC, Pope PB, Liu WT, Rivers AR, Ivanova NN, Kyrpides NC (2017) IMG/VR: a database of cultured and uncultured DNA viruses and retroviruses. Nucleic Acids Research 45:D457–D465.
+50. Parks DH, Chuvochina M, Waite DW, Rinke C, Skarshewski A, Chaumeil PA, Hugenholtz P (2018) A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life. Nature Biotechnology 36:996–1004.
+51. Pawluk A, Bondy-Denomy J, Cheung VH, Maxwell KL, Davidson AR (2014) A new group of phage anti-CRISPR genes inhibits the type I-E CRISPR-Cas system of Pseudomonas aeruginosa. mBio 5:e00896.
+52. Pawluk A, Amrani N, Zhang Y, Garcia B, Hidalgo-Reyes Y, Lee J, Edraki A, Shah M, Sontheimer EJ, Maxwell KL, Davidson AR (2016a) Naturally occurring Off-Switches for CRISPR-Cas9. Cell 167:1829–1838.
+53. Pawluk A, Staals RH, Taylor C, Watson BN, Saha S, Fineran PC, Maxwell KL, Davidson AR (2016b) Inactivation of CRISPR-Cas systems by anti-CRISPR proteins in diverse bacterial species. Nature Microbiology 1:16085.
+54. Pawluk A, Davidson AR, Maxwell KL (2017a) Anti-CRISPR: discovery, mechanism and function. Nature Reviews Microbiology 16:12–17.
+55. Pawluk A, Shah M, Mejdani M, Calmettes C, Moraes TF, Davidson AR, Maxwell KL (2017b) Disabling a type I-E CRISPR-Cas nuclease with a Bacteriophage-Encoded Anti-CRISPR protein. mBio 8:e01751-17.
+56. Pehrsson EC, Tsukayama P, Patel S, Mejía-Bautista M, Sosa-Soto G, Navarrete KM, Calderon M, Cabrera L, Hoyos-Arango W, Bertoli MT, Berg DE, Gilman RH, Dantas G (2016) Interconnected microbiomes and resistomes in low-income human habitats. Nature 533:212–216.
+57. Pursey E, Sünderhauf D, Gaze WH, Westra ER, van Houte S (2018) CRISPR-Cas antimicrobials: challenges and future prospects. PLOS Pathogens 14:e1006990.
+58. Rauch BJ, Silvis MR, Hultquist JF, Waters CS, McGregor MJ, Krogan NJ, Bondy-Denomy J (2017) Inhibition of CRISPR-Cas9 with bacteriophage proteins. Cell 168:150–158.
+59. Rollins MF, Chowdhury S, Carter J, Golden SM, Miettinen HM, Santiago-Frangos A, Faith D, Lawrence CM, Lander GC, Wiedenheft B (2018) Structure reveals mechanism of CRISPR RNA-guided nuclease recruitment and anti-CRISPR viral mimicry. bioRxiv.
+60. Roux S, Enault F, Hurwitz BL, Sullivan MB (2015) VirSorter: mining viral signal from microbial genomic data. PeerJ 3:e985.
+61. Sheth RU, Cabral V, Chen SP, Wang HH (2016) Manipulating bacterial communities by in situ microbiome engineering. Trends in Genetics 32:189–200.
+62. Shin J, Jiang F, Liu JJ, Bray NL, Rauch BJ, Baik SH, Nogales E, Bondy-Denomy J, Corn JE, Doudna JA (2017) Disabling Cas9 by an anti-CRISPR DNA mimic. Science Advances 3:e1701620.
+63. Sontheimer EJ, Davidson AR (2017) Inhibition of CRISPR-Cas systems by mobile genetic elements. Current Opinion in Microbiology 37:120–127.
+64. Stanley SY, Maxwell KL (2018) Phage-Encoded Anti-CRISPR defenses. Annual Review of Genetics 52:445–464.
+65. Stone NP, Hilbert BJ, Hidalgo D, Halloran KT, Lee J, Sontheimer EJ, Kelch BA (2018) A hyperthermophilic phage decoration protein suggests common evolutionary origin with herpesvirus triplex proteins and an Anti-CRISPR protein. Structure 26:936–947.
+66. Stringer BW, Day BW, D'Souza RCJ, Jamieson PR, Ensbey KS, Bruce ZC, Lim YC, Goasdoué K, Offenhäuser C, Akgül S, Allan S, Robertson T, Lucas P, Tollesson G, Campbell S, Winter C, Do H, Dobrovic A, Inglis PL, Jeffree RL, Johns TG, Boyd AW (2019) A reference collection of patient-derived cell line and xenograft models of proneural, classical and mesenchymal glioblastoma. Scientific Reports 9:4902.
+67. Thomas AM, Manghi P, Asnicar F, Pasolli E, Armanini F, Zolfo M, Beghini F, Manara S, Karcher N, Pozzi C, Gandini S, Serrano D, Tarallo S, Francavilla A, Gallo G, Trompetto M, Ferrero G, Mizutani S, Shiroma H, Shiba S, Shibata T, Yachida S, Yamada T, Wirbel J, Schrotz-King P, Ulrich CM, Brenner H, Arumugam M, Bork P, Zeller G, Cordero F, Dias-Neto E, Setubal JC, Tett A, Pardini B, Rescigno M, Waldron L, Naccarati A, Segata N (2019) Metagenomic analysis of colorectal Cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation. Nature Medicine 25:667–678.
+68. Trasanidou D, Gerós AS, Mohanraju P, Nieuwenweg AC, Nobrega FL, Staals RHJ (2019) Keeping crispr in check: diverse mechanisms of phage-encoded anti-crisprs. FEMS Microbiology Letters 366:fnz098.
+69. Uribe RV, van der Helm E, Misiakou MA, Lee SW, Kol S, Sommer MOA (2019) Discovery and characterization of Cas9 inhibitors disseminated across seven bacterial phyla. Cell Host & Microbe 25:233–241.
+70. van Belkum A, Soriaga LB, LaFave MC, Akella S, Veyrieras JB, Barbu EM, Shortridge D, Blanc B, Hannum G, Zambardi G, Miller K, Enright MC, Mugnier N, Brami D, Schicklin S, Felderman M, Schwartz AS, Richardson TH, Peterson TC, Hubby B, Cady KC (2015) Phylogenetic distribution of CRISPR-Cas systems in Antibiotic-Resistant Pseudomonas aeruginosa. mBio 6:e01796-15.
+71. Wang Y, Liu KI, Sutrisnoh NB, Srinivasan H, Zhang J, Li J, Zhang F, Lalith CRJ, Xing H, Shanmugam R, Foo JN, Yeo HT, Ooi KH, Bleckwehl T, Par YYR, Lee SM, Ismail NNB, Sanwari NAB, Lee STV, Lew J, Tan MH (2018) Systematic evaluation of CRISPR-Cas systems reveals design principles for genome editing in human cells. Genome Biology 19:62.
+72. Watters KE, Fellmann C, Bai HB, Ren SM, Doudna JA (2018) Systematic discovery of natural CRISPR-Cas12a inhibitors. Science 362:236–239.
+73. Westra ER, Dowling AJ, Broniewski JM, van Houte S (2016) Evolution and ecology of CRISPR. Annual Review of Ecology, Evolution, and Systematics 47:307–331.
+74. Xie YH, Gao QY, Cai GX, Sun X-M, Sun XM, Zou TH, Chen HM, Yu SY, Qiu YW, Gu WQ, Chen XY, Cui Y, Sun D, Liu ZJ, Cai SJ, Xu J, Chen YX, Fang JY (2017) Fecal Clostridium symbiosum for noninvasive detection of early and advanced colorectal Cancer: test and validation studies. EBioMedicine 25:32–40.
+75. Yang H, Patel DJ (2017) Inhibition mechanism of an Anti-CRISPR suppressor AcrIIA4 targeting SpyCas9. Molecular Cell 67:117–127.
+76. Zerbino DR, Birney E (2008) Velvet: algorithms for de novo short read assembly using de bruijn graphs. Genome Research 18:821–829.
+77. Zhang Q, Rho M, Tang H, Doak TG, Ye Y (2013) CRISPR-Cas systems target a diverse collection of invasive mobile genetic elements in human microbiomes. Genome Biology 14:R40.
+78. Zhu W, Lomsadze A, Borodovsky M (2010) Ab initio gene identification in metagenomic sequences. Nucleic Acids Research 38:e132.
+79. Zucca S, Pasotti L, Politi N, Casanova M, Mazzini G, Cusella De Angelis MG, Magni P (2015) Multi-Faceted characterization of a novel LuxR-Repressible promoter library for Escherichia coli. PLOS ONE 10:e0126264.
+
 ---
 
 *Archived from [PubMed Central (PMC6739867)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6739867/) on 2025-07-19.*

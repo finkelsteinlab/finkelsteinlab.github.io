@@ -104,4 +104,102 @@ This research was supported in part by the Welch Foundation (F-l808) and by the 
 
 ---
 
+## References
+
+1. Hamdan SM, Loparo JJ, Takahashi M, Richardson CC, van Oijen AM. Dynamics of DNA replication loops reveal temporal control of lagging-strand synthesis. Nature. 2008;457:336–339. doi: 10.1038/nature07512.
+2. Yardimci H, Wang X, Loveland AB, Tappin I, Rudner DZ, Hurwitz J, van Oijen AM, Walter JC. Bypass of a protein barrier by a replicative DNA helicase. Nature. 2012;492:205–209. doi: 10.1038/nature11730.
+3. Yao NY, Georgescu RE, Finkelstein J, O'Donnell ME. Single-molecule analysis reveals that the lagging strand increases replisome processivity but slows replication fork progression. Proc. Natl. Acad. Sci. 2009;106:13236–13241. doi: 10.1073/pnas.0906157106.
+4. Galburt EA, Grill SW, Bustamante C. Single molecule transcription elongation. Methods. 2009;48:323–332. doi: 10.1016/j.ymeth.2009.04.021.
+5. Wang F, Greene EC. Single-Molecule Studies of Transcription: From One RNA Polymerase at a Time to the Gene Expression Profile of a Cell. J. Mol. Biol. 2011;412:814–831. doi: 10.1016/j.jmb.2011.01.024.
+6. Larson MH, Landick R, Block SM. Single-Molecule Studies of RNA Polymerase: One Singular Sensation, Every Little Step It Takes. Mol. Cell. 2011;41:249–262. doi: 10.1016/j.molcel.2011.01.008.
+7. Neumann H, Hancock SM, Buning R, Routh A, Chapman L, Somers J, Owen-Hughes T, van Noort J, Rhodes D, Chin JW. A Method for Genetically Installing Site-Specific Acetylation in Recombinant Histones Defines the Effects of H3 K56 Acetylation. Mol. Cell. 2009;36:153–163. doi: 10.1016/j.molcel.2009.07.027.
+8. Finkelstein IJ, Greene EC. Single molecule studies of homologous recombination. Mol. Biosyst. 2008;4:1094. doi: 10.1039/b811681b.
+9. Kad NM, Wang H, Kennedy GG, Warshaw DM, Van Houten B. Collaborative Dynamic DNA Scanning by Nucleotide Excision Repair Proteins Investigated by Single-Molecule Imaging of Quantum-Dot-Labeled Proteins. Mol. Cell. 2010;37:702–713. doi: 10.1016/j.molcel.2010.02.003.
+10. Hoskins AA, Friedman LJ, Gallagher SS, Crawford DJ, Anderson EG, Wombacher R, Ramirez N, Cornish VW, Gelles J, Moore MJ. Ordered and Dynamic Assembly of Single Spliceosomes. Science. 2011;331:1289–1295. doi: 10.1126/science.1198830.
+11. Yardimci H, Loveland AB, van Oijen AM, Walter JC. Single-molecule analysis of DNA replication in Xenopus egg extracts. Methods. 2012;57:179–186. doi: 10.1016/j.ymeth.2012.03.033.
+12. Krishnan R, Blanco MR, Kahlscheuer ML, Abelson J, Guthrie C, Walter NG. Biased Brownian ratcheting leads to pre-mRNA remodeling and capture prior to first-step splicing. Nat. Struct. Mol. Biol. 2013;20:1450–1457. doi: 10.1038/nsmb.2704.
+13. Zhao ZW, Roy R, Gebhardt JCM, Suter DM, Chapman AR, Xie XS. Spatial organization of RNA polymerase II inside a mammalian cell nucleus revealed by reflected light-sheet superresolution microscopy. Proc. Natl. Acad. Sci. 2014;111:681–686. doi: 10.1073/pnas.1318496111.
+14. Doksani Y, Wu JY, de Lange T, Zhuang X. Super-Resolution Fluorescence Imaging of Telomeres Reveals TRF2-Dependent T-loop Formation. Cell. 2013;155:345–356. doi: 10.1016/j.cell.2013.09.048.
+15. Roy R, Hohng S, Ha T. A practical guide to single-molecule FRET. Nat. Methods. 2008;5:507–516. doi: 10.1038/nmeth.1208.
+16. Preus S, Wilhelmsson LM. Advances in quantitative FRET-based methods for studying nucleic acids. Chembiochem Eur. J. Chem. Biol. 2012;13:1990–2001. doi: 10.1002/cbic.201200400.
+17. Kim H, Ha T. Single-molecule nanometry for biological physics. Rep. Prog. Phys. 2013;76:016601. doi: 10.1088/0034-4885/76/1/016601.
+18. Hohng S, Lee S, Lee J, Jo MH. Maximizing information content of single-molecule FRET experiments: multi-color FRET and FRET combined with force or torque. Chem. Soc. Rev. 2014;43:1007. doi: 10.1039/c3cs60184f.
+19. Hohlbein J, Craggs TD, Cordes T. Alternating-laser excitation: single-molecule FRET and beyond. Chem. Soc. Rev. 2014;43:1156. doi: 10.1039/c3cs60233h.
+20. Plenat T, Tardin C, Rousseau P, Salome L. High-throughput single-molecule analysis of DNA-protein interactions by tethered particle motion. Nucleic Acids Res. 2012;40:e89. doi: 10.1093/nar/gks250.
+21. Wong OK, Guthold M, Erie DA, Gelles J. Interconvertible Lac Repressor–DNA Loops Revealed by Single-Molecule Experiments. PLoS Biol. 2008;6:e232. doi: 10.1371/journal.pbio.0060232.
+22. Dunlap D, Zurla C, Manzo C, Finzi L. Probing DNA topology using Tethered Particle Motion. Methods Mol. Biol. Clifton NJ. 2011;783. doi: 10.1007/978-1-61779-282-3_16.
+23. Schomburg I, Chang A, Placzek S, Sohngen C, Rother M, Lang M, Munaretto C, Ulas S, Stelzer M, Grote A, Scheer M, Schomburg D. BRENDA in 2013: integrated reactions, kinetic data, enzyme function data, improved disease classification: new options and contents in BRENDA. Nucleic Acids Res. 2013;41:D764–D772. doi: 10.1093/nar/gks1049.
+24. Van Oijen AM. Single-Molecule Kinetics of Exonuclease Reveal Base Dependence and Dynamic Disorder. Science. 2003;301:1235–1238. doi: 10.1126/science.1084387.
+25. Greene EC, Mizuuchi K. Direct Observation of Single MuB PolymersEvidence for a DNA-Dependent Conformational Change for Generating an Active Target Complex. Mol. Cell. 2002;9:1079–1089. doi: 10.1016/s1097-2765(02)00514-2.
+26. Granéli A, Yeykal CC, Prasad TK, Greene EC. Organized Arrays of Individual DNA Molecules Tethered to Supported Lipid Bilayers. Langmuir. 2006;22:292–299. doi: 10.1021/la051944a.
+27. Finkelstein IJ, Greene EC. Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. Methods Mol. Biol. Clifton NJ. 2011;745:447–461. doi: 10.1007/978-1-61779-129-1_26.
+28. Visnapuu M-L, Fazio T, Wind S, Greene EC. Parallel Arrays of Geometric Nanowells for Assembling Curtains of DNA with Controlled Lateral Dispersion. Langmuir. 2008;24:11293–11299. doi: 10.1021/la8017634.
+29. Gorman J, Fazio T, Wang F, Wind S, Greene EC. Nanofabricated Racks of Aligned and Anchored DNA Substrates for Single-Molecule Imaging. Langmuir. 2010;26:1372–1379. doi: 10.1021/la902443e.
+30. Gorman J, Wang F, Redding S, Plys AJ, Fazio T, Wind S, Alani EE, Greene EC. Single-molecule imaging reveals target-search mechanisms during DNA mismatch repair. Proc. Natl. Acad. Sci. 2012;109:E3074–E3083. doi: 10.1073/pnas.1211364109.
+31. Sternberg SH, Redding S, Jinek M, Greene EC, Doudna JA. DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. Nature. 2014;507:62–67. doi: 10.1038/nature13011.
+32. Finkelstein IJ, Greene EC. Molecular traffic jams on DNA. Annu. Rev. Biophys. 2013;42:241–263. doi: 10.1146/annurev-biophys-083012-130304.
+33. Gibb B, Silverstein TD, Finkelstein IJ, Greene EC. Single-Stranded DNA Curtains for Real-Time Single-Molecule Visualization of Protein–Nucleic Acid Interactions. Anal. Chem. 2012;84:7607–7612. doi: 10.1021/ac302117z.
+34. Gibb B, Ye LF, Gergoudis SC, Kwon Y, Niu H, Sung P, Greene EC. Concentration-Dependent Exchange of Replication Protein A on Single-Stranded DNA Revealed by Single-Molecule Imaging. PLoS ONE. 2014;9:e87922. doi: 10.1371/journal.pone.0087922.
+35. Deng SK, Gibb B, de Almeida MJ, Greene EC, Symington LS. RPA antagonizes microhomology-mediated repair of DNA double-strand breaks. Nat. Struct. Mol. Biol. 2014;21:405–412. doi: 10.1038/nsmb.2786.
+36. Duffy DC, McDonald JC, Schueller OJA, Whitesides GM. Rapid Prototyping of Microfluidic Systems in Poly(dimethylsiloxane). Anal. Chem. 1998;70:4974–4984. doi: 10.1021/ac980656z.
+37. Robison AD, Finkelstein IJ. Rapid Prototyping of Multichannel Microfluidic Devices for Single-Molecule DNA Curtain Imaging. Anal. Chem. 2014. doi: 10.1021/ac500267v.
+38. Finkelstein IJ, Visnapuu M-L, Greene EC. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468:983–987. doi: 10.1038/nature09561.
+39. Bianco PR, Brewer LR, Corzett M, Balhorn R, Yeh Y, Kowalczykowski SC, Baskin RJ. Processive translocation and DNA unwinding by individual RecBCD enzyme molecules. Nature. 2001;409:374–378. doi: 10.1038/35053131.
+40. Axelrod D. Chapter 9 Total Internal Reflection Fluorescence Microscopy. Methods in Cell Biology. 1989:245–270. doi: 10.1016/s0091-679x(08)60982-6.
+41. Benítez JJ, Keller AM, Ochieng P, Yatsunyk LA, Huffman DL, Rosenzweig AC, Chen P. Probing Transient Copper Chaperone–Wilson Disease Protein Interactions at the Single-Molecule Level with Nanovesicle Trapping. J. Am. Chem. Soc. 2008;130:2446–2447. doi: 10.1021/ja7107867.
+42. Ishitsuka Y, Okumus B, Arslan S, Chen KH, Ha T. Temperature-Independent Porous Nanocontainers for Single-Molecule Fluorescence Studies. Anal. Chem. 2010;82:9694–9701. doi: 10.1021/ac101714u.
+43. Cisse II, Kim H, Ha T. A rule of seven in Watson-Crick base-pairing of mismatched sequences. Nat. Struct. Mol. Biol. 2012;19:623–627. doi: 10.1038/nsmb.2294.
+44. Okumus B, Arslan S, Fengler SM, Myong S, Ha T. Single Molecule Nanocontainers Made Porous Using a Bacterial Toxin. J. Am. Chem. Soc. 2009;131:14844–14849. doi: 10.1021/ja9042356.
+45. Pirchi M, Ziv G, Riven I, Cohen SS, Zohar N, Barak Y, Haran G. Single-molecule fluorescence spectroscopy maps the folding landscape of a large protein. Nat. Commun. 2011;2:493. doi: 10.1038/ncomms1504.
+46. Tyagi S, VanDelinder V, Banterle N, Fuertes G, Milles S, Agez M, Lemke EA. Continuous throughput and long-term observation of single-molecule FRET without immobilization. Nat. Methods. 2014;11:297–300. doi: 10.1038/nmeth.2809.
+47. Leslie SR, Fields AP, Cohen AE. Convex Lens-Induced Confinement for Imaging Single Molecules. Anal. Chem. 2010;82:6224–6229. doi: 10.1021/ac101041s.
+48. Chen J, Dalal RV, Petrov AN, Tsai A, O'Leary SE, Chapin K, Cheng J, Ewan M, Hsiung P-L, Lundquist P, Turner SW, Hsu DR, Puglisi JD. High-throughput platform for real-time monitoring of biological processes by multicolor single-molecule fluorescence. Proc. Natl. Acad. Sci. 2013. doi: 10.1073/pnas.1315735111.
+49. Kinz-Thompson CD, Palma M, Pulukkunat DK, Chenet D, Hone J, Wind SJ, Gonzalez RL. Robustly Passivated, Gold Nanoaperture Arrays for Single-Molecule Fluorescence Microscopy. ACS Nano. 2013;7:8158–8166. doi: 10.1021/nn403447s.
+50. Elting MW, Leslie SR, Churchman LS, Korlach J, McFaul CMJ, Leith JS, Levene MJ, Cohen AE, Spudich JA. Single-molecule fluorescence imaging of processive myosin with enhanced background suppression using linear zero-mode waveguides (ZMWs) and convex lens induced confinement (CLIC). Opt. Express. 2013;21:1189–1202. doi: 10.1364/OE.21.001189.
+51. Acuna GP, Möller FM, Holzmeister P, Beater S, Lalkens B, Tinnefeld P. Fluorescence Enhancement at Docking Sites of DNA-Directed Self-Assembled Nanoantennas. Science. 2012;338:506–510. doi: 10.1126/science.1228638.
+52. Punj D, Mivelle M, Moparthi SB, van Zanten TS, Rigneault H, van Hulst NF, García-Parajó MF, Wenger J. A plasmonic 'antenna-in-box' platform for enhanced single-molecule analysis at micromolar concentrations. Nat. Nanotechnol. 2013;8:512–516. doi: 10.1038/nnano.2013.98.
+53. Holzmeister P, Acuna GP, Grohmann D, Tinnefeld P. Breaking the concentration limit of optical single-molecule detection. Chem. Soc. Rev. 2014;43:1014–1028. doi: 10.1039/c3cs60207a.
+54. Loveland AB, Habuchi S, Walter JC, van Oijen AM. A general approach to break the concentration barrier in single-molecule imaging. Nat. Methods. 2012;9:987–992. doi: 10.1038/nmeth.2174.
+55. Habuchi S, Tsutsui H, Kochaniak AB, Miyawaki A, van Oijen AM. mKikGR, a Monomeric Photoswitchable Fluorescent Protein. PLoS ONE. 2008;3:e3944. doi: 10.1371/journal.pone.0003944.
+56. Hoi H, Shaner NC, Davidson MW, Cairo CW, Wang J, Campbell RE. A Monomeric Photoconvertible Fluorescent Protein for Imaging of Dynamic Protein Localization. J. Mol. Biol. 2010;401:776–791. doi: 10.1016/j.jmb.2010.06.056.
+57. Fuchs J, Böhme S, Oswald F, Hedde PN, Krause M, Wiedenmann J, Nienhaus GU. A photoactivatable marker protein for pulse-chase imaging with superresolution. Nat. Methods. 2010;7:627–630. doi: 10.1038/nmeth.1477.
+58. Smith S, Finzi L, Bustamante C. Direct mechanical measurements of the elasticity of single DNA molecules by using magnetic beads. Science. 1992;258:1122–1126. doi: 10.1126/science.1439819.
+59. Strick TR, Allemand J-F, Bensimon D, Bensimon A, Croquette V. The Elasticity of a Single Supercoiled DNA Molecule. Science. 1996;271:1835–1837. doi: 10.1126/science.271.5257.1835.
+60. Wang MD, Yin H, Landick R, Gelles J, Block SM. Stretching DNA with optical tweezers. Biophys. J. 1997;72:1335–1346. doi: 10.1016/S0006-3495(97)78780-0.
+61. Liphardt J. Reversible Unfolding of Single RNA Molecules by Mechanical Force. Science. 2001;292:733–737. doi: 10.1126/science.1058498.
+62. Bockelmann U, Thomen P, Essevaz-Roulet B, Viasnoff V, Heslot F. Unzipping DNA with Optical Tweezers: High Sequence Sensitivity and Force Flips. Biophys. J. 2002;82:1537–1553. doi: 10.1016/S0006-3495(02)75506-9.
+63. Hall MA, Shundrovsky A, Bai L, Fulbright RM, Lis JT, Wang MD. High-resolution dynamic mapping of histone-DNA interactions in a nucleosome. Nat. Struct. Mol. Biol. 2009;16:124–129. doi: 10.1038/nsmb.1526.
+64. Koster DA, Croquette V, Dekker C, Shuman S, Dekker NH. Friction and torque govern the relaxation of DNA supercoils by eukaryotic topoisomerase IB. Nature. 2005;434:671–674. doi: 10.1038/nature03395.
+65. Halvorsen K, Wong WP. Massively Parallel Single-Molecule Manipulation Using Centrifugal Force. Biophys. J. 2010;98:L53–L55. doi: 10.1016/j.bpj.2010.03.012.
+66. Dessinges M-N, Lionnet T, Xi XG, Bensimon D, Croquette V. Single-molecule assay reveals strand switching and enhanced processivity of UvrD. Proc. Natl. Acad. Sci. 2004;101:6439–6444. doi: 10.1073/pnas.0306713101.
+67. Kollmannsberger P, Fabry B. High-force magnetic tweezers with force feedback for biological applications. Rev. Sci. Instrum. 2007;78:114301. doi: 10.1063/1.2804771.
+68. Van Loenhout MTJ, van der Heijden T, Kanaar R, Wyman C, Dekker C. Dynamics of RecA filaments on single-stranded DNA. Nucleic Acids Res. 2009;37:4089–4099. doi: 10.1093/nar/gkp326.
+69. Janssen XJA, Schellekens AJ, van Ommering K, van IJzendoorn LJ, Prins MWJ. Controlled torque on superparamagnetic beads for functional biosensors. Biosens. Bioelectron. 2009;24:1937–1941. doi: 10.1016/j.bios.2008.09.024.
+70. De Vlaminck I, Henighan T, van Loenhout MTJ, Pfeiffer I, Huijts J, Kerssemakers JWJ, Katan AJ, van Langen-Suurling A, van der Drift E, Wyman C, Dekker C. Highly Parallel Magnetic Tweezers by Targeted DNA Tethering. Nano Lett. 2011;11:5489–5493. doi: 10.1021/nl203299e.
+71. De Vlaminck I, Henighan T, van Loenhout MTJ, Burnham DR, Dekker C. Magnetic Forces and DNA Mechanics in Multiplexed Magnetic Tweezers. PLoS ONE. 2012;7:e41432. doi: 10.1371/journal.pone.0041432.
+72. Visscher K, Gross SP, Block SM. Construction of multiple-beam optical traps with nanometer-resolution position sensing. IEEE J. Sel. Top. Quantum Electron. 1996;2:1066–1076.
+73. Grier DG. A revolution in optical manipulation. Nature. 2003;424:810–816. doi: 10.1038/nature01935.
+74. Grier DG, Roichman Y. Holographic optical trapping. Appl. Opt. 2006;45:880. doi: 10.1364/ao.45.000880.
+75. Werner M, Merenda F, Piguet J, Salathé R-P, Vogel H. Microfluidic array cytometer based on refractive optical tweezers for parallel trapping, imaging and sorting of individual cells. Lab. Chip. 2011;11:2432. doi: 10.1039/c1lc20181f.
+76. Lafong A, Hossack WJ, Arlt J, Nowakowski TJ, Read ND. Time-Multiplexed Laguerre-Gaussian holographic optical tweezers for biological applications. Opt. Express. 2006;14:3065. doi: 10.1364/oe.14.003065.
+77. Dharmadhikari JA, Dharmadhikari AK, Makhija VS, Mathur D. Multiple optical traps with a single laser beam using a simple and inexpensive mechanical element. Curr. Sci. 2007;93:1265–1270.
+78. Noom MC, van den Broek B, van Mameren J, Wuite GJL. Visualizing single DNA-bound proteins using DNA as a scanning probe. Nat. Methods. 2007;4:1031–1036. doi: 10.1038/nmeth1126.
+79. Dame RT, Noom MC, Wuite GJL. Bacterial chromatin organization by H-NS protein unravelled using dual DNA manipulation. Nature. 2006;444:387–390. doi: 10.1038/nature05283.
+80. Soltani M, Inman JT, Lipson M, Wang MD. Electro-optofluidics: achieving dynamic control onchip. Opt. Express. 2012;20:22314–22326. doi: 10.1364/OE.20.022314.
+81. Lin S, Crozier KB. Planar silicon microrings as wavelength-multiplexed optical traps for storing and sensing particles. Lab. Chip. 2011;11:4047. doi: 10.1039/c1lc20574a.
+82. Manesse M, Phillips AF, LaFratta CN, Palacios MA, Hayman RB, Walt DR. Dynamic microbead arrays for biosensing applications. Lab. Chip. 2013;13:2153. doi: 10.1039/c3lc00044c.
+83. Candelli A, Wuite GJL, Peterman EJG. Combining optical trapping, fluorescence microscopy and micro-fluidics for single molecule studies of DNA–protein interactions. Phys. Chem. Chem. Phys. 2011;13:7263. doi: 10.1039/c0cp02844d.
+84. Brau RR, Tarsa PB, Ferrer JM, Lee P, Lang MJ. Interlaced Optical Force-Fluorescence Measurements for Single Molecule Biophysics. Biophys. J. 2006;91:1069–1077. doi: 10.1529/biophysj.106.082602.
+85. Van Mameren J, Modesti M, Kanaar R, Wyman C, Peterman EJG, Wuite GJL. Counting RAD51 proteins disassembling from nucleoprotein filaments under tension. Nature. 2009;457:745–748. doi: 10.1038/nature07581.
+86. Hugel T, Michaelis J, Hetherington CL, Jardine PJ, Grimes S, Walter JM, Falk W, Anderson DL, Bustamante C. Experimental Test of Connector Rotation during DNA Packaging into Bacteriophage φ29 Capsids. PLoS Biol. 2007;5:e59. doi: 10.1371/journal.pbio.0050059.
+87. Disseau L, Miné J, Dilhan M, Camon H, Viovy J-L. A Novel Way To Combine Magnetic Tweezers and Fluorescence Microscopy For Single Molecule Studies. Biophys. J. 2009;96:556a.
+88. Graham JS, Johnson RC, Marko JF. Counting proteins bound to a single DNA molecule. Biochem. Biophys. Res. Commun. 2011;415:131–134. doi: 10.1016/j.bbrc.2011.10.029.
+89. Chen Y, Nawaz AA, Zhao Y, Huang P-H, McCoy JP, Levine SJ, Wang L, Huang TJ. Standing surface acoustic wave (SSAW)-based microfluidic cytometer. Lab. Chip. 2014;14:916. doi: 10.1039/c3lc51139a.
+90. Tanyeri M, Schroeder CM. Manipulation and Confinement of Single Particles Using Fluid Flow. Nano Lett. 2013;13:2357–2364. doi: 10.1021/nl4008437.
+91. Wang Q, Goldsmith RH, Jiang Y, Bockenhauer SD, Moerner WE. Probing Single Biomolecules in Solution Using the Anti-Brownian Electrokinetic (ABEL) Trap. Acc. Chem. Res. 2012;45:1955–1964. doi: 10.1021/ar200304t.
+92. Lin J, Countryman P, Buncher N, Kaur PEL, Zhang Y, Gibson G, You C, Watkins SC, Piehler J, Opresko PL, Kad NM, Wang H. TRF1 and TRF2 use different mechanisms to find telomeric DNA but share a novel mechanism to search for protein partners at telomeres. Nucleic Acids Res. 2013. doi: 10.1093/nar/gkt1132.
+93. Ribeck N, Saleh OA. Multiplexed single-molecule measurements with magnetic tweezers. Rev. Sci. Instrum. 2008;79:094301. doi: 10.1063/1.2981687.
+
+---
+
 *Archived from [PubMed Central (PMC4163502)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/) on 2025-07-19.*

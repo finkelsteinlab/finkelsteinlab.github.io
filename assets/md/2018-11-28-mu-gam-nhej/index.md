@@ -108,5 +108,70 @@ This experiment was performed both by induction of a Mu prophage and by infectio
 We thank Susan Rosenberg and Makkuni Jayaram for strains and reagents. This work was supported by National Institutes of Health Grants GM118085 (to R.M.H.) and GM120554, GM097177, and CA092584 (to I.J.F.), and, in part, by the Robert Welch Foundation Grants F-1811 (to R.M.H.) and F1808 (to I.J.F.). M.M.S. is supported by a Postdoctoral Fellowship, PF-17-169-01-DMC, from the American Cancer Society.
 
 ---
+## References
+
+1. Iyama T, Wilson DM 3rd. DNA repair mechanisms in dividing and non-dividing cells. DNA Repair (Amst). 2013;12:620–636. doi: 10.1016/j.dnarep.2013.04.015
+2. Ceccaldi R, Rondinelli B, D'Andrea AD. Repair pathway choices and consequences at the double-strand break. Trends Cell Biol. 2016;26:52–64. doi: 10.1016/j.tcb.2015.07.009
+3. Aparicio T, Baer R, Gautier J. DNA double-strand break repair pathway choice and cancer. DNA Repair (Amst). 2014;19:169–175. doi: 10.1016/j.dnarep.2014.03.014
+4. Cromie GA, Connelly JC, Leach DR. Recombination at double-strand breaks and DNA ends: Conserved mechanisms from phage to humans. Mol Cell. 2001;8:1163–1174. doi: 10.1016/s1097-2765(01)00419-1
+5. Mehta A, Haber JE. Sources of DNA double-strand breaks and models of recombinational DNA repair. Cold Spring Harb Perspect Biol. 2014;6:a016428. doi: 10.1101/cshperspect.a016428
+6. Lieber MR. The mechanism of double-strand DNA break repair by the nonhomologous DNA end-joining pathway. Annu Rev Biochem. 2010;79:181–211. doi: 10.1146/annurev.biochem.052308.093131
+7. Roth DB, Porter TN, Wilson JH. Mechanisms of nonhomologous recombination in mammalian cells. Mol Cell Biol. 1985;5:2599–2607. doi: 10.1128/mcb.5.10.2599
+8. Wilson TE, Topper LM, Palmbos PL. Non-homologous end-joining: Bacteria join the chromosome breakdance. Trends Biochem Sci. 2003;28:62–66. doi: 10.1016/S0968-0004(03)00005-7
+9. Pitcher RS, Brissett NC, Doherty AJ. Nonhomologous end-joining in bacteria: A microbial perspective. Annu Rev Microbiol. 2007;61:259–282. doi: 10.1146/annurev.micro.61.080706.093354
+10. Shuman S, Glickman MS. Bacterial DNA repair by non-homologous end joining. Nat Rev Microbiol. 2007;5:852–861. doi: 10.1038/nrmicro1768
+11. Bowater R, Doherty AJ. Making ends meet: Repairing breaks in bacterial DNA by non-homologous end-joining. PLoS Genet. 2006;2:e8. doi: 10.1371/journal.pgen.0020008
+12. d'Adda di Fagagna F, Weller GR, Doherty AJ, Jackson SP. The Gam protein of bacteriophage Mu is an orthologue of eukaryotic Ku. EMBO Rep. 2003;4:47–52. doi: 10.1038/sj.embor.embor709
+13. Symonds N, Toussaint A, Van de Putte P, Howe MM (eds). Phage Mu. Cold Spring Harbor Lab; 1987.
+14. Harshey RM. Transposable phage Mu. In: Craig NL (ed). Mobile DNA III. ASM Press; 2015. pp. 669–691.
+15. Goosen N, van de Putte P. Regulation of transcription. In: Symonds N, Toussaint A, Van de Putte P, Howe MM (eds). Phage Mu. Cold Spring Harbor Lab; 1987. pp. 41–52.
+16. Paolozzi L, Symonds N. The SE Region. Cold Spring Harbor Lab Press; 1987.
+17. Morgan GJ, Hatfull GF, Casjens S, Hendrix RW. Bacteriophage Mu genome sequence: Analysis and comparison with Mu-like prophages in Haemophilus, Neisseria and Deinococcus. J Mol Biol. 2002;317:337–359. doi: 10.1006/jmbi.2002.5437
+18. Saha RP, Lou Z, Meng L, Harshey RM. Transposable prophage Mu is organized as a stable chromosomal domain of E. coli. PLoS Genet. 2013;9:e1003902. doi: 10.1371/journal.pgen.1003902
+19. Van Vliet F, Couturier M, De Lafonteyne J, Jedlicki E. Mu-1 directed inhibition of DNA breakdown in Escherichia coli, recA cells. Mol Gen Genet. 1978;164:109–112. doi: 10.1007/BF00267606
+20. Murphy KC. Lambda Gam protein inhibits the helicase and chi-stimulated recombination activities of Escherichia coli RecBCD enzyme. J Bacteriol. 1991;173:5808–5821. doi: 10.1128/jb.173.18.5808-5821.1991
+21. Williams JG, Radding CM. Partial purification and properties of an exonuclease inhibitor induced by bacteriophage Mu-1. J Virol. 1981;39:548–558. doi: 10.1128/jvi.39.2.548-558.1981
+22. Akroyd JE, Clayson E, Higgins NP. Purification of the gam gene-product of bacteriophage Mu and determination of the nucleotide sequence of the gam gene. Nucleic Acids Res. 1986;14:6901–6914. doi: 10.1093/nar/14.17.6901
+23. Akroyd J, Symonds N. Localization of the gam gene of bacteriophage mu and characterisation of the gene product. Gene. 1986;49:273–282. doi: 10.1016/0378-1119(86)90288-x
+24. Abraham ZH, Symonds N. Purification of overexpressed gam gene protein from bacteriophage Mu by denaturation-renaturation techniques and a study of its DNA-binding properties. Biochem J. 1990;269:679–684. doi: 10.1042/bj2690679
+25. Karu AE, Sakaki Y, Echols H, Linn S. The gamma protein specified by bacteriophage gamma. Structure and inhibitory activity for the recBC enzyme of Escherichia coli. J Biol Chem. 1975;250:7377–7387. PMID: 126236
+26. Shee C, et al. Engineered proteins detect spontaneous DNA breakage in human and bacterial cells. eLife. 2013;2:e01222. doi: 10.7554/eLife.01222
+27. Weller GR, et al. Identification of a DNA nonhomologous end-joining complex in bacteria. Science. 2002;297:1686–1689. doi: 10.1126/science.1074584
+28. Walker JR, Corpina RA, Goldberg J. Structure of the Ku heterodimer bound to DNA and its implications for double-strand break repair. Nature. 2001;412:607–614. doi: 10.1038/35088000
+29. Downs JA, Jackson SP. A means to a DNA end: The many roles of Ku. Nat Rev Mol Cell Biol. 2004;5:367–378. doi: 10.1038/nrm1367
+30. Gallardo IF, et al. High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. Langmuir. 2015;31:10310–10317. doi: 10.1021/acs.langmuir.5b02416
+31. Soniat MM, et al. Next-generation DNA curtains for single-molecule studies of homologous recombination. Methods Enzymol. 2017;592:259–281. doi: 10.1016/bs.mie.2017.03.011
+32. Dillingham MS, Kowalczykowski SC. RecBCD enzyme and the repair of double-stranded DNA breaks. Microbiol Mol Biol Rev. 2008;72:642–671. doi: 10.1128/MMBR.00020-08
+33. Bianco PR, et al. Processive translocation and DNA unwinding by individual RecBCD enzyme molecules. Nature. 2001;409:374–378. doi: 10.1038/35053131
+34. Handa N, Bianco PR, Baskin RJ, Kowalczykowski SC. Direct visualization of RecBCD movement reveals cotranslocation of the RecD motor after chi recognition. Mol Cell. 2005;17:745–750. doi: 10.1016/j.molcel.2005.02.011
+35. Finkelstein IJ, Visnapuu ML, Greene EC. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468:983–987. doi: 10.1038/nature09561
+36. Wiktor J, van der Does M, Büller L, Sherratt DJ, Dekker C. Direct observation of end resection by RecBCD during double-stranded DNA break repair in vivo. Nucleic Acids Res. 2018;46:1821–1833. doi: 10.1093/nar/gkx1290
+37. Gottesman MM, Hicks ML, Gellert M. Genetics and function of DNA ligase in Escherichia coli. J Mol Biol. 1973;77:531–547. doi: 10.1016/0022-2836(73)90221-0
+38. Konrad EB, Modrich P, Lehman IR. Genetic and enzymatic characterization of a conditional lethal mutant of Escherichia coli K12 with a temperature-sensitive DNA ligase. J Mol Biol. 1973;77:519–529. doi: 10.1016/0022-2836(73)90220-9
+39. Sriskanda V, Shuman S. A second NAD(+)-dependent DNA ligase (LigB) in Escherichia coli. Nucleic Acids Res. 2001;29:4930–4934. doi: 10.1093/nar/29.24.4930
+40. Chayot R, Montagne B, Mazel D, Ricchetti M. An end-joining repair mechanism in Escherichia coli. Proc Natl Acad Sci USA. 2010;107:2141–2146. doi: 10.1073/pnas.0906355107
+41. Jang S, Harshey RM. Repair of transposable phage Mu DNA insertions begins only when the E. coli replisome collides with the transpososome. Mol Microbiol. 2015;97:746–758. doi: 10.1111/mmi.13061
+42. Charlesworth B. Fundamental concepts in genetics: Effective population size and patterns of molecular evolution and variation. Nat Rev Genet. 2009;10:195–205. doi: 10.1038/nrg2526
+43. Hecht SM. Bleomycin: New perspectives on the mechanism of action. J Nat Prod. 2000;63:158–168. doi: 10.1021/np990549f
+44. Jang S, Sandler SJ, Harshey RM. Mu insertions are repaired by the double-strand break repair pathway of Escherichia coli. PLoS Genet. 2012;8:e1002642. doi: 10.1371/journal.pgen.1002642
+45. Howe MM. Late genes, particle morphogenesis, and DNA packaging. In: Symonds N, Toussaint A, Van de Putte P, Howe MM (eds). Phage Mu. Cold Spring Harbor Lab; 1987. pp. 63–74.
+46. Behme MT, Lilley GD, Ebisuzaki K. Postinfection control by bacteriophage T4 of Escherichia coli recBC nuclease activity. J Virol. 1976;18:20–25. doi: 10.1128/jvi.18.1.20-25.1976
+47. Silverstein JL, Goldberg EB. T4 DNA injection. II. Protection of entering DNA from host exonuclease V. Virology. 1976;72:212–223. doi: 10.1016/0042-6822(76)90324-x
+48. Court R, Cook N, Saikrishnan K, Wigley D. The crystal structure of lambda-Gam protein suggests a model for RecBCD inhibition. J Mol Biol. 2007;371:25–33. doi: 10.1016/j.jmb.2007.05.037
+49. Choi W, Harshey RM. DNA repair by the cryptic endonuclease activity of Mu transposase. Proc Natl Acad Sci USA. 2010;107:10014–10019. doi: 10.1073/pnas.0912615107
+50. Choi W, Jang S, Harshey RM. Mu transpososome and RecBCD nuclease collaborate in the repair of simple Mu insertions. Proc Natl Acad Sci USA. 2014;111:14112–14117. doi: 10.1073/pnas.1407562111
+51. Datsenko KA, Wanner BL. One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc Natl Acad Sci USA. 2000;97:6640–6645. doi: 10.1073/pnas.120163297
+52. Doublet B, et al. Antibiotic marker modifications of lambda Red and FLP helper plasmids, pKD46 and pCP20, for inactivation of chromosomal genes using PCR products in multidrug-resistant strains. J Microbiol Methods. 2008;75:359–361. doi: 10.1016/j.mimet.2008.06.010
+53. Miller JH. A Short Course in Bacterial Genetics. Cold Spring Harbor Lab Press; 1992.
+54. Yang J, et al. The I-TASSER Suite: Protein structure and function prediction. Nat Methods. 2015;12:7–8. doi: 10.1038/nmeth.3213
+55. Guex N, Peitsch MC, Schwede T. Automated comparative protein structure modeling with SWISS-MODEL and Swiss-PdbViewer: A historical perspective. Electrophoresis. 2009;30(Suppl 1):S162–S173. doi: 10.1002/elps.200900140
+56. Adams PD, et al. PHENIX: A comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr D Biol Crystallogr. 2010;66:213–221. doi: 10.1107/S0907444909052925
+57. Lovell SC, et al. Structure validation by Calpha geometry: Phi,psi and Cbeta deviation. Proteins. 2003;50:437–450. doi: 10.1002/prot.10286
+58. Altschul SF, et al. Gapped BLAST and PSI-BLAST: A new generation of protein database search programs. Nucleic Acids Res. 1997;25:3389–3402. doi: 10.1093/nar/25.17.3389
+59. Letunic I, Bork P. Interactive tree of life (iTOL) v3: An online tool for the display and annotation of phylogenetic and other trees. Nucleic Acids Res. 2016;44:W242–W245. doi: 10.1093/nar/gkw290
+60. Arndt D, et al. PHASTER: A better, faster version of the PHAST phage search tool. Nucleic Acids Res. 2016;44:W16–W21. doi: 10.1093/nar/gkw387
+61. Soniat MM, et al. Next-generation DNA curtains for single-molecule studies of homologous recombination. Methods Enzymol. 2017;592:259–281. doi: 10.1016/bs.mie.2017.03.011
+
+---
 
 *Archived from [PubMed Central (PMC6294893)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294893/) on 2025-07-19.*

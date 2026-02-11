@@ -96,4 +96,69 @@ We thank M. Gottesman, R. Gonzalez, and the Greene laboratory for assistance and
 
 ---
 
+## References
+
+1. von Hippel P, Berg O. Facilitated target location in biological systems. J Biol Chem. 1989;264:675–8.
+2. Gorman J, Greene EC. Visualizing one–dimensional diffusion of proteins along DNA. Nat Struct Mol Biol. 2008;15:768–74.
+3. Herbert K, Greenleaf W, Block S. Single–molecule studies of RNA polymerase: Motoring along. Ann Rev Biochem. 2008;77:149–176.
+4. Haugen S, Ross W, Gourse R. Advances in bacterial promoter recognition and its control by factors that do not bind DNA. Nat Rev Microbiol. 2008;6:507–19.
+5. Browning D, Busby S. The regulation of bacterial transcription initiation. Nat Rev Microbiol. 2004;2:57–65.
+6. Saecker R, Record M, Dehaseth P. Mechanism of bacterial transcription initiation: RNA polymerase – promoter binding, isomerization to initiation–competent open complexes, and initiation of RNA synthesis. J Mol Biol. 2011;412:754–71.
+7. Nudler E. RNA polymerase active center: the molecular engine of transcription. Annu Rev Biochem. 2009;78:335–61.
+8. Mendoza–Vargas A, et al. Genome–wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli. PLoS One. 2009;4:e7526.
+9. Cho B, et al. The transcription unit architecture of the Escherichia coli genome. Nat Biotechnol. 2009;27:1043–9.
+10. Berg OG, Blomberg C. Association kinetics with coupled diffusional flows. Special application to the lac repressor––operator system. Biophys Chem. 1976;4:367–81.
+11. von Hippel PH, Berg OG. Facilitated target location in biological systems. J Biol Chem. 1989;264:675–8.
+12. Mirny L, et al. How a protein searches for its site on DNA: the mechanism of facilitated diffusion. Journal of Physics a–Mathematical and Theoretical. 2009:42.
+13. Halford S, Marko J. How do site–specific DNA–binding proteins find their targets? Nucleic Acids Res. 2004;32:3040–52.
+14. Berg O, Winter R, von Hippel P. Diffusion–driven mechanisms of protein translocation on nucleic acids. 1 Models and theory. Biochemistry. 1981;20:6929–48.
+15. Berg O, Blomberg C. Association kinetics with coupled diffusional flows. Special application to the lac repressor––operator system. Biophys Chem. 1976;4:367–81.
+16. Riggs AD, Bourgeois S, Cohn M. The lac repressor–operator interaction. 3. Kinetic studies. J Mol Biol. 1970;53:401–17.
+17. Halford S. An end to 40 years of mistakes in DNA–protein association kinetics? Biochem Soc Trans. 2009;37:343–8.
+18. Mirny L, et al. How a protein searches for its site on DNA: the mechanism of facilitated diffusion. J Physics A. 2009;42:434013.
+19. Li G–W, Berg O, Elf J. Effects of macromolecular crowding and DNA looping on gene regulation kinetics. Nature Physics. 2009;5:294–297.
+20. Hu T, Grosberg A, Shklovskii B. How proteins search for their specific sites on DNA: the role of DNA conformation. Biophysical Journal. 2006;90:2731–2744.
+21. Bauer M, Metzler R. Generalized faciliated diffusion model for DNA–binding proteins with search and recognition states. Biophysical Journal. 2012;102:2321–2330.
+22. Kolesov G, Wunderlich Z, Laikova O, Gelfand M, Mirny L. How gene order is influenced by the biophysics of transcriotion regulation. Proc Natl Acad Sci U S A. 2007;104:13948–13953.
+23. Wunderlich Z, Mirny L. Spatial effects on the speed and reliability of protein–DNA search. Nucleic Acids Res. 2008;36:3570–8.
+24. Das R, Kolomeisky A. Facilitated search of proteins on DNA: correlations are important. Phys Chem Chem Phys. 2010;12:2999–3004.
+25. Singer P, Wu CW. Promoter search by Escherichia coli RNA polymerase on a circular DNA template. J Biol Chem. 1987;262:14178–89.
+26. Ricchetti M, Metzger W, Heumann H. One–dimensional diffusion of Escherichia coli DNA–dependent RNA polymerase: a mechanism to facilitate promoter location. Proc Natl Acad Sci U S A. 1988;85:4610–4.
+27. Kabata H, et al. Visualization of single molecules of RNA polymerase sliding along DNA. Science. 1993;262:1561–3.
+28. Guthold M, et al. Direct observation of one–dimensional diffusion and transcription by Escherichia coli RNA polymerase. Biophys J. 1999;77:2284–94.
+29. Harada Y, et al. Single–molecule imaging of RNA polymerase–DNA interactions in real time. Biophys J. 1999;76:709–15.
+30. Berg J, Tymoczko J, Stryer L. Biochemistry. W.H. Freeman and Company; New York: 2007.
+31. Roe JH, Burgess RR, Record MT Jr. Kinetics and mechanism of the interaction of Escherichia coli RNA polymerase with the lambda PR promoter. J Mol Biol. 1984;176:495–522.
+32. Friedman L, Gelles J. Mechanism of transcription initiation at an activator–dependent promoter defined by single–molecule observation. Cell. 2012;148:679–689.
+33. DeHaseth PL, Zupancic M, Record MT Jr. RNA polymerase–promoter interactions: the comings and goings of RNA polymerase. J Bacteriol. 1998;180:3019–3025.
+34. Herbert K, Greenleaf W, Block S. Single–molecule studies of RNA polymerase: motoring along. Annu Rev Biochem. 2008;77:149–76.
+35. Gorman J, Fazio T, Wang F, Wind S, Greene EC. Nanofabricated racks of aligned and anchored DNA substrates for single–molecule imaging. Langmuir. 2010;26:1372–9.
+36. Gorman J, Plys A, Visnapuu M, Alani E, Greene EC. Visualizing one–dimensional diffusion of eukaryotic DNA repair factors along a chromatin lattice. Nat Struct Mol Biol. 2010;17:932–8.
+37. Gorman J, et al. Single–molecule imaging reveals target search mechanisms during mismatch repair. Proc Natl Acad Sci U S A. 2012;109:E3074–E3083.
+38. Finkelstein I, Visnapuu M, Greene EC. Single–molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468:983–7.
+39. Simons R, Hoopes B, McClure W, Kleckner N. Three promoters near the termini of IS10: pIN, pOUT, and pIII. Cell. 1983;34:673–82.
+40. McClure W. Rate–limiting steps in RNA chain initiation. Proc Natl Acad Sci U S A. 1980;77:5634–8.
+41. Hawley D, McClure W. In vitro comparison of initiation properties of bacteriophage lambda wild–type PR and x3 mutant promoters. Proc Natl Acad Sci U S A. 1980;77:6381–5.
+42. Dayton C, Prosen D, Parker K, Cech C. Kinetic measurements of Escherichia coli RNA polymerase association with bacteriophage T7 early promoters. J Biol Chem. 1984;259:1616–21.
+43. Brunner M, Bujard H. Promoter recognition and promoter strength in the Escherichia coli system. EMBO J. 1987;6:3139–44.
+44. Wang Y, Austin R, Cox E. Single molecule measurements of repressor protein 1D diffusion on DNA. Phys Rev Lett. 2006;97:048302.
+45. Elf J, Li G, Xie X. Probing transcription factor dynamics at the single–molecule level in a living cell. Science. 2007;316:1191–4.
+46. Kim JH, Larson RG. Single–molecule analysis of 1D diffusion and transcription elongation of T7 RNA polymerase along individual stretched DNA molecules. Nucleic Acids Res. 2007;35:3848–58.
+47. Tafvizi A, Huang F, Fersht A, Mirny L, van Oijen A. A single–molecule characterization of p53 search on DNA. Proc Natl Acad Sci U S A. 2011;108:563–8.
+48. Berg OG. Orientation constraints in diffusion–limited macromolecular association. The role of surface diffusion as a rate–enhancing mechanism. Biophys J. 1985;47:1–14.
+49. Austin R, Karohl J, Jovin T. Rotational diffusion of Escherichia coli RNA polymerase free and bound to deoxyribonucleic acid in nonspecific complexes. Biochemistry. 1983;22:3082–90.
+50. Gorman J, et al. Dynamic basis for one–dimensional DNA scanning by the mismatch repair complex Msh2–Msh6. Mol Cell. 2007;28:359–70.
+51. Berg OG, von Hippel PH. Diffusion–controlled macromolecular interactions. Annu Rev Biophys Biophys Chem. 1985;14:131–60.
+52. Moran U, Philips R, Milo R. Snapshot: key numbers in biology. Cell. 2010;141:1262.
+53. Minton A. The influence of macromolecular crowding and macromolecular confinement on biochemical reactions in physiological media. J Biol Chem. 2001;276:10577–10580.
+54. Graham J, Johnson R, Marko J. Concentration–dependent exchange accelerates turnover of proteins bound to double–stranded DNA. Nucleic Acids Res. 2011;39:2249–2259.
+55. Ishihama A. Functional modulation of Escherichia coli RNA polymerase. Annu Rev Microbiol. 2000;54:499–518.
+56. Hammar P, et al. The lac repressor displays faciliated diffusion in living cells. Science. 2012;336:1595–1598.
+57. McClure W. Mechanism and control of transcription initiation in prokaryotes. Annu Rev Biochem. 1985;54:171–204.
+58. So L, et al. General properties of transcriptional time series in Escherichia coli. Nat Genet. 43:554–60.
+59. Reppas N, Wade J, Church G, Struhl K. The transition between trancriptional initiation and elongation in E. coli is highly variable and often rate limiting. Mol Cell. 2006;24:747–757.
+60. Shaevitz J, Abbondanzieri E, Landick R, Block S. Backtracking by single RNA polymerase molecules observed at near–base–pair resolution. Nature. 2003;426:684–7.
+
+---
+
 *Archived from [PubMed Central (PMC3565103)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3565103/) on 2025-07-19.*
