@@ -54,7 +54,7 @@ These experiments were carried out in three steps. First, ssDNA substrates were 
 ##  RESULTS
 ### RADX compacts ssDNA
 
-***Figure 1.***
+***[Figure 1](#fig1).***
 ![Figure 1.](gkaa559fig1.jpg)
 RADX condenses single-stranded DNA. (**A**) Putative RADX domain organization with three OB-folds. (**B**) Illustration of the single-tethered ssDNA curtain assay. (**C**) Cartoon illustration (top) and a typical kymograph showing that 0.1 nM RADX rapidly binds and compacts ssDNA. The extent and rate of compaction were monitored via movement of the fluorescently labeled ssDNA end (green). After ssDNA binding, RADX was visualized by anti-Flag-ATTO647N (magenta). Horizontal lines indicate when RADX and anti-Flag-ATTO647N were injected. (**D**) Quantification of RADX-induced ssDNA compaction percentage. (**E**) Quantification of RADX-induced ssDNA compaction rate. Violin plots: open circles indicate the median and vertical lines show 95% quantiles of each distribution. At least 25 ssDNA molecules were measured for each condition. ns, _P_ > 0.05.
 
@@ -85,7 +85,7 @@ Next, we tested whether RADX prevents RAD51 loading on RPA-coated filaments. Fir
 ##  DISCUSSION
 Figure [5](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#F5) summarizes our integrated model for how RADX antagonizes RAD51 activity. RADX uses its three putative OB-folds to bind ssDNA. Protein-protein interactions between RADX monomers assemble the ssDNA substrate into higher-order compacted structures. RADX and RPA have similar, sub-nanomolar binding affinities for ssDNA ([18](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B18),[40](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B40)). However, RADX cannot directly exchange with RPA under the conditions tested in these assays, but sub-saturating RADX binding is sufficient to condense RPA-coated ssDNA and to prevent extensive RAD51 filament assembly. In addition to blocking RPA removal and RAD51 filament assembly, a recent biochemical study also suggested that RADX disassembles pre-formed RAD51 filaments ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B17)). Thus, RADX inhibits RAD51 filament assembly and may also aid in disassembly of pre-formed RAD51 filaments.
 
-***Figure 5.***
+***[Figure 5](#fig5).***
 ![Figure 5.](gkaa559fig5.jpg)
 Proposed model of how RADX antagonizes RAD51. RADX compacts RPA–ssDNA filaments, inhibiting RPA displacement and RAD51 filament formation. RADX also removes RAD51 from ssDNA via an unknown mechanism.
 Loss of RADX leads to excessive RAD51 activity at stalled replication forks, slowing elongation, and causing fork collapse. These studies suggest that RADX antagonizes RAD51 at replication forks to balance fork remodeling and stabilization to maintain genome stability ([17](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B17)). Intriguingly, a recent study also showed that RADX is involved in telomere protection ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B19)). RADX binds exposed single-stranded telomeric DNA along with POT1 to antagonize the accumulation of RAD51 and reduce sister telomere associations. Depletion of either RAD51 or BRCA2 at telomeres rescued RADX depletion, suggesting that RADX also antagonizes homologous recombination in this context ([19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/#B19)).
