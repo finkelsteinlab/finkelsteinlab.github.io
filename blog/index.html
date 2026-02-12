@@ -13,20 +13,43 @@ description: Thoughts on science, methods, and tools from the Finkelstein Lab
 <div class="row">
   <div class="col-md-9">
     
+    <!-- Search and Filter Bar -->
+    <div class="blog-controls" style="margin-bottom: 2em;">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="input-group">
+            <input type="text" id="filter-input" class="form-control" placeholder="Filter posts...">
+            <span class="input-group-btn">
+              <a href="/blog/search/" class="btn btn-default" title="Advanced Search">
+                <i class="fas fa-search"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div id="tag-filters" class="tag-filter-buttons">
+            <button class="btn btn-sm btn-primary active" data-tag="all">All</button>
+            {% assign all_tags = site.categories.blog | map: "tags" | flatten | uniq | sort %}
+            {% for tag in all_tags %}
+              <button class="btn btn-sm btn-default" data-tag="{{ tag | downcase }}">{{ tag }}</button>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    
     {% assign blog_posts = site.categories.blog %}
     
     {% if blog_posts.size == 0 %}
     <p class="text-muted">No posts yet. Check back soon!</p>
     {% else %}
     
+    <div id="posts-container">
     {% for post in blog_posts %}
-    <article class="blog-listing">
+    <article class="blog-listing" data-tags="{{ post.tags | join: ' ' | downcase }}">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p class="text-muted">
         <i class="far fa-calendar-alt"></i> {{ post.date | date: "%B %-d, %Y" }}
-        {% if post.category and post.category != "blog" %} 
-          · <span class="label label-default">{{ post.category }}</span>
-        {% endif %}
       </p>
       
       {% if post.excerpt %}
@@ -44,6 +67,9 @@ description: Thoughts on science, methods, and tools from the Finkelstein Lab
       <hr>
     </article>
     {% endfor %}
+    </div>
+    
+    <p id="no-results" style="display: none;" class="text-muted">No posts match your filter.</p>
     
     {% endif %}
     
@@ -54,6 +80,9 @@ description: Thoughts on science, methods, and tools from the Finkelstein Lab
       <h4>Subscribe</h4>
       <p><a href="/blog/feed.xml"><i class="fas fa-rss"></i> RSS Feed</a></p>
       
+      <h4>Search</h4>
+      <p><a href="/blog/search/"><i class="fas fa-search"></i> Search Posts</a></p>
+      
       <h4>Tags</h4>
       <div class="tag-cloud">
         {% assign all_tags = site.categories.blog | map: "tags" | flatten | uniq | sort %}
@@ -61,12 +90,78 @@ description: Thoughts on science, methods, and tools from the Finkelstein Lab
           <a href="/blog/tags/#{{ tag | slugify }}" class="label label-info">{{ tag }}</a>
         {% endfor %}
       </div>
-      
-      <h4 style="margin-top: 1.5em;">Categories</h4>
-      <ul class="list-unstyled">
-        <li><a href="/blog/">All Posts</a></li>
-        <!-- Category links will be added as posts accumulate -->
-      </ul>
     </div>
   </div>
 </div>
+
+<script>
+(function() {
+  // Tag filtering
+  var tagButtons = document.querySelectorAll('#tag-filters button');
+  var posts = document.querySelectorAll('.blog-listing');
+  var noResults = document.getElementById('no-results');
+  var filterInput = document.getElementById('filter-input');
+  
+  function filterPosts() {
+    var activeTag = document.querySelector('#tag-filters button.active').dataset.tag;
+    var searchText = filterInput.value.toLowerCase();
+    var visibleCount = 0;
+    
+    posts.forEach(function(post) {
+      var tags = post.dataset.tags || '';
+      var title = post.querySelector('h3').textContent.toLowerCase();
+      var content = post.textContent.toLowerCase();
+      
+      var tagMatch = (activeTag === 'all') || tags.includes(activeTag);
+      var textMatch = !searchText || title.includes(searchText) || content.includes(searchText);
+      
+      if (tagMatch && textMatch) {
+        post.style.display = '';
+        visibleCount++;
+      } else {
+        post.style.display = 'none';
+      }
+    });
+    
+    noResults.style.display = visibleCount === 0 ? '' : 'none';
+  }
+  
+  tagButtons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      tagButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterPosts();
+    });
+  });
+  
+  filterInput.addEventListener('input', filterPosts);
+  
+  // Check for tag in URL hash
+  if (window.location.hash) {
+    var tag = window.location.hash.slice(1).toLowerCase();
+    var btn = document.querySelector('#tag-filters button[data-tag="' + tag + '"]');
+    if (btn) {
+      tagButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterPosts();
+    }
+  }
+})();
+</script>
+
+<style>
+.tag-filter-buttons {
+  white-space: nowrap;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+.tag-filter-buttons .btn {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+.blog-controls {
+  background: #f9f9f9;
+  padding: 1em;
+  border-radius: 4px;
+}
+</style>
