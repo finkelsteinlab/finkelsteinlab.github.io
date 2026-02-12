@@ -19,9 +19,4 @@ The NSF CAREER Award is among the most prestigious awards for junior faculty and
 
 ---
 
-## References
-
-This is an archived news article from UT News (College of Natural Sciences). For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [cns.utexas.edu](https://cns.utexas.edu/news/two-assistant-profs-win-career-awards) on 2025-02-09.*
