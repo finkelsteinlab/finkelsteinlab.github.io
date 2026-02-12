@@ -350,6 +350,10 @@ Statistics for the Corelet experiments and 53BP1 counting assay were performed u
 A. J., Y.K., and D.S.W.L. are supported by the NSF GRFP fellowship (DGE-1752814, A.J.; DGE-2039656, Y.K.; DCE-1656466, D.S.W.L.). Y.K. was previously supported by the NIGMS (T32GM007388) while conducting experiments. A.R.S. is a Life Science Research Fellow through the Mark Foundation for Cancer Research (AWD1006303). L.F. was supported by the NIH F32 Fellowship (GM123655). This work was supported by NSF (MCB-1617028, A.Y.), NIGMS (GM 118773, A.Y.; GM120554, I.J.F.; and GM124463, E.H.K.), the NIH 4D Nucleome Program (U01 DA040601, C.P.B.), CPRIT (RP190301 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the Howard Hughes Medical Institute (C.P.B.). The content is solely the responsibility of the authors and does not represent the official views of these funding institutions.
 We thank Joshua Riback, Jorine Eeftens, Yi-Che Chang, David Sanders, Evangelos Gatzogiannis, Yavuz S. Dagdas, John T. Canty, and other members of the Yildiz and Brangwynne laboratories for helpful discussions, Shunsuke Shimobayashi for the FUSN-miRFP-TRF1 construct, David Sanders for the FM5 vectors, Yi-Che Chang for helpful discussions on data analysis, Sofi Quinodoz for help with the control siRNA transfection efficiency experiment, Lindsay Becker for help with the immunofluorescence protocol, Titia de Lange (Rockefeller Univ.) for the hTERT-RPE1 cell line, Huaiying Zhang (Carnegie Mellon Univ.) for the HeLa RMCE GFP-TRF1 cell line, UC Berkeley MacroLab for the TEV protease and competent cells, and UC Berkeley Cell Culture Facility for the insect cell cultures.
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/) or the published article in *Mol. Biol. Cell* 33(2):ar7 (2022).
+
 ---
 
 *Archived from [PubMed Central (PMC8988007)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/) on 2025-07-19.*
