@@ -97,9 +97,4 @@ If scientists can make DNA storage work, we could save orders of magnitude more 
 
 ---
 
-## References
-
-This is an archived news article from Popular Mechanics. For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [Popular Mechanics](https://www.popularmechanics.com/science/a69462408/dna-data-storage/) on 2025-02-09.*
