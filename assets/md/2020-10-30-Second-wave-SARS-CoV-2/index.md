@@ -745,4 +745,9 @@ This study was supported by the Fondren Foundation, Houston Methodist Hospital a
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/) or the published article in *Cell Host Microbe* 28(6):856–866 (2020).
+
+---
 *Archived from [PubMed Central (PMC7642679)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/) on 2025-07-19.*
