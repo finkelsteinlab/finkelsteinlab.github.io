@@ -445,4 +445,9 @@ We would like to thank Ophelia Papoulas for proteomic expertise, Matt Davis for 
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/) or the published article in *Nat. Microbiol.* 4(11):1895–1905 (2019).
+
+---
 *Archived from [PubMed Central (PMC6873818)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/) on 2025-07-19.*
