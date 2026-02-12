@@ -1,0 +1,172 @@
+/* Blog styles */
+
+/* Post listing on index page */
+.blog-listing {
+  margin-bottom: 1.5em;
+}
+
+.blog-listing h3 {
+  margin-bottom: 0.3em;
+}
+
+.blog-listing h3 a {
+  color: #333;
+}
+
+.blog-listing h3 a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* Blog post content */
+.blog-content {
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.blog-content h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-content h3 {
+  margin-top: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.blog-content p {
+  margin-bottom: 1em;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #337ab7;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #555;
+  font-style: italic;
+}
+
+.blog-content pre {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+.blog-content code {
+  background: #f8f8f8;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.blog-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Tags */
+.blog-tags {
+  margin: 1.5em 0;
+}
+
+.blog-tags .label {
+  margin-right: 0.3em;
+}
+
+.blog-tags-small .label {
+  font-size: 0.85em;
+}
+
+/* Sidebar */
+.blog-sidebar {
+  background: #f9f9f9;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.blog-sidebar h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.blog-sidebar ul {
+  padding-left: 0;
+}
+
+.blog-sidebar ul li {
+  margin-bottom: 0.5em;
+}
+
+.tag-cloud .label {
+  display: inline-block;
+  margin: 0.2em;
+}
+
+/* Navigation between posts */
+.blog-nav {
+  margin: 2em 0;
+  overflow: hidden;
+}
+
+/* Comments section */
+.blog-comments {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #eee;
+}
+
+/* Bibliography/References for academic citations */
+.blog-content .references {
+  font-size: 0.95em;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+}
+
+.blog-content .references h2 {
+  font-size: 1.3em;
+}
+
+.blog-content .csl-entry {
+  margin-bottom: 0.8em;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* Footnotes */
+.blog-content .footnotes {
+  font-size: 0.9em;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+}
+
+.blog-content .footnotes ol {
+  padding-left: 1.5em;
+}
+
+.blog-content .footnotes li {
+  margin-bottom: 0.5em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blog-sidebar {
+    margin-top: 2em;
+  }
+  
+  .blog-content {
+    font-size: 1em;
+  }
+}
