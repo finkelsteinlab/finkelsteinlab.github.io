@@ -431,6 +431,32 @@
   joined: 2025-08-01
   departed: 
   whereabouts: UT Austin 
+
+- name: Anna Le
+  position: undergrad
+  email: atl2485@eid.utexas.edu
+  image: anna_le_current.jpg
+  young_image: anna_le_young.jpg
+  favorite_activities:
+    - Hiking local trails
+    - Trying new coffee shops
+    - Shopping on South Congress
+  quote: "Nothing will work unless you do."
+  quote_author: Maya Angelou
+  joined: 2025-08-01
+
+- name: Jimin Han
+  position: undergrad
+  email: jh77445@my.utexas.edu
+  image: jimin_han_current.jpg
+  young_image: jimin_han_young.jpg
+  favorite_activities:
+    - Thrifting clothes
+    - Wandering around on campus and finding different study spaces
+    - Attending ballet classes
+  quote: "Thoughts without content are empty, intuitions without concepts are blind."
+  quote_author: Immanuel Kant
+  joined: 2025-08-01
   
 - name: Ankur Annapareddy
   position: gradstudent
