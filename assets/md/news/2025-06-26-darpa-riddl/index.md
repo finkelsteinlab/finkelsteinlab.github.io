@@ -31,9 +31,4 @@ Research that generates incremental improvements to the existing state-of-the-ar
 
 ---
 
-## References
-
-This is an archived news article from DARPA. For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [DARPA](https://www.darpa.mil/research/programs/rapid-inhibitor-discovery-riddl) on 2025-02-09.*
