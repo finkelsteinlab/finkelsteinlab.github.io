@@ -17,14 +17,14 @@ The traditional approach uses plasmid DNA encoding Cas9 and guide RNA. While str
 
 ## Ribonucleoprotein (RNP) Delivery
 
-A more refined approach delivers pre-assembled Cas9 protein complexed with guide RNA directly into cells (1). This method offers several advantages:
+A more refined approach delivers pre-assembled Cas9 protein complexed with guide RNA directly into cells ([1](#ref-liang_rapid_2015)). This method offers several advantages:
 
 - Rapid editing with transient Cas9 expression
 - Reduced off-target effects
 - No risk of plasmid integration
 - Works well in hard-to-transfect cells
 
-Recent work has also shown that Cas9 can process non-canonical crRNAs derived from host transcripts (2), opening new possibilities for RNA detection.
+Recent work has also shown that Cas9 can process non-canonical crRNAs derived from host transcripts ([2](#ref-jiao_noncanonical_2021)), opening new possibilities for RNA detection.
 
 ## mRNA Delivery
 
