@@ -1,0 +1,490 @@
+/*
+ * Catppuccin Theme for Finkelstein Lab Website
+ * Light: Latte | Dark: Mocha
+ * https://catppuccin.com/
+ */
+
+/* ========================================
+   CSS Custom Properties (Latte - Light)
+   ======================================== */
+:root {
+  /* Base colors */
+  --ctp-rosewater: #dc8a78;
+  --ctp-flamingo: #dd7878;
+  --ctp-pink: #ea76cb;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+  
+  /* Grayscale */
+  --ctp-text: #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-overlay2: #7c7f93;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-surface2: #acb0be;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface0: #ccd0da;
+  --ctp-base: #eff1f5;
+  --ctp-mantle: #e6e9ef;
+  --ctp-crust: #dce0e8;
+  
+  /* Semantic mappings */
+  --color-bg: var(--ctp-base);
+  --color-bg-secondary: var(--ctp-mantle);
+  --color-bg-tertiary: var(--ctp-surface0);
+  --color-text: var(--ctp-text);
+  --color-text-muted: var(--ctp-subtext0);
+  --color-text-subtle: var(--ctp-overlay1);
+  --color-link: var(--ctp-blue);
+  --color-link-hover: var(--ctp-sapphire);
+  --color-border: var(--ctp-surface1);
+  --color-border-strong: var(--ctp-surface2);
+  --color-accent: var(--ctp-mauve);
+  --color-success: var(--ctp-green);
+  --color-warning: var(--ctp-yellow);
+  --color-error: var(--ctp-red);
+  
+  /* Component colors */
+  --color-navbar-bg: var(--ctp-base);
+  --color-navbar-text: var(--ctp-text);
+  --color-card-bg: var(--ctp-mantle);
+  --color-code-bg: var(--ctp-surface0);
+  --color-code-text: var(--ctp-text);
+  --color-table-header-bg: var(--ctp-surface0);
+  --color-table-stripe-bg: var(--ctp-mantle);
+  --color-input-bg: var(--ctp-base);
+  --color-input-border: var(--ctp-surface1);
+  --color-button-bg: var(--ctp-blue);
+  --color-button-text: var(--ctp-base);
+  --color-tag-bg: var(--ctp-surface0);
+  --color-tag-text: var(--ctp-text);
+}
+
+/* ========================================
+   Dark Theme (Mocha)
+   ======================================== */
+[data-theme="dark"] {
+  /* Base colors */
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+  
+  /* Grayscale */
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay2: #9399b2;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface2: #585b70;
+  --ctp-surface1: #45475a;
+  --ctp-surface0: #313244;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+  
+  /* Semantic mappings (automatically update) */
+  --color-bg: var(--ctp-base);
+  --color-bg-secondary: var(--ctp-mantle);
+  --color-bg-tertiary: var(--ctp-surface0);
+  --color-text: var(--ctp-text);
+  --color-text-muted: var(--ctp-subtext0);
+  --color-text-subtle: var(--ctp-overlay1);
+  --color-link: var(--ctp-blue);
+  --color-link-hover: var(--ctp-sky);
+  --color-border: var(--ctp-surface1);
+  --color-border-strong: var(--ctp-surface2);
+  --color-accent: var(--ctp-mauve);
+  --color-success: var(--ctp-green);
+  --color-warning: var(--ctp-yellow);
+  --color-error: var(--ctp-red);
+  
+  /* Component colors */
+  --color-navbar-bg: var(--ctp-mantle);
+  --color-navbar-text: var(--ctp-text);
+  --color-card-bg: var(--ctp-surface0);
+  --color-code-bg: var(--ctp-surface0);
+  --color-code-text: var(--ctp-text);
+  --color-table-header-bg: var(--ctp-surface0);
+  --color-table-stripe-bg: var(--ctp-mantle);
+  --color-input-bg: var(--ctp-surface0);
+  --color-input-border: var(--ctp-surface1);
+  --color-button-bg: var(--ctp-blue);
+  --color-button-text: var(--ctp-crust);
+  --color-tag-bg: var(--ctp-surface1);
+  --color-tag-text: var(--ctp-text);
+}
+
+/* ========================================
+   Apply Theme to Elements
+   ======================================== */
+
+/* Body and base */
+body {
+  background-color: var(--color-bg) !important;
+  color: var(--color-text) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body > .container {
+  color: var(--color-text);
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+}
+
+a:hover, a:focus {
+  color: var(--color-link-hover);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: var(--color-text);
+}
+
+/* Paragraphs and text */
+p, li, td, th, label {
+  color: var(--color-text);
+}
+
+.text-muted {
+  color: var(--color-text-muted) !important;
+}
+
+/* Navbar - Bootstrap overrides */
+.navbar,
+.navbar-default {
+  background-color: var(--color-navbar-bg) !important;
+  background-image: none !important;
+  border-color: var(--color-border) !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-brand,
+.navbar-nav > li > a,
+.navbar-nav a {
+  color: var(--color-navbar-text) !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: var(--color-link-hover) !important;
+  background-color: transparent !important;
+}
+
+/* Navbar toggle button (hamburger) */
+.navbar-default .navbar-toggle {
+  border-color: var(--color-border);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: var(--color-text);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: var(--color-bg-tertiary);
+}
+
+.dropdown-menu {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-border);
+}
+
+.dropdown-menu > li > a {
+  color: var(--color-text) !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-link) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--color-button-bg);
+  border-color: var(--color-button-bg);
+  color: var(--color-button-text);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--ctp-sapphire);
+  border-color: var(--ctp-sapphire);
+}
+
+.btn-default {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: var(--color-border);
+  border-color: var(--color-border-strong);
+  color: var(--color-text);
+}
+
+/* Forms */
+.form-control {
+  background-color: var(--color-input-bg);
+  border-color: var(--color-input-border);
+  color: var(--color-text);
+}
+
+.form-control:focus {
+  border-color: var(--color-link);
+  box-shadow: 0 0 0 0.2rem rgba(137, 180, 250, 0.25);
+}
+
+/* Tables */
+.table {
+  color: var(--color-text);
+}
+
+.table > thead > tr > th {
+  background-color: var(--color-table-header-bg);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.table > tbody > tr > td {
+  border-color: var(--color-border);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: var(--color-table-stripe-bg);
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: var(--color-bg-tertiary);
+}
+
+/* Cards and panels */
+.panel, .well, .card {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+.panel-heading {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+/* Labels and badges */
+.label {
+  color: var(--color-tag-text);
+}
+
+.label-default {
+  background-color: var(--color-tag-bg);
+}
+
+.label-primary {
+  background-color: var(--ctp-blue);
+}
+
+.label-info {
+  background-color: var(--ctp-sapphire);
+}
+
+.label-success {
+  background-color: var(--ctp-green);
+}
+
+.label-warning {
+  background-color: var(--ctp-peach);
+}
+
+.label-danger {
+  background-color: var(--ctp-red);
+}
+
+/* Code */
+code, pre {
+  background-color: var(--color-code-bg);
+  color: var(--color-code-text);
+  border-color: var(--color-border);
+}
+
+pre {
+  border: 1px solid var(--color-border);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left-color: var(--ctp-mauve);
+  color: var(--color-text-muted);
+}
+
+/* Horizontal rules */
+hr {
+  border-color: var(--color-border);
+}
+
+/* Alerts */
+.alert-info {
+  background-color: var(--ctp-sapphire);
+  border-color: var(--ctp-blue);
+  color: var(--color-button-text);
+}
+
+.alert-success {
+  background-color: var(--ctp-green);
+  border-color: var(--ctp-teal);
+  color: var(--color-button-text);
+}
+
+.alert-warning {
+  background-color: var(--ctp-peach);
+  border-color: var(--ctp-yellow);
+  color: var(--ctp-crust);
+}
+
+.alert-danger {
+  background-color: var(--ctp-red);
+  border-color: var(--ctp-maroon);
+  color: var(--color-button-text);
+}
+
+/* Footer - includes bottom navbar */
+.footer, footer,
+.navbar-fixed-bottom,
+.navbar-fixed-bottom.navbar-default {
+  background-color: var(--color-bg-secondary) !important;
+  background-image: none !important;
+  border-color: var(--color-border) !important;
+  color: var(--color-text-muted);
+}
+
+.navbar-fixed-bottom .navbar-nav > li > a,
+.navbar-fixed-bottom a {
+  color: var(--color-text-muted) !important;
+}
+
+.navbar-fixed-bottom .navbar-nav > li > a:hover,
+.navbar-fixed-bottom a:hover {
+  color: var(--color-link) !important;
+}
+
+/* Images - add subtle background for transparent images */
+[data-theme="dark"] img {
+  background-color: transparent;
+}
+
+/* Specific site components */
+
+/* Paper figures */
+.paper-figure {
+  background: var(--color-bg-tertiary);
+  border-color: var(--color-border);
+}
+
+/* Blog sidebar */
+.blog-sidebar {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-border);
+}
+
+/* Blog controls */
+.blog-controls {
+  background: var(--color-bg-secondary);
+}
+
+/* Search results */
+#search-results {
+  color: var(--color-text);
+}
+
+/* Member cards hover */
+.member-container:hover {
+  background-color: var(--color-bg-tertiary);
+}
+
+/* Tag cloud */
+.tag-cloud .label {
+  background-color: var(--color-tag-bg);
+  color: var(--color-tag-text);
+}
+
+/* References in papers */
+.references .csl-entry {
+  color: var(--color-text);
+}
+
+/* Giscus dark theme support */
+[data-theme="dark"] .giscus {
+  --giscus-bg: var(--ctp-surface0);
+}
+
+/* ========================================
+   Theme Toggle Button (in footer)
+   ======================================== */
+.theme-toggle {
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text) !important;
+  cursor: pointer;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  margin: 10px 0;
+}
+
+.theme-toggle:hover {
+  background-color: var(--color-bg);
+  border-color: var(--color-link);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+.theme-toggle-icon {
+  font-size: 14px;
+}
+
+.theme-toggle-text {
+  font-weight: 400;
+}
+
+/* Adjust navbar li containing the toggle */
+.navbar-nav > li > .theme-toggle {
+  margin-top: 12px;
+}

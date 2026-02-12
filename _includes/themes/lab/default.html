@@ -34,6 +34,10 @@
     <!-- Fonts via Google -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
 
+    <!-- Theme (Catppuccin light/dark) -->
+    <link href="/assets/themes/lab/css/theme.css" rel="stylesheet" type="text/css"/>
+    <script src="/assets/themes/lab/js/theme-toggle.js"></script>
+
     <!-- Math via MathJax -->
     <script type="text/javascript" src="/assets/js/MathJax.js"></script>
     <script src="/assets/js/jquery.js" type="text/javascript"></script>
@@ -114,13 +118,19 @@
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-right navbar-small">
+        <ul class="nav navbar-nav navbar-left navbar-small">
           <li><a href={{ site.wiki.url }}> &gt;Wiki</a></li>
           <li><a href="/contact/"> &gt;Contact</a></li>
           <li><a href={{ site.department.url }}> &gt;{{ site.department.name }}</a></li>
           <li><a href={{ site.institution.url }}>	&gt;{{ site.institution.name }}</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
+          <li>
+            <button type="button" class="theme-toggle" aria-label="Toggle theme">
+              <span class="theme-toggle-icon">🌙</span>
+              <span class="theme-toggle-text">Dark</span>
+            </button>
+          </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>

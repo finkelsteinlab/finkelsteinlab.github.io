@@ -3,27 +3,28 @@
 
 $font-size-base: 16px;
 $font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$primary-color: #000000;
-$subtle-color: #95a5a6;
 $font-weight-base: 300;
 $heavy-font-weight: 700;
 
 $carousel-height: 350px;
+
+// Colors now come from CSS variables in theme.css
+// These SCSS vars are kept for backwards compatibility but not used for theming
 
 body {
 	font-size: $font-size-base;
 	font: $font-stack;
 	font-family: $font-stack;
 	font-weight: $font-weight-base;
-	color: $primary-color;
+	// color set by theme.css
 }
 
 body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
-	color: $primary-color;
 	font-weight: $font-weight-base;
 	padding-bottom: 50px; /* to prevent navbar overlap */
+	// color set by theme.css
 }
 
 :target:before {
@@ -140,7 +141,7 @@ a.off {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	color: #880000;
+	color: var(--ctp-red, #880000);
 	font-size: $font-size-base*2;
 }
 
@@ -175,7 +176,7 @@ strong {
 	display: table-cell; 
 	vertical-align: middle;
 	text-align: center;
-	text-shadow: 1.5px 1.5px #ffffff;
+	text-shadow: 1.5px 1.5px var(--color-bg, #ffffff);
 }
 
 // navbar
@@ -189,7 +190,7 @@ strong {
 	font-size: 30px; 
 	font-weight: $font-weight-base;
 	a {
-		color: black;
+		color: var(--color-text, black);
 	}
 }
 
@@ -211,7 +212,7 @@ strong {
 
 .project-image {
 	width: 600px;
-	background-color: #FFFFCC;
+	background-color: var(--ctp-yellow, #FFFFCC);
 }
 
 .paper-image {
@@ -322,13 +323,13 @@ strong {
 }
 
 .subtle {
-	color: $subtle-color;
+	color: var(--color-text-muted, #95a5a6);
 }
 
 .note-title {
 	font-weight: 600;
 	a {
-		color: black;
+		color: var(--color-text, black);
 		border-bottom: none;
 	}
 
@@ -342,7 +343,7 @@ strong {
 	line-height: ceil($font-size-base*1.2);
 
 	a {
-		color: black;
+		color: var(--color-text, black);
 		border-bottom: thin dotted;
 		/*&:hover {
 			border-bottom: thin solid;	
@@ -404,8 +405,8 @@ strong {
 
 // Paper full-text figure boxes
 .paper-figure {
-  background: #f8f6f1;
-  border: 1px solid #e8e4da;
+  background: var(--color-bg-tertiary, #f8f6f1);
+  border: 1px solid var(--color-border, #e8e4da);
   border-radius: 6px;
   padding: 20px;
   margin: 1.5em 0;
@@ -424,6 +425,6 @@ strong {
     line-height: 1.5;
     margin-top: 12px;
     padding-top: 12px;
-    border-top: 1px solid #e8e4da;
+    border-top: 1px solid var(--color-border, #e8e4da);
   }
 }
