@@ -114,6 +114,7 @@ if [ -s "$TMP_BIB" ]; then
         --citeproc
         --bibliography="$TMP_BIB"
         --csl="$CSL_FILE"
+        -M link-citations=true
     )
 fi
 
