@@ -244,4 +244,9 @@ Conceptualization: F.L., C.H., E.Y.S., J.A.S. and S.E.L.; investigation: J.H.S.,
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5966407/) or the published article in *Cell* 173(7):1650–1662 (2018).
+
+---
 *Archived from [PubMed Central (PMC5966407)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5966407/) on 2025-07-19.*
