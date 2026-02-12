@@ -226,6 +226,10 @@ We thank the many molecular technologists and volunteers in the Molecular Diagno
 ##  Author Contributions
 J.M.M. conceptualized and designed the project; R.J.O., P.A.C., S.W.L., S.S., R.O., M.N., J.J.D., P.Y., M.O.S, L.P., K.R., M.N.S, R.G, J.C., R.M.T, A.B., I.J.F, and J.G. performed research; all authors wrote the manuscript.
 
+## References
+
+For the complete references list (84 citations), please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/) or the published article in *Emerg Infect Dis* 27(8):2159–2176 (2021).
+
 ---
 
 *Archived from [PubMed Central (PMC8299152)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/) on 2025-07-19.*
