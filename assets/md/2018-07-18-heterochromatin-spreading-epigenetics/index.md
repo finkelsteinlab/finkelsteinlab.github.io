@@ -77,35 +77,35 @@ Our measurements thus far cannot reveal the dynamics of transitions between stat
 ##### Figure 3—figure supplement 2. Single-cell analysis of nucleation and spreading using a Fission Yeast Lifespan Micro-dissector (FYLM).
 ![Figure 3—figure supplement 2.](elife-32948-fig3-figsupp2.jpg)
 (**A**.) FYLM analysis of _ura4::dh_ HSS3kb cells. TOP LEFT: 60 hr of normalized ‘green’ fluorescence, a subset of cells are shown for clarity. five example cells are overlaid in gray each with different line types. BOTTOM LEFT: 60 hr of normalized ‘orange’ fluorescence in the matching subset of cells with the same five overlaid in gray. *, # represent two example cells. RIGHT: for two representative sample cells imaged, plots of normalized ‘green’ and ‘orange’ across its measured lifetime (grayscale). The corresponding cells are marked in the orange traces on LEFT. (**B**) Categorization of cell longevity of all cells analyzed in the FLYM experiment. Measured lifespan ends when a cell dies or is ejected from its capture channel. (**C**) For wild-type MATHSS TOP: ‘green’ fluorescence heatmap (blue (0) to yellow (1)) for the same 30 cells as in 3C. BOTTOM: 60 hr of traces for ‘orange’ divided by ‘green’ for the five example cells indicated in 3C. (**D**) ‘green’ fluorescence heatmap and ‘orange’/”green’ traces for _ΔREIII_ HSS as in C. (**E**) ‘green’ fluorescence heatmap _ΔK_ HSS as in C. (**F**) ‘orange’/”green’ traces for _ura4::dh_ HSS3kb as in C. *, # indicate the same cells as in A.
-##### Figure 3—video 1. Cell #274 from strain PAS244.
+##### [Figure 3](#fig3)—video 1. Cell #274 from strain PAS244.
 Your browser is not supporting the HTML5 <video> element.
 You may download that video as a file and play it with a player of you choice.
 [Download video stream](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/24e9/6070336/caf287fd7445/elife-32948-fig3-video1-pmcvs_normal.mp4).
 [Download video file](https://pmc.ncbi.nlm.nih.gov/articles/instance/6070336/bin/elife-32948-fig3-video1.mp4) (249KB, mp4) 
 DOI: 10.7554/eLife.32948.010
 This movie consists of imaging in four channels, listed from top to bottom: Bright field, ‘green’, ‘orange’, and ‘red’ for cell #274 from the strain PAS244 ura4HSS3kb. X-Y fluorescence plot for this cell is shown in [Figure 3—figure supplement 2A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6070336/#fig3s2), top right.
-##### Figure 3—video 2. Cell #271 from strain PAS244.
+##### [Figure 3](#fig3)—video 2. Cell #271 from strain PAS244.
 Your browser is not supporting the HTML5 <video> element.
 You may download that video as a file and play it with a player of you choice.
 [Download video stream](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/24e9/6070336/62b60e35291d/elife-32948-fig3-video2-pmcvs_normal.mp4).
 [Download video file](https://pmc.ncbi.nlm.nih.gov/articles/instance/6070336/bin/elife-32948-fig3-video2.mp4) (219.8KB, mp4) 
 DOI: 10.7554/eLife.32948.011
 This movie consists of imaging in four channels, listed from top to bottom: Bright field, ‘green’, ‘orange’, and ‘red’ for cell #271 from the strain PAS244 ura4HSS3kb. X-Y fluorescence plot for this cell is shown in [Figure 3—figure supplement 2A](https://pmc.ncbi.nlm.nih.gov/articles/PMC6070336/#fig3s2), bottom right.
-##### Figure 3—video 3. Cell #350 from strain PAS389.
+##### [Figure 3](#fig3)—video 3. Cell #350 from strain PAS389.
 Your browser is not supporting the HTML5 <video> element.
 You may download that video as a file and play it with a player of you choice.
 [Download video stream](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/24e9/6070336/32bcd731bb29/elife-32948-fig3-video3-pmcvs_normal.mp4).
 [Download video file](https://pmc.ncbi.nlm.nih.gov/articles/instance/6070336/bin/elife-32948-fig3-video3.mp4) (582.8KB, mp4) 
 DOI: 10.7554/eLife.32948.012
 This movie consists of imaging in four channels, listed from top to bottom: Bright field, ‘green’, ‘orange’, and ‘red’ for cell #350 from the strain PAS389 WT MATHSS. X-Y fluorescence plot for this cell is shown in [Fig. 3C](#fig3). Fluctuations of colors in this video occur over a narrow range (see [Fig. 3C](#fig3) RIGHT) and are amplified due to relative scaling in the video with respect to background.
-##### Figure 3—video 4. Cell #407 from strain PAS391.
+##### [Figure 3](#fig3)—video 4. Cell #407 from strain PAS391.
 Your browser is not supporting the HTML5 <video> element.
 You may download that video as a file and play it with a player of you choice.
 [Download video stream](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/24e9/6070336/68dee88d365c/elife-32948-fig3-video4-pmcvs_normal.mp4).
 [Download video file](https://pmc.ncbi.nlm.nih.gov/articles/instance/6070336/bin/elife-32948-fig3-video4.mp4) (210KB, mp4) 
 DOI: 10.7554/eLife.32948.013
 This movie consists of imaging in four channels, listed from top to bottom: Bright field, ‘green’, ‘orange’, and ‘red’ for cell #407 from the strain PAS391 _ΔREIII_ HSS. X-Y fluorescence plot for this cell is shown in [Fig. 3D](#fig3).
-##### Figure 3—video 5. Cell #123 from strain PAS387.
+##### [Figure 3](#fig3)—video 5. Cell #123 from strain PAS387.
 Your browser is not supporting the HTML5 <video> element.
 You may download that video as a file and play it with a player of you choice.
 [Download video stream](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/24e9/6070336/7a63bc2a5e42/elife-32948-fig3-video5-pmcvs_normal.mp4).
