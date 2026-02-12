@@ -164,3 +164,23 @@ JB :
 # allow page redirection
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
+
+# Blog feed configuration
+feed:
+  path: /blog/feed.xml
+  categories:
+    path: /blog/feed/:name.xml
+    only:
+      - blog
+
+# Blog post defaults
+defaults:
+  - scope:
+      path: "blog/_posts"
+      type: "posts"
+    values:
+      layout: "blog-post"
+      category: "blog"
+      author: "Ilya Finkelstein"
+      permalink: /blog/:slug/
