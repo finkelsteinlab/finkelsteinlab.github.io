@@ -248,6 +248,49 @@ Two-color imaging was conducted using two electron-multiplying charge coupled de
 ##  Acknowledgments
 We thank Dr. Jennifer Surtees and members of the I.J.F., K.M.M., and T.T.P. laboratories for useful discussions and for critically reading the manuscript. We thank our colleagues Eric Greene (Columbia University, NY), Paul Modrich (Duke University, NC), R. Michael Liskay (Oregon Health & Science University, OR), Junjie Chen (MD Anderson Cancer Center, TX), and Mauro Modesti (Cancer Research Center of Marseille, FR) for valuable reagents. This work was supported by National Institute of General Medical Sciences of the National Institutes of Health Grant GM097177 (to I.J.F.), the Cancer Prevention Research Institute of Texas (CPRIT) Grants R1214 (to I.J.F.), R1116 (to K.M.M.), and RP110465 to (T.T.P.), and Welch Foundation Grant F-l808 (to I.J.F.). I.J.F. and K.M.M. are CPRIT Scholars in Cancer Research.
 
+## References
+
+1. Kim DS, et al. DNA end resection by human Exo1 requires kinase-dependent interaction with RPA. Proc Natl Acad Sci USA. 2016;113(6):E691-E700. [doi:10.1073/pnas.1516674113](https://doi.org/10.1073/pnas.1516674113)
+2. Mimitou EP, Symington LS. DNA end resection: Many nucleases make light work. DNA Repair (Amst). 2009;8(9):983-995. [doi:10.1016/j.dnarep.2009.04.017](https://doi.org/10.1016/j.dnarep.2009.04.017)
+3. Daley JM, et al. Biochemical mechanism of DNA end resection and its regulation. Wiley Interdiscip Rev RNA. 2015;6(4):445-460. [doi:10.1002/wrna.1287](https://doi.org/10.1002/wrna.1287)
+4. Sartori AA, et al. Human CtIP promotes DNA end resection. Nature. 2007;450(7169):509-514. [doi:10.1038/nature06337](https://doi.org/10.1038/nature06337)
+5. Makharashvili N, Paull TT. CtIP: Genetic and structural insights into a key component of the DNA-damage response. DNA Repair (Amst). 2015;32:159-166. [doi:10.1016/j.dnarep.2015.04.009](https://doi.org/10.1016/j.dnarep.2015.04.009)
+6. Westmoreland JW, Resnick MA. Recombinational repair of radiation-induced double strand breaks. Adv Exp Med Biol. 2016;896:129-147. [doi:10.1007/978-3-319-27550-7_8](https://doi.org/10.1007/978-3-319-27550-7_8)
+7. Zhu Z, et al. Sgs1 helicase and two nucleases Dna2 and Exo1 resect long-range double-strand breaks in *Saccharomyces cerevisiae*. Mol Cell. 2008;32(4):529-538. [doi:10.1016/j.molcel.2008.10.027](https://doi.org/10.1016/j.molcel.2008.10.027)
+8. Liberti SE, Rasmussen LJ. Is hEXO1 a cancer predisposing gene? Mol Cancer Res. 2004;2(8):427-432.
+9. Wei K, et al. Inactivation of Exonuclease 1 in mice results in DNA mismatch repair defects, increased cancer susceptibility, and male and female sterility. Genes Dev. 2003;17(5):603-614. [doi:10.1101/gad.1060603](https://doi.org/10.1101/gad.1060603)
+10. Eid W, et al. DNA end resection by CtIP and exonuclease 1 prevents genomic instability. EMBO Rep. 2010;11(12):962-968. [doi:10.1038/embor.2010.157](https://doi.org/10.1038/embor.2010.157)
+11. Tomimatsu N, et al. Exo1 plays a major role in DNA end resection in humans and influences double-strand break repair and damage signaling decisions. DNA Repair (Amst). 2012;11(4):441-448. [doi:10.1016/j.dnarep.2012.01.006](https://doi.org/10.1016/j.dnarep.2012.01.006)
+12. Zhou Y, et al. Quantitation of DNA double-strand break resection intermediates in human cells. Nucleic Acids Res. 2014;42(3):e19. [doi:10.1093/nar/gkt1309](https://doi.org/10.1093/nar/gkt1309)
+13. Tong AHY, et al. Global mapping of the yeast genetic interaction network. Science. 2004;303(5659):808-813. [doi:10.1126/science.1091317](https://doi.org/10.1126/science.1091317)
+14. Wold MS. Replication protein A: A heterotrimeric, single-stranded DNA-binding protein required for eukaryotic DNA metabolism. Annu Rev Biochem. 1997;66:61-92. [doi:10.1146/annurev.biochem.66.1.61](https://doi.org/10.1146/annurev.biochem.66.1.61)
+15. Chen H, et al. RPA coordinates DNA end resection and prevents formation of DNA hairpins. Mol Cell. 2013;50(4):589-600. [doi:10.1016/j.molcel.2013.04.032](https://doi.org/10.1016/j.molcel.2013.04.032)
+16. Hass CS, et al. Repair-specific functions of replication protein A. J Biol Chem. 2012;287(6):3908-3918. [doi:10.1074/jbc.M111.287441](https://doi.org/10.1074/jbc.M111.287441)
+17. Lisby M, et al. Choreography of the DNA damage response: Spatiotemporal relationships among checkpoint and repair proteins. Cell. 2004;118(6):699-713. [doi:10.1016/j.cell.2004.08.015](https://doi.org/10.1016/j.cell.2004.08.015)
+18. Cannavo E, et al. Relationship of DNA degradation by *Saccharomyces cerevisiae* exonuclease 1 and its stimulation by RPA and Mre11-Rad50-Xrs2 to DNA end resection. Proc Natl Acad Sci USA. 2013;110(18):E1661-E1668. [doi:10.1073/pnas.1305166110](https://doi.org/10.1073/pnas.1305166110)
+19. Nimonkar AV, et al. BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. Genes Dev. 2011;25(4):350-362. [doi:10.1101/gad.2003811](https://doi.org/10.1101/gad.2003811)
+20. Niu H, et al. Mechanism of the ATP-dependent DNA end-resection machinery from *Saccharomyces cerevisiae*. Nature. 2010;467(7311):108-111. [doi:10.1038/nature09318](https://doi.org/10.1038/nature09318)
+21. Yang S-H, et al. The SOSS1 single-stranded DNA binding complex promotes DNA end resection in concert with Exo1. EMBO J. 2013;32(1):126-139. [doi:10.1038/emboj.2012.314](https://doi.org/10.1038/emboj.2012.314)
+22. Cejka P, et al. DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2. Nature. 2010;467(7311):112-116. [doi:10.1038/nature09355](https://doi.org/10.1038/nature09355)
+23. Nicolette ML, et al. Mre11-Rad50-Xrs2 and Sae2 promote 5′ strand resection of DNA double-strand breaks. Nat Struct Mol Biol. 2010;17(12):1478-1485. [doi:10.1038/nsmb.1957](https://doi.org/10.1038/nsmb.1957)
+24. Richard DJ, et al. Single-stranded DNA-binding protein hSSB1 is critical for genomic stability. Nature. 2008;453(7195):677-681. [doi:10.1038/nature06883](https://doi.org/10.1038/nature06883)
+25. Huang J, et al. SOSS complexes participate in the maintenance of genomic stability. Mol Cell. 2009;35(3):384-393. [doi:10.1016/j.molcel.2009.06.011](https://doi.org/10.1016/j.molcel.2009.06.011)
+26. Ren W, et al. Structural basis of SOSS1 complex assembly and recognition of ssDNA. Cell Rep. 2014;6(6):982-991. [doi:10.1016/j.celrep.2014.02.020](https://doi.org/10.1016/j.celrep.2014.02.020)
+27. Richard DJ, et al. hSSB1 rapidly binds at the sites of DNA double-strand breaks and is required for the efficient recruitment of the MRN complex. Nucleic Acids Res. 2011;39(5):1692-1702. [doi:10.1093/nar/gkq1098](https://doi.org/10.1093/nar/gkq1098)
+28. Finkelstein IJ, Greene EC. Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. Methods Mol Biol. 2011;745:447-461. [doi:10.1007/978-1-61779-129-1_26](https://doi.org/10.1007/978-1-61779-129-1_26)
+29. Finkelstein IJ, et al. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature. 2010;468(7326):983-987. [doi:10.1038/nature09561](https://doi.org/10.1038/nature09561)
+30. Robison AD, Finkelstein IJ. High-throughput single-molecule studies of protein-DNA interactions. FEBS Lett. 2014;588(19):3539-3546. [doi:10.1016/j.febslet.2014.05.021](https://doi.org/10.1016/j.febslet.2014.05.021)
+31. Nimonkar AV, et al. Human exonuclease 1 and BLM helicase interact to resect DNA and initiate DNA repair. Proc Natl Acad Sci USA. 2008;105(44):16906-16911. [doi:10.1073/pnas.0809380105](https://doi.org/10.1073/pnas.0809380105)
+32. Orans J, et al. Structures of human exonuclease 1 DNA complexes suggest a unified mechanism for nuclease family. Cell. 2011;145(2):212-223. [doi:10.1016/j.cell.2011.03.005](https://doi.org/10.1016/j.cell.2011.03.005)
+33. Liao S, et al. Analysis of MRE11's function in the 5′→3′ processing of DNA double-strand breaks. Nucleic Acids Res. 2012;40(10):4496-4506. [doi:10.1093/nar/gks044](https://doi.org/10.1093/nar/gks044)
+34. Tran PT, et al. Characterization of nuclease-dependent functions of Exo1p in *Saccharomyces cerevisiae*. DNA Repair (Amst). 2002;1(11):895-912. [doi:10.1016/s1568-7864(02)00114-3](https://doi.org/10.1016/s1568-7864(02)00114-3)
+35. Tomimatsu N, et al. Phosphorylation of EXO1 by CDKs 1 and 2 regulates DNA end resection and repair pathway choice. Nat Commun. 2014;5:3561. [doi:10.1038/ncomms4561](https://doi.org/10.1038/ncomms4561)
+36. Chen X, et al. PCNA promotes processive DNA end resection by Exo1. Nucleic Acids Res. 2013;41(20):9325-9338. [doi:10.1093/nar/gkt672](https://doi.org/10.1093/nar/gkt672)
+37. Pathak S, et al. Characterization of the functional binding properties of antibody conjugated quantum dots. Nano Lett. 2007;7(7):1839-1845. [doi:10.1021/nl062706i](https://doi.org/10.1021/nl062706i)
+38. Sertic S, et al. Human exonuclease 1 connects nucleotide excision repair (NER) processing with checkpoint activation in response to UV irradiation. Proc Natl Acad Sci USA. 2011;108(33):13647-13652. [doi:10.1073/pnas.1108547108](https://doi.org/10.1073/pnas.1108547108)
+39. Thompson RE, et al. Precise nanometer localization analysis for individual fluorescent probes. Biophys J. 2002;82(5):2775-2783. [doi:10.1016/S0006-3495(02)75618-X](https://doi.org/10.1016/S0006-3495(02)75618-X)
+40. Schmutte C, et al. Human exonuclease I interacts with the mismatch repair protein hMSH2. Cancer Res. 1998;58(20):4537-4542.
+
 ---
 
 *Archived from [PubMed Central (PMC4780606)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4780606/) on 2025-07-19.*
