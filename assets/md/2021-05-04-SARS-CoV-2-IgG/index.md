@@ -28,6 +28,10 @@ The license terms selected by the author(s) for this preprint version do not per
 * * *
 Articles from bioRxiv are provided here courtesy of **Cold Spring Harbor Laboratory Preprints**
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7781304/) or consult the published article in *Science* 372(6546):1108–1112 (2021).
+
 ---
 
 *Archived from [PubMed Central (PMC7781304)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7781304/) on 2025-07-19.*
