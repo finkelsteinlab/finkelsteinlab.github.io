@@ -29,9 +29,4 @@ In addition to developing the editing technology itself, the project explores de
 
 ---
 
-## References
-
-This is an archived news article from Emily's Entourage. For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [Emily's Entourage](https://www.emilysentourage.org/emilys-entourage-awards-new-funding-to-university-of-texas-at-austin-to-advance-breakthrough-gene-editing-therapy-for-hard-to-treat-cystic-fibrosis-mutations/) on 2025-02-09.*
