@@ -168,4 +168,9 @@ Articles from RNA are provided here courtesy of **The RNA Society**
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11404446/) or the published article in *Nat. Commun.* 15(1):7568 (2024).
+
+---
 *Archived from [PubMed Central (PMC11404446)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11404446/) on 2025-07-19.*
