@@ -340,6 +340,37 @@ The `pmc-to-md.py` scraper produces raw output that needs cleanup. When reformat
 
 **Reference to example:** See `assets/md/2025-07-19-Cas12a-trans-cleavage-diagnostics/index.md`
 
+### Fixing paper full-text markdown (figures, links, references)
+
+After initial reformatting, apply these structural fixes to each `assets/md/<paper-name>/index.md`:
+
+**1. Figure order:**
+- Ensure figure blocks appear in sequential order (Fig 1, Fig 2, Fig 3, …). Move out-of-order blocks to the correct position.
+
+**2. Figure heading format and anchors:**
+- Heading: `#### Figure N. {#figN}`
+- Image alt text: `![Figure N](filename.jpg)`
+- Caption text in bold: `**caption text**`
+
+**3. Figure linking (in-text references → anchor links):**
+- `Fig. 1a` → `[Fig. 1a](#fig1)`
+- `(Fig. 2b, c)` → `([Fig. 2b, c](#fig2))`
+- `Figure 3` → `[Figure 3](#fig3)`
+- `(Fig. 1a and Fig. 2b)` → `([Fig. 1a](#fig1) and [Fig. 2b](#fig2))`
+- Anchor is always `#figN` (number only, ignore panel letters a, b, c)
+- Leave already-linked `[Fig. N](#figN)` references alone
+- Do NOT link Supplementary figures, Extended Data figures, Supporting Information figures, or Table references
+- Do NOT link figures from other papers (e.g., "Fig. 1 of Smith et al.")
+- Inside figure captions, also link cross-references to other figures
+
+**4. References section:**
+- If the file has NO `## References` section, fetch from PMC and add one:
+  - Get `pmcid` from YAML front matter
+  - Fetch `https://pmc.ncbi.nlm.nih.gov/articles/<PMCID>/`
+  - Extract the bibliography and add `## References` before any archive footer
+  - Format: `1. Author names. Title. *Journal* year;volume:pages. [doi:10.xxx/yyy](https://doi.org/10.xxx/yyy)`
+- If references already exist, leave as-is unless they need reformatting
+
 ### Notes
 
 - 83 papers currently have PMC full-text archives (82 with `markdown:` field + 1 IgG/Science with no figures on PMC)
