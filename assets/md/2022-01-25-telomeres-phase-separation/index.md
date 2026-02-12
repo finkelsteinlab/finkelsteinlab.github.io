@@ -172,164 +172,6 @@ Recombinant proteins were purified from Sf9-ESF _S. frugiperda_ insect cells (RR
 
 Constructs for expressing individual components of the human shelterin complex were tagged with an N terminal ZZ affinity tag, TEV cleavage site, and YBBR labeling site and cloned into a Baculovirus vector. A construct expressing both TPP1 and TIN2 (TIN2 did not express on its own or without a solubility tag) and constructs expressing four- or five-component shelterin were cloned using a BigBac vector as described ([Ferro et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R35)). For the four-component shelterin BigBac construct, POT1 was given an N terminal YBBR tag, POT1 and TRF2 were each given an N terminal ZZ affinity tag and a TEV cleavage site, and TIN2 and TPP1 were each given an N-terminal His-MBP affinity tag and a TEV cleavage site. For a full list of constructed plasmids, see the [Key Resources Table](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#T1). Protein was purified from insect cells as previously described ([Ferro et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R35)). Briefly, plasmids containing genes of interest were transformed into DH10Bac competent cells (Berkeley MacroLab), and Bacmid DNA was purified using ZymoPURE miniprep buffers (Zymo Research, D4210) and ethanol precipitation.
 
-<details>
-<summary><strong>KEY RESOURCES TABLE</strong> (click to expand)</summary>
-
-KEY RESOURCES TABLE
-REAGENT or RESOURCE | SOURCE | IDENTIFIER
----|---|---
-**Antibodies** |  |
-Rabbit anti-TRF2 | Novus Biologicals | Cat#NB110-57130
-Mouse anti-Histone H3 | Abcam | Cat#Ab10799
-Anti-Mouse IgG, Peroxidase Conjugated, Goat | Jackson ImmunoResearch | Cat#115-035-062
-Anti-Rabbit IgG, Peroxidase Conjugated, Goat | Jackson ImmunoResearch | Cat#111-035-144
-Rabbit anti-53BP1 | Novus Biologicals | Cat#NB100-305
-Goat anti-Rabbit IgG, AlexaFluor 647 conjugated | Thermo Fisher Scientific | Cat#A-21245
-Anti-FLAG M2, mouse | Sigma-Aldrich | Cat#F1804
-**Bacterial and Virus Strains** |  |
-XL1Blue | MacroLab, University of California Berkeley | N/A
-Rosetta | MacroLab, University of California Berkeley | N/A
-DH10Bac | MacroLab, University of California Berkeley | N/A
-BL21(DE3)pLysS | Sigma-Aldrich | Cat#69451
-**Biological Samples** |  |
-**Chemicals, Peptides, and Recombinant Proteins** |  |
-Fugene HD Transfection Reagent | Promega | Cat#E2311
-TEV protease | MacroLab, University of California Berkeley | Addgene Cat#8827
-Streptavidin | ThermoFisher Scientific | Cat#434301
-LD655-CoA | Lumidyne Technologies | Custom synthesis
-LD555-CoA | Lumidyne Technologies | Custom synthesis
-Bradford Reagent | Bio-Rad | Cat#500-0006
-Benzonase nuclease | Sigma Aldrich | Cat#E1014-25KU
-Blocking reagent | Millipore Sigma | Cat#11096176001
-Fetal Bovine Serum, Premium, Heat-Inactivated | Atlanta Biologicals | Cat#S11150H
-Fibronectin Bovine Plasma | Millipore Sigma | Cat#F1141
-FITC-TelC, C-rich telomere probe, FITC labeled | PNA bio | Cat#F1009
-Formamide (Deionized) | Thermo Fisher | Cat#AM9342
-GIBCO DMEM, High Glucose, Pyruvate | Thermo Fisher Scientific | Cat#11995065
-GIBCO DPBS, no calcium, no magnesium | Thermo Fisher Scientific | Cat#14190144
-GIBCO Opti-MEM Reduced Serum Medium | Thermo Fisher Scientific | Cat#31985062
-GIBCO Penicillin-Streptomycin (10,000 U/mL) | Thermo Fisher Scientific | Cat#15140122
-Hoechst 33342, 10mg/mL | Thermo Fisher Scientific | Cat#H3570
-In-Fusion HD Cloning Plus | Takara Bio | Cat#638910
-Lenti-X Concentrator | Takara Bio | Cat#631231
-Normal Goat Serum Blocking Solution | Vector Laboratories | Cat#S-1000-20
-NuPAGE™ LDS Sample Buffer (4X) | Thermo Fisher | Cat#NP0007
-Oligofectamine | Thermo Fisher | Cat#12252011
-Paraformaldehyde (16%) | Electron Microscopy Science | Cat#15710
-Phusion® High-Fidelity DNA Polymerase | New England Biolabs | Cat#M0530L
-Pierce RIPA buffer | BCA | Cat#89901
-Protease Inhibitor tablets (EDTA-free) | Sigma | Cat#4693132001
-Puromycin dihydrochloride from Streptomyces alboniger | Sigma | Cat#P7255
-SuperSignal West Pico PLUS Chemiluminescent Substrate | Thermo Fisher | Cat#34577
-Transit293 Transfection Reagent | Mirus | Cat#MIR 2700
-TRIS-buffered saline (TBS, 10X) pH 7.4 | Fisher Scientific | Cat#AAJ62938K2
-Triton X-100 | Promega | Cat#H5142
-Tween-20 | Thermo Fisher | Cat#BP337-100
-Vectashield Plus Antifade Mounting Medium with DAPI | Vectashield | Cat#H-2000-10
-ESF 921 Insect Cell Culture Medium | Expression Systems | Cat#NC903611
-Antibiotic-antimycotic | Thermo Fisher Scientific | Cat#15240062
-Fetal Bovine Serum | Corning | Cat#35-010-CV
-ZymoPURE miniprep kit | Zymo Research | Cat#D4210
-Alexa Fluor 488 antibody labeling kit | Thermo Fisher Scientific | Cat#A20181
-Atto488 maleimide dye | Sigma-Aldrich | Cat#28562
-SYBR-Safe | Thermo Fisher Scientific | Cat#S33102
-Genejet PCR purification kit | Thermo Fisher Scientific | Cat#K0701
-Cy3 Label IT kit | Mirus Bio | Cat#MIR 3600
-Biotin-BSA | Sigma-Aldrich | Cat#9048-46-8
-Streptavidin | Thermo Fisher Scientific | Cat#434301
-**Deposited Data** |  |
-**Experimental Models: Cell Lines** |  |
-SF9-ESF S Frugiperda | Berkeley Cell Culture Facility | RRID:CVCL_0549
-Human: U-2 OS | ATCC | ATCC® HTB-96™
-Human: Lenti-X™ 293T | Takara Bio | Cat#632180
-Human: hTERT-RPE1 (p53-/-, Rb-/-) | Titia de Lange, Rockefeller Univ. | N/A
-Human: HeLa RMCE GFP-TRF1 | Huaiying Zhang, Carnegie Mellon Univ. | N/A
-**Experimental Models: Organisms/Strains** |  |
-**Oligonucleotides** |  |
-See [Table S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1) |  |
-siRNA targeting human TRF2 (#2 sequence from [Takai et al. 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)): 5′-UGU GCU GGA GAU GAU UAA AAC-3′ | IDT | N/A
-siRNA targeting human TRF2 (#4 sequence from [Takai et al. 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)): 5′-AUC GCU GGC GGA CCA UGA A-3′ | IDT | N/A
-siRNA targeting human TRF2 (sequence from [Yang et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)): 5′-CCA GAA GGA UCU GGU UCU UTT-3′  | IDT | N/A
-Scrambled RNAi (sequence from [Yang et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)): 5′-UUC UCC GAA CGU GUC ACG UTT-3′ | IDT | N/A
-_Silencer_ ™ Cy™3-labeled Negative Control No.1 siRNA | Thermo Fisher Scientific | Cat#AM4621
-**Recombinant DNA** |  |
-CDS: iLID |  [Bracha et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R16) | N/A
-CDS: TRF1 (NCBI Reference sequence: NM_003218.3) | IDT gBlock with codon optimization | N/A
-CDS: TRF2 (NCBI Reference Sequence: NM_005652.5) | IDT gBlock with codon optimization | N/A
-Plasmid: FM5-iLId-miRFP-TRF1 | This paper | N/A
-Plasmid: FM5-GFP-TRF2 | This paper | N/A
-Plasmid: FM5-miRFP-TRF1 | This paper | N/A
-Plasmid: FM5-miRFP-TRF2 | This paper | N/A
-Plasmid: FM5-sspB-mCherry |  [Sanders et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R75) | N/A
-Plasmid: FM5-sspB-mCherry-TRF1A75P | This paper | N/A
-Plasmid: FM5-sspB-mCherry-TRF2 | This paper | N/A
-Plasmid: FM5-sspB-mCherry-TRF2Acidic | This paper | N/A
-Plasmid: FM5-sspB-mCherry-TRF2ΔB | This paper | N/A
-Plasmid: FM5-TRF1-mCherry-sspB | This paper | N/A
-Plasmid: pCMV-dR8.91 | Toettcher Lab, Princeton University | N/A
-Plasmid: pMD2.G | Toettcher Lab, Princeton University | N/A
-Plasmid: pHR-FUSN-mCherry-sspB |  [Bracha et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R16) | N/A
-Plasmid: pHR-FUSN-miRFP-TRF1 | Shunsuke Shimobayashi (Brangwynne Lab, Princeton University) | N/A
-Plasmid: pHR-NLS-iLID-EGFP-FTH1 |  [Bracha et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R16) | N/A
-Plasmid: PSP |  [Sanders et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R75) | N/A
-Plasmid: VSVG |  [Sanders et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R75) | N/A
-Plasmid: EGFP-pBAD | Davidson Lab, Florida State University | Addgene Cat#54762
-Plasmid: pet29b-SFP-His | Worthington & Burkart, 2006 | Addgene Cat#75015
-Plasmid: pET-H2A |  [Luger et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R56) | N/A
-Plasmid: pET-H2B |  [Luger et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R56) | N/A
-Plasmid: pET-H3 |  [Luger et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R56) | N/A
-Plasmid: pET-H4 |  [Luger et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R56) | N/A
-Plasmid: pGEM-3z/601 |  [Lowary and Widom, 1998](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R55) | Addgene Cat#26656
-Plasmid: pOmnibac zz TEV YBBR TRF1 | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1ΔA | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1ΔHinge | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1ΔIDR | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1Hinge | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1HingeMyb | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1GSTHingeMyb | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1Basic | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2 | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2ΔB | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2ΔHinge | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2ΔIDR | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2Hinge | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2HingeMyb | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2GSTHingeMyb | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2GSTSub | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2 ΔTRFH | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2Acidic | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF1A74D | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR TRF2Y102F | This paper | N/A
-Plasmid: pOmnibac zz TEV YBBR POT1 | This paper | N/A
-Plasmid: pBig1a zz TEV YBBR TPP1 MBP TEV TIN2 | This paper | N/A
-Plasmid: pBig2ab zz TEV YBBR POT1 ZZ TEV TPP1 MBP TEV TIN2 ZZ TEV TRF1 (4comp1) | This paper | N/A
-Plasmid: pBig1a zz TEV YBBR POT1 MBP TEV TPP1 MBP TEV TIN2 ZZ TEV TRF2 (4comp2) | This paper | N/A
-Plasmid: pBig1a zz TEV YBBR RAP1 ZZ TEV TRF2 | This paper | N/A
-Plasmid: pLIB MBP TEV YBBR RAP1 | This paper | N/A
-Plasmid: pRST5-Spinach-39xTelG | This paper | N/A
-**Software and Algorithms** |  |
-Fiji (ImageJ 1.52p) | NIH |  <https://imagej.nih.gov/ij/>
-3D objects Counter (Fiji) |  [Bolte and Cordelières, 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R14) |
-3D Multicoloc in 3D ImageJ suite (Fiji) |  [Ollion et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R67) |
-GraphPad PRISM 9.1.0 | GraphPad |  <https://graphpad.com>
-MATLAB 2019b | MathWorks |  <https://www.mathworks.com/products/MATLAB.html>
-Python 3.7.10 | Python Software Foundation |  <https://python.org>
-Origin 8.5.0 SR1 | OriginLab Corporation |  <https://www.originlab.com/>
-**Other** |  |
-IgG Sepharose beads | GE Healthcare | Cat#17096902
-HisPur Ni-NTA beads | Thermo Fisher Scientific | Cat#88221
-Amylose beads | New England BioLabs | Cat# E8021S
-Superdex 200 Increase 10/300 GL | Cytiva | Cat#28-9909-44
-Superdex 200 10/300 GL | Cytiva | Cat#17517501
-NuPAGE 4-12% Bis-Tris gel | Thermo Fisher Scientific | Cat#NP0322BOX
-PEG-Biotin cover slips | MicroSurfaces, Inc | Cat# Bio_02
-Trans-Blot Turbo Mini 0.2 um PVDF transfer pack | Bio-Rad | Cat#1704156
-40kDa Zeba spin desalting column | Thermo Fisher Scientific | Cat#87766
-HiTrap SP HP | GE Life Sciences | Cat#95056-076
-HiTrap DEAE-FF | Cytiva | Cat#17515401
-Amersham Typhoon | GE Life Sciences | Cat#29238583
-
-</details>
 
 Insect cells were transfected using Fugene HD transfection reagent (Promega, E2311). The virus was amplified in progressively larger cultures. 1 mL of the P1 virus was used to infect 50 mL of Sf9 cells at 1 million cells/mL for 72 h. 10 mL of the P2 virus was used to infect 1 L of Sf9 cells at 1 million cells/mL and expression proceeded for 72 h. Cells expressing the protein of interest were harvested at 4,000 _g_ for 10 min and resuspended in 50 mL lysis buffer (50 mM HEPES pH 7.4, 1 M NaCl, 1 mM PMSF, 1 mM DTT, and 1 tablet of protease inhibitor (Sigma, 4693132001)). Lysis was performed using 15 loose and 15 tight plunges of a Wheaton glass dounce. The lysate was clarified using a 45 min, 360,000 _g_ spin in a Ti70 rotor. The supernatant was incubated with 1 mL IgG beads (IgG Sepharose 6 Fast Flow, GE Healthcare, 17096902) for ZZ-tagged TRF1, TRF2, and POT1 constructs or 1 mL amylose beads (New England BioLabs, E8021S) for co-expressed TPP1 and TIN2 and shelterin constructs for 1 h. Beads were washed with 40 mL of labelling buffer (50 mM HEPES pH 7.4, 300 mM NaCl, 10 mM MgCl2, 1 mM EGTA, 10% glycerol, 1 mM DTT). Beads were then collected and incubated with purified SFP protein (Addgene #75015)and a fluorescent dye functionalized with CoA (Lumidyne, custom synthesis) at room temperature for 30 min. Beads were washed in 40 mL labeling buffer, collected, and incubated with TEV protease (Berkeley Macrolab, Addgene #8827) for 1 h at room temperature to elute the protein. For shelterin protein preps, the protein was additionally incubated with 0.3 mL Ni-NTA beads (HisPur, Thermo Fisher Scientific, 88221) in 20 mM imidazole to remove the His-MBP and TEV in solution. After 30 min of incubation at °C, the beads were pelleted and the unbound protein was collected from the supernatant.
 
@@ -435,7 +277,203 @@ We thank Joshua Riback, Jorine Eeftens, Yi-Che Chang, David Sanders, Evangelos G
 
 ## References
 
-For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/) or the published article in *Mol. Biol. Cell* 33(2):ar7 (2022).
+1. Adam N, Degelman E, Briggs S, Wazen RM, Colarusso P, Riabowol K, and Beattie T (2019). Telomere analysis using 3D fluorescence microscopy suggests mammalian telomere clustering in hTERT-immortalized Hs68 fibroblasts. *Commun Biol* 2, 451. [DOI](https://doi.org/10.1038/s42003-019-0692-z)
+
+2. Alberti S, Gladfelter A, and Mittag T (2019). Considerations and Challenges in Studying Liquid-Liquid Phase Separation and Biomolecular Condensates. *Cell* 176, 419–434. [DOI](https://doi.org/10.1016/j.cell.2018.12.035)
+
+3. Alshareedah I, Kaur T, and Banerjee PR (2021). Methods for characterizing the material properties of biomolecular condensates. *Methods Enzymol* 646, 143–183. [DOI](https://doi.org/10.1016/bs.mie.2020.06.009)
+
+4. Altmeyer M, Neelsen KJ, Teloni F, Pozdnyakova I, Pellegrino S, Grofte M, Rask MD, Streicher W, Jungmichel S, Nielsen ML, and Lukas J (2015). Liquid demixing of intrinsically disordered proteins is seeded by poly(ADP-ribose). *Nat Commun* 6, 8088. [DOI](https://doi.org/10.1038/ncomms9088)
+
+5. Amiard S, Doudeau M, Pinte S, Poulet A, Lenain C, Faivre-Moskalenko C, Angelov D, Hug N, Vindigni A, Bouvet P, et al. (2007). A topological mechanism for TRF2-enhanced strand invasion. *Nat Struct Mol Biol* 14, 147–154. [DOI](https://doi.org/10.1038/nsmb1192)
+
+6. Baird DM, Rowson J, Wynford-Thomas D, and Kipling D (2003). Extensive allelic variation and ultrashort telomeres in senescent human cells. *Nat Genet* 33, 203–207. [DOI](https://doi.org/10.1038/ng1084)
+
+7. Banani SF, Lee HO, Hyman AA, and Rosen MK (2017). Biomolecular condensates: organizers of cellular biochemistry. *Nat Rev Mol Cell Biol* 18, 285–298. [DOI](https://doi.org/10.1038/nrm.2017.7)
+
+8. Banani SF, Rice AM, Peeples WB, Lin Y, Jain S, Parker R, and Rosen MK (2016). Compositional Control of Phase-Separated Cellular Bodies. *Cell* 166, 651–663. [DOI](https://doi.org/10.1016/j.cell.2016.06.010)
+
+9. Bandaria JN, Qin P, Berk V, Chu S, and Yildiz A (2016). Shelterin Protects Chromosome Ends by Compacting Telomeric Chromatin. *Cell* 164, 735–746. [DOI](https://doi.org/10.1016/j.cell.2016.01.036)
+
+10. Banerjee PR, Milin AN, Moosa MM, Onuchic PL, and Deniz AA (2017). Reentrant Phase Transition Drives Dynamic Substructure Formation in Ribonucleoprotein Droplets. *Angew Chem Int Ed Engl* 56, 11354–11359. [DOI](https://doi.org/10.1002/anie.201703191)
+
+11. Berry J, Weber SC, Vaidya N, Haataja M, and Brangwynne CP (2015). RNA transcription modulates phase transition-driven nuclear body assembly. *Proc Natl Acad Sci U S A* 112, E5237–5245. [DOI](https://doi.org/10.1073/pnas.1509317112)
+
+12. Biffi G, Tannahill D, and Balasubramanian S (2012). An intramolecular G-quadruplex structure is required for binding of telomeric repeat-containing RNA to the telomeric protein TRF2. *J Am Chem Soc* 134, 11974–11976. [DOI](https://doi.org/10.1021/ja305734x)
+
+13. Blackburn EH (1991). Structure and function of telomeres. *Nature* 350, 569–573. [DOI](https://doi.org/10.1038/350569a0)
+
+14. Bolte S, and Cordelières FP (2006). A guided tour into subcellular colocalization analysis in light microscopy. *J Microsc* 224, 213–232. [DOI](https://doi.org/10.1111/j.1365-2818.2006.01706.x)
+
+15. Bower BD, and Griffith JD (2014). TRF1 and TRF2 differentially modulate Rad51-mediated telomeric and nontelomeric displacement loop formation in vitro. *Biochemistry* 53, 5485–5495. [DOI](https://doi.org/10.1021/bi5006249)
+
+16. Bracha D, Walls MT, Wei MT, Zhu L, Kurian M, Avalos JL, Toettcher JE, and Brangwynne CP (2018). Mapping Local and Global Liquid Phase Behavior in Living Cells Using Photo-Oligomerizable Seeds. *Cell* 175, 1467–1480. [DOI](https://doi.org/10.1016/j.cell.2018.10.048)
+
+17. Bronshtein I, Kepten E, Kanter I, Berezin S, Lindner M, Redwood AB, Mai S, Gonzalo S, Foisner R, Shav-Tal Y, and Garini Y (2015). Loss of lamin A function increases chromatin dynamics in the nuclear interior. *Nat Commun* 6, 8044. [DOI](https://doi.org/10.1038/ncomms9044)
+
+18. Caron MC, Sharma AK, O'Sullivan J, Myler LR, Ferreira MT, Rodrigue A, Coulombe Y, Ethier C, Gagné JP, Langelier MF, et al. (2019). Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks. *Nat Commun* 10, 2954. [DOI](https://doi.org/10.1038/s41467-019-10741-9)
+
+19. Celli GB, and de Lange T (2005). DNA processing is not required for ATM-mediated telomere damage response after TRF2 deletion. *Nat Cell Biol* 7, 712–718. [DOI](https://doi.org/10.1038/ncb1275)
+
+20. Cesare AJ, Hayashi MT, Crabbe L, and Karlseder J (2013). The telomere deprotection response is functionally distinct from the genomic DNA damage response. *Mol Cell* 51, 141–155. [DOI](https://doi.org/10.1016/j.molcel.2013.06.006)
+
+21. Chiba K, Lorbeer FK, Shain AH, McSwiggen DT, Schruf E, Oh A, Ryu J, Darzacq X, Bastian BC, and Hockemeyer D (2017). Mutations in the promoter of the telomerase gene TERT contribute to tumorigenesis by a two-step mechanism. *Science* 357, 1416–1420. [DOI](https://doi.org/10.1126/science.aao0535)
+
+22. Chu HP, Cifuentes-Rojas C, Kesner B, Aeby E, Lee HG, Wei C, Oh HJ, Boukhali M, Haas W, and Lee JT (2017). TERRA RNA Antagonizes ATRX and Protects Telomeres. *Cell* 170, 86–101. [DOI](https://doi.org/10.1016/j.cell.2017.06.017)
+
+23. Chua EYD, Vogirala VK, Inian O, Wong ASW, Nordenskiöld L, Plitzko JM, Danev R, and Sandin S (2016). 3.9 Å structure of the nucleosome core particle determined by phase-plate cryo-EM. *Nucleic Acids Res* 44, 8013–8019. [DOI](https://doi.org/10.1093/nar/gkw708)
+
+24. Court R, Chapman L, Fairall L, and Rhodes D (2005). How the human telomeric proteins TRF1 and TRF2 recognize telomeric DNA: a view from high-resolution crystal structures. *EMBO Rep* 6, 39–45. [DOI](https://doi.org/10.1038/sj.embor.7400314)
+
+25. d'Adda di Fagagna F, Reaper PM, Clay-Farrace L, Fiegler H, Carr P, Von Zglinicki T, Saretzki G, Carter NP, and Jackson SP (2003). A DNA damage checkpoint response in telomere-initiated senescence. *Nature* 426, 194–198. [DOI](https://doi.org/10.1038/nature02118)
+
+26. Day CA, Kraft LJ, Kang M, and Kenworthy AK (2012). Analysis of protein and lipid dynamics using confocal fluorescence recovery after photobleaching (FRAP). *Curr Protoc Cytom* Chapter 2, Unit2.19. [DOI](https://doi.org/10.1002/0471142956.cy0219s62)
+
+27. de Lange T (2018). Shelterin-Mediated Telomere Protection. *Annu Rev Genet* 52, 223–247. [DOI](https://doi.org/10.1146/annurev-genet-032918-021921)
+
+28. Denchi EL, and de Lange T (2007). Protection of telomeres through independent control of ATM and ATR by TRF2 and POT1. *Nature* 448, 1068–1071. [DOI](https://doi.org/10.1038/nature06065)
+
+29. Deng Z, Norseen J, Wiedmer A, Riethman H, and Lieberman PM (2009). TERRA RNA binding to TRF2 facilitates heterochromatin formation and ORC recruitment at telomeres. *Mol Cell* 35, 403–413. [DOI](https://doi.org/10.1016/j.molcel.2009.06.025)
+
+30. Doksani Y, Wu JY, de Lange T, and Zhuang X (2013). Super-Resolution Fluorescence Imaging of Telomeres Reveals TRF2-Dependent T-loop Formation. *Cell* 155, 345–356. [DOI](https://doi.org/10.1016/j.cell.2013.09.048)
+
+31. Draskovic I, Arnoult N, Steiner V, Bacchetti S, Lomonte P, and Londoño-Vallejo A (2009). Probing PML body function in ALT cells reveals spatiotemporal requirements for telomere recombination. *Proc Natl Acad Sci U S A* 106, 15726–15731. [DOI](https://doi.org/10.1073/pnas.0907689106)
+
+32. Dyer PN, Edayathumangalam RS, White CL, Bao Y, Chakravarthy S, Muthurajan UM, and Luger K (2004). Reconstitution of nucleosome core particles from recombinant histones and DNA. *Methods Enzymol* 375, 23–44. [DOI](https://doi.org/10.1016/s0076-6879(03)75002-2)
+
+33. Fairall L, Chapman L, Moss H, de Lange T, and Rhodes D (2001). Structure of the TRFH dimerization domain of the human telomeric proteins TRF1 and TRF2. *Mol Cell* 8, 351–361. [DOI](https://doi.org/10.1016/s1097-2765(01)00321-5)
+
+34. Feric M, and Brangwynne CP (2013). A nuclear F-actin scaffold stabilizes ribonucleoprotein droplets against gravity in large cells. *Nat Cell Biol* 15, 1253–1259. [DOI](https://doi.org/10.1038/ncb2830)
+
+35. Ferro LS, Can S, Turner MA, ElShenawy MM, and Yildiz A (2019). Kinesin and dynein use distinct mechanisms to bypass obstacles. *eLife* 8. [DOI](https://doi.org/10.7554/eLife.48629)
+
+36. Frey S, and Gorlich D (2007). A saturated FG-repeat hydrogel can reproduce the permeability properties of nuclear pore complexes. *Cell* 130, 512–523. [DOI](https://doi.org/10.1016/j.cell.2007.06.024)
+
+37. Galati A, Micheli E, and Cacchione S (2013). Chromatin structure in telomere dynamics. *Front Oncol* 3, 46. [DOI](https://doi.org/10.3389/fonc.2013.00046)
+
+38. Gong Y, and de Lange T (2010). A Shld1-controlled POT1a provides support for repression of ATR signaling at telomeres through RPA exclusion. *Mol Cell* 40, 377–387. [DOI](https://doi.org/10.1016/j.molcel.2010.10.016)
+
+39. Griffith JD, Comeau L, Rosenfield S, Stansel RM, Bianchi A, Moss H, and de Lange T (1999). Mammalian telomeres end in a large duplex loop. *Cell* 97, 503–514. [DOI](https://doi.org/10.1016/s0092-8674(00)80760-6)
+
+40. Grobelny JV, Godwin AK, and Broccoli D (2000). ALT-associated PML bodies are present in viable cells and are enriched in cells in the G(2)/M phase of the cell cycle. *J Cell Sci* 113 Pt 24, 4577–4585. [DOI](https://doi.org/10.1242/jcs.113.24.4577)
+
+41. Harley CB, Futcher AB, and Greider CW (1990). Telomeres shorten during ageing of human fibroblasts. *Nature* 345, 458–460. [DOI](https://doi.org/10.1038/345458a0)
+
+42. Herbig U, Jobling WA, Chen BP, Chen DJ, and Sedivy JM (2004). Telomere shortening triggers senescence of human cells through a pathway involving ATM, p53, and p21(CIP1), but not p16(INK4a). *Mol Cell* 14, 501–513. [DOI](https://doi.org/10.1016/s1097-2765(04)00256-4)
+
+43. Janissen R, Arens MMA, Vtyurina NN, Rivai Z, Sunday ND, Eslami-Mossallam B, Gritsenko AA, Laan L, de Ridder D, Artsimovitch I, et al. (2018). Global DNA Compaction in Stationary-Phase Bacteria Does Not Affect Transcription. *Cell* 174, 1188–1199.e14. [DOI](https://doi.org/10.1016/j.cell.2018.06.049)
+
+44. Janoušková E, Nečasová I, Pavloušková J, Zimmermann M, Hluchý M, Marini V, Nováková M, and Hofr C (2015). Human Rap1 modulates TRF2 attraction to telomeric DNA. *Nucleic Acids Res* 43, 2691–2700. [DOI](https://doi.org/10.1093/nar/gkv097)
+
+45. Jeynes JCG, Geraki K, Jeynes C, Zhaohong M, Bettiol AA, Latorre E, Harries LW, and Soeller C (2017). Nanoscale Properties of Human Telomeres Measured with a Dual Purpose X-ray Fluorescence and Super Resolution Microscopy Gold Nanoparticle Probe. *ACS Nano* 11, 12632–12640. [DOI](https://doi.org/10.1021/acsnano.7b07064)
+
+46. Kar A, Willcox S, and Griffith JD (2016). Transcription of telomeric DNA leads to high levels of homologous recombination and t-loops. *Nucleic Acids Res* 44, 9369–9380. [DOI](https://doi.org/10.1093/nar/gkw779)
+
+47. Lackner DH, Durocher D, and Karlseder J (2011). A siRNA-based screen for genes involved in chromosome end protection. *PLoS One* 6, e21407. [DOI](https://doi.org/10.1371/journal.pone.0021407)
+
+48. Lamarche BJ, Orazio NI, and Weitzman MD (2010). The MRN complex in double-strand break repair and telomere maintenance. *FEBS Lett* 584, 3682–3695. [DOI](https://doi.org/10.1016/j.febslet.2010.07.029)
+
+49. Langelier MF, Planck JL, Servent KM, and Pascal JM (2011). Purification of human PARP-1 and PARP-1 domains from Escherichia coli for structural and biochemical analysis. *Methods Mol Biol* 780, 209–226. [DOI](https://doi.org/10.1007/978-1-61779-270-0_13)
+
+50. Larson AG, Elnatan D, Keenen MM, Trnka MJ, Johnston JB, Burlingame AL, Agard DA, Redding S, and Narlikar GJ (2017). Liquid droplet formation by HP1α suggests a role for phase separation in heterochromatin. *Nature* 547, 236–240. [DOI](https://doi.org/10.1038/nature22822)
+
+51. Lazzerini-Denchi E, and Sfeir A (2016). Stop pulling my strings - what telomeres taught us about the DNA damage response. *Nat Rev Mol Cell Biol* 17, 364–378. [DOI](https://doi.org/10.1038/nrm.2016.43)
+
+52. Lee DSW, Wingreen NS, and Brangwynne CP (2021). Chromatin mechanics dictates subdiffusion and coarsening dynamics of embedded condensates. *Nat Phys* 17, 531–538.
+
+53. Lim CJ, Zaug AJ, Kim HJ, and Cech TR (2017). Reconstitution of human shelterin complexes reveals unexpected stoichiometry and dual pathways to enhance telomerase processivity. *Nat Commun* 8, 1075. [DOI](https://doi.org/10.1038/s41467-017-01313-w)
+
+54. Liu D, Safari A, O'Connor MS, Chan DW, Laegeler A, Qin J, and Songyang Z (2004). PTOP interacts with POT1 and regulates its localization to telomeres. *Nat Cell Biol* 6, 673–680. [DOI](https://doi.org/10.1038/ncb1142)
+
+55. Lowary PT, and Widom J (1998). New DNA sequence rules for high affinity binding to histone octamer and sequence-directed nucleosome positioning. *J Mol Biol* 276, 19–42. [DOI](https://doi.org/10.1006/jmbi.1997.1494)
+
+56. Luger K, Rechsteiner TJ, and Richmond TJ (1999). Preparation of nucleosome core particle from recombinant histones. *Methods Enzymol* 304, 3–19. [DOI](https://doi.org/10.1016/s0076-6879(99)04003-3)
+
+57. Maciejowski J, and de Lange T (2017). Telomeres in cancer: tumour suppression and genome instability. *Nat Rev Mol Cell Biol* 18, 175–186. [DOI](https://doi.org/10.1038/nrm.2016.171)
+
+58. Maestroni L, Matmati S, and Coulon S (2017). Solving the Telomere Replication Problem. *Genes (Basel)* 8. [DOI](https://doi.org/10.3390/genes8020055)
+
+59. Mattern KA, Swiggers SJ, Nigg AL, Lowenberg B, Houtsmuller AB, and Zijlmans JM (2004). Dynamics of protein binding to telomeres in living cells: implications for telomere structure and function. *Mol Cell Biol* 24, 5587–5594. [DOI](https://doi.org/10.1128/MCB.24.12.5587-5594.2004)
+
+60. Min J, Wright WE, and Shay JW (2019). Clustered telomeres in phase-separated nuclear condensates engage mitotic DNA synthesis through BLM and RAD52. *Genes Dev* 33, 814–827. [DOI](https://doi.org/10.1101/gad.324905.119)
+
+61. Molenaar C, Wiesmeijer K, Verwoerd NP, Khazen S, Eils R, Tanke HJ, and Dirks RW (2003). Visualizing telomere dynamics in living mammalian cells using PNA probes. *EMBO J* 22, 6631–6641. [DOI](https://doi.org/10.1093/emboj/cdg633)
+
+62. Myler LR, Gallardo IF, Soniat MM, Deshpande RA, Gonzalez XB, Kim Y, Paull TT, and Finkelstein IJ (2017). Single-Molecule Imaging Reveals How Mre11-Rad50-Nbs1 Initiates DNA Break Repair. *Mol Cell* 67, 891–898.e4. [DOI](https://doi.org/10.1016/j.molcel.2017.08.002)
+
+63. Nandakumar J, and Cech TR (2013). Finding the end: recruitment of telomerase to telomeres. *Nat Rev Mol Cell Biol* 14, 69–82. [DOI](https://doi.org/10.1038/nrm3505)
+
+64. Nott TJ, Petsalaki E, Farber P, Jervis D, Fussner E, Plochowietz A, Craggs TD, Bazett-Jones DP, Pawson T, Forman-Kay JD, and Baldwin AJ (2015). Phase transition of a disordered nuage protein generates environmentally responsive membraneless organelles. *Mol Cell* 57, 936–947. [DOI](https://doi.org/10.1016/j.molcel.2015.01.013)
+
+65. O'Connor MS, Safari A, Liu D, Qin J, and Songyang Z (2004). The human Rap1 protein complex and modulation of telomere length. *J Biol Chem* 279, 28585–28591. [DOI](https://doi.org/10.1074/jbc.M312913200)
+
+66. Okamoto K, Bartocci C, Ouzounov I, Diedrich JK, Yates JR 3rd, and Denchi EL (2013). A two-step mechanism for TRF2-mediated chromosome-end protection. *Nature* 494, 502–505. [DOI](https://doi.org/10.1038/nature11873)
+
+67. Ollion J, Cochennec J, Loll F, Escudé C, and Boudier T (2013). TANGO: a generic tool for high-throughput 3D image analysis for studying nuclear organization. *Bioinformatics* 29, 1840–1841. [DOI](https://doi.org/10.1093/bioinformatics/btt276)
+
+68. Orun O, Tiber PM, and Serakinci N (2016). Partial knockdown of TRF2 increase radiosensitivity of human mesenchymal stem cells. *Int J Biol Macromol* 90, 53–58. [DOI](https://doi.org/10.1016/j.ijbiomac.2015.10.072)
+
+69. Palm W, and de Lange T (2008). How shelterin protects mammalian telomeres. *Annu Rev Genet* 42, 301–334. [DOI](https://doi.org/10.1146/annurev.genet.41.110306.130350)
+
+70. Potts PR, and Yu H (2007). The SMC5/6 complex maintains telomere length in ALT cancer cells through SUMOylation of telomere-binding proteins. *Nat Struct Mol Biol* 14, 581–590. [DOI](https://doi.org/10.1038/nsmb1259)
+
+71. Poulet A, Buisson R, Faivre-Moskalenko C, Koelblen M, Amiard S, Montel F, Cuesta-Lopez S, Bornet O, Guerlesquin F, Godet T, et al. (2009). TRF2 promotes, remodels and protects telomeric Holliday junctions. *EMBO J* 28, 641–651. [DOI](https://doi.org/10.1038/emboj.2009.11)
+
+72. Rai R, Chen Y, Lei M, and Chang S (2016). TRF2-RAP1 is required to protect telomeres from engaging in homologous recombination-mediated deletions and fusions. *Nat Commun* 7, 10881. [DOI](https://doi.org/10.1038/ncomms10881)
+
+73. Ray S, Bandaria JN, Qureshi MH, Yildiz A, and Balci H (2014). G-quadruplex formation in telomeres enhances POT1/TPP1 protection against RPA binding. *Proc Natl Acad Sci U S A* 111, 2990–2995. [DOI](https://doi.org/10.1073/pnas.1321436111)
+
+74. Riback JA, Zhu L, Ferrolino MC, Tolbert M, Mitrea DM, Sanders DW, Wei MT, Kriwacki RW, and Brangwynne CP (2020). Composition-dependent thermodynamics of intracellular phase separation. *Nature* 581, 209–214. [DOI](https://doi.org/10.1038/s41586-020-2256-2)
+
+75. Sanders DW, Kedersha N, Lee DSW, Strom AR, Drake V, Riback JA, Bracha D, Eeftens JM, Iwanicki A, Wang A, et al. (2020). Competing Protein-RNA Interaction Networks Control Multiphase Intracellular Organization. *Cell* 181, 306–324.e28. [DOI](https://doi.org/10.1016/j.cell.2020.03.050)
+
+76. Schaub JM, Zhang H, Soniat MM, and Finkelstein IJ (2018). Assessing Protein Dynamics on Low-Complexity Single-Stranded DNA Curtains. *Langmuir* 34, 14882–14890. [DOI](https://doi.org/10.1021/acs.langmuir.8b01812)
+
+77. Schultz LB, Chehab NH, Malikzay A, and Halazonetis TD (2000). p53 binding protein 1 (53BP1) is an early participant in the cellular response to DNA double-strand breaks. *J Cell Biol* 151, 1381–1390. [DOI](https://doi.org/10.1083/jcb.151.7.1381)
+
+78. Sfeir A, and de Lange T (2012). Removal of Shelterin Reveals the Telomere End-Protection Problem. *Science* 336, 593–597. [DOI](https://doi.org/10.1126/science.1218498)
+
+79. Shay JW, and Wright WE (2005). Senescence and immortalization: role of telomeres and telomerase. *Carcinogenesis* 26, 867–874. [DOI](https://doi.org/10.1093/carcin/bgh296)
+
+80. Shin Y, and Brangwynne CP (2017). Liquid phase condensation in cell physiology and disease. *Science* 357. [DOI](https://doi.org/10.1126/science.aaf4382)
+
+81. Shin Y, Chang YC, Lee DSW, Berry J, Sanders DW, Ronceray P, Wingreen NS, Haataja M, and Brangwynne CP (2018). Liquid Nuclear Condensates Mechanically Sense and Restructure the Genome. *Cell* 175, 1481–1491. [DOI](https://doi.org/10.1016/j.cell.2018.10.057)
+
+82. Smogorzewska A, van Steensel B, Bianchi A, Oelmann S, Schaefer MR, Schnapp G, and de Lange T (2000). Control of human telomere length by TRF1 and TRF2. *Mol Cell Biol* 20, 1659–1668. [DOI](https://doi.org/10.1128/mcb.20.5.1659-1668.2000)
+
+83. Soranno A, Incicco JJ, De Bona P, Tomko EJ, Galburt EA, Holehouse AS, and Galletto R (2021). Shelterin components modulate nucleic acids condensation and phase separation. *bioRxiv*. [DOI](https://doi.org/10.1101/2021.04.30.442189)
+
+84. Stansel RM, de Lange T, and Griffith JD (2001). T-loop assembly in vitro involves binding of TRF2 near the 3′ telomeric overhang. *EMBO J* 20, 5532–5540. [DOI](https://doi.org/10.1093/emboj/20.19.5532)
+
+85. Strom AR, Emelyanov AV, Mir M, Fyodorov DV, Darzacq X, and Karpen GH (2017). Phase separation drives heterochromatin domain formation. *Nature* 547, 241–245. [DOI](https://doi.org/10.1038/nature22989)
+
+86. Söding J, Zwicker D, Sohrabi-Jahromi S, Boehning M, and Kirschbaum J (2020). Mechanisms for Active Regulation of Biomolecular Condensates. *Trends Cell Biol* 30, 4–14. [DOI](https://doi.org/10.1016/j.tcb.2019.10.006)
+
+87. Takai H, Smogorzewska A, and de Lange T (2003). DNA damage foci at dysfunctional telomeres. *Curr Biol* 13, 1549–1556. [DOI](https://doi.org/10.1016/s0960-9822(03)00542-6)
+
+88. Takai KK, Hooper S, Blackwood S, Gandhi R, and de Lange T (2010). In vivo stoichiometry of shelterin components. *J Biol Chem* 285, 1457–1467. [DOI](https://doi.org/10.1074/jbc.M109.038026)
+
+89. Takai KK, Kibe T, Donigian JR, Frescas D, and de Lange T (2011). Telomere protection by TPP1/POT1 requires tethering to TIN2. *Mol Cell* 44, 647–659. [DOI](https://doi.org/10.1016/j.molcel.2011.08.043)
+
+90. Taylor NO, Wei MT, Stone HA, and Brangwynne CP (2019). Quantifying Dynamics in Phase-Separated Condensates Using Fluorescence Recovery after Photobleaching. *Biophys J* 117, 1285–1300. [DOI](https://doi.org/10.1016/j.bpj.2019.08.030)
+
+91. Timashev LA, Babcock H, Zhuang X, and de Lange T (2017). The DDR at telomeres lacking intact shelterin does not require substantial chromatin decompaction. *Genes Dev* 31, 578–589. [DOI](https://doi.org/10.1101/gad.294108.116)
+
+92. van Steensel B, Smogorzewska A, and de Lange T (1998). TRF2 protects human telomeres from end-to-end fusions. *Cell* 92, 401–413. [DOI](https://doi.org/10.1016/s0092-8674(00)80932-0)
+
+93. Wang J, Choi JM, Holehouse AS, Lee HO, Zhang X, Jahnel M, Maharana S, Lemaitre R, Pozniakovsky A, Drechsel D, et al. (2018). A Molecular Grammar Governing the Driving Forces for Phase Separation of Prion-like RNA Binding Proteins. *Cell* 174, 688–699. [DOI](https://doi.org/10.1016/j.cell.2018.06.006)
+
+94. Wang X, Kam Z, Carlton PM, Xu L, Sedat JW, and Blackburn EH (2008). Rapid telomere motions in live human cells analyzed by highly time-resolved microscopy. *Epigenetics Chromatin* 1, 4. [DOI](https://doi.org/10.1186/1756-8935-1-4)
+
+95. Wei MT, Elbaum-Garfinkle S, Holehouse AS, Chen CC, Feric M, Arnold CB, Priestley RD, Pappu RV, and Brangwynne CP (2017). Phase behaviour of disordered proteins underlying low density and high permeability of liquid organelles. *Nat Chem* 9, 1118–1125. [DOI](https://doi.org/10.1038/nchem.2803)
+
+96. Wold MS (1997). Replication protein A: a heterotrimeric, single-stranded DNA-binding protein required for eukaryotic DNA metabolism. *Annu Rev Biochem* 66, 61–92. [DOI](https://doi.org/10.1146/annurev.biochem.66.1.61)
+
+97. Yang X, Li Z, Yang L, Lei H, Yu H, Liao Z, Zhou F, Xie C, and Zhou Y (2015). Knockdown of telomeric repeat binding factor 2 enhances tumor radiosensitivity regardless of telomerase status. *J Cancer Res Clin Oncol* 141, 1545–1552. [DOI](https://doi.org/10.1007/s00432-015-1911-8)
+
+98. Ye JZ, Donigian JR, van Overbeek M, Loayza D, Luo Y, Krutchinsky AN, Chait BT, and de Lange T (2004). TIN2 binds TRF1 and TRF2 simultaneously and stabilizes the TRF2 complex on telomeres. *J Biol Chem* 279, 47264–47271. [DOI](https://doi.org/10.1074/jbc.M409047200)
+
+99. Zhang H, Zhao R, Tones J, Liu M, Dilley R, Chenoweth DM, Greenberg RA, and Lampson MA (2020). Nuclear body phase separation drives telomere clustering in ALT cancer cells. *Mol Biol Cell*, mbcE19100589. [DOI](https://doi.org/10.1091/mbc.E19-10-0589)
 
 ---
 
