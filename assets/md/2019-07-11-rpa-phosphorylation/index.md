@@ -175,4 +175,9 @@ We thank Kyle Miller, Jim Daley, and Marc Wold for reagents. This work was suppo
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/) or the published article in *Cell Res.* 29(9):745–757 (2019).
+
+---
 *Archived from [PubMed Central (PMC6625828)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/) on 2025-07-19.*
