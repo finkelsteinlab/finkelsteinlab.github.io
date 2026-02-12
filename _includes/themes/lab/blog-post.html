@@ -34,15 +34,18 @@
         {% endif %}
       </div>
 
-      <!-- Giscus comments (placeholder - will be configured later) -->
+      <!-- Giscus comments -->
       <div id="comments" class="blog-comments" style="margin-top: 2em;">
-        <!-- Giscus will be added here in Phase 3 -->
+        {% include blog/giscus.html %}
       </div>
 
     </div>
 
     <div class="col-md-3">
       <div class="blog-sidebar">
+        <h4>Search</h4>
+        <p><a href="/blog/search/"><i class="fas fa-search"></i> Search Posts</a></p>
+        
         <h4>Recent Posts</h4>
         <ul class="list-unstyled">
           {% for post in site.categories.blog limit:5 %}
@@ -53,6 +56,9 @@
         {% if site.categories.blog.size > 5 %}
         <p><a href="/blog/">View all posts &rarr;</a></p>
         {% endif %}
+        
+        <h4>Subscribe</h4>
+        <p><a href="/blog/feed.xml"><i class="fas fa-rss"></i> RSS Feed</a></p>
       </div>
     </div>
   </div>

@@ -160,6 +160,40 @@
   margin-bottom: 0.5em;
 }
 
+/* Search results */
+#search-results .blog-listing h3 {
+  margin-bottom: 0.2em;
+}
+
+/* Tag filter buttons */
+.tag-filter-buttons {
+  white-space: nowrap;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+
+.tag-filter-buttons .btn {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.tag-filter-buttons .btn.active {
+  font-weight: bold;
+}
+
+/* Blog controls bar */
+.blog-controls {
+  background: #f9f9f9;
+  padding: 1em;
+  border-radius: 4px;
+  margin-bottom: 1.5em;
+}
+
+/* Giscus comments */
+.giscus {
+  margin-top: 2em;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .blog-sidebar {
@@ -168,5 +202,9 @@
   
   .blog-content {
     font-size: 1em;
+  }
+  
+  .tag-filter-buttons {
+    margin-top: 1em;
   }
 }
