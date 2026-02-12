@@ -202,4 +202,9 @@ _Conflict of interest statement_. None declared.
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/) or the published article in *Nat. Biotechnol.* 37(10):1181–1186 (2019).
+
+---
 *Archived from [PubMed Central (PMC6868368)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/) on 2025-07-19.*
