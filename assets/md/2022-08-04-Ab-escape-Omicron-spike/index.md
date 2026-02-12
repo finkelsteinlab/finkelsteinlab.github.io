@@ -289,6 +289,10 @@ This paper does not report original code. All programs used to analyze GISAID da
   * •
 Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon reasonable request.
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9350683/) or the published article in *Cell Rep.* 40(8):111718 (2022).
+
 ---
 
 *Archived from [PubMed Central (PMC9350683)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9350683/) on 2025-07-19.*

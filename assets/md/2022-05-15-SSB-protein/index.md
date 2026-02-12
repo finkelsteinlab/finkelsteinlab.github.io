@@ -201,6 +201,10 @@ Tom Record
 ![graphic file with name nihms-1828880-b0006.gif](nihms-1828880-b0006.gif)
 Tim Lohman
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/) or the published article in *J. Am. Chem. Soc.* 144(33):15062–15079 (2022).
+
 ---
 
 *Archived from [PubMed Central (PMC9400470)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/) on 2025-07-19.*
