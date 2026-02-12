@@ -366,4 +366,9 @@ Back to Top ![back to top icon](https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-clo
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3651777/) or the published article in *J. Phys. Chem. B* 117(8):2364–2371 (2013).
+
+---
 *Archived from [PubMed Central (PMC3651777)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3651777/) on 2025-07-19.*
