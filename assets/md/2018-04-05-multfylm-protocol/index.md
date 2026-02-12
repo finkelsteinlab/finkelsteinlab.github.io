@@ -134,7 +134,7 @@ _Note: This product has been discontinued._
 Chamber design file available at:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLMChamber.scad>
 
-***Figure 4.*** Epifluorescent microscope prepared for imaging of the multFYLM.
+***[Figure 4](#fig4).*** Epifluorescent microscope prepared for imaging of the multFYLM.
 {: #fig4 }
 ![Figure 4.](BioProtoc-8-07-2783-g004.jpg)
 A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.
@@ -499,7 +499,7 @@ Camera ROI file:
       2. If prompted, it is not necessary to complete the current loop before finishing.
     47. Image analysis software may now be used to create videos and analyze the collected data.
 
-***Figure 1.*** Overview of the multFYLM design.
+***[Figure 1](#fig1).*** Overview of the multFYLM design.
 {: #fig1 }
 ![Figure 1.](BioProtoc-8-07-2783-g001.jpg)
 The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).
@@ -541,16 +541,16 @@ Purge time | 10 sec
 WEC | Continuous  
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t004/)
 
-***Figure 2.*** Soft lithography.
+***[Figure 2](#fig2).*** Soft lithography.
 {: #fig2 }
 ![Figure 2.](BioProtoc-8-07-2783-g002.jpg)
 A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.
 
-***Figure 3.*** Microfluidic fittings.
+***[Figure 3](#fig3).*** Microfluidic fittings.
 {: #fig3 }
 ![Figure 3.](BioProtoc-8-07-2783-g003.jpg)
 
-***Figure 5.*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM.
+***[Figure 5](#fig5).*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM.
 {: #fig5 }
 ![Figure 5.](BioProtoc-8-07-2783-g005.jpg)
 A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).
