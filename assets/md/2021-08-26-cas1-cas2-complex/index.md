@@ -207,6 +207,10 @@ Transparent reporting form
 ##  Data availability
 The data generated and analyzed in this study are provided in the manuscript and supplementary data.
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8390005/) or the published article in *eLife* 10:e65763 (2021).
+
 ---
 
 *Archived from [PubMed Central (PMC8390005)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8390005/) on 2025-07-19.*
