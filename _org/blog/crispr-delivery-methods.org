@@ -1,0 +1,38 @@
+#+TITLE: Thoughts on CRISPR Delivery Methods
+#+DATE: 2026-02-11
+#+DESCRIPTION: A brief overview of CRISPR-Cas9 delivery strategies and their trade-offs
+#+TAGS: crispr methods gene-editing
+#+BIBLIOGRAPHY: liang_rapid_2015 jiao_noncanonical_2021
+
+* Introduction
+
+CRISPR-Cas9 has revolutionized genome editing, but getting the molecular machinery into cells remains a significant challenge. Different delivery methods come with distinct trade-offs in efficiency, toxicity, and off-target effects.
+
+* Delivery Strategies
+
+** Plasmid DNA Transfection
+
+The traditional approach uses plasmid DNA encoding Cas9 and guide RNA. While straightforward, this method results in prolonged Cas9 expression, which can increase off-target editing.
+
+** Ribonucleoprotein (RNP) Delivery
+
+A more refined approach delivers pre-assembled Cas9 protein complexed with guide RNA directly into cells [cite:@liang_rapid_2015]. This method offers several advantages:
+
+- Rapid editing with transient Cas9 expression
+- Reduced off-target effects
+- No risk of plasmid integration
+- Works well in hard-to-transfect cells
+
+Recent work has also shown that Cas9 can process non-canonical crRNAs derived from host transcripts [cite:@jiao_noncanonical_2021], opening new possibilities for RNA detection.
+
+** mRNA Delivery
+
+Delivering Cas9 as mRNA provides a middle ground—faster clearance than plasmid, but simpler preparation than RNP complexes.
+
+* Conclusion
+
+The choice of delivery method depends on your specific application. For most cell engineering applications, RNP delivery offers the best balance of efficiency and specificity.
+
+* References
+
+#+print_bibliography:
