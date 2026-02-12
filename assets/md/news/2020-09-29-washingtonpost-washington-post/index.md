@@ -175,9 +175,4 @@ Help
 
 ---
 
-## References
-
-This is an archived news article from The Washington Post. For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [www.washingtonpost.com](https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/) on 2025-02-09.*
