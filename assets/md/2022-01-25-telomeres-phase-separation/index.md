@@ -171,6 +171,10 @@ Recombinant proteins were purified from Sf9-ESF _S. frugiperda_ insect cells (RR
 #### Shelterin protein purification
 
 Constructs for expressing individual components of the human shelterin complex were tagged with an N terminal ZZ affinity tag, TEV cleavage site, and YBBR labeling site and cloned into a Baculovirus vector. A construct expressing both TPP1 and TIN2 (TIN2 did not express on its own or without a solubility tag) and constructs expressing four- or five-component shelterin were cloned using a BigBac vector as described ([Ferro et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R35)). For the four-component shelterin BigBac construct, POT1 was given an N terminal YBBR tag, POT1 and TRF2 were each given an N terminal ZZ affinity tag and a TEV cleavage site, and TIN2 and TPP1 were each given an N-terminal His-MBP affinity tag and a TEV cleavage site. For a full list of constructed plasmids, see the [Key Resources Table](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#T1). Protein was purified from insect cells as previously described ([Ferro et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R35)). Briefly, plasmids containing genes of interest were transformed into DH10Bac competent cells (Berkeley MacroLab), and Bacmid DNA was purified using ZymoPURE miniprep buffers (Zymo Research, D4210) and ethanol precipitation.
+
+<details>
+<summary><strong>KEY RESOURCES TABLE</strong> (click to expand)</summary>
+
 KEY RESOURCES TABLE
 REAGENT or RESOURCE | SOURCE | IDENTIFIER
 ---|---|---
@@ -182,22 +186,12 @@ Anti-Rabbit IgG, Peroxidase Conjugated, Goat | Jackson ImmunoResearch | Cat#111-
 Rabbit anti-53BP1 | Novus Biologicals | Cat#NB100-305
 Goat anti-Rabbit IgG, AlexaFluor 647 conjugated | Thermo Fisher Scientific | Cat#A-21245
 Anti-FLAG M2, mouse | Sigma-Aldrich | Cat#F1804
-|  |
-|  |
-|  |
 **Bacterial and Virus Strains** |  |
 XL1Blue | MacroLab, University of California Berkeley | N/A
 Rosetta | MacroLab, University of California Berkeley | N/A
 DH10Bac | MacroLab, University of California Berkeley | N/A
 BL21(DE3)pLysS | Sigma-Aldrich | Cat#69451
-|  |
 **Biological Samples** |  |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
 **Chemicals, Peptides, and Recombinant Proteins** |  |
 Fugene HD Transfection Reagent | Promega | Cat#E2311
 TEV protease | MacroLab, University of California Berkeley | Addgene Cat#8827
@@ -243,30 +237,14 @@ Genejet PCR purification kit | Thermo Fisher Scientific | Cat#K0701
 Cy3 Label IT kit | Mirus Bio | Cat#MIR 3600
 Biotin-BSA | Sigma-Aldrich | Cat#9048-46-8
 Streptavidin | Thermo Fisher Scientific | Cat#434301
-|  |
-|  |
-|  |
-|  |
-|  |
 **Deposited Data** |  |
-|  |
-|  |
-|  |
-|  |
 **Experimental Models: Cell Lines** |  |
 SF9-ESF S Frugiperda | Berkeley Cell Culture Facility | RRID:CVCL_0549
 Human: U-2 OS | ATCC | ATCC® HTB-96™
 Human: Lenti-X™ 293T | Takara Bio | Cat#632180
 Human: hTERT-RPE1 (p53-/-, Rb-/-) | Titia de Lange, Rockefeller Univ. | N/A
 Human: HeLa RMCE GFP-TRF1 | Huaiying Zhang, Carnegie Mellon Univ. | N/A
-|  |
 **Experimental Models: Organisms/Strains** |  |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
 **Oligonucleotides** |  |
 See [Table S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1) |  |
 siRNA targeting human TRF2 (#2 sequence from [Takai et al. 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)): 5′-UGU GCU GGA GAU GAU UAA AAC-3′ | IDT | N/A
@@ -274,7 +252,6 @@ siRNA targeting human TRF2 (#4 sequence from [Takai et al. 2003](https://pmc.ncb
 siRNA targeting human TRF2 (sequence from [Yang et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)): 5′-CCA GAA GGA UCU GGU UCU UTT-3′  | IDT | N/A
 Scrambled RNAi (sequence from [Yang et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)): 5′-UUC UCC GAA CGU GUC ACG UTT-3′ | IDT | N/A
 _Silencer_ ™ Cy™3-labeled Negative Control No.1 siRNA | Thermo Fisher Scientific | Cat#AM4621
-|  |
 **Recombinant DNA** |  |
 CDS: iLID |  [Bracha et al. 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R16) | N/A
 CDS: TRF1 (NCBI Reference sequence: NM_003218.3) | IDT gBlock with codon optimization | N/A
@@ -330,7 +307,6 @@ Plasmid: pBig1a zz TEV YBBR POT1 MBP TEV TPP1 MBP TEV TIN2 ZZ TEV TRF2 (4comp2) 
 Plasmid: pBig1a zz TEV YBBR RAP1 ZZ TEV TRF2 | This paper | N/A
 Plasmid: pLIB MBP TEV YBBR RAP1 | This paper | N/A
 Plasmid: pRST5-Spinach-39xTelG | This paper | N/A
-|  |
 **Software and Algorithms** |  |
 Fiji (ImageJ 1.52p) | NIH |  <https://imagej.nih.gov/ij/>
 3D objects Counter (Fiji) |  [Bolte and Cordelières, 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R14) |
@@ -339,7 +315,6 @@ GraphPad PRISM 9.1.0 | GraphPad |  <https://graphpad.com>
 MATLAB 2019b | MathWorks |  <https://www.mathworks.com/products/MATLAB.html>
 Python 3.7.10 | Python Software Foundation |  <https://python.org>
 Origin 8.5.0 SR1 | OriginLab Corporation |  <https://www.originlab.com/>
-|  |
 **Other** |  |
 IgG Sepharose beads | GE Healthcare | Cat#17096902
 HisPur Ni-NTA beads | Thermo Fisher Scientific | Cat#88221
@@ -353,62 +328,109 @@ Trans-Blot Turbo Mini 0.2 um PVDF transfer pack | Bio-Rad | Cat#1704156
 HiTrap SP HP | GE Life Sciences | Cat#95056-076
 HiTrap DEAE-FF | Cytiva | Cat#17515401
 Amersham Typhoon | GE Life Sciences | Cat#29238583
-|  |
-|  |
-|  |
-|  |
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/table/T1/)
+
+</details>
+
 Insect cells were transfected using Fugene HD transfection reagent (Promega, E2311). The virus was amplified in progressively larger cultures. 1 mL of the P1 virus was used to infect 50 mL of Sf9 cells at 1 million cells/mL for 72 h. 10 mL of the P2 virus was used to infect 1 L of Sf9 cells at 1 million cells/mL and expression proceeded for 72 h. Cells expressing the protein of interest were harvested at 4,000 _g_ for 10 min and resuspended in 50 mL lysis buffer (50 mM HEPES pH 7.4, 1 M NaCl, 1 mM PMSF, 1 mM DTT, and 1 tablet of protease inhibitor (Sigma, 4693132001)). Lysis was performed using 15 loose and 15 tight plunges of a Wheaton glass dounce. The lysate was clarified using a 45 min, 360,000 _g_ spin in a Ti70 rotor. The supernatant was incubated with 1 mL IgG beads (IgG Sepharose 6 Fast Flow, GE Healthcare, 17096902) for ZZ-tagged TRF1, TRF2, and POT1 constructs or 1 mL amylose beads (New England BioLabs, E8021S) for co-expressed TPP1 and TIN2 and shelterin constructs for 1 h. Beads were washed with 40 mL of labelling buffer (50 mM HEPES pH 7.4, 300 mM NaCl, 10 mM MgCl2, 1 mM EGTA, 10% glycerol, 1 mM DTT). Beads were then collected and incubated with purified SFP protein (Addgene #75015)and a fluorescent dye functionalized with CoA (Lumidyne, custom synthesis) at room temperature for 30 min. Beads were washed in 40 mL labeling buffer, collected, and incubated with TEV protease (Berkeley Macrolab, Addgene #8827) for 1 h at room temperature to elute the protein. For shelterin protein preps, the protein was additionally incubated with 0.3 mL Ni-NTA beads (HisPur, Thermo Fisher Scientific, 88221) in 20 mM imidazole to remove the His-MBP and TEV in solution. After 30 min of incubation at °C, the beads were pelleted and the unbound protein was collected from the supernatant.
+
 For the TRF1 and TRF2 mutant proteins, all purification steps were carried out in 1M NaCl to prevent aggregation. After TEV cleavage, the mutant proteins were concentrated and resuspended to reduce NaCl concentration to 300 mM. Finally, the protein was concentrated using Amicon Ultra 30K concentrators, concentration was measured using Bradford reagent (Bio-Rad, 500-0006), and aliquots were snap-frozen in liquid nitrogen. Isoelectric points were calculated with ExPASy ProtParam.
+
 4comp2 was purified using the BigBac system, where subunits were coexpressed from the same vector. 4comp1 was created by mixing known concentrations of purified TRF1, coexpressed TPP1 and TIN2, and POT1 on ice. 5comp consisted of purified 4comp2 mixed with purified TRF1. 4comp1 and 4comp2 were run through a Superdex 200 Increase 10/300 GL size exclusion column (Cytiva, 28-9909-44) to separate assembled complexes from individual proteins and subcomplexes. Mixing purified proteins on ice produced results comparable to coexpressing the components ([Figure S4G](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1)-[H](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1)).
+
 #### DDR protein purification
+
 GFP-RPA was purified as previously described ([Schaub et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R76)). GFP was expressed in Rosetta cells (Berkeley MacroLab) using the GFP plasmid (Addgene 54762). This culture was added to 1 L of LB media and grown for 3 h until OD600 reaches 0.7. Cells were induced with 0.2% L-arabinose and incubated for 4.5 h at 37 °C in a shaker. After harvesting cells at 4,785 _g_ for 15 min in a JLA 8.1 rotor, 500 mL cell pellets were incubated with 40 mL lysis buffer (50 mM HEPES pH 7.4, 300 mM NaCl, 20 mM imidazole, 1 mM PMSF, 1 mM DTT, and 1 tablet of protease inhibitor (Sigma, 11836170001)). Cells were lysed with a sonicator and spun in a Ti70 rotor at 117,734 _g_ for 30 min. The supernatant was incubated with 2 mL of washed Ni-NTA beads (HisPur, Thermo Scientific, 88221) for 1 h at 4 °C. Beads were collected in a Bio-Rad column and washed in lysis buffer. Protein was cleaved off the beads with TEV protease at room temperature for 1 h and concentrated in an Amicon Ultra 10K concentrator. Protein concentration was measured using Bradford reagent (Bio-Rad, 500-0006). Protein was aliquoted and snap-frozen in 10% glycerol.
+
 Mre11-Rad50-Nbs1 (MRN) complex and Ku were purified from Sf21 insect cells as previously described ([Myler et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R62)), with the addition of a 3x FLAG tag on the C-terminus of Mre11 and a 3x HA tag on the C-terminus of Ku80. PARP-1 was purified from Rosetta _Escherichia coli_ cells as previously described ([Caron et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R18); [Langelier et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R49)), with the addition of an N-terminal His-SUMO-HA tag. To label MRN, anti-FLAG (Sigma-Aldrich, F1804) was labeled using an Alexa Fluor 488 antibody labeling kit (Thermo Fisher Scientific, A20181). Alexa488 anti-FLAG at 3x molar excess was then incubated with the MRN complex on ice for 10 minutes. Ku and PARP-1 were labeled by incubating 2 hr at room temperature with 5-fold molar excess maleimide-coupled Atto488 dye (Sigma-Aldrich, 28562). Free dye was removed using a 40kDa Zeba spin desalting column (Thermo Fisher Scientific, 87766).
+
 #### Nucleosome preparation
+
 Histones were expressed from pET-H2A, pET-H2B, pET-H3, and pET-H4 constructs ([Luger et al., 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R56)) in BL21(DE3)pLysS cells (Sigma-Aldrich, 69451) and purified according to previously described procedures ([Dyer et al., 2004](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R32)). Inclusion bodies were solubilized in DMSO and unfolding buffer (7M Guanidine HCl, 20 mM Tris-HCl, pH 7.5, 10 mM DTT) and purified using anion exchange chromatography (HiTrap SP HP, GE Life Sciences, 95056-076) in SAU buffer (7M deionized urea, 20 mM sodium acetate pH 5.2, 5 mM beta-mercaptoethanol (BME), 1 mM EDTA), eluting with a salt gradient from 0.2 to 0.6 M NaCl. Following dialysis of the peak fractions overnight in water + 2 mM BME, histones were buffer exchanged into unfolding buffer and concentrated. Octamers were assembled by mixing equimolar amounts of each histone and dialyzing overnight in refolding buffer (2M NaCl, 10 mM Tris pH 7.5, 1 mM EDTA, 5 mM BME). Next, octamers were purified in refolding buffer with a Superdex 10/300 GL column (GE Life Sciences, 17517501) using an Akta Pure chromatography system. Octamer formation in peak fractions was verified by Coomassie staining of SDS-PAGE gels. Nucleosome DNA sequences were amplified with Phusion polymerase (New England BioLabs, M0530L) from pGEM-3z/601 (Addgene plasmid #26656) ([Lowary and Widom, 1998](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R55)) using the following primer pairs for the standard nucleosome: 5'-Cy5-CTGGAGAATCCCGGTGCCG-3' and 5'-ACAGGATGTATATATCTGACACG-3', and for the telomere-tagged nucleosome the primer pair 5'-Cy5-TCGAATTCTTAGGGTTAGGGTTACCCTGGAGAATCCCGGT-3' and 5'- CTGGATCCTAACCCTAACCCTAAGCACAGGATGTATATATCTGA-3' were used. Oligonucleotides were synthesized by IDT. PCR products were verified on SYBR-Safe (Thermo Fisher Scientific, S33102) stained gels and purified using the Genejet PCR purification kit (Thermo Scientific, K0701). Nucleosomal core particles (NCPs) were then reconstituted by mixing the DNA and octamer at a molar ratio of 1.1:1 and slowly dialyzing into low salt, according to the procedure of Chua et al. ([Chua et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R23)) except that the dialysis was stopped at 0.1 M KCl. NCPs were purified on a HiTrap DEAE-FF (Cytiva, 17515401) column, first binding to the column in TCS buffer (20 mM Tris, pH 7.5, 1 mM EDTA, 1 mM DTT) and then eluting with an increasing gradient of KCl in TES buffer (10 mM Tris, pH 7.5, 0.5 mM EDTA). Peak fractions were examined on 0.5% agarose gels for Cy5 fluorescence (Amersham Typhoon; GE Life Sciences, 29238583). Fractions containing NCPs were pooled and dialyzed overnight in TCS buffer, then concentrated using Millipore centrifugal filters.
+
 #### Formation and labeling of DNA substrates
+
 For all DNA substrates except 39ds0ss, ssDNA sequences were ordered from IDT. Solutions of equimolar complementary sequences suspended in annealing buffer (10 mM Tris pH 7.5, 50 mM LiCl) were mixed and incubated in a hot plate at 95 °C for 5 min. The sample was then removed from the hot plate and allowed to cool to room temperature over 2 h. Comparing the molecular weights of the ssDNA oligos with that of the annealed dsDNA on an agarose gel confirms that annealing efficiency is high ([Figure S2C](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1)). The 39ds0ss substrate was created by PCR amplifying a region of telomeric repeats from a plasmid, and the purity and length of the resulting DNA was verified on a 0.8% agarose gel. DNA was Cy3 labeled using a Label IT kit (Mirus Bio, MIR 3600).
+
 #### Imaging of condensates
+
 Slides were incubated with wash buffer (50 mM HEPES pH 7.4, 150 mM NaCl, 10 mM MgCl2, 1 mM EGTA, 1 mM DTT, 1% pluronic) for 5 min. Samples were settled onto the coverslip for 25 min before imaging. Imaging was performed using a Nikon Ti-E Eclipse microscope equipped with a 100X 1.49 N.A. Plan Apo oil immersion objective (Nikon). The samples were excited in near-TIRF using 488, 561, and 633 nm laser beams (Coherent). The emission signal was passed through a filter wheel and detected by Andor Ixon EMCCD Camera (512x512 pixels). The effective pixel size was 106 nm after 1X magnification and 160 nm after 1.5X magnification. Image processing is described in the "[Quantification and Statistical Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#S36)" section.
+
 For experiments involving DNA bound to the surface of the slide, chambers were incubated with 1 mg/mL Biotin-BSA (Sigma-Aldrich, 9048-46-8) for 2 min, incubated with 1 mg/mL streptavidin (Thermo Fisher Scientific, 434301) for 2 min, washed twice with 20 μL wash buffer, incubated with 1 μM biotinylated 8ds3ss DNA (IDT) for 2 min and washed twice with 20 μL wash buffer. Shelterin droplets were formed in a test tube, flowed into the chamber, and settled on the coverslip for 10 min. 5 μL solution containing the protein or DNA being tested was introduced to the chamber, and the sample was imaged using time-lapsing for 1 s every 10 s for 1 hr.
+
 #### Cell culture
+
 All DNA fragments of interest were PCR-amplified using Phusion High-Fidelity DNA Polymerase (New England BioLabs, M0530L). The hTRF1 and hTRF2 gene fragments were synthesized by IDT as gBlocks, with synonymous codon optimization to reduce repetitive DNA tracts. These fragments and point mutants were cloned into a linearized FM5 lentiviral vector. FM5 lentiviral vectors carried standardized linkers to insert the PCR fragments using the In-Fusion HD cloning kit (Takara Bio, 638910) ([Sanders et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R75)). Corelet constructs, unless otherwise noted, were cloned into the pHR lentiviral vector and confirmed by GENEWIZ Sanger sequencing.
+
 Lentiviruses were generated by plating Lenti-X 293T cells (Takara Bio, 632180) into 6-well plates to reach ~70% confluence at the time of transfection. 24-36 hours after plating the Lenti-X cells, the transfer plasmid (1.50 μg), pCMVdR8.91 (1.33 μg), pMD2.G (0.17 μg) were transfected into the cells using FuGENE HD incubated in OptiMEM (modified from ([Shin et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R81))). Transfer plasmids for the 53BP1 counting assay were transfected into Lenti-X cells with the helper plasmids VSVG and PSP with the Transit293 transfection reagent (Mirus, MIR 2700), following the protocol listed in Sanders et al. 2014 ([Sanders et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R75)). The supernatant-containing viruses were harvested 48 hours after transfection and filtered with a 0.45 μm filter (Pall Life Sciences), then used immediately or stored at -80°C. U2OS and hTERT-RPE1 cells plated at low (10-20%) confluency in 96-well glass-bottom plates (Cellvis) were transduced for 2-3 days before the washout of the virus, replacement with fresh media, and subsequent live-cell imaging experiments. Virus used for the formation of TRF1-mCh-sspB droplets away from telomeres at exceedingly high TRF1 concentrations was concentrated 10x using the Lenti-X Concentrator (Takara Bio, 631231), following the manufacturer's protocol.
+
 #### Live cell imaging
+
 Cells plated on 96-well glass-bottom plates were incubated at 37°C and 5% CO2 by an Okolab microscope stage incubator with 96-well insert during all imaging experiments. Confocal microscopy was performed on a spinning disk (Yokogawa CSU-X1) confocal microscope with an Andor DU-897 EMCCD camera on a Nikon Eclipse Ti body using a 100x oil immersion Apo TIRF objective (NA 1.49). The following wavelength lasers were used to image the respective constructs: constructs with mGFP (488 nm), mCherry (561 nm), miRFP (640 nm). Fixed samples in the 53BP1 counting assay also used the 405 nm laser to detect nuclei stained with Hoechst (Thermo Fisher Scientific, H3570) or DAPI (Vectashield, H-2000-10).
+
 #### Estimation of telomere component concentration _in vivo_
+
 Both estimate that there are on the order of thousands of TRF2 dimers in a cell. Telomeric puncta are estimated to be 60-300 nm in diameter, and because virtually all TRF2 localize at telomeres ([Palm and de Lange, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R69)), the local concentration of dimers within TRF2 puncta would be hundred-micromolar.
+
 #### FRAP assays
+
 FRAP experiments were performed on a Nikon A1 laser scanning confocal microscope using a 60x oil immersion objective. A single telomere marked by shelterin proteins of interest was photobleached with the 488 nm and 640 nm laser each at bleaching power of ~ 400 kW cm-2. The cell was imaged every 2 s for 10 s of pre-bleach, and every 2 s post-bleach for 200 s. FRAP data were normalized by using the normalization method ([Day et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R26)). The first post-bleach point was set to zero.
+
 #### Mean Squared Displacement measurements
+
 Time-lapse movies were taken of U2OS cells with GFP-TRF1 or FUSN-miRFP-TRF1 overexpression and HeLa RMCE GFP-TRF1. Cells were plated 24 h before imaging on 96-well glass-bottom plates coated with fibronectin to reach high confluency. Each movie was 1 h long, imaging 1 s per frame.
+
 #### Optogenetic telomere coalescence
+
 Local activation was performed by using a Mightex Polygon digital micromirror device (DMD) to pattern blue light (488nm) stimulation from a Lumencor SpectraX light engine using Nikon Elements software. U2OS cells expressing the optogenetic telomere coalescence constructs FUSN-miRFP-TRF1, NLS-GFP-iLId-Fe and FUSN-mCherry-sspB were imaged using a specific local activation protocol, as follows. Pre-activation, imaging the mCherry (541 nm beam) and miRFP (640 nm beam) channels every 5 s for 15 s. Activation, wherein an elliptical region of interest (ROI) was used to locally activate two telomere foci to nucleate and grow FUSN Corelet droplets using the 485 nm DMD laser every 5 s for 6 min. A second activation sequence used a smaller, circular ROI aimed at the junction between two FUSN Corelet droplets every 5 s for 4 min to encourage them to fuse. Finally, the FUSN droplet was deactivated for 10 min by only imaging the mCherry and miRFP channels every 5 s, which allows the droplets to dissolve and pull together any attached telomeres. The second set of telomere coalescence constructs (iLId-miRFP-TRF1) uses a similar local activation protocol but only a single circular activation ROI for 3 min and a longer deactivation sequence (15-30 min).
+
 #### Corelet experiments
+
 TRF1WT, TRF2WT, and TRF1 mutant Corelet experiments were imaged every 5 s and followed this protocol: 15 s pre-activation (561 and 640 nm lasers) and 10 min of activation for local activation (488, 561, and 640 nm lasers). Each locally activated telomere and region away from telomere was normalized by subtracting the background from the ROI and divided by the average intensity of all other telomeres in the same cell minus the background. The first and last frames of activation were quantified.
+
 #### siRNA TRF2 knockdown
+
 Endogenous TRF2 levels were knocked down using siRNAs made by IDT with sequences from [Takai et al. 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87) ([Takai et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)) and [Yang et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97) ([Yang et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)). siRNA transfection efficiency was estimated by transfecting a Cy3 labeled control siRNA (ThermoFisher Scientific, AM4621). To quantify transfection efficiency, three biological trials were transfected, fixed, stained with Hoechst or DAPI, and imaged. Nuclei were segmented with DAPI/Hoechst channel in FIJI and the intensity of Cy3 within each nucleus was recorded. Background intensity was subtracted from each, and the percent of cells with Cy3 signal at least 200 A.U. above background was plotted. The 1x condition was used for the 53BP1 counting assay. TRF2 knockdown efficiency was then validated by western blots ([Figure S5B](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1)).
+
 #### Western blot analysis
+
 hTERT-RPE1 cells were plated on 6-well plates 24 hrs before siRNA treatment, and cells with or without siRNA treatment (siRNA #2 from [Takai et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87) ([Takai et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)) and a control scramble siRNA from [Yang et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97) ([Yang et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)) were grown for 48 hr before harvesting. Cell pellets were resuspended in 300ul RIPA buffer (BCA, 89901) with protease inhibitor (Sigma Aldrich, 4693132001). 1ul of benzonase (Sigma Aldrich, E1014-25KU) was added to each sample and left on ice for 30 min, each sample was spun down for an additional 30 min at 4°C, 30ul of lysate was resuspended in sample buffer (Thermo Fisher, NP0007), boiled at 100°C for 5 min with 15ul of the mix loaded for SDS-PAGE. Samples were run on a NuPAGE 4-12% Bis-Tris protein gel (Thermo Fisher, NP0322BOX) and transferred onto Trans-Blot Turbo Mini 0.2 um PVDF transfer pack (Bio-Rad, 1704156) for 30 min. Membranes were blocked for 2 hr with 5% NFDM in 1X TBST (Fisher Scientific, AAJ62938K2), and incubated in block with the anti-TRF2 antibody 1:2000 (Novus Biologicals, NB110-57130) and anti-Histone H3 antibody 1:2000 (Abcam, ab10799) for the loading control overnight at 4°C. Membranes were washed three times 5 min each with 1X TBST, incubated with either the Peroxidase AffiniPure Goat anti-mouse IgG 1:10,000 (Jackson ImmunoResearch, 115-035-062) or the Peroxidase AffiniPure Goat anti-rabbit IgG secondary antibodies 1:10,000 (JacksonImmunoResearch, 111-035-144) for 30 min at room temperature. Membranes were washed three times 5 min each with 1X TBST and developed using the SuperSignal West Pico PLUS Chemiluminescent Substrate (Thermo Fisher, 34577), following the manufacturer's protocol. To determine the knockdown efficiency, the background intensity was subtracted from each band intensity, then normalized relative to loading control and plotted as a ratio relative to scrambled RNAi (set at 100% for each trial).
+
 #### 53BP1 foci counting assay
+
 The siRNA #2 from [Takai et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87) ([Takai et al., 2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R87)) and a control scramble siRNA from [Yang et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97) ([Yang et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R97)) were used for the 53BP1 counting assay that used an IF-FISH protocol adapted from both the de Lange lab's IF-FISH protocol and PNA bio's FISH protocol. hTERT-RPE1 cells plated on glass-bottom 96 well plate 24 hr before transfection and were transfected twice with Oligofectamine (Thermo Fisher, 12252011) according to the manufacturer's protocol (the second transfection was 24 hr after the first). Cells were transduced with 50-70ul of the rescue construct lentiviruses simultaneously with the siRNA treatment. Cells were then fixed with 4% paraformaldehyde for 5 min 48 hours after the first siRNA transfection, washed three times 5 min each with 1X TBST, and permeabilized for 15 min in 0.5% Triton X-100 buffer, incubated with block (10% goat serum and 0.1% Triton X-100 in 1X TBST) at room temperature for 1 hr, and incubated in block with anti-53BP1 antibody 1:50 (Novus Biologicals, NB100-305) overnight at 4°C. Cells were then washed four times 5 min each with 1X TBST, incubated with Goat anti-Rabbit IgG secondary antibody conjugated to Alexa fluor 647 (Thermo Fisher, A-21245) for 2 hours, washed four times, and fixed again with 4% paraformaldehyde. After three washes of 5 min each with 1X TBST, cells were dehydrated in 70%, 85%, 100% cold ethanol for 5 min each, air-dried for 15 min, denatured for 10 min with the hybridization buffer at 80°C. The hybridization buffer contained 70% formamide, 0.5% blocking reagent (Millipore Sigma, 11096176001), 20mM Tris-HCl pH 7.5, and a FITC labeled C-rich telomere probe (PNA bio, F1009). The samples were then incubated in the dark at room temperature for 2 hr, washed twice with 70% formamide, 10mM Tris-HCl pH 7.5 for 15 min each, washed three times for 5 min each with 1X TBST, left to air dry before mounting in Vectashield Plus Antifade Mounting Medium with DAPI (H-2000-10). 2x2 tiled images were taken from 31 z-stacks of 0.2um spacing on a spinning disk (Yokogawa CSU-X1) confocal microscope. 3D Objects Counter ([Bolte and Cordelières, 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R14)) and 3D Multicoloc included in the 3D ImageJ suite ([Ollion et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R67)) were used to detect the nuclei, 53BP1, telomeres, and the number of colocalizations per stack. 3D segmented data was parsed in Python 3.7.10 with a custom Python script that counts the number of 53BP1 foci per nucleus.
+
 #### miRFP-TRF2 dilute phase vs. total concentration
+
 U2OS cells were transduced with 50 μl of miRFP-TRF2 lentivirus to result in differential overexpression levels. Images were taken from 11 z-planes of 0.5 μm spacing. Total concentration was calculated by taking the average intensity of the miRFP-TRF2 signal in an entire segmented nucleus, and dilute phase calculated by taking the average intensity of miRFP-TRF2 in the nucleoplasm, with bright telomeres masked out. _c_ dil is measured as the 'background' concentration when a condensed phase is present. In a single-component phase separating system, _c_ dil will saturate at a single 'saturation concentration' (_c_ sat), while in a multicomponent phase separating system, _c_ dil may vary as a function of total system concentration.
+
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
+
 #### In vitro droplet image processing
+
 To calculate the saturation concentration (_c_ sat) of the proteins, droplets were identified using the Phansalkar function in Fiji (ImageJ 1.52p) with a 30-pixel radius and a minimum condensate size of 10 pixels. The volume of the condensates was estimated from 2D projections by taking the semi-principal axis in the z-plane as the geometric average of semi-principal axes in the XY plane. The total volume of the condensates settled per micron squared on the coverslip was quantified. Conditions that resulted in measurable condensate volumes were fit to linear regression in Origin. The x-intercept of the linear regression represents _c_ sat, the minimum protein concentration that results in condensate formation. _c_ sat for TRF2 in the presence of different DNA constructs ([Figure 3](#fig3)D) was determined as the lowest protein concentration for which condensates are visible ([Figure S2D](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#SD1)). The aspect ratio was calculated using the Phansalkar function with a 30-pixel radius to detect particles and the Fit Ellipse function to determine the major axis length by the minor axis length in Fiji. Fusion times were calculated as the time between the last frame where two droplets appear separated (i.e. no overlap) and the first frame where the fused droplet appears spherical (aspect ratio ~ 1).
+
 #### Image segmentation for time-lapse imaging of telomeres
+
 All images were analyzed in Fiji (ImageJ 1.52p) and MATLAB 2019b (Mathworks). The first frame of each movie was used to calculate inter-telomere spacing. Briefly, nuclei were segmented using Otsu's method; telomeres were then segmented by filtering using an LoG (Laplacian of Gaussians) kernel and applying a two standard deviation threshold. Average pairwise distance and nearest neighbors were then calculated (_pdist2_) based on the weighted centroids of all telomeres within each nucleus (extracted from the punctate mask _regionprops_). The local concentration of TRF2 at telomeres was estimated to be 400 μM from the measured radius of telomeres (~100 nm, ([Bandaria et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R9); [Jeynes et al., 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R45))) and estimated number of TRF2 at each telomere in cells (~1,000 on average) from immunoblotting ([Takai et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R88)) and superresolution imaging assays ([Bandaria et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R9)).
+
 #### Mean Squared Displacement analysis
+
 To analyze telomere movement, images were registered to correct for whole-cell movement using StackReg plugin in Fiji. Then, Trackmate was used to track telomere movement with subpixel resolution using a Laplacian of Gaussian detector and object diameter of 500 nm. Trajectories of telomeres were then created using LAP tracking with maximum linking and gap-closing distances of 500 nm and zero-gap frames. Trajectories were only used if they spanned at least half the number of frames of the movie, then coordinates exported to MATLAB to calculate mean squared displacement.
+
 #### Integrated intensity predictions and measurements
+
 Telomeres were segmented using an LoG filter threshold method. Their respective total integrated intensity was calculated by summing over the intensity per pixel in the identified region. Since the integrated intensity should be directly proportional to the volume ([Berry et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/#R11)), the average integrated intensity of each telomere was calculated pre-coalescence (defined as all frames wherein two puncta were identified) and summed; the error was estimated and propagated by taking the standard error of the mean over pre-coalescence frames. The resulting summed integrated intensity and error bar were used as the independent prediction of the integrated intensity post-coalescence (defined as all frames wherein only one object was detected).
+
 #### Statistical analysis
+
 Statistics for the Corelet experiments and 53BP1 counting assay were performed using GraphPad PRISM version 9.1.0 software (GraphPad). Statistical significance (when reported) was calculated by one-way ANOVA with multiple comparisons or two-tailed t-test as noted in the figure legends. Number of replicates, size of n and precision measures (mean, median, ± SE and ± SD) are noted in the figure legends and captions.
 
 ---
+
 ##  Acknowledgments
+
 A. J., Y.K., and D.S.W.L. are supported by the NSF GRFP fellowship (DGE-1752814, A.J.; DGE-2039656, Y.K.; DCE-1656466, D.S.W.L.). Y.K. was previously supported by the NIGMS (T32GM007388) while conducting experiments. A.R.S. is a Life Science Research Fellow through the Mark Foundation for Cancer Research (AWD1006303). L.F. was supported by the NIH F32 Fellowship (GM123655). This work was supported by NSF (MCB-1617028, A.Y.), NIGMS (GM 118773, A.Y.; GM120554, I.J.F.; and GM124463, E.H.K.), the NIH 4D Nucleome Program (U01 DA040601, C.P.B.), CPRIT (RP190301 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the Howard Hughes Medical Institute (C.P.B.). The content is solely the responsibility of the authors and does not represent the official views of these funding institutions.
+
 We thank Joshua Riback, Jorine Eeftens, Yi-Che Chang, David Sanders, Evangelos Gatzogiannis, Yavuz S. Dagdas, John T. Canty, and other members of the Yildiz and Brangwynne laboratories for helpful discussions, Shunsuke Shimobayashi for the FUSN-miRFP-TRF1 construct, David Sanders for the FM5 vectors, Yi-Che Chang for helpful discussions on data analysis, Sofi Quinodoz for help with the control siRNA transfection efficiency experiment, Lindsay Becker for help with the immunofluorescence protocol, Titia de Lange (Rockefeller Univ.) for the hTERT-RPE1 cell line, Huaiying Zhang (Carnegie Mellon Univ.) for the HeLa RMCE GFP-TRF1 cell line, UC Berkeley MacroLab for the TEV protease and competent cells, and UC Berkeley Cell Culture Facility for the insect cell cultures.
 
 ## References
