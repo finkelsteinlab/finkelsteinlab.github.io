@@ -50,9 +50,4 @@ Share
 
 ---
 
-## References
-
-This is an archived news article from The Scientist. For additional research context, please visit the lab website or contact the authors directly.
-
----
 *Archived from [The Scientist](https://www.the-scientist.com/science-thrives-on-trust-why-collaboration-is-our-greatest-strength-73062) on 2025-02-09.*
