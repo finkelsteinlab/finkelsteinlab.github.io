@@ -164,4 +164,9 @@ Table S1. Primers used for qPCR in [Fig. 5](#fig5) and fig. S5.
 
 ---
 
+## References
+
+For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6949041/) or the published article in *Nature* 579(7798):194–199 (2020).
+
+---
 *Archived from [PubMed Central (PMC6949041)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6949041/) on 2025-07-19.*
