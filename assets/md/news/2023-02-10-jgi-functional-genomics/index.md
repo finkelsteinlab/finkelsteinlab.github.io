@@ -25,4 +25,9 @@ Below find a list of the final six researchers accepted for 2022. Proposals are 
 
 ---
 
+## References
+
+This is an archived news article from U.S. Department of Energy - Joint Genome Institute. For additional research context, please visit the lab website or contact the authors directly.
+
+---
 *Archived from [JGI/DOE](https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees) on 2025-02-09. Note: the original link in the news entry (`jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees`) is already dead — the page was moved to a new URL structure.*
