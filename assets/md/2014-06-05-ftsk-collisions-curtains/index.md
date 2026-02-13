@@ -175,4 +175,4 @@ We are grateful to members of the Greene laboratory for useful discussions and f
 
 ---
 
-*Archived from [PubMed Central (PMC4048639)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4048639/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4048639/) on PubMed Central.

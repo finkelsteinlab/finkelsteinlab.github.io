@@ -231,4 +231,4 @@ neuroglobin.
 
 ---
 
-*Archived from [PubMed Central (PMC2042171)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2042171/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC2042171/) on PubMed Central.

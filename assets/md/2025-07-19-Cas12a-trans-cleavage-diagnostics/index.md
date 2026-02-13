@@ -315,7 +315,7 @@ The authors gratefully acknowledge a generous gift from Tito's Handmade Vodka. T
 
 ---
 
-*Archived from [PubMed Central (PMC12604663)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12604663/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12604663/) on PubMed Central.
 
 ---
 

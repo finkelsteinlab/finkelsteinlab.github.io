@@ -441,4 +441,4 @@ All data generated or analysed during this study are included in the manuscript 
 43. Zhang K, Mosch K, Fischle W, Grewal SI. (2008) Roles of the Clr4 methyltransferase complex in nucleation, spreading and maintenance of heterochromatin. *Nature Structural & Molecular Biology*, 15(4), 381-388.
 
 
-*Archived from [PubMed Central (PMC6070336)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6070336/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6070336/) on PubMed Central.

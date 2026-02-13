@@ -298,4 +298,4 @@ _Author contributions:_ Conceptualization: K.J.F., I.J.F.; Data curation and for
 
 ---
 
-*Archived from [PubMed Central (PMC12022753)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12022753/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12022753/) on PubMed Central.

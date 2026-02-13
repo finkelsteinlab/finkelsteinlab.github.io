@@ -172,4 +172,4 @@ The authors would like to thank Dr. Kusai Merchant for important contributions t
 
 ---
 
-*Archived from [PubMed Central (PMC2501118)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2501118/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC2501118/) on PubMed Central.

@@ -288,4 +288,4 @@ Supporting information
 
 ---
 
-*Archived from [PubMed Central (PMC9971906)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9971906/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9971906/) on PubMed Central.

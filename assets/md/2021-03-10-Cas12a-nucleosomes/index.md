@@ -203,4 +203,4 @@ Supplementary material for this article is available at <http://advances.science
 For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7946368/) or the published article in *Nat. Struct. Mol. Biol.* 28(3):256–264 (2021).
 
 ---
-*Archived from [PubMed Central (PMC7946368)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7946368/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7946368/) on PubMed Central.

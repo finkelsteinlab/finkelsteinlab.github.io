@@ -169,4 +169,4 @@ This research was supported in part by the Welch Foundation (F-1808 to I.J.F; F-
 For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4636036/) or the published article in *Nat. Protoc.* 9(8):1932–1943 (2014).
 
 ---
-*Archived from [PubMed Central (PMC4636036)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4636036/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4636036/) on PubMed Central.

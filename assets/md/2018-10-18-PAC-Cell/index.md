@@ -263,4 +263,4 @@ We are very grateful to Dr. Irina Artsimovitch and Dr. Robert Landick, Jeffrey S
 
 ---
 
-*Archived from [PubMed Central (PMC6441324)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6441324/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6441324/) on PubMed Central.

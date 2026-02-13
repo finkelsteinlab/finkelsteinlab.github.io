@@ -238,4 +238,4 @@ ultraviolet.
 
 ---
 
-*Archived from [PubMed Central (PMC4624423)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4624423/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4624423/) on PubMed Central.

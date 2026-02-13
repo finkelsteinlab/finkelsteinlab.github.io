@@ -112,4 +112,4 @@ This study was supported by the Howard Hughes Medical Institute, the National In
 For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/) or the published article in *Cell* 179(7):1511–1522 (2019).
 
 ---
-*Archived from [PubMed Central (PMC7387118)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/) on PubMed Central.

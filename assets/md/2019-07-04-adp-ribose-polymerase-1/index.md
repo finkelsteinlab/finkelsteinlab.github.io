@@ -300,4 +300,4 @@ The source data and uncropped gel pictures underlying Figs. [1A–G](https://pmc
 
 ---
 
-*Archived from [PubMed Central (PMC6609622)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609622/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609622/) on PubMed Central.

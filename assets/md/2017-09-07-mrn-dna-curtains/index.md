@@ -241,4 +241,4 @@ We are grateful to members of the Finkelstein and Paull laboratories for useful 
 
 ---
 
-*Archived from [PubMed Central (PMC5609712)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5609712/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5609712/) on PubMed Central.

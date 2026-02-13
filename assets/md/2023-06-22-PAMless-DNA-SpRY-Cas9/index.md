@@ -242,4 +242,4 @@ The structures and associated atomic coordinates have been deposited into the El
 
 ---
 
-*Archived from [PubMed Central (PMC11061278)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11061278/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11061278/) on PubMed Central.

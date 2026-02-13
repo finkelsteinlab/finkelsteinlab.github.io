@@ -180,4 +180,4 @@ All CAST DNA sequences, protein family databases, processed data, and analysis s
 
 ---
 
-*Archived from [PubMed Central (PMC8670466)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8670466/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8670466/) on PubMed Central.

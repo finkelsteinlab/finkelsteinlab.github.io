@@ -232,4 +232,4 @@ For the complete references list (84 citations), please see the [full text on PM
 
 ---
 
-*Archived from [PubMed Central (PMC8299152)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/) on PubMed Central.

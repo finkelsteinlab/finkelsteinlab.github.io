@@ -73,4 +73,4 @@ The authors would like to thank the staff of the Texas Advanced Computing Center
 
 ---
 
-*Archived from [PubMed Central (PMC9017871)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9017871/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9017871/) on PubMed Central.

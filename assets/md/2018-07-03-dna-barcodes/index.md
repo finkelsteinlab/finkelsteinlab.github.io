@@ -180,4 +180,4 @@ We thank James Rybarski, Andrea Hawkins-Daarud, Jeffrey Hussmann, Prakash Mohan,
 
 ---
 
-*Archived from [PubMed Central (PMC6142223)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142223/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142223/) on PubMed Central.

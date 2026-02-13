@@ -259,7 +259,7 @@ Wood V,Gwilliam R,Rajandream MA,Lyne M,Lyne R,Stewart A,Sgouros J,Peat N,Hayles 
 
 ---
 
-*Archived from [PubMed Central (PMC5332158)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) on PubMed Central.
 ## References
 
 1. Aguilaniu H, Gustafsson L, Rigoulet M, Nyström T. Asymmetric inheritance of oxidatively damaged proteins during cytokinesis. *Science*. 2003;299:1751–1753. doi: 10.1126/science.1080418.

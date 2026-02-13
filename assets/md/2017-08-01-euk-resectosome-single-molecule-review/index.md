@@ -223,4 +223,4 @@ We are grateful to Tanya Paull as well as members of the Finkelstein and Paull L
 
 ---
 
-*Archived from [PubMed Central (PMC5290259)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5290259/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5290259/) on PubMed Central.

@@ -516,4 +516,4 @@ The data presented in these figures were generated as part of ref.[36](https://p
 
 ---
 
-*Archived from [PubMed Central (PMC9665560)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/) on PubMed Central.

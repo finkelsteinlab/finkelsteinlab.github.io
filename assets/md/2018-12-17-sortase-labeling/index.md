@@ -260,4 +260,4 @@ This work was supported by the National Institutes of Health (GM097177 and GM120
 
 ---
 
-*Archived from [PubMed Central (PMC6380366)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6380366/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6380366/) on PubMed Central.

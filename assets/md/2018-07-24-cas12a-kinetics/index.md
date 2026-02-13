@@ -238,4 +238,4 @@ We thank Prof. Ken Johnson and Dr. Shanzhong Gong for use of the stopped-flow fl
 
 ---
 
-*Archived from [PubMed Central (PMC6679935)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/) on PubMed Central.

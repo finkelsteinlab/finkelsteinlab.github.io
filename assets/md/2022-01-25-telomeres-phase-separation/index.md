@@ -479,4 +479,4 @@ We thank Joshua Riback, Jorine Eeftens, Yi-Che Chang, David Sanders, Evangelos G
 
 ---
 
-*Jack et al. (2022) Dev. Cell 57(2):277-290.e9. Archived from [PubMed Central (PMC8988007)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/).*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/) on PubMed Central.

@@ -334,4 +334,4 @@ Forsberg KJ, Bhatt IV, Schmidtke DT, Javanmardi K, Dillard KE, Stoddard BL, Fink
 
 ---
 
-*Archived from [PubMed Central (PMC6739867)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6739867/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6739867/) on PubMed Central.

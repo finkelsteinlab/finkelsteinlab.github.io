@@ -338,4 +338,4 @@ The code enabling quantitative off-target activity prediction for any guide-targ
 
 ---
 
-*Archived from [PubMed Central (PMC8924176)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/) on PubMed Central.

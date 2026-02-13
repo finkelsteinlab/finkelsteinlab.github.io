@@ -228,4 +228,4 @@ Supplemental Appendix S3
 
 ---
 
-*Archived from [PubMed Central (PMC7962948)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7962948/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7962948/) on PubMed Central.

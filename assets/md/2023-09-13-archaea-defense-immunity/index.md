@@ -206,4 +206,4 @@ The final assembled and annotated asgard genomes used in this study are availabl
 
 ---
 
-*Archived from [PubMed Central (PMC11291487)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11291487/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11291487/) on PubMed Central.

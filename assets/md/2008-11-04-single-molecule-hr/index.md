@@ -255,4 +255,4 @@ The Greene laboratory is supported by funding from the National Institutes of He
 
 ---
 
-*Archived from [PubMed Central (PMC2726709)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2726709/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC2726709/) on PubMed Central.

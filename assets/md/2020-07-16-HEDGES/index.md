@@ -242,4 +242,4 @@ The computer code used for the generation and testing of the inner HEDGES code a
 
 ---
 
-*Archived from [PubMed Central (PMC7414044)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7414044/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7414044/) on PubMed Central.

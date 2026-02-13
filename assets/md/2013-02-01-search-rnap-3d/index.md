@@ -161,4 +161,4 @@ We thank M. Gottesman, R. Gonzalez, and the Greene laboratory for assistance and
 
 ---
 
-*Archived from [PubMed Central (PMC3565103)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3565103/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3565103/) on PubMed Central.

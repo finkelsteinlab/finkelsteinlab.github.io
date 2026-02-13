@@ -112,4 +112,4 @@ This research was funded by NIH grants (GM074739 and GM082848) to E.C.G. This wo
 
 ---
 
-*Archived from [PubMed Central (PMC3475199)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/) on PubMed Central.

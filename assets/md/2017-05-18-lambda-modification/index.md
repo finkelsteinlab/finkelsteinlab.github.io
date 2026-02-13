@@ -200,4 +200,4 @@ The authors declare that they have no competing interests.
 
 ---
 
-*Archived from [PubMed Central (PMC5437064)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/) on PubMed Central.

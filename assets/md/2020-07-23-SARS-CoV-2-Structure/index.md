@@ -123,4 +123,4 @@ We thank members of the Maynard, Finkelstein, and McLellan Laboratories for prov
 
 ---
 
-*Archived from [PubMed Central (PMC7402631)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7402631/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7402631/) on PubMed Central.

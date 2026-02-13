@@ -181,4 +181,4 @@ References for this article are linked inline throughout the text and link to th
 
 ---
 
-*Archived from [PubMed Central (PMC5552236)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5552236/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5552236/) on PubMed Central.

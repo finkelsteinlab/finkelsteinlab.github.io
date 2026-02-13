@@ -203,4 +203,4 @@ Datasets and software are available by requests to the corresponding author. Mic
 
 ---
 
-*Archived from [PubMed Central (PMC10161002)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10161002/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10161002/) on PubMed Central.

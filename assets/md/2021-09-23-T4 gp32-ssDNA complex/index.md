@@ -184,4 +184,4 @@ Electronic supplementary information (ESI) available. See DOI: [10.1039/d1sc0286
 
 ---
 
-*Archived from [PubMed Central (PMC8549804)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/) on PubMed Central.

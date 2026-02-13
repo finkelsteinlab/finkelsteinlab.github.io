@@ -155,4 +155,4 @@ _Conflict of interest statement_. None declared.
 For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6393296/) or the published article in *Nature* 562(7727):409–413 (2018).
 
 ---
-*Archived from [PubMed Central (PMC6393296)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6393296/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6393296/) on PubMed Central.

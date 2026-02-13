@@ -169,4 +169,4 @@ This work was supported by National Institutes of Health (NIH) Grant GM074739 (t
 
 ---
 
-*Archived from [PubMed Central (PMC3340036)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3340036/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3340036/) on PubMed Central.

@@ -244,4 +244,4 @@ frequency–frequency correlation function.
 
 ---
 
-*Archived from [PubMed Central (PMC1815234)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1815234/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC1815234/) on PubMed Central.

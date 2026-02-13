@@ -185,7 +185,7 @@ We would like to thank Robert Tjian for the gift of reporter cell lines, Steven 
 
 ---
 
-*Archived from [PubMed Central (PMC7581547)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/) on PubMed Central.
 
 ## References
 

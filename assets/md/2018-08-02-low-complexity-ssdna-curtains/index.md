@@ -213,4 +213,4 @@ We are indebted to Dr. Marc Wold and Dr. Mauro Modesti for sharing overexpressio
 
 ---
 
-*Archived from [PubMed Central (PMC6679933)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679933/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679933/) on PubMed Central.

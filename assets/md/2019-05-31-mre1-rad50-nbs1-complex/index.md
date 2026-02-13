@@ -383,4 +383,4 @@ The appearance of a band at ~30 nt indicates MRN cleavage of the DNA next to a K
 
 ---
 
-*Archived from [PubMed Central (PMC6667175)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/) on PubMed Central.

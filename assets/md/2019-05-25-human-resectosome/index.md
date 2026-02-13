@@ -329,4 +329,4 @@ BLM helicase activity and fluorescent labeling efficiency are highest when it is
 
 ---
 
-*Archived from [PubMed Central (PMC6666396)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6666396/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6666396/) on PubMed Central.

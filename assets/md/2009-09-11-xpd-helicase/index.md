@@ -57,4 +57,4 @@ In summary, these new findings demonstrate that it is physically possible for XP
 For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3033736/) or the published article in *Mol. Cell* 35(5):549–550 (2009).
 
 ---
-*Archived from [PubMed Central (PMC3033736)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3033736/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3033736/) on PubMed Central.

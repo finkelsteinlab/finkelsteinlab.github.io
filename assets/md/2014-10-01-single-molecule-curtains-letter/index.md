@@ -202,4 +202,4 @@ This research was supported in part by the Welch Foundation (F-l808) and by the 
 
 ---
 
-*Archived from [PubMed Central (PMC4163502)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/) on PubMed Central.

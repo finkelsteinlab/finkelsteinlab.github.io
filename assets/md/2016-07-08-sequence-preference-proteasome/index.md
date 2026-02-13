@@ -316,4 +316,4 @@ interquartile range.
 
 ---
 
-*Archived from [PubMed Central (PMC4938175)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938175/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938175/) on PubMed Central.

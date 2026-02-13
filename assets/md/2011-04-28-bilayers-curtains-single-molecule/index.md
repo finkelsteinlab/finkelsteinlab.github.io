@@ -278,4 +278,4 @@ For experiments that do not use fluorescently stained DNA, it is possible to foc
 
 ---
 
-*Archived from [PubMed Central (PMC3319767)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/) on 2025-07-19.*
+For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/) on PubMed Central.
