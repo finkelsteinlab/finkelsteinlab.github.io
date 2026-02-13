@@ -14,7 +14,7 @@ supplement: 0074-2021-PNAS-Rybarski et al-supplement.pdf
 doi: 10.1073/pnas.2112279118
 pmcid: PMC8670466
 pmid: 34845024
-markdown: 2021-12-07-CAST metagenomic discovery
+markdown: 2021-12-07-CAST-metagenomic-discovery
 extra_text: '
 **Press:**
 

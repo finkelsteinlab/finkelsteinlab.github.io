@@ -14,7 +14,7 @@ supplement: 0071-2021-ChemSci-Blevins et al-supplement.pdf
 doi: 10.1039/d1sc02861h
 pmcid: PMC8549804
 pmid: 34760161
-markdown: 2021-09-23-T4 gp32-ssDNA complex
+markdown: 2021-09-23-T4-gp32-ssDNA-complex
 extra_text: ''
 category: paper
 tags:

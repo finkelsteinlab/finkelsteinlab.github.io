@@ -14,7 +14,7 @@ supplement: 0055-2019-NAR-Simon et al-supplement.pdf
 doi: 10.1093/nar/gkz865
 pmcid: PMC6868368
 pmid:  31598685
-markdown: 2019-10-10-Retron applications
+markdown: 2019-10-10-Retron-applications
 extra_text: ''
 category: paper
 tags:
