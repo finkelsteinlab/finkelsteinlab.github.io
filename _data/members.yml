@@ -458,6 +458,19 @@
   quote_author: Immanuel Kant
   joined: 2025-08-01
   
+- name: Shreya Arvind
+  position: undergrad
+  email: shreya.arvind@utexas.edu
+  image: shreya_arvind_current.jpg
+  young_image: shreya_arvind_young.jpg
+  favorite_activities:
+    - Running
+    - Trying new cafes and restaurants
+    - Reading
+  quote: "We're made of star-stuff. We are a way for the Cosmos to know itself."
+  quote_author: Carl Sagan
+  joined: 2025-06-01
+
 - name: Ankur Annapareddy
   position: gradstudent
   email: ankurannapareddy@gmail.com 
