@@ -2,6 +2,8 @@
 
 These rules standardize the formatting of archived paper full-text files in `assets/md/<paper-slug>/index.md`. Apply all rules to every file.
 
+**⚠️ CRITICAL: Use `edit` (find-and-replace) for all changes. Do NOT use `write` to rewrite the entire file — this risks truncation on large files. Work through the file section by section with surgical edits.**
+
 ---
 
 ## 1. Front Matter
@@ -99,6 +101,19 @@ Do NOT link any of the following:
 - Figures from other papers (e.g., "Fig. 1 of Smith et al.")
 - Scheme references
 
+If any of the above currently link to PMC URLs, **strip the link but keep the text**:
+```markdown
+<!-- BEFORE -->
+[Figure S1A](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#SD1)
+[Table S2](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#SD1)
+[Movie S1](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#SD2)
+
+<!-- AFTER -->
+Figure S1A
+Table S2
+Movie S1
+```
+
 ### 3.4 Convert PMC figure URLs to local anchors
 
 Replace any figure references that link to PMC URLs:
@@ -166,6 +181,21 @@ For ranges like `[8–10]`, link only to the first reference: `[8–10](#ref8)`.
 
 Some citations may already be plain text (no link). Leave them as-is unless you can match them to a reference number, in which case add the `#refN` anchor.
 
+### 4.5 Structural PMC links (tables, supplements, key resources)
+
+Some files contain non-citation PMC links to structural elements like Key Resources Tables, Supplementary Tables, or "Open in a new tab" links. **Strip these links but keep the text:**
+```markdown
+<!-- BEFORE -->
+See [Key Resources Table](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#T1)
+(see [Supplement](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#SD1))
+[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../)
+
+<!-- AFTER -->
+See Key Resources Table
+(see Supplement)
+Open in a new tab
+```
+
 ---
 
 ## 5. References Section
@@ -226,26 +256,60 @@ Do not change the citation format of existing references. They may use different
 
 ---
 
-## 7. Processing Checklist
+## 7. Processing Strategy
+
+**⚠️ Use `edit` (surgical find-and-replace) for ALL changes. NEVER use `write` to output the entire file.**
+
+Large files (200+ lines) will be truncated if you try to rewrite them in a single `write` call. Instead:
+
+1. **Read the entire file** using `read` with `offset`/`limit` to get all sections.
+2. **Work section by section** using `edit` to make surgical replacements.
+3. **For figure conversions**: find the exact old figure block text and replace with the new `<figure>` HTML.
+4. **For inline citations**: find each paragraph containing PMC links and replace the whole paragraph with the corrected version.
+5. **For reference anchors**: find each reference line and replace with the anchored version.
+
+### Processing Checklist
 
 For each `assets/md/<paper-slug>/index.md` file:
 
-1. **Inventory figures**: List all figure image files and their current format (A/B/C/D)
-2. **Convert all figures** to the standard `<figure>` HTML block (§2)
-3. **Verify figure order** is sequential in the document
-4. **Convert inline figure references** to `[Fig. N](#figN)` local anchors (§3)
-5. **Convert inline citations** from PMC links to `#refN` local anchors (§4)
-6. **Add `<span id="refN">` anchors** to each entry in the References section (§5)
-7. **Verify DOI links** in the References section are present where available (§5.2)
-8. **Verify** no PMC URLs remain in inline citations or figure references
-9. **Verify** no content was accidentally modified
+1. **Read the complete file** (use offset/limit — keep reading until you reach the end)
+2. **Inventory figures**: List all figure image files and their current format (A/B/C/D)
+3. **Convert all figures** to the standard `<figure>` HTML block (§2) — use `edit` per figure
+4. **Verify figure order** is sequential in the document
+5. **Convert inline figure references** to `[Fig. N](#figN)` local anchors (§3)
+6. **Convert inline citations** from PMC links to `#refN` local anchors (§4)
+7. **Strip structural PMC links** for tables, supplements, movies (§3.3, §4.5)
+8. **Add `<span id="refN">` anchors** to each entry in the References section (§5)
+9. **Verify DOI links** in the References section are present where available (§5.2)
+10. **Run verification** (§8) to confirm no PMC URLs remain in citations/figure refs
 
 ---
 
 ## 8. Verification
 
-After processing, confirm:
-- `rg 'https://pmc' <file>` returns zero matches for inline citations and figure refs (PMC URLs may remain in the front matter `source_url` and in archive footer — those are OK)
-- Every `<figure>` has a matching `id="figN"`
-- Every `<span id="refN">` in References has at least one corresponding `(#refN)` in the text (or the citation is unused — that's OK too)
-- The file renders without broken markdown (no unclosed tags, no malformed links)
+After processing, run these checks and report results:
+
+```bash
+# 1. Count remaining PMC URLs — should ONLY be source_url in front matter and archive footer
+rg -c 'https://pmc' <file>
+# Expected: 1 (source_url) or 2 (source_url + archive footer)
+
+# 2. Show any remaining PMC URLs that are NOT in front matter or archive footer
+rg -n 'https://pmc' <file> | grep -v 'source_url' | grep -v 'Archived from'
+# Expected: empty (no output)
+
+# 3. Count figure blocks
+rg -c '<figure class="paper-figure"' <file>
+
+# 4. Count reference anchors
+rg -c '<span id="ref' <file>
+
+# 5. Verify file length wasn't truncated
+wc -l <file>
+```
+
+**Acceptable PMC URLs** (do NOT strip these):
+- `source_url:` in YAML front matter
+- Archive footer: `*Archived from [PubMed Central](https://pmc.ncbi.nlm.nih.gov/...) on YYYY-MM-DD.*`
+
+**Everything else** with `https://pmc` must be converted or stripped.
