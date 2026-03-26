@@ -213,8 +213,22 @@ Add an anchor ID to each numbered reference entry so inline citations can link t
 ### 5.2 DOI links
 
 - If a reference has a DOI, format it as a link: `[doi:10.xxx/yyy](https://doi.org/10.xxx/yyy)`
-- If a reference already has `[DOI](https://doi.org/...)`, keep that format — both are acceptable
+- If a reference already has `[DOI](https://doi.org/...)` or `[[DOI](https://doi.org/...)]`, keep that format — both are acceptable
 - If no DOI is available, no link is needed
+
+### 5.2a Strip PMC/PubMed/Google Scholar metadata links
+
+Many reference entries contain metadata links scraped from PMC. **Strip all of these:**
+```markdown
+<!-- BEFORE -->
+1. Author. Title. *Journal* year;vol:pages. [[DOI](https://doi.org/...)] [[PMC free article](https://pmc.ncbi.nlm.nih.gov/...)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/...)] [[Google Scholar](https://scholar.google.com/...)]
+
+<!-- AFTER -->
+1. Author. Title. *Journal* year;vol:pages. [[DOI](https://doi.org/...)]
+```
+
+- **Keep**: `[DOI](https://doi.org/...)` links (these are the permanent identifier)
+- **Strip**: `[PMC free article](...)`, `[PubMed](...)`, `[Google Scholar](...)` — remove the entire `[[text](url)]` block including surrounding brackets
 
 ### 5.3 Placeholder references
 
