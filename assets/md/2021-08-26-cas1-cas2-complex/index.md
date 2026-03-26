@@ -137,7 +137,7 @@ To better appreciate the extent of coupling between integration and disintegrati
 In the ‘trombone’ substrates for testing coupled integration-disintegration ([Figure 6](#fig6); see also Figure 6—figure supplement 1), one protospacer strand was integrated at the L-R junction. Furthermore, the 3′-end of the spacer top strand was tethered to the 5′-end of the unintegrated protospacer strand. Our reasoning that the 30 nt long flexible single-stranded tether (5′T4(CT)10T63′; ~240 Å) should have no (or only minimal) effect on Cas1-Cas2 activity was upheld by experiments. The spacer in these substrates was truncated to contain only 10 bp abutting the repeat. The shortened spacer had no adverse effect on strand transfer of an untethered protospacer from the L-R to the R-S junction ([Figure 6A](#fig6); lanes 2 and 4).
 <figure class="paper-figure" id="fig6">
 <img src="elife-65763-fig6.jpg" alt="Figure 6">
-<figcaption><strong>Figure 6. Second strand integration by Cas1-Cas2 occurs in concert with first-strand disintegration.</strong> Schematics of the substrates used for the individual sets of assays (<b>A–C</b>) are placed above the respective gel panels. The layout of the trombone substrates (<b>B, C</b>) from a perspective of the Cas1-Cas2-protospacer structure is shown in Figure 6—figure supplement 1. (<b>A</b>) Integration reactions were performed in the two substrates that differed only in their spacer lengths. The truncated spacer (10 bp long) lacked the 17 bp distal to the R-S junction. (<b>B</b> , <b>C</b>) The substrate configurations were similar for the two reaction sets, except for the position of the 32P label. In (<b>B</b>), the integrated protospacer strand carried the label at the 5′-end (red asterisk). In (<b>C</b>), one labeled nucleotide (shown by the asterisk) was added to the 3′-end of the bottom strand. DP = disintegration product; IP = integration product; IP* = integration product coupled to disintegration; IP** = integration product uncoupled from (but preceded by) disintegration; PS = protospacer; PS (T) = protospacer (tethered); LRS (B) = Substrate bottom strand. Lanes 7–9 in (<b>C</b>), oligonucleotide length markers.</figcaption>
+<figcaption><strong>Figure 6. Second strand integration by Cas1-Cas2 occurs in concert with first-strand disintegration.</strong> Schematics of the substrates used for the individual sets of assays (<b>A–C</b>) are placed above the respective gel panels. The layout of the trombone substrates (<b>B, C</b>) from a perspective of the Cas1-Cas2-protospacer structure is shown in Figure 6—figure supplement 1. (<b>A</b>) Integration reactions were performed in the two substrates that differed only in their spacer lengths. The truncated spacer (10 bp long) lacked the 17 bp distal to the R-S junction. (<b>B</b> , <b>C</b>) The substrate configurations were similar for the two reaction sets, except for the position of the 32P label. In (<b>B</b>), the integrated protospacer strand carried the label at the 5′-end (red asterisk). In (<b>C</b>), one labeled nucleotide (shown by the asterisk) was added to the 3′-end of the bottom strand. DP = disintegration product; IP = integration product; IP* = integration product coupled to disintegration; IP&#42;&#42; = integration product uncoupled from (but preceded by) disintegration; PS = protospacer; PS (T) = protospacer (tethered); LRS (B) = Substrate bottom strand. Lanes 7–9 in (<b>C</b>), oligonucleotide length markers.</figcaption>
 </figure>
 <figure class="paper-figure" id="fig6s1">
 <img src="elife-65763-fig6-figsupp1.jpg" alt="Figure 6—figure supplement 1">
@@ -228,8 +228,115 @@ The data generated and analyzed in this study are provided in the manuscript and
 
 ## References
 
-For the complete references list, please see the full text on PMC or the published article in *eLife* 10:e65763 (2021).
+<span id="ref1">1.</span> Amitai G, Sorek R. CRISPR-Cas adaptation: insights into the mechanism of action. Nature Reviews Microbiology. 2016;14:67–76. [DOI] [PubMed] [Google Scholar] [doi:10.1038/nrmicro.2015.14](https://doi.org/10.1038/nrmicro.2015.14)
+
+<span id="ref2">2.</span> Barrangou R. The roles of CRISPR-Cas systems in adaptive immunity and beyond. Current Opinion in Immunology. 2015;32:36–41. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.coi.2014.12.008](https://doi.org/10.1016/j.coi.2014.12.008)
+
+<span id="ref3">3.</span> Barrangou R, Marraffini LA. CRISPR-Cas systems: prokaryotes upgrade to adaptive immunity. Molecular Cell. 2014;54:234–244. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2014.03.011](https://doi.org/10.1016/j.molcel.2014.03.011)
+
+<span id="ref4">4.</span> Bhasin A, Goryshin IY, Reznikoff WS. Hairpin formation in Tn5 transposition. Journal of Biological Chemistry. 1999;274:37021–37029. [DOI] [PubMed] [Google Scholar] [doi:10.1074/jbc.274.52.37021](https://doi.org/10.1074/jbc.274.52.37021)
+
+<span id="ref5">5.</span> Brouns SJ, Jore MM, Lundgren M, Westra ER, Slijkhuis RJ, Snijders AP, Dickman MJ, Makarova KS, Koonin EV, van der Oost J. Small CRISPR RNAs guide antiviral defense in prokaryotes. Science. 2008;321:960–964. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1126/science.1159689](https://doi.org/10.1126/science.1159689)
+
+<span id="ref6">6.</span> Budhathoki JB, Xiao Y, Schuler G, Hu C, Cheng A, Ding F, Ke A. Real-time observation of CRISPR spacer acquisition by Cas1–Cas2 integrase. Nature Structural & Molecular Biology. 2020;27:489–499. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/s41594-020-0415-7](https://doi.org/10.1038/s41594-020-0415-7)
+
+<span id="ref7">7.</span> Dillingham MS, Kowalczykowski SC. RecBCD enzyme and the repair of double-stranded DNA breaks. Microbiology and Molecular Biology Reviews. 2008;72:642–671. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1128/MMBR.00020-08](https://doi.org/10.1128/MMBR.00020-08)
+
+<span id="ref8">8.</span> Drabavicius G, Sinkunas T, Silanskas A, Gasiunas G, Venclovas Č, Siksnys V. DnaQ exonuclease-like domain of Cas2 promotes spacer integration in a type I-E CRISPR-Cas system. EMBO Reports. 2018;19:e45543. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.15252/embr.201745543](https://doi.org/10.15252/embr.201745543)
+
+<span id="ref9">9.</span> Elmore JR, Sheppard NF, Ramia N, Deighan T, Li H, Terns RM, Terns MP. Bipartite recognition of target RNAs activates DNA cleavage by the Type III-B CRISPR–Cas system. Genes & Development. 2016;30:447–459. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1101/gad.272153.115](https://doi.org/10.1101/gad.272153.115)
+
+<span id="ref10">10.</span> Gasiunas G, Barrangou R, Horvath P, Siksnys V. Cas9-crRNA ribonucleoprotein complex mediates specific DNA cleavage for adaptive immunity in bacteria. PNAS. 2012;109:E2579–E2586. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1073/pnas.1208507109](https://doi.org/10.1073/pnas.1208507109)
+
+<span id="ref11">11.</span> Haniford DB, Chaconas G. Mechanistic aspects of DNA transposition. Current Opinion in Genetics & Development. 1992;2:698–704. [DOI] [PubMed] [Google Scholar] [doi:10.1016/S0959-437X(05)80129-7](https://doi.org/10.1016/S0959-437X(05)80129-7)
+
+<span id="ref12">12.</span> Haniford DB, Ellis MJ. Transposons Tn10 and Tn5. Microbiology Spectrum. 2015;3:MDNA3-0002-2014. [DOI] [PubMed] [Google Scholar] [doi:10.1128/microbiolspec.MDNA3-0002-2014](https://doi.org/10.1128/microbiolspec.MDNA3-0002-2014)
+
+<span id="ref13">13.</span> Harshey RM. Transposable phage mu. Microbiology Spectrum. 2014;2:MDNA3-0007-2014. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1128/microbiolspec.MDNA3-0007-2014](https://doi.org/10.1128/microbiolspec.MDNA3-0007-2014)
+
+<span id="ref14">14.</span> Heler R, Samai P, Modell JW, Weiner C, Goldberg GW, Bikard D, Marraffini LA. Cas9 specifies functional viral targets during CRISPR–Cas adaptation. Nature. 2015;519:199–202. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nature14245](https://doi.org/10.1038/nature14245)
+
+<span id="ref15">15.</span> Hille F, Richter H, Wong SP, Bratovič M, Ressel S, Charpentier E. The Biology of CRISPR-Cas: Backward and Forward. Cell. 2018;172:1239–1259. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.cell.2017.11.032](https://doi.org/10.1016/j.cell.2017.11.032)
+
+<span id="ref16">16.</span> Jakhanwal S, Cress BF, Maguin P, Lobba MJ, Marraffini LA, Doudna JA. A CRISPR-Cas9-integrase complex generates precise DNA fragments for genome integration. Nucleic Acids Research. 2021;49:3546–3556. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1093/nar/gkab123](https://doi.org/10.1093/nar/gkab123)
+
+<span id="ref17">17.</span> Jang S, Harshey RM. Repair of transposable phage Mu DNA insertions begins only when the E . coli replisome collides with the transpososome. Molecular Microbiology. 2015;97:746–758. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1111/mmi.13061](https://doi.org/10.1111/mmi.13061)
+
+<span id="ref18">18.</span> Jiang F, Doudna JA. The structural biology of CRISPR-Cas systems. Current Opinion in Structural Biology. 2015;30:100–111. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.sbi.2015.02.002](https://doi.org/10.1016/j.sbi.2015.02.002)
+
+<span id="ref19">19.</span> Jiang F, Doudna JA. CRISPR-Cas9 structures and mechanisms. Annual Review of Biophysics. 2017;46:505–529. [DOI] [PubMed] [Google Scholar] [doi:10.1146/annurev-biophys-062215-010822](https://doi.org/10.1146/annurev-biophys-062215-010822)
+
+<span id="ref20">20.</span> Jinek M, Chylinski K, Fonfara I, Hauer M, Doudna JA, Charpentier E. A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. Science. 2012;337:816–821. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1126/science.1225829](https://doi.org/10.1126/science.1225829)
+
+<span id="ref21">21.</span> Ka D, Lee H, Jung Y-D, Kim K, Seok C, Suh N, Bae E. Crystal Structure of Streptococcus pyogenes Cas1 and Its Interaction with Csn2 in the Type II CRISPR-Cas System. Structure. 2016;24:70–79. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.str.2015.10.019](https://doi.org/10.1016/j.str.2015.10.019)
+
+<span id="ref22">22.</span> Ka D, Jang DM, Han BW, Bae E. Molecular organization of the type II-A CRISPR adaptation module and its interaction with Cas9 via Csn2. Nucleic Acids Research. 2018;46:9805–9815. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1093/nar/gky702](https://doi.org/10.1093/nar/gky702)
+
+<span id="ref23">23.</span> Kennedy AK, Guhathakurta A, Kleckner N, Haniford DB. Tn10 Transposition via a DNA Hairpin Intermediate. Cell. 1998;95:125–134. [DOI] [PubMed] [Google Scholar] [doi:10.1016/S0092-8674(00)81788-2](https://doi.org/10.1016/S0092-8674(00)81788-2)
+
+<span id="ref24">24.</span> Kieper SN, Almendros C, Behler J, McKenzie RE, Nobrega FL, Haagsma AC, Vink JNA, Hess WR, Brouns SJJ. Cas4 Facilitates PAM-Compatible Spacer Selection during CRISPR Adaptation. Cell Reports. 2018;22:3377–3384. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.celrep.2018.02.103](https://doi.org/10.1016/j.celrep.2018.02.103)
+
+<span id="ref25">25.</span> Kim S, Loeff L, Colombo S, Jergic S, Brouns SJJ, Joo C. Selective loading and processing of prespacers for precise CRISPR adaptation. Nature. 2020;579:141–145. [DOI] [PubMed] [Google Scholar] [doi:10.1038/s41586-020-2018-1](https://doi.org/10.1038/s41586-020-2018-1)
+
+<span id="ref26">26.</span> Krupovic M, Béguin P, Koonin EV. Casposons: mobile genetic elements that gave rise to the CRISPR-Cas adaptation machinery. Current Opinion in Microbiology. 2017;38:36–43. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.mib.2017.04.004](https://doi.org/10.1016/j.mib.2017.04.004)
+
+<span id="ref27">27.</span> Lee H, Zhou Y, Taylor DW, Sashital DG. Cas4-Dependent prespacer processing ensures High-Fidelity programming of CRISPR arrays. Molecular Cell. 2018;70:48–59. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2018.03.003](https://doi.org/10.1016/j.molcel.2018.03.003)
+
+<span id="ref28">28.</span> Levy A, Goren MG, Yosef I, Auster O, Manor M, Amitai G, Edgar R, Qimron U, Sorek R. CRISPR adaptation biases explain preference for acquisition of foreign DNA. Nature. 2015;520:505–510. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nature14302](https://doi.org/10.1038/nature14302)
+
+<span id="ref29">29.</span> Makarova KS, Wolf YI, Alkhnbashi OS, Costa F, Shah SA, Saunders SJ, Barrangou R, Brouns SJJ, Charpentier E, Haft DH, Horvath P, Moineau S, Mojica FJM, Terns RM, Terns MP, White MF, Yakunin AF, Garrett RA, van der Oost J, Backofen R, Koonin EV. An updated evolutionary classification of CRISPR–Cas systems. Nature Reviews Microbiology. 2015;13:722–736. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nrmicro3569](https://doi.org/10.1038/nrmicro3569)
+
+<span id="ref30">30.</span> Marraffini LA. CRISPR-Cas immunity in prokaryotes. Nature. 2015;526:55–61. [DOI] [PubMed] [Google Scholar] [doi:10.1038/nature15386](https://doi.org/10.1038/nature15386)
+
+<span id="ref31">31.</span> McBlane JF, van Gent DC, Ramsden DA, Romeo C, Cuomo CA, Gellert M, Oettinger MA. Cleavage at a V(D)J recombination signal requires only RAG1 and RAG2 proteins and occurs in two steps. Cell. 1995;83:387–395. [DOI] [PubMed] [Google Scholar] [doi:10.1016/0092-8674(95)90116-7](https://doi.org/10.1016/0092-8674(95)90116-7)
+
+<span id="ref32">32.</span> Mohanraju P, Makarova KS, Zetsche B, Zhang F, Koonin EV, van der Oost J. Diverse evolutionary roots and mechanistic variations of the CRISPR-Cas systems. Science. 2016;353:aad5147. [DOI] [PubMed] [Google Scholar] [doi:10.1126/science.aad5147](https://doi.org/10.1126/science.aad5147)
+
+<span id="ref33">33.</span> Nuñez JK, Lee AS, Engelman A, Doudna JA. Integrase-mediated spacer acquisition during CRISPR-Cas adaptive immunity. Nature. 2015a;519:193–198. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nature14237](https://doi.org/10.1038/nature14237)
+
+<span id="ref34">34.</span> Nuñez JK, Harrington LB, Kranzusch PJ, Engelman AN, Doudna JA. Foreign DNA capture during CRISPR-Cas adaptive immunity. Nature. 2015b;527:535–538. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nature15760](https://doi.org/10.1038/nature15760)
+
+<span id="ref35">35.</span> Nuñez JK, Bai L, Harrington LB, Hinder TL, Doudna JA. CRISPR immunological memory requires a host factor for specificity. Molecular Cell. 2016;62:824–833. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2016.04.027](https://doi.org/10.1016/j.molcel.2016.04.027)
+
+<span id="ref36">36.</span> Pyenson NC, Marraffini LA. Type III CRISPR-Cas systems: when DNA cleavage just isn’t enough. Current Opinion in Microbiology. 2017;37:150–154. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.mib.2017.08.003](https://doi.org/10.1016/j.mib.2017.08.003)
+
+<span id="ref37">37.</span> Reece RJ, Maxwell A. DNA gyrase: structure and function. Critical Reviews in Biochemistry and Molecular Biology. 1991;26:335–375. [DOI] [PubMed] [Google Scholar] [doi:10.3109/10409239109114072](https://doi.org/10.3109/10409239109114072)
+
+<span id="ref38">38.</span> Rollie C, Graham S, Rouillon C, White MF. Prespacer processing and specific integration in a Type I-A CRISPR system. Nucleic Acids Research. 2018;46:1007–1020. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1093/nar/gkx1232](https://doi.org/10.1093/nar/gkx1232)
+
+<span id="ref39">39.</span> Shiimori M, Garrett SC, Graveley BR, Terns MP. Cas4 nucleases define the PAM, length, and orientation of DNA fragments integrated at CRISPR loci. Molecular Cell. 2018;70:814–824. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2018.05.002](https://doi.org/10.1016/j.molcel.2018.05.002)
+
+<span id="ref40">40.</span> Shmakov S, Abudayyeh OO, Makarova KS, Wolf YI, Gootenberg JS, Semenova E, Minakhin L, Joung J, Konermann S, Severinov K, Zhang F, Koonin EV. Discovery and functional characterization of diverse class 2 CRISPR-Cas systems. Molecular Cell. 2015;60:385–397. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2015.10.008](https://doi.org/10.1016/j.molcel.2015.10.008)
+
+<span id="ref41">41.</span> Smargon AA, Cox DBT, Pyzocha NK, Zheng K, Slaymaker IM, Gootenberg JS, Abudayyeh OA, Essletzbichler P, Shmakov S, Makarova KS, Koonin EV, Zhang F. Cas13b is a type VI-B CRISPR-Associated RNA-Guided RNase differentially regulated by accessory proteins Csx27 and Csx28. Molecular Cell. 2017;65:618–630. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2016.12.023](https://doi.org/10.1016/j.molcel.2016.12.023)
+
+<span id="ref42">42.</span> Vos SM, Tretter EM, Schmidt BH, Berger JM. All tangled up: how cells direct, manage and exploit topoisomerase function. Nature Reviews Molecular Cell Biology. 2011;12:827–841. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nrm3228](https://doi.org/10.1038/nrm3228)
+
+<span id="ref43">43.</span> Wang J, Li J, Zhao H, Sheng G, Wang M, Yin M, Wang Y. Structural and Mechanistic Basis of PAM-Dependent Spacer Acquisition in CRISPR-Cas Systems. Cell. 2015;163:840–853. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.cell.2015.10.008](https://doi.org/10.1016/j.cell.2015.10.008)
+
+<span id="ref44">44.</span> Wang L, Mo CY, Wasserman MR, Rostøl JT, Marraffini LA, Liu S. Dynamics of Cas10 govern discrimination between self and Non-self in type III CRISPR-Cas immunity. Molecular Cell. 2019;73:278–290. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2018.11.008](https://doi.org/10.1016/j.molcel.2018.11.008)
+
+<span id="ref45">45.</span> Wei Y, Terns RM, Terns MP. Cas9 function and host genome sampling in type II-A CRISPR-Cas adaptation. Genes & Development. 2015a;29:356–361. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1101/gad.257550.114](https://doi.org/10.1101/gad.257550.114)
+
+<span id="ref46">46.</span> Wei Y, Chesne MT, Terns RM, Terns MP. Sequences spanning the leader-repeat junction mediate CRISPR adaptation to phage in Streptococcus thermophilus. Nucleic Acids Research. 2015b;43:1749–1758. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1093/nar/gku1407](https://doi.org/10.1093/nar/gku1407)
+
+<span id="ref47">47.</span> Wiedenheft B, Sternberg SH, Doudna JA. RNA-guided genetic silencing systems in bacteria and archaea. Nature. 2012;482:331–338. [DOI] [PubMed] [Google Scholar] [doi:10.1038/nature10886](https://doi.org/10.1038/nature10886)
+
+<span id="ref48">48.</span> Wilkinson M, Drabavicius G, Silanskas A, Gasiunas G, Siksnys V, Wigley DB. Structure of the DNA-Bound spacer capture complex of a type II CRISPR-Cas system. Molecular Cell. 2019;75:90–101. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1016/j.molcel.2019.04.020](https://doi.org/10.1016/j.molcel.2019.04.020)
+
+<span id="ref49">49.</span> Wright AV, Nuñez JK, Doudna JA. Biology and Applications of CRISPR Systems: Harnessing Nature’s Toolbox for Genome Engineering. Cell. 2016;164:29–44. [DOI] [PubMed] [Google Scholar] [doi:10.1016/j.cell.2015.12.035](https://doi.org/10.1016/j.cell.2015.12.035)
+
+<span id="ref50">50.</span> Wright AV, Doudna JA. Protecting genome integrity during CRISPR immune adaptation. Nature Structural & Molecular Biology. 2016;23:876–883. [DOI] [PubMed] [Google Scholar] [doi:10.1038/nsmb.3289](https://doi.org/10.1038/nsmb.3289)
+
+<span id="ref51">51.</span> Xiao Y, Ng S, Nam KH, Ke A. How type II CRISPR–Cas establish immunity through Cas1–Cas2-mediated spacer integration. Nature. 2017;550:137–141. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1038/nature24020](https://doi.org/10.1038/nature24020)
+
+<span id="ref52">52.</span> Yosef I, Goren MG, Qimron U. Proteins and DNA elements essential for the CRISPR adaptation process in Escherichia coli. Nucleic Acids Research. 2012;40:5569–5576. [DOI] [PMC free article] [PubMed] [Google Scholar] [doi:10.1093/nar/gks216](https://doi.org/10.1093/nar/gks216)
+
+<span id="ref53">53.</span> Author information
+
+<span id="ref54">54.</span> Copyright and License information
+
+
 
 ---
 
-For the complete references list, please see the full text on PubMed Central.
