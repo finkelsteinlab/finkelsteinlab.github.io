@@ -34,6 +34,17 @@ Rules:
 - Do NOT put blank lines between the `<figure>`, `<img>`, `<figcaption>`, and `</figure>` tags
 - Preserve any HTML within captions (e.g., `<em>`, `<sub>`, `<sup>`)
 
+### 2.1a Formatting inside `<figcaption>`
+
+Markdown syntax (`**bold**`, `_italic_`) does NOT render inside HTML tags. Use HTML equivalents:
+
+- `**a**` → `<b>a</b>` (panel letters, labels)
+- `_text_` → `<em>text</em>` (gene names, variables, species)
+- Statistical significance asterisks must be escaped as HTML entities to prevent markdown interpretation:
+  - `**p < 0.01` → `&#42;&#42;p < 0.01`
+  - `****p < 0.0001` → `&#42;&#42;&#42;&#42;p < 0.0001`
+- `(ref. [44](#ref44))` → `([44](#ref44))` — strip the `ref.` prefix
+
 ### 2.2 Converting from other formats
 
 Replace ALL of the following legacy formats with the HTML structure above:
@@ -215,6 +226,7 @@ Add an anchor ID to each numbered reference entry so inline citations can link t
 - If a reference has a DOI, format it as a link: `[doi:10.xxx/yyy](https://doi.org/10.xxx/yyy)`
 - If a reference already has `[DOI](https://doi.org/...)` or `[[DOI](https://doi.org/...)]`, keep that format — both are acceptable
 - If no DOI is available, no link is needed
+- **Do not include stray `"` characters** in DOI text or URLs: `doi:10.xxx"` → `doi:10.xxx`
 
 ### 5.2a Strip PMC/PubMed/Google Scholar metadata links
 
