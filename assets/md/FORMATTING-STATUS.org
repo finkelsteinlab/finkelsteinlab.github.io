@@ -1,0 +1,711 @@
+#+TITLE: Paper MD Formatting Status
+#+AUTHOR: Finkelstein Lab
+#+DATE: 2026-03-25
+#+STARTUP: overview
+
+Status key:
+- TODO :: Has MD archive, needs formatting
+- WAITING :: Formatted by agent, awaiting manual review
+- DONE :: Manually reviewed and approved
+- PDF :: No MD archive (PDF only)
+
+* 2025
+** PDF 98. Sinan et al. ACS Synth Biol (2025)
+:PROPERTIES:
+:DOI: 10.1021/acssynbio.5c00463
+:FILE: papers/_posts/2025-12-19-One-Pot-Isothermal-Cas12a-Detection.MD
+:JOURNAL: ACS Synthetic Biology
+:END:
+** PDF 97. Buffington et al. Nat Biotechnol (2025)
+:PROPERTIES:
+:DOI: 10.1038/s41587-025-02879-3
+:FILE: papers/_posts/2025-10-23-Retron-genome-editing.MD
+:JOURNAL: Nature Biotechnology
+:END:
+** TODO 96. Nalefski et al. NAR (2025)
+:PROPERTIES:
+:MD_SLUG: 2025-07-19-Cas12a-trans-cleavage-diagnostics
+:DOI: 10.1093/nar/gkaf712
+:FILE: papers/_posts/2025-07-19-Cas12a-trans-cleavage-diagnostics.MD
+:JOURNAL: Nucleic Acids Research
+:END:
+** TODO 95. Dillard et al. NAR (2025)
+:PROPERTIES:
+:MD_SLUG: 2025-04-22-Cas9-inhibition-AcrIIA11
+:DOI: 10.1093/nar/gkaf318
+:FILE: papers/_posts/2025-04-22-Cas9-inhibition-AcrIIA11.MD
+:JOURNAL: Nucleic Acids Research
+:END:
+** TODO 94. Nalefski et al. Scientific Reports (2025)
+:PROPERTIES:
+:MD_SLUG: 2025-01-31-Room-Temperature-CRISPR-Diagnostics
+:DOI: 10.1038/s41598-025-86373-5
+:FILE: papers/_posts/2025-01-31-Room-Temperature-CRISPR-Diagnostics.MD
+:JOURNAL: Scientific Reports
+:END:
+** PDF 93. Chou et al. bioRxiv (2025)
+:PROPERTIES:
+:DOI: 10.1101/2025.09.12.675955
+:FILE: papers/_posts/2024-11-26-Cas13-structure.MD
+:JOURNAL: bioRxiv
+:END:
+* 2024
+** TODO 92. Chin Sang et al. EMBO Rep (2024)
+:PROPERTIES:
+:MD_SLUG: 2024-11-04-PARP1-condensates-EMBO-Reports
+:DOI: 10.1038/s44319-024-00285-5
+:FILE: papers/_posts/2024-11-04-PARP1-condensates-EMBO-Reports.MD
+:JOURNAL: EMBO Reports
+:END:
+** WAITING 91. Sinan et al. RNA (2024)
+:PROPERTIES:
+:MD_SLUG: 2024-09-16-Kinetic-dissection-of-pre-crRNA-binding
+:DOI: 10.1261/rna.080088.124
+:FILE: papers/_posts/2024-09-16-Kinetic-dissection-of-pre-crRNA-binding.MD
+:JOURNAL: RNA
+:END:
+** TODO 90. Kuo et al. Nat Commun (2024)
+:PROPERTIES:
+:MD_SLUG: 2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d
+:DOI: 10.1038/s41467-024-44738-w
+:FILE: papers/_posts/2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d.MD
+:JOURNAL: Nature Communications
+:END:
+** PDF 89. Quezada et al. MIMB (2024)
+:PROPERTIES:
+:DOI: 10.1007/978-1-0716-3666-4_12
+:FILE: papers/_posts/2024-04-23-Mammalian-antigen-display.MD
+:JOURNAL: Methods in Molecular Biology
+:END:
+** TODO 87. Leão et al. Nat Commun (2024)
+:PROPERTIES:
+:MD_SLUG: 2023-09-13-archaea-defense-immunity
+:DOI: 10.1038/s41467-024-50195-2
+:FILE: papers/_posts/2023-09-13-archaea-defense-immunity.MD
+:JOURNAL: Nature Communications
+:END:
+** TODO 85. Hibshman et al. Nat Commun (2024)
+:PROPERTIES:
+:MD_SLUG: 2023-06-22-PAMless-DNA-SpRY-Cas9
+:DOI: 10.1038/s41467-024-47830-3
+:FILE: papers/_posts/2023-06-22-PAMless-DNA-SpRY-Cas9.MD
+:JOURNAL: Nature Communications
+:END:
+** TODO 83. Hu et al. Nat Commun (2024)
+:PROPERTIES:
+:MD_SLUG: 2023-03-04-horizontal-transfer
+:DOI: 10.1038/s41467-024-50816-w
+:FILE: papers/_posts/2023-03-04-horizontal-transfer.MD
+:JOURNAL: Nature Communications
+:END:
+* 2023
+** WAITING 88. Kaur et al. JBC (2023)
+:PROPERTIES:
+:MD_SLUG: 2023-09-28-AFM-cohesin-NIPBL
+:DOI: 10.1016/j.jbc.2023.105296
+:FILE: papers/_posts/2023-09-28-AFM-cohesin-NIPBL.MD
+:JOURNAL: Journal of Biological Chemistry
+:END:
+** PDF 86. Zhang et al. Mol Cell (2023)
+:PROPERTIES:
+:DOI: 10.1016/j.molcel.2023.07.006
+:FILE: papers/_posts/2023-08-17-Cohesin-Rloops.MD
+:JOURNAL: Molecular Cell
+:END:
+** TODO 84. Gibson et al. PNAS (2023)
+:PROPERTIES:
+:MD_SLUG: 2023-04-24-chromatin-condensates-liquid-like-properties
+:DOI: 10.1073/pnas.2218085120
+:FILE: papers/_posts/2023-04-24-chromatin-condensates-liquid-like-properties.MD
+:JOURNAL: PNAS
+:END:
+** TODO 82. Soniat et al. JBC (2023)
+:PROPERTIES:
+:MD_SLUG: 2023-02-02-MRN-DNA-Resection
+:DOI: 10.1016/j.jbc.2022.102802
+:FILE: papers/_posts/2023-02-02-MRN-DNA-Resection.MD
+:JOURNAL: Journal of Biological Chemistry
+:END:
+* 2022
+** TODO 81. Kuo et al. AdvMater (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-08-09-NanoCluster-Beacons
+:DOI: 10.1002/adma.202204957
+:FILE: papers/_posts/2022-08-09-NanoCluster-Beacons.MD
+:JOURNAL: Advanced Materials
+:END:
+** WAITING 80. Javanmardi et al. CellHostMicrobe (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-08-04-Ab-escape-Omicron-spike
+:DOI: 10.1016/j.chom.2022.07.016
+:FILE: papers/_posts/2022-08-04-Ab-escape-Omicron-spike.MD
+:JOURNAL: Cell Host Microbe
+:END:
+** WAITING 79. Kozlov et al. J. Mol. Bio. (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-05-15-SSB-protein
+:DOI: 10.1016/j.jmb.2022.167562
+:FILE: papers/_posts/2022-05-15-SSB-protein.MD
+:JOURNAL: J. Mol. Bio.
+:END:
+** WAITING 78. Schaub et al. NAR (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-04-22-Pol-theta-end-joining
+:DOI: 10.1093/nar/gkac119
+:FILE: papers/_posts/2022-04-22-Pol-theta-end-joining.MD
+:JOURNAL: NAR
+:END:
+** TODO 77. Eslami-Mossallam et al. Nat Commun (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-03-15-SpCas9-kinetic-model
+:DOI: 10.1038/s41467-022-28994-2
+:FILE: papers/_posts/2022-03-15-SpCas9-kinetic-model.MD
+:JOURNAL: Nature Communications
+:END:
+** WAITING 76. Jack et al. Dev. Cell (2022)
+:PROPERTIES:
+:MD_SLUG: 2022-01-25-telomeres-phase-separation
+:DOI: 10.1016/j.devcel.2021.12.017
+:FILE: papers/_posts/2022-01-25-telomeres-phase-separation.MD
+:JOURNAL: Dev. Cell
+:END:
+* 2021
+** WAITING 75. Javanmardi et al. Mol. Cell (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-12-16-Spike-Display
+:DOI: 10.1016/j.molcel.2021.11.024
+:FILE: papers/_posts/2021-12-16-Spike-Display.md
+:JOURNAL: Mol. Cell
+:END:
+** TODO 74. Rybarski et al. PNAS (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-12-07-CAST-metagenomic-discovery
+:DOI: 10.1073/pnas.2112279118
+:FILE: papers/_posts/2021-12-07-CAST-metagenomic-discovery.MD
+:JOURNAL: PNAS
+:END:
+** TODO 73. Hill et al._J. Open Source Softw. (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-10-27-Python-package-gene-clusters
+:DOI: 10.21105/joss.03678
+:FILE: papers/_posts/2021-10-27-Python-package-gene-clusters.MD
+:JOURNAL: Journal of Open Source Software
+:END:
+** TODO 72. Schaub et al. Nat Protoc (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-10-05-SARS-CoV-2-Spike-proteins
+:DOI: 10.1038/s41596-021-00623-0
+:FILE: papers/_posts/2021-10-05-SARS-CoV-2-Spike-proteins.MD
+:JOURNAL: Nature Protocols
+:END:
+** TODO 71. Blevins_et_al._Chem Sci. (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-09-23-T4-gp32-ssDNA-complex
+:DOI: 10.1039/d1sc02861h
+:FILE: papers/_posts/2021-09-23-T4-gp32-ssDNA-complex.MD
+:JOURNAL: Chem Sci
+:END:
+** WAITING 70. Ma_et_al._eLife (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-08-26-cas1-cas2-complex
+:DOI: 10.7554/eLife.65763
+:FILE: papers/_posts/2021-08-26-cas1-cas2-complex.md
+:JOURNAL: eLife
+:END:
+** TODO 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
+:PROPERTIES:
+:MD_SLUG: 2021-07-03-SARS-CoV-2-variants
+:DOI: 10.1016/j.ajpath.2021.07.002
+:FILE: papers/_posts/2021-07-03-SARS-CoV-2-variants.md
+:JOURNAL: American Journal of Pathology
+:END:
+** TODO 68. Voss et al. Science (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-05-04-SARS-CoV-2-IgG
+:DOI: 10.1126/science.abg5268
+:FILE: papers/_posts/2021-05-04-SARS-CoV-2-IgG.md
+:JOURNAL: Science
+:END:
+** TODO 67. Calcines-Cruz et al. NanoLett(2021)
+:PROPERTIES:
+:MD_SLUG: 2021-03-17-artificial-virus
+:DOI: 10.1021/acs.nanolett.0c04640
+:FILE: papers/_posts/2021-03-17-artificial-virus.md
+:JOURNAL: Nano Letters
+:END:
+** TODO 66. Wesley Long et al. AmJPathol (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-03-16-SARS-CoV-2-Variants
+:DOI: 10.1016/j.ajpath.2021.03.004
+:FILE: papers/_posts/2021-03-16-SARS-CoV-2-Variants.md
+:JOURNAL: American Journal of Pathology
+:END:
+** WAITING 65. Strohkendl et al. SciAdv (2021)
+:PROPERTIES:
+:MD_SLUG: 2021-03-10-Cas12a-nucleosomes
+:DOI: 10.1126/sciadv.abd6030
+:FILE: papers/_posts/2021-03-10-Cas12a-nucleosomes.md
+:JOURNAL: Science Advances
+:END:
+** WAITING 63. Jones et al. Nat Biotechnol (2021)
+:PROPERTIES:
+:MD_SLUG: 2020-09-07-nucleaseq
+:DOI: 10.1038/s41587-020-0646-5
+:FILE: papers/_posts/2020-09-07-nucleaseq.md
+:JOURNAL: Nature Biotechnology
+:END:
+* 2020
+** TODO 64. Long et al. mBio (2020)
+:PROPERTIES:
+:MD_SLUG: 2020-10-30-Second-wave-SARS-CoV-2
+:DOI: 10.1128/mBio.02707-20
+:FILE: papers/_posts/2020-10-30-Second-wave-SARS-CoV-2.md
+:JOURNAL: mBio
+:END:
+** WAITING 62. Frazer et al. NatMicrobiol (2020)
+:PROPERTIES:
+:MD_SLUG: 2020-07-27-epigenetic-cell-fate
+:DOI: 10.1038/s41564-020-0760-7
+:FILE: papers/_posts/2020-07-27-epigenetic-cell-fate.md
+:JOURNAL: Nature Microbiology
+:END:
+** TODO 61. Hsieh_et al._Science(2020)
+:PROPERTIES:
+:MD_SLUG: 2020-07-23-SARS-CoV-2-Structure
+:DOI: 10.1126/science.abd0826
+:FILE: papers/_posts/2020-07-23-SARS-CoV-2-Structure.md
+:JOURNAL: Science
+:END:
+** WAITING 60. Press et al. PNAS (2020)
+:PROPERTIES:
+:MD_SLUG: 2020-07-16-HEDGES
+:DOI: 10.1073/pnas.2004821117
+:FILE: papers/_posts/2020-07-16-HEDGES.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+** WAITING 59. Zhang et al. NAR (2020)
+:PROPERTIES:
+:MD_SLUG: 2020-07-04-RADX-condensation
+:DOI: 10.1093/nar/gkaa559
+:FILE: papers/_posts/2020-07-04-RADX-condensation.md
+:JOURNAL: Nucleic Acids Research
+:END:
+** WAITING 58. Deshpande _et al.,_ SciAdv (2020)
+:PROPERTIES:
+:MD_SLUG: 2020-01-08-pkcs-end-processing
+:DOI: 10.1126/sciadv.aay0922
+:FILE: papers/_posts/2020-01-08-pkcs-end-processing.md
+:JOURNAL: Science Advances
+:END:
+* 2019
+** WAITING 57. Kim _et al._ Science (2019) 
+:PROPERTIES:
+:MD_SLUG: 2019-12-13-cohesin-compaction
+:DOI: 10.1126/science.aaz4475
+:FILE: papers/_posts/2019-12-13-cohesin-compaction.md
+:JOURNAL: Science
+:END:
+** TODO 56. Mallam et al. Cell Reports (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-10-29-discovery-of-rnp-complexes
+:DOI: 10.1016/j.celrep.2019.09.060
+:FILE: papers/_posts/2019-10-29-discovery-of-rnp-complexes.md
+:JOURNAL: Cell Reports
+:END:
+** WAITING 55. Simon et al. NAR (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-10-10-Retron-applications
+:DOI: 10.1093/nar/gkz865
+:FILE: papers/_posts/2019-10-10-Retron-applications.md
+:JOURNAL: Nucleic Acids Research
+:END:
+** WAITING 54. Forsberg _et al._ eLife (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-09-10-Cas9-inhibitors
+:DOI: 10.7554/eLife.46540
+:FILE: papers/_posts/2019-09-10-Cas9-inhibitors.md
+:JOURNAL: eLife
+:END:
+** WAITING 53. Soniat_et al._Mol. Cell (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-07-11-rpa-phosphorylation
+:DOI: 10.1016/j.molcel.2019.05.005
+:FILE: papers/_posts/2019-07-11-rpa-phosphorylation.md
+:JOURNAL: Molecular Cell
+:END:
+** TODO 52. Caron_et al._ Nat. Commun. (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-07-04-adp-ribose-polymerase-1
+:DOI: 10.1038/s41467-019-10741-9
+:FILE: papers/_posts/2019-07-04-adp-ribose-polymerase-1.md
+:JOURNAL: Nature Communications
+:END:
+** TODO 51. Myler_et al._ Methods Mol Biol. (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-05-31-mre1-rad50-nbs1-complex
+:DOI: 10.1007/978-1-4939-9520-2_20
+:FILE: papers/_posts/2019-05-31-mre1-rad50-nbs1-complex.md
+:JOURNAL: Methods Mol Biol.
+:END:
+** TODO 50. Soniat_ et al._ Methods Mol Biol. (2019)
+:PROPERTIES:
+:MD_SLUG: 2019-05-25-human-resectosome
+:DOI: 10.1007/978-1-4939-9500-4_14
+:FILE: papers/_posts/2019-05-25-human-resectosome.md
+:JOURNAL: Methods Mol Biol.
+:END:
+** TODO 49. Dillard_et al._Methods Enzymol. (2019) 
+:PROPERTIES:
+:MD_SLUG: 2018-12-17-sortase-labeling
+:DOI: 10.1016/bs.mie.2018.10.031
+:FILE: papers/_posts/2018-12-17-sortase-labeling.md
+:JOURNAL: Methods in Enzymology
+:END:
+** WAITING 48. Kim et al. NAR (2019)
+:PROPERTIES:
+:MD_SLUG: 2018-12-12-IDR-MutL-mismatch-repair
+:DOI: 10.1093/nar/gky1244
+:FILE: papers/_posts/2018-12-12-IDR-MutL-mismatch-repair.md
+:JOURNAL: Nucleic Acids Research
+:END:
+* 2018
+** TODO 47. Bhattacharyya et al. PNAS (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-11-28-mu-gam-nhej
+:DOI: 10.1073/pnas.1816606115
+:FILE: papers/_posts/2018-11-28-mu-gam-nhej.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+** WAITING 46. Dillard and Brown et al. Cell (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-10-18-PAC-Cell
+:DOI: 10.1016/j.cell.2018.09.039
+:FILE: papers/_posts/2018-10-18-PAC-Cell.md
+:JOURNAL: Cell
+:END:
+** TODO 45. Schaub _et al._ Langmuir (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-08-02-low-complexity-ssdna-curtains
+:DOI: 10.1021/acs.langmuir.8b01812
+:FILE: papers/_posts/2018-08-02-low-complexity-ssdna-curtains.md
+:JOURNAL: Langmuir
+:END:
+** TODO 44. Strohkendl _et al._ Mol. Cell (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-07-24-cas12a-kinetics
+:DOI: 10.1016/j.molcel.2018.06.043
+:FILE: papers/_posts/2018-07-24-cas12a-kinetics.md
+:JOURNAL: Mol. Cell
+:END:
+** WAITING 43. Greenstein _et al._ eLife (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-07-18-heterochromatin-spreading-epigenetics
+:DOI: 10.7554/eLife.32948
+:FILE: papers/_posts/2018-07-18-heterochromatin-spreading-epigenetics.md
+:JOURNAL: eLife
+:END:
+** TODO 42. Hawkins _et al._ PNAS (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-07-03-dna-barcodes
+:DOI: 10.1073/pnas.1802640115
+:FILE: papers/_posts/2018-07-03-dna-barcodes.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+** WAITING 41. Eichmiller _et al._ NAR (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-06-01-rad-msh-saw-rpa
+:DOI: 10.1093/nar/gky254
+:FILE: papers/_posts/2018-06-01-rad-msh-saw-rpa.md
+:JOURNAL: Nucleic Acids Research
+:END:
+** TODO 40. Seol _et al._ Nature Communications (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-05-23-crosslink-repair-proteins
+:DOI: 10.1038/s41467-018-04327-0
+:FILE: papers/_posts/2018-05-23-crosslink-repair-proteins.md
+:JOURNAL: Nature Communications
+:END:
+** TODO 39. Jones _et al._ Bio Prot. (2018)
+:PROPERTIES:
+:MD_SLUG: 2018-04-05-multfylm-protocol
+:DOI: 10.21769/BioProtoc.2783
+:FILE: papers/_posts/2018-04-05-multfylm-protocol.md
+:JOURNAL: Bio-protocol
+:END:
+* 2017
+** WAITING 38. Myler and Gallardo _et al._, Mol. Cell (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-09-07-mrn-dna-curtains
+:DOI: 10.1016/j.molcel.2017.08.002
+:FILE: papers/_posts/2017-09-07-mrn-dna-curtains.md
+:JOURNAL: Molecular Cell
+:END:
+** TODO 37. Myler and Finkelstein-PBMB (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-08-01-euk-resectosome-single-molecule-review
+:DOI: 10.1016/j.pbiomolbio.2016.08.001
+:FILE: papers/_posts/2017-08-01-euk-resectosome-single-molecule-review.md
+:JOURNAL: Progress in Biophysics and Molecular Biology
+:END:
+** WAITING 36. Jung, Hawkins and Jones et al. Cell (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-06-29-champ-cascade
+:DOI: 10.1016/j.cell.2017.05.044
+:FILE: papers/_posts/2017-06-29-champ-cascade.md
+:JOURNAL: Cell
+:END:
+** TODO 35. Kim _et al._ Sci Rep. (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-05-18-lambda-modification
+:DOI: 10.1038/s41598-017-01984-x
+:FILE: papers/_posts/2017-05-18-lambda-modification.md
+:JOURNAL: Sci Rep.
+:END:
+** TODO 34. Spivey and Jones _et al._ eLife (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-01-31-yeast-aging-multylm
+:DOI: 10.7554/eLife.20340
+:FILE: papers/_posts/2017-01-31-yeast-aging-multylm.md
+:JOURNAL: eLife
+:END:
+** TODO 33. Soniat _et al._ Methods Enzymol. (2017)
+:PROPERTIES:
+:MD_SLUG: 2017-01-01-hr-methods-enzymology-chapter
+:DOI: 10.1016/bs.mie.2017.03.011
+:FILE: papers/_posts/2017-01-01-hr-methods-enzymology-chapter.md
+:JOURNAL: Methods in Enzymololgy
+:END:
+** PDF 32. Brown _et al._ Methods Enzymology (2017)
+:PROPERTIES:
+:DOI: 10.1016/bs.mie.2016.08.006
+:FILE: papers/_posts/2016-10-24-mmr-methods-enzymology-chapter.md
+:JOURNAL: Methods in Enzymology
+:END:
+* 2016
+** WAITING 31. Yu _et al._ JBC (2016)
+:PROPERTIES:
+:MD_SLUG: 2016-07-08-sequence-preference-proteasome
+:DOI: 10.1074/jbc.M116.727578
+:FILE: papers/_posts/2016-07-08-sequence-preference-proteasome.md
+:JOURNAL: J. Biol. Chem.
+:END:
+** WAITING 30. Myler and Gallardo _et al._ PNAS (2016)
+:PROPERTIES:
+:MD_SLUG: 2016-03-01-exo1-ssb-curtains
+:DOI: 10.1073/pnas.1516674113
+:FILE: papers/_posts/2016-03-01-exo1-ssb-curtains.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+** TODO 29. Brown _et al._ Nat. Commun. (2016)
+:PROPERTIES:
+:MD_SLUG: 2016-02-03-dna-bypass-roadblocks
+:DOI: 10.1038/ncomms10607
+:FILE: papers/_posts/2016-02-03-dna-bypass-roadblocks.md
+:JOURNAL: Nature Communications
+:END:
+* 2015
+** WAITING 28. Gallardo _et al._ Langmuir (2015)
+:PROPERTIES:
+:MD_SLUG: 2015-09-22-dna-curtain-arrays
+:DOI: 10.1021/acs.langmuir.5b02416
+:FILE: papers/_posts/2015-09-22-dna-curtain-arrays.md
+:JOURNAL: Langmuir
+:END:
+* 2014
+** TODO 27. Robison and Finkelstein FEBS Lett. (2014)
+:PROPERTIES:
+:MD_SLUG: 2014-10-01-single-molecule-curtains-letter
+:DOI: 10.1016/j.febslet.2014.05.021
+:FILE: papers/_posts/2014-10-01-single-molecule-curtains-letter.md
+:JOURNAL: FEBS Lett.
+:END:
+** WAITING 26. Spivey _et al._ AC (2014)
+:PROPERTIES:
+:MD_SLUG: 2014-08-05-microdissector-cellular-aging
+:DOI: 10.1021/ac500893a
+:FILE: papers/_posts/2014-08-05-microdissector-cellular-aging.md
+:JOURNAL: Anal. Chem.
+:END:
+** PDF 25. Spivey and Finkelstein Mol. Biosyst. (2014)
+:PROPERTIES:
+:DOI: 10.1039/c3mb70604d
+:FILE: papers/_posts/2014-07-01-high-throughput-aging.md
+:JOURNAL: Mol. Biosyst.
+:END:
+** TODO 24. Lee _et al._ Mol. Cell (2014)
+:PROPERTIES:
+:MD_SLUG: 2014-06-05-ftsk-collisions-curtains
+:DOI: 10.1016/j.molcel.2014.03.033
+:FILE: papers/_posts/2014-06-05-ftsk-collisions-curtains.md
+:JOURNAL: Mol. Cell
+:END:
+** PDF 23. Robison and Finkelstein AC (2014)
+:PROPERTIES:
+:DOI: 10.1021/ac500267v
+:FILE: papers/_posts/2014-05-06-microfluidic-devices-curtains.md
+:JOURNAL: Anal. Chem.
+:END:
+** TODO 22. Leung _et al._ PLoS Genetics (2014)
+:PROPERTIES:
+:MD_SLUG: 2014-03-06-rnf168-h2a-ubiquitination-dna-damage
+:DOI: 10.1371/journal.pgen.1004178
+:FILE: papers/_posts/2014-03-06-rnf168-h2a-ubiquitination-dna-damage.md
+:JOURNAL: PLoS Genet.
+:END:
+* 2013
+** WAITING 21. Finkelstein and Greene-Annu Rev Biophys (2013)
+:PROPERTIES:
+:MD_SLUG: 2013-02-28-traffic-dna
+:DOI: 10.1146/annurev-biophys-083012-130304
+:FILE: papers/_posts/2013-02-28-traffic-dna.md
+:JOURNAL: Annu Rev Biophys
+:END:
+** TODO 20. Wang _et al._ NSMB (2013)
+:PROPERTIES:
+:MD_SLUG: 2013-02-01-search-rnap-3d
+:DOI: 10.1038/nsmb.2472
+:FILE: papers/_posts/2013-02-01-search-rnap-3d.md
+:JOURNAL: Nat. Struct. Mol. Biol.
+:END:
+* 2012
+** TODO 19. Gibb _et al._ AC (2012)
+:PROPERTIES:
+:MD_SLUG: 2012-09-18-ssdna-curtains
+:DOI: 10.1021/ac302117z
+:FILE: papers/_posts/2012-09-18-ssdna-curtains.md
+:JOURNAL: Anal. Chem.
+:END:
+** TODO 18. Lee and Finkelstein _et al._ PNAS (2012)
+:PROPERTIES:
+:MD_SLUG: 2012-04-24-curtains-kops-ftsk
+:DOI: 10.1073/pnas.1201613109
+:FILE: papers/_posts/2012-04-24-curtains-kops-ftsk.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+* 2011
+** TODO 17. Finkelstein and Greene-Methods Mol Biol. (2011)
+:PROPERTIES:
+:MD_SLUG: 2011-04-28-bilayers-curtains-single-molecule
+:DOI: 10.1007/978-1-61779-129-1_26
+:FILE: papers/_posts/2011-04-28-bilayers-curtains-single-molecule.md
+:JOURNAL: Methods Mol Biol.
+:END:
+* 2010
+** TODO 16. Finkelstein _et al._ Nature (2010)
+:PROPERTIES:
+:MD_SLUG: 2010-12-16-dna-translocase-curtains
+:DOI: 10.1038/nature09561
+:FILE: papers/_posts/2010-12-16-dna-translocase-curtains.md
+:JOURNAL: Nature
+:END:
+* 2009
+** TODO 15. Finkelstein and Greene Mol. Cell (2009)
+:PROPERTIES:
+:MD_SLUG: 2009-09-11-xpd-helicase
+:DOI: 10.1016/j.molcel.2009.08.012
+:FILE: papers/_posts/2009-09-11-xpd-helicase.md
+:JOURNAL: Mol Cell
+:END:
+* 2008
+** WAITING 14. Finkelstein and Greene Mol Biosyst (2008)
+:PROPERTIES:
+:MD_SLUG: 2008-11-04-single-molecule-hr
+:DOI: 10.1039/b811681b
+:FILE: papers/_posts/2008-11-04-single-molecule-hr.md
+:JOURNAL: Mol. Biosyst.
+:END:
+* 2007
+** TODO 13. Ishikawa _et al._ PNAS (2007)
+:PROPERTIES:
+:MD_SLUG: 2007-10-09-neuroglobin-ultrafast
+:DOI: 10.1073/pnas.0707718104
+:FILE: papers/_posts/2007-10-09-neuroglobin-ultrafast.md
+:JOURNAL: Proc Natl Acad Sci USA
+:END:
+** PDF 12. Kwak _et al._ JCP (2007)
+:PROPERTIES:
+:DOI: 10.1063/1.2772269
+:FILE: papers/_posts/2007-09-28-frequency-frequency-correlation.md
+:JOURNAL: J. Chem. Phys.
+:END:
+** PDF 11. Finkelstein _et al._ Biophys J (2007)
+:PROPERTIES:
+:DOI: 10.1529/biophysj.106.093708
+:FILE: papers/_posts/2007-05-15-viscosity-dependent-protein-dynamics.md
+:JOURNAL: Biophys J
+:END:
+** PDF 10. Finkelstein _et al._ PCCP (2007)
+:PROPERTIES:
+:DOI: 10.1039/b618158a
+:FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
+:JOURNAL: Phys. Chem. Chem. Phys.
+:END:
+** TODO 9. Finkelstein _et al._ PNAS (2007)
+:PROPERTIES:
+:MD_SLUG: 2007-02-20-protein-dynamics-2d-ir
+:DOI: 10.1073/pnas.0610027104
+:FILE: papers/_posts/2007-02-20-protein-dynamics-2d-ir.md
+:JOURNAL: Proc Natl Acad Sci. USA
+:END:
+* 2006
+** PDF 8. Massari _et al._ JPCB (2006)
+:PROPERTIES:
+:DOI: 10.1021/jp054959q
+:FILE: papers/_posts/2006-09-28-cytochrome-c552-mutants.md
+:JOURNAL: J. Phys. Chem. B.
+:END:
+** TODO 7. Massari _et al._ JACS (2006)
+:PROPERTIES:
+:MD_SLUG: 2006-03-29-proteins-silica-glasses-ir
+:DOI: 10.1021/ja058745y
+:FILE: papers/_posts/2006-03-29-proteins-silica-glasses-ir.md
+:JOURNAL: J. Am. Chem. Soc.
+:END:
+* 2005
+** PDF 6. Massari _et al._ JACS (2005)
+:PROPERTIES:
+:DOI: 10.1021/ja053627w
+:FILE: papers/_posts/2005-10-19-glassy-solvents-protein-dynamics.md
+:JOURNAL: J. Am. Chem. Soc.
+:END:
+** PDF 5. Finkelstein _et al._ JPCB (2005)
+:PROPERTIES:
+:DOI: 10.1021/jp0517201
+:FILE: papers/_posts/2005-09-08-myoglobin-dynamics-histidine.md
+:JOURNAL: J. Phys. Chem. B.
+:END:
+* 2004
+** TODO 4. McClain _et al._ JACS (2004)
+:PROPERTIES:
+:MD_SLUG: 2004-12-08-hemoglobin-dynamics-vibrational-echo
+:DOI: 10.1021/ja0454790
+:FILE: papers/_posts/2004-12-08-hemoglobin-dynamics-vibrational-echo.md
+:JOURNAL: J. Am. Chem. Soc.
+:END:
+** TODO 3. Finkelstein _et al._ J Chem Phys. (2004)
+:PROPERTIES:
+:MD_SLUG: 2004-07-08-vibrational-echos-heme-co
+:DOI: 10.1063/1.1758940
+:FILE: papers/_posts/2004-07-08-vibrational-echos-heme-co.md
+:JOURNAL: J. Chem. Phys.
+:END:
+** PDF 2. McClain _et al._ CPLett (2004)
+:PROPERTIES:
+:DOI: 10.1016/j.cplett.2004.05.080
+:FILE: papers/_posts/2004-06-15-vibrational-echoes-red-blood-cells.md
+:JOURNAL: Chem. Phys. Lett.
+:END:
+* 2003
+** TODO 1. Merchant _et al._ JACS (2003)
+:PROPERTIES:
+:MD_SLUG: 2003-11-03-myoglobin-substates
+:DOI: 10.1021/ja035654x
+:FILE: papers/_posts/2003-11-03-myoglobin-substates.md
+:JOURNAL: J. Am. Chem. Soc.
+:END:
+* 
+** PDF 99. Unknown
+:PROPERTIES:
+:DOI: pmcid:
+:FILE: papers/_posts/template.md
+:END:
