@@ -99,7 +99,7 @@ As a proof-of-principle, we induced proteome-wide aggregation by treating the ce
 
 <figure class="paper-figure" id="fig7">
 <img src="nihms-731804-f0007.jpg" alt="Figure 7">
-<figcaption><strong>Figure 7. Normalized replication times following treatment with 1 mM H2O2.</strong> The graph demonstrates that cell replication time doubles immediately after H2O2 exposure (indicated by an arrow marking when treatment was applied between the first and second generations). Cells gradually recover, returning to normal division rates around generation seven. Error bars represent standard deviation, with asterisks indicating statistical significance (**p < 0.01, *p < 0.05).</figcaption>
+<figcaption><strong>Figure 7. Normalized replication times following treatment with 1 mM H2O2.</strong> The graph demonstrates that cell replication time doubles immediately after H2O2 exposure (indicated by an arrow marking when treatment was applied between the first and second generations). Cells gradually recover, returning to normal division rates around generation seven. Error bars represent standard deviation, with asterisks indicating statistical significance (&#42;&#42;p < 0.01, *p < 0.05).</figcaption>
 </figure>
 ---
 ##  CONCLUSION
