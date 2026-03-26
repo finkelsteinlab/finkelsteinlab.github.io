@@ -40,9 +40,10 @@ Markdown syntax (`**bold**`, `_italic_`) does NOT render inside HTML tags. Use H
 
 - `**a**` → `<b>a</b>` (panel letters, labels)
 - `_text_` → `<em>text</em>` (gene names, variables, species)
-- Statistical significance asterisks must be escaped as HTML entities to prevent markdown interpretation:
-  - `**p < 0.01` → `&#42;&#42;p < 0.01`
-  - `****p < 0.0001` → `&#42;&#42;&#42;&#42;p < 0.0001`
+- Any literal asterisks must be escaped as HTML entities to prevent markdown interpretation:
+  - Statistical significance: `**p < 0.01` → `&#42;&#42;p < 0.01`, `****p < 0.0001` → `&#42;&#42;&#42;&#42;p < 0.0001`
+  - Scientific notation with footnote markers: `IP**` → `IP&#42;&#42;`
+  - General rule: if `*` is not intended as bold/italic formatting, escape it as `&#42;`
 - `(ref. [44](#ref44))` → `([44](#ref44))` — strip the `ref.` prefix
 
 ### 2.2 Converting from other formats
@@ -227,6 +228,7 @@ Add an anchor ID to each numbered reference entry so inline citations can link t
 - If a reference already has `[DOI](https://doi.org/...)` or `[[DOI](https://doi.org/...)]`, keep that format — both are acceptable
 - If no DOI is available, no link is needed
 - **Do not include stray `"` characters** in DOI text or URLs: `doi:10.xxx"` → `doi:10.xxx`
+- **Do not confuse PNAS supplement URLs with DOI links.** URLs like `https://www.pnas.org/lookup/suppl/doi:10.1073/...` are supplement links, not DOI references — leave them as-is or strip to plain text per §4.5
 
 ### 5.2a Strip PMC/PubMed/Google Scholar metadata links
 
@@ -253,6 +255,19 @@ For these files:
 - Keep the placeholder as a fallback
 - Inline citations in these files should still use `#refN` anchors even though the targets won't resolve — this is acceptable and will work once references are added later
 - If the file ALSO has a numbered reference list below the placeholder, remove the placeholder and keep only the numbered list
+
+### 5.3a Fetching missing references from PMC
+
+If the file has inline `#refN` citations but no numbered reference list (only a placeholder), fetch the references from PMC:
+
+1. Get the `pmcid` from the YAML front matter
+2. Fetch `https://pmc.ncbi.nlm.nih.gov/articles/<PMCID>/`
+3. Extract references from the HTML — note that different journals use different markup:
+   - Most journals: `<li>` elements with `id="RN"` or `id="BN"`
+   - eLife and some others: `<li>` elements inside a `<ul class="ref-list">` without predictable IDs
+4. Format each reference as: `<span id="refN">N.</span> Author. Title. *Journal* year;vol:pages. [doi:10.xxx](https://doi.org/10.xxx)`
+5. Strip `[PMC free article]`, `[PubMed]`, `[Google Scholar]` metadata
+6. Replace the placeholder with the full numbered list
 
 ### 5.4 Reference format
 
