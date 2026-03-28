@@ -33,9 +33,9 @@ Whole-lifespan single-cell analysis has greatly increased our understanding of f
 **Keywords:** Cellular aging, Lifespan, Microdissection, Microfluidics, Lithography, Fabrication
 ---
 ##  Background
-Cellular aging results in the cumulative decline of cellular function that eventually leads to mortality. Most studies of cellular aging focus on the replicative lifespan of model unicellular organisms, such as budding yeast _Saccharomyces cerevisiae_ ([Nyström and Liu, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r19); [Wasko and Kaeberlein, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r30); [Wierman and Smith, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r31); [Ruetenik and Barrientos, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r21)). The replicative lifespan (RLS) of a cell is defined as the number of daughters produced by a mother cell over the course of its life ([Henderson and Gottschling, 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r8); [ Sutphin _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r27)). RLS studies have greatly expanded our understanding of cellular aging in mitotically active cells. For example, in budding yeast, old mothers preferentially retain misfolded proteins and other cellular senescence factors from the budding daughter cells ([ Aguilaniu _et al._ , 2003 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r1); [Hughes and Gottschling, 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r10); [ Liu _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r14); [ Saka _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r22); [ Zhou _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r34); [ Paoletti _et al._ , 2016 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r20)). This feat is achieved by restricting the flow of these ‘senescence factors’ across the bud septum, preventing their accumulation in the rejuvenated daughters ([ Shcheprova _et al._ , 2008 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r23); Higuchi-[ Sanabria _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r9)). Whether senescence factors are also segregated in symmetrically dividing cells is unclear ([ Wang _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r29); [ Coelho _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r4); [Nakaoka and Wakamoto, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r17)). Indeed, relatively little is known about the mechanisms and causes of aging in symmetrically dividing cells. 
-Whole-lifespan cellular aging studies require the separation of aging cells from their progeny. Pioneering, early studies in budding yeast removed daughter cells from their mothers via manual microdissection ([Mortimer and Johnston, 1959](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r16)). Since the first such study in 1959, manual microdissection still remains a popular, albeit laborious method for studying replicative aging in most unicellular organisms ([Mortimer and Johnston, 1959](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r16); [ Kennedy _et al._ , 1994 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r12); [Barker and Walmsley, 1999](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r2); [ Fu _et al._ , 2008 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r6)). However, the low-throughput and laborious nature of this assay limits our current understanding of replicative aging. Most recently, removal of progeny cells has been automated in microfluidic devices that capture and retain individual aging cells ([ Wang _et al._ , 2010 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r29); [ Lee _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r13); [ Xie _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r32); [ Zhang _et al._ , 2012 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r33); [ Tian _et al._ , 2013 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r28); [ Crane _et al._ , 2014 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r5); [Nobs and Maerkl, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r18); [ Jo _et al._ , 2015 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r11); [ Liu _et al._ , 2015 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r15); [Nakaoka and Wakamoto, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r17); [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). Using such devices, relatively large cohorts of individual cells (100 s to 1,000 s of cells) can then be tracked independently from one another. However, most of these approaches focused on prokaryotic cells or the asymmetrically dividing budding yeast (Spivey and Finkelstein, 2014; [ Chen _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r3)). 
-Here, we describe the fabrication and assembly of a microfluidic device for capturing and imaging thousands of fission yeast cells over their entire replicative lifespans. The multiplexed fission yeast lifespan microdissector (multFYLM) enables the experimentalist to track the lifespan of over a thousand fission yeast cells ([ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). The cells may be continuously imaged for up to six independent populations for over a week, yielding high-resolution imaging over each cell’s replicative lifespan. The multFYLM is constructed of silicone elastomer using templates manufactured via UV photo-lithography. The protocol contained herein details construction of the multFYLM, loading with fission yeast cells, and image collection using a fluorescent microscope. We anticipate that this protocol will be broadly useful for long-term imaging of rod-shaped eukaryotic cells and will shed light on diverse biological processes, including cell cycle regulation, chromatin dynamics, proteome homeostasis, and cellular aging. 
+Cellular aging results in the cumulative decline of cellular function that eventually leads to mortality. Most studies of cellular aging focus on the replicative lifespan of model unicellular organisms, such as budding yeast _Saccharomyces cerevisiae_ ([Nyström and Liu, 2014](#ref19); [Wasko and Kaeberlein, 2014](#ref30); [Wierman and Smith, 2014](#ref31); [Ruetenik and Barrientos, 2015](#ref21)). The replicative lifespan (RLS) of a cell is defined as the number of daughters produced by a mother cell over the course of its life ([Henderson and Gottschling, 2008](#ref8); [Sutphin _et al._, 2014](#ref27)). RLS studies have greatly expanded our understanding of cellular aging in mitotically active cells. For example, in budding yeast, old mothers preferentially retain misfolded proteins and other cellular senescence factors from the budding daughter cells ([Aguilaniu _et al._, 2003](#ref1); [Hughes and Gottschling, 2012](#ref10); [Liu _et al._, 2010](#ref14); [Saka _et al._, 2013](#ref22); [Zhou _et al._, 2014](#ref34); [Paoletti _et al._, 2016](#ref20)). This feat is achieved by restricting the flow of these ‘senescence factors’ across the bud septum, preventing their accumulation in the rejuvenated daughters ([Shcheprova _et al._, 2008](#ref23); [Higuchi-Sanabria _et al._, 2014](#ref9)). Whether senescence factors are also segregated in symmetrically dividing cells is unclear ([Wang _et al._, 2010](#ref29); [Coelho _et al._, 2013](#ref4); [Nakaoka and Wakamoto, 2017](#ref17)). Indeed, relatively little is known about the mechanisms and causes of aging in symmetrically dividing cells. 
+Whole-lifespan cellular aging studies require the separation of aging cells from their progeny. Pioneering, early studies in budding yeast removed daughter cells from their mothers via manual microdissection ([Mortimer and Johnston, 1959](#ref16)). Since the first such study in 1959, manual microdissection still remains a popular, albeit laborious method for studying replicative aging in most unicellular organisms ([Mortimer and Johnston, 1959](#ref16); [Kennedy _et al._, 1994](#ref12); [Barker and Walmsley, 1999](#ref2); [Fu _et al._, 2008](#ref6)). However, the low-throughput and laborious nature of this assay limits our current understanding of replicative aging. Most recently, removal of progeny cells has been automated in microfluidic devices that capture and retain individual aging cells ([Wang _et al._, 2010](#ref29); [Lee _et al._, 2012](#ref13); [Xie _et al._, 2012](#ref32); [Zhang _et al._, 2012](#ref33); [Tian _et al._, 2013](#ref28); [Crane _et al._, 2014](#ref5); [Nobs and Maerkl, 2014](#ref18); [Jo _et al._, 2015](#ref11); [Liu _et al._, 2015](#ref15); [Nakaoka and Wakamoto, 2017](#ref17); [Spivey _et al._, 2017](#ref25)). Using such devices, relatively large cohorts of individual cells (100 s to 1,000 s of cells) can then be tracked independently from one another. However, most of these approaches focused on prokaryotic cells or the asymmetrically dividing budding yeast ([Spivey and Finkelstein, 2014](#ref24); [Chen _et al._, 2017](#ref3)). 
+Here, we describe the fabrication and assembly of a microfluidic device for capturing and imaging thousands of fission yeast cells over their entire replicative lifespans. The multiplexed fission yeast lifespan microdissector (multFYLM) enables the experimentalist to track the lifespan of over a thousand fission yeast cells ([Spivey _et al._, 2017](#ref25)). The cells may be continuously imaged for up to six independent populations for over a week, yielding high-resolution imaging over each cell’s replicative lifespan. The multFYLM is constructed of silicone elastomer using templates manufactured via UV photo-lithography. The protocol contained herein details construction of the multFYLM, loading with fission yeast cells, and image collection using a fluorescent microscope. We anticipate that this protocol will be broadly useful for long-term imaging of rod-shaped eukaryotic cells and will shed light on diverse biological processes, including cell cycle regulation, chromatin dynamics, proteome homeostasis, and cellular aging. 
 ##  Materials and Reagents
   1. Microfabrication
     1. SU-8 2005 photoresist (Microchem)
@@ -134,10 +134,10 @@ _Note: This product has been discontinued._
 Chamber design file available at:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLMChamber.scad>
 
-***[Figure 4](#fig4).*** Epifluorescent microscope prepared for imaging of the multFYLM.
-{: #fig4 }
-![Figure 4.](BioProtoc-8-07-2783-g004.jpg)
-A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.
+<figure class="paper-figure" id="fig4">
+<img src="BioProtoc-8-07-2783-g004.jpg" alt="Figure 4">
+<figcaption><strong>Figure 4. Epifluorescent microscope prepared for imaging of the multFYLM.</strong> A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.</figcaption>
+</figure>
 ##  Software
   1. NIS-Elements Advanced Research (v4.30.02; Nikon Instruments)
 
@@ -152,7 +152,7 @@ _Note: The procedures detailed below should be performed in a cleanroom. All ins
 **_Plasma cleaning_**
 Plasma clean the wafer to yield an ultra-clean surface, so that resin patterns may be deposited on the surface with high resolution and adherence.
     4. Turn on the plasma cleaner and gas controller.
-    5. Create a plasma cleaning program ([Table 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t001)) that will clean the wafer with a 30/70 ratio of O2 to N2. More time does not necessarily yield a better surface. 
+    5. Create a plasma cleaning program (Table 1) that will clean the wafer with a 30/70 ratio of O2 to N2. More time does not necessarily yield a better surface. 
     6. Break the chamber vacuum, and load the wafer with the polished side up.
 _Note: Manual operation works best for bleeding the vacuum._
     7. Run the cleaning program.
@@ -189,7 +189,7 @@ _Note: The resulting layer of SU-8 should be uniform. If not, the wafer must be 
     27. Turn off the hotplate and let the wafer cool down on it for 10 min.
 **_Expose wafer with the first mask_**
 Install the first mask and the resin-covered wafer into the mask aligner. Expose the wafer to UV light long enough to produce patterns in the resin at sufficient resolution. Under-exposure results in incomplete patterning or diminished features, while over-exposure results in enlarged features and low resolution.
-    28. Adjust the mask aligner parameters ([Table 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t002)). The parameters here should only be used as a guideline. 
+    28. Adjust the mask aligner parameters (Table 2). The parameters here should only be used as a guideline. 
     29. Set mask 1 into the mask holder.
       1. Remove and install the correct mask holder for 100-mm wafers.
       2. Set the mask in the holder chrome-side face up, using vacuum to hold the mask in.
@@ -211,7 +211,7 @@ Use developer to remove the unexposed resin from the wafer surface; this process
     43. Dry the wafer using pressurized N2. 
 **_Prepare the wafer for second exposure_**
 Deposit the second layer of resin evenly on the wafer surface to yield a resin thickness of 20-30 µm. Both the resin and spin parameters have been optimized for depositing a resin layer with the proper characteristics for the second exposure.
-    44. Clean the wafer surface in the plasma cleaner following Steps A4-A10 but with the following program ([Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t003)). 
+    44. Clean the wafer surface in the plasma cleaner following Steps A4-A10 but with the following program (Table 3). 
     45. Place the wafer directly on a hotplate with the polished surface face up for 20 min at 200 °C.
 _Note: This step assures that the wafer is dry. The temperature of the wafer does not have to be maintained once removed from the hotplate, but one should proceed quickly to the next step. A hot-hand protector mitt may be used to transfer the wafer between instruments._
     46. Place a 100-mm carousel on the spin coater.
@@ -230,7 +230,7 @@ _Note: This step assures that the wafer is dry. The temperature of the wafer doe
     57. Turn off the hotplate and let the wafer cool down on it for 10 min.
 **_Expose wafer with the second mask_**
 Install the second mask and the resin-covered wafer into the mask aligner. Expose the wafer to UV light long enough to produce patterns in the resin at sufficient resolution. Alignment at this step is critical, as it ensures that features produced using the second mask will overlay properly with those already on the wafer surface.
-    58. Adjust the mask aligner parameters ([Table 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t004)). The parameters here should only be used as a guideline. 
+    58. Adjust the mask aligner parameters (Table 4). The parameters here should only be used as a guideline. 
     59. Set mask 2 into the mask holder.
       1. Remove and install the correct mask holder for 100-mm wafers.
       2. Set the mask in the holder chrome-side face up, using vacuum to hold the mask in.
@@ -465,7 +465,7 @@ Be very careful while attaching: use a drop-to-drop connection strategy to avoid
       3. Repeat 725 times.
     33. Once cells have filled most of the channels to be observed, start the above program.
 **_Begin image acquisition_**
-Using the NIS Elements software, set up a multi-dimensional acquisition strategy that will capture images of cells in each compartment of the multFYLM at regular time intervals, an in-focus and out-of-focus Z plane, and all filter sets necessary for the emission of the fluorophores in use ([Table 5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t005)). Other software suites may be used, though the following directions are specific to NIS Elements. 
+Using the NIS Elements software, set up a multi-dimensional acquisition strategy that will capture images of cells in each compartment of the multFYLM at regular time intervals, an in-focus and out-of-focus Z plane, and all filter sets necessary for the emission of the fluorophores in use (Table 5). Other software suites may be used, though the following directions are specific to NIS Elements. 
     34. Move the 60x air objective into place.
     35. Obtain focus, then turn on the Perfect Focus System (PFS) using the PFS button on the front of the microscope.
     36. Using the stage controller, bring the left-most flowpath in use into view.
@@ -491,7 +491,7 @@ Camera ROI file:
     42. Under the ND Acquisition menu, set XY:
       1. X-Y positions should be tiled across the observable cells.
       2. It is recommended that positions be defined in a loop pattern to avoid large changes in the focal plane, which can lead to loss of focus mid-experiment.
-    43. Once all parameters have been set ([Table 5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#BioProtoc-8-07-2783-t005)), press ‘Run’. 
+    43. Once all parameters have been set (Table 5), press ‘Run’. 
     44. Observe the first few rounds of imaging to assure that everything remains as set.
     45. The experiment should be observed at least once a day to check for errors and to collect a new image file. Downstream analysis is optimized for files containing 24 h of data.
     46. After 24 h, press ‘Finish’ to complete one day’s collection.
@@ -499,10 +499,10 @@ Camera ROI file:
       2. If prompted, it is not necessary to complete the current loop before finishing.
     47. Image analysis software may now be used to create videos and analyze the collected data.
 
-***[Figure 1](#fig1).*** Overview of the multFYLM design.
-{: #fig1 }
-![Figure 1.](BioProtoc-8-07-2783-g001.jpg)
-The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).
+<figure class="paper-figure" id="fig1">
+<img src="BioProtoc-8-07-2783-g001.jpg" alt="Figure 1">
+<figcaption><strong>Figure 1. Overview of the multFYLM design.</strong> The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).</figcaption>
+</figure>
 ### Table 1. First plasma cleaning program.
 Pressure | 0  
 ---|---  
@@ -512,7 +512,7 @@ Temp | 25 °C
 BP/RP | 90  
 R4(O2)  | 30%  
 RF tuning switch | Manual  
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t001/)
+
 ### Table 2. Mask aligner parameters for the first layer.
 Exposure |  95 mJ/cm2  
 ---|---  
@@ -521,7 +521,7 @@ PreVac | 15 sec
 FullVac | 10 sec  
 Purge time | 10 sec  
 WEC | Continuous  
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t002/)
+
 ### Table 3. Second plasma cleaning program.
 Pressure | 0  
 ---|---  
@@ -530,7 +530,7 @@ EndPt | 20 sec
 Temp | 25 °C  
 BP/RP | 90  
 R4(O2)  | 30%  
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t003/)
+
 ### Table 4. Mask aligner parameters for the second layer.
 Exposure |  150 mJ/cm2  
 ---|---  
@@ -539,21 +539,22 @@ PreVac | 15 sec
 FullVac | 10 sec  
 Purge time | 10 sec  
 WEC | Continuous  
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t004/)
 
-***[Figure 2](#fig2).*** Soft lithography.
-{: #fig2 }
-![Figure 2.](BioProtoc-8-07-2783-g002.jpg)
-A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.
 
-***[Figure 3](#fig3).*** Microfluidic fittings.
-{: #fig3 }
-![Figure 3.](BioProtoc-8-07-2783-g003.jpg)
+<figure class="paper-figure" id="fig2">
+<img src="BioProtoc-8-07-2783-g002.jpg" alt="Figure 2">
+<figcaption><strong>Figure 2. Soft lithography.</strong> A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.</figcaption>
+</figure>
 
-***[Figure 5](#fig5).*** _Schizosaccharomyces pombe_ cells loaded into the multFYLM.
-{: #fig5 }
-![Figure 5.](BioProtoc-8-07-2783-g005.jpg)
-A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).
+<figure class="paper-figure" id="fig3">
+<img src="BioProtoc-8-07-2783-g003.jpg" alt="Figure 3">
+<figcaption><strong>Figure 3. Microfluidic fittings.</strong></figcaption>
+</figure>
+
+<figure class="paper-figure" id="fig5">
+<img src="BioProtoc-8-07-2783-g005.jpg" alt="Figure 5">
+<figcaption><strong>Figure 5. <em>Schizosaccharomyces pombe</em> cells loaded into the multFYLM.</strong> A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).</figcaption>
+</figure>
 ### Table 5. Example parameters for multi-dimensional image acquisition.
 Dimensions | T’(140) x XY(16) x Z(2) x λ(4)  
 ---|---  
@@ -604,9 +605,9 @@ PFS-S, offset | 6729 |  | PFS-S, offset | 6729
 PFS-S, mirror | Inserted |  | PFS-S, mirror | Inserted  
 |  |  | Time Loop | 140-Nonequidistant  
 |  |  | Z Stack Loop | 2 - Step 4 µm  
-[Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/table/BioProtoc-8-07-2783-t005/)
+
 ##  Data analysis
-Information on how data collected using this methodology is analyzed can be found in these references ([ Greenstein _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r7); [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). 
+Information on how data collected using this methodology is analyzed can be found in these references ([Greenstein _et al._, 2017](#ref7); [Spivey _et al._, 2017](#ref25)). 
 ##  Notes
   1. During microfabrication, the type and volume of photoresist, and the spin parameters can be varied to alter the height of the deposited features. Similarly, the type of photoresist and exposure time and intensity can be varied to alter the resolution and width of the deposited features. This can be particularly useful for capturing cells with slightly larger dimensions.
   2. A common failure point during multFYLM assembly is punching out the PDMS from the center of the nanoports. Often, removal of the punch results in the nanoport lifting away from the PDMS, creating a small pocket of air. With care, such pockets of air can later be expelled when the coverglass is pressed to the PDMS. If pockets remain, they can become a reservoir for air that will dislodge cells while passing through the multFYLM, or for other cells that can clump and block the passageways as the experiment proceeds.
@@ -622,17 +623,17 @@ Information on how data collected using this methodology is analyzed can be foun
 
 ---
 ##  Acknowledgments
-We would like to thank members of the Finkelstein laboratory for their input and advice during the development and preparation of this method. This work was generously supported by the following grants and fellowships: the American Federation for Aging Research (AFAR-020 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the NIH (F32 AG053051 to S.K.J.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Science Foundation. This protocol was adapted from prior designs (Spivey _et al._ , 2014; [ Spivey _et al._ , 2017 ](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/#r25)). 
+We would like to thank members of the Finkelstein laboratory for their input and advice during the development and preparation of this method. This work was generously supported by the following grants and fellowships: the American Federation for Aging Research (AFAR-020 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the NIH (F32 AG053051 to S.K.J.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Science Foundation. This protocol was adapted from prior designs ([Spivey _et al._, 2014](#ref26); [Spivey _et al._, 2017](#ref25)). 
 ##  Citation
-Readers should cite both the Bio-protocol article and [the original research article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/) where this protocol was used.
+Readers should cite both the Bio-protocol article and the original research article where this protocol was used.
 
 ---
 
 ## References
 
-1. Aguilaniu H., Gustafsson L., Rigoulet M. and Nystrom T. (2003). Asymmetric inheritance of oxidatively damaged proteins during cytokinesis. *Science* 299(5613): 1751-1753. DOI: 10.1126/science.1080418
+<span id="ref1">1.</span> Aguilaniu H., Gustafsson L., Rigoulet M. and Nystrom T. (2003). Asymmetric inheritance of oxidatively damaged proteins during cytokinesis. *Science* 299(5613): 1751-1753. [doi:10.1126/science.1080418](https://doi.org/10.1126/science.1080418)
 
-2. Barker M. G. and Walmsley R. M. (1999). Replicative ageing in the fission yeast *Schizosaccharomyces pombe*. *Yeast* 15(14): 1511-1518. DOI: 10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p
+<span id="ref2">2.</span> Barker M. G. and Walmsley R. M. (1999). Replicative ageing in the fission yeast *Schizosaccharomyces pombe*. *Yeast* 15(14): 1511-1518. [doi:10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p](https://doi.org/10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p)
 
 3. Chen K. L., Crane M. M. and Kaeberlein M. (2017). Microfluidic technologies for yeast replicative lifespan studies. *Mech Ageing Dev* 161(Pt B): 262-269. DOI: 10.1016/j.mad.2016.03.009
 
@@ -698,6 +699,4 @@ Readers should cite both the Bio-protocol article and [the original research art
 
 34. Zhou C., Slaughter B. D., Unruh J. R., Guo F., Yu Z., Mickey K., Narkar A., Ross R. T., McClain M. and Li R. (2014). Organelle-based aggregation and retention of damaged proteins in asymmetrically dividing cells. *Cell* 159(3): 530-542. DOI: 10.1016/j.cell.2014.09.026
 
----
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/) on PubMed Central.
