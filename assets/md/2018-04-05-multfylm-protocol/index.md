@@ -635,15 +635,15 @@ Readers should cite both the Bio-protocol article and the original research arti
 
 <span id="ref2">2.</span> Barker M. G. and Walmsley R. M. (1999). Replicative ageing in the fission yeast *Schizosaccharomyces pombe*. *Yeast* 15(14): 1511-1518. [doi:10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p](https://doi.org/10.1002/(sici)1097-0061(199910)15:14<1511::aid-yea482>3.3.co;2-p)
 
-3. Chen K. L., Crane M. M. and Kaeberlein M. (2017). Microfluidic technologies for yeast replicative lifespan studies. *Mech Ageing Dev* 161(Pt B): 262-269. DOI: 10.1016/j.mad.2016.03.009
+<span id="ref3">3.</span> Chen K. L., Crane M. M. and Kaeberlein M. (2017). Microfluidic technologies for yeast replicative lifespan studies. *Mech Ageing Dev* 161(Pt B): 262-269. [doi:10.1016/j.mad.2016.03.009](https://doi.org/10.1016/j.mad.2016.03.009)
 
-4. Coelho M., Dereli A., Haese A., Kuhn S., Malinovska L., DeSantis M. E., Shorter J., Alberti S., Gross T. and Tolic-Norrelykke I. M. (2013). Fission yeast does not age under favorable conditions, but does so after stress. *Curr Biol* 23(19): 1844-1852. DOI: 10.1016/j.cub.2013.07.084
+<span id="ref4">4.</span> Coelho M., Dereli A., Haese A., Kuhn S., Malinovska L., DeSantis M. E., Shorter J., Alberti S., Gross T. and Tolic-Norrelykke I. M. (2013). Fission yeast does not age under favorable conditions, but does so after stress. *Curr Biol* 23(19): 1844-1852. [doi:10.1016/j.cub.2013.07.084](https://doi.org/10.1016/j.cub.2013.07.084)
 
-5. Crane M. M., Clark I. B., Bakker E., Smith S. and Swain P. S. (2014). A microfluidic system for studying ageing and dynamic single-cell responses in budding yeast. *PLoS One* 9(6): e100042. DOI: 10.1371/journal.pone.0100042
+<span id="ref5">5.</span> Crane M. M., Clark I. B., Bakker E., Smith S. and Swain P. S. (2014). A microfluidic system for studying ageing and dynamic single-cell responses in budding yeast. *PLoS One* 9(6): e100042. [doi:10.1371/journal.pone.0100042](https://doi.org/10.1371/journal.pone.0100042)
 
-6. Fu X. H., Meng F. L., Hu Y. and Zhou J. Q. (2008). *Candida albicans*, a distinctive fungal model for cellular aging study. *Aging Cell* 7(5): 746-757. DOI: 10.1111/j.1474-9726.2008.00424.x
+<span id="ref6">6.</span> Fu X. H., Meng F. L., Hu Y. and Zhou J. Q. (2008). *Candida albicans*, a distinctive fungal model for cellular aging study. *Aging Cell* 7(5): 746-757. [doi:10.1111/j.1474-9726.2008.00424.x](https://doi.org/10.1111/j.1474-9726.2008.00424.x)
 
-7. Greenstein R. A., Jones S. K., Spivey E. C., Rybarski J. R., Finkelstein I., and Al-Sady B. (2017). A memory element imposes epigenetic behavior on intrinsically labile RNAi-induced heterochromatin spread. *BioRxiv* 237479.
+<span id="ref7">7.</span> Greenstein R. A., Jones S. K., Spivey E. C., Rybarski J. R., Finkelstein I., and Al-Sady B. (2017). A memory element imposes epigenetic behavior on intrinsically labile RNAi-induced heterochromatin spread. *BioRxiv* 237479.
 
 8. Henderson K. A. and Gottschling D. E. (2008). A mother's sacrifice: what is she keeping for herself? *Curr Opin Cell Biol* 20: 723-728. DOI: 10.1016/j.ceb.2008.09.004
 

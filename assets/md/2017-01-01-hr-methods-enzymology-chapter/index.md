@@ -99,7 +99,7 @@ Below, we describe the minimal set of tools that are required for microfabricati
     4. After the fourth cut, slides 1-4 are made 22mm apart from each other.
     5. Cut slides 5 and 6 to remove excess wafer.
   14. Drill holes in the new slides as shown in [Fig. 2C](#fig2) under a constant stream of running water.
-  15. Wash and assemble flowcells as previously described ([Brown et al., 2016](#ref4); [Finkelstein et al., 2010](#ref17); [Gallardo et al., 2015](#ref18); [Myler et al., 2016](#ref35)). See [Note 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN2).
+  15. Wash and assemble flowcells as previously described ([Brown et al., 2016](#ref4); [Finkelstein et al., 2010](#ref17); [Gallardo et al., 2015](#ref18); [Myler et al., 2016](#ref35)). See Note 1.
 
 ### 2.3 Assembling DNA Curtains
 #### 2.3.1 Materials
@@ -133,7 +133,7 @@ Below, we describe the minimal set of tools that are required for microfabricati
   5. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
   6. Dilute 100 μL of **λ** -DNA with a digoxigenin label opposite the bio-tinylated end in 900 μL of BSA buffer. Inject DNA in ~300 μL increments with 5-min incubation in between.
   7. Wash the flowcell with 2-3mL of BSA buffer.
-  8. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 0.4 mLmin-1 provide good DNA extension for data acquisition. In this configuration, flow can be stopped in order to observe proteins on double-tethered DNA. See [Notes 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN3) and [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN4).
+  8. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 0.4 mLmin-1 provide good DNA extension for data acquisition. In this configuration, flow can be stopped in order to observe proteins on double-tethered DNA. See Notes 2 and 3.
 
 ---
 ##  3. APPLICATIONS
@@ -184,7 +184,7 @@ Nearly all DNA repair pathways require nucleolytic cleavage of the damaged subst
   4. Dilute the EXO1 to 200 μL imaging buffer containing 2 μL of saturating biotin (4n _M_ final concentration EXO1). This will prevent the non-specific binding of EXO1 to the streptavidin-coated lipids on the flowcell.
   5. Inject EXO1 at 200 μL min-1 in a 100-μL loop. Given the relatively slow movement of EXO1, it may be necessary to shutter the laser to only capture one frame per second with a 200-ms exposure.
   6. Increase the flow rate to 400 μLmin-1 after loading for full DNA extension and observation of EXO1.
-  7. Images are acquired using Nikon Elements (Nikon) or Micro-Manager ([Stuurman et al., 2010](#ref45)). Microscope settings were used at 10MHz camera readout mode, 300× EM gain, 5× conversion gain, and 200ms frame rate collected every second. The 488-nm laser was set to ~100mW (at prism face). See [Notes 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN5) and [5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN6).
+  7. Images are acquired using Nikon Elements (Nikon) or Micro-Manager ([Stuurman et al., 2010](#ref45)). Microscope settings were used at 10MHz camera readout mode, 300× EM gain, 5× conversion gain, and 200ms frame rate collected every second. The 488-nm laser was set to ~100mW (at prism face). See Notes 4 and 5.
 
 #### 3.2.3 Analyzing Processive EXO1 Translocation
   1. Collect imaging data on one or several fields of view and export data into a tiff stack.
@@ -216,12 +216,12 @@ RAD51 forms nucleoprotein filaments on ssDNA and catalyzes the homology search w
 #### 3.3.3 Protocol for Ligation Reaction
   1. Prepare a 49 μL ligation reaction containing: (i) 5 μL 10× T4 ligase reaction buffer; (ii) 2 μL template oligo (10 μ _M_ stock in TE buffer); (iii) 1.8 μL primer oligo (10 μ _M_ stock in TE buffer); and (iv) 40.2 μL nuclease-free water.
   2. Heat the ligation reaction to 75°C for 5min in a thermocycler and cool the reaction to 4°C at a rate of μ1°C min-1.
-  3. Add 1 μL of T4 DNA ligase to the reaction and incubate at room temperature for 3-5h. See [Note 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN7).
+  3. Add 1 μL of T4 DNA ligase to the reaction and incubate at room temperature for 3-5h. See Note 6.
 
 #### 3.3.4 Protocol for RCR
   1. Prepare a 100 μL RCR reaction containing: (i) 10 μL of 10× phi29 DNA polymerase reaction buffer; (ii) 8 μL dTTP (10m _M_ stock corresponding to 0.8m _M_ final concentration); (iii) 8 μL dCTP (10m _M_ stock corresponding to 0.8m _M_ final concentration); (iv) 1 μL BSA (10 mgmL-1 stock corresponding to 0.1 mgmL-1 final concentration); (v) 6.25 μL ligation mix (400n _M_ stock corresponding to 25n _M_ final concentration); (vi) 10 μL phi29 DNA polymerase (5 μ _M_ homemade stock corresponding to 0.5 μ _M_ final concentration); and (vii) 56.75 μL nuclease-free water.
   2. Incubate reaction at 30°C for 30min to generate ssDNA molecules that are greater than 20 μm in length. Length of incubation can be adjusted for the desired ssDNA length.
-  3. Add 10 μL of 0.5 _M_ EDTA to quench reaction. Gently flick or invert tube to mix. Do not vortex, as this causes shearing of ssDNA molecules. Place reaction on ice. See [Notes 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN8) and [8](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/#FN9).
+  3. Add 10 μL of 0.5 _M_ EDTA to quench reaction. Gently flick or invert tube to mix. Do not vortex, as this causes shearing of ssDNA molecules. Place reaction on ice. See Notes 7 and 8.
 
 #### 3.3.5 Assembling ssDNA Curtains
   1. Follow lipid bilayer protocol from Section 2.3.
@@ -305,6 +305,4 @@ _Funding._ This work was supported by the National Science Foundation (1453358 t
 <span id="ref54">54.</span> Yildiz A, Forkey JN, McKinney SA, Ha T, Goldman YE, Selvin PR. Myosin V walks hand-over-hand: Single fluorophore imaging with 1.5-nm localization. *Science*. 2003;300:2061-2065.
 <span id="ref55">55.</span> Zhou Y, Caron P, Legube G, Paull TT. Quantitation of DNA double-strand break resection intermediates in human cells. *Nucleic Acids Research*. 2014;42:e19.
 
----
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/) on PubMed Central.
