@@ -216,7 +216,83 @@ To directly visualize the flap oligonucleotide within DNA curtains, oligonucleot
 
 <span id="ref31">31.</span> Hohng S. & Ha T. Near-complete suppression of quantum dot blinking in ambient conditions. *J. Am. Chem. Soc.* 126, 1324–1325 (2004).
 
-*Note: References 32-70 are cited in the text and available in the original article.*
+<span id="ref32">32.</span> Srivatsan A., Bowen N. & Kolodner R. D. Mispair-specific recruitment of the Mlh1-Pms1 complex identifies repair substrates of the Saccharomyces cerevisiae Msh2-Msh3 complex. *J. Biol. Chem.* 289, 9352–9364 (2014). [doi:10.1074/jbc.M114.552190](https://doi.org/10.1074/jbc.M114.552190)
+
+<span id="ref33">33.</span> Harrington J. M. & Kolodner R. D. Saccharomyces cerevisiae Msh2-Msh3 acts in repair of base-base mispairs. *Mol. Cell. Biol.* 27, 6546–6554 (2007). [doi:10.1128/MCB.00855-07](https://doi.org/10.1128/MCB.00855-07)
+
+<span id="ref34">34.</span> Surtees J. A. & Alani E. Mismatch repair factor MSH2-MSH3 binds and alters the conformation of branched DNA structures predicted to form during genetic recombination. *J. Mol. Biol.* 360, 523–536 (2006). [doi:10.1016/j.jmb.2006.05.032](https://doi.org/10.1016/j.jmb.2006.05.032)
+
+<span id="ref35">35.</span> Kumar C. et al. ATP binding and hydrolysis by Saccharomyces cerevisiae Msh2-Msh3 are differentially modulated by mismatch and double-strand break repair DNA substrates. *DNA Repair* 18, 18–30 (2014). [doi:10.1016/j.dnarep.2014.03.032](https://doi.org/10.1016/j.dnarep.2014.03.032)
+
+<span id="ref36">36.</span> Thompson R. E., Larson D. R. & Webb W. W. Precise nanometer localization analysis for individual fluorescent probes. *Biophys. J.* 82, 2775–2783 (2002). [doi:10.1016/S0006-3495(02)75618-X](https://doi.org/10.1016/S0006-3495(02)75618-X)
+
+<span id="ref37">37.</span> Kochaniak A. B. et al. Proliferating cell nuclear antigen uses two distinct modes to move along DNA. *J. Biol. Chem.* 284, 17700–17710 (2009). [doi:10.1074/jbc.M109.008706](https://doi.org/10.1074/jbc.M109.008706)
+
+<span id="ref38">38.</span> Bonnet I. & Desbiolles P. The diffusion constant of a labeled protein sliding along DNA. *Eur. Phys. J. E* 34, 1–10 (2011). [doi:10.1140/epje/i2011-11025-8](https://doi.org/10.1140/epje/i2011-11025-8)
+
+<span id="ref39">39.</span> Dikić J. et al. The rotation-coupled sliding of EcoRV. *Nucleic Acids Res.* 40, 4064–4070 (2012). [doi:10.1093/nar/gkr1309](https://doi.org/10.1093/nar/gkr1309)
+
+<span id="ref40">40.</span> Lin J. et al. TRF1 and TRF2 use different mechanisms to find telomeric DNA but share a novel mechanism to search for protein partners at telomeres. *Nucleic Acids Res.* 42, 2493–2504 (2014). [doi:10.1093/nar/gkt1132](https://doi.org/10.1093/nar/gkt1132)
+
+<span id="ref41">41.</span> Junop M. S., Obmolova G., Rausch K., Hsieh P. & Yang W. Composite active site of an ABC ATPase: MutS uses ATP to verify mismatch recognition and authorize DNA repair. *Mol. Cell* 7, 1–12 (2001). [doi:10.1016/s1097-2765(01)00149-6](https://doi.org/10.1016/s1097-2765(01)00149-6)
+
+<span id="ref42">42.</span> Owen B. A. L., Lang W. H. & McMurray C. T. The nucleotide binding dynamics of human MSH2-MSH3 are lesion dependent. *Nat. Struct. Mol. Biol.* 16, 550–557 (2009). [doi:10.1038/nsmb.1596](https://doi.org/10.1038/nsmb.1596)
+
+<span id="ref43">43.</span> Warren J. J. et al. Structure of the human MutSα DNA lesion recognition complex. *Mol. Cell* 26, 579–592 (2007). [doi:10.1016/j.molcel.2007.04.018](https://doi.org/10.1016/j.molcel.2007.04.018)
+
+<span id="ref44">44.</span> Obmolova G., Ban C., Hsieh P. & Yang W. Crystal structures of mismatch repair protein MutS and its complex with a substrate DNA. *Nature* 407, 703–710 (2000). [doi:10.1038/35037509](https://doi.org/10.1038/35037509)
+
+<span id="ref45">45.</span> Cho W.-K. et al. ATP alters the diffusion mechanics of MutS on mismatched DNA. *Structure* 20, 1264–1274 (2012). [doi:10.1016/j.str.2012.04.017](https://doi.org/10.1016/j.str.2012.04.017)
+
+<span id="ref46">46.</span> Snowden T., Acharya S., Butz C., Berardini M. & Fishel R. hMSH4-hMSH5 recognizes Holliday junctions and forms a meiosis-specific sliding clamp that embraces homologous chromosomes. *Mol. Cell* 15, 437–451 (2004). [doi:10.1016/j.molcel.2004.06.040](https://doi.org/10.1016/j.molcel.2004.06.040)
+
+<span id="ref47">47.</span> Wilson T., Guerrette S. & Fishel R. Dissociation of mismatch recognition and ATPase activity by hMSH2-hMSH3. *J. Biol. Chem.* 274, 21659–21664 (1999). [doi:10.1074/jbc.274.31.21659](https://doi.org/10.1074/jbc.274.31.21659)
+
+<span id="ref48">48.</span> Blainey P. C., van Oijen A. M., Banerjee A., Verdine G. L. & Xie X. S. A base-excision DNA-repair protein finds intrahelical lesion bases by fast sliding in contact with DNA. *Proc. Natl Acad. Sci. USA* 103, 5752–5757 (2006). [doi:10.1073/pnas.0509723103](https://doi.org/10.1073/pnas.0509723103)
+
+<span id="ref49">49.</span> Etson C. M., Hamdan S. M., Richardson C. C. & van Oijen A. M. Thioredoxin suppresses microscopic hopping of T7 DNA polymerase on duplex DNA. *Proc. Natl Acad. Sci. USA* 107, 1900–1905 (2010). [doi:10.1073/pnas.0912664107](https://doi.org/10.1073/pnas.0912664107)
+
+<span id="ref50">50.</span> Record M. T. Jr, Lohman T. M. & deHaseth P. Ion effects on ligand-nucleic acid interactions. *J. Mol. Biol.* 107, 145–158 (1976). [doi:10.1016/s0022-2836(76)80023-x](https://doi.org/10.1016/s0022-2836(76)80023-x)
+
+<span id="ref51">51.</span> Qiu R. et al. Large conformational changes in MutS during DNA scanning, mismatch recognition and repair signalling. *EMBO J.* 31, 2528–2540 (2012). [doi:10.1038/emboj.2012.95](https://doi.org/10.1038/emboj.2012.95)
+
+<span id="ref52">52.</span> Gupta S., Gellert M. & Yang W. Mechanism of mismatch recognition revealed by human MutSβ bound to unpaired DNA loops. *Nat. Struct. Mol. Biol.* 19, 72–78 (2012). [doi:10.1038/nsmb.2175](https://doi.org/10.1038/nsmb.2175)
+
+<span id="ref53">53.</span> Lamers M. H. et al. The crystal structure of DNA mismatch repair protein MutS binding to a G·T mismatch. *Nature* 407, 711–717 (2000). [doi:10.1038/35037523](https://doi.org/10.1038/35037523)
+
+<span id="ref54">54.</span> Pathak S., Davidson M. C. & Silva G. A. Characterization of the functional binding properties of antibody conjugated quantum dots. *Nano Lett.* 7, 1839–1845 (2007). [doi:10.1021/nl062706i](https://doi.org/10.1021/nl062706i)
+
+<span id="ref55">55.</span> Wright D. J., King K. & Modrich P. The negative charge of Glu-111 is required to activate the cleavage center of EcoRI endonuclease. *J. Biol. Chem.* 264, 11816–11821 (1989).
+
+<span id="ref56">56.</span> Lang W. H. et al. Conformational trapping of mismatch recognition complex MSH2/MSH3 on repair-resistant DNA loops. *Proc. Natl Acad. Sci. USA* 108, E837–E844 (2011). [doi:10.1073/pnas.1105461108](https://doi.org/10.1073/pnas.1105461108)
+
+<span id="ref57">57.</span> Lee S. D., Surtees J. A. & Alani E. Saccharomyces cerevisiae MSH2-MSH3 and MSH2-MSH6 complexes display distinct requirements for DNA binding domain I in mismatch recognition. *J. Mol. Biol.* 366, 53–66 (2007). [doi:10.1016/j.jmb.2006.10.09](https://doi.org/10.1016/j.jmb.2006.10.09)
+
+<span id="ref58">58.</span> Jeong C. et al. MutS switches between two fundamentally distinct clamps during mismatch repair. *Nat. Struct. Mol. Biol.* 18, 379–385 (2011). [doi:10.1038/nsmb.2009](https://doi.org/10.1038/nsmb.2009)
+
+<span id="ref59">59.</span> Sharma M., Predeus A. V., Mukherjee S. & Feig M. DNA bending propensity in the presence of base mismatches: implications for DNA repair. *J. Phys. Chem. B* 117, 6194–6205 (2013). [doi:10.1021/jp403127a](https://doi.org/10.1021/jp403127a)
+
+<span id="ref60">60.</span> Rossetti G. et al. The structural impact of DNA mismatches. *Nucleic Acids Res.* 43, 4309–4321 (2015). [doi:10.1093/nar/gkv254](https://doi.org/10.1093/nar/gkv254)
+
+<span id="ref61">61.</span> Wang H. et al. DNA bending and unbending by MutS govern mismatch recognition and specificity. *Proc. Natl Acad. Sci. USA* 100, 14822–14827 (2003). [doi:10.1073/pnas.2433654100](https://doi.org/10.1073/pnas.2433654100)
+
+<span id="ref62">62.</span> Li F. et al. The Histone mark H3K36me3 regulates human DNA mismatch repair through its interaction with MutSα. *Cell* 153, 590–600 (2013). [doi:10.1016/j.cell.2013.03.025](https://doi.org/10.1016/j.cell.2013.03.025)
+
+<span id="ref63">63.</span> Schöpf B. et al. Interplay between mismatch repair and chromatin assembly. *Proc. Natl Acad. Sci. USA* 109, 1895–1900 (2012). [doi:10.1073/pnas.1106696109](https://doi.org/10.1073/pnas.1106696109)
+
+<span id="ref64">64.</span> Kadyrova L. Y., Blanko E. R. & Kadyrov F. A. CAF-I-dependent control of degradation of the discontinuous strands during mismatch repair. *Proc. Natl Acad. Sci. USA* 108, 2753–2758 (2011). [doi:10.1073/pnas.1015914108](https://doi.org/10.1073/pnas.1015914108)
+
+<span id="ref65">65.</span> Javaid S. et al. Nucleosome remodeling by hMSH2-hMSH6. *Mol. Cell* 36, 1086–1094 (2009). [doi:10.1016/j.molcel.2009.12.010](https://doi.org/10.1016/j.molcel.2009.12.010)
+
+<span id="ref66">66.</span> Forties R. A. et al. A quantitative model of nucleosome dynamics. *Nucleic Acids Res.* 39, 8306–8313 (2011). [doi:10.1093/nar/gkr422](https://doi.org/10.1093/nar/gkr422)
+
+<span id="ref67">67.</span> Honda M. et al. Mismatch repair protein hMSH2-hMSH6 recognizes mismatches and forms sliding clamps within a D-loop recombination intermediate. *Proc. Natl Acad. Sci. USA* 111, E316–E325 (2014). [doi:10.1073/pnas.1312988111](https://doi.org/10.1073/pnas.1312988111)
+
+<span id="ref68">68.</span> Antony E. & Hingorani M. M. Mismatch recognition-coupled stabilization of Msh2-Msh6 in an ATP-bound state at the initiation of DNA repair†. *Biochemistry* 42, 7682–7693 (2003). [doi:10.1021/bi034602h](https://doi.org/10.1021/bi034602h)
+
+<span id="ref69">69.</span> Thåström A., Lowary P. T. & Widom J. Measurement of histone-DNA interaction free energy in nucleosomes. *Methods* 33, 33–44 (2004). [doi:10.1016/j.ymeth.2003.10.018](https://doi.org/10.1016/j.ymeth.2003.10.018)
+
+<span id="ref70">70.</span> Lee J. Y. & Greene E. C. Assembly of recombinant nucleosomes on nanofabricated DNA curtains for single-molecule imaging. *Methods Mol. Biol.* 778, 243–258 (2011). [doi:10.1007/978-1-61779-261-8_16](https://doi.org/10.1007/978-1-61779-261-8_16)
 
 
 ---
@@ -229,4 +305,3 @@ We are grateful to members of the Finkelstein and Surtees laboratories for caref
 
 ---
 
-For the complete references list, please see the full text on PubMed Central.
