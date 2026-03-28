@@ -560,7 +560,7 @@ Status key:
 :FILE: papers/_posts/2013-02-28-traffic-dna.md
 :JOURNAL: Annu Rev Biophys
 :END:
-** TODO 20. Wang _et al._ NSMB (2013)
+** WAITING 20. Wang _et al._ NSMB (2013)
 :PROPERTIES:
 :MD_SLUG: 2013-02-01-search-rnap-3d
 :DOI: 10.1038/nsmb.2472
@@ -568,14 +568,14 @@ Status key:
 :JOURNAL: Nat. Struct. Mol. Biol.
 :END:
 * 2012
-** TODO 19. Gibb _et al._ AC (2012)
+** WAITING 19. Gibb _et al._ AC (2012)
 :PROPERTIES:
 :MD_SLUG: 2012-09-18-ssdna-curtains
 :DOI: 10.1021/ac302117z
 :FILE: papers/_posts/2012-09-18-ssdna-curtains.md
 :JOURNAL: Anal. Chem.
 :END:
-** TODO 18. Lee and Finkelstein _et al._ PNAS (2012)
+** WAITING 18. Lee and Finkelstein _et al._ PNAS (2012)
 :PROPERTIES:
 :MD_SLUG: 2012-04-24-curtains-kops-ftsk
 :DOI: 10.1073/pnas.1201613109
@@ -583,7 +583,7 @@ Status key:
 :JOURNAL: Proc Natl Acad Sci USA
 :END:
 * 2011
-** TODO 17. Finkelstein and Greene-Methods Mol Biol. (2011)
+** WAITING 17. Finkelstein and Greene-Methods Mol Biol. (2011)
 :PROPERTIES:
 :MD_SLUG: 2011-04-28-bilayers-curtains-single-molecule
 :DOI: 10.1007/978-1-61779-129-1_26
@@ -591,7 +591,7 @@ Status key:
 :JOURNAL: Methods Mol Biol.
 :END:
 * 2010
-** TODO 16. Finkelstein _et al._ Nature (2010)
+** WAITING 16. Finkelstein _et al._ Nature (2010)
 :PROPERTIES:
 :MD_SLUG: 2010-12-16-dna-translocase-curtains
 :DOI: 10.1038/nature09561
