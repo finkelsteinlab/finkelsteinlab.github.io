@@ -269,7 +269,7 @@ Status key:
 :FILE: papers/_posts/2020-07-27-epigenetic-cell-fate.md
 :JOURNAL: Nature Microbiology
 :END:
-** TODO 61. Hsieh_et al._Science(2020)
+** WAITING 61. Hsieh_et al._Science(2020)
 :PROPERTIES:
 :MD_SLUG: 2020-07-23-SARS-CoV-2-Structure
 :DOI: 10.1126/science.abd0826
@@ -305,7 +305,7 @@ Status key:
 :FILE: papers/_posts/2019-12-13-cohesin-compaction.md
 :JOURNAL: Science
 :END:
-** TODO 56. Mallam et al. Cell Reports (2019)
+** WAITING 56. Mallam et al. Cell Reports (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-10-29-discovery-of-rnp-complexes
 :DOI: 10.1016/j.celrep.2019.09.060
@@ -333,28 +333,28 @@ Status key:
 :FILE: papers/_posts/2019-07-11-rpa-phosphorylation.md
 :JOURNAL: Molecular Cell
 :END:
-** TODO 52. Caron_et al._ Nat. Commun. (2019)
+** WAITING 52. Caron_et al._ Nat. Commun. (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-07-04-adp-ribose-polymerase-1
 :DOI: 10.1038/s41467-019-10741-9
 :FILE: papers/_posts/2019-07-04-adp-ribose-polymerase-1.md
 :JOURNAL: Nature Communications
 :END:
-** TODO 51. Myler_et al._ Methods Mol Biol. (2019)
+** WAITING 51. Myler_et al._ Methods Mol Biol. (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-05-31-mre1-rad50-nbs1-complex
 :DOI: 10.1007/978-1-4939-9520-2_20
 :FILE: papers/_posts/2019-05-31-mre1-rad50-nbs1-complex.md
 :JOURNAL: Methods Mol Biol.
 :END:
-** TODO 50. Soniat_ et al._ Methods Mol Biol. (2019)
+** WAITING 50. Soniat_ et al._ Methods Mol Biol. (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-05-25-human-resectosome
 :DOI: 10.1007/978-1-4939-9500-4_14
 :FILE: papers/_posts/2019-05-25-human-resectosome.md
 :JOURNAL: Methods Mol Biol.
 :END:
-** TODO 49. Dillard_et al._Methods Enzymol. (2019) 
+** WAITING 49. Dillard_et al._Methods Enzymol. (2019) 
 :PROPERTIES:
 :MD_SLUG: 2018-12-17-sortase-labeling
 :DOI: 10.1016/bs.mie.2018.10.031
@@ -369,7 +369,7 @@ Status key:
 :JOURNAL: Nucleic Acids Research
 :END:
 * 2018
-** TODO 47. Bhattacharyya et al. PNAS (2018)
+** WAITING 47. Bhattacharyya et al. PNAS (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-11-28-mu-gam-nhej
 :DOI: 10.1073/pnas.1816606115
@@ -383,14 +383,14 @@ Status key:
 :FILE: papers/_posts/2018-10-18-PAC-Cell.md
 :JOURNAL: Cell
 :END:
-** TODO 45. Schaub _et al._ Langmuir (2018)
+** WAITING 45. Schaub _et al._ Langmuir (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-08-02-low-complexity-ssdna-curtains
 :DOI: 10.1021/acs.langmuir.8b01812
 :FILE: papers/_posts/2018-08-02-low-complexity-ssdna-curtains.md
 :JOURNAL: Langmuir
 :END:
-** TODO 44. Strohkendl _et al._ Mol. Cell (2018)
+** WAITING 44. Strohkendl _et al._ Mol. Cell (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-07-24-cas12a-kinetics
 :DOI: 10.1016/j.molcel.2018.06.043
@@ -404,7 +404,7 @@ Status key:
 :FILE: papers/_posts/2018-07-18-heterochromatin-spreading-epigenetics.md
 :JOURNAL: eLife
 :END:
-** TODO 42. Hawkins _et al._ PNAS (2018)
+** WAITING 42. Hawkins _et al._ PNAS (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-07-03-dna-barcodes
 :DOI: 10.1073/pnas.1802640115
