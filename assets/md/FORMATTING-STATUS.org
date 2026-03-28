@@ -418,14 +418,14 @@ Status key:
 :FILE: papers/_posts/2018-06-01-rad-msh-saw-rpa.md
 :JOURNAL: Nucleic Acids Research
 :END:
-** TODO 40. Seol _et al._ Nature Communications (2018)
+** WAITING 40. Seol _et al._ Nature Communications (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-05-23-crosslink-repair-proteins
 :DOI: 10.1038/s41467-018-04327-0
 :FILE: papers/_posts/2018-05-23-crosslink-repair-proteins.md
 :JOURNAL: Nature Communications
 :END:
-** TODO 39. Jones _et al._ Bio Prot. (2018)
+** WAITING 39. Jones _et al._ Bio Prot. (2018)
 :PROPERTIES:
 :MD_SLUG: 2018-04-05-multfylm-protocol
 :DOI: 10.21769/BioProtoc.2783
@@ -440,7 +440,7 @@ Status key:
 :FILE: papers/_posts/2017-09-07-mrn-dna-curtains.md
 :JOURNAL: Molecular Cell
 :END:
-** TODO 37. Myler and Finkelstein-PBMB (2017)
+** WAITING 37. Myler and Finkelstein-PBMB (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-08-01-euk-resectosome-single-molecule-review
 :DOI: 10.1016/j.pbiomolbio.2016.08.001
@@ -454,21 +454,21 @@ Status key:
 :FILE: papers/_posts/2017-06-29-champ-cascade.md
 :JOURNAL: Cell
 :END:
-** TODO 35. Kim _et al._ Sci Rep. (2017)
+** WAITING 35. Kim _et al._ Sci Rep. (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-05-18-lambda-modification
 :DOI: 10.1038/s41598-017-01984-x
 :FILE: papers/_posts/2017-05-18-lambda-modification.md
 :JOURNAL: Sci Rep.
 :END:
-** TODO 34. Spivey and Jones _et al._ eLife (2017)
+** WAITING 34. Spivey and Jones _et al._ eLife (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-01-31-yeast-aging-multylm
 :DOI: 10.7554/eLife.20340
 :FILE: papers/_posts/2017-01-31-yeast-aging-multylm.md
 :JOURNAL: eLife
 :END:
-** TODO 33. Soniat _et al._ Methods Enzymol. (2017)
+** WAITING 33. Soniat _et al._ Methods Enzymol. (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-01-01-hr-methods-enzymology-chapter
 :DOI: 10.1016/bs.mie.2017.03.011
@@ -496,7 +496,7 @@ Status key:
 :FILE: papers/_posts/2016-03-01-exo1-ssb-curtains.md
 :JOURNAL: Proc Natl Acad Sci USA
 :END:
-** TODO 29. Brown _et al._ Nat. Commun. (2016)
+** WAITING 29. Brown _et al._ Nat. Commun. (2016)
 :PROPERTIES:
 :MD_SLUG: 2016-02-03-dna-bypass-roadblocks
 :DOI: 10.1038/ncomms10607
@@ -512,7 +512,7 @@ Status key:
 :JOURNAL: Langmuir
 :END:
 * 2014
-** TODO 27. Robison and Finkelstein FEBS Lett. (2014)
+** WAITING 27. Robison and Finkelstein FEBS Lett. (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-10-01-single-molecule-curtains-letter
 :DOI: 10.1016/j.febslet.2014.05.021
@@ -532,7 +532,7 @@ Status key:
 :FILE: papers/_posts/2014-07-01-high-throughput-aging.md
 :JOURNAL: Mol. Biosyst.
 :END:
-** TODO 24. Lee _et al._ Mol. Cell (2014)
+** WAITING 24. Lee _et al._ Mol. Cell (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-06-05-ftsk-collisions-curtains
 :DOI: 10.1016/j.molcel.2014.03.033
@@ -545,7 +545,7 @@ Status key:
 :FILE: papers/_posts/2014-05-06-microfluidic-devices-curtains.md
 :JOURNAL: Anal. Chem.
 :END:
-** TODO 22. Leung _et al._ PLoS Genetics (2014)
+** WAITING 22. Leung _et al._ PLoS Genetics (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-03-06-rnf168-h2a-ubiquitination-dna-damage
 :DOI: 10.1371/journal.pgen.1004178
