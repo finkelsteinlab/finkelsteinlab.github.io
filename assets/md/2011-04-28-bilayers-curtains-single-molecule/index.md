@@ -259,26 +259,24 @@ For experiments that do not use fluorescently stained DNA, it is possible to foc
 
 <span id="ref23">23.</span> Jaiswal JK, Mattoussi H, Mauro JM, Simon SM. Long-term multiple color imaging of live cells using quantum dot bioconjugates. Nat Biotechnol. 2003;21:47–51.
 
-24. Medintz IL, Uyeda HT, Goldman ER, Mattoussi H. Quantum dot bioconjugates for imaging, labeling and sensing. Nat Mater. 2005;4:435–446.
+<span id="ref24">24.</span> Medintz IL, Uyeda HT, Goldman ER, Mattoussi H. Quantum dot bioconjugates for imaging, labeling and sensing. Nat Mater. 2005;4:435–446.
 
-25. Ebenstein Y, Gassman N, Kim S, Kim Y, Ho S, Samuel R, Michalet X, Weiss S. Lighting up individual DNA binding proteins with quantum dots. Nano Lett. 2009;9:1598–1603.
+<span id="ref25">25.</span> Ebenstein Y, Gassman N, Kim S, Kim Y, Ho S, Samuel R, Michalet X, Weiss S. Lighting up individual DNA binding proteins with quantum dots. Nano Lett. 2009;9:1598–1603.
 
-26. Pinaud F, Michalet X, Bentolila LA, Tsay JM, Doose S, Li JJ, Iyer G, Weiss S. Advances in fluorescence imaging with quantum dot bio-probes. Biomaterials. 2006;27:1679–1687.
+<span id="ref26">26.</span> Pinaud F, Michalet X, Bentolila LA, Tsay JM, Doose S, Li JJ, Iyer G, Weiss S. Advances in fluorescence imaging with quantum dot bio-probes. Biomaterials. 2006;27:1679–1687.
 
-27. Rasnik I, McKinney SA, Ha T. Nonblinking and long-lasting single-molecule fluorescence imaging. Nat Methods. 2006;3:891–893.
+<span id="ref27">27.</span> Rasnik I, McKinney SA, Ha T. Nonblinking and long-lasting single-molecule fluorescence imaging. Nat Methods. 2006;3:891–893.
 
-28. Escude C, Geron-Landre B, Crut A, Desbiolles P. Multicolor detection of combed DNA molecules using quantum dots. Methods Mol Biol. 2009;544:357–366.
+<span id="ref28">28.</span> Escude C, Geron-Landre B, Crut A, Desbiolles P. Multicolor detection of combed DNA molecules using quantum dots. Methods Mol Biol. 2009;544:357–366.
 
-29. Thompson RE, Larson DR, Webb WW. Precise nanometer localization analysis for individual fluorescent probes. Biophys J. 2002;82:2775–2783.
+<span id="ref29">29.</span> Thompson RE, Larson DR, Webb WW. Precise nanometer localization analysis for individual fluorescent probes. Biophys J. 2002;82:2775–2783.
 
-30. Yildiz A, Selvin PR. Fluorescence imaging with one nanometer accuracy: application to molecular motors. Acc Chem Res. 2005;38:574–582.
+<span id="ref30">30.</span> Yildiz A, Selvin PR. Fluorescence imaging with one nanometer accuracy: application to molecular motors. Acc Chem Res. 2005;38:574–582.
 
-31. Gueroui Z, Freyssingeas E, Place C, Berge B. Transverse fluctuation analysis of single extended DNA molecules. Eur Phys J E Soft Matter. 2003;11:105–108.
+<span id="ref31">31.</span> Gueroui Z, Freyssingeas E, Place C, Berge B. Transverse fluctuation analysis of single extended DNA molecules. Eur Phys J E Soft Matter. 2003;11:105–108.
 
-32. Quake SR, Babcock H, Chu S. The dynamics of partially extended single molecules of DNA. Nature. 1997;388:151–154.
+<span id="ref32">32.</span> Quake SR, Babcock H, Chu S. The dynamics of partially extended single molecules of DNA. Nature. 1997;388:151–154.
 
-33. Carter BC, Shubeita GT, Gross SP. Tracking single particles: a user-friendly quantitative evaluation. Phys Biol. 2005;2:60–72.
+<span id="ref33">33.</span> Carter BC, Shubeita GT, Gross SP. Tracking single particles: a user-friendly quantitative evaluation. Phys Biol. 2005;2:60–72.
 
----
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/) on PubMed Central.
