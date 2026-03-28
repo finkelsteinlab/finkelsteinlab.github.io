@@ -26,10 +26,10 @@ pmcid: PMC9665560
 - [Acknowledgements](#acknowledgements)
 
 ---
-##  Abstract
+## Abstract
 The severe acute respiratory syndrome coronavirus 2 spike protein is a critical component of coronavirus disease 2019 vaccines and diagnostics and is also a therapeutic target. However, the spike protein is difficult to produce recombinantly because it is a large trimeric class I fusion membrane protein that is metastable and heavily glycosylated. We recently developed a prefusion-stabilized spike variant, termed HexaPro for six stabilizing proline substitutions, that can be expressed with a yield of >30 mg/L in ExpiCHO cells. This protocol describes an optimized workflow for expressing and biophysically characterizing rationally engineered spike proteins in Freestyle 293 and ExpiCHO cell lines. Although we focus on HexaPro, this protocol has been used to purify over a hundred different spike variants in our laboratories. We also provide guidance on expression quality control, long-term storage, and uses in enzyme-linked immunosorbent assays. The entire protocol, from transfection to biophysical characterization, can be completed in 7 d by researchers with basic tissue cell culture and protein purification expertise.
 ---
-##  Introduction
+## Introduction
 The coronavirus disease 2019 (COVID-19) pandemic is a global health emergency that has resulted in over four million deaths as of summer 2021. The causative agent of COVID-19 is severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a coronavirus-family RNA virus. SARS-CoV-2 encodes at least 12 canonical open reading frames in its ~29.9 kilobase RNA genome[1](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R1),[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R2). Viral RNA is initially translated into two polyproteins with subsequent expression of multiple subgenomic mRNAs that are further processed into smaller proteins by virally encoded proteases[3](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R3). Mature virions include spike (S), the nucleocapsid protein (N), an ion channel (E) and an integral membrane protein (M). Spike is the most immunogenic of these proteins in other coronaviruses and is thus a major focus for vaccine, therapeutic and diagnostic development[4](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R4)–[6](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R6).
 Spike is a transmembrane homotrimeric class I fusion protein. Each virion is decorated with an average of 25–50 spike trimers[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R7)–[10](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R10) per virion, although other coronaviruses possess ~90 trimers[11](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R11). Spike mediates host cell entry by binding the cell angiotensin-converting enzyme 2 (ACE2) receptor and by subsequent virion–host membrane fusion. ACE2 is recognized by the spike receptor-binding domain (RBD) in the up conformation, located within the S1 subunit of the spike protein. Membrane fusion is enhanced by spike cleavage at the furin site separating the S1 and S2 domains and further increasing RBD-open states[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R12)–[14](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R14). Furthermore, cleavage at the furin site increases SARS-CoV-2 infectivity[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R12),[15](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R15),[16](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R16). A second cleavage within the S2 subdomain may further enhance infectivity via exposure of the fusion peptide (FP) necessary for viral entry, similar to SARS-CoV-1[17](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R17),[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R18).
 Spike is the first structural SARS-CoV-2 protein to be deposited in the protein data bank[19](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R19). Early structures provided a glimpse of the prefusion complex in two conformations. In one view, the three RBDs were all pointing down (closed state, [Fig. 1b](#fig1)); and in another view, one RBD was pointing up (partially open state)[20](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R20). Subsequent structures mapped out the dynamic nature of the three RBD domains ([Fig. 1c](#fig1))[7](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R7),[21](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R21). Structures of the isolated RBD alone and trimeric spike in complex with ACE2 were solved shortly thereafter[16](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R16),[22](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R22)–[25](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R25). These structures revealed that ACE2 interacts with the receptor-binding motif, approximately composed of residues 438–508 within the RBD[26](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R26). SARS-CoV-2 receptor-binding motif has a more pronounced receptor-interacting ridge and stabilizing residues that increase the affinity for ACE2 compared with SARS-CoV-1[27](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R27). The pace of spike structures deposited in the protein data bank continues to accelerate, with multiple high-resolution structures of spike-binding antibodies and a structure of the post-fusion conformation[18](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R18). We direct the reader to several reviews summarizing these structural findings[28](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R28)–[31](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R31).
@@ -81,7 +81,7 @@ We present two laboratory-scale protocols for purifying HexaPro from FreeStyle 2
 HexaPro ectodomain is expressed with a C-terminal foldon domain with HRV 3C cleavage site and a tandem His8-TwinStrep (2× Strep-tag II) epitope. Removing either affinity epitope does not change spike yield or overall purification quality. Purification with Ni-NTA resin is more cost effective, and yields >90% pure spike protein as assayed by SDS-PAGE. Strep-Tactin-purified spike is slightly purer (>95% pure) and our preferred purification choice for smaller-scale expression. We purify HexaPro via a single-step affinity column at room temperature, followed by size exclusion chromatography at 4 °C. Post-purification, recombinantly produced spikes are stored on ice for immediate experiments or flash frozen in liquid nitrogen and stored at −80 °C. Although HexaPro is exceptionally stable at elevated temperatures, other spike constructs are sensitive to the purification temperature[69](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R69).
 The entire procedure for purifying spike takes 1–2 weeks depending on the cell lines used ([Fig. 2a](#fig2)). This includes the following stages: cell culture and transfection (Step 1), spike purification (Steps 2–6) and biochemical characterization (Steps 7–37, depending on the final goal). Finally, although we focus on the expression, purification and biophysical analysis of the prefusion-stabilized HexaPro variant, we expect that the procedure described herein is broadly applicable for the purification of other prefusion-stabilized or clinically relevant spike variants.
 ---
-##  Materials
+## Materials
 ### Reagents
 #### Cell culture
   * HexaPro expression vector (Addgene, cat. no. 154754)
@@ -208,7 +208,7 @@ Mix 100 mL of PBS pH 7.5 with 50 μL of Tween 20 and 1 g of nonfat dried milk. S
 #### BLI buffer
 Dilute 5 mL of 10× HBS-EP+ buffer to 50 mL. Vortex to mix. Store at RT for up to 1 week.
 ---
-##  Procedure
+## Procedure
 ### Cell culture and spike expression ● Timing 6–14 d
   * 1
 Express SARS-CoV-2 spike in either FreeStyle 293-F (option A) or ExpiCHO-S (option B) cells. 
@@ -362,7 +362,7 @@ Immediately transfer plate to a plate reader, and read at 450 nm.
 ? TROUBLESHOOTING
 
 ---
-##  Anticipated results
+## Anticipated results
 By following the procedures in this protocol (outlined in [Fig. 2a](#fig2)), users can express, purify and characterize recombinant spike for downstream studies in ~1 week. We routinely produce ~10 mg/L and ~30 mg/L of HexaPro in FreeStyle 293-F and ExpiCHO-S cells, respectively; representing a tenfold increase in expression from S-2P. We quantify spike purity on SDS-PAGE gels ([Fig. 2b](#fig2)). In our experience, a monodisperse peak on a size exclusion column indicates a homogeneous and trimeric spike ([Fig. 2c](#fig2)). Negative-stain electron microscopy images confirmed the trimeric status ([Fig. 2e](#fig2),[f](#fig2)). Recombinant spike and its circulating variants are essential for understanding the basic biology of SARS-CoV-2 ([Fig. 3](#fig3)) and for diagnostic assays ([Fig. 4](#fig4)). More broadly, this protocol will be widely useful to researchers studying other trimeric class 1 fusion proteins.
 ***[Figure 3](#fig3).*** BLI analysis of spike-ACE2 binding. **a** , Schematic of the BLI experiment. Recombinant spikes with a C-terminal TwinStrep epitope are immobilized on a SA-coated tip. Association and dissociation of ACE2 is measured over time. **b** , Stepwise preparation of the BLI tip. Highest response is visualized with pre-binding spike and challenging with ACE2. **c** , Determination of the association (_k_ on) and dissociation (_k_ off) constants of spike for ACE2.
 
@@ -370,7 +370,7 @@ By following the procedures in this protocol (outlined in [Fig. 2a](#fig2)), use
 ***[Figure 4](#fig4).*** ELISA of monoclonal antibodies and patient serum. **a** , An indirect ELISA used for spike detection. **b** , Binding profile of five purified mAbs against the spike trimer. **c** , Binding profile of five donor plasma samples against the spike trimer.
 
 ![Fig. 4](nihms-1846725-f0004.jpg)
-##  Troubleshooting
+## Troubleshooting
 Troubleshooting advice can be found in [Table 2](#table2).
 ### Table 2 |.
 Troubleshooting table
@@ -386,7 +386,7 @@ Step | Problem | Possible reason | Possible solution
 17 | Nonspecific binding of analytes | Insufficient blocking reagent and detergent | Increase the concentration of BSA and detergent  
 37 | Inaccurate or inconsistent plate readings | Precipitate may form over time after H2SO4 addition | Immediately read plate at 450 nm  
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/table/T2/)
-##  Timing
+## Timing
 Step 1, cell culture and spike expression: 6–14 d
   * A, expression in FreeStyle 293-F cells: 6 d 
     * i–ii, cell seeding: 20 min
@@ -408,10 +408,10 @@ Steps 12–20, BLI, 3 h
 Steps 21–37, ELISA, 2 d
 
 ---
-##  Acknowledgements
+## Acknowledgements
 We thank members of the Maynard, Finkelstein and McLellan Laboratories for providing helpful comments on the manuscript. This work was supported by NIH grant R01-AI127521 (J.S.M.), GM120554 and GM124141 (I.J.F.); the Bill & Melinda Gates Foundation INV-017592 (J.A.M., I.J.F. and J.S.M.); Welch Foundation grants F-1767 (J.A.M.) and F-1808 (I.J.F.); and the NSF 1453358 to (I.J.F.). I.J.F. is a CPRIT Scholar in Cancer Research. This research has been funded in part with federal funds under a contract from the National Institute of Allergy and Infectious Diseases, National Institutes of Health, contract number 75N93019C00050 (G.C.I.). This research was, in part, supported by the National Cancer Institute’s National Cryo-EM Facility at the Frederick National Laboratory for Cancer Research under contract HSSN261200800001E. The Sauer Structural Biology Laboratory is supported by the University of Texas College of Natural Sciences and by award RR160023 from the Cancer Prevention and Research Institute of Texas (CPRIT).
 
-##  Data availability
+## Data availability
 The data presented in these figures were generated as part of ref.[36](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/#R36). Raw files associated with [Fig. 3](#fig3) are available from the corresponding author upon request.
 
 ## References

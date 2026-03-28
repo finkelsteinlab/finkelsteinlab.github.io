@@ -155,7 +155,7 @@ Status key:
 :FILE: papers/_posts/2022-04-22-Pol-theta-end-joining.MD
 :JOURNAL: NAR
 :END:
-** TODO 77. Eslami-Mossallam et al. Nat Commun (2022)
+** WAITING 77. Eslami-Mossallam et al. Nat Commun (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-03-15-SpCas9-kinetic-model
 :DOI: 10.1038/s41467-022-28994-2
@@ -177,28 +177,28 @@ Status key:
 :FILE: papers/_posts/2021-12-16-Spike-Display.md
 :JOURNAL: Mol. Cell
 :END:
-** TODO 74. Rybarski et al. PNAS (2021)
+** WAITING 74. Rybarski et al. PNAS (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-12-07-CAST-metagenomic-discovery
 :DOI: 10.1073/pnas.2112279118
 :FILE: papers/_posts/2021-12-07-CAST-metagenomic-discovery.MD
 :JOURNAL: PNAS
 :END:
-** TODO 73. Hill et al._J. Open Source Softw. (2021)
+** WAITING 73. Hill et al._J. Open Source Softw. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-27-Python-package-gene-clusters
 :DOI: 10.21105/joss.03678
 :FILE: papers/_posts/2021-10-27-Python-package-gene-clusters.MD
 :JOURNAL: Journal of Open Source Software
 :END:
-** TODO 72. Schaub et al. Nat Protoc (2021)
+** WAITING 72. Schaub et al. Nat Protoc (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-05-SARS-CoV-2-Spike-proteins
 :DOI: 10.1038/s41596-021-00623-0
 :FILE: papers/_posts/2021-10-05-SARS-CoV-2-Spike-proteins.MD
 :JOURNAL: Nature Protocols
 :END:
-** TODO 71. Blevins_et_al._Chem Sci. (2021)
+** WAITING 71. Blevins_et_al._Chem Sci. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-09-23-T4-gp32-ssDNA-complex
 :DOI: 10.1039/d1sc02861h
@@ -212,28 +212,28 @@ Status key:
 :FILE: papers/_posts/2021-08-26-cas1-cas2-complex.md
 :JOURNAL: eLife
 :END:
-** TODO 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
+** WAITING 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
 :PROPERTIES:
 :MD_SLUG: 2021-07-03-SARS-CoV-2-variants
 :DOI: 10.1016/j.ajpath.2021.07.002
 :FILE: papers/_posts/2021-07-03-SARS-CoV-2-variants.md
 :JOURNAL: American Journal of Pathology
 :END:
-** TODO 68. Voss et al. Science (2021)
+** WAITING 68. Voss et al. Science (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-05-04-SARS-CoV-2-IgG
 :DOI: 10.1126/science.abg5268
 :FILE: papers/_posts/2021-05-04-SARS-CoV-2-IgG.md
 :JOURNAL: Science
 :END:
-** TODO 67. Calcines-Cruz et al. NanoLett(2021)
+** WAITING 67. Calcines-Cruz et al. NanoLett(2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-17-artificial-virus
 :DOI: 10.1021/acs.nanolett.0c04640
 :FILE: papers/_posts/2021-03-17-artificial-virus.md
 :JOURNAL: Nano Letters
 :END:
-** TODO 66. Wesley Long et al. AmJPathol (2021)
+** WAITING 66. Wesley Long et al. AmJPathol (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-16-SARS-CoV-2-Variants
 :DOI: 10.1016/j.ajpath.2021.03.004
@@ -255,7 +255,7 @@ Status key:
 :JOURNAL: Nature Biotechnology
 :END:
 * 2020
-** TODO 64. Long et al. mBio (2020)
+** WAITING 64. Long et al. mBio (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-10-30-Second-wave-SARS-CoV-2
 :DOI: 10.1128/mBio.02707-20

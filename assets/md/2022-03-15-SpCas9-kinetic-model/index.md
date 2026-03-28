@@ -39,7 +39,7 @@ To implement quantitative activity prediction, Cas9 targeting must be modelled i
 To reveal the physical basis of Cas9 fidelity on genomic scales, we extract the free-energy landscapes that control PAM binding, strand-replacement, and cleavage on any target. Our characterization of Cas9 supports the notion that observed differences in binding and cleavage activities[32]–[41] stem from a relatively long-lived DNA-bound RNA-DNA hybrid (R-loop) intermediate. This R-loop intermediate was recently observed directly in single-molecule experiments[42], and our model predicts both its location and its conversion rates.
 Though the strengths of our model lies in that it allows us to calculate how (d)Cas9 activity evolves in time under various conditions, we also sought to compare our approach to existing binary off-target classifiers that identify strong off-targets. To this end, we reduce our quantitative activity predictor to a binary off-target classifier that outperforms the leading tools used today[12],[24],[28],[43].
 ---
-##  Results
+## Results
 ### The kinetic model
 In Fig. [1a] we show the reaction pathway that underpins the Cas9 targeting reaction on every target[44]. The reaction starts with Cas9-sgRNA ribonucleoprotein complex exiting the solution state to specifically bind to a 3nt protospacer adjacent motif (PAM) DNA sequence—canonically 5’-NGG-3’—via protein-DNA interactions[44],[45]. Binding to the PAM sequence (state 0) opens the DNA double helix, and allows the first base of the target sequence to hybridize with the sgRNA[44],[45], forming the first R-loop state (state 1). The DNA double helix further denatures as the RNA-DNA hybrid is extended in the guide-target strand-replacement reaction[46]–[49] (state 2-20). The hybrid grows and shrinks in single-nucleotide steps, until it is either reversed and Cas9 dissociates, or it reaches completion at 20 base pairs (bp) in state 20. If the full hybrid is formed, Cas9 can use its HNH and RuvC nuclease domains to cleave both DNA strands[50].
 <figure class="paper-figure" id="fig1">
@@ -103,7 +103,7 @@ Figure [7a] shows the PR curve when models are tested against the union of all r
 <img src="41467_2022_28994_Fig7_HTML.jpg" alt="Figure 7">
 </figure>
 ---
-##  Discussion
+## Discussion
 Training our model (Fig. [1]) of _Sp_ Cas9 target activity on moderately mismatched targets, we extract the physical parameters (Fig. [4]) that control activity on any target (Figs. [2] and [3]). Going beyond present-day binary off-target classification schemes, we quantitatively predict cleavage and binding activity as a function of both time and _Sp_ Cas9-sgRNA concentration.
 We show that _Sp_ Cas9’s targeting reaction contain an intermediate R-loop state, with both position and conversion rates that agree with single-molecule experiments[42] (Fig. [5]). Mismatches affect the dynamics of the R-loop states (Fig. [6]) in a manner similarity to how they affect the configurational states of _Sp_ Cas9’s nuclease domains[42],[51],[53]. Based on this, we lend support to the notion that R-loop formation is tightly coupled to protein conformation—pointing toward the relevant structure-function relation for the most important RNA-guided nuclease in use today.
 Though our model captures the abundant low-activity off-targets that are discarded by binary classifiers, we sought to demonstrate the general utility of kinetic modelling by reducing our quantitative activity predictor to a binary classification tool. The resulting kinetic classifier outperforms established state-of-the-art classification tools on canonical PAM sites in the human genome (Fig. [7]).
@@ -111,7 +111,7 @@ In a recent study, Jost et al.[5] demonstrated that a series of mismatched guide
 For simplicity and robustness, we built our model to exclude mismatch type parameters. This allows for extensive training using datasets based on a single guide sequence and off-target DNAs containing up to two mismatches. The limited set of adjustable model parameters (44 in total) and efficient data usage (422 data points used for training) does not seem to limit the model’s applicability (Figs. [2], [3], [7]). The success of our low-complexity model strongly suggest that the path to increased predictive power and therapeutic relevance runs through bottom-up modelling of RNA-guided nucleases in kinetic terms.
 Taken together, we have shown that our mechanistic and kinetic model gives biophysical insight and quantitative predictive power far beyond the training sets. This predictive power is only expected to increase when including sequence features and allowing for alternative PAM sequences in future modelling efforts. _Sp_ Cas9 is only one of many RNA-guided nucleases with biotechnological applications, and other CRISPR associated nucleases (such as Cas12a, Cas13 and Cas14) offer a diversified genome-engineering toolkit[15],[64]–[69]. These nucleases can all be characterized with our approach, and it will be especially interesting to compare the free-energy landscape of our _Sp_ Cas9 benchmark to that of engineered[41],[54],[70] and natural (e.g. _N. meningitides_ Cas9[71]) high-fidelity Cas9 variants.
 ---
-##  Methods
+## Methods
 ### Modelling of the (d)Cas9 targeting reaction
 We consider a single DNA target sequence with a PAM, in contact with (d)Cas9-sgRNA in solution at fixed concentration (Fig. [1a]). (d)Cas9-sgRNA binding to the PAM site is assumed to be first order,  
 ---  
@@ -181,14 +181,14 @@ Only experimental data giving physical positive values for mismatch-averaged rat
 Further information on research design is available in the [Nature Research Reporting Summary](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/#MOESM6) linked to this article.
 
 ---
-##  Acknowledgements
+## Acknowledgements
 We would like to thank Kristian Blom, Diewertje Dekker, and Sonny de Jong for valuable discussions and/or their help during the project. We also thank the members of the Chirlmin Joo lab and Stan Brouns lab for valuable discussions. We thank Evan Boyle for sharing data and answering all our questions. This work was supported by: Netherlands Organization for Scientific Research (NWO) (FOM-140), B.E.M.; Zwaartekracht NanoFront, NWO M.K.; Parents in KIND program, The Kavli Institute of Nanoscience Delft/the Department of Bionanoscience at TU Delft/through a Spinoza Prize awarded to M. Dogterom, M.D.; University of Texas College of Natural Sciences Catalyst award and the Welch Foundation (F-1808) I.J.F.; U.S. National Institute of Health (R01GM124141, F32AG053051) I.J.F. and S.K.J.
-##  Author contributions
+## Author contributions
 B.E.M. and M.K.: Designed and performed the research, and wrote the manuscript K.v.d.S. and C.v.d.S.: Performed the research. S.K.J.: Provided data, and wrote manuscript J.H.: Provided data, and wrote manuscript I.J.F.: Provided data, and wrote manuscript M.D.: Conceived of the project, designed the research, and wrote the manuscript.
 
-##  Data availability
+## Data availability
 The data supporting the findings of this study are available from the corresponding authors upon reasonable request. Mismatch averaged experimental data used for training and validation (Figs. [2] and [3]), estimated microscopic parameters (Fig. [4]), and genome wide off-target classification evaluation (Fig. [7b–e]), are all provided as Supplementary Data [1].
-##  Code availability
+## Code availability
 The code enabling quantitative off-target activity prediction for any guide-target pair is available on our GitLab page (<https://gitlab.tudelft.nl/depken_group/SpCas9_kinetic_model_dashboard>). There you will also find a small dashboard application, allowing time resolved activity predictions given a particular sequence and enzyme concentration. A clone of the repository at publication is also permanently available at 10.5281/zenodo.5790798. The purpose made optimization code will be made available upon request.
 
 ## References

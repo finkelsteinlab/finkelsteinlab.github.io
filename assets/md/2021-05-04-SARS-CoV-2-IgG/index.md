@@ -21,9 +21,9 @@ pmcid: PMC7781304
 - [Summary](#summary)
 
 ---
-##  SUMMARY
+## SUMMARY
 Although humoral immunity is essential for control of SARS-CoV-2, the molecular composition, binding epitopes and effector functions of the immunoglobulin G (IgG) antibodies that circulate in blood plasma following infection are unknown. Proteomic deconvolution of the circulating IgG repertoire (Ig-Seq 1 ) to the spike ectodomain (S-ECD 2 ) in four convalescent study subjects revealed that the plasma response is oligoclonal and directed predominantly (>80%) to S-ECD epitopes that lie outside the receptor binding domain (RBD). When comparing antibodies directed to either the RBD, the N-terminal domain (NTD) or the S2 subunit (S2) in one subject, just four IgG lineages (1 anti-S2, 2 anti-NTD and 1 anti-RBD) accounted for 93.5% of the repertoire. Although the anti-RBD and one of the anti-NTD antibodies were equally potently neutralizing _in vitro_ , we nonetheless found that the anti-NTD antibody was sufficient for protection to lethal viral challenge, either alone or in combination as a cocktail where it dominated the effect of the other plasma antibodies. We identified _in vivo_ protective plasma anti-NTD antibodies in 3/4 subjects analyzed and discovered a shared class of antibodies targeting the NTD that utilize unmutated or near-germline IGHV1-24, the most electronegative IGHV gene in the human genome. Structural analysis revealed that binding to NTD is dominated by interactions with the heavy chain, accounting for 89% of the entire interfacial area, with germline residues uniquely encoded by IGHV1-24 contributing 20% (149 Å 2 ). Together with recent reports of germline IGHV1-24 antibodies isolated by B-cell cloning 3,4 our data reveal a class of shared IgG antibodies that are readily observed in convalescent plasma and underscore the role of NTD-directed antibodies in protection against SARS-CoV-2 infection. 
-##  Full Text Availability
+## Full Text Availability
 The license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.
 * * *
 Articles from bioRxiv are provided here courtesy of **Cold Spring Harbor Laboratory Preprints**
