@@ -72,66 +72,64 @@ We thank Dr. Max Gottesman, Dr. Ruben Gonzalez, and members of the Greene labora
 
 ## References
 
-1. Jankowsky E, Gross C, Shuman S, Pyle A. "Active disruption of an RNA-protein interaction by a DExH/D RNA helicase." Science. 2001;291:121–125.
+<span id="ref1">1.</span> Jankowsky E, Gross C, Shuman S, Pyle A. "Active disruption of an RNA-protein interaction by a DExH/D RNA helicase." *Science*. 2001;291:121–125.
 
-2. Marquis K, et al. "SpoIIIE strips proteins off the DNA during chromosome translocation." Genes Dev. 2008;22:1786–1795.
+<span id="ref2">2.</span> Marquis K, et al. "SpoIIIE strips proteins off the DNA during chromosome translocation." *Genes Dev*. 2008;22:1786–1795.
 
-3. Krejci L, et al. "DNA helicase Srs2 disrupts the Rad51 presynaptic filament." Nature. 2003;423:305–309.
+<span id="ref3">3.</span> Krejci L, et al. "DNA helicase Srs2 disrupts the Rad51 presynaptic filament." *Nature*. 2003;423:305–309.
 
-4. Guy C, et al. "Rep provides a second motor at the replisome to promote duplication of protein-bound DNA." Mol Cell. 2009;36:654–666.
+<span id="ref4">4.</span> Guy C, et al. "Rep provides a second motor at the replisome to promote duplication of protein-bound DNA." *Mol Cell*. 2009;36:654–666.
 
-5. Singleton M, Dillingham M, Gaudier M, Kowalczykowski S, Wigley D. "Crystal structure of RecBCD enzyme reveals a machine for processing DNA breaks." Nature. 2004;432:187–193.
+<span id="ref5">5.</span> Singleton M, Dillingham M, Gaudier M, Kowalczykowski S, Wigley D. "Crystal structure of RecBCD enzyme reveals a machine for processing DNA breaks." *Nature*. 2004;432:187–193.
 
-6. Bianco P, et al. "Processive translocation and DNA unwinding by individual RecBCD enzyme molecules." Nature. 2001;409:374–378.
+<span id="ref6">6.</span> Bianco P, et al. "Processive translocation and DNA unwinding by individual RecBCD enzyme molecules." *Nature*. 2001;409:374–378.
 
-7. Spies M, Amitani I, Baskin R, Kowalczykowski S. "RecBCD enzyme switches lead motor subunits in response to chi recognition." Cell. 2007;131:694–705.
+<span id="ref7">7.</span> Spies M, Amitani I, Baskin R, Kowalczykowski S. "RecBCD enzyme switches lead motor subunits in response to chi recognition." *Cell*. 2007;131:694–705.
 
-8. Taylor A, Smith G. "RecBCD enzyme is a DNA helicase with fast and slow motors of opposite polarity." Nature. 2003;423:889–893.
+<span id="ref8">8.</span> Taylor A, Smith G. "RecBCD enzyme is a DNA helicase with fast and slow motors of opposite polarity." *Nature*. 2003;423:889–893.
 
-9. Visnapuu M-L, Greene E. "Single-molecule imaging of DNA curtains reveals intrinsic energy landscapes for nucleosome deposition." Nat Struct Mol Biol. 2009;16:1056–1062.
+<span id="ref9">9.</span> Visnapuu M-L, Greene E. "Single-molecule imaging of DNA curtains reveals intrinsic energy landscapes for nucleosome deposition." *Nat Struct Mol Biol*. 2009;16:1056–1062.
 
-10. Ishihama A. "Functional modulation of Escherichia coli RNA polymerase." Annu Rev Microbiol. 2000;54:499–518.
+<span id="ref10">10.</span> Ishihama A. "Functional modulation of Escherichia coli RNA polymerase." *Annu Rev Microbiol*. 2000;54:499–518.
 
-11. Herbert K, Greenleaf W, Block S. "Single-molecule studies of RNA polymerase: motoring along." Annu Rev Biochem. 2008;77:149–176.
+<span id="ref11">11.</span> Herbert K, Greenleaf W, Block S. "Single-molecule studies of RNA polymerase: motoring along." *Annu Rev Biochem*. 2008;77:149–176.
 
-12. Liu B, Wong M, Alberts B. "A transcribing RNA polymerase molecule survives DNA replication without aborting its growing RNA chain." Proc Natl Acad Sci U S A. 1994;91:10660–10664.
+<span id="ref12">12.</span> Liu B, Wong M, Alberts B. "A transcribing RNA polymerase molecule survives DNA replication without aborting its growing RNA chain." *Proc Natl Acad Sci U S A*. 1994;91:10660–10664.
 
-13. Liu B, Wong M, Tinker R, Geiduschek E, Alberts B. "The DNA replication fork can pass RNA polymerase without displacing the nascent transcript." Nature. 1993;366:33–39.
+<span id="ref13">13.</span> Liu B, Wong M, Tinker R, Geiduschek E, Alberts B. "The DNA replication fork can pass RNA polymerase without displacing the nascent transcript." *Nature*. 1993;366:33–39.
 
-14. Liu B, Alberts B. "Head-on collision between a DNA replication apparatus and RNA polymerase transcription complex." Science. 1995;267:1131–1137.
+<span id="ref14">14.</span> Liu B, Alberts B. "Head-on collision between a DNA replication apparatus and RNA polymerase transcription complex." *Science*. 1995;267:1131–1137.
 
-15. Pomerantz R, O'Donnell M. "The replisome uses mRNA as a primer after colliding with RNA polymerase." Nature. 2008;456:762–766.
+<span id="ref15">15.</span> Pomerantz R, O'Donnell M. "The replisome uses mRNA as a primer after colliding with RNA polymerase." *Nature*. 2008;456:762–766.
 
-16. Pomerantz R, O'Donnell M. "Direct restart of a replication fork stalled by a head-on RNA polymerase." Science. 2010;327:590–592.
+<span id="ref16">16.</span> Pomerantz R, O'Donnell M. "Direct restart of a replication fork stalled by a head-on RNA polymerase." *Science*. 2010;327:590–592.
 
-17. Wright D, King K, Modrich P. "The negative charge of Glu-111 is required to activate the cleavage center of EcoRI endonuclease." J Biol Chem. 1989;264:11816–11821.
+<span id="ref17">17.</span> Wright D, King K, Modrich P. "The negative charge of Glu-111 is required to activate the cleavage center of EcoRI endonuclease." *J Biol Chem*. 1989;264:11816–11821.
 
-18. Epshtein V, Toulème F, Rahmouni A, Borukhov S, Nudler E. "Transcription through the roadblocks: the role of RNA polymerase cooperation." EMBO J. 2003;22:4719–4727.
+<span id="ref18">18.</span> Epshtein V, Toulème F, Rahmouni A, Borukhov S, Nudler E. "Transcription through the roadblocks: the role of RNA polymerase cooperation." *EMBO J*. 2003;22:4719–4727.
 
-19. Nudler E, Kashlev M, Nikiforov V, Goldfarb A. "Coupling between transcription termination and RNA polymerase inchworming." Cell. 1995;81:351–357.
+<span id="ref19">19.</span> Nudler E, Kashlev M, Nikiforov V, Goldfarb A. "Coupling between transcription termination and RNA polymerase inchworming." *Cell*. 1995;81:351–357.
 
-20. Pavco P, Steege D. "Characterization of elongating T7 and SP6 RNA polymerases and their response to a roadblock generated by a site-specific DNA binding protein." Nucleic Acids Res. 1991;19:4639–4646.
+<span id="ref20">20.</span> Pavco P, Steege D. "Characterization of elongating T7 and SP6 RNA polymerases and their response to a roadblock generated by a site-specific DNA binding protein." *Nucleic Acids Res*. 1991;19:4639–4646.
 
-21. Byrd A, Raney K. "Displacement of a DNA binding protein by Dda helicase." Nucleic Acids Res. 2006;34:3020–3029.
+<span id="ref21">21.</span> Byrd A, Raney K. "Displacement of a DNA binding protein by Dda helicase." *Nucleic Acids Res*. 2006;34:3020–3029.
 
-22. Noom M, van den Broek B, van Mameren J, Wuite G. "Visualizing single DNA-bound proteins using DNA as a scanning probe." Nat Methods. 2007;4:1031–1036.
+<span id="ref22">22.</span> Noom M, van den Broek B, van Mameren J, Wuite G. "Visualizing single DNA-bound proteins using DNA as a scanning probe." *Nat Methods*. 2007;4:1031–1036.
 
-23. Sadler J, Sasmor H, Betz J. "A perfectly symmetric lac operator binds the lac repressor very tightly." Proc Natl Acad Sci U S A. 1983;80:6785–6789.
+<span id="ref23">23.</span> Sadler J, Sasmor H, Betz J. "A perfectly symmetric lac operator binds the lac repressor very tightly." *Proc Natl Acad Sci U S A*. 1983;80:6785–6789.
 
-24. Lin S, Riggs A. "Lac repressor binding to DNA not containing the lac operator and to synthetic poly dAT." Nature. 1970;228:1184–1186.
+<span id="ref24">24.</span> Lin S, Riggs A. "Lac repressor binding to DNA not containing the lac operator and to synthetic poly dAT." *Nature*. 1970;228:1184–1186.
 
-25. Elf J, Li G-W, Xie X. "Probing transcription factor dynamics at the single-molecule level in a living cell." Science. 2007;316:1191–1194.
+<span id="ref25">25.</span> Elf J, Li G-W, Xie X. "Probing transcription factor dynamics at the single-molecule level in a living cell." *Science*. 2007;316:1191–1194.
 
-26. Wang YM, Austin RH, Cox EC. "Single molecule measurements of repressor protein 1D diffusion on DNA." Phys Rev Lett. 2006;97:048302.
+<span id="ref26">26.</span> Wang YM, Austin RH, Cox EC. "Single molecule measurements of repressor protein 1D diffusion on DNA." *Phys Rev Lett*. 2006;97:048302.
 
-27. Studitsky V, Clark D, Felsenfeld G. "Overcoming a nucleosomal barrier to transcription." Cell. 1995;83:19–27.
+<span id="ref27">27.</span> Studitsky V, Clark D, Felsenfeld G. "Overcoming a nucleosomal barrier to transcription." *Cell*. 1995;83:19–27.
 
-28. Bonne-Andrea C, Wong M, Alberts B. "In vitro replication through nucleosomes without histone displacement." Nature. 1990;343:719–726.
+<span id="ref28">28.</span> Bonne-Andrea C, Wong M, Alberts B. "In vitro replication through nucleosomes without histone displacement." *Nature*. 1990;343:719–726.
 
-29. Eggleston A, O'Neill T, Bradbury E, Kowalczykowski S. "Unwinding of nucleosomal DNA by a DNA helicase." J Biol Chem. 1995;270:2024–2031.
+<span id="ref29">29.</span> Eggleston A, O'Neill T, Bradbury E, Kowalczykowski S. "Unwinding of nucleosomal DNA by a DNA helicase." *J Biol Chem*. 1995;270:2024–2031.
 
-30. Mollazadeh-Beidokhti L, Deseigne J, Lacoste D, Mohammad-Rafiee F, Schiessel H. "Stochastic model for nucleosome sliding under an external force." Phys Rev E Stat Nonlin Soft Matter Phys. 2009;79:031922.
+<span id="ref30">30.</span> Mollazadeh-Beidokhti L, Deseigne J, Lacoste D, Mohammad-Rafiee F, Schiessel H. "Stochastic model for nucleosome sliding under an external force." *Phys Rev E Stat Nonlin Soft Matter Phys*. 2009;79:031922.
 
----
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC3230117/) on PubMed Central.
