@@ -221,6 +221,106 @@ We are grateful to Tanya Paull as well as members of the Finkelstein and Paull L
 
 <span id="ref62">62.</span> Mimitou EP, Symington LS. Sae2, Exo1 and Sgs1 collaborate in DNA double-strand break processing. Nature. 2008;455:770–774. [doi:10.1038/nature07312](https://doi.org/10.1038/nature07312).
 
----
+<span id="ref63">63.</span> Möckel C, Lammens K, Schele A, Hopfner K-P. ATP driven structural changes of the bacterial Mre11:Rad50 catalytic head complex. Nucleic Acids Res. 2012;40:914–927. [doi:10.1093/nar/gkr749](https://doi.org/10.1093/nar/gkr749).
+
+<span id="ref64">64.</span> Modrich P. Mechanisms in eukaryotic mismatch repair. J Biol Chem. 2006;281:30305–30309. [doi:10.1074/jbc.R600022200](https://doi.org/10.1074/jbc.R600022200).
+
+<span id="ref65">65.</span> Moreno-Herrero F, de Jager M, Dekker NH, Kanaar R, Wyman C, Dekker C. Mesoscale conformational changes in the DNA-repair complex Rad50/Mre11/Nbs1 upon binding DNA. Nature. 2005;437:440–443. [doi:10.1038/nature03927](https://doi.org/10.1038/nature03927).
+
+<span id="ref66">66.</span> Myler LR, Gallardo IF, Zhou Y, Gong F, Yang S-H, Wold MS, Miller KM, Paull TT, Finkelstein IJ. Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. Proc Natl Acad Sci. 2016;113:e1170–e1179. [doi:10.1073/pnas.1516674113](https://doi.org/10.1073/pnas.1516674113).
+
+<span id="ref67">67.</span> Nguyen B, Sokoloski J, Galletto R, Elson EL, Wold MS, Lohman TM. Diffusion of human replication protein A along single-stranded DNA. J Mol Biol. 2014;426:3246–3261. [doi:10.1016/j.jmb.2014.07.014](https://doi.org/10.1016/j.jmb.2014.07.014).
+
+<span id="ref68">68.</span> Nicolette ML, Lee K, Guo Z, Rani M, Chow JM, Lee SE, Paull TT. Mre11-Rad50-Xrs2 and Sae2 promote 5′ strand resection of DNA double-strand breaks. Nat Struct Mol Biol. 2010;17:1478–1485. [doi:10.1038/nsmb.1957](https://doi.org/10.1038/nsmb.1957).
+
+<span id="ref69">69.</span> Nimonkar AV, Genschel J, Kinoshita E, Polaczek P, Campbell JL, Wyman C, Modrich P, Kowalczykowski SC. BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. Genes Dev. 2011;25:350–362. [doi:10.1101/gad.2003811](https://doi.org/10.1101/gad.2003811).
+
+<span id="ref70">70.</span> Nimonkar AV, Ozsoy AZ, Genschel J, Modrich P, Kowalczykowski SC. Human exonuclease 1 and BLM helicase interact to resect DNA and initiate DNA repair. Proc Natl Acad Sci U S A. 2008;105:16906–16911. [doi:10.1073/pnas.0809380105](https://doi.org/10.1073/pnas.0809380105).
+
+<span id="ref71">71.</span> Niu H, Chung WH, Zhu Z, Kwon Y, Zhao W, Chi P, Prakash R, Seong C, Liu D, Lu L, Ira G, Sung P. Mechanism of the ATP-dependent DNA end-resection machinery from Saccharomyces cerevisiae. Nature. 2010;467:108–111. [doi:10.1038/nature09318](https://doi.org/10.1038/nature09318).
+
+<span id="ref72">72.</span> Orans J, McSweeney EA, Iyer RR, Hast MA, Hellinga HW, Modrich P, Beese LS. Structures of human exonuclease 1 DNA complexes suggest a unified mechanism for nuclease family. Cell. 2011;145:212–223. [doi:10.1016/j.cell.2011.03.005](https://doi.org/10.1016/j.cell.2011.03.005).
+
+<span id="ref73">73.</span> Paull TT, Deshpande RA. The Mre11/Rad50/Nbs1 complex: recent insights into catalytic activities and ATP-driven conformational changes. Exp Cell Res. 2014;329:139–147. [doi:10.1016/j.yexcr.2014.07.007](https://doi.org/10.1016/j.yexcr.2014.07.007).
+
+<span id="ref74">74.</span> Paull TT, Gellert M. Nbs1 potentiates ATP-driven DNA unwinding and endonuclease cleavage by the Mre11/Rad50 complex. Genes Dev. 1999;13:1276–1288. [doi:10.1101/gad.13.10.1276](https://doi.org/10.1101/gad.13.10.1276).
+
+<span id="ref75">75.</span> Paull TT, Gellert M. The 3′ to 5′ exonuclease activity of Mre 11 facilitates repair of DNA double-strand breaks. Mol Cell. 1998;1:969–979. [doi:10.1016/s1097-2765(00)80097-0](https://doi.org/10.1016/s1097-2765(00)80097-0).
+
+<span id="ref76">76.</span> Reardon JT, Sancar A. Nucleotide excision repair. Prog Nucleic Acid Res Mol Biol. 2005;79:183–235. [doi:10.1016/S0079-6603(04)79004-2](https://doi.org/10.1016/S0079-6603(04)79004-2).
+
+<span id="ref77">77.</span> Richard DJ, Bolderson E, Cubeddu L, Wadsworth RIM, Savage K, Sharma GG, Nicolette ML, Tsvetanov S, McIlwraith MJ, Pandita RK, Takeda S, Hay RT, Gautier J, West SC, Paull TT, Pandita TK, White MF, Khanna KK. Single-stranded DNA-binding protein hSSB1 is critical for genomic stability. Nature. 2008;453:677–681. [doi:10.1038/nature06883](https://doi.org/10.1038/nature06883).
+
+<span id="ref78">78.</span> Robinson A, van Oijen AM. Bacterial replication, transcription and translation: mechanistic insights from single-molecule biochemical studies. Nat Rev Microbiol. 2013;11:303–315. [doi:10.1038/nrmicro2994](https://doi.org/10.1038/nrmicro2994).
+
+<span id="ref79">79.</span> Roy R, Kozlov AG, Lohman TM, Ha T. SSB protein diffusion on single-stranded DNA stimulates RecA filament formation. Nature. 2009;461:1092–1097. [doi:10.1038/nature08442](https://doi.org/10.1038/nature08442).
+
+<span id="ref80">80.</span> Rubnitz J, Subramani S. The minimum amount of homology required for homologous recombination in mammalian cells. Mol Cell Biol. 1984;4:2253–2258. [doi:10.1128/mcb.4.11.2253](https://doi.org/10.1128/mcb.4.11.2253).
+
+<span id="ref81">81.</span> Santos-Pereira JM, Aguilera A. R loops: new modulators of genome dynamics and function. Nat Rev Genet. 2015;16:583–597. [doi:10.1038/nrg3961](https://doi.org/10.1038/nrg3961).
+
+<span id="ref82">82.</span> Seifert FU, Lammens K, Stoehr G, Kessler B, Hopfner K-P. Structural mechanism of ATP-dependent DNA binding and DNA end bridging by eukaryotic Rad50. EMBO J. 2016;35:759–772. [doi:10.15252/embj.201592934](https://doi.org/10.15252/embj.201592934).
+
+<span id="ref83">83.</span> Shibata A, Moiani D, Arvai AS, Perry J, Harding SM, Genois MM, Maity R, van Rossum-Fikkert S, Kertokalio A, Romoli F, Ismail A, Ismalaj E, Petricci E, Neale MJ, Bristow RG, Masson JY, Wyman C, Jeggo PA, Tainer JA. DNA double-strand break repair pathway choice is directed by distinct MRE11 nuclease activities. Mol Cell. 2014;53:7–18. [doi:10.1016/j.molcel.2013.11.003](https://doi.org/10.1016/j.molcel.2013.11.003).
+
+<span id="ref84">84.</span> Skourti-Stathaki K, Proudfoot NJ. A double-edged sword: R loops as threats to genome integrity and powerful regulators of gene expression. Genes Dev. 2014;28:1384–1396. [doi:10.1101/gad.242990.114](https://doi.org/10.1101/gad.242990.114).
+
+<span id="ref85">85.</span> Soutoglou E, Misteli T. Activation of the cellular DNA damage response in the absence of DNA lesions. Science. 2008;320:1507–10. [doi:10.1126/science.1159051](https://doi.org/10.1126/science.1159051).
+
+<span id="ref86">86.</span> Spies M. There and back again: new single-molecule insights in the motion of DNA repair proteins. Curr Opin Struct Biol. 2013;23:154–160. [doi:10.1016/j.sbi.2012.11.008](https://doi.org/10.1016/j.sbi.2012.11.008).
+
+<span id="ref87">87.</span> Stracker TH, Petrini JHJ. The MRE11 complex: starting from the ends. Nat Rev Mol Cell Biol. 2011;12:90–103. [doi:10.1038/nrm3047](https://doi.org/10.1038/nrm3047).
+
+<span id="ref88">88.</span> Sugawara N, Ira G, Haber JE. DNA length dependence of the single-strand annealing pathway and the role of Saccharomyces cerevisiae RAD59 in double-strand break repair. Mol Cell Biol. 2000;20:5300–5309. [doi:10.1128/mcb.20.14.5300-5309.2000](https://doi.org/10.1128/mcb.20.14.5300-5309.2000).
+
+<span id="ref89">89.</span> Symington LS. Mechanism and regulation of DNA end resection in eukaryotes. Crit Rev Biochem Mol Biol. 2016;51:195–212. [doi:10.3109/10409238.2016.1172552](https://doi.org/10.3109/10409238.2016.1172552).
+
+<span id="ref90">90.</span> Symington LS, Gautier J. Double-strand break end resection and repair pathway choice. Annu Rev Genet. 2011;45:247–71. [doi:10.1146/annurev-genet-110410-132435](https://doi.org/10.1146/annurev-genet-110410-132435).
+
+<span id="ref91">91.</span> Tauchi H, Kobayashi J, Morishima K, van Gent DC, Shiraishi T, Verkaik NS, vanHeems D, Ito E, Nakamura A, Sonoda E, Takata M, Takeda S, Matsuura S, Komatsu K. Nbs1 is essential for DNA repair by homologous recombination in higher vertebrate cells. Nature. 2002;420:93–98. [doi:10.1038/nature01125](https://doi.org/10.1038/nature01125).
+
+<span id="ref92">92.</span> Tkáč J, Xu G, Adhikary H, Young JTF, Gallo D, Escribano-Díaz C, Krietsch J, Orthwein A, Munro M, Sol W, Al-Hakim A, Lin ZY, Jonkers J, Borst P, Brown GW, Gingras AC, Rottenberg S, Masson JY, Durocher D. HELB Is a Feedback Inhibitor of DNA End Resection. Mol Cell. 2016;61:405–418. [doi:10.1016/j.molcel.2015.12.013](https://doi.org/10.1016/j.molcel.2015.12.013).
+
+<span id="ref93">93.</span> Tomimatsu N, Mukherjee B, Deland K, Kurimasa A, Bolderson E, Khanna KK, Burma S. Exo1 plays a major role in DNA end resection in humans and influences double-strand break repair and damage signaling decisions. DNA Repair. 2012;11:441–448. [doi:10.1016/j.dnarep.2012.01.006](https://doi.org/10.1016/j.dnarep.2012.01.006).
+
+<span id="ref94">94.</span> Trakselis MA, Mayer MU, Ishmael FT, Roccasecca RM, Benkovic SJ. Dynamic protein interactions in the bacteriophage T4 replisome. Trends Biochem Sci. 2001;26:566–572. [doi:10.1016/S0968-0004(01)01929-6](https://doi.org/10.1016/S0968-0004(01)01929-6).
+
+<span id="ref95">95.</span> Tsutakawa SE, Classen S, Chapados BR, Arvai AS, Finger LD, Guenther G, Tomlinson CG, Thompson P, Sarker AH, Shen B, Cooper PK, Grasby JA, Tainer JA. Human Flap Endonuclease Structures, DNA Double-Base Flipping, and a Unified Understanding of the FEN1 Superfamily. Cell. 2011;145:198–211. [doi:10.1016/j.cell.2011.03.004](https://doi.org/10.1016/j.cell.2011.03.004).
+
+<span id="ref96">96.</span> Van der Linden E, Sanchez H, Kinoshita E, Kanaar R, Wyman C. RAD50 and NBS1 form a stable complex functional in DNA binding and tethering. Nucleic Acids Res. 2009;37:1580–1588. [doi:10.1093/nar/gkn1072](https://doi.org/10.1093/nar/gkn1072).
+
+<span id="ref97">97.</span> Van Noort J, van Der Heijden T, de Jager M, Wyman C, Kanaar R, Dekker C. The coiled-coil of the human Rad50 DNA repair protein contains specific segments of increased flexibility. Proc Natl Acad Sci U S A. 2003;100:7581–7586. [doi:10.1073/pnas.1330706100](https://doi.org/10.1073/pnas.1330706100).
+
+<span id="ref98">98.</span> Vilenchik MM, Knudson AG. Radiation dose-rate effects, endogenous DNA damage, and signaling resonance. Proc Natl Acad Sci U S A. 2006;103:17874–17879. [doi:10.1073/pnas.0607995103](https://doi.org/10.1073/pnas.0607995103).
+
+<span id="ref99">99.</span> Vilenchik MM, Knudson AG. Endogenous DNA double-strand breaks: production, fidelity of repair, and induction of cancer. Proc Natl Acad Sci U S A. 2003;100:12871–12876. [doi:10.1073/pnas.2135498100](https://doi.org/10.1073/pnas.2135498100).
+
+<span id="ref100">100.</span> Wang H, Li Y, Truong LN, Shi LZ, Hwang PYH, He J, Do J, Cho MJ, Li H, Negrete A, Shiloach J, Berns MW, Shen B, Chen L, Wu X. CtIP maintains stability at common fragile sites and inverted repeats by end resection-independent endonuclease activity. Mol Cell. 2014;54:1012–1021. [doi:10.1016/j.molcel.2014.04.012](https://doi.org/10.1016/j.molcel.2014.04.012).
+
+<span id="ref101">101.</span> Wang S, Qin W, Li J-H, Lu Y, Lu K-Y, Nong D-G, Dou S-X, Xu C-H, Xi X-G, Li M. Unwinding forward and sliding back: an intermittent unwinding mode of the BLM helicase. Nucleic Acids Res. 2015;43:3736–3746. [doi:10.1093/nar/gkv209](https://doi.org/10.1093/nar/gkv209).
+
+<span id="ref102">102.</span> Warnasooriya C, Rueda D. Single-molecule fluorescence-based studies on the dynamics, assembly and catalytic mechanism of the spliceosome. Biochem Soc Trans. 2014;42:1211–1218. [doi:10.1042/BST20140105](https://doi.org/10.1042/BST20140105).
+
+<span id="ref103">103.</span> Weterings E, Chen DJ. The endless tale of non-homologous end-joining. Cell Res. 2008;18:114–124. [doi:10.1038/cr.2008.3](https://doi.org/10.1038/cr.2008.3).
+
+<span id="ref104">104.</span> Williams GJ, Lees-Miller SP, Tainer JA. Mre11-Rad50-Nbs1 conformations and the control of sensing, signaling, and effector responses at DNA double-strand breaks. DNA Repair. 2010;9:1299–1306. [doi:10.1016/j.dnarep.2010.10.001](https://doi.org/10.1016/j.dnarep.2010.10.001).
+
+<span id="ref105">105.</span> Williams GJ, Williams RS, Williams JS, Moncalian G, Arvai AS, Limbo O, Guenther G, SilDas S, Hammel M, Russell P, Tainer JA. ABC ATPase signature helices in Rad50 link nucleotide state to Mre11 interface for DNA repair. Nat Struct Mol Biol. 2011;18:423–431. [doi:10.1038/nsmb.2038](https://doi.org/10.1038/nsmb.2038).
+
+<span id="ref106">106.</span> Williams RS, Dodson GE, Limbo O, Yamada Y, Williams JS, Guenther G, Classen S, Glover JNM, Iwasaki H, Russell P, Tainer JA. Nbs1 flexibly tethers Ctp1 and Mre11-Rad50 to coordinate DNA double-strand break processing and repair. Cell. 2009;139:87–99. [doi:10.1016/j.cell.2009.07.033](https://doi.org/10.1016/j.cell.2009.07.033).
+
+<span id="ref107">107.</span> Yang S-H, Zhou R, Campbell J, Chen J, Ha T, Paull TT. The SOSS1 single-stranded DNA binding complex promotes DNA end resection in concert with Exo1. EMBO J. 2013;32:126–139. [doi:10.1038/emboj.2012.314](https://doi.org/10.1038/emboj.2012.314).
+
+<span id="ref108">108.</span> Yeeles JTP, Dillingham MS. The processing of double-stranded DNA breaks for recombinational repair by helicase-nuclease complexes. DNA Repair. 2010;9:276–285. [doi:10.1016/j.dnarep.2009.12.016](https://doi.org/10.1016/j.dnarep.2009.12.016).
+
+<span id="ref109">109.</span> Yodh JG, Stevens BC, Kanagaraj R, Janscak P, Ha T. BLM helicase measures DNA unwound before switching strands and hRPA promotes unwinding reinitiation. EMBO J. 2009;28:405–416. [doi:10.1038/emboj.2008.298](https://doi.org/10.1038/emboj.2008.298).
+
+<span id="ref110">110.</span> Zeman MK, Cimprich KA. Causes and consequences of replication stress. Nat Cell Biol. 2014;16:2–9. [doi:10.1038/ncb2897](https://doi.org/10.1038/ncb2897).
+
+<span id="ref111">111.</span> Zhou BB, Elledge SJ. The DNA damage response: putting checkpoints in perspective. Nature. 2000;408:433–439. [doi:10.1038/35044005](https://doi.org/10.1038/35044005).
+
+<span id="ref112">112.</span> Zhou Y, Caron P, Legube G, Paull TT. Quantitation of DNA double-strand break resection intermediates in human cells. Nucleic Acids Res. 2014;42:e19. [doi:10.1093/nar/gkt1309](https://doi.org/10.1093/nar/gkt1309).
+
+<span id="ref113">113.</span> Zhu Z, Chung WH, Shim EY, Lee SE, Ira G. Sgs1 helicase and two nucleases Dna2 and Exo1 resect DNA double-strand break ends. Cell. 2008;134:981–994. [doi:10.1016/j.cell.2008.08.037](https://doi.org/10.1016/j.cell.2008.08.037).
 
 
