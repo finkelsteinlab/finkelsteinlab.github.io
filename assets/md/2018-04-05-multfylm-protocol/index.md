@@ -645,58 +645,58 @@ Readers should cite both the Bio-protocol article and the original research arti
 
 <span id="ref7">7.</span> Greenstein R. A., Jones S. K., Spivey E. C., Rybarski J. R., Finkelstein I., and Al-Sady B. (2017). A memory element imposes epigenetic behavior on intrinsically labile RNAi-induced heterochromatin spread. *BioRxiv* 237479.
 
-8. Henderson K. A. and Gottschling D. E. (2008). A mother's sacrifice: what is she keeping for herself? *Curr Opin Cell Biol* 20: 723-728. DOI: 10.1016/j.ceb.2008.09.004
+<span id="ref8">8.</span> Henderson K. A. and Gottschling D. E. (2008). A mother's sacrifice: what is she keeping for herself? *Curr Opin Cell Biol* 20: 723-728. [doi:10.1016/j.ceb.2008.09.004](https://doi.org/10.1016/j.ceb.2008.09.004)
 
-9. Higuchi-Sanabria R., Pernice W. M., Vevea J. D., Alessi Wolken D. M., Boldogh I. R. and Pon L. A. (2014). Role of asymmetric cell division in lifespan control in *Saccharomyces cerevisiae*. *FEMS Yeast Res* 14(8): 1133-1146. DOI: 10.1111/1567-1364.12216
+<span id="ref9">9.</span> Higuchi-Sanabria R., Pernice W. M., Vevea J. D., Alessi Wolken D. M., Boldogh I. R. and Pon L. A. (2014). Role of asymmetric cell division in lifespan control in *Saccharomyces cerevisiae*. *FEMS Yeast Res* 14(8): 1133-1146. [doi:10.1111/1567-1364.12216](https://doi.org/10.1111/1567-1364.12216)
 
-10. Hughes A. L. and Gottschling D. E. (2012). An early age increase in vacuolar pH limits mitochondrial function and lifespan in yeast. *Nature* 492(7428): 261-265. DOI: 10.1038/nature11654
+<span id="ref10">10.</span> Hughes A. L. and Gottschling D. E. (2012). An early age increase in vacuolar pH limits mitochondrial function and lifespan in yeast. *Nature* 492(7428): 261-265. [doi:10.1038/nature11654](https://doi.org/10.1038/nature11654)
 
-11. Jo M. C., Liu W., Gu L., Dang W. and Qin L. (2015). High-throughput analysis of yeast replicative aging using a microfluidic system. *Proc Natl Acad Sci U S A* 112(30): 9364-9369. DOI: 10.1073/pnas.1510328112
+<span id="ref11">11.</span> Jo M. C., Liu W., Gu L., Dang W. and Qin L. (2015). High-throughput analysis of yeast replicative aging using a microfluidic system. *Proc Natl Acad Sci U S A* 112(30): 9364-9369. [doi:10.1073/pnas.1510328112](https://doi.org/10.1073/pnas.1510328112)
 
-12. Kennedy B. K., Austriaco N. R. Jr. and Guarente L. (1994). Daughter cells of *Saccharomyces cerevisiae* from old mothers display a reduced life span. *J Cell Biol* 127(6 Pt 2): 1985-1993. DOI: 10.1083/jcb.127.6.1985
+<span id="ref12">12.</span> Kennedy B. K., Austriaco N. R. Jr. and Guarente L. (1994). Daughter cells of *Saccharomyces cerevisiae* from old mothers display a reduced life span. *J Cell Biol* 127(6 Pt 2): 1985-1993. [doi:10.1083/jcb.127.6.1985](https://doi.org/10.1083/jcb.127.6.1985)
 
-13. Lee S. S., Avalos Vizcarra I., Huberts D. H., Lee L. P. and Heinemann M. (2012). Whole lifespan microscopic observation of budding yeast aging through a microfluidic dissection platform. *Proc Natl Acad Sci U S A* 109(13): 4916-4920. DOI: 10.1073/pnas.1113505109
+<span id="ref13">13.</span> Lee S. S., Avalos Vizcarra I., Huberts D. H., Lee L. P. and Heinemann M. (2012). Whole lifespan microscopic observation of budding yeast aging through a microfluidic dissection platform. *Proc Natl Acad Sci U S A* 109(13): 4916-4920. [doi:10.1073/pnas.1113505109](https://doi.org/10.1073/pnas.1113505109)
 
-14. Liu B., Larsson L., Caballero A., Hao X., Öling D., Grantham J. and Nyström T. (2010). The polarisome is required for segregation and retrograde transport of protein aggregates. *Cell* 140: 257-267. DOI: 10.1016/j.cell.2009.12.031
+<span id="ref14">14.</span> Liu B., Larsson L., Caballero A., Hao X., Öling D., Grantham J. and Nyström T. (2010). The polarisome is required for segregation and retrograde transport of protein aggregates. *Cell* 140: 257-267. [doi:10.1016/j.cell.2009.12.031](https://doi.org/10.1016/j.cell.2009.12.031)
 
-15. Liu P., Young T. Z. and Acar M. (2015). Yeast replicator: A high-throughput multiplexed microfluidics platform for automated measurements of single-cell aging. *Cell Rep* 13: 634-644. DOI: 10.1016/j.celrep.2015.09.012
+<span id="ref15">15.</span> Liu P., Young T. Z. and Acar M. (2015). Yeast replicator: A high-throughput multiplexed microfluidics platform for automated measurements of single-cell aging. *Cell Rep* 13: 634-644. [doi:10.1016/j.celrep.2015.09.012](https://doi.org/10.1016/j.celrep.2015.09.012)
 
-16. Mortimer R. K. and Johnston J. R. (1959). Life span of individual yeast cells. *Nature* 183(4677): 1751-1752. DOI: 10.1038/1831751a0
+<span id="ref16">16.</span> Mortimer R. K. and Johnston J. R. (1959). Life span of individual yeast cells. *Nature* 183(4677): 1751-1752. [doi:10.1038/1831751a0](https://doi.org/10.1038/1831751a0)
 
-17. Nakaoka H. and Wakamoto Y. (2017). Aging, mortality, and the fast growth trade-off of *Schizosaccharomyces pombe*. *PLoS Biol* 15(6): e2001109. DOI: 10.1371/journal.pbio.2001109
+<span id="ref17">17.</span> Nakaoka H. and Wakamoto Y. (2017). Aging, mortality, and the fast growth trade-off of *Schizosaccharomyces pombe*. *PLoS Biol* 15(6): e2001109. [doi:10.1371/journal.pbio.2001109](https://doi.org/10.1371/journal.pbio.2001109)
 
-18. Nobs J. B. and Maerkl S. J. (2014). Long-term single cell analysis of *S. pombe* on a microfluidic microchemostat array. *PLoS One* 9(4): e93466. DOI: 10.1371/journal.pone.0093466
+<span id="ref18">18.</span> Nobs J. B. and Maerkl S. J. (2014). Long-term single cell analysis of *S. pombe* on a microfluidic microchemostat array. *PLoS One* 9(4): e93466. [doi:10.1371/journal.pone.0093466](https://doi.org/10.1371/journal.pone.0093466)
 
-19. Nyström T. and Liu B. (2014). The mystery of aging and rejuvenation- a budding topic. *Curr Opin Microbiol* 18: 61-67. DOI: 10.1016/j.mib.2014.02.003
+<span id="ref19">19.</span> Nyström T. and Liu B. (2014). The mystery of aging and rejuvenation- a budding topic. *Curr Opin Microbiol* 18: 61-67. [doi:10.1016/j.mib.2014.02.003](https://doi.org/10.1016/j.mib.2014.02.003)
 
-20. Paoletti C., Quintin S., Matifas A. and Charvin G. (2016). Kinetics of formation and asymmetrical distribution of Hsp104-Bound protein aggregates in yeast. *Biophys J* 110(7): 1605-1614. DOI: 10.1016/j.bpj.2016.02.034
+<span id="ref20">20.</span> Paoletti C., Quintin S., Matifas A. and Charvin G. (2016). Kinetics of formation and asymmetrical distribution of Hsp104-Bound protein aggregates in yeast. *Biophys J* 110(7): 1605-1614. [doi:10.1016/j.bpj.2016.02.034](https://doi.org/10.1016/j.bpj.2016.02.034)
 
-21. Ruetenik A. and Barrientos A. (2015). Dietary restriction, mitochondrial function and aging: from yeast to humans. *Biochim Biophys Acta* 1847(11): 1434-1447. DOI: 10.1016/j.bbabio.2015.05.005
+<span id="ref21">21.</span> Ruetenik A. and Barrientos A. (2015). Dietary restriction, mitochondrial function and aging: from yeast to humans. *Biochim Biophys Acta* 1847(11): 1434-1447. [doi:10.1016/j.bbabio.2015.05.005](https://doi.org/10.1016/j.bbabio.2015.05.005)
 
-22. Saka K., Ide S., Ganley A. R. and Kobayashi T. (2013). Cellular senescence in yeast is regulated by rDNA noncoding transcription. *Curr Biol* 23(18): 1794-1798. DOI: 10.1016/j.cub.2013.07.048
+<span id="ref22">22.</span> Saka K., Ide S., Ganley A. R. and Kobayashi T. (2013). Cellular senescence in yeast is regulated by rDNA noncoding transcription. *Curr Biol* 23(18): 1794-1798. [doi:10.1016/j.cub.2013.07.048](https://doi.org/10.1016/j.cub.2013.07.048)
 
-23. Shcheprova Z., Baldi S., Frei S. B., Gonnet G. and Barral Y. (2008). A mechanism for asymmetric segregation of age during yeast budding. *Nature* 454(7205): 728-734. DOI: 10.1038/nature07212
+<span id="ref23">23.</span> Shcheprova Z., Baldi S., Frei S. B., Gonnet G. and Barral Y. (2008). A mechanism for asymmetric segregation of age during yeast budding. *Nature* 454(7205): 728-734. [doi:10.1038/nature07212](https://doi.org/10.1038/nature07212)
 
-24. Spivey E. C. and Finkelstein I. J. (2014). From cradle to grave: high-throughput studies of aging in model organisms. *Mol Biosyst* 10(7): 1658-1667. DOI: 10.1039/c3mb70604d
+<span id="ref24">24.</span> Spivey E. C. and Finkelstein I. J. (2014). From cradle to grave: high-throughput studies of aging in model organisms. *Mol Biosyst* 10(7): 1658-1667. [doi:10.1039/c3mb70604d](https://doi.org/10.1039/c3mb70604d)
 
-25. Spivey E. C., Jones S. K., Rybarski J. R., Saifuddin F. A. and Finkelstein I. J. (2017). An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *Elife* 6. DOI: 10.7554/eLife.20340
+<span id="ref25">25.</span> Spivey E. C., Jones S. K., Rybarski J. R., Saifuddin F. A. and Finkelstein I. J. (2017). An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *Elife* 6. [doi:10.7554/eLife.20340](https://doi.org/10.7554/eLife.20340)
 
-26. Spivey E. C., Xhemalce B., Shear J. B. and Finkelstein I. J. (2014). 3D-printed microfluidic microdissector for high-throughput studies of cellular aging. *Anal Chem* 86(15): 7406-7412. DOI: 10.1021/ac500893a
+<span id="ref26">26.</span> Spivey E. C., Xhemalce B., Shear J. B. and Finkelstein I. J. (2014). 3D-printed microfluidic microdissector for high-throughput studies of cellular aging. *Anal Chem* 86(15): 7406-7412. [doi:10.1021/ac500893a](https://doi.org/10.1021/ac500893a)
 
-27. Sutphin G. L., Delaney J. R. and Kaeberlein M. (2014). Replicative life span analysis in budding yeast. *Methods Mol Biol* 1205: 341-357. DOI: 10.1007/978-1-4939-1363-3_20
+<span id="ref27">27.</span> Sutphin G. L., Delaney J. R. and Kaeberlein M. (2014). Replicative life span analysis in budding yeast. *Methods Mol Biol* 1205: 341-357. [doi:10.1007/978-1-4939-1363-3_20](https://doi.org/10.1007/978-1-4939-1363-3_20)
 
-28. Tian Y., Luo C. and Ouyang Q. (2013). A microfluidic synchronizer for fission yeast cells. *Lab Chip* 13(20): 4071-4077. DOI: 10.1039/c3lc50639h
+<span id="ref28">28.</span> Tian Y., Luo C. and Ouyang Q. (2013). A microfluidic synchronizer for fission yeast cells. *Lab Chip* 13(20): 4071-4077. [doi:10.1039/c3lc50639h](https://doi.org/10.1039/c3lc50639h)
 
-29. Wang P., Robert L., Pelletier J., Dang W. L., Taddei F., Wright A. and Jun S. (2010). Robust growth of *Escherichia coli*. *Curr Biol* 20(12): 1099-1103. DOI: 10.1016/j.cub.2010.04.045
+<span id="ref29">29.</span> Wang P., Robert L., Pelletier J., Dang W. L., Taddei F., Wright A. and Jun S. (2010). Robust growth of *Escherichia coli*. *Curr Biol* 20(12): 1099-1103. [doi:10.1016/j.cub.2010.04.045](https://doi.org/10.1016/j.cub.2010.04.045)
 
-30. Wasko B. M. and Kaeberlein M. (2014). Yeast replicative aging: a paradigm for defining conserved longevity interventions. *FEMS Yeast Res* 14(1): 148-159. DOI: 10.1111/1567-1364.12104
+<span id="ref30">30.</span> Wasko B. M. and Kaeberlein M. (2014). Yeast replicative aging: a paradigm for defining conserved longevity interventions. *FEMS Yeast Res* 14(1): 148-159. [doi:10.1111/1567-1364.12104](https://doi.org/10.1111/1567-1364.12104)
 
-31. Wierman M. B. and Smith J. S. (2014). Yeast sirtuins and the regulation of aging. *FEMS Yeast Res* 14(1): 73-88. DOI: 10.1111/1567-1364.12115
+<span id="ref31">31.</span> Wierman M. B. and Smith J. S. (2014). Yeast sirtuins and the regulation of aging. *FEMS Yeast Res* 14(1): 73-88. [doi:10.1111/1567-1364.12115](https://doi.org/10.1111/1567-1364.12115)
 
-32. Xie Z., Zhang Y., Zou K., Brandman O., Luo C., Ouyang Q. and Li H. (2012). Molecular phenotyping of aging in single yeast cells using a novel microfluidic device. *Aging Cell* 11(4): 599-606. DOI: 10.1111/j.1474-9726.2012.00821.x
+<span id="ref32">32.</span> Xie Z., Zhang Y., Zou K., Brandman O., Luo C., Ouyang Q. and Li H. (2012). Molecular phenotyping of aging in single yeast cells using a novel microfluidic device. *Aging Cell* 11(4): 599-606. [doi:10.1111/j.1474-9726.2012.00821.x](https://doi.org/10.1111/j.1474-9726.2012.00821.x)
 
-33. Zhang Y., Luo C., Zou K., Xie Z., Brandman O., Ouyang Q. and Li H. (2012). Single cell analysis of yeast replicative aging using a new generation of microfluidic device. *PLoS One* 7(11): e48275. DOI: 10.1371/journal.pone.0048275
+<span id="ref33">33.</span> Zhang Y., Luo C., Zou K., Xie Z., Brandman O., Ouyang Q. and Li H. (2012). Single cell analysis of yeast replicative aging using a new generation of microfluidic device. *PLoS One* 7(11): e48275. [doi:10.1371/journal.pone.0048275](https://doi.org/10.1371/journal.pone.0048275)
 
-34. Zhou C., Slaughter B. D., Unruh J. R., Guo F., Yu Z., Mickey K., Narkar A., Ross R. T., McClain M. and Li R. (2014). Organelle-based aggregation and retention of damaged proteins in asymmetrically dividing cells. *Cell* 159(3): 530-542. DOI: 10.1016/j.cell.2014.09.026
+<span id="ref34">34.</span> Zhou C., Slaughter B. D., Unruh J. R., Guo F., Yu Z., Mickey K., Narkar A., Ross R. T., McClain M. and Li R. (2014). Organelle-based aggregation and retention of damaged proteins in asymmetrically dividing cells. *Cell* 159(3): 530-542. [doi:10.1016/j.cell.2014.09.026](https://doi.org/10.1016/j.cell.2014.09.026)
 
 
