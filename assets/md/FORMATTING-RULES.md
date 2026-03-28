@@ -12,6 +12,47 @@ Keep the existing YAML front matter unchanged. Do not modify `layout`, `title`, 
 
 ---
 
+## 1a. Common Scraper Artifacts
+
+The PMC-to-markdown scraper introduces several systematic artifacts. Fix all of these early in processing:
+
+### Double-space headers
+
+The scraper produces `##  Title` (two spaces after `##`). Normalize to single space:
+```
+##  Abstract  →  ## Abstract
+##  Results   →  ## Results
+```
+This applies to all heading levels (`##`, `###`, `####`).
+
+### Broken image filenames
+
+In Nature Communications and some other Springer Nature papers, the scraper embeds markdown link syntax inside `<img>` src filenames:
+```html
+<!-- BROKEN -->
+<img src="41467_2024_47830_[Fig1](#fig1)_HTML.jpg" alt="Figure 1">
+
+<!-- FIXED -->
+<img src="41467_2024_47830_Fig1_HTML.jpg" alt="Figure 1">
+```
+Check actual filenames on disk with `ls assets/md/<slug>/*.jpg` and fix any `src` attributes that don't match.
+
+### Supplementary figures incorrectly linked to main figure anchors
+
+The scraper sometimes converts "Supplementary Fig. N" or "Supplementary [Fig. N]" into markdown links targeting the main figure anchors:
+```markdown
+<!-- BROKEN -->
+Supplementary [Fig. 5](#fig5)
+(Supplementary [Figs. 5 and 6](#fig5))
+
+<!-- FIXED -->
+Supplementary Fig. 5
+(Supplementary Figs. 5 and 6)
+```
+Per §3.3, supplementary figures must NOT link to local anchors. Strip these links but keep the text.
+
+---
+
 ## 2. Figures
 
 ### 2.1 Figure block format
