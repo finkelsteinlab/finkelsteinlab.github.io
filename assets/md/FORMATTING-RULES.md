@@ -350,6 +350,10 @@ Large files (200+ lines) will be truncated if you try to rewrite them in a singl
 4. **For inline citations**: find each paragraph containing PMC links and replace the whole paragraph with the corrected version.
 5. **For reference anchors**: find each reference line and replace with the anchored version.
 
+### Agent reliability note
+
+When running as a background `pi -p` agent, the process may terminate before committing. This is expected — edits persist in the git working tree. After an agent batch completes, check `git status` for uncommitted changes and commit them manually. If a file has 0 ref anchors or many remaining PMC URLs, relaunch a dedicated agent for that file.
+
 ### Processing Checklist
 
 For each `assets/md/<paper-slug>/index.md` file:
