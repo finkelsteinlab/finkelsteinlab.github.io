@@ -51,6 +51,17 @@ Supplementary Fig. 5
 ```
 Per §3.3, supplementary figures must NOT link to local anchors. Strip these links but keep the text.
 
+### "Open in a new tab" artifacts
+
+The scraper inserts `Open in a new tab` lines after tables. Delete these entirely:
+```
+Open in a new tab     ← delete this line
+```
+
+### Plain-text superscripts and subscripts
+
+The scraper strips all HTML `<sup>` and `<sub>` tags, producing plain text like `× 106 M−1 sec−1` instead of `× 10⁶ M⁻¹ sec⁻¹`, and `Mg2+` instead of `Mg²⁺`. See §6a for systematic fix procedures.
+
 ---
 
 ## 2. Figures
@@ -335,6 +346,202 @@ Do not change the citation format of existing references. They may use different
 - Unicode superscripts/subscripts (10⁸, *k*<sub>cat</sub>, etc.)
 - Horizontal rules between major sections
 - Blank lines between paragraphs
+
+---
+
+## 6a. Scientific Notation, Units, and Chemical Formatting
+
+The PMC scraper strips superscripts and subscripts, producing plain text like `× 106 M−1 sec−1` instead of `× 10⁶ M⁻¹ sec⁻¹`. **Always verify against the PDF** — the PDF is ground truth.
+
+### 6a.1 Exponents in scientific notation
+
+Use Unicode superscripts for all exponents. Never leave plain-digit exponents after `× 10`:
+
+| Wrong | Correct |
+|-------|---------|
+| `× 103` | `× 10³` |
+| `× 105` | `× 10⁵` |
+| `× 106` | `× 10⁶` |
+| `× 107` | `× 10⁷` |
+| `× 10−3` | `× 10⁻³` |
+| `× 10−5` | `× 10⁻⁵` |
+| `× 10−6` | `× 10⁻⁶` |
+
+Unicode superscript digits: `⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺`
+
+### 6a.2 Unit superscripts
+
+Use Unicode superscripts in units. This applies in body text, figure legends, tables, and table headers:
+
+| Wrong | Correct |
+|-------|---------|
+| `M−1 sec−1` | `M⁻¹ sec⁻¹` |
+| `M−1 s−1` | `M⁻¹ s⁻¹` |
+| `sec−1` | `sec⁻¹` |
+| `min−1` | `min⁻¹` |
+| `nm2` | `nm²` |
+
+### 6a.3 Ion charges
+
+Use Unicode superscripts for ion charges:
+
+| Wrong | Correct |
+|-------|---------|
+| `Mg2+` | `Mg²⁺` |
+| `Ca2+` | `Ca²⁺` |
+| `Mn2+` | `Mn²⁺` |
+| `Zn2+` | `Zn²⁺` |
+
+This applies everywhere: body text, section headings, figure legends, tables.
+
+### 6a.4 Chemical formulas
+
+Use Unicode subscripts for chemical formula subscripts:
+
+| Wrong | Correct |
+|-------|---------|
+| `MgCl2` | `MgCl₂` |
+| `CaCl2` | `CaCl₂` |
+| `CO2` | `CO₂` |
+| `H2O` | `H₂O` |
+| `His6` (hexahistidine tag) | `His₆` |
+
+Unicode subscript digits: `₀₁₂₃₄₅₆₇₈₉`
+
+For radioactive isotopes, use Unicode superscripts:
+
+| Wrong | Correct |
+|-------|---------|
+| `[γ-32P]` | `[γ-³²P]` |
+| `γ−32P` | `γ-³²P` |
+| `35S` | `³⁵S` |
+| `14C` | `¹⁴C` |
+
+### 6a.5 Kinetic parameters and thermodynamic variables
+
+In **body text** (markdown context), use `*italic*` + `<sub>`:
+
+| Parameter | Markdown |
+|-----------|----------|
+| *k*<sub>cat</sub> | `*k*<sub>cat</sub>` |
+| *K*<sub>M</sub> | `*K*<sub>M</sub>` |
+| *k*<sub>on</sub> | `*k*<sub>on</sub>` |
+| *k*<sub>off</sub> | `*k*<sub>off</sub>` |
+| *K*<sub>d</sub> | `*K*<sub>d</sub>` |
+| *k*<sub>max</sub> | `*k*<sub>max</sub>` |
+| *k*<sub>obs</sub> | `*k*<sub>obs</sub>` |
+| *t*<sub>1/2</sub> | `*t*<sub>1/2</sub>` |
+| *k*<sub>cat</sub>/*K*<sub>M</sub> | `*k*<sub>cat</sub>/*K*<sub>M</sub>` |
+| IC₅₀ | `IC₅₀` |
+
+The PMC scraper often produces `_k_ cat/_K_ M` (underscores with spaces). Replace these systematically:
+- `_k_ cat/_K_ M` → `*k*<sub>cat</sub>/*K*<sub>M</sub>`
+- `_k_ on` → `*k*<sub>on</sub>`
+- `_k_ off` → `*k*<sub>off</sub>`
+- `_K_ d` → `*K*<sub>d</sub>`
+- `_t_ 1/2` → `*t*<sub>1/2</sub>`
+- `_k_ max` → `*k*<sub>max</sub>`
+- `_k_ obs` → `*k*<sub>obs</sub>`
+- `_k_ raw` → `*k*<sub>raw</sub>`
+
+In **`<figcaption>` and other HTML contexts** (where markdown doesn't render), use HTML tags:
+
+| Parameter | HTML |
+|-----------|------|
+| *k*<sub>on</sub> | `<i>k</i><sub>on</sub>` |
+| *k*<sub>off</sub> | `<i>k</i><sub>off</sub>` |
+| *K*<sub>d</sub> | `<i>K</i><sub>d</sub>` |
+
+The scraper often produces plain `k on`, `k off` inside `<figcaption>` — these need to be found by context (e.g., "value of k on", "Values of k on and k off", "give k on values") and replaced with the HTML form.
+
+### 6a.6 Table footnote superscripts
+
+Table footnote markers should use `<sup>` tags:
+
+**In table rows:**
+```markdown
+crRNA(−18:+24)*<sup>a</sup> | 1.4 (±0.3) × 10⁷ | ...
+```
+
+**In footnote text:**
+```markdown
+<sup>a</sup>For crRNA variants, the asterisk indicates...
+<sup>b</sup>For the determination of...
+<sup>c</sup>Measured using excess...
+```
+
+### 6a.7 Bulk replacement strategy
+
+These fixes are pervasive (dozens of instances per file). Use `sed` for systematic replacement, then targeted `edit` for edge cases:
+
+```bash
+FILE="assets/md/<slug>/index.md"
+
+# 1. Scientific notation exponents
+sed -i '' 's/× 103 /× 10³ /g' "$FILE"
+sed -i '' 's/× 105 /× 10⁵ /g' "$FILE"
+sed -i '' 's/× 106 /× 10⁶ /g' "$FILE"
+sed -i '' 's/× 107 /× 10⁷ /g' "$FILE"
+sed -i '' 's/× 10−3 /× 10⁻³ /g' "$FILE"
+sed -i '' 's/× 10−5 /× 10⁻⁵ /g' "$FILE"
+sed -i '' 's/× 10−6 /× 10⁻⁶ /g' "$FILE"
+
+# 2. Unit superscripts
+sed -i '' 's/M−1 sec−1/M⁻¹ sec⁻¹/g' "$FILE"
+sed -i '' 's/sec−1/sec⁻¹/g' "$FILE"
+
+# 3. Ion charges
+sed -i '' 's/Mg2+/Mg²⁺/g' "$FILE"
+
+# 4. Chemical formulas
+sed -i '' 's/MgCl2/MgCl₂/g' "$FILE"
+sed -i '' 's/His6/His₆/g' "$FILE"
+
+# 5. Verify no remaining plain exponents
+rg '× 10[0-9−]' "$FILE"
+```
+
+**Caution with sed:** Always check that the replacements don't clobber other text. For example, `His6` → `His₆` is safe because "His6" only appears as the hexahistidine tag in biochemistry papers. But watch for false positives with short patterns.
+
+---
+
+## 6b. PDF Verification
+
+After formatting a paper's `index.md`, verify the markdown against the published PDF. **The PDF is always ground truth.**
+
+### 6b.1 Convert PDF to images
+
+```bash
+mkdir -p /tmp/<slug>-pdf
+pdftoppm -png -r 200 "assets/pdfs/<pdf-file>.pdf" /tmp/<slug>-pdf/page
+```
+
+### 6b.2 Verification checklist
+
+Image each PDF page and compare against the markdown:
+
+| Check | What to verify |
+|-------|----------------|
+| **Title** | Exact match including en-dashes, special chars |
+| **Authors** | All names present, correct corresponding-author markers |
+| **Abstract** | Verbatim text, *K*<sub>d</sub> and other symbols correct |
+| **Body text** | Spot-check superscripts, subscripts, ion charges, rate constants |
+| **Table values** | Every cell value matches PDF; exponents are superscripted |
+| **Table headers** | Column names with correct sub/superscripts |
+| **Table footnotes** | Footnote markers are superscripted, text matches |
+| **Figure legends** | Full caption text matches PDF; kinetic parameters formatted |
+| **Equations** | All terms correct (if any) |
+| **Chemical formulas** | MgCl₂, His₆, ³²P, etc. |
+| **References** | Count matches PDF; spot-check a few entries |
+
+### 6b.3 Document results
+
+After verification, add a note to `FORMATTING-STATUS.org` in the `:PROPERTIES:` block:
+
+```org
+:VERIFIED: YYYY-MM-DD
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (8 rows) ✓, Figs 1-7 ✓, 22 refs ✓. Formatting fixes applied: superscripts, Mg²⁺, kinetic params, table footnotes.
+```
 
 ---
 
