@@ -167,6 +167,8 @@ Status key:
 :DOI: 10.1038/s41467-022-28994-2
 :FILE: papers/_posts/2022-03-15-SpCas9-kinetic-model.MD
 :JOURNAL: Nature Communications
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no data tables in paper, Figs 1-7 captions ✓ (restored full text from PDF), 71 refs ✓. Fixes: ~10²⁶ exponent, np→bp typo in Fig 5, Fig 7 kinetic: prefixes + uCFD→CFD, *k*_B_*T* formatting, figure anchor links, full caption restoration.
 :END:
 ** WAITING 76. Jack et al. Dev. Cell (2022)
 :PROPERTIES:
