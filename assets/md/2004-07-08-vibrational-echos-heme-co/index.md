@@ -140,43 +140,43 @@ The authors would like to thank Dr. Kusai Merchant for important contributions t
 
 <span id="ref7">7.</span> Fourkas JT. Annu. Rev. Phys. Chem. 2002;53:17. [doi:10.1146/annurev.physchem.53.082001.144216](https://doi.org/10.1146/annurev.physchem.53.082001.144216)
 
-8. Mukamel S. Principles of Nonlinear Optical Spectroscopy. New York: Oxford University Press; 1995.
+<span id="ref8">8.</span> Mukamel S. Principles of Nonlinear Optical Spectroscopy. New York: Oxford University Press; 1995.
 
-9. Rector KD, Kwok AS, Ferrante C, Tokmakoff A, Rella CW, Fayer MD. J. Chem. Phys. 1997;106:10027.
+<span id="ref9">9.</span> Rector KD, Kwok AS, Ferrante C, Tokmakoff A, Rella CW, Fayer MD. J. Chem. Phys. 1997;106:10027.
 
-10. Hamm P, Lim M, Asplund M, Hochstrasser RM. Chem. Phys. Lett. 1999;301:167.
+<span id="ref10">10.</span> Hamm P, Lim M, Asplund M, Hochstrasser RM. Chem. Phys. Lett. 1999;301:167.
 
-11. Braunstein D, Ansari A, Berendzen J, et al. Proc. Natl. Acad. Sci. U.S.A. 1988;85:8497. doi: 10.1073/pnas.85.22.8497.
+<span id="ref11">11.</span> Braunstein D, Ansari A, Berendzen J, et al. Proc. Natl. Acad. Sci. U.S.A. 1988;85:8497. [doi:10.1073/pnas.85.22.8497](https://doi.org/10.1073/pnas.85.22.8497)
 
-12. Tokmakoff A, Kwok AS, Urdahl RS, Francis RS, Fayer MD. Chem. Phys. Lett. 1995;234:289.
+<span id="ref12">12.</span> Tokmakoff A, Kwok AS, Urdahl RS, Francis RS, Fayer MD. Chem. Phys. Lett. 1995;234:289.
 
-13. Merchant KA, Thompson DE, Fayer MD. Phys. Rev. Lett. 2001;86:3899. doi: 10.1103/PhysRevLett.86.3899.
+<span id="ref13">13.</span> Merchant KA, Thompson DE, Fayer MD. Phys. Rev. Lett. 2001;86:3899. [doi:10.1103/PhysRevLett.86.3899](https://doi.org/10.1103/PhysRevLett.86.3899)
 
-14. Thompson DE, Merchant KA, Fayer MD. J. Chem. Phys. 2001;115:317.
+<span id="ref14">14.</span> Thompson DE, Merchant KA, Fayer MD. J. Chem. Phys. 2001;115:317.
 
-15. Merchant KA, Thompson DE, Fayer MD. Phys. Rev. A. 2002;65:023817. doi: 10.1103/PhysRevLett.86.3899.
+<span id="ref15">15.</span> Merchant KA, Thompson DE, Fayer MD. Phys. Rev. A. 2002;65:023817. [doi:10.1103/PhysRevLett.86.3899](https://doi.org/10.1103/PhysRevLett.86.3899)
 
-16. Merchant KA, Xu Q-H, Thompson DE, Fayer MD. J. Phys. Chem. A. 2002;106:8839.
+<span id="ref16">16.</span> Merchant KA, Xu Q-H, Thompson DE, Fayer MD. J. Phys. Chem. A. 2002;106:8839.
 
-17. Merchant KA, Noid WG, Akiyama R, Finkelstein IJ, Goun A, McClain BL, Loring RF, Fayer MD. J. Am. Chem. Soc. 2003;125:13804. doi: 10.1021/ja035654x.
+<span id="ref17">17.</span> Merchant KA, Noid WG, Akiyama R, Finkelstein IJ, Goun A, McClain BL, Loring RF, Fayer MD. J. Am. Chem. Soc. 2003;125:13804. [doi:10.1021/ja035654x](https://doi.org/10.1021/ja035654x)
 
-18. Springer BA, Sligar SG. Proc. Natl. Acad. Sci. U.S.A. 1987;84:8961. doi: 10.1073/pnas.84.24.8961.
+<span id="ref18">18.</span> Springer BA, Sligar SG. Proc. Natl. Acad. Sci. U.S.A. 1987;84:8961. [doi:10.1073/pnas.84.24.8961](https://doi.org/10.1073/pnas.84.24.8961)
 
-19. Antonini E, Brunori M. Hemoglobin and Myoglobin in Their Reactions with Ligands. North-Holland, Amsterdam: 1971.
+<span id="ref19">19.</span> Antonini E, Brunori M. Hemoglobin and Myoglobin in Their Reactions with Ligands. North-Holland, Amsterdam: 1971.
 
-20. Hill JR, Dlott DD, Rella CW, Peterson KA, Decatur SM, Boxer SG, Fayer MD. J. Phys. Chem. 1996;100:12100.
+<span id="ref20">20.</span> Hill JR, Dlott DD, Rella CW, Peterson KA, Decatur SM, Boxer SG, Fayer MD. J. Phys. Chem. 1996;100:12100.
 
-21. Boyd RW. Nonlinear Optics. San Diego: Academic; 1992.
+<span id="ref21">21.</span> Boyd RW. Nonlinear Optics. San Diego: Academic; 1992.
 
-22. Asbury JB, Steinel T, Stromberg C, Gaffney KJ, Piletic IR, Goun A, Fayer MD. Chem. Phys. Lett. 2003;374:362. doi: 10.1103/PhysRevLett.91.237402.
+<span id="ref22">22.</span> Asbury JB, Steinel T, Stromberg C, Gaffney KJ, Piletic IR, Goun A, Fayer MD. Chem. Phys. Lett. 2003;374:362. [doi:10.1103/PhysRevLett.91.237402](https://doi.org/10.1103/PhysRevLett.91.237402)
 
-23. Golonzka O, Khalil M, Demirdoven N, Tokmakoff A. Phys. Rev. Lett. 2001;86:2154. doi: 10.1103/PhysRevLett.86.2154.
+<span id="ref23">23.</span> Golonzka O, Khalil M, Demirdoven N, Tokmakoff A. Phys. Rev. Lett. 2001;86:2154. [doi:10.1103/PhysRevLett.86.2154](https://doi.org/10.1103/PhysRevLett.86.2154)
 
-24. Zanni MT, Asplund MC, Hochstrasser RM. J. Chem. Phys. 2001;114:4579.
+<span id="ref24">24.</span> Zanni MT, Asplund MC, Hochstrasser RM. J. Chem. Phys. 2001;114:4579.
 
-25. Zanni MT, Gnanakaran S, Stenger J, Hochstrasser RM. J. Phys. Chem. B. 2001;105:6520.
+<span id="ref25">25.</span> Zanni MT, Gnanakaran S, Stenger J, Hochstrasser RM. J. Phys. Chem. B. 2001;105:6520.
 
-26. Piryatinski A, Skinner JL. J. Phys. Chem. B. 2002;106:8055.
+<span id="ref26">26.</span> Piryatinski A, Skinner JL. J. Phys. Chem. B. 2002;106:8055.
 
 ---
 
