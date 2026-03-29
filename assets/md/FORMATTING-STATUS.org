@@ -599,7 +599,7 @@ Status key:
 :JOURNAL: Nature
 :END:
 * 2009
-** TODO 15. Finkelstein and Greene Mol. Cell (2009)
+** WAITING 15. Finkelstein and Greene Mol. Cell (2009)
 :PROPERTIES:
 :MD_SLUG: 2009-09-11-xpd-helicase
 :DOI: 10.1016/j.molcel.2009.08.012
@@ -615,7 +615,7 @@ Status key:
 :JOURNAL: Mol. Biosyst.
 :END:
 * 2007
-** TODO 13. Ishikawa _et al._ PNAS (2007)
+** WAITING 13. Ishikawa _et al._ PNAS (2007)
 :PROPERTIES:
 :MD_SLUG: 2007-10-09-neuroglobin-ultrafast
 :DOI: 10.1073/pnas.0707718104
@@ -640,7 +640,7 @@ Status key:
 :FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
 :JOURNAL: Phys. Chem. Chem. Phys.
 :END:
-** TODO 9. Finkelstein _et al._ PNAS (2007)
+** WAITING 9. Finkelstein _et al._ PNAS (2007)
 :PROPERTIES:
 :MD_SLUG: 2007-02-20-protein-dynamics-2d-ir
 :DOI: 10.1073/pnas.0610027104
@@ -654,7 +654,7 @@ Status key:
 :FILE: papers/_posts/2006-09-28-cytochrome-c552-mutants.md
 :JOURNAL: J. Phys. Chem. B.
 :END:
-** TODO 7. Massari _et al._ JACS (2006)
+** WAITING 7. Massari _et al._ JACS (2006)
 :PROPERTIES:
 :MD_SLUG: 2006-03-29-proteins-silica-glasses-ir
 :DOI: 10.1021/ja058745y
@@ -675,7 +675,7 @@ Status key:
 :JOURNAL: J. Phys. Chem. B.
 :END:
 * 2004
-** TODO 4. McClain _et al._ JACS (2004)
+** WAITING 4. McClain _et al._ JACS (2004)
 :PROPERTIES:
 :MD_SLUG: 2004-12-08-hemoglobin-dynamics-vibrational-echo
 :DOI: 10.1021/ja0454790
