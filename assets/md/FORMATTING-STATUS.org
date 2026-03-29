@@ -107,6 +107,8 @@ Status key:
 :DOI: 10.1016/j.jbc.2023.105296
 :FILE: papers/_posts/2023-09-28-AFM-cohesin-NIPBL.MD
 :JOURNAL: Journal of Biological Chemistry
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-8 ✓, 74 refs ✓. Formatting fixes: Kd→*K*<sub>d</sub> (6×), MgCl₂ (2×), His₆, C₂H₃O₂, 10⁻⁹ exponent, degree symbols (8×), μm², RAD21<sup>Scc1</sup>/SA1/SA2<sup>Scc3</sup> superscripts, N<sub>total/proximal/distal</sub> subscripts, Debye-Hückel umlaut.
 :END:
 ** PDF 86. Zhang et al. Mol Cell (2023)
 :PROPERTIES:
