@@ -381,7 +381,8 @@ rg -c 'https://pmc' <file>
 # Expected: 1 (source_url) or 2 (source_url + archive footer)
 
 # 2. Show any remaining PMC URLs that are NOT in front matter or archive footer
-rg -n 'https://pmc' <file> | grep -v 'source_url' | grep -v 'Archived from'
+# IMPORTANT: chain separate filters — do NOT use rg -v 'a\|b' (backslash-pipe is literal in rg)
+rg -n 'https://pmc' <file> | rg -v 'source_url' | rg -v 'Archived from'
 # Expected: empty (no output)
 
 # 3. Count figure blocks
