@@ -191,6 +191,8 @@ Status key:
 :DOI: 10.1073/pnas.2112279118
 :FILE: papers/_posts/2021-12-07-CAST-metagenomic-discovery.MD
 :JOURNAL: PNAS
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no tables, Figs 1–6 legends ✓, 70 refs ✓. Fixes: 10⁻³ exponent, Ca²⁺ ion, stoichiometry subscripts (Cas6)₁:(Cas7)₆ etc., protein subscripts TniQ₁/₂ TnsB₁/₂. No Significance box in MD (PNAS-only section, not in PMC scrape). No chemical formulas or kinetic params in paper.
 :END:
 ** WAITING 73. Hill et al._J. Open Source Softw. (2021)
 :PROPERTIES:
