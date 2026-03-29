@@ -122,6 +122,8 @@ Status key:
 :DOI: 10.1073/pnas.2218085120
 :FILE: papers/_posts/2023-04-24-chromatin-condensates-liquid-like-properties.MD
 :JOURNAL: PNAS
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1–6 captions ✓, 82 refs ✓. Restored scraper-dropped text: equation paragraph (γ, η, τ, AR decay formula), Fig 1D/F caption (γ/η, ± SD), Fig 4G caption (MSD analysis, trajectory counts), body text (diffusion coeff 0.035 ± 0.005 μm²/s, λ = 488 nm clause). Formatting: × 10⁻⁷, W/cm², *t*<sub>1/2</sub>, Mg(OAc)₂. No tables in paper.
 :END:
 ** WAITING 82. Soniat et al. JBC (2023)
 :PROPERTIES:
