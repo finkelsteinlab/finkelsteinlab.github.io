@@ -110,9 +110,9 @@ The FFCF obtained for L29F has three terms (see Table 2). The motionally narrowe
 Expression and purification of His6-tagged human Ngb was performed as described in ref. [5](#ref5). Purity of protein and contamination of disulfide-dependent formation of dimmers were checked by SDS/PAGE under reduced and nonreduced conditions. The mutant sperm whale Mb proteins L29F and H64V were expressed and purified as described in ref. [49](#ref49).
 The CO forms of Ngb and mutant Mb proteins were prepared according to protocols published in refs. [19](#ref19), [20](#ref20), and [31](#ref31). For both the linear FTIR and vibrational echo measurements, ≈20 μl of the sample solution was placed in a sample cell with CaF2 windows and a 50-μm Teflon spacer.
 ---
-##  Acknowledgments
+## Acknowledgments
 We thank Prof. R. Kopito (Stanford University) for the use of protein expression and purification equipment; Dr. J. Christianson and Dr. C. Patel (Stanford University) for invaluable assistance with sample preparation; and Prof. John S. Olson (Rice University, Houston, TX) for providing the myoglobin mutant proteins. This work was supported by National Institutes of Health Grant 2 R01 GM-061137-05. H.I. was supported by the Human Frontier Science Program. S.K. was supported by a fellowship from the Korea Research Foundation funded by the Korean government.
-##  Abbreviations 
+## Abbreviations
 
 CLS
     
