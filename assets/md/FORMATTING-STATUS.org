@@ -682,7 +682,7 @@ Status key:
 :FILE: papers/_posts/2004-12-08-hemoglobin-dynamics-vibrational-echo.md
 :JOURNAL: J. Am. Chem. Soc.
 :END:
-** TODO 3. Finkelstein _et al._ J Chem Phys. (2004)
+** WAITING 3. Finkelstein _et al._ J Chem Phys. (2004)
 :PROPERTIES:
 :MD_SLUG: 2004-07-08-vibrational-echos-heme-co
 :DOI: 10.1063/1.1758940
@@ -696,7 +696,7 @@ Status key:
 :JOURNAL: Chem. Phys. Lett.
 :END:
 * 2003
-** TODO 1. Merchant _et al._ JACS (2003)
+** WAITING 1. Merchant _et al._ JACS (2003)
 :PROPERTIES:
 :MD_SLUG: 2003-11-03-myoglobin-substates
 :DOI: 10.1021/ja035654x
