@@ -129,6 +129,8 @@ Status key:
 :DOI: 10.1016/j.jbc.2022.102802
 :FILE: papers/_posts/2023-02-02-MRN-DNA-Resection.MD
 :JOURNAL: Journal of Biological Chemistry
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no tables in main text, Figs 1-5 ✓, 84 refs ✓. Formatting fixes applied: bp s⁻¹ (10 instances), MgCl₂ (2), His₆ (4), stray period in Fig 5 caption removed.
 :END:
 * 2022
 ** WAITING 81. Kuo et al. AdvMater (2022)
