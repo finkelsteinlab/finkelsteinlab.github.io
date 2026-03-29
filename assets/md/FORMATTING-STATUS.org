@@ -141,6 +141,8 @@ Status key:
 :DOI: 10.1002/adma.202204957
 :FILE: papers/_posts/2022-08-09-NanoCluster-Beacons.MD
 :JOURNAL: Advanced Materials
+:VERIFIED: 2026-03-28
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (10 rows, sequences match design logic) ✓, Figs 1-4 legends ✓, 28 refs ✓. Formatting fixes: Ag₈/Ag₁₀/Ag₁₁/Ag₁₄/Ag₁₆ subscripts, 4⁶/4¹⁸/10⁴ exponents, W cm⁻² units, T_B/T_D/F_B/F_D statistical subscripts, Gwinn possessive artifact, typos (hybridzation, characaterization), orders of magnitude.
 :END:
 ** WAITING 80. Javanmardi et al. CellHostMicrobe (2022)
 :PROPERTIES:
