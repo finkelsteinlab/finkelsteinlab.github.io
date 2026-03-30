@@ -68,12 +68,13 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: PDF verified page-by-page (12pp). Title ✓, authors ✓, abstract ✓, Table 1 (8 rows, all values match) ✓, Figs 1-7 + author photo ✓, legends ✓, 22 refs complete ✓. Fixes applied: Unicode superscripts for exponents (×10⁶ etc.) and units (M⁻¹ sec⁻¹), Mg²⁺ (6×), kinetic param subscripts (k_cat/K_M, k_on, k_off, K_d, t_1/2, k_obs, k_raw), chemical formulas (MgCl₂, His₆, γ-³²P), table footnote <sup> markers, removed PMC "Open in a new tab" artifact.
 :END:
-** WAITING 90. Kuo et al. Nat Commun (2024)
+** DONE 90. Kuo et al. Nat Commun (2024) :VERIFIED:
 :PROPERTIES:
 :MD_SLUG: 2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d
 :DOI: 10.1038/s41467-024-44738-w
 :FILE: papers/_posts/2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d.MD
 :JOURNAL: Nature Communications
+:NOTES: PDF-verified 2026-03-30. Fixed kinetic params (*k*on, *k*a, *k*d, *K*d), unit superscripts (ml⁻¹, min⁻¹), MgCl₂ subscripts (×4), OD₆₀₀, *I*min/*I*max/*I*obs, model variables (*a*i, *b*i,v, *c*i, *d*i,v, *e*). Restored garbled Model II text and ΔABA log formula. No 'Open in a new tab' found.
 :END:
 ** PDF 89. Quezada et al. MIMB (2024)
 :PROPERTIES:
@@ -146,12 +147,14 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (10 rows, sequences match design logic) ✓, Figs 1-4 legends ✓, 28 refs ✓. Formatting fixes: Ag₈/Ag₁₀/Ag₁₁/Ag₁₄/Ag₁₆ subscripts, 4⁶/4¹⁸/10⁴ exponents, W cm⁻² units, T_B/T_D/F_B/F_D statistical subscripts, Gwinn possessive artifact, typos (hybridzation, characaterization), orders of magnitude.
 :END:
-** WAITING 80. Javanmardi et al. CellHostMicrobe (2022)
+** VERIFIED 80. Javanmardi et al. CellHostMicrobe (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-08-04-Ab-escape-Omicron-spike
 :DOI: 10.1016/j.chom.2022.07.016
 :FILE: papers/_posts/2022-08-04-Ab-escape-Omicron-spike.MD
 :JOURNAL: Cell Host Microbe
+:VERIFIED: 2026-03-30
+:VERIFIED_NOTES: All 20 PDF pages compared. Formatting fixes: ×10⁶/×10⁵/×10⁴ superscripts, mL⁻¹/L⁻¹ unit superscripts, CO₂/NaN₃ chemical subscripts, FFRNT₅₀/IC₅₀/Log₂ subscripts, deleted stray 'Open in a new tab'. Title ✓, authors ✓, abstract ✓, Figs 1–4 legends ✓, STAR Methods ✓, key resources table ✓, references ✓.
 :END:
 ** WAITING 79. Kozlov et al. J. Mol. Bio. (2022)
 :PROPERTIES:
