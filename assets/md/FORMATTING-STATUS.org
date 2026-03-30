@@ -174,12 +174,14 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no data tables in paper, Figs 1-7 captions ✓ (restored full text from PDF), 71 refs ✓. Fixes: ~10²⁶ exponent, np→bp typo in Fig 5, Fig 7 kinetic: prefixes + uCFD→CFD, *k*_B_*T* formatting, figure anchor links, full caption restoration.
 :END:
-** WAITING 76. Jack et al. Dev. Cell (2022)
+** VERIFIED 76. Jack et al. Dev. Cell (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-01-25-telomeres-phase-separation
 :DOI: 10.1016/j.devcel.2021.12.017
 :FILE: papers/_posts/2022-01-25-telomeres-phase-separation.MD
 :JOURNAL: Dev. Cell
+:VERIFIED: 2026-03-30
+:VERIFIED_NOTES: Title ✓, authors ✓, summary ✓, Figs 1-7 captions ✓, 99 refs ✓. §6a fixes: FUS<sub>N</sub> subscript (6 lines), protein variant superscripts TRF1^ΔA/Basic/A75P/WT TRF2^ΔB/Acidic/WT (36 occurrences), *c*_sat and *c*_dil kinetic params, CO₂ (×3), MgCl₂ (×2). No scientific notation exponents or ion charges in this paper.
 :END:
 * 2021
 ** WAITING 75. Javanmardi et al. Mol. Cell (2021)
