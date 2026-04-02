@@ -359,7 +359,7 @@ For the complete references list, please see the [full text](https://pmc.ncbi.nl
 
 19. Rossetti M, Merlo R, Bagheri N, et al. Enhancement of CRISPR/Cas12a *trans*-cleavage activity using hairpin DNA reporters. *Nucleic Acids Res*. 2022;50:8377–91. [doi:10.1093/nar/gkac578](https://doi.org/10.1093/nar/gkac578)
 
-20. Xie S, Xu B, Tang R, et al. Kinetics accelerated CRISPR–Cas12a enabling live-cell monitoring of Mn2+ homeostasis. *Anal Chem*. 2022;94:10159–67. [doi:10.1021/acs.analchem.2c01461](https://doi.org/10.1021/acs.analchem.2c01461)
+20. Xie S, Xu B, Tang R, et al. Kinetics accelerated CRISPR–Cas12a enabling live-cell monitoring of Mn²⁺ homeostasis. *Anal Chem*. 2022;94:10159–67. [doi:10.1021/acs.analchem.2c01461](https://doi.org/10.1021/acs.analchem.2c01461)
 
 21. Worle E, Newman A, D'Silva J, et al. Allosteric activation of CRISPR–Cas12a requires the concerted movement of the bridge helix and helix 1 of the RuvC II domain. *Nucleic Acids Res*. 2022;50:10153–68. [doi:10.1093/nar/gkac767](https://doi.org/10.1093/nar/gkac767)
 

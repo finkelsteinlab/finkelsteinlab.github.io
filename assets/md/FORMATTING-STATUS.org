@@ -22,19 +22,23 @@ Status key:
 :FILE: papers/_posts/2025-10-23-Retron-genome-editing.MD
 :JOURNAL: Nature Biotechnology
 :END:
-** WAITING 96. Nalefski et al. NAR (2025)
+** DONE 96. Nalefski et al. NAR (2025)
 :PROPERTIES:
 :MD_SLUG: 2025-07-19-Cas12a-trans-cleavage-diagnostics
 :DOI: 10.1093/nar/gkaf712
 :FILE: papers/_posts/2025-07-19-Cas12a-trans-cleavage-diagnostics.MD
 :JOURNAL: Nucleic Acids Research
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, graphical abstract ✓, Figs 1-6 ✓, 42 refs ✓. Fixes: Mn²⁺ ion charge in ref 20. Pre-formatted with correct superscripts (≈10⁸ M⁻¹ s⁻¹, ≈1 s⁻¹), kinetic params (*k*<sub>cat</sub>/*K*<sub>M</sub>, *k*<sub>act</sub>, *k*<sub>ss</sub>), MgCl₂, His₆. Extensive methods with equations. No tables in main text.
 :END:
-** WAITING 95. Dillard et al. NAR (2025)
+** DONE 95. Dillard et al. NAR (2025)
 :PROPERTIES:
 :MD_SLUG: 2025-04-22-Cas9-inhibition-AcrIIA11
 :DOI: 10.1093/nar/gkaf318
 :FILE: papers/_posts/2025-04-22-Cas9-inhibition-AcrIIA11.MD
 :JOURNAL: Nucleic Acids Research
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Dillard/Zhang), abstract ✓, graphical abstract ✓, Figs 1-5 ✓, refs ✓. Fixes: MgCl₂ subscripts (11×). Pre-formatted with correct unit superscripts (μg μl⁻¹, mg ml⁻¹, μm² s⁻¹), p-value asterisks (&#42;), species italics (*Sa*, *Sp*, *Fn*, *Nme* Cas9). Single-molecule imaging methods with DNA curtains.
 :END:
 ** DONE 94. Nalefski et al. Scientific Reports (2025)
 :PROPERTIES:
