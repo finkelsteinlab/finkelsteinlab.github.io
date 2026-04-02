@@ -36,12 +36,14 @@ Status key:
 :FILE: papers/_posts/2025-04-22-Cas9-inhibition-AcrIIA11.MD
 :JOURNAL: Nucleic Acids Research
 :END:
-** WAITING 94. Nalefski et al. Scientific Reports (2025)
+** DONE 94. Nalefski et al. Scientific Reports (2025)
 :PROPERTIES:
 :MD_SLUG: 2025-01-31-Room-Temperature-CRISPR-Diagnostics
 :DOI: 10.1038/s41598-025-86373-5
 :FILE: papers/_posts/2025-01-31-Room-Temperature-CRISPR-Diagnostics.MD
 :JOURNAL: Scientific Reports
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (8 rows) ✓, Figs 1-5 ✓, 26 refs ✓. Fixes: MgCl₂, FQ-C₅/FQ-C₁₀ subscripts, FAM₂-T₅-Biotin₂ & Dig-Sp₁₈-FAM-T₅-Biotin₂ subscripts, kss/kact kinetic parameters, trans/cis italics in figcaptions, λ subscripts, reference anchors.
 :END:
 ** PDF 93. Chou et al. bioRxiv (2025)
 :PROPERTIES:
