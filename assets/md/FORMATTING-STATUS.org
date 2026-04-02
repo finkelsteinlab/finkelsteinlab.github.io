@@ -91,12 +91,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 49 refs ✓. Formatting fixes: p-value asterisks (&#42;), MgCl₂/CaCl₂ subscripts, µg mL⁻¹ superscripts, OD₆₀₀, (βα)₆-barrel. Note: PDF was BioRxiv preprint; markdown is from published Nat Commun.
 :END:
-** WAITING 85. Hibshman et al. Nat Commun (2024)
+** DONE 85. Hibshman et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-06-22-PAMless-DNA-SpRY-Cas9
 :DOI: 10.1038/s41467-024-47830-3
 :FILE: papers/_posts/2023-06-22-PAMless-DNA-SpRY-Cas9.MD
 :JOURNAL: Nature Communications
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Hibshman/Bravo), abstract ✓, Figs 1-7 ✓, 53 refs ✓. Formatting fixes: s⁻¹ superscripts (9), MgCl₂ subscripts (6), Mg²⁺ ion charges (5), *t*<sub>1/2</sub> half-life notation (2), μM⁻¹, ml⁻¹, μl⁻¹ units. Note: PDF is BioRxiv 2023 preprint; markdown is from published Nat Commun 2024 (includes SpG data not in preprint).
 :END:
 ** WAITING 83. Hu et al. Nat Commun (2024)
 :PROPERTIES:
