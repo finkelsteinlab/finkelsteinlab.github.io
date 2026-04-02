@@ -82,12 +82,14 @@ Status key:
 :FILE: papers/_posts/2024-04-23-Mammalian-antigen-display.MD
 :JOURNAL: Methods in Molecular Biology
 :END:
-** WAITING 87. Leão et al. Nat Commun (2024)
+** DONE 87. Leão et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-09-13-archaea-defense-immunity
 :DOI: 10.1038/s41467-024-50195-2
 :FILE: papers/_posts/2023-09-13-archaea-defense-immunity.MD
 :JOURNAL: Nature Communications
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 49 refs ✓. Formatting fixes: p-value asterisks (&#42;), MgCl₂/CaCl₂ subscripts, µg mL⁻¹ superscripts, OD₆₀₀, (βα)₆-barrel. Note: PDF was BioRxiv preprint; markdown is from published Nat Commun.
 :END:
 ** WAITING 85. Hibshman et al. Nat Commun (2024)
 :PROPERTIES:
