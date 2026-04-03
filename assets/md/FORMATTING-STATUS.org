@@ -360,12 +360,14 @@ Status key:
 :FILE: papers/_posts/2019-12-13-cohesin-compaction.md
 :JOURNAL: Science
 :END:
-** WAITING 56. Mallam et al. Cell Reports (2019)
+** DONE 56. Mallam et al. Cell Reports (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-10-29-discovery-of-rnp-complexes
 :DOI: 10.1016/j.celrep.2019.09.060
 :FILE: papers/_posts/2019-10-29-discovery-of-rnp-complexes.md
 :JOURNAL: Cell Reports
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, graphical abstract ✓, Figs 1-6 ✓, Table 1 ✓, refs ✓. Fixes: CaCl₂ subscript, MgCl₂ subscript (+ missing space), [γ-³²P]-ATP isotope superscript, mL min⁻¹ unit superscript. Pre-formatted with correct molecular weight notation (Mr, kDa), <sup>32</sup>P in figcaptions. DIF-FRAC/RNP proteomics paper with detailed STAR Methods, elution profiles, Key Resources Table.
 :END:
 ** WAITING 55. Simon et al. NAR (2019)
 :PROPERTIES:
