@@ -106,12 +106,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Hibshman/Bravo), abstract ✓, Figs 1-7 ✓, 53 refs ✓. Formatting fixes: s⁻¹ superscripts (9), MgCl₂ subscripts (6), Mg²⁺ ion charges (5), *t*<sub>1/2</sub> half-life notation (2), μM⁻¹, ml⁻¹, μl⁻¹ units. Note: PDF is BioRxiv 2023 preprint; markdown is from published Nat Commun 2024 (includes SpG data not in preprint).
 :END:
-** WAITING 83. Hu et al. Nat Commun (2024)
+** DONE 83. Hu et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-03-04-horizontal-transfer
 :DOI: 10.1038/s41467-024-50816-w
 :FILE: papers/_posts/2023-03-04-horizontal-transfer.MD
 :JOURNAL: Nature Communications
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-6 ✓, refs placeholder ✓. Formatting fixes: 10⁻⁶/10³ scientific notation, *C*<sub>α</sub>-RMSD, OD₆₀₀, Na₂HPO₄/KH₂PO₄/MgCl₂/MgOAc₂/H₂O chemical formulas. Stripped supplementary figure PMC links (S1-S9). Fixed incorrect eLife journal ref to Nature Communications. Note: PDF is BioRxiv 2023 preprint; markdown is from published Nat Commun 2024.
 :END:
 * 2023
 ** WAITING 88. Kaur et al. JBC (2023)
