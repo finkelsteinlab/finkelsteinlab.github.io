@@ -278,12 +278,14 @@ Status key:
 :FILE: papers/_posts/2021-03-17-artificial-virus.md
 :JOURNAL: Nano Letters
 :END:
-** WAITING 66. Wesley Long et al. AmJPathol (2021)
+** DONE 66. Wesley Long et al. AmJPathol (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-16-SARS-CoV-2-Variants
 :DOI: 10.1016/j.ajpath.2021.03.004
 :FILE: papers/_posts/2021-03-16-SARS-CoV-2-Variants.md
 :JOURNAL: American Journal of Pathology
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (6 variant rows) ✓, Figs 1-2 ✓, 61 refs ✓. Fix: _in vitr_ o → *in vitro* (broken italics). Epidemiology/genomic surveillance paper — no scientific notation exponents, ion charges, chemical formulas, or kinetic params required.
 :END:
 ** WAITING 65. Strohkendl et al. SciAdv (2021)
 :PROPERTIES:
