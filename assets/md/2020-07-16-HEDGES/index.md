@@ -58,9 +58,9 @@ In our Type A tests, 10 to 15% of sequenced strands could not be uniquely identi
 For strands whose progenitor sequence could be identified, Table 1 shows measured rates of substitution, insertion, and deletion errors. Notably, only the highest mutagenesis kit protocol produced a substantial increase in DNA errors. Data in ref. [3](#ref3) estimate DNA degradation over a wide range of timescales and temperatures, suggesting that 50 °C incubation for 8 h should have produced significant mutagenesis. We did not find this, however. So, for further analysis here, we consider only the untreated and high-mutagenesis datasets.
 #### Table 1.
 Observed end-to-end DNA error rates, which includes errors introduced during synthesis, sample handling and storage, preparation, and sequencing
-|  | Mutagenesis kit | 50°C incubation
+|  | Mutagenesis kit | 50 °C incubation
 ---|---|---|---
-| Untreated | Low | Medium | High | 2°h | 8°h
+| Untreated | Low | Medium | High | 2 h | 8 h
 Substitution | 0.0057 | 0.0075 | 0.0178 | 0.0238 | 0.0082 | 0.0085
 Deletion | 0.0054 | 0.0045 | 0.0067 | 0.0082 | 0.0040 | 0.0047
 Insertion | 0.0023 | 0.0020 | 0.0032 | 0.0039 | 0.0017 | 0.0019
