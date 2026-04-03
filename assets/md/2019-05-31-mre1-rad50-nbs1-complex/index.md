@@ -32,7 +32,7 @@ The Mre11-Rad50-Nbs1 (MRN) complex coordinates the repair of DNA double-strand b
 ---
 ## 1. Introduction
 DNA double-strand breaks (DSBs) are particularly toxic DNA lesions because they disrupt the physical continuity of the DNA duplex [[1](#ref1), [2](#ref2)]. DSBs can arise from genotoxic agents such as cisplatin, etoposide, and ionizing radiation, but are also programmatically generated during meiosis and class switch recombination [[3](#ref3)–[5](#ref5)]. In addition, telomeres can be recognized as DSBs, and end protection mechanisms must be maintained [[6](#ref6)]. The repair of DSBs is essential for cell survival and DSB repair is differentially regulated in cancer cells, providing a promising avenue for therapeutic strategies that target DSB repair-deficient tumors [[7](#ref7)–[9](#ref9)].
-The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recognizes DNA ends and coordinates the repair of DSBs and other DNA lesions (_see_ [Fig. 1](#fig1)). Eukaryotes evolved an additional regulatory subunit (Nbs1 in humans; Xrs2 in yeast) that interacts with other DNA maintenance proteins and further fine-tunes the enzymatic activities of MR. MRN is involved in both DNA damage signaling and the enzymatic processing that ultimately leads to repair [[10](#ref10)–[14](#ref14)]. The MRN complex facilitates these activities via both catalytic and noncatalytic functions. Mre11 is both a 3′−5′ exonuclease and an endonuclease, which can be abolished by a single point mutation (H129N in the human protein) [[15](#ref15)–[17](#ref17)]. Both nucleolytic activities are stimulated by the addition of manganese in the reaction buffer. The physiological context for this manganese requirement is unclear, as Mg2+ is likely the predominant cation in nuclei. Mre11 complexes strongly with Rad50, an SMC-like protein that contains two Walker ATPase domains that are linked by long (>50 nm) coiled-coil arms that contain a zinc hook [[18](#ref18)]. This zinc hook facilitates multiple interactions that regulate the activity of the rest of the complex [[18](#ref18)–[20](#ref20)]. The Walker ATPase domains and a short patch of the coiled-coil arms interact with Mre11 to form the globular domain of MRN [[21](#ref21), [22](#ref22)]. Nbs1 serves as a loading platform for interacting partners with the MRN complex, regulates the ATPase activity of Rad50, and localizes the complex to the nucleus [[23](#ref23)–[27](#ref27)].
+The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recognizes DNA ends and coordinates the repair of DSBs and other DNA lesions (_see_ [Fig. 1](#fig1)). Eukaryotes evolved an additional regulatory subunit (Nbs1 in humans; Xrs2 in yeast) that interacts with other DNA maintenance proteins and further fine-tunes the enzymatic activities of MR. MRN is involved in both DNA damage signaling and the enzymatic processing that ultimately leads to repair [[10](#ref10)–[14](#ref14)]. The MRN complex facilitates these activities via both catalytic and noncatalytic functions. Mre11 is both a 3′−5′ exonuclease and an endonuclease, which can be abolished by a single point mutation (H129N in the human protein) [[15](#ref15)–[17](#ref17)]. Both nucleolytic activities are stimulated by the addition of manganese in the reaction buffer. The physiological context for this manganese requirement is unclear, as Mg²⁺ is likely the predominant cation in nuclei. Mre11 complexes strongly with Rad50, an SMC-like protein that contains two Walker ATPase domains that are linked by long (>50 nm) coiled-coil arms that contain a zinc hook [[18](#ref18)]. This zinc hook facilitates multiple interactions that regulate the activity of the rest of the complex [[18](#ref18)–[20](#ref20)]. The Walker ATPase domains and a short patch of the coiled-coil arms interact with Mre11 to form the globular domain of MRN [[21](#ref21), [22](#ref22)]. Nbs1 serves as a loading platform for interacting partners with the MRN complex, regulates the ATPase activity of Rad50, and localizes the complex to the nucleus [[23](#ref23)–[27](#ref27)].
 <figure class="paper-figure" id="fig1">
 <img src="nihms-1040854-f0001.jpg" alt="Figure 1">
 <figcaption><strong>Figure 1. Overview of MRN architecture and associated DNA maintenance pathways.</strong> (<b>A</b>) Domain map of Mre11, Rad50, and Nbs1 (<b>B</b>) Illustration of MRN complex architecture [<a href="#ref42">42</a>]. (<b>C</b>) MRN-associated DNA maintenance pathways</figcaption>
@@ -53,37 +53,37 @@ Many of these biophysical insights have been gleaned from comparative studies of
     5. Mre11(H129N)-FLAG in pFastbac1.
     6. Nbs1 in pFastbac1.
     7. Nbs1-FLAG in pFastbac1.
-    8. Rad50-His6 in pACEbac1.
+    8. Rad50-His₆ in pACEbac1.
 
 ### 2.2. Chemicals, Buffers, and Other Reagents
-  1. SOC media: 2% tryptone, 0.5% yeast extract, 10 mM NaCl, 2.5 mM KCl, 10 mM MgCl2, 20 mM glucose.
+  1. SOC media: 2% tryptone, 0.5% yeast extract, 10 mM NaCl, 2.5 mM KCl, 10 mM MgCl₂, 20 mM glucose.
   2. BAC plates: LB agar with 50 μg/mL kanamycin, 7 μg/mL gentamicin, 10 μg/mL tetracycline, 100 μg/mL X-gal, 40 μg/mL IPTG.
   3. Solution I: 15 mM Tris–HCl pH 8.0, 10 mM ethylenediami-netetraacetic acid (EDTA), 100 μg/mL RNase A.
   4. Solution II: 0.2 N NaOH, 1% SDS.
-  5. Solution III: 3 M KC2H3O2 pH 5.5.
+  5. Solution III: 3 M KC₂H₃O₂ pH 5.5.
   6. Sf-900 II Serum Free Media (ThermoFisher Scientific).
   7. Cellfectin II reagent (ThermoFisher Scientific).
-  8. MRN Lysis Buffer: 50 mM KH2PO4 pH 7.4, 500 mM KCl, 2.5 mM imidazole, 20 mM β-mercaptoethanol (β-ME), 10% glycerol, 0.5% Tween-20, 1 mM phenylmethane sulfonyl fluoride (PMSF).
-  9. Low-salt Ni2+ A Buffer: 50 mM KH2PO4 pH 7.4, 50 mM KCl, 2.5 mM imidazole, 20 mM β-ME, 10% glycerol.
-  10. Low-salt Ni2+ B Buffer: 50 mM KH2PO4 pH 7.4, 500 mM KCl, 250 mM imidazole, 20 mM β-ME, 10% glycerol.
+  8. MRN Lysis Buffer: 50 mM KH₂PO₄ pH 7.4, 500 mM KCl, 2.5 mM imidazole, 20 mM β-mercaptoethanol (β-ME), 10% glycerol, 0.5% Tween-20, 1 mM phenylmethane sulfonyl fluoride (PMSF).
+  9. Low-salt Ni²⁺ A Buffer: 50 mM KH₂PO₄ pH 7.4, 50 mM KCl, 2.5 mM imidazole, 20 mM β-ME, 10% glycerol.
+  10. Low-salt Ni²⁺ B Buffer: 50 mM KH₂PO₄ pH 7.4, 500 mM KCl, 250 mM imidazole, 20 mM β-ME, 10% glycerol.
   11. A Buffer: 25 mM Tris–HCl pH 8.0, 100 mM NaCl, 10% (vol/vol) glycerol, 1 mM dithiothreitol (DTT).
   12. 0-salt A Buffer: 25 mM Tris–HCl pH 8.0, 10% (vol/vol) glycerol, 1 mM DTT.
   13. B Buffer: 25 mM Tris–HCl pH 8.0, 1 M NaCl, 10% (vol/vol) glycerol, 1 mM DTT.
-  14. Imaging buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 1 mM MgCl2, 2 mM DTT, 0.2 mg/mL bovine serum albumin (BSA).
-  15. MRN cleavage buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 5 mM MgCl2, 1 mM MnCl2, 2 mM DTT, 0.2 mg/mL BSA.
+  14. Imaging buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 1 mM MgCl₂, 2 mM DTT, 0.2 mg/mL bovine serum albumin (BSA).
+  15. MRN cleavage buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 5 mM MgCl₂, 1 mM MnCl₂, 2 mM DTT, 0.2 mg/mL BSA.
   16. Biotinylated anti-FLAG M2 antibody (Sigma-Aldrich).
   17. Rabbit anti-HA antibody (ICL Lab).
-  18. [γ−32P]-ATP.
+  18. [γ-³²P]-ATP.
   19. T4 polynucleotide kinase.
   20. Linear DNA fragment (here, we use a 197 bp DNA molecule).
   21. Stop solution: 0.2% SDS and 10 mM EDTA.
-  22. MRN Ensemble Cleavage Buffer: 25 mM MOPS pH 7.0, 20 mM Tris–HCl, pH 8.0, 80 mM NaCl, 8% glycerol, 1 mM DTT, 1 mM ATP, 5 mM MgCl2, 1 mM MnCl2, and 0.2 mg/mL BSA.
+  22. MRN Ensemble Cleavage Buffer: 25 mM MOPS pH 7.0, 20 mM Tris–HCl, pH 8.0, 80 mM NaCl, 8% glycerol, 1 mM DTT, 1 mM ATP, 5 mM MgCl₂, 1 mM MnCl₂, and 0.2 mg/mL BSA.
   23. Protein Lo-Bind tubes.
   24. 15-cm dishes.
   25. T75 flasks.
   26. Grace’s Media (ThermoFisher Scientific).
   27. Fetal bovine serum (FBS; _see_ Note 2).
-  28. Phosphate-buffered saline (PBS): 137 mM NaCl, 2.7 mM KCl, 10 mM Na2HPO4, 1.8 mM KH2PO4.
+  28. Phosphate-buffered saline (PBS): 137 mM NaCl, 2.7 mM KCl, 10 mM Na₂HPO₄, 1.8 mM KH₂PO₄.
   29. Dounce homogenizer.
   30. Benchtop microcentrifuge.
   31. Tris–EDTA buffer (TE): 10 mM Tris–HCl pH 8.0, 1 mM EDTA.
@@ -144,7 +144,7 @@ Baculoviruses for each of the individual MRN subunits are produced using the Bac
 
 #### 3.1.2. Baculovirus Production
 Baculovirus is produced by transfecting the bacmid into a small culture of insect cells and then amplifying the titer.
-  1. Seed 1 × 106 cells in one well of a 6-well plate in 2 mL of Sf-900 II Serum Free Media.
+  1. Seed 1 × 10⁶ cells in one well of a 6-well plate in 2 mL of Sf-900 II Serum Free Media.
   2. On the same day that the bacmid is produced, prepare two solutions for transfection.
   3. Solution A: 5 μL bacmid prep in 100 μL Sf-900 II Serum Free Media.
   4. Solution B: 6 μL Cellfectin II reagent in 100 μL Sf-900 II Serum Free Media.
@@ -157,13 +157,13 @@ Baculovirus is produced by transfecting the bacmid into a small culture of insec
 
 #### 3.1.3. Baculovirus Amplification and Infection
 To amplify the baculovirus, the first preparation of the virus is ncubated with a 15-cm plate of insect cells for 72 h. Next, this first amplification is incubated in the same manner with several 15-cm plates of cells to create the second amplification, which is high titer enough to induce the cells to produce protein. This process is repeated for each of the MRN subunits (_see_ Note 5). We generally use 60 15-cm dishes to produce the full complex. Each dish is infected with 600 μL of each of the three viruses. The first amplification can be stored at 4 °C for several years, but freshly made second amplification should be used for protein production.
-  1. Seed 15 × 106 cells in a 15-cm dish in 25 mL of Grace’s Media containing 15% FBS (_see_ Note 2 for FBS information and _see_ Note 6 for insect cell maintenance).
+  1. Seed 15 × 10⁶ cells in a 15-cm dish in 25 mL of Grace’s Media containing 15% FBS (_see_ Note 2 for FBS information and _see_ Note 6 for insect cell maintenance).
   2. Add 500 μL of the initial virus preparation and incubate for 72 h.
   3. Harvest the first amplification by filtering the supernatant with a 45 μm filter into a conical tube.
-  4. Add 50 μL of the first amplification to each of 3 15-cm dishes of 15 × 106 cells, and incubate for another 72 h.
+  4. Add 50 μL of the first amplification to each of 3 15-cm dishes of 15 × 10⁶ cells, and incubate for another 72 h.
   5. Harvest the second amplification by filtering the supernatant with a 45 μm filter into a conical tube.
   6. The second amplification is now ready to infect dishes for protein production.
-  7. Seed ~15 × 106 cells each into 15-cm dishes in 25 mL of Grace’s Media containing 15% FBS. A typical prep would be 60 dishes.
+  7. Seed ~15 × 10⁶ cells each into 15-cm dishes in 25 mL of Grace’s Media containing 15% FBS. A typical prep would be 60 dishes.
   8. Add 600 μL of each virus to each dish.
   9. Incubate for 72 h.
   10. Harvest the insect cells by scraping the cells from the bottom of each dish with a cell scraper and collecting the cells into a centrifuge bottle.
@@ -186,13 +186,13 @@ Coexpression of all three MRN subunits typically yields low expression (~80 μg 
   5. Centrifuge the mixture at 100,000 × _g_ for 1 h at 4 °C.
   6. Incubate supernatant with 10 mL of equilibrated Ni-NTA resin for 1 h at 4 °C with gentle agitation.
   7. Centrifuge the sample at 1500 × _g_ for 3 min.
-  8. Remove the supernatant, add 40 mL of High-salt Ni2+ A buffer, and incubate at 4 °C with gentle agitation for 5 min.
+  8. Remove the supernatant, add 40 mL of High-salt Ni²⁺ A buffer, and incubate at 4 °C with gentle agitation for 5 min.
   9. Centrifuge the sample at 1500 × _g_ for 3 min.
-  10. Remove the supernatant, add 40 mL of Low-salt Ni2+ A buffer, and incubate at 4 °C with gentle agitation for 5 min.
+  10. Remove the supernatant, add 40 mL of Low-salt Ni²⁺ A buffer, and incubate at 4 °C with gentle agitation for 5 min.
   11. Centrifuge the sample at 1500 × _g_ for 3 min.
-  12. Remove the supernatant, add 40 mL of 10% Low-salt Ni2+ B buffer (4 mL Ni2+ B + 36 mL Ni2+ A), and incubate at 4 °C with gentle agitation for 5 min.
+  12. Remove the supernatant, add 40 mL of 10% Low-salt Ni²⁺ B buffer (4 mL Ni²⁺ B + 36 mL Ni²⁺ A), and incubate at 4 °C with gentle agitation for 5 min.
   13. Centrifuge the sample at 1500 × _g_ for 3 min.
-  14. Add 15 mL of Ni2+ B buffer to resin and incubate for 30 min at 4 °C.
+  14. Add 15 mL of Ni²⁺ B buffer to resin and incubate for 30 min at 4 °C.
   15. Transfer Ni-NTA resin to disposable column and collect the elution.
   16. Dilute the elution with 15 mL A Buffer and load onto a 50-mL superloop.
   17. Equilibrate a Hi-Trap Q column on an FPLC with A and B buffers.
@@ -209,17 +209,17 @@ Coexpression of all three MRN subunits typically yields low expression (~80 μg 
 
 #### 3.2.2. Alternative MRN Purification Strategies for Biochemical Studies
 Above, we describe the purification for 3XFLAG-MRN, as this construct is readily labeled for single-molecule imaging and also retains both endonuclease and exonuclease activities. However, this protocol reduces the overall MRN yield and purity. This is because the triple FLAG tag precludes elution of the MRN complex from FLAG beads, making the anti-FLAG resin incompatible with the purification. When single-molecule imaging is not the final goal, we recommend purification of MRN harboring a single FLAG tag on the Mre11 subunit. This protocol adds an anti-FLAG column to the MRN purification scheme, as described below.
-  1. Follow purification of FLAG-MRN through the Ni2+-NTA resin elution (_see_ Subheading 3.2.1, until **step 15**). Adding the Q column is optional for this purification due to higher purity from the FLAG column.
+  1. Follow purification of FLAG-MRN through the Ni²⁺-NTA resin elution (_see_ Subheading 3.2.1, until **step 15**). Adding the Q column is optional for this purification due to higher purity from the FLAG column.
   2. Dilute the elution with 15 mL A Buffer.
   3. Add 1 mL of Anti-FLAG resin preequilibrated in A buffer.
   4. Incubate for 1 h at 4 °C with gentle agitation.
   5. Pack the resin into an empty column.
   6. Attach the column to an FPLC preequilibrated with A and B buffers.
-  7. Wash the column with A buffer until the UV280 absorption reading stabilizes.
+  7. Wash the column with A buffer until the UV₂₈₀ absorption reading stabilizes.
   8. Attach a 5 mL injection loop to the system.
   9. Inject 5 mL A buffer with 100 μg/mL 3XFLAG peptide.
-  10. When the UV280 reading starts to increase, pause the flow for 20 min, allowing the 3XFLAG peptide to compete with the protein.
-  11. Continue the flow, collect, and pool all fractions with large UV280.
+  10. When the UV₂₈₀ reading starts to increase, pause the flow for 20 min, allowing the 3XFLAG peptide to compete with the protein.
+  11. Continue the flow, collect, and pool all fractions with large UV₂₈₀.
   12. Inject the eluate onto an SP column and follow the protocol above to continue purification through SP and Superose 6 (starting at Subheading 3.2.1, **step 23**. Also _see_ Note 7).
 
 ### 3.3. Imaging of MRN-GFP on DNA Curtains
@@ -234,10 +234,10 @@ We have previously established that MRN can be labeled by quantum dots (QDs) and
   4. Image until all of the MRN-GFP molecules have photo-bleached (_see_ Note 8).
 
 ### 3.4. Visualizing MRN Cleavage of Ku on DNA Curtains
-Our single-molecule results indicated that MRN could diffuse on DNA in the absence of buffer flow [[42](#ref42)]. We hypothesized that MRN could use this diffusive state to load on Ku-bound DNA, where the end was obstructed. To test this hypothesis, Ku was prebound to the ends of DNA and then MRN was injected into the flowcell (_see_ [Fig. 5](#fig5)). MRN nuclease activity was activated via switching to cleavage buffer (imaging buffer with 5 mM MgCl2 and 1 mM MnCl2; _see_ Note 9).
+Our single-molecule results indicated that MRN could diffuse on DNA in the absence of buffer flow [[42](#ref42)]. We hypothesized that MRN could use this diffusive state to load on Ku-bound DNA, where the end was obstructed. To test this hypothesis, Ku was prebound to the ends of DNA and then MRN was injected into the flowcell (_see_ [Fig. 5](#fig5)). MRN nuclease activity was activated via switching to cleavage buffer (imaging buffer with 5 mM MgCl₂ and 1 mM MnCl₂; _see_ Note 9).
 <figure class="paper-figure" id="fig5">
 <img src="nihms-1040854-f0005.jpg" alt="Figure 5">
-<figcaption><strong>Figure 5. Single-molecule visualization of MRN cleavage.</strong> (<b>a</b>) Schematic of an MRN/Ku single-molecule cleavage assay [<a href="#ref42">42</a>]. MRN is first injected onto a Ku-blocked end, where it slides down in the presence of mild buffer flow (left to right) to colocalize with Ku at the end of DNA. Next, MRN cleaves both strands of the DNA duplex in a reaction that requires Mn+2, ATP, and Mre11 nuclease activity. Ku is removed from the DNA via this nuclease cut. (<b>b</b>) Kymograph of MRN (green) cleavage of Ku (magenta). Red arrows indicate dissociation (via cleavage). (<b>c</b>) Percentage of Ku molecules remaining after mock injection (red), injection of MRN (purple) or the nuclease-deficient M(H129N)RN mutant</figcaption>
+<figcaption><strong>Figure 5. Single-molecule visualization of MRN cleavage.</strong> (<b>a</b>) Schematic of an MRN/Ku single-molecule cleavage assay [<a href="#ref42">42</a>]. MRN is first injected onto a Ku-blocked end, where it slides down in the presence of mild buffer flow (left to right) to colocalize with Ku at the end of DNA. Next, MRN cleaves both strands of the DNA duplex in a reaction that requires Mn⁺², ATP, and Mre11 nuclease activity. Ku is removed from the DNA via this nuclease cut. (<b>b</b>) Kymograph of MRN (green) cleavage of Ku (magenta). Red arrows indicate dissociation (via cleavage). (<b>c</b>) Percentage of Ku molecules remaining after mock injection (red), injection of MRN (purple) or the nuclease-deficient M(H129N)RN mutant</figcaption>
 </figure>
   1. Follow flowcell assembly protocol for single-tethered DNA curtains as previously reported using a blunt end DNA [[39](#ref39)]. These flowcells are similar to the ones described above but lack the pedestals required for double-tethering, so that there is a free DNA end.
   2. Preincubate 16 μL anti-HA rabbit antibody with 2 μL of anti-rabbit secondary QDot 705 for 10 min on ice. In a separate tube, preincubate 16 μL biotinylated anti-FLAG mouse anti-body with 2 μL of streptavidin QDot 605 for 10 min on ice.
@@ -256,7 +256,7 @@ MRN contains a 3′ to 5′ exonuclease activity and an endonuclease activity [[
 <img src="nihms-1040854-f0006.jpg" alt="Figure 6">
 <figcaption><strong>Figure 6. An ensemble assay for MRN nuclease activity.</strong> (<b>a</b>) Schematic of the ensemble assay. (<b>b</b>) MRN ensemble cleavage assay reproduced with permission from [<a href="#ref42">42</a>]. MR or M(H129N)R (50 nM) and 50 nM Nbs1 were incubated with a 5′ radiolabeled 197 bp dsDNA containing 10 nM Ku. Black arrows represent MRN cleavage product. MR+N was used in these experiments, but MRN can also be used. (<b>c</b>) Titration of MRN into an ensemble cleavage assay (12.5, 25 and 50 nM MR + equimolar Nbs1 were used)</figcaption>
 </figure>
-  1. Radiolabel an oligo on the 5′ end with [γ−32P]-ATP using T4 polynucleotide kinase (NEB).
+  1. Radiolabel an oligo on the 5′ end with [γ-³²P]-ATP using T4 polynucleotide kinase (NEB).
   2. PCR amplify a 197 bp DNA fragment using the radiolabeled oligo.
   3. Gel purify the radiolabeled DNA fragment using a 0.7% agarose gel.
   4. In a 10 μL reaction, 50 nM MR and equimolar concentration of Nbs1 are preincubated to assemble the MRN complex.
