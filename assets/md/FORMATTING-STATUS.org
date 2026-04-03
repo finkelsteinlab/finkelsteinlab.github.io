@@ -246,12 +246,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, refs ✓. Formatting fixes: 1 × 10⁵ and 5 × 10⁴ scientific notation (MS instrument settings). Mass spectrometry paper on T4 gp32-ssDNA complex characterization using native MS, cross-linking, and UVPD.
 :END:
-** WAITING 70. Ma_et_al._eLife (2021)
+** DONE 70. Ma_et_al._eLife (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-08-26-cas1-cas2-complex
 :DOI: 10.7554/eLife.65763
 :FILE: papers/_posts/2021-08-26-cas1-cas2-complex.md
 :JOURNAL: eLife
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-8 + supplements ✓, refs 1-52 ✓. Fixed: MgCl₂ (2×), His₆-tagged (1×), ³²P isotope labels (10×, including γ-³²P and α-³²P). CRISPR adaptation paper on Cas1-Cas2 integration/disintegration mechanism.
 :END:
 ** WAITING 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
 :PROPERTIES:
