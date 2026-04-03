@@ -199,12 +199,14 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, summary ✓, Figs 1-7 captions ✓, 99 refs ✓. §6a fixes: FUS<sub>N</sub> subscript (6 lines), protein variant superscripts TRF1^ΔA/Basic/A75P/WT TRF2^ΔB/Acidic/WT (36 occurrences), *c*_sat and *c*_dil kinetic params, CO₂ (×3), MgCl₂ (×2). No scientific notation exponents or ion charges in this paper.
 :END:
 * 2021
-** WAITING 75. Javanmardi et al. Mol. Cell (2021)
+** DONE 75. Javanmardi et al. Mol. Cell (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-12-16-Spike-Display
 :DOI: 10.1016/j.molcel.2021.11.024
 :FILE: papers/_posts/2021-12-16-Spike-Display.md
 :JOURNAL: Mol. Cell
+:VERIFIED: 2026-04-03
+:VERIFIED_NOTES: Title ✓, authors ✓ (added middle initial "I." to Cynthia I. Terrace), abstract/summary ✓, Figs 1-5 captions ✓, 80 refs ✓. §6a fixes: μg mL⁻¹/mg L⁻¹/g L⁻¹ unit superscripts (×12), × 10⁶/× 10⁵ scientific notation (×5), IC₅₀ subscript (×4), CO₂ subscript (×2), double-space headers fixed (×11). No ion charges or chemical formulas needed.
 :END:
 ** WAITING 74. Rybarski et al. PNAS (2021)
 :PROPERTIES:
