@@ -168,12 +168,14 @@ Status key:
 :VERIFIED: 2026-03-30
 :VERIFIED_NOTES: All 20 PDF pages compared. Formatting fixes: ×10⁶/×10⁵/×10⁴ superscripts, mL⁻¹/L⁻¹ unit superscripts, CO₂/NaN₃ chemical subscripts, FFRNT₅₀/IC₅₀/Log₂ subscripts, deleted stray 'Open in a new tab'. Title ✓, authors ✓, abstract ✓, Figs 1–4 legends ✓, STAR Methods ✓, key resources table ✓, references ✓.
 :END:
-** WAITING 79. Kozlov et al. J. Mol. Bio. (2022)
+** DONE 79. Kozlov et al. J. Mol. Bio. (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-05-15-SSB-protein
 :DOI: 10.1016/j.jmb.2022.167562
 :FILE: papers/_posts/2022-05-15-SSB-protein.MD
 :JOURNAL: J. Mol. Bio.
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 91 refs ✓. Formatting fixes: [Mg²⁺] ion charges, [MgCl₂] chemical formula, extinction coefficients (1.13 × 10⁵, 8.98 × 10⁴, 9.58 × 10⁴, 1.01 × 10⁵ M⁻¹ cm⁻¹), 7370 M⁻¹ cm⁻¹, °C min⁻¹, mL min⁻¹, mL⁻¹ unit superscripts. SSB binding modes and cooperativity paper with ssDNA curtains methods.
 :END:
 ** WAITING 78. Schaub et al. NAR (2022)
 :PROPERTIES:
@@ -235,12 +237,14 @@ Status key:
 :FILE: papers/_posts/2021-10-05-SARS-CoV-2-Spike-proteins.MD
 :JOURNAL: Nature Protocols
 :END:
-** WAITING 71. Blevins_et_al._Chem Sci. (2021)
+** DONE 71. Blevins_et_al._Chem Sci. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-09-23-T4-gp32-ssDNA-complex
 :DOI: 10.1039/d1sc02861h
 :FILE: papers/_posts/2021-09-23-T4-gp32-ssDNA-complex.MD
 :JOURNAL: Chem Sci
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, refs ✓. Formatting fixes: 1 × 10⁵ and 5 × 10⁴ scientific notation (MS instrument settings). Mass spectrometry paper on T4 gp32-ssDNA complex characterization using native MS, cross-linking, and UVPD.
 :END:
 ** WAITING 70. Ma_et_al._eLife (2021)
 :PROPERTIES:
