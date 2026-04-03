@@ -324,12 +324,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Fixed scientific notation (2×10⁷, 2×10³), unit superscripts (μL⁻¹, mL⁻¹, min⁻¹), chemical formula (MgCl₂), OD subscript (OD₆₀₀). Cell biology paper - no kinetic params or ion charges.
 :END:
-** WAITING 61. Hsieh_et al._Science(2020)
+** DONE 61. Hsieh_et al._Science(2020)
 :PROPERTIES:
 :MD_SLUG: 2020-07-23-SARS-CoV-2-Structure
 :DOI: 10.1126/science.abd0826
 :FILE: papers/_posts/2020-07-23-SARS-CoV-2-Structure.md
 :JOURNAL: Science
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Fixed T_m formatting (5 instances → *T*<sub>m</sub>). Figure captions, Greek letters (α, β), degree symbols, Angstrom symbols already correct.
 :END:
 ** DONE 60. Press et al. PNAS (2020)
 :PROPERTIES:
