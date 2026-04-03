@@ -495,13 +495,101 @@ sed -i '' 's/Mg2+/Mg²⁺/g' "$FILE"
 
 # 4. Chemical formulas
 sed -i '' 's/MgCl2/MgCl₂/g' "$FILE"
+sed -i '' 's/CaCl2/CaCl₂/g' "$FILE"
 sed -i '' 's/His6/His₆/g' "$FILE"
+sed -i '' 's/OD600/OD₆₀₀/g' "$FILE"
 
-# 5. Verify no remaining plain exponents
+# 5. Additional unit superscripts (methods sections)
+sed -i '' 's/μg μl−1/μg μl⁻¹/g' "$FILE"
+sed -i '' 's/mg ml−1/mg ml⁻¹/g' "$FILE"
+sed -i '' 's/μm2 s−1/μm² s⁻¹/g' "$FILE"
+
+# 6. Verify no remaining plain exponents or unformatted ions
 rg '× 10[0-9−]' "$FILE"
+rg 'Mg2\+|Ca2\+|Mn2\+' "$FILE"
+rg 'MgCl2|CaCl2' "$FILE"
 ```
 
 **Caution with sed:** Always check that the replacements don't clobber other text. For example, `His6` → `His₆` is safe because "His6" only appears as the hexahistidine tag in biochemistry papers. But watch for false positives with short patterns.
+
+### 6a.8 Additional common formatting issues
+
+These issues appear frequently across verified papers:
+
+#### Spectroscopic and optical measurements
+
+| Wrong | Correct | Context |
+|-------|---------|---------|
+| `OD600` | `OD₆₀₀` | Optical density at 600 nm |
+| `A260` | `A₂₆₀` | Absorbance at 260 nm |
+| `λex` / `λem` | `λ<sub>ex</sub>` / `λ<sub>em</sub>` | Excitation/emission wavelengths |
+
+#### Complex chemical names with subscripts
+
+Fluorescent reporters and labeled probes often have numeric subscripts:
+
+| Wrong | Correct |
+|-------|---------|
+| `FQ-C5` | `FQ-C₅` |
+| `FQ-C10` | `FQ-C₁₀` |
+| `FQ-T5` | `FQ-T₅` |
+| `FAM2-T5-Biotin2` | `FAM₂-T₅-Biotin₂` |
+| `Dig-Sp18-FAM-T5-Biotin2` | `Dig-Sp₁₈-FAM-T₅-Biotin₂` |
+
+#### Protein structural motifs
+
+| Wrong | Correct |
+|-------|---------|
+| `(βα)6-barrel` | `(βα)₆-barrel` |
+| `p202p102` (caspase stoichiometry) | `p20₂p10₂` |
+
+#### Concentration and physical units
+
+Extended unit superscripts commonly found in methods sections:
+
+| Wrong | Correct |
+|-------|---------|
+| `μm2 s−1` | `μm² s⁻¹` |
+| `μg μl−1` | `μg μl⁻¹` |
+| `mg ml−1` | `mg ml⁻¹` |
+| `ng μl−1` | `ng μl⁻¹` |
+| `μM−1` | `μM⁻¹` |
+| `mL−1` | `mL⁻¹` |
+| `L−1` | `L⁻¹` |
+| `W cm−2` | `W cm⁻²` |
+
+#### p-value asterisks in figcaptions
+
+Inside `<figcaption>` (HTML context), literal asterisks for statistical significance must be HTML-encoded to prevent markdown interpretation:
+
+| Wrong | Correct |
+|-------|---------|
+| `*P < 0.05` | `&#42;P < 0.05` |
+| `**P < 0.01` | `&#42;&#42;P < 0.01` |
+| `***P < 0.001` | `&#42;&#42;&#42;P < 0.001` |
+| `****P < 0.0001` | `&#42;&#42;&#42;&#42;P < 0.0001` |
+
+#### Species abbreviations in CRISPR papers
+
+Cas9/Cas12a ortholog papers use italicized species abbreviations:
+
+| Wrong | Correct |
+|-------|---------|
+| `SaCas9` or `Sa Cas9` | `_Sa_ Cas9` (body) or `<em>Sa</em> Cas9` (HTML) |
+| `SpCas9` | `_Sp_ Cas9` |
+| `FnCas9` | `_Fn_ Cas9` |
+| `NmeCas9` | `_Nme_ Cas9` |
+| `LbCas12a` | `_Lb_ Cas12a` |
+| `AsCas12a` | `_As_ Cas12a` |
+
+Note: Some papers use `dSaCas9` for dead/nuclease-dead variants — keep the `d` prefix non-italic: `d_Sa_ Cas9`.
+
+#### Latin terms
+
+Always italicize:
+- `*in vitro*`, `*in vivo*`, `*in situ*`
+- `*cis*`, `*trans*` (especially in Cas12a *trans*-cleavage papers)
+- `*de novo*`, `*et al.*`
 
 ---
 
