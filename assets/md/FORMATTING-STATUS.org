@@ -177,12 +177,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 91 refs ✓. Formatting fixes: [Mg²⁺] ion charges, [MgCl₂] chemical formula, extinction coefficients (1.13 × 10⁵, 8.98 × 10⁴, 9.58 × 10⁴, 1.01 × 10⁵ M⁻¹ cm⁻¹), 7370 M⁻¹ cm⁻¹, °C min⁻¹, mL min⁻¹, mL⁻¹ unit superscripts. SSB binding modes and cooperativity paper with ssDNA curtains methods.
 :END:
-** WAITING 78. Schaub et al. NAR (2022)
+** DONE 78. Schaub et al. NAR (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-04-22-Pol-theta-end-joining
 :DOI: 10.1093/nar/gkac119
 :FILE: papers/_posts/2022-04-22-Pol-theta-end-joining.MD
 :JOURNAL: NAR
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 69 refs ✓. Formatting fixes: MgCl₂/CaCl₂ subscripts (×4), Ca²⁺/Mg²⁺ ion charges (×5), ³²P radioactive isotope (×2), NAD⁺ superscript (×12), dT₅₀/poly-T₅₀ subscripts (×4), ml min⁻¹/mg ml⁻¹/μl min⁻¹/nt s⁻¹ unit superscripts (×20+), double-space headers (×11). Polθ-helicase TMEJ paper with ssDNA curtains single-molecule imaging.
 :END:
 ** WAITING 77. Eslami-Mossallam et al. Nat Commun (2022)
 :PROPERTIES:
@@ -230,12 +232,14 @@ Status key:
 :VERIFIED: 2026-04-03
 :VERIFIED_NOTES: Title ✓, authors ✓, Summary ✓, Statement of need ✓, Implementation ✓, code screenshots ✓, Fig 1 gene diagram ✓, Acknowledgements ✓, 12 refs ✓. Fixes: Figure 1 converted to HTML format, PMC citation links → local #refN anchors, reference anchors added, DOI links added, journal names italicized. No scientific notation, ions, or kinetic params in paper.
 :END:
-** WAITING 72. Schaub et al. Nat Protoc (2021)
+** DONE 72. Schaub et al. Nat Protoc (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-05-SARS-CoV-2-Spike-proteins
 :DOI: 10.1038/s41596-021-00623-0
 :FILE: papers/_posts/2021-10-05-SARS-CoV-2-Spike-proteins.MD
 :JOURNAL: Nature Protocols
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Introduction ✓, Table 1 ✓, Figs 1-4 ✓, Materials ✓, Procedure ✓, Anticipated Results ✓, Troubleshooting ✓, 49 refs ✓. Fixes: scientific notation (× 10⁵, 10⁶, 10⁷, 10⁸, 10⁹), chemical formulas (H₂SO₄, CO₂), unit superscripts (mg mL⁻¹), kinetic params (*k*<sub>on</sub>, *k*<sub>off</sub>), wavelength subscripts (*λ*<sub>ex</sub>, *λ*<sub>em</sub>), His₈-TwinStrep.
 :END:
 ** DONE 71. Blevins_et_al._Chem Sci. (2021)
 :PROPERTIES:
@@ -294,12 +298,14 @@ Status key:
 :FILE: papers/_posts/2021-03-10-Cas12a-nucleosomes.md
 :JOURNAL: Science Advances
 :END:
-** WAITING 63. Jones et al. Nat Biotechnol (2021)
+** DONE 63. Jones et al. Nat Biotechnol (2021)
 :PROPERTIES:
 :MD_SLUG: 2020-09-07-nucleaseq
 :DOI: 10.1038/s41587-020-0646-5
 :FILE: papers/_posts/2020-09-07-nucleaseq.md
 :JOURNAL: Nature Biotechnology
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, 101 refs ✓. Fixes: scientific notation exponents (10⁻¹, 10⁻³, 10⁻⁵, 10⁴), unit superscripts (s⁻¹, ml⁻¹, μl⁻¹), kinetic params (*k*<sub>c</sub>, *k*<sub>s</sub>, *k*<sub>m</sub>, *k*<sub>side</sub>), chemical formulas (MgCl₂, His₆, (NH₄)₂SO₄, MgSO₄), *r* correlation coefficient, double-space headers.
 :END:
 * 2020
 ** WAITING 64. Long et al. mBio (2020)
@@ -309,12 +315,14 @@ Status key:
 :FILE: papers/_posts/2020-10-30-Second-wave-SARS-CoV-2.md
 :JOURNAL: mBio
 :END:
-** WAITING 62. Frazer et al. NatMicrobiol (2020)
+** DONE 62. Frazer et al. NatMicrobiol (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-07-27-epigenetic-cell-fate
 :DOI: 10.1038/s41564-020-0760-7
 :FILE: papers/_posts/2020-07-27-epigenetic-cell-fate.md
 :JOURNAL: Nature Microbiology
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Fixed scientific notation (2×10⁷, 2×10³), unit superscripts (μL⁻¹, mL⁻¹, min⁻¹), chemical formula (MgCl₂), OD subscript (OD₆₀₀). Cell biology paper - no kinetic params or ion charges.
 :END:
 ** WAITING 61. Hsieh_et al._Science(2020)
 :PROPERTIES:
