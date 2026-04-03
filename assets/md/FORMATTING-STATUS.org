@@ -277,12 +277,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, summary ✓. Stub file only — PMC license restrictions prevented full-text archiving (bioRxiv preprint only). Contains summary/abstract from preprint. Formatting fix: 149 Å² area unit superscript. No figures, tables, or references in archive. PDF is full 5-page Science article with Figs 1-4 and 33 refs.
 :END:
-** WAITING 67. Calcines-Cruz et al. NanoLett(2021)
+** DONE 67. Calcines-Cruz et al. NanoLett(2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-17-artificial-virus
 :DOI: 10.1021/acs.nanolett.0c04640
 :FILE: papers/_posts/2021-03-17-artificial-virus.md
 :JOURNAL: Nano Letters
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 31 refs ✓. Formatting fixes: S₁₀ subscripts, [(AG)₃QG]₁₀ sequence, figures converted to HTML, inline citations converted to #refN anchors, PMC/PubMed/Google Scholar metadata stripped from references, duplicate placeholder sections removed.
 :END:
 ** DONE 66. Wesley Long et al. AmJPathol (2021)
 :PROPERTIES:
@@ -414,12 +416,13 @@ Status key:
 :FILE: papers/_posts/2019-07-04-adp-ribose-polymerase-1.md
 :JOURNAL: Nature Communications
 :END:
-** WAITING 51. Myler_et al._ Methods Mol Biol. (2019)
+** DONE 51. Myler_et al._ Methods Mol Biol. (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-05-31-mre1-rad50-nbs1-complex
 :DOI: 10.1007/978-1-4939-9520-2_20
 :FILE: papers/_posts/2019-05-31-mre1-rad50-nbs1-complex.md
 :JOURNAL: Methods Mol Biol.
+:VERIFIED: 2026-04-02
 :END:
 ** WAITING 50. Soniat_ et al._ Methods Mol Biol. (2019)
 :PROPERTIES:
