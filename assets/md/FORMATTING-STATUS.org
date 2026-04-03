@@ -347,12 +347,14 @@ Status key:
 :FILE: papers/_posts/2020-07-04-RADX-condensation.md
 :JOURNAL: Nucleic Acids Research
 :END:
-** WAITING 58. Deshpande _et al.,_ SciAdv (2020)
+** DONE 58. Deshpande _et al.,_ SciAdv (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-01-08-pkcs-end-processing
 :DOI: 10.1126/sciadv.aay0922
 :FILE: papers/_posts/2020-01-08-pkcs-end-processing.md
 :JOURNAL: Science Advances
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Fixed ³²P isotope notation, Mg²⁺ ion charge, MgCl₂/MnCl₂ chemical formulas, *t*<sub>1/2</sub> half-life notation, <em>t</em><sub>e</sub> in Fig 3, double-space headers, statistical significance markers in Fig 5 caption
 :END:
 * 2019
 ** WAITING 57. Kim _et al._ Science (2019) 
