@@ -260,12 +260,14 @@ Status key:
 :FILE: papers/_posts/2021-07-03-SARS-CoV-2-variants.md
 :JOURNAL: American Journal of Pathology
 :END:
-** WAITING 68. Voss et al. Science (2021)
+** DONE 68. Voss et al. Science (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-05-04-SARS-CoV-2-IgG
 :DOI: 10.1126/science.abg5268
 :FILE: papers/_posts/2021-05-04-SARS-CoV-2-IgG.md
 :JOURNAL: Science
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, summary ✓. Stub file only — PMC license restrictions prevented full-text archiving (bioRxiv preprint only). Contains summary/abstract from preprint. Formatting fix: 149 Å² area unit superscript. No figures, tables, or references in archive. PDF is full 5-page Science article with Figs 1-4 and 33 refs.
 :END:
 ** WAITING 67. Calcines-Cruz et al. NanoLett(2021)
 :PROPERTIES:

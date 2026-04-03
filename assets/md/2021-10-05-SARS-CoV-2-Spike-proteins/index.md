@@ -126,15 +126,15 @@ The entire procedure for purifying spike takes 1–2 weeks depending on the cell
   * Anti-spike antibodies, such as mAb CR3022 (Abcam, cat. no. ab273073)
   * Anti-human IgG Fab horseradish peroxidase (HRP) (Sigma-Aldrich, cat. no. A0293)
   * 1-Step Ultra TMB ELISA substrate (Thermo Fisher Scientific, cat. no. 34028)
-  * Sulfuric acid (H2SO4; Fisher Scientific, cat. no. 7664-93-9) **! CAUTION** H2SO4 is a harmful irritant. Wear protective equipment.
+  * Sulfuric acid (H₂SO₄; Fisher Scientific, cat. no. 7664-93-9) **! CAUTION** H₂SO₄ is a harmful irritant. Wear protective equipment.
 
 ### Equipment
 #### Cell culture
-  * Celltron benchtop shaker for CO2 incubators, 25 mm (Infors-HT, cat. no. [I69222](https://www.ncbi.nlm.nih.gov/nuccore/I69222))
+  * Celltron benchtop shaker for CO₂ incubators, 25 mm (Infors-HT, cat. no. [I69222](https://www.ncbi.nlm.nih.gov/nuccore/I69222))
   * LUNA-II automated cell counter (Logos Biosystems, cat. no. [L40002](https://www.ncbi.nlm.nih.gov/nuccore/L40002))
   * LUNA cell counting slides (Logos Biosystems, cat. no. L12001)
-  * CellXpert C170 CO2 incubator (Eppendorf, cat. no. 6734010015)
-  * CO2 gas
+  * CellXpert C170 CO₂ incubator (Eppendorf, cat. no. 6734010015)
+  * CO₂ gas
   * Laminar flow tissue culture hood
   * Water bath, 37 °C (Thermo Fisher Scientific, cat. no. TSGP05)
   * Nalgene; single-use polyethylene terephthalate (PETG) Erlenmeyer flasks with plain bottom: sterile (Thermo Fisher Scientific, cat. no. 4115-0125)
@@ -186,9 +186,9 @@ No supplementation is required. Antibiotics are not recommended.
 #### ExpiCHO expression medium
 No supplementation is required. Antibiotics are not recommended.
 #### Growth and maintenance of suspension FreeStyle 293-F cells
-Incubate suspension cell cultures in a 37 °C incubator containing a humidified atmosphere of 8% CO2 and rotating continuously at 120–130 rpm for small cultures and 80–90 rpm for large cultures. Subculture cells when the density is ~2–3 × 106 cells/mL. Dilute cells to 2–3 × 105 viable cells/mL in fresh and prewarmed (37 °C) FreeStyle 293 expression medium. Subculture cells every 3–4 d using a new single-use PETG Erlenmeyer flask (sterile).
+Incubate suspension cell cultures in a 37 °C incubator containing a humidified atmosphere of 8% CO₂ and rotating continuously at 120–130 rpm for small cultures and 80–90 rpm for large cultures. Subculture cells when the density is ~2–3 × 10⁶ cells/mL. Dilute cells to 2–3 × 10⁵ viable cells/mL in fresh and prewarmed (37 °C) FreeStyle 293 expression medium. Subculture cells every 3–4 d using a new single-use PETG Erlenmeyer flask (sterile).
 #### Growth and maintenance of suspension ExpiCHO-S cells
-Incubate suspension cell cultures as for FreeStyle 293-F cells. Subculture cells when the density is ~4–6 × 106 cells/mL. Dilute cells to 2–3 × 105 viable cells/mL in fresh and prewarmed (37 °C) ExpiCHO expression medium. Subculture cells every 3–4 d using a new single-use PETG Erlenmeyer flask (sterile).
+Incubate suspension cell cultures as for FreeStyle 293-F cells. Subculture cells when the density is ~4–6 × 10⁶ cells/mL. Dilute cells to 2–3 × 10⁵ viable cells/mL in fresh and prewarmed (37 °C) ExpiCHO expression medium. Subculture cells every 3–4 d using a new single-use PETG Erlenmeyer flask (sterile).
 #### Strep-Tactin wash buffer
 Dissolve 12.1 g Tris base, 8.77 g NaCl and 0.29 g EDTA in 900 mL ddH2O. Titrate pH to 8.0 with HCl. Add ddH2O to 1 L. Sterilize through a 0.22 μm filter. Store at 4 °C for up to 1 month.
 #### Strep-Tactin elution buffer
@@ -215,16 +215,16 @@ Express SARS-CoV-2 spike in either FreeStyle 293-F (option A) or ExpiCHO-S (opti
 **! CAUTION** Cell cultures are a potential biohazard. Ensure that mammalian cell work is performed in an approved laminar flow hood using aseptic technique. Follow institutional and governmental guidelines for recommended personal protective equipment and waste disposal while working with cell cultures. 
 **? TROUBLESHOOTING**
     1. Expression in FreeStyle 293-F cells ● Timing 6 d 
-      1. Cell seeding. For small-scale expression, dilute cells to ~5 × 105 cells/mL in a 125 mL single-use PETG Erlenmeyer flask to a total volume of 36 mL (~1.8 × 107 cells) with fresh, prewarmed FreeStyle 293 expression medium. Alternatively, for large-scale expression, dilute cells to ~5 × 105 cell/mL in a 2,800 mL single-use PETG Erlenmeyer flask to a total volume of 900 mL (~4.5 × 108 cells) with fresh, prewarmed FreeStyle 293 expression medium. 
+      1. Cell seeding. For small-scale expression, dilute cells to ~5 × 10⁵ cells/mL in a 125 mL single-use PETG Erlenmeyer flask to a total volume of 36 mL (~1.8 × 10⁷ cells) with fresh, prewarmed FreeStyle 293 expression medium. Alternatively, for large-scale expression, dilute cells to ~5 × 10⁵ cell/mL in a 2,800 mL single-use PETG Erlenmeyer flask to a total volume of 900 mL (~4.5 × 10⁸ cells) with fresh, prewarmed FreeStyle 293 expression medium. 
 **▲CRITICAL STEP** All cell culture solutions and equipment must be sterile. Culture suspension should not exceed 30–40% of the total flask volume. Ensure that cell viability is always >95%.
-      2. Incubate cultures at 37 °C with 8% CO2, shaking (120–130 rpm for small scale or 80–90 rpm for large scale) for 16–20 h.
-      3. Cell transfection. Mix 20 μL of seeded culture with 20 μL of trypan blue solution (1:1 ratio), and assess viability and density on a cell counting slide. Ensure that cell density is ~1.0–1.2 × 106 cells/mL and cell viability is >95% for optimal transfection efficiency. 
+      2. Incubate cultures at 37 °C with 8% CO₂, shaking (120–130 rpm for small scale or 80–90 rpm for large scale) for 16–20 h.
+      3. Cell transfection. Mix 20 μL of seeded culture with 20 μL of trypan blue solution (1:1 ratio), and assess viability and density on a cell counting slide. Ensure that cell density is ~1.0–1.2 × 10⁶ cells/mL and cell viability is >95% for optimal transfection efficiency. 
 ? TROUBLESHOOTING
       4. For small-scale experiments, add 2 mL of room temperature (RT, 25 °C) OptiMEM to a labeled 15 mL conical tube for each transfection, add 25 μg of plasmid DNA to each tube and mix by vortexing. For large-scale experiments, add 50 mL of RT OptiMEM to a labeled 50 mL conical tube for each transfection, add 1 mg of plasmid DNA to each tube and mix by vortexing.
       5. Create a transfection mix by adding 3 μL PEI per 1 μg plasmid DNA and OptiMEM(2 mL in a 15 mL conical tube per small-scale transfection or 50 mL in a 250 mL conical tube per large-scale transfection) for each transfection. Mix by vortexing.
       6. Filter the OptiMEM/plasmid DNA mix (2 mL for small scale or 50 mL for large scale) through a 0.22 μm syringe filter into the conical tube containing an equal volume of transfection mix. Mix by inversion.
       7. Wait 20 min and slowly add each final transfection mix (4 mL for small scale or 100 mL for large scale) to the cell cultures.
-      8. Incubate cultures at 37 °C with 8% CO2, shaking until time for collection. 
+      8. Incubate cultures at 37 °C with 8% CO₂, shaking until time for collection. 
 **▲CRITICAL STEP** Ensure that the plasmid DNA is endotoxin free and concentrated to >500 ng/μL. Do not syringe filter the transfection master mix or the final transfection mix after the DNA and PEI have been added. This will reduce the transfection efficiency.
       9. Cell collection. Pour cultures into 50 mL (small scale) or 250 mL (large scale) conical tubes.
       10. Centrifuge at 500 _g_ for 10 min at 4 °C to separate cells from the supernatant.
@@ -233,26 +233,26 @@ Express SARS-CoV-2 spike in either FreeStyle 293-F (option A) or ExpiCHO-S (opti
       13. Keep supernatant at 4 °C for same-day protein purification. 
 **■PAUSE POINT** Store supernatants at −80 °C for later purification. We did not observe any changes in purified spike quality between supernatants that were frozen at −80 °C and those that were used immediately.
     2. Expression in ExpiCHO-S Cells ● Timing 14 d 
-      1. Cell seeding. For small-scale expression, dilute cells to ~4 × 106 cells/mL in a 125 mL single-use PETG Erlenmeyer flask to a total volume of 25 mL (~1 × 108 cells) with fresh, prewarmed ExpiCHO expression medium. For large-scale expression, dilute cells to ~4 × 106 cells/mL in a 2,800 mL single-use PETG Erlenmeyer flask to a total volume of 750 mL (~3 × 109 cells) with fresh, prewarmed ExpiCHO expression medium. 
+      1. Cell seeding. For small-scale expression, dilute cells to ~4 × 10⁶ cells/mL in a 125 mL single-use PETG Erlenmeyer flask to a total volume of 25 mL (~1 × 10⁸ cells) with fresh, prewarmed ExpiCHO expression medium. For large-scale expression, dilute cells to ~4 × 10⁶ cells/mL in a 2,800 mL single-use PETG Erlenmeyer flask to a total volume of 750 mL (~3 × 10⁹ cells) with fresh, prewarmed ExpiCHO expression medium. 
 **▲CRITICAL STEP** Ensure that cell viability is always >95% prior to transfections. Avoid vortexing cells. 
 ? TROUBLESHOOTING
-      2. Incubate cultures at 37 °C with 8% CO2, shaking (120–130 rpm for small scale or 80–90 rpm for large scale) for 16–20 h.
-      3. Cell transfection. Mix 20 μL of seeded culture with 20 μL of trypan blue solution (1:1 ratio), and assess viability and density on a cell counting slide. Ensure that cell density is ~7–10 × 106 cells/mL and cell viability is >95% for optimal transfection efficiency. Dilute cultures to 6 × 106 cells/mL by discarding excess cells and diluting with fresh, prewarmed ExpiCHO expression medium back to the original culture volume.
+      2. Incubate cultures at 37 °C with 8% CO₂, shaking (120–130 rpm for small scale or 80–90 rpm for large scale) for 16–20 h.
+      3. Cell transfection. Mix 20 μL of seeded culture with 20 μL of trypan blue solution (1:1 ratio), and assess viability and density on a cell counting slide. Ensure that cell density is ~7–10 × 10⁶ cells/mL and cell viability is >95% for optimal transfection efficiency. Dilute cultures to 6 × 10⁶ cells/mL by discarding excess cells and diluting with fresh, prewarmed ExpiCHO expression medium back to the original culture volume.
       4. Chill the ExpiFectamine CHO reagent and plasmid DNA to 4 °C.
       5. For small-scale experiments, add 1 mL of OptiPRO medium and 20 μg of plasmid DNA to a 1.5 mL tube for each transfection and mix by inversion. For large-scale experiments, add 30 mL of OptiPRO medium and 600 μg of plasmid DNA to a 50 mL conical tube for each transfection and mix by inversion.
       6. Invert the ExpiFectamine CHO reagent several times prior to use.
       7. For small-scale experiments, add 80 μL of ExpiFectamine CHO reagent to 920 μL of OptiPRO medium in a 1.5 mL tube and mix by inversion. For large-scale experiments, add 2.4 mL of ExpiFectamine CHO reagent to 28 mL of OptiPRO medium in a fresh 250 mL conical tube and mix by inversion.
       8. Add the diluted plasmid DNA from step (v) to the ExpiFectamine CHO solution from step (vii), and mix by inversion.
       9. Incubate ExpiFectamine CHO/plasmid DNA complex at RT for 5 min. Then, slowly add the solution to the diluted cell culture from step (iii), swirling the flask gently during the addition.
-      10. Incubate the flask in a humidified atmosphere of 8% CO2 for 18–22 h, shaking at 37 °C. 
+      10. Incubate the flask in a humidified atmosphere of 8% CO₂ for 18–22 h, shaking at 37 °C. 
 **▲CRITICAL STEP** Ensure that stock plasmid DNA concentrations are >500 ng/μL and endotoxin free. Do not add ExpiFectamine CHO/plasmid DNA solution to cells quickly. This will reduce titers.
       11. Adding enhancers. For small-scale experiments, add 150 μL of ExpiFectamine CHO Enhancer and 6 mL of ExpiCHO Feed to each flask, swirling the flask gently during the addition. For large-scale experiments, add 4.5 mL of ExpiFectamine CHO Enhancer and 180 mL of ExpiCHO Feed to each flask, swirling the flask gently during the addition.
-      12. Incubate the flask in a humidified atmosphere of 5% CO2, shaking at 32 °C.
+      12. Incubate the flask in a humidified atmosphere of 5% CO₂, shaking at 32 °C.
       13. First supernatant collection. Pour cultures into labeled conical tubes.
       14. Centrifuge at 500 _g_ for 10 min at 4 °C to separate cells from the supernatant.
       15. Transfer the protein containing supernatant to fresh, labeled conical tubes without disturbing the cell pellet.
       16. Resuspend the cell pellet with fresh, prewarmed ExpiCHO expression medium (29 mL for small-scale experiments and 750 mL for large-scale experiments), and transfer back to the original flask. Add ExpiCHO Feed to the flask (6 mL for small-scale experiments or 180 mL for large-scale experiments), swirling the flask gently during the addition.
-      17. Incubate the flask in a humidified atmosphere of 5% CO2, shaking at 32 °C. 
+      17. Incubate the flask in a humidified atmosphere of 5% CO₂, shaking at 32 °C. 
 **■PAUSE POINT** The protein containing supernatant from step (xv) can either be stored at −80 °C to be combined with the supernatant from the day 12 collection (see below) or purified immediately. 
 **▲CRITICAL STEP** Avoid contamination of cell cultures during supernatant removal by using aseptic technique.
       18. Second supernatant collection. Pour cultures into labeled conical tubes.
@@ -265,16 +265,16 @@ Express SARS-CoV-2 spike in either FreeStyle 293-F (option A) or ExpiCHO-S (opti
 Purify the SARS-CoV-2 spike using either a Strep-Tactin (option A) or a Ni-NTA (option B) resin. 
     1. Purification with Strep-Tactin resin ● Timing 4 h 
       1. Add 2 mL of Strep-Tactin resin 50% slurry to Poly-Prep columns (Biorad). Equilibrate the resin with 5 mL Strep-Tactin wash buffer (five column volumes).
-      2. Add cleared supernatant to the column. To improve spike retention, reduce the flow rate to <3 mL min−1.
+      2. Add cleared supernatant to the column. To improve spike retention, reduce the flow rate to <3 mL min⁻¹.
       3. Wash the column with 5 mL Strep-Tactin wash buffer (five column volumes).
       4. Add 4 mL Strep-Tactin elution buffer for protein elution, and collect eluate in a single tube.
-      5. Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL−1 (maximum 10 mg mL−1) or below 500 μL if the protein will be further separated via size exclusion chromatography. Aliquot and store at −80 °C in Superose 6 SEC Buffer, or continue to the size exclusion chromatography step.
+      5. Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL⁻¹ (maximum 10 mg mL⁻¹) or below 500 μL if the protein will be further separated via size exclusion chromatography. Aliquot and store at −80 °C in Superose 6 SEC Buffer, or continue to the size exclusion chromatography step.
     2. Purification with Ni-NTA resin ● Timing 4 h 
       1. Add 2 mL of Ni-NTA resin slurry (50% beads in 30% ethanol) to Poly-Prep Columns (Biorad). Equilibrate the resin with 5 mL Ni-NTA wash buffer (five column volumes).
-      2. Supplement cleared supernatant with 10 mM imidazole, and add to the column for protein binding. Reduce the flow rate to <3 mL/min to improve spike retention.
+      2. Supplement cleared supernatant with 10 mM imidazole, and add to the column for protein binding. Reduce the flow rate to <3 mL min⁻¹ to improve spike retention.
       3. Wash the column with 5 mL Ni-NTA wash buffer (five column volumes).
       4. Add 4 mL Ni-NTA elution buffer for protein elution, and collect eluate.
-      5. Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL−1 (maximum 10 mg mL−1) or below 500 μL if the protein will be further separated via size exclusion chromatography. Aliquot and store at −80 °C in Superose 6 SEC Buffer, or continue to the size exclusion chromatography step. 
+      5. Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL⁻¹ (maximum 10 mg mL⁻¹) or below 500 μL if the protein will be further separated via size exclusion chromatography. Aliquot and store at −80 °C in Superose 6 SEC Buffer, or continue to the size exclusion chromatography step. 
 ? TROUBLESHOOTING
   * 3
 Equilibrate Superose 6 Column (Superose 6 Increase 10/300 GL, GE) on a fast protein liquid chromatograph with >1 column volume of Superose 6 SEC buffer.
@@ -283,7 +283,7 @@ Load purified spike protein into a 500 μL loop. Inject the sample at 0.5 mL/min
   * 5
 Pool peak fractions based on the chromatogram. Peak fraction should elute between 13 and 14 mL.
   * 6
-Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL−1 (maximum 10 mg mL−1). Aliquot and store at −80 °C, or continue to thermostability assay. 
+Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at 4,000 _g_ for 5 min (4 °C) or until concentrated to ~5 mg mL⁻¹ (maximum 10 mg mL⁻¹). Aliquot and store at −80 °C, or continue to thermostability assay. 
 **■PAUSE POINT** Concentrated protein can be flash frozen in liquid nitrogen. Plan to minimize freeze–thaw cycles. We recommend only a single freeze–thaw cycle and to store concentration protein for downstream assays or size exclusion chromatography.
 
 ### (Optional) Thermostability assay ● Timing 2 h
@@ -355,7 +355,7 @@ Add RT ELISA substrate reagent to plate at 50 μL/well.
   * 35
 Develop plate until top dilutions approach dark-blue saturation point (1–5 min typically).
   * 36
-Quench plate development by adding 50 μL/well of 4 M H2SO4. 
+Quench plate development by adding 50 μL/well of 4 M H₂SO₄. 
 **! CAUTION** Handle concentrated acid with caution.
   * 37
 Immediately transfer plate to a plate reader, and read at 450 nm. 
@@ -378,13 +378,13 @@ Step | Problem | Possible reason | Possible solution
 ---|---|---|---  
 1 | Cell culture contamination | Improper aseptic technique | Regularly check cultures for bacterial or fungal contamination. This can be done by observing cultures under a light microscope. Commercial mycoplasma detection kits should be used regularly. To prevent contaminations, use strict aseptic technique  
 1A(iii) | Poor transfection efficiency | FreeStyle 293-F suspension are clustering | Vigorously vortex cells for 20–30 s to obtain cultures composed predominantly of single cells  
-1B(ii) | Cells appear excessively clumpy or stringy | Cells are in stationary phase or have low viability | Ensure cells are in early log-phase growth (1.5–3 × 105 cells/mL) to avoid long doubling times and low titers  
+1B(ii) | Cells appear excessively clumpy or stringy | Cells are in stationary phase or have low viability | Ensure cells are in early log-phase growth (1.5–3 × 10⁵ cells/mL) to avoid long doubling times and low titers  
 |  |  | If cells have low viability, thaw out fresh cells and ensure viability is >95%  
 2 | No detectable protein after purification | Low protein expression | Run a western blot to detect spike in the supernatant. Confirm that cells have >95% viability. We observe low yields with older cells  
 |  | Protein not properly eluted from resin | Boil purification resin in 1× Laemmli buffer, spin down debris, and run the supernatant on an SDS-PAGE gel. If protein is present, increase the concentration of d-desthiobiotin or imidazole. Multiple purification tags on trimeric spike increases affinity for the resin  
 14 | No spike loading | Low/inaccurate concentration of spike or the protein has degraded | Increase/remeasure spike concentration. Run an SDS-PAGE to check if full-length spike is expressed  
 17 | Nonspecific binding of analytes | Insufficient blocking reagent and detergent | Increase the concentration of BSA and detergent  
-37 | Inaccurate or inconsistent plate readings | Precipitate may form over time after H2SO4 addition | Immediately read plate at 450 nm  
+37 | Inaccurate or inconsistent plate readings | Precipitate may form over time after H₂SO₄ addition | Immediately read plate at 450 nm  
 [Open in a new tab](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/table/T2/)
 ## Timing
 Step 1, cell culture and spike expression: 6–14 d
