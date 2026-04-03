@@ -293,12 +293,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (6 variant rows) ✓, Figs 1-2 ✓, 61 refs ✓. Fix: _in vitr_ o → *in vitro* (broken italics). Epidemiology/genomic surveillance paper — no scientific notation exponents, ion charges, chemical formulas, or kinetic params required.
 :END:
-** WAITING 65. Strohkendl et al. SciAdv (2021)
+** DONE 65. Strohkendl et al. SciAdv (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-10-Cas12a-nucleosomes
 :DOI: 10.1126/sciadv.abd6030
 :FILE: papers/_posts/2021-03-10-Cas12a-nucleosomes.md
 :JOURNAL: Science Advances
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1–4 ✓, 81 refs ✓. Fixed: double-space headers, scientific notation (×10⁻⁷ s⁻¹ etc.), unit superscripts (M⁻¹ s⁻¹), kinetic params (*k*<sub>max</sub>/*K*<sub>1/2</sub>), MgCl₂, [γ-³²P]ATP, stripped PMC/PubMed/Google Scholar links, Fig 1 caption asterisks, Fig 2 caption K_PAM/k_R-loop subscripts.
 :END:
 ** DONE 63. Jones et al. Nat Biotechnol (2021)
 :PROPERTIES:
@@ -310,12 +312,14 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, 101 refs ✓. Fixes: scientific notation exponents (10⁻¹, 10⁻³, 10⁻⁵, 10⁴), unit superscripts (s⁻¹, ml⁻¹, μl⁻¹), kinetic params (*k*<sub>c</sub>, *k*<sub>s</sub>, *k*<sub>m</sub>, *k*<sub>side</sub>), chemical formulas (MgCl₂, His₆, (NH₄)₂SO₄, MgSO₄), *r* correlation coefficient, double-space headers.
 :END:
 * 2020
-** WAITING 64. Long et al. mBio (2020)
+** DONE 64. Long et al. mBio (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-10-30-Second-wave-SARS-CoV-2
 :DOI: 10.1128/mBio.02707-20
 :FILE: papers/_posts/2020-10-30-Second-wave-SARS-CoV-2.md
 :JOURNAL: mBio
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Long/Olsen/Christensen), abstract ✓, Figs 1-8 ✓, Tables 1-2 ✓, 93 refs ✓. Formatting fixes: Converted 8 figures from old ***[Fig. N]*** format to HTML <figure> structure; stripped [[PMC free article]], [[PubMed]], [[Google Scholar]] metadata from all refs; converted inline PMC citation URLs to local #refN anchors; added <span id="refN"> anchors to 93 refs; removed "Open in a new tab" table artifacts; cleaned duplicate ref placeholders; fixed C_T subscript and EC₅₀ in figcaptions. COVID-19 genomics paper with large SNP tables and phylogenetic/geospatial data.
 :END:
 ** DONE 62. Frazer et al. NatMicrobiol (2020)
 :PROPERTIES:
@@ -395,12 +399,13 @@ Status key:
 :FILE: papers/_posts/2019-09-10-Cas9-inhibitors.md
 :JOURNAL: eLife
 :END:
-** WAITING 53. Soniat_et al._Mol. Cell (2019)
+** DONE 53. Soniat_et al._Mol. Cell (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-07-11-rpa-phosphorylation
 :DOI: 10.1016/j.molcel.2019.05.005
 :FILE: papers/_posts/2019-07-11-rpa-phosphorylation.md
 :JOURNAL: Molecular Cell
+:VERIFIED: 2026-04-02
 :END:
 ** WAITING 52. Caron_et al._ Nat. Commun. (2019)
 :PROPERTIES:
