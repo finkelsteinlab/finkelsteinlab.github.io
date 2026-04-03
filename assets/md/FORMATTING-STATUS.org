@@ -215,12 +215,14 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no tables, Figs 1–6 legends ✓, 70 refs ✓. Fixes: 10⁻³ exponent, Ca²⁺ ion, stoichiometry subscripts (Cas6)₁:(Cas7)₆ etc., protein subscripts TniQ₁/₂ TnsB₁/₂. No Significance box in MD (PNAS-only section, not in PMC scrape). No chemical formulas or kinetic params in paper.
 :END:
-** WAITING 73. Hill et al._J. Open Source Softw. (2021)
+** DONE 73. Hill et al._J. Open Source Softw. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-27-Python-package-gene-clusters
 :DOI: 10.21105/joss.03678
 :FILE: papers/_posts/2021-10-27-Python-package-gene-clusters.MD
 :JOURNAL: Journal of Open Source Software
+:VERIFIED: 2026-04-03
+:VERIFIED_NOTES: Title ✓, authors ✓, Summary ✓, Statement of need ✓, Implementation ✓, code screenshots ✓, Fig 1 gene diagram ✓, Acknowledgements ✓, 12 refs ✓. Fixes: Figure 1 converted to HTML format, PMC citation links → local #refN anchors, reference anchors added, DOI links added, journal names italicized. No scientific notation, ions, or kinetic params in paper.
 :END:
 ** WAITING 72. Schaub et al. Nat Protoc (2021)
 :PROPERTIES:
