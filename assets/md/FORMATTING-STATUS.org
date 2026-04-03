@@ -357,12 +357,14 @@ Status key:
 :VERIFIED_NOTES: Fixed ³²P isotope notation, Mg²⁺ ion charge, MgCl₂/MnCl₂ chemical formulas, *t*<sub>1/2</sub> half-life notation, <em>t</em><sub>e</sub> in Fig 3, double-space headers, statistical significance markers in Fig 5 caption
 :END:
 * 2019
-** WAITING 57. Kim _et al._ Science (2019) 
+** DONE 57. Kim _et al._ Science (2019) 
 :PROPERTIES:
 :MD_SLUG: 2019-12-13-cohesin-compaction
 :DOI: 10.1126/science.aaz4475
 :FILE: papers/_posts/2019-12-13-cohesin-compaction.md
 :JOURNAL: Science
+:VERIFIED: 2026-04-02
+:VERIFIED_NOTES: Fixed NIPBL<sup>C</sup> superscripts throughout (58 occurrences), unit superscripts (μm² s⁻¹, kb s⁻¹), double-space headers (Abstract, Acknowledgments, References). Cohesin loop extrusion single-molecule paper with DNA curtains, 4 figures, 43 references.
 :END:
 ** DONE 56. Mallam et al. Cell Reports (2019)
 :PROPERTIES:
