@@ -56,7 +56,7 @@ Status key:
 :JOURNAL: bioRxiv
 :END:
 * 2024
-** WAITING 92. Chin Sang et al. EMBO Rep (2024)
+** DONE 92. Chin Sang et al. EMBO Rep (2024)
 :PROPERTIES:
 :MD_SLUG: 2024-11-04-PARP1-condensates-EMBO-Reports
 :DOI: 10.1038/s44319-024-00285-5
