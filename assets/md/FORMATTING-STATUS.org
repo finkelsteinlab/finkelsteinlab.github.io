@@ -159,7 +159,7 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (10 rows, sequences match design logic) ✓, Figs 1-4 legends ✓, 28 refs ✓. Formatting fixes: Ag₈/Ag₁₀/Ag₁₁/Ag₁₄/Ag₁₆ subscripts, 4⁶/4¹⁸/10⁴ exponents, W cm⁻² units, T_B/T_D/F_B/F_D statistical subscripts, Gwinn possessive artifact, typos (hybridzation, characaterization), orders of magnitude.
 :END:
-** VERIFIED 80. Javanmardi et al. CellHostMicrobe (2022)
+** DONE 80. Javanmardi et al. CellHostMicrobe (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-08-04-Ab-escape-Omicron-spike
 :DOI: 10.1016/j.chom.2022.07.016
@@ -195,7 +195,7 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no data tables in paper, Figs 1-7 captions ✓ (restored full text from PDF), 71 refs ✓. Fixes: ~10²⁶ exponent, np→bp typo in Fig 5, Fig 7 kinetic: prefixes + uCFD→CFD, *k*_B_*T* formatting, figure anchor links, full caption restoration.
 :END:
-** VERIFIED 76. Jack et al. Dev. Cell (2022)
+** DONE 76. Jack et al. Dev. Cell (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-01-25-telomeres-phase-separation
 :DOI: 10.1016/j.devcel.2021.12.017
