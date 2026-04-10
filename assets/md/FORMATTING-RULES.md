@@ -51,6 +51,21 @@ Supplementary Fig. 5
 ```
 Per §3.3, supplementary figures must NOT link to local anchors. Strip these links but keep the text.
 
+### Orphaned brackets on figure references
+
+In Springer Nature papers (Nature Communications, etc.), the scraper links only the figure number, producing `Fig. [1A](PMC_URL)`. After PMC URL stripping, this leaves orphaned brackets: `Fig. [1A]`. Convert these to proper linked references per §3.1:
+```markdown
+<!-- BROKEN (orphaned brackets after PMC stripping) -->
+Fig. [1A]
+Fig. [3]B–C
+(Figs. [4]A and S6)
+
+<!-- FIXED -->
+[Fig. 1A](#fig1)
+[Fig. 3B–C](#fig3)
+([Fig. 4A](#fig4) and Supplementary Fig. S6)
+```
+
 ### "Open in a new tab" artifacts
 
 The scraper inserts `Open in a new tab` lines after tables. Delete these entirely:
