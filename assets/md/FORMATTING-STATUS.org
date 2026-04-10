@@ -74,7 +74,7 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: PDF verified page-by-page (12pp). Title ✓, authors ✓, abstract ✓, Table 1 (8 rows, all values match) ✓, Figs 1-7 + author photo ✓, legends ✓, 22 refs complete ✓. Fixes applied: Unicode superscripts for exponents (×10⁶ etc.) and units (M⁻¹ sec⁻¹), Mg²⁺ (6×), kinetic param subscripts (k_cat/K_M, k_on, k_off, K_d, t_1/2, k_obs, k_raw), chemical formulas (MgCl₂, His₆, γ-³²P), table footnote <sup> markers, removed PMC "Open in a new tab" artifact.
 :END:
-** WAITING 90. Kuo et al. Nat Commun (2024) :VERIFIED:
+** DONE 90. Kuo et al. Nat Commun (2024) :VERIFIED:
 :PROPERTIES:
 :MD_SLUG: 2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d
 :DOI: 10.1038/s41467-024-44738-w
@@ -106,7 +106,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Hibshman/Bravo), abstract ✓, Figs 1-7 ✓, 53 refs ✓. Formatting fixes: s⁻¹ superscripts (9), MgCl₂ subscripts (6), Mg²⁺ ion charges (5), *t*<sub>1/2</sub> half-life notation (2), μM⁻¹, ml⁻¹, μl⁻¹ units. Note: PDF is BioRxiv 2023 preprint; markdown is from published Nat Commun 2024 (includes SpG data not in preprint).
 :END:
-** WAITING 83. Hu et al. Nat Commun (2024)
+** DONE 83. Hu et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-03-04-horizontal-transfer
 :DOI: 10.1038/s41467-024-50816-w
