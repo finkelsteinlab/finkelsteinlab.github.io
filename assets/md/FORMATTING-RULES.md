@@ -58,6 +58,17 @@ The scraper inserts `Open in a new tab` lines after tables. Delete these entirel
 Open in a new tab     ← delete this line
 ```
 
+### Malformed mailto links
+
+The scraper sometimes prepends `http://` to `mailto:` links in STAR Methods / contact sections:
+```markdown
+<!-- BROKEN -->
+[email](http://mailto:user@example.edu)
+
+<!-- FIXED -->
+[email](mailto:user@example.edu)
+```
+
 ### Plain-text superscripts and subscripts
 
 The scraper strips all HTML `<sup>` and `<sub>` tags, producing plain text like `× 106 M−1 sec−1` instead of `× 10⁶ M⁻¹ sec⁻¹`, and `Mg2+` instead of `Mg²⁺`. See §6a for systematic fix procedures.
@@ -150,6 +161,22 @@ Examples:
 - `(Figs. 1A and 2B)` → `([Figs. 1A](#fig1) and [2B](#fig2))`
 - `(Fig. 1A–C)` → `([Fig. 1A–C](#fig1))`
 - `Figures 1D–G` → `[Figures 1D–G](#fig1)`
+
+### 3.1a Panel letters must be inside the link text
+
+Panel letters belong inside the linked text, not detached after it. Watch for two common scraper artifacts:
+
+```markdown
+<!-- BROKEN: space separates panel letter from link -->
+[Fig. 2](#fig2) A
+
+<!-- BROKEN: panel letter after closing bracket -->
+([Figure 3](#fig3)D)
+
+<!-- FIXED -->
+[Fig. 2A](#fig2)
+([Figure 3D](#fig3))
+```
 
 ### 3.2 Anchor format
 
