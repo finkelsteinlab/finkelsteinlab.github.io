@@ -197,7 +197,7 @@ The compatibility of RPA-TsCas12a with lateral flow addresses a long-standing is
 
 ---
 
-**Supplementary Information:** [Supplementary Information](https://pmc.ncbi.nlm.nih.gov/articles/instance/11785965/bin/41598_2025_86373_MOESM1_ESM.pdf) (1.9 MB, pdf).
+**Supplementary Information** is available with this article.
 
 **Author contributions:** Conceptualization, EAN, DM. Data collection, EAN, SS, JLC, AGK, RMK, RER, JPJ. Supervision, EAN, ADE, IJF, DM. Writing—original draft, EAN and DM. Writing—review and editing, all authors.
 
