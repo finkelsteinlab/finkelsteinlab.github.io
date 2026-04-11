@@ -302,7 +302,7 @@ Return the wafer to the oven (70 °C) for 3 h, or until fully cured.
 **_Cut, clean and assemble the multFYLM_**
 Remove the multFYLM from the master structure, then use a razor blade to trim away excess PDMS. Use a biopsy punch to make a direct path from each molded conduit to the nanoport on the opposite side of the multFYLM. Ultraclean the multFYLM and a large cover glass, then adhere them to one another. This completes assembly of the multFYLM.
      * 20
-Place a cover glass in a Petri dish containing a 2% Helmannex solution for one hour with agitation on a rocker.
+Place a cover glass in a Petri dish containing a 2% Hellmanex solution for one hour with agitation on a rocker.
      * 21
 Rinse the cover glass twice with diH2O. 
      * 22
