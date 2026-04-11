@@ -10,9 +10,9 @@ pmcid: PMC6380366
 
 **Kaylee E. Dillard, Jeffrey M. Schaub, Maxwell W. Brown, Fatema A. Saifuddin, Yibei Xiao, Erik Hernandez, Samuel D. Dahlhauser, Eric V. Anslyn, Ailong Ke, and Ilya J. Finkelstein**
 
-*Methods in Enzymology*, Volume 616, Pages 1–29 (2019)
+*Methods in Enzymology*, Volume 616, Pages 43–59 (2019)
 
-**DOI:** [10.1016/bs.mie.2018.10.011](https://doi.org/10.1016/bs.mie.2018.10.011)
+**DOI:** [10.1016/bs.mie.2018.10.031](https://doi.org/10.1016/bs.mie.2018.10.031)
 
 ---
 
@@ -142,10 +142,6 @@ The plasmids for sortase 7M (Addgene plasmid # 51141) and sortase 5M (Addgene pl
   3. Isolate the fluorescent Cascade complex via a HiPrep Sephacryl S-200 HR column (GE) in Cascade Gel Filtration Buffer.
   4. Collect the peak fractions and flash-freeze in liquid nitrogen to be stored at —80°C.
 
-<figure class="paper-figure" id="fig3">
-<img src="nihms-1012346-f0003.jpg" alt="Figure 3">
-<figcaption><strong>Figure 3. C-terminal sortase labeling of Cas3.</strong> (<b>A</b>) Structure of Cascade–Cas3 complexed with DNA (adapted from PDB: 6C66, <a href="#ref28">Xiao, Luo, Dolan, Liao, &amp; Ke, 2018</a>). Cas3 (<em>orange</em>) N- and C-termini are relatively solvent exposed away from DNA (<em>green</em>) and Cascade (<em>blue</em>). <em>Orange arrows</em> denote the N- and C-termini of Cas3 in the <em>insets</em>. <em>Red star</em> denotes approximate position of fluorescent label. (<b>B</b>) Plasmid digests show that C-terminally labeled Cas3 is more active than then N-terminally labeled protein. Time points of 10, 30, 60, 90, 120 min. (<b>C</b>) Sortase (7M) and (<b>D</b>) sortase (5M) were evaluated for C-terminal labeling of Cas3. Time points: 0.5, 1, 2, 4, 16 h. SDS-PAGE gel of Coomassie blue (<em>top</em>) and fluorescence (<em>bottom</em>) of the indicated proteins. (<b>E</b>) Quantification of fluorescent signals from (C) and (D). <em>Arrow</em> denotes conditions used for large-scale labeling. (<b>F</b>) Gel filtration chromatography trace showing that the fluorescent signal coelutes with Cas3. (<b>G</b>) SDS-PAGE gel of fluorescent Cas3. <em>Left</em>: Coomassie blue; <em>right</em>: fluorescent detection.</figcaption>
-</figure>
 ### 2.5. Purification of Tfu Cascade complexes and subunits for C-terminal sortase labeling
 #### 2.5.1. Cas3 purification and sortase labeling
 Cas3 contains a C-terminal LPETGG-TwinStrep motif for sortase labeling. The sortase reaction was optimized as described earlier for Cas2. After fluorescent labeling, the protein is sized on a gel filtration column to remove free dye and sortase protein.
@@ -162,6 +158,11 @@ Cas3 contains a C-terminal LPETGG-TwinStrep motif for sortase labeling. The sort
   11. Isolate fluorescent Cas3 by applying to a HiPrep Sephacryl S-200 HR column (GE) equilibrated in Cas3 Gel Filtration Buffer.
   12. Collect the fractions containing fluorescent Cas3 and spin concentrate to about 1 mL (EMD Millipore, UFC903024).
   13. Aliquot and flash-freeze the protein in liquid nitrogen before storing at —80°C.
+
+<figure class="paper-figure" id="fig3">
+<img src="nihms-1012346-f0003.jpg" alt="Figure 3">
+<figcaption><strong>Figure 3. C-terminal sortase labeling of Cas3.</strong> (<b>A</b>) Structure of Cascade–Cas3 complexed with DNA (adapted from PDB: 6C66, <a href="#ref28">Xiao, Luo, Dolan, Liao, &amp; Ke, 2018</a>). Cas3 (<em>orange</em>) N- and C-termini are relatively solvent exposed away from DNA (<em>green</em>) and Cascade (<em>blue</em>). <em>Orange arrows</em> denote the N- and C-termini of Cas3 in the <em>insets</em>. <em>Red star</em> denotes approximate position of fluorescent label. (<b>B</b>) Plasmid digests show that C-terminally labeled Cas3 is more active than then N-terminally labeled protein. Time points of 10, 30, 60, 90, 120 min. (<b>C</b>) Sortase (7M) and (<b>D</b>) sortase (5M) were evaluated for C-terminal labeling of Cas3. Time points: 0.5, 1, 2, 4, 16 h. SDS-PAGE gel of Coomassie blue (<em>top</em>) and fluorescence (<em>bottom</em>) of the indicated proteins. (<b>E</b>) Quantification of fluorescent signals from (C) and (D). <em>Arrow</em> denotes conditions used for large-scale labeling. (<b>F</b>) Gel filtration chromatography trace showing that the fluorescent signal coelutes with Cas3. (<b>G</b>) SDS-PAGE gel of fluorescent Cas3. <em>Left</em>: Coomassie blue; <em>right</em>: fluorescent detection.</figcaption>
+</figure>
 
 ### 2.6. Optimization of sortase-mediated fluorescent labeling
 Sortase labeling of proteins requires optimization of three variables: sortase variants, temperature, and time.
