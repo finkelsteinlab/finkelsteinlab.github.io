@@ -12,7 +12,7 @@ pmcid: PMC9665560
 
 *Nature Protocols*, Volume 16, Issue 11, Pages 5339–5356 (2021)
 
-**DOI:** [10.1038/s41596-021-00623-4](https://doi.org/10.1038/s41596-021-00623-4)
+**DOI:** [10.1038/s41596-021-00623-0](https://doi.org/10.1038/s41596-021-00623-0)
 
 ---
 
@@ -288,7 +288,7 @@ Concentrate the eluate in a 30 kDa cutoff spin concentrator (Amicon Ultra-15) at
 
 ### (Optional) Thermostability assay ● Timing 2 h
   * 7
-Dilute spike protein to a final concentration of 0.25 mg/mL, and deposit 15 μL per well into a MicroAmp Fast 96-Well Reaction Plate (0.1 mL). Plan to have enough protein for at least three replicates per sample.
+Dilute spike protein to a final concentration of 0.25 mg mL⁻¹, and deposit 15 μL per well into a MicroAmp Fast 96-Well Reaction Plate (0.1 mL). Plan to have enough protein for at least three replicates per sample.
   * 8
 Create a SYPRO Orange solution by diluting the 5,000× stock to 20× (0.5 μL in 125 μL buffer). Make sure that your SYPRO Orange dilution buffer matches your protein buffer.
   * 9
