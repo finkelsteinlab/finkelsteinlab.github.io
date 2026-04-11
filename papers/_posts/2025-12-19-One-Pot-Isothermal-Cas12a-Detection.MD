@@ -12,6 +12,7 @@ authors: "Selma Sinan, Remy M. Kooistra, Karunya Rajaraman, Zeba Islam, Damian M
 pdf: 0096-2025-Sinan et al-ACSSynBio.pdf
 supplement:
 doi: 10.1021/acssynbio.5c00463
+markdown: 2025-12-19-One-Pot-Isothermal-Cas12a-Detection
 pmcid:
 pmid: 41248489
 extra_text: ''
