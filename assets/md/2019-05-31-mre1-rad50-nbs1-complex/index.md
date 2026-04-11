@@ -12,7 +12,7 @@ pmcid: PMC6667175
 
 *Methods Mol. Biol.*, Volume 2004, Pages 269–287 (2019)
 
-**DOI:** [10.1007/978-1-4939-9562-2_17](https://doi.org/10.1007/978-1-4939-9562-2_17)
+**DOI:** [10.1007/978-1-4939-9520-2_20](https://doi.org/10.1007/978-1-4939-9520-2_20)
 
 ---
 
@@ -270,7 +270,7 @@ MRN contains a 3′ to 5′ exonuclease activity and an endonuclease activity [[
 
 ---
 ## Acknowledgments
-We are indebted to Dr. Mauro Modesti for reagents. This work was supported by CPRIT (to I.J.F.), the National Institutes of Health (GM120554 and CA092584 to I.J.F.) and the Welch Foundation (F-l808 to I.J.F.). M.M.S. is supported by a postdoctoral fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452). T.T.P. is an investigator of the Howard Hughes Medical Institute. I.J.F. is a CPRIT Scholar in cancer research.
+We are indebted to Dr. Mauro Modesti for reagents. This work was supported by CPRIT (to I.J.F.), the National Institutes of Health (GM120554 and CA092584 to I.J.F.) and the Welch Foundation (F-1808 to I.J.F.). M.M.S. is supported by a postdoctoral fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452). T.T.P. is an investigator of the Howard Hughes Medical Institute. I.J.F. is a CPRIT Scholar in cancer research.
 ## 4 Notes
 1.
 High MRN expression requires using healthy cells. This means that >99% of cells should adhere to the bottom within an hour and that the size of the cells should be uniformly small, not enlarged or floating (_see_ [Fig. 2](#fig2) for a representative image of insect cells on a plate). We have used both Sf21 and Sf9 cells successfully with the caveat that MRN yield is critically dependent on using the healthiest cells possible; MRN yield decreases rapidly when cells are not healthy.
