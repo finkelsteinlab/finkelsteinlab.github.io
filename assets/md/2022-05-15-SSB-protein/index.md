@@ -26,13 +26,16 @@ pmcid: PMC9400470
 - [Acknowledgements](#acknowledgements)
 
 ---
-##  Abstract
+
+## Abstract
 _E. coli_ single-stranded-DNA binding protein (_Ec_ SSB) displays nearest-neighbor (NN) and non-nearest-neighbor (NNN)) cooperativity in binding ssDNA during genome maintenance. NNN cooperativity requires the intrinsically-disordered linkers (IDL) of the C-terminal tails. Potassium glutamate (KGlu), the primary _E. coli_ salt, promotes NNN-cooperativity, while KCl inhibits it. We find that KGlu promotes compaction of a single polymeric SSB-coated ssDNA beyond what occurs in KCl, indicating a link of compaction to NNN-cooperativity. _Ec_ SSB also undergoes liquid-liquid phase separation (LLPS), inhibited by ssDNA binding. We find that LLPS, like NNN-cooperativity, is promoted by increasing [KGlu] in the physiological range, while increasing [KCl] and/or deletion of the IDL eliminate LLPS, indicating similar interactions in both processes. From quantitative determinations of interactions of KGlu and KCl with protein model compounds, we deduce that the opposing effects of KGlu and KCl on SSB LLPS and cooperativity arise from their opposite interactions with amide groups. KGlu interacts unfavorably with the backbone (especially Gly) and side chain amide groups of the IDL, promoting amide-amide interactions in LLPS and NNN-cooperativity. By contrast, KCl interacts favorably with these amide groups and therefore inhibits LLPS and NNN-cooperativity. These results highlight the importance of salt interactions in regulating the propensity of proteins to undergo LLPS.
 **Keywords:** DNA replication, Liquid-liquid phase separation, single molecule DNA collapse, biomolecular condensates, salt effects
+
 ---
-##  Introduction
+
+## Introduction
 Single stranded (ss) DNA binding proteins (SSBs) are essential in all kingdoms of life. SSBs bind ssDNA intermediates formed transiently during genome maintenance to protect them from degradation and inhibit DNA secondary structures.[1](#ref1)-[4](#ref4) _Escherichia coli_ SSB (_Ec_ SSB) also serves as a central hub for binding numerous metabolic proteins (SSB interacting proteins - SIPs) involved in replication, recombination and repair.[5](#ref5)
-_Ec_ SSB functions as a homo-tetramer ([Figure 1 (A)](#fig1)),[3](#ref3),[6](#ref6) with each subunit (177 amino acids (aa)) composed of two domains ([Figure 1(B)](#fig1)): a structured N-terminal DNA binding domain (DBD) (residues 1-112), and a C-terminal domain (residues 113-177, [Figure 1(D)](#fig1)) composed of a flexible, intrinsically disordered linker (IDL) [56aa] and a nine residue "acidic tip" ([Figure 1(B)](#fig1)). This acidic tip is conserved among many bacterial SSBs and is the primary site of interaction with the SIPs.[5](#ref5),[7](#ref7)-[13](#ref13) _Ec_ SSB binds ssDNA in two major modes referred to as (SSB)35 and (SSB)65, where the subscripts denote the average number of ssDNA nucleotides occluded.[14](#ref14),[15](#ref15) The relative stabilities of these modes depend on salt concentration and type, and protein to DNA ratio (binding density),[14](#ref14),[16](#ref16)-[24](#ref24) as well as applied force.[25](#ref25)-[28](#ref28)
+_Ec_ SSB functions as a homo-tetramer ([Figure 1(A)](#fig1)),[3](#ref3),[6](#ref6) with each subunit (177 amino acids (aa)) composed of two domains ([Figure 1(B)](#fig1)): a structured N-terminal DNA binding domain (DBD) (residues 1-112), and a C-terminal domain (residues 113-177, [Figure 1(D)](#fig1)) composed of a flexible, intrinsically disordered linker (IDL) [56aa] and a nine residue "acidic tip" ([Figure 1(B)](#fig1)). This acidic tip is conserved among many bacterial SSBs and is the primary site of interaction with the SIPs.[5](#ref5),[7](#ref7)-[13](#ref13) _Ec_ SSB binds ssDNA in two major modes referred to as (SSB)35 and (SSB)65, where the subscripts denote the average number of ssDNA nucleotides occluded.[14](#ref14),[15](#ref15) The relative stabilities of these modes depend on salt concentration and type, and protein to DNA ratio (binding density),[14](#ref14),[16](#ref16)-[24](#ref24) as well as applied force.[25](#ref25)-[28](#ref28)
 
 <figure class="paper-figure" id="fig1">
 <img src="nihms-1828880-f0007.jpg" alt="Figure 1">
@@ -43,8 +46,10 @@ In the (SSB)35 mode, favored at [NaCl] < 10 mM or [MgCl₂] < 1 mM, and high SSB
 Another level of non-nearest-neighbor (NNN) cooperativity has been identified recently for SSB bound to polymeric ssDNA.[23](#ref23),[28](#ref28),[32](#ref32) This NNN cooperativity occurs between SSB tetramers distantly bound to polymeric ssDNA and results in compaction/condensation of nucleoprotein complexes. Such interactions require the IDL[23](#ref23),[32](#ref32) and are promoted by glutamate and acetate salts.[23](#ref23),[28](#ref28),[32](#ref32)
 _Ec_ SSB also undergoes liquid-liquid phase separation (LLPS) under solution conditions that mimic the _E. coli_ environment. The intrinsically disordered C-terminal tails of SSB are essential for LLPS, which is suppressed by ssDNA.[37](#ref37) Here we explore the ability of _Ec_ SSB to undergo LLPS as a function of temperature, salt type and concentration. We also explore how modifications within the IDL affect LLPS. We show that elevated concentrations of potassium glutamate (KGlu), the primary monovalent salt in _E. coli_ ,[38](#ref38),[39](#ref39) promotes LLPS whereas KCl has the opposite effect. A similar observation was first made by Harami et al. using NaGlu and NaCl.[37](#ref37) We present a thermodynamic analysis of interactions of KCl with protein model compounds and compare these with results for KGlu[40](#ref40) showing that these large opposing effects of KGlu and KCl on SSB LLPS likely result from their opposite interactions with backbone (especially G) and side chain amides of the SSB IDL in solution. We therefore propose that these amide groups interact with one another in the condensed phase, reducing or eliminating their interactions with water and salt ions. These amide-amide interactions, favored by KGlu and disfavored by KCl, appear to be important contributors to LLPS.
 SSB LLPS, like NNN cooperative interactions of DNA-bound SSB, is a highly cooperative process. We find that conditions that promote LLPS also promote NNN cooperativity of SSB binding to ssDNA and conclude that similar cooperative interactions of tail residues drive these two processes mediated by ssDNA.
+
 ---
-##  Results
+
+## Results
 ### Constructing phase diagrams using turbidity measurements
 Liquid-liquid phase separation (LLPS) of _Ec_ SSB, recently observed in the absence of ssDNA, is inhibited by binding of ssDNA.[37](#ref37) We refer to this phenomenon as LLPS, or simply phase separation (PS), although it has also been referred to as phase separation aided percolation (PSP).[41](#ref41) LLPS of SSB is promoted by KGlu and requires the intrinsically disordered tails of SSB.[37](#ref37) Here, we explore how KGlu and KCl affect phase separation by determining their effect on the temperature corresponding to the phase boundary for different concentrations of SSB. These measurements were performed at different concentrations of KCl and KGlu using spectroscopic turbidity measurements.[42](#ref42)-[44](#ref44) The results of typical experiments at two SSB concentrations (3 and 12 μM) are shown in [Figure 2](#fig2) (buffer T, 0.20 M KGlu). Starting at a temperature above the cloud point temperature (TPS) (25 °C and 50 °C, respectively), where the solutions are homogeneous, the temperature was decreased gradually. When the TPS is reached (~23 °C and 44 °C, respectively) the turbidity of the solution starts to increase. We use this as a proxy for the onset of phase separation. The further increase in turbidity reflects the growth of phase separated droplets.[37](#ref37) However, at some point this process slows and turbidity starts to decrease (12 μM, grey circles). Importantly, this process is reversible (3 μM, orange line) in the temperature range where turbidity rises, whereas reversibility is lost as the temperature is decreased further into the region where turbidity begins to decrease (12 μM, grey line). This irreversibility is supported by the fact that after the temperature reversal the SSB concentration decreased to 9 μM from the starting concentration of 12 μM, whereas the SSB concentration is maintained in the experiment performed at the lower [SSB] of 3 μM.
 <figure class="paper-figure" id="fig2">
@@ -59,7 +64,7 @@ We investigated the effects of KGlu and KCl concentrations on the phase behavior
 <img src="nihms-1828880-f0009.jpg" alt="Figure 3">
 <figcaption><strong>Figure 3. Increasing [Glu⁻] facilitates <em>Ec</em> SSB LLPS, but increasing [Cl⁻] inhibits LLPS.</strong> SSB liquid-liquid phase diagrams (T<sub>PS</sub> vs. [SSB], buffer T) obtained at different concentrations of (A) KGlu: 30 mM (blue), 40 mM (green), 50 mM (magenta), 100 mM (orange), 200 mM (dark yellow) and 400 mM (violet); (B) KCl: 40 mM (magenta), 50 mM (dark yellow), 60 mM (blue), 80 mM (purple), 100 mM (dark green) and 60 mM NaCl (green). (C) SSB phase diagrams (T<sub>PS</sub> vs [salt], buffer P) obtained for 8 μM SSB as a function of KCl (squares) and KGlu (circles).</figcaption>
 </figure>
-In contrast, the effect of [KCl] on TPS of SSB differs qualitatively from that of [KGlu] ([Figure 3 (B)](#fig3)). In KCl, all TPS values are shifted to lower temperatures and show the opposite dependence on [KCl]. The TPS is nearly constant at low [KCl] (<60 mM) but then decreases gradually, indicating that KCl disfavors phase separation, eventually eliminating condensate formation at high [KCl]. Effects of 60 mM KCl and NaCl (blue and green circles in [Figure 3(B)](#fig3)) are essentially the same indicating that interactions of K+ and Na+ with these SSB groups are the same (see Discussion). We note that the addition of 50 mM NaCl significantly decreases the ability of SSB to undergo phase separation in 0.10 M KGlu (compare orange and green circle dependences in [Figure 4(A)](#fig4)), although it does not eliminate phase separation (compare with [Figure 3(B)](#fig3)).
+In contrast, the effect of [KCl] on TPS of SSB differs qualitatively from that of [KGlu] ([Figure 3(B)](#fig3)). In KCl, all TPS values are shifted to lower temperatures and show the opposite dependence on [KCl]. The TPS is nearly constant at low [KCl] (<60 mM) but then decreases gradually, indicating that KCl disfavors phase separation, eventually eliminating condensate formation at high [KCl]. Effects of 60 mM KCl and NaCl (blue and green circles in [Figure 3(B)](#fig3)) are essentially the same indicating that interactions of K+ and Na+ with these SSB groups are the same (see Discussion). We note that the addition of 50 mM NaCl significantly decreases the ability of SSB to undergo phase separation in 0.10 M KGlu (compare orange and green circle dependences in [Figure 4(A)](#fig4)), although it does not eliminate phase separation (compare with [Figure 3(B)](#fig3)).
 <figure class="paper-figure" id="fig4">
 <img src="nihms-1828880-f0010.jpg" alt="Figure 4">
 <figcaption><strong>Figure 4. Number of tails and IDL deletions affect <em>Ec</em> SSB LLPS.</strong> SSB liquid-liquid phase diagrams (T<sub>PS</sub> vs [SSB], buffer T, 0.1 M KGlu) obtained for: (A) two tailed SSB-LD-<em>Drl</em> (open orange circles) and (B) SSB with IDL deletions, Δ151-166 (green), Δ130-166 (grey), Δ120-166 (magenta). Phase diagrams of wtSSB for the same conditions are shown for comparison, including the effect of addition of 50 mM NaCl (panel A, green circles for wtSSB and open green circles for SSB-LD-<em>Drl</em>).</figcaption>
@@ -92,8 +97,10 @@ KCl _α_ -values are compared with KGlu _α_ -values in [Figure 6](#fig6). The b
 <figcaption><strong>Figure 6. Intrinsic Strengths of Interaction of KGlu and KCl with Unified C, N and O Atoms of Proteins.</strong> Interaction potentials (<em>α</em>-values: Eq. (4) and Table S2) quantify the interactions of KCl (blue) and KGlu<sup><a href="#ref40">40</a></sup> (red) with a unit area of each type of unified atom of the protein model compounds at 23-25 °C. Unfavorable interactions have positive <em>α</em>-values.</figcaption>
 </figure>
 From these comparisons we deduce that the dramatically different effects of KCl vs. KGlu on SSB LLPS, especially at high salt where KGlu promotes but KCl inhibits LLPS, result from the very different non-Coulombic interactions of these salts with amide groups in the IDL regions of the C-terminal tails which are buried in amide-amide interactions that help drive SSB LLPS. KGlu interacts unfavorably with these amides in solution (Tables S2, S3 and Discussion) and therefore promotes amide-amide interactions in LLPS and NNN-cooperativity. By contrast, KCl interacts favorably with these amide groups in solution and therefore inhibits LLPS and NNN-cooperativity.
+
 ---
-##  Discussion
+
+## Discussion
 The formation of membraneless biomolecular condensates (phase separation) is a well-recognized, biologically important process.[54](#ref54)-[57](#ref57) Phase separation has been studied most widely and thought to be most relevant in eukaryotic systems. This is due to the fact that intrinsically disordered regions (IDRs) of proteins, that are effective drivers of phase separation, make up ~40% of eukaryotic proteomes, but less than ~5% of bacterial proteomes.[58](#ref58) However, it has been argued that membraneless biomolecular condensates are also important in bacteria.[41](#ref41)
 It has been shown that the _E. coli_ SSB tetramer can undergo phase separation at conditions that mimic physiological (20 mM NaCl, 50 mM NaGlu, 5 mM Mg Acetate, pH 7.5).[37](#ref37) Most experiments in that study were performed by varying SSB concentration at or near 25 °C. In our experiments we monitored the turbidity of SSB solutions upon lowering the temperature and determined the temperature at which turbidity is first observed (TPS)[42](#ref42)-[44](#ref44) ([Figure 2](#fig2)). This allowed us to construct phase diagrams (coexistence curves) of TPS vs [SSB][45](#ref45),[46](#ref46),[55](#ref55),[59](#ref59) to determine how they are affected by solution conditions (salt concentration and type).
 The temperature-induced onset of turbidity is reversible in a narrow temperature range indicating that the cloud points are reasonable proxies for the actual Tbimodal below which the system separates into two coexisting phases.[59](#ref59),[45](#ref45)-[48](#ref48) We also note that this approach (starting with highly soluble SSB in the buffer alone) allows one to interrogate conditions of any mixture of salts at any concentration.
@@ -130,11 +137,13 @@ These comparisons indicate that the same conditions that favor NNN cooperative b
 </figure>
 ### Biological implications of SSB phase separation
 It has been proposed that the propensity of _E. coli_ SSB alone to undergo phase separation and the loss of this ability upon binding ssDNA implicates phase separation of SSB _in vivo_ as a mechanism to sequester SSB until it is needed for DNA metabolism.[37](#ref37),[85](#ref85) First, highly concentrated/condensed SSB can be easily delivered to ssDNA. SSB has been reported to localize near the cell membrane,[86](#ref86) as well as at replication forks.[36](#ref36) Second, it is possible that SSB condensates may serve as vehicles to deliver myriad SSB interacting proteins (SIPs) to their places of action on DNA. SIPs usually interact weakly (Kd ~0.1-1 μM) with SSB through the conserved acidic tip.[8](#ref8),[13](#ref13),[25](#ref25) However, in SSB condensates SIP accumulation should increase due to the high SSB concentrations (~4 mM).[37](#ref37) In fact, Harami et al. showed that RecQ is enriched in SSB condensates _in vivo_.[37](#ref37) Third, dis-solution of the SSB condensates upon interaction with DNA could result in the immediate coating of the ssDNA with SSB and result in the release of the SIPs to function on ssDNA. It is important to note that the loss of the ability of SSB bound to ssDNA to undergo phase separation is replaced by the ability of a single polymeric ssDNA molecule, when saturated with SSB, to undergo compaction/condensation via NNN cooperative interactions of DNA bound SSB tetramers. This, in turn, could bring together different proteins bound exclusively to SSB or ssDNA for further action.
+
 ---
-##  Materials and Methods
+
+## Materials and Methods
 ### Reagents and buffers
 Buffers were prepared with reagent grade chemicals and distilled water treated with a Milli Q (Millipore, Bedford, MA) water purification system. Buffer T is 10 mM Tris, pH 8.1 (25 °C), 0.1 mM Na3EDTA, Buffer P is 10 mM phosphate, pH 7.5 (25 °C), 0.1 mM Na3EDTA. The final concentrations of monovalent salts (KGlu, KCl and NaCl, Sigma-Aldrich, reagent grade) in the solutions were achieved by mixing with solutions of Buffer T or Buffer P containing 1 M KGlu, 2 M KCl or 2 M NaCl. Single molecule imaging buffers (I) and (II) are 10 mM Tris-HCl, pH 7.5, 1 mM DTT, and 0.2 mg/ml BSA (NEB B9000S) and 10 mM Tris-HCl, pH 8.1, 0.5 mM 2-mercaptoethanol, respectively.
-_Plasmodium falciparum_ SSB (_Pf_ SSB), _E. coli_ SSB protein (_Ec_ SSB) and its tail variants (see [Figure 1](#fig1)) were expressed and purified as described[32](#ref32),[87](#ref87) including a new variant, SSB-Ktip in which 4 Asp in the tip sequence were replaced with 4 Lys. All SSB proteins in this study form stable tetramers under all solution conditions used in this study as determined by sedimentation velocity.[32](#ref32),[87](#ref87) SSB-LD-_Drl_ is an SSB dimer construct in which two OB folds of each monomer are covalently linked using a 23 amino acid linker from _Dr_ SSB ([Figure 1 (C(iii))](#fig1)) as described[12](#ref12) and thus possesses only two C-terminal tails ([Figure 1(C(iii))](#fig1)). Protein concentrations were determined spectrophotometrically[14](#ref14) (buffer T, 0.20 M NaCl) using _ε_ 280 = 1.13 × 10⁵ M⁻¹ cm⁻¹ for wtSSB, SSBΔ151-166 and SSBKtip; _ε_ 280 = 8.98 × 10⁴ M⁻¹ cm⁻¹ for SSBΔ130-166, SSBΔ120-166, SSB-_ΔL_ and SSB-_EcPfEc_ ; _ε_ 280 = 9.58 × 10⁴ M⁻¹ cm⁻¹ for _Pf_ SSB; and _ε_ 280 = 1.01 × 10⁵ M⁻¹ cm⁻¹ for SSB-LD-_Drl_ and are reported as SSB tetramer concentrations (or dimers in the case of SSB-LD-_Drl_).
+_Plasmodium falciparum_ SSB (_Pf_ SSB), _E. coli_ SSB protein (_Ec_ SSB) and its tail variants (see [Figure 1](#fig1)) were expressed and purified as described[32](#ref32),[87](#ref87) including a new variant, SSB-Ktip in which 4 Asp in the tip sequence were replaced with 4 Lys. All SSB proteins in this study form stable tetramers under all solution conditions used in this study as determined by sedimentation velocity.[32](#ref32),[87](#ref87) SSB-LD-_Drl_ is an SSB dimer construct in which two OB folds of each monomer are covalently linked using a 23 amino acid linker from _Dr_ SSB ([Figure 1(C(iii))](#fig1)) as described[12](#ref12) and thus possesses only two C-terminal tails ([Figure 1(C(iii))](#fig1)). Protein concentrations were determined spectrophotometrically[14](#ref14) (buffer T, 0.20 M NaCl) using _ε_ 280 = 1.13 × 10⁵ M⁻¹ cm⁻¹ for wtSSB, SSBΔ151-166 and SSBKtip; _ε_ 280 = 8.98 × 10⁴ M⁻¹ cm⁻¹ for SSBΔ130-166, SSBΔ120-166, SSB-_ΔL_ and SSB-_EcPfEc_ ; _ε_ 280 = 9.58 × 10⁴ M⁻¹ cm⁻¹ for _Pf_ SSB; and _ε_ 280 = 1.01 × 10⁵ M⁻¹ cm⁻¹ for SSB-LD-_Drl_ and are reported as SSB tetramer concentrations (or dimers in the case of SSB-LD-_Drl_).
 Single stranded M13 mp18 DNA used for sedimentation velocity experiments was from New England Biolabs (Catalog #N4040S). The concentration was determined spectrophotometrically in buffer T + 0.10 M NaCl using _ε_ 259 = 7370 M⁻¹ cm⁻¹ (nucleotide).[88](#ref88) Low-complexity single stranded DNA substrates used for the ssDNA curtains were prepared as described.[52](#ref52),[89](#ref89) Briefly, 5 μM of phosphorylated template oligo IF239 (/5Phos/AG GAG AAA AAG AAA AAA AGA AAA GAA GG) and 4.5 μM biotinylated primer oligo IF238 (5/Biosg/TC TCC TCC TTC T) were annealed in T4 ligase reaction buffer (NEB B0202S). The mixture was heated to 75 °C for 5 min and cooled to 4 °C at a rate of - 1 °C min⁻¹. Annealed circles were ligated with the addition of 1 μL of T4 DNA ligase (NEB M0202S) at room temperature for ~4 hours. Low-complexity ssDNA was synthesized in phi29 DNA polymerase reaction buffer (NEB M0269S), 500 μM dCTP and dTTP (NEB N0446S), 0.2 mg mL⁻¹ BSA (NEB B9000S), 10 nM annealed circles, and 100 nM of home-made phi29 DNA polymerase. The solution was mixed and immediately injected into the flow cell and incubated at 30 °C for ~30 min. ssDNA synthesis was quenched by removing excess nucleotides and polymerase with imaging buffer (I). ssDNA was end-labeled with mouse anti-dsDNA primary antibody (Thermo MA1-35346) followed by Alexa488-labeled goat anti-mouse secondary antibody (Thermo A28175) in the flow cell.
 ### Turbidity measurements
 Turbidity measurements were performed using a Cary-100 spectrophotometer (Agilent, Santa Clara, CA) with a Temperature-Controller 550 and a 8 × 6 muliti-cell block-750 thermostat accessory. Typically, low volume (140 μL) cells (1 cm pathway) were filled with solutions containing protein and varied buffer/salt composition at a temperature above the apparent phase separation transition temperature, TPS, where the solution is totally transparent. Phase separation was monitored by following the increase in turbidity (light scattering) at 600 nm upon continuous decrease of the temperature (0.2 °C/min). We found that rates in the range of 0.1-0.3 °C/min are optimal for these experiments. In this range the TPS is not dependent on the rate. Moreover, we found that the shapes (slopes) of the curves in the reversible region are very similar suggesting that there is no dependence on incubation time. The reversibility of the transitions was monitored by increasing the temperature at a rate of 0.2-0.3 °C/min.
@@ -167,10 +176,13 @@ These ASA values have been reported.[40](#ref40),[53](#ref53) The set of _μ_ 23
 <img src="nihms-1828880-f0014.jpg" alt="Cover Illustration">
 <figcaption><strong>Cover Illustration.</strong> <em>E. coli</em> SSB protein, an essential replication and repair protein, can form a biomolecular condensate via phase separation in the absence of DNA. Phase separation is promoted by potassium glutamate (KGlu), which is the major physiological monovalent salt in bacteria, however, single stranded DNA binding to SSB inhibits this phase separation. However, when SSB is bound to polymeric single stranded DNA, KGlu promotes cooperative binding of SSB on the DNA and compaction of single DNA molecules. The non-physiological salt, KCl, inhibits both phase separation and DNA collapse. The equilibria in the presence of KGlu are proposed to be used to regulate SSB function in genome maintenance. The figure was made by Kacey Mersch.</figcaption>
 </figure>
+
 ---
-##  Acknowledgements
+
+## Acknowledgements
 We thank R. Galletto for use of his Cary-100 spectrophotometer for turbidity measurements and J. Incicco and A. Soranno for help with imaging experiments. We thank R.Pappu for stimulating discussions, advice, enlightening comments and encouragement, and K. Mersch for discussions and comments on the ms. This research was supported in part by the NIH (R01 GM30498 and R35 GM136632 to TML) (R35 GM118100 to MTR), and NSF (CAREER award 1453358 to IJF).
-##  Abbreviations:
+
+## Abbreviations:
 
 LLPS
 
@@ -207,8 +219,200 @@ single stranded DNA
 
 ## References
 
-For the complete references list, please see the [full text on PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/) or the published article in *J. Am. Chem. Soc.* 144(33):15062-15079 (2022).
+<span id="ref1">1.</span> Chase, J.W., Williams, K.R. (1986). Single-stranded DNA binding proteins required for DNA replication. *Annu. Rev. Biochem.* **55**, 103–136.
 
----
+<span id="ref2">2.</span> Meyer, R.R., Laine, P.S. (1990). The single-stranded DNA-binding protein of *Escherichia coli*. *Microbiol. Rev.* **54**, 342–380.
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/) on PubMed Central.
+<span id="ref3">3.</span> Lohman, T.M., Ferrari, M.E. (1994). *Escherichia coli* single-stranded DNA-binding protein: multiple DNA-binding modes and cooperativity. *Annu. Rev. Biochem.* **63**, 527–570.
+
+<span id="ref4">4.</span> Wold, M.S. (1997). Replication protein A: a heterotrimeric, single-stranded DNA-binding protein required for eukaryotic DNA metabolism. *Annu. Rev. Biochem.* **66**, 61–92.
+
+<span id="ref5">5.</span> Shereda, R.D., Kozlov, A.G., Lohman, T.M., Cox, M.M., Keck, J.L. (2008). SSB as an organizer/mobilizer of genome maintenance complexes. *Crit. Rev. Biochem. Mol. Biol.* **43**, 289–318.
+
+<span id="ref6">6.</span> Raghunathan, S., Kozlov, A.G., Lohman, T.M., Waksman, G. (2000). Structure of the DNA binding domain of *E. coli* SSB bound to ssDNA. *Nature Struct. Biol.* **7**, 648–652.
+
+<span id="ref7">7.</span> Genschel, J., Curth, U., Urbanke, C. (2000). Interaction of *E. coli* single-stranded DNA binding protein (SSB) with exonuclease I: the carboxy-terminus of SSB is the recognition site for the nuclease. *Biol. Chem.* **381**, 183–192.
+
+<span id="ref8">8.</span> Marceau, A.H., Bahng, S., Massoni, S.C., George, N.P., Sandler, S.J., Marians, K.J., et al. (2011). Structure of the SSB–DNA polymerase III interface and its role in DNA replication. *EMBO J.* **30**, 4236–4247.
+
+<span id="ref9">9.</span> Butland, G., Peregrin-Alvarez, J.M., Li, J., Yang, W., Yang, X., Canadien, V., et al. (2005). Interaction network containing conserved and essential protein complexes in *Escherichia coli*. *Nature* **433**, 531–537.
+
+<span id="ref10">10.</span> Ryzhikov, M., Koroleva, O., Postnov, D., Tran, A., Korolev, S. (2011). Mechanism of RecO recruitment to DNA by single-stranded DNA binding protein. *Nucleic Acids Res.* **39**, 6305–6314.
+
+<span id="ref11">11.</span> Antony, E., Weiland, E., Yuan, Q., Manhart, C.M., Nguyen, B., Kozlov, A.G., et al. (2013). Multiple C-terminal tails within a single *E. coli* SSB Homotetramer Coordinate DNA Replication and Repair. *J. Mol. Biol.* **425**, 4995–5008.
+
+<span id="ref12">12.</span> Shinn, M.K., Kozlov, A.G., Nguyen, B., Bujalowski, W.M., Lohman, T.M. (2021). Are the intrinsically disordered linkers involved in SSB binding to accessory proteins? *Nucleic Acids Res.* **47**, 8581–8594.
+
+<span id="ref13">13.</span> Lohman, T.M., Overman, L.B. (1985). Two binding modes in *Escherichia coli* single strand binding protein-single stranded DNA complexes. Modulation by NaCl concentration. *J. Biol. Chem.* **260**, 3594–3603.
+
+<span id="ref14">14.</span> Lohman, T.M., Overman, L.B. (1985). Two binding modes in *Escherichia coli* single strand binding protein-single stranded DNA complexes. *J. Biol. Chem.* **260**, 3594–3603.
+
+<span id="ref15">15.</span> Lohman, T.M., Bujalowski, W. (1988). *Escherichia coli* single strand binding protein-ssDNA complexes. *Biochemistry* **27**, 2260–2265.
+
+<span id="ref16">16.</span> Lohman, T.M., Green, J.M., Beyer, R.S. (1986). Large-scale overproduction and rapid purification of the *Escherichia coli* ssb gene product. *Biochemistry* **25**, 21–25.
+
+<span id="ref17">17.</span> Griffith, J.D., Harris, L.D., Register, J.H. (1984). Visualization of SSB-ssDNA complexes active in the assembly of stable RecA-DNA filaments. *Cold Spring Harb. Symp. Quant. Biol.* **49**, 553–559.
+
+<span id="ref18">18.</span> Chrysogelos, S., Griffith, J. (1982). *Escherichia coli* single-strand binding protein organizes single-stranded DNA in nucleosome-like units. *Proc. Natl. Acad. Sci. U. S. A.* **79**, 5803–5807.
+
+<span id="ref19">19.</span> Overman, L.B., Bujalowski, W., Lohman, T.M. (1988). Equilibrium binding of *Escherichia coli* single-strand binding protein to single-stranded nucleic acids in the (SSB)65 binding mode. *Biochemistry* **27**, 456–471.
+
+<span id="ref20">20.</span> Bujalowski, W., Lohman, T.M. (1986). *Escherichia coli* single-strand binding protein forms multiple, distinct complexes with single-stranded DNA. *Biochemistry* **25**, 7799–7802.
+
+<span id="ref21">21.</span> Overman, L.B., Lohman, T.M. (1994). Linkage of pH, anion and cation effects in protein-nucleic acid equilibria. *J. Mol. Biol.* **236**, 165–178.
+
+<span id="ref22">22.</span> Lohman, T.M., Overman, L.B., Datta, S. (1986). Salt-dependent changes in the DNA binding co-operativity of *Escherichia coli* single strand binding protein. *J. Mol. Biol.* **187**, 603–615.
+
+<span id="ref23">23.</span> Kozlov, A.G., Weiland, E., Mittal, A., Waldminghaus, T., Antony, E., Fazio, N., et al. (2015). Intrinsically disordered C-terminal tails of *E. coli* single-stranded DNA binding protein regulate cooperative binding to single-stranded DNA. *J. Mol. Biol.* **427**, 763–774.
+
+<span id="ref24">24.</span> Kozlov, A.G., Lohman, T.M. (2002). Kinetic mechanism of direct transfer of *Escherichia coli* SSB tetramers between single-stranded DNA molecules. *Biochemistry* **41**, 11611–11627.
+
+<span id="ref25">25.</span> Roy, R., Kozlov, A.G., Lohman, T.M., Ha, T. (2009). SSB protein diffusion on single-stranded DNA stimulates RecA filament formation. *Nature* **461**, 1092–1097.
+
+<span id="ref26">26.</span> Zhou, R., Kozlov, A.G., Roy, R., Zhang, J., Korolev, S., Lohman, T.M., et al. (2011). SSB functions as a sliding platform that migrates on DNA via reptation. *Cell* **146**, 222–232.
+
+<span id="ref27">27.</span> Dubiel, K., Myers, A.R., Kozlov, A.G., Yang, O., Zhang, J., Ha, T., et al. (2019). Structural Mechanics of *Escherichia coli* Type I Restriction Enzyme and Its DNA-Translocating Motor. *Struct. Fold. Des.* **27**, 1–18.
+
+<span id="ref28">28.</span> Bell, J.C., Liu, B., Kowalczykowski, B.C. (2015). Imaging and energetics of single SSB-ssDNA molecules reveal intramolecular condensation and insight into RecOR function. *eLife* **4**, e08646.
+
+<span id="ref29">29.</span> Bujalowski, W., Lohman, T.M. (1987). Limited co-operativity in protein-nucleic acid interactions. A thermodynamic model for the interactions of *Escherichia coli* single strand binding protein with nucleic acids in the "beaded," (SSB)65 mode. *J. Mol. Biol.* **195**, 897–907.
+
+<span id="ref30">30.</span> Roy, R., Kozlov, A.G., Lohman, T.M., Ha, T. (2007). Dynamic structural rearrangements between DNA binding modes of *E. coli* SSB protein. *J. Mol. Biol.* **369**, 1244–1257.
+
+<span id="ref31">31.</span> Griffith, J., Makhov, A., Raskin, L., Tennyson, R., Shillito, E., Herrick, G. (1997). *Escherichia coli* SSB wraps ssDNA as an octamer. *Proc. Natl. Acad. Sci. U. S. A.* **94**, 1710–1715.
+
+<span id="ref32">32.</span> Kozlov, A.G., Lohman, T.M. (1999). Regulation of Nearest-Neighbor Cooperative Binding of *Escherichia coli* SSB Protein to ssDNA by Its Intrinsically Disordered C-terminal Tail. *J. Mol. Biol.* **vol**, 1–15.
+
+<span id="ref33">33.</span> Matsumoto, A.H., Rahing, S., Massoni, S.C., George, N.P., Sandler, S.J., Marians, K.J., et al. (2011). Structure of the SSB binding site on SSB-ssDNA and its role in replication. *EMBO J.* **30**, 4236–4247.
+
+<span id="ref34">34.</span> Kozlov, A.G., Jezewska, M.J., Bujalowski, W., Lohman, T.M. (2010). Regulation of Nearest-Neighbor Cooperative Binding of *Escherichia coli* SSB Protein to ssDNA. *J. Mol. Biol.* **400**, 374–395.
+
+<span id="ref35">35.</span> Kozlov, A.G., Lohman, T.M. (2002). Kinetic Mechanism of Direct Transfer of *Escherichia coli* SSB Tetramers. *Biochemistry* **41**, 11611.
+
+<span id="ref36">36.</span> Costes, A., Lecointe, F., McGovern, S., Quevillon-Cheruel, S., Polard, P. (2010). The C-terminal domain of the bacterial SSB protein acts as a DNA maintenance hub at active replication forks. *PLoS Genet.* **6**, e1001238.
+
+<span id="ref37">37.</span> Harami, G.M., Kovacs, Z.J., Pancsa, R., Pálinkás, J., Baráth, V., Tárnok, K., et al. (2020). Phase separation by ssDNA binding protein controlled via protein-protein and protein-DNA interactions. *Proc. Natl. Acad. Sci. U. S. A.* **117**, 26206–26217.
+
+<span id="ref38">38.</span> Richey, B., Cayley, D.S., Mossing, M.C., Kolka, C., Anderson, C.F., Farrar, T.C., et al. (1987). Variability of the intracellular ionic environment of *Escherichia coli*. Differences between *in vitro* and *in vivo* effects of ion concentrations on protein-DNA interactions and gene expression. *J. Biol. Chem.* **262**, 7157–7164.
+
+<span id="ref39">39.</span> Record, Jr., M.T., Courtenay, E.S., Cayley, D.S., Guttman, H.J. (1998). Responses of *E. coli* to osmotic stress: large changes in amounts of cytoplasmic solutes and water. *Trends Biochem. Sci.* **23**, 143–148.
+
+<span id="ref40">40.</span> Cheng, X., Guinn, E.J., Bucher, E., Wong, R., Sengupta, A., Shkel, I.A., et al. (2016). Basis for the Understanding of the Effect of KGlu: Unfavorable Interactions with Carbon, Oxygen. *Biophys. J.* **111**, 1654–1665.
+
+<span id="ref41">41.</span> Azaldegui, C.A., Bharat, A.K., Bharat, T.A.V., Bharat, T.A.M., Bharat, F.M.J. (2021). The emergence of phase separation as an organizing principle in bacteria. *Biophys. J.* **120**, 1123–1138.
+
+<span id="ref42">42.</span> Atwell, S., Sedelnikova, A., Millqg, T. (2010). Considerations and Challenges of Liquid–Liquid Phase Separation for Biomedical Condensates. *Cell* **165**, 1–18.
+
+<span id="ref43">43.</span> McAffee, A.L., Tang, Y.S., He, N., James, A.M., Seo, D.H., Hayward, D. (2021). Liquid–Liquid phase separation of biotransformation. *Nat. Struct. Mol. Biol.* **28**, 1159–1168.
+
+<span id="ref44">44.</span> Daw, J., Schultz, P., Zinsov, S., Simon, R.R. (2019). Temperature-dependent liquid–liquid phase separation of proteins. *Biophys. J.* **117**, 1543–1563.
+
+<span id="ref45">45.</span> Rubinstein, M., Colby, R.H. (2003). *Polymer Physics*. Oxford University Press, New York, NY.
+
+<span id="ref46">46.</span> Posey, A.E., Holehouse, A.S., Pappu, R.V. (2018). Phase Separation of Intrinsically Disordered Proteins. *Methods Enzymol.* **611**, 1–30.
+
+<span id="ref47">47.</span> Thomson, J.A., Schurtenberger, P., Thurston, G.M., Benedek, G.B. (1987). Binary liquid phase separation and critical phenomena in a protein/water solution. *Proc. Natl. Acad. Sci. U. S. A.* **84**, 7079–7083.
+
+<span id="ref48">48.</span> Gelbart, W.M., Ben-Shaul, A., Roux, D. (1994). *Micelles, Membranes, Microemulsions, and Monolayers*. Springer-Verlag, New York.
+
+<span id="ref49">49.</span> Kozlov, A.G., Lohman, T.M. (1998). Calorimetric studies of *E. coli* SSB protein-single-stranded DNA interactions. Effects of monovalent salts on binding enthalpy. *J. Mol. Biol.* **278**, 999–1014.
+
+<span id="ref50">50.</span> Bharat, T., Bharat, A., Bharat, F. (2020). Identification of the C-terminus as the site of interaction of SSB with ssDNA. *Proc. Natl. Acad. Sci. U. S. A.* **114**, 6078–6085.
+
+<span id="ref51">51.</span> Su, X.C., Wang, Y., Yagi, H., Shishmarev, D., Mason, C.E., Smith, P., et al. (2014). Bound or free: interaction of the C-terminal domain of *Escherichia coli* single-stranded DNA-binding protein (SSB) with the tetrameric core of SSB. *Biochemistry* **53**, 1925–1934.
+
+<span id="ref52">52.</span> Schaub, J.M., Zhang, H., Soniat, M.M., Bharat, F.M., Bharat, T.A.V., Bharat, A.K., et al. (2020). Assessing Protein Dynamics on Low-Complexity Single-Stranded DNA Curtains via *Escherichia coli* SSB Protein. *Methods Enzymol.* **592**, 261–285.
+
+<span id="ref53">53.</span> Cheng, X., Shkel, I.A., O'Connor, K., Henrich, J., McIntire, C., Bharat, P.A., et al. (2016). Interactions of Nucleotide Amide and Amide/Imide Groups with KGlu and KCl. *Biophys. J.* **110**, 2316–2327.
+
+<span id="ref54">54.</span> Hyman, A.A., Weber, C.A., Julicher, F. (2014). Liquid-liquid phase separation in biology. *Annu. Rev. Cell Dev. Biol.* **30**, 39–58.
+
+<span id="ref55">55.</span> Alberti, S., Gladfelter, A., Mittag, T. (2019). Considerations and Challenges in Studying Liquid-Liquid Phase Separation and Biomolecular Condensates. *Cell* **176**, 419–434.
+
+<span id="ref56">56.</span> Banani, S.F., Lee, H.O., Hyman, A.A., Rosen, M.K. (2017). Biomolecular condensates: organizers of cellular biochemistry. *Nat. Rev. Mol. Cell Biol.* **18**, 285–298.
+
+<span id="ref57">57.</span> Zhang, Y., Cremer, P.S. (2000). The inverse and direct Hofmeister series for lysozyme. *Proc. Natl. Acad. Sci. U. S. A.* **106**, 15249–15253.
+
+<span id="ref58">58.</span> Peng, Z., Yan, J., Fan, X., Mizianty, M.J., Xue, B., Wang, K., et al. (2014). Exceptionally abundant exceptions: comprehensive characterization of intrinsic disorder in all domains of life. *Cell. Mol. Life Sci.* **71**, 137–152.
+
+<span id="ref59">59.</span> Wentworth, P. (2002). Antibody Catalysis of the Oxidation of Water. *Science* **298**, 2195.
+
+<span id="ref60">60.</span> Kozlov, A.G., Cheng, X., Zhang, H., Shinn, M.K., Weiland, E., Nguyen, B., et al. (2022). A statistically significant clustering of Gly residues is conserved in SSBs. *J. Mol. Biol.* **434**, 167562.
+
+<span id="ref61">61.</span> Nott, T.J., Petsalaki, E., Farber, P., Jervis, D., Fussner, E., Plochowietz, A., et al. (2015). Phase transition of a disordered nuage protein generates environmentally responsive membraneless organelles. *Mol. Cell* **57**, 936–947.
+
+<span id="ref62">62.</span> Kato, M., Han, T.W., Xie, S., Shi, K., Du, X., Wu, L.C., et al. (2012). Cell-free formation of RNA granules: low complexity sequence domains form dynamic fibers within hydrogels. *Cell* **149**, 753–767.
+
+<span id="ref63">63.</span> Bogaert, E., Boeynaems, S., Kato, M., Guo, L., Caulfield, T.R., Steyaert, J., et al. (2018). Molecular Dissection of FUS Points at Synergistic Effect of Low-Complexity Domains in Toxicity. *Cell Rep.* **24**, 529–537.
+
+<span id="ref64">64.</span> Cinar, H., Fetahaj, Z., Cinar, S., Vernon, R.M., Chan, H.S., Winter, R.H.A. (2019). Temperature, Hydrostatic Pressure, and Osmolyte Effects on Liquid–Liquid Phase Separation in Protein Condensates: Physical Chemistry and Biological Implications. *Chem.–Eur. J.* **25**, 13049–13069.
+
+<span id="ref65">65.</span> Dignon, G.L., Zheng, W., Mittal, J. (2019). Simulation methods for liquid–liquid phase separation of disordered proteins. *Curr. Opin. Chem. Eng.* **23**, 92–98.
+
+<span id="ref66">66.</span> Boire, A., Sanchez, C., Morel, M.H., Menut, P., Guillemin, F. (2013). Soft condensed matter physics meets the biology of proteins. *Soft Matter* **9**, 10484–10494.
+
+<span id="ref67">67.</span> Ramirez, D.A., Hough, L.E., Bharat, A.K. (2021). Intrinsically disordered regions of the phage P4 capsid promote liquid–liquid phase separation. *eLife* **10**, e59542.
+
+<span id="ref68">68.</span> Maharana, S., Wang, J., Papadopoulos, D.K., Richter, D., Pozniakovsky, A., Poser, I., et al. (2018). RNA buffers the phase separation behavior of prion-like RNA binding proteins. *Science* **360**, 918–921.
+
+<span id="ref69">69.</span> Ahlers, J., Adams, E.M., Bader, V., Bharat, S., Westeneng, H.J., Bharat, T.A. (2021). The key role of solvent in condensation: mapping water in liquid-liquid phase-separated FUS. *Biophys. J.* **120**, 1266–1275.
+
+<span id="ref70">70.</span> Dhakal, S., Lim, C. (2021). Similar Physical Properties of FUS Using Electrostatic Ionic Interactions. *Proc. Natl. Acad. Sci. U. S. A.* **118**, e2024822118.
+
+<span id="ref71">71.</span> Cinar, H., Winter, R. (2020). The effects of cosolutes and crowding on the kinetics of protein condensate formation based on liquid–liquid phase separation: a pressure-jump relaxation study. *Sci. Rep.* **10**, 1–11.
+
+<span id="ref72">72.</span> Saha, S., Weber, C.A., Bharat, M., Bharat, F.M., Bharat, T., Bharat, A. (2016). Polar Positioning of Phase-Separated Liquid Compartments in Cells Regulated by an mRNA Competition Mechanism. *Cell* **166**, 1572–1584.
+
+<span id="ref73">73.</span> Hofmeister, F. (1888). Zur Lehre von der Wirkung der Salze. *Arch. Exp. Pathol. Pharmakol.* **24**, 247–260.
+
+<span id="ref74">74.</span> Collins, K.D., Washabaugh, M.W. (1985). The Hofmeister effect and the behaviour of water at interfaces. *Q. Rev. Biophys.* **18**, 323–422.
+
+<span id="ref75">75.</span> Record, Jr., M.T., Guinn, E., Pegram, L., Capp, M. (2013). Introductory Lecture: Interpreting and predicting Hofmeister salt ion and solute effects on biopolymer and model processes using the solute partitioning model. *Faraday Discuss.* **160**, 9–44.
+
+<span id="ref76">76.</span> Tsang, B., Arsenault, J., Vernon, R.M., Lin, H., Sonenberg, N., Wang, L.Y., et al. (2019). Phosphoregulated FMRP phase separation models activity-dependent translation through bidirectional control of mRNA granule formation. *Proc. Natl. Acad. Sci. U. S. A.* **116**, 4218–4227.
+
+<span id="ref77">77.</span> Leirmo, S., Harrison, C., Cayley, D.S., Burgess, R.R., Record, Jr., M.T. (1987). Replacement of potassium chloride by potassium glutamate dramatically enhances protein-DNA interactions in vitro. *Biochemistry* **26**, 2095–2101.
+
+<span id="ref78">78.</span> Roe, J.H., Record, Jr., M.T. (1985). *Escherichia coli* RecA protein binds to single-stranded DNA in two distinct modes: interaction with sugar-phosphate backbone. *J. Mol. Biol.* **186**, 385–396.
+
+<span id="ref79">79.</span> Cosgrove, M.S., Bharat, A.H., Bharat, T., Bharat, F. (2000). The role of glutamate in promoting *E. coli* SSB phase separation. *Nat. Struct. Biol.* **7**, 648–652.
+
+<span id="ref80">80.</span> Kozlov, A.G., Lohman, T.M. (2006). Effects of monovalent anions on a temperature-dependent heat capacity change for *Escherichia coli* SSB tetramer binding to single-stranded DNA. *Biochemistry* **45**, 5190–5205.
+
+<span id="ref81">81.</span> Murthy, A.C., Dignon, G.L., Kan, Y., Zerze, G.H., Parekh, S.H., Mittal, J., et al. (2019). Molecular interactions underlying liquid−liquid phase separation of the FUS low-complexity domain. *Nat. Struct. Mol. Biol.* **26**, 637–648.
+
+<span id="ref82">82.</span> Courchaine, E.M., Lu, A., Neugebauer, K.M. (2016). Droplet organelles? *EMBO J.* **35**, 1603–1612.
+
+<span id="ref83">83.</span> Cayley, S., Lewis, B.A., Guttman, H.J., Record, Jr., M.T. (1991). Characterization of the cytoplasm of *Escherichia coli* K-12 as a function of external osmolarity: implications for protein-DNA interactions in vivo. *J. Mol. Biol.* **222**, 281–300.
+
+<span id="ref84">84.</span> Srinivasan, V.G., Bharat, A.H., Bharat, S., Bharat, F.M. (2021). Similar Physical Properties and Biological Implications. *Proc. Natl. Acad. Sci. U. S. A.* **118**, e2024822118.
+
+<span id="ref85">85.</span> Nott, T.J., Bharat, A.H., Bharat, S., Bharat, F., Bharat, T. (2015). Phase transition of a disordered nuage protein generates environmentally responsive membraneless organelles. *Mol. Cell* **57**, 936–947.
+
+<span id="ref86">86.</span> Zhao, J., Zhao, J., Bharat, A.H., Bharat, S., Bharat, T.A. (2017). Transient Cassette Exchange Enables Rapid Reprogramming of a Multidomain Enzyme System. *ACS Synth. Biol.* **6**, 1001–1016.
+
+<span id="ref87">87.</span> Kozlov, A.G., Shinn, M.K., Weiland, E.A., Lohman, T.M. (2017). Glutamate Promotes *Escherichia coli* SSB Protein–Protein Interactions via Intrinsically Disordered Regions. *J. Mol. Biol.* **429**, 2790–2801.
+
+<span id="ref88">88.</span> Sambrook, S.A., Day, L.A. (1974). Molecular weight of the single-stranded circular DNA and the protein components of bacteriophage f1. *Mol. Biol.* **81**, 401–418.
+
+<span id="ref89">89.</span> Zhang, H.S., Schaub, J.M., Finkelstein, I.J. (2020). RADX condenses single-stranded DNA to antagonize RAD51 loading. *Nucleic Acids Res.* **48**, 7834–7843.
+
+<span id="ref90">90.</span> Dam, J., Schuck, P. (2004). Calculating sedimentation coefficient distributions by direct modeling of sedimentation velocity concentration profiles. *Methods Enzymol.* **384**, 185–212.
+
+<span id="ref91">91.</span> van Holst, J., Kersten, S.R.A., Hogendoorn, K.J.A. (2008). Physicochemical Properties of Several Aqueous Potassium Amino Acid Salts. *J. Chem. Eng. Data* **53**, 186–1291.
+
+<span id="ref92">92.</span> Soniat, M.M., Myler, L.R., Schaub, J.M., Kim, Y., Gallardo, I.F., Finkelstein, I.J. (2017). Next-Generation DNA Curtains for Single-Molecule Studies of Homologous Recombination. *Method Enzymol.* **592**, 259–281.
+
+<span id="ref93">93.</span> Sokoloski, J.E., Kozlov, A.G., Galletto, R., Lohman, T.M. (2016). Chemo-mechanical pushing of proteins along single-stranded DNA. *Proc. Natl. Acad. Sci. U. S. A.* **113**, 6194–6199.
+
+<span id="ref94">94.</span> Knowles, D.B., Shkel, I.A., Phan, N.M., Sternke, M., Lingeman, E., Cheng, X., et al. (2015). Chemical Interactions of Polyethylene Glycols (PEGs) and Glycerol with Protein Functional Groups: Applications to Effects of PEG and Glycerol on Protein Processes. *Biochemistry* **54**, 3528–3542.
+
+<span id="ref95">95.</span> Robinson, R.A., Stokes, R.H. (1961). Activity coefficients in aqueous solutions of sucrose, mannitol and their mixtures at 25°C. *J. Phys. Chem.* **65**, 1954–1958.
+
+<span id="ref96">96.</span> Capp, M.W., Pegram, L.M., Saecker, R.M., Kratz, M., Riccardi, D., Wendorff, T., et al. (2009). Interactions of the osmolyte glycine betaine with molecular surfaces in water: thermodynamics, structural interpretation, and prediction of m-values. *Biochemistry* **48**, 10372–10379.
+
+<span id="ref97">97.</span> Cheng, X., Shkel, I.A., O'Connor, K., Record, Jr., M.T. (2020). Experimentally determined strengths of favorable and unfavorable interactions of amide atoms involved in protein self-assembly in water. *Proc. Natl. Acad. Sci. U. S. A.* **117**, 27339–27345.
+
+<span id="ref98">98.</span> Sengupta, R., Pantel, A., Cheng, X., Shkel, I., Peran, I., Stenzoski, N., et al. (2016). Positioning the Intracellular Salt Potassium Glutamate in the Hofmeister Series by Chemical Unfolding Studies of NTL9. *Biochemistry* **55**, 2251–2259.
+
+<span id="ref99">99.</span> Sengupta, R., Capp, M.W., Shkel, I.A., Record, Jr., M.T. (2017). The mechanism and high-free-energy transition state of lac repressor-lac operator interaction. *Nucleic Acids Res.* **45**, 12671–12680.
