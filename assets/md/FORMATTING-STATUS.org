@@ -396,12 +396,14 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 ✓, Figs 1-4 ✓, refs ✓. Review paper on retrons in genome engineering. Well-formatted with proper *K*<sub>D</sub> notation (5 × 10⁻⁸ M), species italics, figure HTML blocks. No common formatting issues found.
 :END:
-** WAITING 54. Forsberg _et al._ eLife (2019)
+** DONE 54. Forsberg _et al._ eLife (2019)
 :PROPERTIES:
 :MD_SLUG: 2019-09-10-Cas9-inhibitors
 :DOI: 10.7554/eLife.46540
 :FILE: papers/_posts/2019-09-10-Cas9-inhibitors.md
 :JOURNAL: eLife
+:VERIFIED: 2026-04-10
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 79 refs ✓. Fixes: 12 double-space headers normalized; typo AcrIA11→AcrIIA11 in body text; typo AcrAllA11→AcrIIA11 in Fig 4 caption; Fig 2 figcaption: fixed underscore/em confusion for Oral_5, Fecal_01A, F01A_2, Clostridium_Q, Siphoviridae, viral_cluster; Fig 3 figcaption: fixed F01A_2 underscore; Fig 4 figcaption: fixed Clostridium_Q, Streptococcus, Listeria italics, acr italics, acrIIA7-acrIIA10 italics, WP_103240931.1; Fig 4-supp4 text: fixed WP_ space artifact.
 :END:
 ** WAITING 53. Soniat_et al._Mol. Cell (2019)
 :PROPERTIES:
