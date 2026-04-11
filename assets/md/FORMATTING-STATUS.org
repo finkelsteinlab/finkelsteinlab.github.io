@@ -88,7 +88,7 @@ Status key:
 :FILE: papers/_posts/2024-04-23-Mammalian-antigen-display.MD
 :JOURNAL: Methods in Molecular Biology
 :END:
-** WAITING 87. Leão et al. Nat Commun (2024)
+** DONE 87. Leão et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-09-13-archaea-defense-immunity
 :DOI: 10.1038/s41467-024-50195-2
@@ -131,7 +131,7 @@ Status key:
 :FILE: papers/_posts/2023-08-17-Cohesin-Rloops.MD
 :JOURNAL: Molecular Cell
 :END:
-** WAITING 84. Gibson et al. PNAS (2023)
+** DONE 84. Gibson et al. PNAS (2023)
 :PROPERTIES:
 :MD_SLUG: 2023-04-24-chromatin-condensates-liquid-like-properties
 :DOI: 10.1073/pnas.2218085120
@@ -140,7 +140,7 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1–6 captions ✓, 82 refs ✓. Restored scraper-dropped text: equation paragraph (γ, η, τ, AR decay formula), Fig 1D/F caption (γ/η, ± SD), Fig 4G caption (MSD analysis, trajectory counts), body text (diffusion coeff 0.035 ± 0.005 μm²/s, λ = 488 nm clause). Formatting: × 10⁻⁷, W/cm², *t*<sub>1/2</sub>, Mg(OAc)₂. No tables in paper.
 :END:
-** WAITING 82. Soniat et al. JBC (2023)
+** DONE 82. Soniat et al. JBC (2023)
 :PROPERTIES:
 :MD_SLUG: 2023-02-02-MRN-DNA-Resection
 :DOI: 10.1016/j.jbc.2022.102802
@@ -150,7 +150,7 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no tables in main text, Figs 1-5 ✓, 84 refs ✓. Formatting fixes applied: bp s⁻¹ (10 instances), MgCl₂ (2), His₆ (4), stray period in Fig 5 caption removed.
 :END:
 * 2022
-** WAITING 81. Kuo et al. AdvMater (2022)
+** DONE 81. Kuo et al. AdvMater (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-08-09-NanoCluster-Beacons
 :DOI: 10.1002/adma.202204957
@@ -168,7 +168,7 @@ Status key:
 :VERIFIED: 2026-03-30
 :VERIFIED_NOTES: All 20 PDF pages compared. Formatting fixes: ×10⁶/×10⁵/×10⁴ superscripts, mL⁻¹/L⁻¹ unit superscripts, CO₂/NaN₃ chemical subscripts, FFRNT₅₀/IC₅₀/Log₂ subscripts, deleted stray 'Open in a new tab'. Title ✓, authors ✓, abstract ✓, Figs 1–4 legends ✓, STAR Methods ✓, key resources table ✓, references ✓.
 :END:
-** WAITING 79. Kozlov et al. J. Mol. Bio. (2022)
+** DONE 79. Kozlov et al. J. Mol. Bio. (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-05-15-SSB-protein
 :DOI: 10.1016/j.jmb.2022.167562
@@ -177,7 +177,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 91 refs ✓. Formatting fixes: [Mg²⁺] ion charges, [MgCl₂] chemical formula, extinction coefficients (1.13 × 10⁵, 8.98 × 10⁴, 9.58 × 10⁴, 1.01 × 10⁵ M⁻¹ cm⁻¹), 7370 M⁻¹ cm⁻¹, °C min⁻¹, mL min⁻¹, mL⁻¹ unit superscripts. SSB binding modes and cooperativity paper with ssDNA curtains methods.
 :END:
-** WAITING 78. Schaub et al. NAR (2022)
+** DONE 78. Schaub et al. NAR (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-04-22-Pol-theta-end-joining
 :DOI: 10.1093/nar/gkac119
@@ -186,7 +186,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 69 refs ✓. Formatting fixes: MgCl₂/CaCl₂ subscripts (×4), Ca²⁺/Mg²⁺ ion charges (×5), ³²P radioactive isotope (×2), NAD⁺ superscript (×12), dT₅₀/poly-T₅₀ subscripts (×4), ml min⁻¹/mg ml⁻¹/μl min⁻¹/nt s⁻¹ unit superscripts (×20+), double-space headers (×11). Polθ-helicase TMEJ paper with ssDNA curtains single-molecule imaging.
 :END:
-** WAITING 77. Eslami-Mossallam et al. Nat Commun (2022)
+** DONE 77. Eslami-Mossallam et al. Nat Commun (2022)
 :PROPERTIES:
 :MD_SLUG: 2022-03-15-SpCas9-kinetic-model
 :DOI: 10.1038/s41467-022-28994-2
@@ -205,7 +205,7 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, summary ✓, Figs 1-7 captions ✓, 99 refs ✓. §6a fixes: FUS<sub>N</sub> subscript (6 lines), protein variant superscripts TRF1^ΔA/Basic/A75P/WT TRF2^ΔB/Acidic/WT (36 occurrences), *c*_sat and *c*_dil kinetic params, CO₂ (×3), MgCl₂ (×2). No scientific notation exponents or ion charges in this paper.
 :END:
 * 2021
-** WAITING 75. Javanmardi et al. Mol. Cell (2021)
+** DONE 75. Javanmardi et al. Mol. Cell (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-12-16-Spike-Display
 :DOI: 10.1016/j.molcel.2021.11.024
