@@ -12,7 +12,7 @@ pmcid: PMC9724498
 
 *Nano Letters*, Volume 21, Issue 7, Pages 2752-2757 (2021)
 
-**DOI:** [10.1021/acs.nanolett.0c04821](https://doi.org/10.1021/acs.nanolett.0c04821)
+**DOI:** [10.1021/acs.nanolett.0c04640](https://doi.org/10.1021/acs.nanolett.0c04640)
 
 ---
 
@@ -28,7 +28,7 @@ Designer virus-inspired proteins drive the manufacturing of more effective, safe
 ## Graphical Abstract
 ![graphic file with name nihms-1846783-f0001.jpg](nihms-1846783-f0001.jpg)
 * * *
-Virus-like particles (VLPs) mimic the capability of some viruses to encapsulate and protect genetic material from degradation by nucleases. We have previously described VLPs formed by the self-assembly of a triblock polypeptide (C-S₁₀-B) that functionally mimics the tobacco mosaic virus coat protein[1](#ref1) ([Figure 1a](#fig1), Figure S1). C-S₁₀-B fuses three independent blocks: (1) "C" (∼400 aa), a random coil collagen-like domain that consists mostly of glycine, proline, and uncharged polar amino acids;[2](#ref2) (2) "S₁₀", a silk-inspired polymerization domain with the sequence [(AG)3QG]10 that is responsible for C-S₁₀-B self-assembly into rodlike structures;[3](#ref3)-[5](#ref5) and (3) "B", a cationic dodecalysine stretch that interacts with nucleic acids and other polyanions.[6](#ref6),[7](#ref7) C-S₁₀-B nucleates (without sequence specificity) on double-stranded DNA (dsDNA), albeit with a preference for free DNA ends.[8](#ref8) After rate-limiting nucleation, C-S₁₀-B filaments grow rapidly through elongation,[1](#ref1),[9](#ref9) similar to the assembly of the tobacco mosaic virus coat protein on genomic ssRNA.
+Virus-like particles (VLPs) mimic the capability of some viruses to encapsulate and protect genetic material from degradation by nucleases. We have previously described VLPs formed by the self-assembly of a triblock polypeptide (C-S₁₀-B) that functionally mimics the tobacco mosaic virus coat protein[1](#ref1) ([Figure 1a](#fig1), Figure S1). C-S₁₀-B fuses three independent blocks: (1) "C" (∼400 aa), a random coil collagen-like domain that consists mostly of glycine, proline, and uncharged polar amino acids;[2](#ref2) (2) "S₁₀", a silk-inspired polymerization domain with the sequence [(AG)₃QG]₁₀ that is responsible for C-S₁₀-B self-assembly into rodlike structures;[3](#ref3)-[5](#ref5) and (3) "B", a cationic dodecalysine stretch that interacts with nucleic acids and other polyanions.[6](#ref6),[7](#ref7) C-S₁₀-B nucleates (without sequence specificity) on double-stranded DNA (dsDNA), albeit with a preference for free DNA ends.[8](#ref8) After rate-limiting nucleation, C-S₁₀-B filaments grow rapidly through elongation,[1](#ref1),[9](#ref9) similar to the assembly of the tobacco mosaic virus coat protein on genomic ssRNA.
 
 <figure class="paper-figure" id="fig1">
 <img src="nihms-1846783-f0002.jpg" alt="Figure 1">
