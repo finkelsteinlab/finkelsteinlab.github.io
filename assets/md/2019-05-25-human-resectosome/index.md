@@ -10,9 +10,9 @@ pmcid: PMC6666396
 
 **Michael M. Soniat, Logan R. Myler, and Ilya J. Finkelstein**
 
-*Methods Mol. Biol.*, Volume 1999, Pages 235–266 (2019)
+*Methods Mol. Biol.*, Volume 1999, Pages 225–244 (2019)
 
-**DOI:** [10.1007/978-1-4939-9500-4_15](https://doi.org/10.1007/978-1-4939-9500-4_15)
+**DOI:** [10.1007/978-1-4939-9500-4_14](https://doi.org/10.1007/978-1-4939-9500-4_14)
 
 ---
 
@@ -84,7 +84,7 @@ Long-range resection is carried out by two partially redundant multiprotein mole
   8. 500 nm long-pass filter (Chroma).
   9. 638 nm dichroic beam splitter (Chroma).
   10. iXon X3 DU897 EMCCD cameras (Andor).
-  11. Placeholder TextSyringe pumps.
+  11. Syringe pumps.
 
 ---
 ## 3. Methods
@@ -238,7 +238,7 @@ BLM is a 3ʹ to 5ʹ ATP-dependent helicase and one of five helicases found in hu
 
 ---
 ## Acknowledgments
-We are indebted to Drs. Mauro Modesti and Tanya Paull for plasmids, cell pellets, and other reagents. This work was supported by the National Institutes of Health (GM120554 and CA092584) and the Welch Foundation (F-l808 to I.J.F.). M.M.S. is supported by a Postdoctoral Fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452).
+We are indebted to Drs. Mauro Modesti and Tanya Paull for plasmids, cell pellets, and other reagents. This work was supported by the National Institutes of Health (GM120554 and CA092584) and the Welch Foundation (F-1808 to I.J.F.). M.M.S. is supported by a Postdoctoral Fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452).
 ## 4 Notes
 1.
 Quantum dots (QDs), while having a high quantum yield, also have batch-to-batch variation in the percent of “dark” QDs. One estimate indicates that 25–75% of QDs in a particular batch may not be fluorescent [[68](#ref68), [69](#ref69)].
