@@ -97,7 +97,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 49 refs ✓. Formatting fixes: p-value asterisks (&#42;), MgCl₂/CaCl₂ subscripts, µg mL⁻¹ superscripts, OD₆₀₀, (βα)₆-barrel. Note: PDF was BioRxiv preprint; markdown is from published Nat Commun.
 :END:
-** WAITING 85. Hibshman et al. Nat Commun (2024)
+** DONE 85. Hibshman et al. Nat Commun (2024)
 :PROPERTIES:
 :MD_SLUG: 2023-06-22-PAMless-DNA-SpRY-Cas9
 :DOI: 10.1038/s41467-024-47830-3
@@ -116,7 +116,7 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-6 ✓, refs placeholder ✓. Formatting fixes: 10⁻⁶/10³ scientific notation, *C*<sub>α</sub>-RMSD, OD₆₀₀, Na₂HPO₄/KH₂PO₄/MgCl₂/MgOAc₂/H₂O chemical formulas. Stripped supplementary figure PMC links (S1-S9). Fixed incorrect eLife journal ref to Nature Communications. Note: PDF is BioRxiv 2023 preprint; markdown is from published Nat Commun 2024.
 :END:
 * 2023
-** WAITING 88. Kaur et al. JBC (2023)
+** DONE 88. Kaur et al. JBC (2023)
 :PROPERTIES:
 :MD_SLUG: 2023-09-28-AFM-cohesin-NIPBL
 :DOI: 10.1016/j.jbc.2023.105296
@@ -214,7 +214,7 @@ Status key:
 :VERIFIED: 2026-04-03
 :VERIFIED_NOTES: Title ✓, authors ✓ (added middle initial "I." to Cynthia I. Terrace), abstract/summary ✓, Figs 1-5 captions ✓, 80 refs ✓. §6a fixes: μg mL⁻¹/mg L⁻¹/g L⁻¹ unit superscripts (×12), × 10⁶/× 10⁵ scientific notation (×5), IC₅₀ subscript (×4), CO₂ subscript (×2), double-space headers fixed (×11). No ion charges or chemical formulas needed.
 :END:
-** WAITING 74. Rybarski et al. PNAS (2021)
+** DONE 74. Rybarski et al. PNAS (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-12-07-CAST-metagenomic-discovery
 :DOI: 10.1073/pnas.2112279118
@@ -223,7 +223,7 @@ Status key:
 :VERIFIED: 2026-03-28
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, no tables, Figs 1–6 legends ✓, 70 refs ✓. Fixes: 10⁻³ exponent, Ca²⁺ ion, stoichiometry subscripts (Cas6)₁:(Cas7)₆ etc., protein subscripts TniQ₁/₂ TnsB₁/₂. No Significance box in MD (PNAS-only section, not in PMC scrape). No chemical formulas or kinetic params in paper.
 :END:
-** WAITING 73. Hill et al._J. Open Source Softw. (2021)
+** DONE 73. Hill et al._J. Open Source Softw. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-27-Python-package-gene-clusters
 :DOI: 10.21105/joss.03678
@@ -232,7 +232,7 @@ Status key:
 :VERIFIED: 2026-04-03
 :VERIFIED_NOTES: Title ✓, authors ✓, Summary ✓, Statement of need ✓, Implementation ✓, code screenshots ✓, Fig 1 gene diagram ✓, Acknowledgements ✓, 12 refs ✓. Fixes: Figure 1 converted to HTML format, PMC citation links → local #refN anchors, reference anchors added, DOI links added, journal names italicized. No scientific notation, ions, or kinetic params in paper.
 :END:
-** WAITING 72. Schaub et al. Nat Protoc (2021)
+** DONE 72. Schaub et al. Nat Protoc (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-10-05-SARS-CoV-2-Spike-proteins
 :DOI: 10.1038/s41596-021-00623-0
@@ -241,7 +241,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Introduction ✓, Table 1 ✓, Figs 1-4 ✓, Materials ✓, Procedure ✓, Anticipated Results ✓, Troubleshooting ✓, 49 refs ✓. Fixes: scientific notation (× 10⁵, 10⁶, 10⁷, 10⁸, 10⁹), chemical formulas (H₂SO₄, CO₂), unit superscripts (mg mL⁻¹), kinetic params (*k*<sub>on</sub>, *k*<sub>off</sub>), wavelength subscripts (*λ*<sub>ex</sub>, *λ*<sub>em</sub>), His₈-TwinStrep.
 :END:
-** WAITING 71. Blevins_et_al._Chem Sci. (2021)
+** DONE 71. Blevins_et_al._Chem Sci. (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-09-23-T4-gp32-ssDNA-complex
 :DOI: 10.1039/d1sc02861h
@@ -250,7 +250,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, refs ✓. Formatting fixes: 1 × 10⁵ and 5 × 10⁴ scientific notation (MS instrument settings). Mass spectrometry paper on T4 gp32-ssDNA complex characterization using native MS, cross-linking, and UVPD.
 :END:
-** WAITING 70. Ma_et_al._eLife (2021)
+** DONE 70. Ma_et_al._eLife (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-08-26-cas1-cas2-complex
 :DOI: 10.7554/eLife.65763
@@ -259,7 +259,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-8 + supplements ✓, refs 1-52 ✓. Fixed: MgCl₂ (2×), His₆-tagged (1×), ³²P isotope labels (10×, including γ-³²P and α-³²P). CRISPR adaptation paper on Cas1-Cas2 integration/disintegration mechanism.
 :END:
-** WAITING 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
+** DONE 69. Olsen, Christensen, Long, and Subedi et al. Am. J. Pathol.(2021)
 :PROPERTIES:
 :MD_SLUG: 2021-07-03-SARS-CoV-2-variants
 :DOI: 10.1016/j.ajpath.2021.07.002
@@ -268,7 +268,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Tables 1-2 ✓, Figs 1-8 ✓, 84 refs ✓. Fixed: C<sub>T</sub> subscripts throughout (7× — cycle threshold values in body text, table header, section heading, figure caption). Figure 7 p-value asterisks encoded as HTML entities. COVID-19 genomic epidemiology study of SARS-CoV-2 variants in Houston.
 :END:
-** WAITING 68. Voss et al. Science (2021)
+** DONE 68. Voss et al. Science (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-05-04-SARS-CoV-2-IgG
 :DOI: 10.1126/science.abg5268
@@ -277,7 +277,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, summary ✓. Stub file only — PMC license restrictions prevented full-text archiving (bioRxiv preprint only). Contains summary/abstract from preprint. Formatting fix: 149 Å² area unit superscript. No figures, tables, or references in archive. PDF is full 5-page Science article with Figs 1-4 and 33 refs.
 :END:
-** WAITING 67. Calcines-Cruz et al. NanoLett(2021)
+** DONE 67. Calcines-Cruz et al. NanoLett(2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-17-artificial-virus
 :DOI: 10.1021/acs.nanolett.0c04640
@@ -295,7 +295,7 @@ Status key:
 :VERIFIED: 2026-04-10
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (6 variant rows) ✓, Figs 1-2 ✓, 61 refs ✓. Formatting fixes: DOI corrected (02.007→03.004), Figs 1-2 converted to HTML <figure> blocks, inline citations converted to #refN anchors, Table 1 PMC link stripped, "Open in a new tab" removed, Supplemental Data PMC links stripped, Supplemental Appendix PMC link stripped, redundant footer removed, typo "provid"→"provide". Epidemiology/genomic surveillance paper — no scientific notation exponents, ion charges, chemical formulas, or kinetic params required.
 :END:
-** WAITING 65. Strohkendl et al. SciAdv (2021)
+** DONE 65. Strohkendl et al. SciAdv (2021)
 :PROPERTIES:
 :MD_SLUG: 2021-03-10-Cas12a-nucleosomes
 :DOI: 10.1126/sciadv.abd6030
@@ -304,7 +304,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1–4 ✓, 81 refs ✓. Fixed: double-space headers, scientific notation (×10⁻⁷ s⁻¹ etc.), unit superscripts (M⁻¹ s⁻¹), kinetic params (*k*<sub>max</sub>/*K*<sub>1/2</sub>), MgCl₂, [γ-³²P]ATP, stripped PMC/PubMed/Google Scholar links, Fig 1 caption asterisks, Fig 2 caption K_PAM/k_R-loop subscripts.
 :END:
-** WAITING 63. Jones et al. Nat Biotechnol (2021)
+** DONE 63. Jones et al. Nat Biotechnol (2021)
 :PROPERTIES:
 :MD_SLUG: 2020-09-07-nucleaseq
 :DOI: 10.1038/s41587-020-0646-5
@@ -314,7 +314,7 @@ Status key:
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, 101 refs ✓. Fixes: scientific notation exponents (10⁻¹, 10⁻³, 10⁻⁵, 10⁴), unit superscripts (s⁻¹, ml⁻¹, μl⁻¹), kinetic params (*k*<sub>c</sub>, *k*<sub>s</sub>, *k*<sub>m</sub>, *k*<sub>side</sub>), chemical formulas (MgCl₂, His₆, (NH₄)₂SO₄, MgSO₄), *r* correlation coefficient, double-space headers.
 :END:
 * 2020
-** WAITING 64. Long et al. mBio (2020)
+** DONE 64. Long et al. mBio (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-10-30-Second-wave-SARS-CoV-2
 :DOI: 10.1128/mBio.02707-20
@@ -323,7 +323,7 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓ (co-first: Long/Olsen/Christensen), abstract ✓, Figs 1-8 ✓, Tables 1-2 ✓, 93 refs ✓. Formatting fixes: Converted 8 figures from old ***[Fig. N]*** format to HTML <figure> structure; stripped [[PMC free article]], [[PubMed]], [[Google Scholar]] metadata from all refs; converted inline PMC citation URLs to local #refN anchors; added <span id="refN"> anchors to 93 refs; removed "Open in a new tab" table artifacts; cleaned duplicate ref placeholders; fixed C_T subscript and EC₅₀ in figcaptions. COVID-19 genomics paper with large SNP tables and phylogenetic/geospatial data.
 :END:
-** WAITING 62. Frazer et al. NatMicrobiol (2020)
+** DONE 62. Frazer et al. NatMicrobiol (2020)
 :PROPERTIES:
 :MD_SLUG: 2020-07-27-epigenetic-cell-fate
 :DOI: 10.1038/s41564-020-0760-7
