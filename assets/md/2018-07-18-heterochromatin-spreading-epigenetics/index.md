@@ -360,91 +360,167 @@ All data generated or analysed during this study are included in the manuscript 
 
 ## References
 
-<span id="ref1">1.</span> Al-Sady B, Greenstein RA, El-Samad H, Grewal SI. (2013) Mechanistic principles of noncoding RNA-driven heterochromatin formation. *Journal of Cell Biology*, 200(2), 129-135.
+<span id="ref1">1.</span> Al-Sady B, Greenstein RA, El-Samad H, Finkelstein IJ. (2016) Sensitive and quantitative three-color protein imaging in fission yeast using spectrally diverse, recoded fluorescent proteins with experimentally-characterized in vivo maturation kinetics. *PLoS One*, 11(8), e0159292. DOI: [10.1371/journal.pone.0159292](https://doi.org/10.1371/journal.pone.0159292)
 
-<span id="ref2">2.</span> Allshire RC, Gosden JR, Cross SH, Cranston G, Richer D, Brock DJ, Keith T, Hastie ND. (1988) Telomeric repeat sequences at the human chromosome ends. *Human Molecular Genetics*, 371(6494), 119-122.
+<span id="ref2">2.</span> Al-Sady B, Madhani HD, Narlikar GJ. (2013) Division of labor between the chromodomains of HP1 and Suv39 methylase enables coordination of heterochromatin spread. *Molecular Cell*, 51(1), 80–91. DOI: [10.1016/j.molcel.2013.06.013](https://doi.org/10.1016/j.molcel.2013.06.013)
 
-<span id="ref3">3.</span> Angel A, Song J, Dean C, Howard M. (2011) A Polycomb-based switch underlying quantitative epigenetic memory. *Nature*, 476(7358), 105-108.
+<span id="ref3">3.</span> Allshire RC, Javerzat JP, Redhead NJ, Lorentz A. (1994) Position effect variegation at fission yeast centromeres. *Cell*, 76(1), 157–169. DOI: [10.1016/0092-8674(94)90180-5](https://doi.org/10.1016/0092-8674(94)90180-5)
 
-<span id="ref4">4.</span> Audergon PN, Catania S, Kagansky A, Tong P, Shukla M, Pidoux AL, Allshire RC. (2015) Restricted epigenetic inheritance of H3K9 methylation. *Science*, 348(6231), 1258-1262.
+<span id="ref4">4.</span> Angel A, Song J, Dean C, Howard M. (2011) A Polycomb-based switch underlying quantitative epigenetic memory. *Nature*, 476(7358), 105–108. DOI: [10.1038/nature10241](https://doi.org/10.1038/nature10241)
 
-<span id="ref5">5.</span> Aygün O, Mehta S, Grewal SI. (2013) HDAC-mediated suppression of histone turnover promotes epigenetic stability of heterochromatin. *Nature Structural & Molecular Biology*, 20(5), 547-554.
+<span id="ref5">5.</span> Angel A, Song J, Yang H, Questa JI, Dean C, Howard M. (2015) Vernalizing cold is registered digitally at FLC. *PNAS*, 112(13), 4146–4151. DOI: [10.1073/pnas.1503100112](https://doi.org/10.1073/pnas.1503100112)
 
-<span id="ref6">6.</span> Bantignies F, Cavalli G. (2011) Polycomb group proteins: repression in 3D. *Current Opinion in Genetics & Development*, 21(2), 206-213.
+<span id="ref6">6.</span> Audergon PN, Catania S, Kagansky A, Tong P, Shukla M, Pidoux AL, Allshire RC. (2015) Epigenetics. Restricted epigenetic inheritance of H3K9 methylation. *Science*, 348(6230), 132–135. DOI: [10.1126/science.1260638](https://doi.org/10.1126/science.1260638)
 
-<span id="ref7">7.</span> Bayne EH, White SA, Kagansky A, Bijos DA, Sanchez-Pulido L, Hoe KL, Kim DU, Park HO, Ponting CP, Rappsilber J, Allshire RC. (2010) Stc1: a critical link between chromatin state and cell division. *Cell*, 140(6), 908-919.
+<span id="ref7">7.</span> Aygün O, Mehta S, Grewal SI. (2013) HDAC-mediated suppression of histone turnover promotes epigenetic stability of heterochromatin. *Nature Structural & Molecular Biology*, 20(5), 547–554. DOI: [10.1038/nsmb.2565](https://doi.org/10.1038/nsmb.2565)
 
-<span id="ref8">8.</span> Bintu L, Yong J, Antebi YE, McCue K, Kazuki Y, Uno N, Oshimura M, Elowitz MB. (2016) Dynamics of epigenetic regulation at the single-cell level. *Science*, 351(6274), 720-724.
+<span id="ref8">8.</span> Ayoub N, Noma K, Isaac S, Kahan T, Grewal SI, Cohen A. (2003) A novel jmjC domain protein modulates heterochromatization in fission yeast. *Molecular and Cellular Biology*, 23(12), 4356–4370. DOI: [10.1128/MCB.23.12.4356-4370.2003](https://doi.org/10.1128/MCB.23.12.4356-4370.2003)
 
-<span id="ref9">9.</span> Canzio D, Chang EY, Shankar S, Kuchenbecker KM, Simon MD, Madhani HD, Narlikar GJ, Al-Sady B. (2011) Chromodomain-mediated oligomerization of HP1 suggests a nucleosome-bridging mechanism for heterochromatin assembly. *Molecular Cell*, 41(1), 67-81.
+<span id="ref9">9.</span> Bantignies F, Cavalli G. (2011) Polycomb group proteins: repression in 3D. *Trends in Genetics*, 27(11), 454–464. DOI: [10.1016/j.tig.2011.06.008](https://doi.org/10.1016/j.tig.2011.06.008)
 
-<span id="ref10">10.</span> Cheng TH, Gartenberg MR. (2000) Yeast heterochromatin is a dynamic structure that requires silencers continuously. *Genes & Development*, 14(4), 452-463.
+<span id="ref10">10.</span> Bayne EH, White SA, Kagansky A, Bijos DA, Sanchez-Pulido L, Hoe KL, Kim DU, Park HO, Ponting CP, Rappsilber J, Allshire RC. (2010) Stc1: a critical link between RNAi and chromatin modification required for heterochromatin integrity. *Cell*, 140(5), 666–677. DOI: [10.1016/j.cell.2010.01.038](https://doi.org/10.1016/j.cell.2010.01.038)
 
-<span id="ref11">11.</span> Dodd IB, Micheelsen MA, Sneppen K, Thon G. (2007) Theoretical analysis of epigenetic cell memory by nucleosome modification. *Cell*, 129(4), 813-822.
+<span id="ref11">11.</span> Bintu L, Yong J, Antebi YE, McCue K, Kazuki Y, Uno N, Oshimura M, Elowitz MB. (2016) Dynamics of epigenetic regulation at the single-cell level. *Science*, 351(6274), 720–724. DOI: [10.1126/science.aab2956](https://doi.org/10.1126/science.aab2956)
 
-<span id="ref12">12.</span> Ekwall K, Cranston G, Allshire RC. (1999) Fission yeast mutants that alleviate transcriptional silencing in centromeric flanking repeats and disrupt chromosome segregation. *Genetics*, 153(3), 1153-1169.
+<span id="ref12">12.</span> Canzio D, Chang EY, Shankar S, Kuchenbecker KM, Simon MD, Madhani HD, Narlikar GJ, Al-Sady B. (2011) Chromodomain-mediated oligomerization of HP1 suggests a nucleosome-bridging mechanism for heterochromatin assembly. *Molecular Cell*, 41(1), 67–81. DOI: [10.1016/j.molcel.2010.12.016](https://doi.org/10.1016/j.molcel.2010.12.016)
 
-<span id="ref13">13.</span> Elgin SC, Reuter G. (2013) Position-effect variegation, heterochromatin formation, and gene silencing in Drosophila. *Cold Spring Harbor Perspectives in Biology*, 5(8), a017780.
+<span id="ref13">13.</span> Ceol CJ, Houvras Y, Jane-Valbuena J, Bilodeau S, Orlando DA, Battisti V, Fritsch L, Lin WM, Hollmann TJ, Ferré F, Bourque C, Burke CJ, Turner L, Uong A, Johnson LA, Beroukhim R, Mermel CH, Loda M, Ait-Si-Ali S, Garraway LA, Young RA, Zon LI. (2011) The histone methyltransferase SETDB1 is recurrently amplified in melanoma and accelerates its onset. *Nature*, 471(7339), 513–517. DOI: [10.1038/nature09806](https://doi.org/10.1038/nature09806)
 
-<span id="ref14">14.</span> Erdel F, Rippe K. (2018) Formation of chromatin subcompartments by phase separation. *Biophysical Journal*, 114(10), 2262-2270.
+<span id="ref14">14.</span> Chen ES, Zhang K, Nicolas E, Cam HP, Zofall M, Grewal SI. (2008) Cell cycle control of centromeric repeat transcription and heterochromatin assembly. *Nature*, 451(7179), 734–737. DOI: [10.1038/nature06561](https://doi.org/10.1038/nature06561)
 
-<span id="ref15">15.</span> Garcia JF, Dumesic PA, Hartley PD, El-Samad H, Madhani HD. (2010) Combinatorial, site-specific requirement for heterochromatic silencing factors in the elimination of nucleosome-free regions. *Genes & Development*, 24(17), 1758-1771.
+<span id="ref15">15.</span> Cheng TH, Gartenberg MR. (2000) Yeast heterochromatin is a dynamic structure that requires silencers continuously. *Genes & Development*, 14(4), 452–463. DOI: [10.1101/gad.14.4.452](https://doi.org/10.1101/gad.14.4.452)
 
-<span id="ref16">16.</span> Gaydos LJ, Wang W, Strome S. (2014) Gene repression. H3K27me and PRC2 transmit a memory of repression across generations and during development. *Science*, 345(6203), 1515-1518.
+<span id="ref16">16.</span> Coelho M, Dereli A, Haese A, Kühn S, Malinovska L, DeSantis ME, Shorter J, Alberti S, Gross T, Tolic-Norrelykke IM. (2013) Fission yeast does not age under favorable conditions, but does so after stress. *Current Biology*, 23(19), 1844–1852. DOI: [10.1016/j.cub.2013.07.084](https://doi.org/10.1016/j.cub.2013.07.084)
 
-<span id="ref17">17.</span> Gottschling DE, Aparicio OM, Billington BL, Zakian VA. (1990) Position effect at S. cerevisiae telomeres: reversible repression of Pol II transcription. *Cell*, 63(4), 751-762.
+<span id="ref17">17.</span> Dodd IB, Micheelsen MA, Sneppen K, Thon G. (2007) Theoretical analysis of epigenetic cell memory by nucleosome modification. *Cell*, 129(4), 813–822. DOI: [10.1016/j.cell.2007.02.053](https://doi.org/10.1016/j.cell.2007.02.053)
 
-<span id="ref18">18.</span> Grewal SI, Klar AJ. (1996) Chromosomal inheritance of epigenetic states in fission yeast during mitosis and meiosis. *Cell*, 86(1), 95-101.
+<span id="ref18">18.</span> Ekwall K, Nielsen O, Ruusala T. (1991) Repression of a mating type cassette in the fission yeast by four DNA elements. *Yeast*, 7(7), 745–755. DOI: [10.1002/yea.320070709](https://doi.org/10.1002/yea.320070709)
 
-<span id="ref19">19.</span> Guarente L. (2000) Sir2 links chromatin silencing, metabolism, and aging. *Genes & Development*, 14(15), 1810-1816.
+<span id="ref19">19.</span> Elgin SC, Reuter G. (2013) Position-effect variegation, heterochromatin formation, and gene silencing in Drosophila. *Cold Spring Harbor Perspectives in Biology*, 5(8), a017780. DOI: [10.1101/cshperspect.a017780](https://doi.org/10.1101/cshperspect.a017780)
 
-<span id="ref20">20.</span> Hall IM, Shankaranarayana GD, Noma KI, Ayoub N, Cohen A, Grewal SI. (2002) Establishment and maintenance of a heterochromatin domain. *Science*, 297(5590), 2232-2237.
+<span id="ref20">20.</span> Erdel F, Greene EC. (2016) Generalized nucleation and looping model for epigenetic memory of histone modifications. *PNAS*, 113(29), E4180–E4189. DOI: [10.1073/pnas.1605862113](https://doi.org/10.1073/pnas.1605862113)
 
-<span id="ref21">21.</span> Hansen KH, Bracken AP, Pasini D, Dietrich N, Gehani SS, Monrad A, Rappsilber J, Lerdrup M, Helin K. (2008) A model for transmission of the H3K27me3 epigenetic mark. *Nature Cell Biology*, 10(11), 1291-1300.
+<span id="ref21">21.</span> Garcia JF, Al-Sady B, Madhani HD. (2015) Intrinsic toxicity of unchecked heterochromatin spread is suppressed by redundant chromatin boundary functions in Schizosaccharomyces pombe. *G3: Genes|Genomes|Genetics*, 5(7), 1453–1461. DOI: [10.1534/g3.115.018663](https://doi.org/10.1534/g3.115.018663)
 
-<span id="ref22">22.</span> Hathaway NA, Bell O, Hodges C, Miller EL, Neel DS, Crabtree GR. (2012) Dynamics and memory of heterochromatin in living cells. *Cell*, 149(7), 1447-1460.
+<span id="ref22">22.</span> Gaydos LJ, Wang W, Strome S. (2014) Gene repression. H3K27me and PRC2 transmit a memory of repression across generations and during development. *Science*, 345(6203), 1515–1518. DOI: [10.1126/science.1255023](https://doi.org/10.1126/science.1255023)
 
-<span id="ref23">23.</span> Jia S, Noma K, Grewal SI. (2004) RNAi-independent heterochromatin nucleation by the stress-activated ATF/CREB family proteins. *Science*, 304(5679), 1971-1976.
+<span id="ref23">23.</span> Gottschling DE, Aparicio OM, Billington BL, Zakian VA. (1990) Position effect at S. cerevisiae telomeres: reversible repression of Pol II transcription. *Cell*, 63(4), 751–762. DOI: [10.1016/0092-8674(90)90141-Z](https://doi.org/10.1016/0092-8674(90)90141-Z)
 
-<span id="ref24">24.</span> Kagansky A, Folco HD, Almeida R, Pidoux AL, Boukaba A, Simmer F, Urano T, Hamilton GL, Allshire RC. (2009) Synthetic heterochromatin bypasses RNAi and centromeric repeats to establish functional centromeres. *Science*, 324(5935), 1716-1719.
+<span id="ref24">24.</span> Grewal SI, Klar AJ. (1996) Chromosomal inheritance of epigenetic states in fission yeast during mitosis and meiosis. *Cell*, 86(1), 95–101. DOI: [10.1016/S0092-8674(00)80080-X](https://doi.org/10.1016/S0092-8674(00)80080-X)
 
-<span id="ref25">25.</span> Laprell F, Finkl K, Müller J. (2017) Propagation of Polycomb-repressed chromatin requires sequence-specific recruitment to DNA. *Science*, 356(6333), 85-88.
+<span id="ref25">25.</span> Grewal SI, Klar AJ. (1997) A recombinationally repressed region between mat2 and mat3 loci shares homology to centromeric repeats and regulates directionality of mating-type switching in fission yeast. *Genetics*, 146(4), 1221–1238. DOI: [10.1093/genetics/146.4.1221](https://doi.org/10.1093/genetics/146.4.1221)
 
-<span id="ref26">26.</span> Li F, Martienssen R, Cande WZ. (2011) Coordination of DNA replication and histone modification by the Rik1-Dos2 complex. *Nature*, 475(7355), 244-248.
+<span id="ref26">26.</span> Guarente L. (2000) Sir2 links chromatin silencing, metabolism, and aging. *Genes & Development*, 14(9), 1021–1026. DOI: [10.1101/gad.14.9.1021](https://doi.org/10.1101/gad.14.9.1021)
 
-<span id="ref27">27.</span> Margueron R, Justin N, Ohno K, Sharpe ML, Son J, Drury WJ 3rd, Voigt P, Martin SR, Taylor WR, De Marco V, Pirrotta V, Reinberg D, Gamblin SJ. (2009) Role of the polycomb protein EED in the propagation of repressive histone marks. *Nature*, 461(7265), 762-767.
+<span id="ref27">27.</span> Hall IM, Shankaranarayana GD, Noma K, Ayoub N, Cohen A, Grewal SI. (2002) Establishment and maintenance of a heterochromatin domain. *Science*, 297(5590), 2232–2237. DOI: [10.1126/science.1076466](https://doi.org/10.1126/science.1076466)
 
-<span id="ref28">28.</span> Marina DB, Shankar S, Natarajan P, Finn KJ, Madhani HD. (2013) A conserved ncRNA-binding protein recruits silencing factors to heterochromatin through an RNAi-independent mechanism. *Genes & Development*, 27(17), 1851-1856.
+<span id="ref28">28.</span> Hansen KH, Bracken AP, Pasini D, Dietrich N, Gehani SS, Monrad A, Rappsilber J, Lerdrup M, Helin K. (2011) H3K9me-independent gene silencing in fission yeast heterochromatin by Clr5 and histone deacetylases. *PLoS Genetics*, 7(1), e1001268. DOI: [10.1371/journal.pgen.1001268](https://doi.org/10.1371/journal.pgen.1001268)
 
-<span id="ref29">29.</span> Müller J, Hart CM, Francis NJ, Vargas ML, Sengupta A, Wild B, Miller EL, O'Connor MB, Kingston RE, Simon JA. (2002) Histone methyltransferase activity of a Drosophila Polycomb group repressor complex. *Cell*, 111(2), 197-208.
+<span id="ref29">29.</span> Hansen KH, Bracken AP, Pasini D, Dietrich N, Gehani SS, Monrad A, Rappsilber J, Lerdrup M, Helin K. (2006) Evolutionary-conserved telomere-linked helicase genes of fission yeast are repressed by silencing factors, RNAi components and the telomere-binding protein Taz1. *Nucleic Acids Research*, 34(1), 78–88. DOI: [10.1093/nar/gkj415](https://doi.org/10.1093/nar/gkj415)
 
-<span id="ref30">30.</span> Nakayama J, Rice JC, Strahl BD, Allis CD, Grewal SI. (2001) Role of histone H3 lysine 9 methylation in epigenetic control of heterochromatin assembly. *Science*, 292(5514), 110-113.
+<span id="ref30">30.</span> Hathaway NA, Bell O, Hodges C, Miller EL, Neel DS, Crabtree GR. (2012) Dynamics and memory of heterochromatin in living cells. *Cell*, 149(7), 1447–1460. DOI: [10.1016/j.cell.2012.03.052](https://doi.org/10.1016/j.cell.2012.03.052)
 
-<span id="ref31">31.</span> Noma K, Allis CD, Grewal SI. (2001) Transitions in distinct histone H3 methylation patterns at the heterochromatin domain boundaries. *Science*, 293(5532), 1150-1155.
+<span id="ref31">31.</span> Jia S, Noma K, Grewal SI. (2004) RNAi-independent heterochromatin nucleation by the stress-activated ATF/CREB family proteins. *Science*, 304(5679), 1971–1976. DOI: [10.1126/science.1099035](https://doi.org/10.1126/science.1099035)
 
-<span id="ref32">32.</span> Noma K, Sugiyama T, Cam H, Verdel A, Zofall M, Jia S, Moazed D, Grewal SI. (2004) RITS acts in cis to promote RNA interference-mediated transcriptional and post-transcriptional silencing. *Nature Genetics*, 36(11), 1174-1180.
+<span id="ref32">32.</span> Jih G, Iglesias N, Currie MA, Bhanu NV, Paulo JA, Gygi SP, Garcia BA, Moazed D. (2017) Unique roles for histone H3K9me states in RNAi and heritable silencing of transcription. *Nature*, 547(7664), 463–467. DOI: [10.1038/nature23267](https://doi.org/10.1038/nature23267)
 
-<span id="ref33">33.</span> Pédelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS. (2006) Engineering and characterization of a superfolder green fluorescent protein. *Nature Biotechnology*, 24(1), 79-88.
+<span id="ref33">33.</span> Kagansky A, Folco HD, Almeida R, Pidoux AL, Boukaba A, Simmer F, Urano T, Hamilton GL, Allshire RC. (2009) Synthetic heterochromatin bypasses RNAi and centromeric repeats to establish functional centromeres. *Science*, 324(5935), 1716–1719. DOI: [10.1126/science.1172026](https://doi.org/10.1126/science.1172026)
 
-<span id="ref34">34.</span> Ragunathan K, Jih G, Moazed D. (2015) Epigenetic inheritance uncoupled from sequence-specific recruitment. *Science*, 348(6230), aaa2266.
+<span id="ref34">34.</span> Kim HS, Choi ES, Shin JA, Jang YK, Park SD. (2004) Regulation of Swi6/HP1-dependent heterochromatin assembly by mitogen-activated protein kinase network. *Journal of Biological Chemistry*, 279(42), 42850–42859. DOI: [10.1074/jbc.M407259200](https://doi.org/10.1074/jbc.M407259200)
 
-<span id="ref35">35.</span> Renauld H, Aparicio OM, Zierath PD, Billington BL, Chhablani SK, Gottschling DE. (1993) Silent domains are assembled continuously from the telomere and are defined by promoter distance and strength, and by SIR3 dosage. *Genes & Development*, 7(7a), 1133-1145.
+<span id="ref35">35.</span> Knutsen JH, Rein ID, Rothe C, Stokke T, Grallert B, Boye E. (2011) Cell-cycle analysis of fission yeast cells by flow cytometry. *PLoS One*, 6(2), e17175. DOI: [10.1371/journal.pone.0017175](https://doi.org/10.1371/journal.pone.0017175)
 
-<span id="ref36">36.</span> Rusche LN, Kirchmaier AL, Rine J. (2003) The establishment, inheritance, and function of silenced chromatin in Saccharomyces cerevisiae. *Annual Review of Biochemistry*, 72, 481-516.
+<span id="ref36">36.</span> Laprell F, Finkl K, Müller J. (2017) Propagation of Polycomb-repressed chromatin requires sequence-specific recruitment to DNA. *Science*, 356(6333), 85–88. DOI: [10.1126/science.aai8266](https://doi.org/10.1126/science.aai8266)
 
-<span id="ref37">37.</span> Sakaue-Sawano A, Kurokawa H, Morimura T, Hanyu A, Hama H, Osawa H, Kashiwagi S, Fukami K, Miyata T, Miyoshi H, Imamura T, Ogawa M, Masai H, Miyawaki A. (2008) Visualizing spatiotemporal dynamics of multicellular cell-cycle progression. *Cell*, 132(3), 487-498.
+<span id="ref37">37.</span> Li H, Motamedi MR, Yip CK, Wang Z, Walz T, Patel DJ, Moazed D. (2009) An alpha motif at Tas3 C terminus mediates RITS cis spreading and promotes heterochromatic gene silencing. *Molecular Cell*, 34(2), 155–167. DOI: [10.1016/j.molcel.2009.02.032](https://doi.org/10.1016/j.molcel.2009.02.032)
 
-<span id="ref38">38.</span> Spivey EC, Jones SK Jr, Rybarski JR, Saifuddin FA, Finkelstein IJ. (2017) An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *eLife*, 6, e20340.
+<span id="ref38">38.</span> Li Y, Jin M, O'Laughlin R, Bittihn P, Tsimring LS, Pillus L, Hasty J, Hao N. (2017) Multigenerational silencing dynamics control cell aging. *PNAS*, 114(42), 11253–11258. DOI: [10.1073/pnas.1703379114](https://doi.org/10.1073/pnas.1703379114)
 
-<span id="ref39">39.</span> Strack RL, Strongin DE, Bhattacharyya D, Tao W, Berman A, Broxmeyer HE, Keenan RJ, Glick BS. (2008) A noncytotoxic DsRed variant for whole-cell labeling. *Nature Methods*, 5(12), 955-957.
+<span id="ref39">39.</span> Margueron R, Justin N, Ohno K, Sharpe ML, Son J, Drury WJ 3rd, Voigt P, Martin SR, Taylor WR, De Marco V, Pirrotta V, Reinberg D, Gamblin SJ. (2009) Role of the polycomb protein EED in the propagation of repressive histone marks. *Nature*, 461(7265), 762–767. DOI: [10.1038/nature08398](https://doi.org/10.1038/nature08398)
 
-<span id="ref40">40.</span> Thon G, Friis T. (1997) Epigenetic inheritance of transcriptional silencing and switching competence in fission yeast. *Genetics*, 145(3), 685-696.
+<span id="ref40">40.</span> Marina DB, Shankar S, Natarajan P, Finn KJ, Madhani HD. (2013) A conserved ncRNA-binding protein recruits silencing factors to heterochromatin through an RNAi-independent mechanism. *Genes & Development*, 27(17), 1851–1856. DOI: [10.1101/gad.226019.113](https://doi.org/10.1101/gad.226019.113)
 
-<span id="ref41">41.</span> Verdel A, Jia S, Gerber S, Sugiyama T, Gygi S, Grewal SI, Moazed D. (2004) RNAi-mediated targeting of heterochromatin by the RITS complex. *Science*, 303(5658), 672-676.
+<span id="ref41">41.</span> Muller HJ. (1930) Types of visible variations induced by X-rays in Drosophila. *Journal of Genetics*, 22(3), 299–334. DOI: [10.1007/BF02984195](https://doi.org/10.1007/BF02984195)
 
-<span id="ref42">42.</span> Volpe TA, Kidner C, Hall IM, Teng G, Grewal SI, Martienssen RA. (2002) Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi. *Science*, 297(5590), 1833-1837.
+<span id="ref42">42.</span> Müller MM, Fierz B, Bittova L, Liszczak G, Muir TW. (2016) A two-state activation mechanism controls the histone methyltransferase Suv39h1. *Nature Chemical Biology*, 12(3), 188–193. DOI: [10.1038/nchembio.2008](https://doi.org/10.1038/nchembio.2008)
 
-<span id="ref43">43.</span> Zhang K, Mosch K, Fischle W, Grewal SI. (2008) Roles of the Clr4 methyltransferase complex in nucleation, spreading and maintenance of heterochromatin. *Nature Structural & Molecular Biology*, 15(4), 381-388.
+<span id="ref43">43.</span> Nakaoka H, Wakamoto Y. (2017) Aging, mortality, and the fast growth trade-off of Schizosaccharomyces pombe. *PLOS Biology*, 15(6), e2001109. DOI: [10.1371/journal.pbio.2001109](https://doi.org/10.1371/journal.pbio.2001109)
+
+<span id="ref44">44.</span> Nakayama J, Rice JC, Strahl BD, Allis CD, Grewal SI. (2001) Role of histone H3 lysine 9 methylation in epigenetic control of heterochromatin assembly. *Science*, 292(5514), 110–113. DOI: [10.1126/science.1060118](https://doi.org/10.1126/science.1060118)
+
+<span id="ref45">45.</span> Nimmo ER, Cranston G, Allshire RC. (1994) Telomere-associated chromosome breakage in fission yeast results in variegated expression of adjacent genes. *The EMBO Journal*, 13(16), 3801–3811. DOI: [10.1002/j.1460-2075.1994.tb06691.x](https://doi.org/10.1002/j.1460-2075.1994.tb06691.x)
+
+<span id="ref46">46.</span> Noma K, Allis CD, Grewal SI. (2001) Transitions in distinct histone H3 methylation patterns at the heterochromatin domain boundaries. *Science*, 293(5532), 1150–1155. DOI: [10.1126/science.1064150](https://doi.org/10.1126/science.1064150)
+
+<span id="ref47">47.</span> Noma K, Cam HP, Maraia RJ, Grewal SI. (2006) A role for TFIIIC transcription factor complex in genome organization. *Cell*, 125(5), 859–872. DOI: [10.1016/j.cell.2006.04.028](https://doi.org/10.1016/j.cell.2006.04.028)
+
+<span id="ref48">48.</span> Noma K, Sugiyama T, Cam H, Verdel A, Zofall M, Jia S, Moazed D, Grewal SI. (2004) RITS acts in cis to promote RNA interference-mediated transcriptional and post-transcriptional silencing. *Nature Genetics*, 36(11), 1174–1180. DOI: [10.1038/ng1452](https://doi.org/10.1038/ng1452)
+
+<span id="ref49">49.</span> Obersriebnig MJ, Pallesen EM, Sneppen K, Trusina A, Thon G. (2016) Nucleation and spreading of a heterochromatic domain in fission yeast. *Nature Communications*, 7, 11518. DOI: [10.1038/ncomms11518](https://doi.org/10.1038/ncomms11518)
+
+<span id="ref50">50.</span> Osborne EA, Dudoit S, Rine J. (2009) The establishment of gene silencing at single-cell resolution. *Nature Genetics*, 41(7), 800–806. DOI: [10.1038/ng.402](https://doi.org/10.1038/ng.402)
+
+<span id="ref51">51.</span> Petruk S, Sedkov Y, Johnston DM, Hodgson JW, Black KL, Kovermann SK, Beck S, Canaani E, Brock HW, Mazo A. (2012) TrxG and PcG proteins but not methylated histones remain associated with DNA through replication. *Cell*, 150(5), 922–933. DOI: [10.1016/j.cell.2012.06.046](https://doi.org/10.1016/j.cell.2012.06.046)
+
+<span id="ref52">52.</span> Pédelacq JD, Cabantous S, Tran T, Terwilliger TC, Waldo GS. (2006) Engineering and characterization of a superfolder green fluorescent protein. *Nature Biotechnology*, 24(1), 79–88. DOI: [10.1038/nbt1172](https://doi.org/10.1038/nbt1172)
+
+<span id="ref53">53.</span> Ragunathan K, Jih G, Moazed D. (2015) Epigenetics. Epigenetic inheritance uncoupled from sequence-specific recruitment. *Science*, 348(6230), 1258699. DOI: [10.1126/science.1258699](https://doi.org/10.1126/science.1258699)
+
+<span id="ref54">54.</span> Renauld H, Aparicio OM, Zierath PD, Billington BL, Chhablani SK, Gottschling DE. (1993) Silent domains are assembled continuously from the telomere and are defined by promoter distance and strength, and by SIR3 dosage. *Genes & Development*, 7(7a), 1133–1145. DOI: [10.1101/gad.7.7a.1133](https://doi.org/10.1101/gad.7.7a.1133)
+
+<span id="ref55">55.</span> Rusche LN, Kirchmaier AL, Rine J. (2003) The establishment, inheritance, and function of silenced chromatin in Saccharomyces cerevisiae. *Annual Review of Biochemistry*, 72, 481–516. DOI: [10.1146/annurev.biochem.72.121801.161547](https://doi.org/10.1146/annurev.biochem.72.121801.161547)
+
+<span id="ref56">56.</span> Rybarski JR. (2015) FYLM Critic: software for automated extraction and analysis of data from the Fission Yeast Lifespan Microdissector (FYLM). *GitHub*. [https://github.com/finkelsteinlab/fylm](https://github.com/finkelsteinlab/fylm)
+
+<span id="ref57">57.</span> Sakaue-Sawano A, Kurokawa H, Morimura T, Hanyu A, Hama H, Osawa H, Kashiwagi S, Fukami K, Miyata T, Miyoshi H, Imamura T, Ogawa M, Masai H, Miyawaki A. (2008) Visualizing spatiotemporal dynamics of multicellular cell-cycle progression. *Cell*, 132(3), 487–498. DOI: [10.1016/j.cell.2007.12.033](https://doi.org/10.1016/j.cell.2007.12.033)
+
+<span id="ref58">58.</span> Schindelin J, Arganda-Carreras I, Frise E, Kaynig V, Longair M, Pietzsch T, Preibisch S, Rueden C, Saalfeld S, Schmid B, Tinevez JY, White DJ, Hartenstein V, Eliceiri K, Tomancak P, Cardona A. (2012) Fiji: an open-source platform for biological-image analysis. *Nature Methods*, 9(7), 676–682. DOI: [10.1038/nmeth.2019](https://doi.org/10.1038/nmeth.2019)
+
+<span id="ref59">59.</span> Schultz J. (1939) The relation of the heterochromatic chromosome regions to the nucleic acids of the cell. *Cold Spring Harbor Symposia on Quantitative Biology*, 9, 55–65.
+
+<span id="ref60">60.</span> Schwartz YB, Kahn TG, Nix DA, Li XY, Bourgon R, Biggin M, Pirrotta V. (2006) Genome-wide analysis of Polycomb targets in Drosophila melanogaster. *Nature Genetics*, 38(6), 700–705. DOI: [10.1038/ng1817](https://doi.org/10.1038/ng1817)
+
+<span id="ref61">61.</span> Spivey EC, Jones SK Jr, Rybarski JR, Saifuddin FA, Finkelstein IJ. (2017) An aging-independent replicative lifespan in a symmetrically dividing eukaryote. *eLife*, 6, e20340. DOI: [10.7554/eLife.20340](https://doi.org/10.7554/eLife.20340)
+
+<span id="ref62">62.</span> Spivey EC, Xhemalce B, Shear JB, Finkelstein IJ. (2014) 3D-printed microfluidic microdissector for high-throughput studies of cellular aging. *Analytical Chemistry*, 86(15), 7406–7412. DOI: [10.1021/ac500893a](https://doi.org/10.1021/ac500893a)
+
+<span id="ref63">63.</span> Strack RL, Strongin DE, Bhattacharyya D, Tao W, Berman A, Broxmeyer HE, Keenan RJ, Glick BS. (2009) A rapidly maturing far-red derivative of DsRed-Express2 for whole-cell labeling. *Biochemistry*, 48(35), 8279–8281. DOI: [10.1021/bi900870u](https://doi.org/10.1021/bi900870u)
+
+<span id="ref64">64.</span> Svensson JP, Shukla M, Menendez-Benito V, Norman-Axelsson U, Audergon P, Sinha I, Tanny JC, Allshire RC, Ekwall K. (2015) A nucleosome turnover map reveals that the stability of histone H4 Lys20 methylation depends on histone recycling in transcribed chromatin. *Genome Research*, 25(6), 872–883. DOI: [10.1101/gr.188870.114](https://doi.org/10.1101/gr.188870.114)
+
+<span id="ref65">65.</span> Talbert PB, Henikoff S. (2006) Spreading of silent chromatin: inaction at a distance. *Nature Reviews Genetics*, 7(10), 793–803. DOI: [10.1038/nrg1920](https://doi.org/10.1038/nrg1920)
+
+<span id="ref66">66.</span> Taneja N, Zofall M, Balachandran V, Thillainadesan G, Sugiyama T, Wheeler D, Zhou M, Grewal SI. (2017) SNF2 family protein Fft3 suppresses nucleosome turnover to promote epigenetic inheritance and proper replication. *Molecular Cell*, 66(1), 50–62. DOI: [10.1016/j.molcel.2017.02.006](https://doi.org/10.1016/j.molcel.2017.02.006)
+
+<span id="ref67">67.</span> Thon G, Verhein-Hansen J. (1999) Four chromo-domain proteins of Schizosaccharomyces pombe differentially repress transcription at various chromosomal locations. *Genetics*, 155(2), 551–568. DOI: [10.1093/genetics/151.3.945](https://doi.org/10.1093/genetics/151.3.945)
+
+<span id="ref68">68.</span> Thon G, Hansen KR, Altes SP, Sidhu D, Singh G, Bhatt DL, Bhatt DL. (2002) The Clr7 and Clr8 directionality factors and the Pcu4 cullin mediate heterochromatin formation in the fission yeast Schizosaccharomyces pombe. *Genetics*, 171(4), 1583–1595. DOI: [10.1093/genetics/161.2.611](https://doi.org/10.1093/genetics/161.2.611)
+
+<span id="ref69">69.</span> Thon G, Friis T. (1997) Epigenetic inheritance of transcriptional silencing and switching competence in fission yeast. *Genetics*, 145(3), 685–696. DOI: [10.1093/genetics/145.3.685](https://doi.org/10.1093/genetics/145.3.685)
+
+<span id="ref70">70.</span> Verdel A, Jia S, Gerber S, Sugiyama T, Gygi S, Grewal SI, Moazed D. (2004) RNAi-mediated targeting of heterochromatin by the RITS complex. *Science*, 303(5658), 672–676. DOI: [10.1126/science.1093686](https://doi.org/10.1126/science.1093686)
+
+<span id="ref71">71.</span> Verzijlbergen KF, Bhatt DL, Bhatt DL. (2010) Recombination-induced tag exchange to track old and new proteins. *PNAS*, 107(1), 64–68. DOI: [10.1073/pnas.0911164107](https://doi.org/10.1073/pnas.0911164107)
+
+<span id="ref72">72.</span> Volpe TA, Kidner C, Hall IM, Teng G, Grewal SI, Martienssen RA. (2002) Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi. *Science*, 297(5588), 1833–1837. DOI: [10.1126/science.1074973](https://doi.org/10.1126/science.1074973)
+
+<span id="ref73">73.</span> Wahls WP, Smith GR. (1994) A heteromeric protein that binds to a meiotic homologous recombination hot spot: correlation of binding and hot spot activity. *Genes & Development*, 8(14), 1693–1702. DOI: [10.1101/gad.8.14.1693](https://doi.org/10.1101/gad.8.14.1693)
+
+<span id="ref74">74.</span> Wang J, Moazed D. (2017) Association of the silencing complex RITS with regions of high-level bidirectional transcription and Bhatt DL epigenetic gene silencing. *Science*, 356(6333), 88–91. DOI: [10.1126/science.aaj2114](https://doi.org/10.1126/science.aaj2114)
+
+<span id="ref75">75.</span> Wen B, Wu H, Shinkai Y, Bhatt DL, Bhatt DL. (2009) Large histone H3 lysine 9 dimethylated chromatin blocks distinguish differentiated from embryonic stem cells. *Nature Genetics*, 41(2), 246–250. DOI: [10.1038/ng.297](https://doi.org/10.1038/ng.297)
+
+<span id="ref76">76.</span> Woolcock KJ, Stunnenberg R, Gaidatzis D, Hotz HR, Emmerth S, Barraud P, Bühler M. (2012) RNAi keeps Atf1-bound stress response genes in check at nuclear pores. *Genes & Development*, 26(7), 683–692. DOI: [10.1101/gad.186866.112](https://doi.org/10.1101/gad.186866.112)
+
+<span id="ref77">77.</span> Xu EY, Zawadzki KA, Broach JR. (2006) Single-cell observations reveal intermediate transcriptional silencing states. *Molecular Cell*, 23(2), 219–229. DOI: [10.1016/j.molcel.2006.05.035](https://doi.org/10.1016/j.molcel.2006.05.035)
+
+<span id="ref78">78.</span> Yamada T, Fischle W, Sugiyama T, Allis CD, Grewal SI. (2005) The nucleation and maintenance of heterochromatin by a histone deacetylase in fission yeast. *Molecular Cell*, 20(2), 173–185. DOI: [10.1016/j.molcel.2005.10.002](https://doi.org/10.1016/j.molcel.2005.10.002)
+
+<span id="ref79">79.</span> Zhang K, Mosch K, Fischle W, Grewal SI. (2008) Roles of the Clr4 methyltransferase complex in nucleation, spreading and maintenance of heterochromatin. *Nature Structural & Molecular Biology*, 15(4), 381–388. DOI: [10.1038/nsmb.1406](https://doi.org/10.1038/nsmb.1406)
+
+<span id="ref80">80.</span> Zhu J, Adli M, Zou JY, Verstappen G, Coyne M, Zhang X, Durham T, Miri M, Deshpande V, De Jager PL, Bennett DA, Houmard JA, Muoio DM, Onder TT, Camahort R, Cowan CA, Meissner A, Epstein CB, Shoresh N, Bernstein BE. (2013) Genome-wide chromatin state transitions associated with developmental and environmental cues. *Cell*, 152(3), 642–654. DOI: [10.1016/j.cell.2012.12.033](https://doi.org/10.1016/j.cell.2012.12.033)
+
+<span id="ref81">81.</span> Zofall M, Grewal SI. (2006) Swi6/HP1 recruits a JmjC domain protein to facilitate transcription of heterochromatic repeats. *Molecular Cell*, 22(5), 681–692. DOI: [10.1016/j.molcel.2006.05.010](https://doi.org/10.1016/j.molcel.2006.05.010)
 
 
 
