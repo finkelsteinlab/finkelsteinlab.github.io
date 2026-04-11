@@ -10,11 +10,14 @@ Status key:
 - PDF :: No MD archive (PDF only)
 
 * 2025
-** PDF 98. Sinan et al. ACS Synth Biol (2025)
+** DONE 98. Sinan et al. ACS Synth Biol (2025)
 :PROPERTIES:
+:MD_SLUG: 2025-12-19-One-Pot-Isothermal-Cas12a-Detection
 :DOI: 10.1021/acssynbio.5c00463
 :FILE: papers/_posts/2025-12-19-One-Pot-Isothermal-Cas12a-Detection.MD
 :JOURNAL: ACS Synthetic Biology
+:VERIFIED: 2026-04-11
+:VERIFIED_NOTES: Converted from PDF via marker_single (no PMC). 6 figures, 48 refs. Cleaned journal chrome, renamed figure files, added front matter + markdown field to paper post.
 :END:
 ** PDF 97. Buffington et al. Nat Biotechnol (2025)
 :PROPERTIES:
