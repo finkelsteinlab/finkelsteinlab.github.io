@@ -639,12 +639,14 @@ Status key:
 :FILE: papers/_posts/2014-07-01-high-throughput-aging.md
 :JOURNAL: Mol. Biosyst.
 :END:
-** WAITING 24. Lee _et al._ Mol. Cell (2014)
+** DONE 24. Lee _et al._ Mol. Cell (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-06-05-ftsk-collisions-curtains
 :DOI: 10.1016/j.molcel.2014.03.033
 :FILE: papers/_posts/2014-06-05-ftsk-collisions-curtains.md
 :JOURNAL: Mol. Cell
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂, mg ml⁻¹, *K*<sub>d</sub>/*k*<sub>off</sub> kinetic params in body; <i>K</i><sub>d</sub>/<i>k</i><sub>off</sub> in figcaptions. 7 figs ✓, 49 refs ✓. FtsK protein-protein collisions on DNA curtains.
 :END:
 ** PDF 23. Robison and Finkelstein AC (2014)
 :PROPERTIES:
@@ -652,82 +654,102 @@ Status key:
 :FILE: papers/_posts/2014-05-06-microfluidic-devices-curtains.md
 :JOURNAL: Anal. Chem.
 :END:
-** WAITING 22. Leung _et al._ PLoS Genetics (2014)
+** DONE 22. Leung _et al._ PLoS Genetics (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-03-06-rnf168-h2a-ubiquitination-dna-damage
 :DOI: 10.1371/journal.pgen.1004178
 :FILE: papers/_posts/2014-03-06-rnf168-h2a-ubiquitination-dna-damage.md
 :JOURNAL: PLoS Genet.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 11 double-space headers fixed. §6a: MgCl₂ (×3), CO₂, NaH₂PO₄, His₆ (×2). 7 figs ✓, 57 refs ✓. RNF168/H2A ubiquitination DNA damage signaling paper.
 :END:
 * 2013
-** WAITING 21. Finkelstein and Greene-Annu Rev Biophys (2013)
+** DONE 21. Finkelstein and Greene-Annu Rev Biophys (2013)
 :PROPERTIES:
 :MD_SLUG: 2013-02-28-traffic-dna
 :DOI: 10.1146/annurev-biophys-083012-130304
 :FILE: papers/_posts/2013-02-28-traffic-dna.md
 :JOURNAL: Annu Rev Biophys
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 9 double-space headers fixed. §6a: bp sec⁻¹ unit. §5.2a: stripped 64× "PMC free article", 105× [PubMed], 106× [Google Scholar] from refs (3 Google Scholar with escaped-paren URLs fixed manually). 7 figs ✓, 106 refs ✓. Traffic on DNA annual review.
 :END:
-** WAITING 20. Wang _et al._ NSMB (2013)
+** DONE 20. Wang _et al._ NSMB (2013)
 :PROPERTIES:
 :MD_SLUG: 2013-02-01-search-rnap-3d
 :DOI: 10.1038/nsmb.2472
 :FILE: papers/_posts/2013-02-01-search-rnap-3d.md
 :JOURNAL: Nat. Struct. Mol. Biol.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 1 double-space header fixed. §6a: MgCl₂, mg ml⁻¹, ml min⁻¹, nm² s⁻¹, ~10⁸–10⁹ M⁻¹ s⁻¹, cell⁻¹ superscripts. 7 figs ✓, 60 refs ✓. RNAP 3D search/sliding on DNA.
 :END:
 * 2012
-** WAITING 19. Gibb _et al._ AC (2012)
+** DONE 19. Gibb _et al._ AC (2012)
 :PROPERTIES:
 :MD_SLUG: 2012-09-18-ssdna-curtains
 :DOI: 10.1021/ac302117z
 :FILE: papers/_posts/2012-09-18-ssdna-curtains.md
 :JOURNAL: Anal. Chem.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: §6a: ≥=70,000→≥70,000, LM→μM (corrupted μ), ε₂₈₀ subscript, M⁻¹ cm⁻¹, *K*<sub>a</sub>, MgCl₂ (×2), mg ml⁻¹. 3 figs ✓, 19 refs ✓. ssDNA curtains analytical chemistry.
 :END:
-** WAITING 18. Lee and Finkelstein _et al._ PNAS (2012)
+** DONE 18. Lee and Finkelstein _et al._ PNAS (2012)
 :PROPERTIES:
 :MD_SLUG: 2012-04-24-curtains-kops-ftsk
 :DOI: 10.1073/pnas.1201613109
 :FILE: papers/_posts/2012-04-24-curtains-kops-ftsk.md
 :JOURNAL: Proc Natl Acad Sci USA
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: §6a: kb s⁻¹ (×7), μg/mg mL⁻¹, mL min⁻¹, MgCl₂ (×4), *in vitro*/*in vivo* italicized. 6 figs ✓, 31 refs ✓. KOPS-guided FtsK translocation on DNA curtains.
 :END:
 * 2011
-** WAITING 17. Finkelstein and Greene-Methods Mol Biol. (2011)
+** DONE 17. Finkelstein and Greene-Methods Mol Biol. (2011)
 :PROPERTIES:
 :MD_SLUG: 2011-04-28-bilayers-curtains-single-molecule
 :DOI: 10.1007/978-1-61779-129-1_26
 :FILE: papers/_posts/2011-04-28-bilayers-curtains-single-molecule.md
 :JOURNAL: Methods Mol Biol.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 1 double-space header fixed. §6a: MgCl₂ (×2), H₂O (×2), 1mMMgCl2→1 mM MgCl₂. 3 figs ✓, 33 refs ✓. Lipid bilayers and DNA curtains methods chapter.
 :END:
 * 2010
-** WAITING 16. Finkelstein _et al._ Nature (2010)
+** DONE 16. Finkelstein _et al._ Nature (2010)
 :PROPERTIES:
 :MD_SLUG: 2010-12-16-dna-translocase-curtains
 :DOI: 10.1038/nature09561
 :FILE: papers/_posts/2010-12-16-dna-translocase-curtains.md
 :JOURNAL: Nature
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 1 double-space header fixed. §6a: *K*<sub>d</sub> (×6), *k*<sub>step</sub> (×2), sec⁻¹ (×8). 4 figs ✓, 30 refs ✓. DNA translocase on DNA curtains.
 :END:
 * 2009
-** WAITING 15. Finkelstein and Greene Mol. Cell (2009)
+** DONE 15. Finkelstein and Greene Mol. Cell (2009)
 :PROPERTIES:
 :MD_SLUG: 2009-09-11-xpd-helicase
 :DOI: 10.1016/j.molcel.2009.08.012
 :FILE: papers/_posts/2009-09-11-xpd-helicase.md
 :JOURNAL: Mol Cell
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: Short Previews piece (58 lines). Spacing fixes only. 2 figs ✓, 9 refs ✓. XPD helicase preview.
 :END:
 * 2008
-** WAITING 14. Finkelstein and Greene Mol Biosyst (2008)
+** DONE 14. Finkelstein and Greene Mol Biosyst (2008)
 :PROPERTIES:
 :MD_SLUG: 2008-11-04-single-molecule-hr
 :DOI: 10.1039/b811681b
 :FILE: papers/_posts/2008-11-04-single-molecule-hr.md
 :JOURNAL: Mol. Biosyst.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 6 double-space headers fixed. §6a: bp s⁻¹ (×3), Ca²⁺ (×2), Mg²⁺ (×2). 5 figs ✓, 131 refs ✓. Single-molecule approaches to homologous recombination review.
 :END:
 * 2007
-** WAITING 13. Ishikawa _et al._ PNAS (2007)
+** DONE 13. Ishikawa _et al._ PNAS (2007)
 :PROPERTIES:
 :MD_SLUG: 2007-10-09-neuroglobin-ultrafast
 :DOI: 10.1073/pnas.0707718104
 :FILE: papers/_posts/2007-10-09-neuroglobin-ultrafast.md
 :JOURNAL: Proc Natl Acad Sci USA
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: No fixes needed — already fully formatted. 5 figs ✓, 49 refs ✓. Neuroglobin ultrafast dynamics.
 :END:
 ** PDF 12. Kwak _et al._ JCP (2007)
 :PROPERTIES:
@@ -747,12 +769,14 @@ Status key:
 :FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
 :JOURNAL: Phys. Chem. Chem. Phys.
 :END:
-** WAITING 9. Finkelstein _et al._ PNAS (2007)
+** DONE 9. Finkelstein _et al._ PNAS (2007)
 :PROPERTIES:
 :MD_SLUG: 2007-02-20-protein-dynamics-2d-ir
 :DOI: 10.1073/pnas.0610027104
 :FILE: papers/_posts/2007-02-20-protein-dynamics-2d-ir.md
 :JOURNAL: Proc Natl Acad Sci. USA
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: §6a: ²H₂O (×3), H₂O₂, 21-ps⁻¹→21-ps time constant (spurious superscript). 5 figs ✓, 46 refs ✓. HRP protein dynamics via 2D-IR vibrational echo.
 :END:
 * 2006
 ** PDF 8. Massari _et al._ JPCB (2006)
@@ -761,12 +785,14 @@ Status key:
 :FILE: papers/_posts/2006-09-28-cytochrome-c552-mutants.md
 :JOURNAL: J. Phys. Chem. B.
 :END:
-** WAITING 7. Massari _et al._ JACS (2006)
+** DONE 7. Massari _et al._ JACS (2006)
 :PROPERTIES:
 :MD_SLUG: 2006-03-29-proteins-silica-glasses-ir
 :DOI: 10.1021/ja058745y
 :FILE: papers/_posts/2006-03-29-proteins-silica-glasses-ir.md
 :JOURNAL: J. Am. Chem. Soc.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 1 double-space header fixed. §6a: D₂O (×6), H₂O, CaF₂ (×3). 5 figs ✓, 119 refs ✓. Proteins in silica sol-gel glasses via 2D-IR.
 :END:
 * 2005
 ** PDF 6. Massari _et al._ JACS (2005)
@@ -782,19 +808,23 @@ Status key:
 :JOURNAL: J. Phys. Chem. B.
 :END:
 * 2004
-** WAITING 4. McClain _et al._ JACS (2004)
+** DONE 4. McClain _et al._ JACS (2004)
 :PROPERTIES:
 :MD_SLUG: 2004-12-08-hemoglobin-dynamics-vibrational-echo
 :DOI: 10.1021/ja0454790
 :FILE: papers/_posts/2004-12-08-hemoglobin-dynamics-vibrational-echo.md
 :JOURNAL: J. Am. Chem. Soc.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: §6a: cm⁻¹ (×12), CaF₂ (×2), _μ_ m→μm scraper artifact (×8). 9 figs ✓, 50 refs ✓. Hemoglobin dynamics in erythrocytes via vibrational echo.
 :END:
-** WAITING 3. Finkelstein _et al._ J Chem Phys. (2004)
+** DONE 3. Finkelstein _et al._ J Chem Phys. (2004)
 :PROPERTIES:
 :MD_SLUG: 2004-07-08-vibrational-echos-heme-co
 :DOI: 10.1063/1.1758940
 :FILE: papers/_posts/2004-07-08-vibrational-echos-heme-co.md
 :JOURNAL: J. Chem. Phys.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: §6a: Fe³⁺/Fe²⁺ ion charges, CaF₂, GW/cm²→GW/cm² and W/cm²→W/cm² (×4). 8 figs ✓, 26 refs ✓. Vibrational echo beats in heme-CO proteins.
 :END:
 ** PDF 2. McClain _et al._ CPLett (2004)
 :PROPERTIES:
@@ -803,12 +833,14 @@ Status key:
 :JOURNAL: Chem. Phys. Lett.
 :END:
 * 2003
-** WAITING 1. Merchant _et al._ JACS (2003)
+** DONE 1. Merchant _et al._ JACS (2003)
 :PROPERTIES:
 :MD_SLUG: 2003-11-03-myoglobin-substates
 :DOI: 10.1021/ja035654x
 :FILE: papers/_posts/2003-11-03-myoglobin-substates.md
 :JOURNAL: J. Am. Chem. Soc.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: No fixes needed — already fully formatted. O₂, SO₄²⁻, Na⁺, CaF₂ already present. 13 figs ✓, 81 refs ✓. Myoglobin-CO substates MD simulation.
 :END:
 * 
 ** PDF 99. Unknown
