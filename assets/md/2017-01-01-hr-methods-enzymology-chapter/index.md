@@ -26,10 +26,10 @@ pmcid: PMC5564670
 
 ---
 
-##  Abstract
+## Abstract
 Homologous recombination (HR) is a universally conserved DNA double-strand break repair pathway. Single-molecule fluorescence imaging approaches have revealed new mechanistic insights into nearly all aspects of HR. These methods are especially suited for studying protein complexes because multicolor fluorescent imaging can parse out subassemblies and transient intermediates that associate with the DNA substrates on the millisecond to hour timescales. However, acquiring single-molecule datasets remains challenging because most of these approaches are designed to measure one molecular reaction at a time. The DNA curtains platform facilitates high-throughput single-molecule imaging by organizing arrays of DNA molecules on the surface of a microfluidic flowcell. Here, we describe a second-generation UV lithography-based protocol for fabricating flowcells for DNA curtains. This protocol greatly reduces the challenges associated with assembling DNA curtains and paves the way for the rapid acquisition of large datasets from individual single-molecule experiments. Drawing on our recent studies of human HR, we also provide an overview of how DNA curtains can be used for observing facilitated protein diffusion, processive enzyme translocation, and nucleoprotein filament dynamics on single-stranded DNA. Together, these protocols and case studies form a comprehensive introduction for other researchers that may want to adapt DNA curtains for high-throughput single-molecule studies of DNA replication, transcription, and repair.
 ---
-##  1. INTRODUCTION
+## 1. INTRODUCTION
 DNA double-strand breaks (DSBs) occur when both strands of the DNA duplex are cleaved in close proximity, fragmenting the chromosome into two distinct pieces. Each of our cells must repair upward of 50 DSBs that arise spontaneously per cell cycle ([Vilenchik & Knudson, 2003](#ref50)). DSBs also occur as a result of radio- and chemotherapeutics, which remain our frontline treatments for cancer. Repairing DSBs rapidly and accurately is critical, as incorrect DSB repair may lead to genome rearrangements, oncogene activation, and tumor formation. The global importance of DSB repair is illustrated by the severe cancer syndromes in patients with disruptions in any of the DSB repair proteins. For example, mutations in the MRE11-RAD50-NBS1 (MRN) complex, which participates in the first steps of DSB repair as well as the DNA damage response, lead to several familial cancer syndromes, immunodeficiency, and intellectual disability ([Lamarche, Orazio, & Weitzman, 2010](#ref25); [Luo et al., 1999](#ref29); [Williams et al., 2002](#ref53)). While MRN deficiency can lead to genome instability, MRN overexpression is also seen in up to ~30% of cancer cell lines ([Cerami et al., 2012](#ref8)). By elevating MRN levels, cancer cells develop resistance to genotoxic treatments via MRN-dependent alternative end-joining pathways ([Bunting & Nussenzweig, 2013](#ref5)). The spectrum and severity of MRN-associated diseases likely arise from the global effects of diminished DSB repair and DNA damage signaling ([Paull, 2015](#ref38)).
 Eukaryotes have two major DSB repair pathways ([Fig. 1A](#fig1)). Non-homologous end joining (NHEJ) is an error-prone mechanism that does not use any DNA sequence homology to repair the DSB ([Weterings & Chen, 2008](#ref52)). NHEJ is active throughout the cell cycle and is the predominant repair pathway during the G1 phase in mammalian cells ([Bogomazova, Lagarkova, Tskhovrebova, Shutova, & Kiselev, 2011](#ref2); [Shahar et al., 2012](#ref42); [Shibata et al., 2011](#ref43)). We direct the reader to several excellent reviews that summarize the mechanisms of human NHEJ, which is beyond the scope of this manuscript ([Deriano & Roth, 2013](#ref12); [Weterings & Chen, 2008](#ref52)).
 <figure class="paper-figure" id="fig1">
@@ -39,7 +39,7 @@ Eukaryotes have two major DSB repair pathways ([Fig. 1A](#fig1)). Non-homologous
 Broken DNA ends can also be repaired via homologous recombination (HR), which uses the intact sister chromatid to promote error-free repair ([Karanam, Kafri, Loewer, & Lahav, 2012](#ref23); [Mao, Bozzella, Seluanov, & Gorbunova, 2008](#ref30)). HR requires a spatiotemporally controlled assembly of repair enzymes at a DSB. In humans, HR is initiated by the MRN complex, which is one of the first repair factors to localize to DSBs ([Lisby & Rothstein, 2009](#ref27); [Lukas et al., 2004](#ref28)). The MRE11 subunit encodes a nuclease domain that initiates endo- and exonucleolytic processing of the free DNA ends ([Cannavo & Cejka, 2014](#ref6); [Paull & Gellert, 1998](#ref39); [Shibata et al., 2014](#ref44)). Following initial processing by MRN and CtIP, cells assemble a multienzyme resectosome consisting minimally of Exonuclease 1 (EXO1) and the Bloom's syndrome helicase (BLM). Together, the BLM-EXO1-MRN resectosome catalyzes long-range resection of the free DNA ends to produce 3′-ssDNA overhangs ([Cejka et al., 2010](#ref7); [Gravel, Chapman, Magill, & Jackson, 2008](#ref21); [Mimitou & Symington, 2011](#ref32); [Myler & Finkelstein, 2016](#ref34); [Nimonkar et al., 2011](#ref36); [Niu et al., 2010](#ref37); [Symington, 2016](#ref46); [Symington & Gautier, 2011](#ref47)). While EXO1 appears to be the major nuclease in human cells, a redundant resection pathway uses the DNA2 nuclease/helicase along with BLM to catalyze DNA resection ([Farah, Cromie, & Smith, 2009](#ref14); [Myler et al., 2016](#ref35); [Tomimatsu et al., 2014](#ref49); [Zhou, Caron, Legube, & Paull, 2014](#ref55)). The resectosome generates kilobase-length tracks of single-stranded DNA (ssDNA) that are initially bound by replication protein A (RPA). RPA is subsequently displaced by RAD51 recombinase, which forms presynaptic nucleoprotein filaments on the DNA ([Chen & Wold, 2014](#ref10); [Symington, 2016](#ref46)). The RAD51-ssDNA filament then searches for homologous sequences in a sister chromatid. After a stretch of homology is found, strand invasion creates a displacement loop, which is then extended by a DNA polymerase and resolved by structure-specific nucleases (resolvases) to complete error-free DSB repair ([Mehta & Haber, 2014](#ref31)). In sum, HR requires a spatiotemporal assembly of dozens of DNA repair enzymes at the site of the lesion.
 Here, we describe a rapid and scalable protocol for assembling high-throughput single-molecule DNA curtains to visualize the first steps of HR ([Fig. 1B](#fig1)). Observing DSB repair factors on DNA curtains permits the direct observation of transient protein-DNA interactions that are frequently averaged out in ensemble biochemical experiments. For example, we demonstrate an assay for observing how MRN rapidly locates to the DSB among a vast pool of homoduplex DNA. We also describe assays for observing how the multienzyme resectosome nucleolytically processes the free DNA ends and how RPA and RAD51 dynamically exchange on the resulting ssDNA substrate. More broadly, we anticipate that high-throughput DNA curtains will be widely applicable for single-molecule fluorescence studies for nearly all protein-nucleic acid interactions.
 ---
-##  2. METHODS
+## 2. METHODS
 ### 2.1 Overview
 To assemble DNA curtains, DNA molecules are anchored to a supported lipid bilayer (SLB) via a biotin-streptavidin linkage and organized at patterned features on the flowcell surface ([Finkelstein & Greene, 2011](#ref16); [Gallardo et al., 2015](#ref18)). SLBs offer three key advantages for single-molecule studies of protein-DNA interactions. First, the zwitterionic lipid head groups provide excellent surface passivation, thereby preventing nonspecific adsorption of nucleic acids and proteins to the flowcell surfaces. Second, biotin, poly(ethylene glycol)s, and other chemically nonreactive species can be readily introduced into the bilayer by including these lipids during SLB preparation. Finally, SLBs form a two-dimensional fluid on the flowcell surface. This allows the bilayers to be readily manipulated via external shear or electrophoretic forces.
 The ability to manipulate and organize SLBs is at the core of the DNA curtains platform. Buffer flow (hydrodynamic force) is used to push and assemble DNA molecules at physical barriers to lipid diffusion. Early approaches for DNA curtains used a glass scribe to mechanically etch the flowcell, but in practice this does not produce controllable lipid diffusion barriers ([Granéli, Yeykal, Prasad, & Greene, 2006](#ref20)). The next iteration of this approach used electron beam lithography (EBL) to position ~100-nm-wide chromium (Cr) features on the surface of a quartz microscope slide ([Fazio, Visnapuu, Wind, & Greene, 2008](#ref15); [Finkelstein & Greene, 2011](#ref16); [Visnapuu, Fazio, Wind, & Greene, 2008](#ref51)). However, the limited availability of EBL tools in many university clean rooms, along with expense and relatively slow slide fabrication, has limited the broad adoption of DNA curtains in molecular biology labs.
@@ -103,9 +103,9 @@ Below, we describe the minimal set of tools that are required for microfabricati
 
 ### 2.3 Assembling DNA Curtains
 #### 2.3.1 Materials
-  1. Lipids buffer: 10m _M_ Tris-HCl [pH 8.0]; 100m _M_ NaCl.
-  2. BSA buffer: 40m _M_ Tris-HCl [pH 8.0]; 1m _M_ MgCl2; 1m _M_ DTT; 0.2 mgmL-1 BSA.
-  3. Streptavidin, stored as a 1.0 mgmL-1 stock in water (434301; Thermo).
+  1. Lipids buffer: 10mM Tris-HCl [pH 8.0]; 100mM NaCl.
+  2. BSA buffer: 40mM Tris-HCl [pH 8.0]; 1mM MgCl₂; 1mM DTT; 0.2 mg mL⁻¹ BSA.
+  3. Streptavidin, stored as a 1.0 mg mL⁻¹ stock in water (434301; Thermo).
   4. **λ** -phage DNA (SD0011; Thermo).
   5. Affinity purified goat antirabbit IgG h + l (GGHL-15A; Immunology Consultants Laboratory).
   6. Anti-digoxigenin rabbit monoclonal antibody (700772; Thermo).
@@ -119,24 +119,24 @@ Below, we describe the minimal set of tools that are required for microfabricati
 
 #### 2.3.3 Assembling Single-Tethered DNA Curtains
   1. Equilibrate the flowcell with 3-4mL BSA buffer and let stand for 10 min.
-  2. Dilute 30 μL of 1.0 mgmL-1 streptavidin in 270 μL BSA buffer (0.1 mgmL-1 final) and inject on flowcell. Incubate for 10min.
+  2. Dilute 30 μL of 1.0 mg mL⁻¹ streptavidin in 270 μL BSA buffer (0.1 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   3. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
   4. Dilute 100 μL of **λ** -DNA in 900 μL of BSA buffer. Inject DNA in ~ 300 μL increments with 5-min incubation in between.
   5. Wash the flowcell with 2-3mL of BSA buffer.
-  6. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired imaging buffer. In a 4-mm-wide flowcell channel, flow rates of 0.4 mLmin-1 extend dsDNA by ~80% of the crystallographic B-form (corresponding to ~0.6pN of tension). This provides a convenient DNA extension for data acquisition and analysis.
+  6. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired imaging buffer. In a 4-mm-wide flowcell channel, flow rates of 0.4 mL min⁻¹ extend dsDNA by ~80% of the crystallographic B-form (corresponding to ~0.6pN of tension). This provides a convenient DNA extension for data acquisition and analysis.
 
 #### 2.3.4 Assembling Double-Tethered DNA Curtains
-  1. Dilute 15 μL of 1 mgmL-1 affinity purified goat antirabbit IgG in 285 μL lipids buffer (~0.05 mgmL-1 final) and inject on flowcell. Incubate for 10min.
+  1. Dilute 15 μL of 1 mg mL⁻¹ affinity purified goat antirabbit IgG in 285 μL lipids buffer (~0.05 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   2. Equilibrate the flowcell with 3-4mL BSA buffer.
-  3. Dilute 2.5 μL of 0.5 mgmL-1 antidigoxigenin rabbit monoclonal antibody in 250 μL BSA buffer (0.01 mgmL-1 final) and inject on flowcell. Incubate for 10min.
-  4. Dilute 30 μL of 1.0 mgmL-1 streptavidin in 270 μL BSA buffer (0.1 mgmL-1 final) and inject on flowcell. Incubate for 10min.
+  3. Dilute 2.5 μL of 0.5 mg mL⁻¹ antidigoxigenin rabbit monoclonal antibody in 250 μL BSA buffer (0.01 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
+  4. Dilute 30 μL of 1.0 mg mL⁻¹ streptavidin in 270 μL BSA buffer (0.1 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   5. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
   6. Dilute 100 μL of **λ** -DNA with a digoxigenin label opposite the bio-tinylated end in 900 μL of BSA buffer. Inject DNA in ~300 μL increments with 5-min incubation in between.
   7. Wash the flowcell with 2-3mL of BSA buffer.
-  8. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 0.4 mLmin-1 provide good DNA extension for data acquisition. In this configuration, flow can be stopped in order to observe proteins on double-tethered DNA. See Notes 2 and 3.
+  8. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 0.4 mL min⁻¹ provide good DNA extension for data acquisition. In this configuration, flow can be stopped in order to observe proteins on double-tethered DNA. See Notes 2 and 3.
 
 ---
-##  3. APPLICATIONS
+## 3. APPLICATIONS
 ### 3.1 Facilitated Diffusion of MRN on Double-Tethered dsDNA Curtains
 #### 3.1.1 Overview
 Sequence and structure-specific DNA-binding proteins must rapidly locate their targets amid a vast pool of nonspecific DNA. These proteins accelerate the search process by employing a combination of three-dimensional diffusion through the nucleus and facilitated one-dimensional (1D) diffusion along the DNA. During 1D diffusion, proteins can either slide along the helical pitch of the DNA backbone or transiently dissociate and associate with the DNA via a series of microscopic hops. Both sliding and hopping have been observed in vitro via single-molecule and ensemble biochemistry approaches and have also been inferred via single-molecule imaging in live cells ([Blainey et al., 2009](#ref1); [Cravens et al., 2015](#ref11); [Elf, Li, & Xie, 2007](#ref13); [Halford & Marko, 2004](#ref22); [Schonhoft & Stivers, 2012](#ref41)). Indeed, 1D facilitated diffusion is a common feature of nearly all proteins that scan both DNA ([Blainey et al., 2009](#ref1); [Halford & Marko, 2004](#ref22); [Tafvizi, Mirny, & van Oijen, 2011](#ref48)) and RNA ([Chandradoss, Schirle, Szczepaniak, MacRae, & Joo, 2015](#ref9); [Koh, Kidwell, Ragunathan, Doudna, & Myong, 2013](#ref24)). Here, we describe the use of double-tethered DNA curtains to visualize and quantify the diffusive properties of MRN, which rapidly locates DSBs in human cells ([Fig. 4](#fig4)).
@@ -145,10 +145,10 @@ Sequence and structure-specific DNA-binding proteins must rapidly locate their t
 <figcaption><strong>Fig. 4.</strong> Facilitated diffusion of repair factors on DNA curtains. (A) Illustration and (B) individual frames from a movie of a fluorescent MRN complex diffusing on a double-tethered DNA substrate. <em>Contour plots</em> indicate a two-dimensional (2D) Gaussian fit to the fluorescence data. The center of the Gaussian fit is used to extract the absolute position of the molecule over time with subpixel accuracy. (C) Kymograph of the same MRN molecule as in (B). <em>Red arrow</em> indicates when the molecule dissociates from the DNA. Tracking data extracted from the fits in (B) are used to determine the time-dependent trajectory of a single MRN molecule. <em>Black arrow</em> indicates MRN dissociation. These trajectories are used to calculate the mean-squared displacement (MSD) curves. (D) MSD curves and corresponding diffusion coefficients of five MRN molecules. A linear fit of the MSD curves is used to determine the one-dimensional diffusion coefficients. (E) Histogram of the diffusion coefficients of 234 individual MRN molecules. <em>Red line</em>: Gaussian fit indicates that the diffusion coefficients are log-normally distributed.</figcaption>
 </figure>
 #### 3.1.2 Materials
-  1. Imaging buffer: 40m _M_ Tris-HCl [pH 8.0]; 60m _M_ NaCl; 1m _M_ ; MgCl2; 2m _M_ DTT; 0.2 mgmL-1 BSA
+  1. Imaging buffer: 40mM Tris-HCl [pH 8.0]; 60mM NaCl; 1mM ; MgCl₂; 2mM DTT; 0.2 mg mL⁻¹ BSA
   2. Biotinylated anti-FLAG M2 antibody (F9291; Sigma)
   3. Streptavidin-conjugated quantum dots (QDots) 705nm (Q10163MP; Thermo)
-  4. YOYO-1 stored as a 1m _M_ stock in DMSO (Y3601; Life Technologies)
+  4. YOYO-1 stored as a 1mM stock in DMSO (Y3601; Life Technologies)
   5. Glucose oxidase type II from _Aspergillus niger_ (G2133; Sigma)
   6. Catalase from bovine liver (C9322; Sigma)
 
@@ -156,7 +156,7 @@ Sequence and structure-specific DNA-binding proteins must rapidly locate their t
   1. Follow flowcell assembly protocol for double-tethered DNA curtains from Section 2.3.
   2. Dilute a biotinylated anti-FLAG M2 antibody 1:100 in lipid buffer. Using an 8:1 ratio of diluted antibody to streptavidin-conjugated quantum dots, preincubate QDots with the antibody. In our hands, preincubating the QDots with a small amount of BSA buffer reduces aggregation and improves fluorescent labeling. Incubate this mixture for 10min on ice.
   3. Add the FLAG-labeled protein to the antibody-QDot mixture. Incubate this mixture for 10min on ice.
-  4. Dilute the protein-antibody-QDot mixture to 150-200 μL with imaging buffer containing 2 μL of saturating biotin. Overall final concentration should be <10n _M_ protein such that the quantum dot concentration does not completely shroud the background of the flowcell when imaging.
+  4. Dilute the protein-antibody-QDot mixture to 150-200 μL with imaging buffer containing 2 μL of saturating biotin. Overall final concentration should be <10nM protein such that the quantum dot concentration does not completely shroud the background of the flowcell when imaging.
   5. Inject the sample on a 200-μL loop attached to the main buffer flow microfluidic setup.
   6. Immediately begin recording on the microscope cameras.
   7. Observe the fluorescence on the camera during the injection so that the main "cloud" of background QDots flows slightly past the field of view so that individual molecules on the surface are visible. Turn off the flow and stop the syringe pump.
@@ -180,10 +180,10 @@ Nearly all DNA repair pathways require nucleolytic cleavage of the damaged subst
 #### 3.2.2 Imaging EXO1 on DNA Curtains
   1. Follow flowcell assembly protocol for single-tethered DNA curtains from Section 2.3 using DNA with a long 3′-ssDNA overhang (78nt) in order to facilitate the loading of EXO1 on DNA ends.
   2. Preincubate 5 μL of imaging buffer with 1 μL of streptavidin QDots (1pmol) for 5min.
-  3. Next, add 800fmol (2 μL of 400n _M_) biotin-EXO1 to the QDot mixture and incubate for another 10min on ice.
-  4. Dilute the EXO1 to 200 μL imaging buffer containing 2 μL of saturating biotin (4n _M_ final concentration EXO1). This will prevent the non-specific binding of EXO1 to the streptavidin-coated lipids on the flowcell.
-  5. Inject EXO1 at 200 μL min-1 in a 100-μL loop. Given the relatively slow movement of EXO1, it may be necessary to shutter the laser to only capture one frame per second with a 200-ms exposure.
-  6. Increase the flow rate to 400 μLmin-1 after loading for full DNA extension and observation of EXO1.
+  3. Next, add 800fmol (2 μL of 400nM) biotin-EXO1 to the QDot mixture and incubate for another 10min on ice.
+  4. Dilute the EXO1 to 200 μL imaging buffer containing 2 μL of saturating biotin (4nM final concentration EXO1). This will prevent the non-specific binding of EXO1 to the streptavidin-coated lipids on the flowcell.
+  5. Inject EXO1 at 200 μL min⁻¹ in a 100-μL loop. Given the relatively slow movement of EXO1, it may be necessary to shutter the laser to only capture one frame per second with a 200-ms exposure.
+  6. Increase the flow rate to 400 μL min⁻¹ after loading for full DNA extension and observation of EXO1.
   7. Images are acquired using Nikon Elements (Nikon) or Micro-Manager ([Stuurman et al., 2010](#ref45)). Microscope settings were used at 10MHz camera readout mode, 300× EM gain, 5× conversion gain, and 200ms frame rate collected every second. The 488-nm laser was set to ~100mW (at prism face). See Notes 4 and 5.
 
 #### 3.2.3 Analyzing Processive EXO1 Translocation
@@ -197,11 +197,11 @@ Nearly all DNA repair pathways require nucleolytic cleavage of the damaged subst
 RAD51 forms nucleoprotein filaments on ssDNA and catalyzes the homology search within a sister chromatid. However, RAD51 does not melt secondary ssDNA structures, making experiments with secondary-structure-rich ssDNA difficult. Previous single-molecule studies have used RPA to melt secondary ssDNA structure. In a second step, RAD51 is used to remove RPA from the ssDNA ([Gibb et al., 2014](#ref19)). Here, we adapt a protocol for generating long, low-complexity ssDNA templates for DNA curtains ([Fig. 6](#fig6)) ([Brockman, Kim, & Schroeder, 2011](#ref3); [Lee et al., 2014](#ref26)). Two oligonucleotides are used to perform rolling circle replication (RCR) ([Fig. 6A-C](#fig6)). The oligonucleotide circle that acts as the template is composed of adenines and guanines, whereas the ssDNA product is comprised solely of cytosine and thymine. This eliminates the inter- and intra-molecular Watson-Crick base pairing within the RCR product. Below, we use a previously characterized fluorescent RAD51(C319S) to demonstrate efficient RAD51 binding independent of other secondary-structure melting factors ([Fig. 6C and D](#fig6)) ([Modesti et al., 2007](#ref33)).
 <figure class="paper-figure" id="fig6">
 <img src="nihms892254f6.jpg" alt="Figure 6">
-<figcaption><strong>Fig. 6.</strong> Nucleoprotein filament dynamics on low sequence complexity ssDNA curtains. (A) Sequences of the two ssDNA oligonucleotides used for rolling circle replication. (B) Schematic of rolling circle replication (RCR) reaction. T4 DNA ligase ligates the template oligo to form a contiguous template strand. Next, phi29 DNA polymerase catalyzes the synthesis of long ssDNA molecules. (C) Agarose gel of several time points along the RCR synthesis reaction. The primer oligonucleotide was 32P labeled on the 5′-terminus phosphate (<em>gold star</em>). (D) Wide-field image of a microfabricated barrier set with double-tethered ssDNA curtains coated with RPA-TagRFP (<em>magenta</em>). <em>Arrows</em> and <em>circles</em> denote chromium barriers and pedestals, respectively. (E) Illustration and kymograph showing a single ssDNA molecule coated with ATTO488-RAD51(C319S) (<em>green</em>) replaced by RPA-TagRFP (<em>magenta</em>). <em>Yellow dashed line</em> denotes the injection of RPA–TagRFP into the flowcell. Buffer controls indicate when the buffer flow was toggled off and on to show that the florescent proteins retract to the Cr barriers simultaneously with the ssDNA molecule. This indicates that RAD51 and RPA are on the ssDNA molecule. <em>Panel A: Adapted from Lee, K. S., Marciel, A. B., Kozlov, A. G., Schroeder, C. M., Lohman, T. M., &amp; Ha, T. (2014). Ultrafast redistribution of E. coli SSB along long single-stranded DNA via intersegment transfer. Journal of Molecular Biology, 426, 2413–2421.</em></figcaption>
+<figcaption><strong>Fig. 6.</strong> Nucleoprotein filament dynamics on low sequence complexity ssDNA curtains. (A) Sequences of the two ssDNA oligonucleotides used for rolling circle replication. (B) Schematic of rolling circle replication (RCR) reaction. T4 DNA ligase ligates the template oligo to form a contiguous template strand. Next, phi29 DNA polymerase catalyzes the synthesis of long ssDNA molecules. (C) Agarose gel of several time points along the RCR synthesis reaction. The primer oligonucleotide was ³²P labeled on the 5′-terminus phosphate (<em>gold star</em>). (D) Wide-field image of a microfabricated barrier set with double-tethered ssDNA curtains coated with RPA-TagRFP (<em>magenta</em>). <em>Arrows</em> and <em>circles</em> denote chromium barriers and pedestals, respectively. (E) Illustration and kymograph showing a single ssDNA molecule coated with ATTO488-RAD51(C319S) (<em>green</em>) replaced by RPA-TagRFP (<em>magenta</em>). <em>Yellow dashed line</em> denotes the injection of RPA–TagRFP into the flowcell. Buffer controls indicate when the buffer flow was toggled off and on to show that the florescent proteins retract to the Cr barriers simultaneously with the ssDNA molecule. This indicates that RAD51 and RPA are on the ssDNA molecule. <em>Panel A: Adapted from Lee, K. S., Marciel, A. B., Kozlov, A. G., Schroeder, C. M., Lohman, T. M., &amp; Ha, T. (2014). Ultrafast redistribution of E. coli SSB along long single-stranded DNA via intersegment transfer. Journal of Molecular Biology, 426, 2413–2421.</em></figcaption>
 </figure>
 #### 3.3.2 Materials
-  1. TE buffer: 10m _M_ Tris-HCl [pH 8.0]; 0.1m _M_ EDTA
-  2. RAD51 buffer: 40m _M_ Tris-HCl [pH 8.0]; 1m _M_ MgCl2; 5m _M_ CaCl2; 100m _M_ KCl; 1m _M_ DTT; 1m _M_ ATP; 0.2 mgmL-1 BSA; 1m _M_ Trolox (Sigma-Aldrich); 1.0% glucose (w/v); 500units catalase (Sigma-Aldrich); 70units glucose oxidase (Sigma-Aldrich)
+  1. TE buffer: 10mM Tris-HCl [pH 8.0]; 0.1mM EDTA
+  2. RAD51 buffer: 40mM Tris-HCl [pH 8.0]; 1mM MgCl₂; 5mM CaCl₂; 100mM KCl; 1mM DTT; 1mM ATP; 0.2 mg mL⁻¹ BSA; 1mM Trolox (Sigma-Aldrich); 1.0% glucose (w/v); 500units catalase (Sigma-Aldrich); 70units glucose oxidase (Sigma-Aldrich)
   3. 10× T4 DNA ligase reaction buffer (B0202S; NEB)
   4. T4 DNA ligase (M0202; NEB)
   5. Primer oligo (/Biosg/TC TCC TCC TTC T-HPLC purified; Integrated DNA Technologies)
@@ -210,38 +210,38 @@ RAD51 forms nucleoprotein filaments on ssDNA and catalyzes the homology search w
   8. BSA, Molecular Biology Grade (B9000S; NEB)
   9. Thermocycler (Mastercycler pro S; Eppendorf )
   10. 10× phi29 DNA polymerase reaction buffer (B0269S; NEB)
-  11. phi29 DNA polymerase (homemade 5 μ _M_ stock)
+  11. phi29 DNA polymerase (homemade 5 μM stock)
   12. Deoxynucleotide (dNTP) solution set (N0446S; NEB)
 
 #### 3.3.3 Protocol for Ligation Reaction
-  1. Prepare a 49 μL ligation reaction containing: (i) 5 μL 10× T4 ligase reaction buffer; (ii) 2 μL template oligo (10 μ _M_ stock in TE buffer); (iii) 1.8 μL primer oligo (10 μ _M_ stock in TE buffer); and (iv) 40.2 μL nuclease-free water.
-  2. Heat the ligation reaction to 75°C for 5min in a thermocycler and cool the reaction to 4°C at a rate of μ1°C min-1.
+  1. Prepare a 49 μL ligation reaction containing: (i) 5 μL 10× T4 ligase reaction buffer; (ii) 2 μL template oligo (10 μM stock in TE buffer); (iii) 1.8 μL primer oligo (10 μM stock in TE buffer); and (iv) 40.2 μL nuclease-free water.
+  2. Heat the ligation reaction to 75°C for 5min in a thermocycler and cool the reaction to 4°C at a rate of μ1°C min⁻¹.
   3. Add 1 μL of T4 DNA ligase to the reaction and incubate at room temperature for 3-5h. See Note 6.
 
 #### 3.3.4 Protocol for RCR
-  1. Prepare a 100 μL RCR reaction containing: (i) 10 μL of 10× phi29 DNA polymerase reaction buffer; (ii) 8 μL dTTP (10m _M_ stock corresponding to 0.8m _M_ final concentration); (iii) 8 μL dCTP (10m _M_ stock corresponding to 0.8m _M_ final concentration); (iv) 1 μL BSA (10 mgmL-1 stock corresponding to 0.1 mgmL-1 final concentration); (v) 6.25 μL ligation mix (400n _M_ stock corresponding to 25n _M_ final concentration); (vi) 10 μL phi29 DNA polymerase (5 μ _M_ homemade stock corresponding to 0.5 μ _M_ final concentration); and (vii) 56.75 μL nuclease-free water.
+  1. Prepare a 100 μL RCR reaction containing: (i) 10 μL of 10× phi29 DNA polymerase reaction buffer; (ii) 8 μL dTTP (10mM stock corresponding to 0.8mM final concentration); (iii) 8 μL dCTP (10mM stock corresponding to 0.8mM final concentration); (iv) 1 μL BSA (10 mg mL⁻¹ stock corresponding to 0.1 mg mL⁻¹ final concentration); (v) 6.25 μL ligation mix (400nM stock corresponding to 25nM final concentration); (vi) 10 μL phi29 DNA polymerase (5 μM homemade stock corresponding to 0.5 μM final concentration); and (vii) 56.75 μL nuclease-free water.
   2. Incubate reaction at 30°C for 30min to generate ssDNA molecules that are greater than 20 μm in length. Length of incubation can be adjusted for the desired ssDNA length.
-  3. Add 10 μL of 0.5 _M_ EDTA to quench reaction. Gently flick or invert tube to mix. Do not vortex, as this causes shearing of ssDNA molecules. Place reaction on ice. See Notes 7 and 8.
+  3. Add 10 μL of 0.5 M EDTA to quench reaction. Gently flick or invert tube to mix. Do not vortex, as this causes shearing of ssDNA molecules. Place reaction on ice. See Notes 7 and 8.
 
 #### 3.3.5 Assembling ssDNA Curtains
   1. Follow lipid bilayer protocol from Section 2.3.
   2. Equilibrate the flowcell with 3-4mL BSA buffer and let stand for 10min.
-  3. Dilute 30 μL of 1.0 mgmL-1 streptavidin in 270 μL BSA buffer (0.1 mgmL-1 final) and inject on flowcell. Incubate for 10min.
+  3. Dilute 30 μL of 1.0 mg mL⁻¹ streptavidin in 270 μL BSA buffer (0.1 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   4. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
   5. Dilute 25 μL of quenched rolling circle reaction in 975 μL of BSA buffer. Inject ssDNA in ~300 μL increments with 5-min incubation in between.
   6. Wash the flowcell with 2-3mL of BSA buffer.
-  7. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 1.0 mLmin-1 are generally used to extend the ssDNA in 4-mm-wide flowcells.
+  7. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 1.0 mL min⁻¹ are generally used to extend the ssDNA in 4-mm-wide flowcells.
 
 #### 3.3.6 Analyzing Protein Filament Dynamics
-  1. RAD51(C319S)-ATTO488 was diluted to 5n _M_ in 700 μL of RAD51 buffer and injected at 0.5 mLmin-1.
-  2. RPA-TagRFP was diluted to 2n _M_ in RAD51 buffer and flowed through the flowcell at 1.0 mLmin-1.
+  1. RAD51(C319S)-ATTO488 was diluted to 5nM in 700 μL of RAD51 buffer and injected at 0.5 mL min⁻¹.
+  2. RPA-TagRFP was diluted to 2nM in RAD51 buffer and flowed through the flowcell at 1.0 mL min⁻¹.
   3. Images are acquired using Nikon Elements (Nikon) or Micro-Manager ([Stuurman et al., 2010](#ref45)). Microscope settings were used at 10MHz camera readout mode, 300× EM gain, 5× conversion gain, and 200ms frame rate collected every 5s. 488 and 532nm lasers were set to ~ 20 and ~25mW (at prism face), respectively.
   4. Data were exported into a tiff stack and processed with FIJI ([Schindelin et al., 2012](#ref40)).
   5. Kymographs were generated with using the "Reslice" tool, making a single pixel width image of the ssDNA over time.
   6. Fluorescent intensity can be calculated over the ssDNA or region of interest using the "Measure" tool to average the pixel intensity over time.
 
 ---
-##  Acknowledgments
+## Acknowledgments
 We are indebted to Dr. Mauro Modesti and Dr. Tanya Paull for overexpression plasmids. We thank Dr. Praveenkumar Pasupathy for his help in troubleshooting the quartz slide fabrication process.
 _Funding._ This work was supported by the National Science Foundation (1453358 to I.J.F.), the Institute of General Medical Sciences of the National Institutes of Health (GM097177 and GM120554 to I.J.F.), CPRIT (R1214 to I.J.F.), and the Welch Foundation (F-l808 to I.J.F.). I.J.F. is a CPRIT Scholar in Cancer Research. L.R.M. is supported by the National Cancer Institute (CA212452). Y.K. is a Howard Hughes Medical Institute international graduate student fellow.
 
