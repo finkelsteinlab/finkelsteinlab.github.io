@@ -342,3 +342,81 @@ We thank Dr. Jennifer Surtees and members of the I.J.F., K.M.M., and T.T.P. labo
 <span id="ref39">39.</span> Thompson RE, et al. Precise nanometer localization analysis for individual fluorescent probes. Biophys J. 2002;82(5):2775-2783. [doi:10.1016/S0006-3495(02)75618-X](https://doi.org/10.1016/S0006-3495(02)75618-X)
 
 <span id="ref40">40.</span> Schmutte C, et al. Human exonuclease I interacts with the mismatch repair protein hMSH2. Cancer Res. 1998;58(20):4537-4542.
+
+<span id="ref41">41.</span> Schmutte C, Sadoff MM, Shim KS, et al. The interaction of DNA mismatch repair proteins with human exonuclease I. J Biol Chem. 2001;276(35):33011-33018. [doi:10.1074/jbc.M102670200](https://doi.org/10.1074/jbc.M102670200)
+
+<span id="ref42">42.</span> Genschel J, Modrich P. Functions of MutLα, replication protein A (RPA), and HMGB1 in 5′-directed mismatch repair. J Biol Chem. 2009;284(32):21536-21544. [doi:10.1074/jbc.M109.021287](https://doi.org/10.1074/jbc.M109.021287)
+
+<span id="ref43">43.</span> Chen R, Wold MS. Replication protein A: single-stranded DNA's first responder. BioEssays. 2014;36(12):1156-1161. [doi:10.1002/bies.201400107](https://doi.org/10.1002/bies.201400107)
+
+<span id="ref44">44.</span> Modesti M. Fluorescent labeling of proteins. Methods Mol Biol. 2011;778:101-120. [doi:10.1007/978-1-61779-282-3_6](https://doi.org/10.1007/978-1-61779-282-3_6)
+
+<span id="ref45">45.</span> Brosey CA, Yan C, Tsutakawa SE, et al. A new structural framework for integrating replication protein A into DNA processing machinery. Nucleic Acids Res. 2013;41(4):2313-2327. [doi:10.1093/nar/gks1332](https://doi.org/10.1093/nar/gks1332)
+
+<span id="ref46">46.</span> Kim C, Snyder RO, Wold MS. Binding properties of replication protein A from human and yeast cells. Mol Cell Biol. 1992;12(7):3050-3059. [doi:10.1128/mcb.12.7.3050-3059.1992](https://doi.org/10.1128/mcb.12.7.3050-3059.1992)
+
+<span id="ref47">47.</span> Wyka IM, Dhar K, Binz SK, et al. Replication protein A interactions with DNA: differential binding of the core domains and analysis of the DNA interaction surface. Biochemistry. 2003;42(44):12909-12918. [doi:10.1021/bi034930h](https://doi.org/10.1021/bi034930h)
+
+<span id="ref48">48.</span> Haring SJ, Mason AC, Binz SK, et al. Cellular functions of human RPA1. J Biol Chem. 2008;283(27):19095-19111. [doi:10.1074/jbc.M800881200](https://doi.org/10.1074/jbc.M800881200)
+
+<span id="ref49">49.</span> Binz SK, Wold MS. Regulatory functions of the N-terminal domain of the 70-kDa subunit of replication protein A (RPA). J Biol Chem. 2008;283(31):21559-21570. [doi:10.1074/jbc.M802450200](https://doi.org/10.1074/jbc.M802450200)
+
+<span id="ref50">50.</span> Glanzer JG, Carnes KA, Soto P, et al. A small molecule directly inhibits the p53 transactivation domain from binding to replication protein A. Nucleic Acids Res. 2013;41(3):2047-2059. [doi:10.1093/nar/gks1291](https://doi.org/10.1093/nar/gks1291)
+
+<span id="ref51">51.</span> Iacovoni JS, Caron P, Lassadi I, et al. High-resolution profiling of γH2AX around DNA double strand breaks in the mammalian genome. EMBO J. 2010;29(8):1446-1457. [doi:10.1038/emboj.2010.38](https://doi.org/10.1038/emboj.2010.38)
+
+<span id="ref52">52.</span> Miller KM, Tjeertes JV, Coates J, et al. Human HDAC1 and HDAC2 function in the DNA-damage response to promote DNA nonhomologous end-joining. Nat Struct Mol Biol. 2010;17(9):1144-1151. [doi:10.1038/nsmb.1899](https://doi.org/10.1038/nsmb.1899)
+
+<span id="ref53">53.</span> Zhou Y, Paull TT. Direct measurement of single-stranded DNA intermediates in mammalian cells by quantitative polymerase chain reaction. Anal Biochem. 2015;479:48-50. [doi:10.1016/j.ab.2015.03.025](https://doi.org/10.1016/j.ab.2015.03.025)
+
+<span id="ref54">54.</span> Fiorentini P, Huang KN, Tishkoff DX, et al. Exonuclease I of *Saccharomyces cerevisiae* functions in mitotic recombination in vivo and in vitro. Mol Cell Biol. 1997;17(5):2764-2773. [doi:10.1128/MCB.17.5.2764](https://doi.org/10.1128/MCB.17.5.2764)
+
+<span id="ref55">55.</span> Wilson DM, Coleman MA, Adamson AW, et al. Hex1: a new human Rad2 nuclease family member with homology to yeast exonuclease 1. Nucleic Acids Res. 1998;26(16):3762-3768. [doi:10.1093/nar/26.16.3762](https://doi.org/10.1093/nar/26.16.3762)
+
+<span id="ref56">56.</span> Gibb B, Ye LF, Gergoudis SC, et al. Concentration-dependent exchange of replication protein A on single-stranded DNA revealed by single-molecule imaging. PLoS One. 2014;9(2):e87922. [doi:10.1371/journal.pone.0087922](https://doi.org/10.1371/journal.pone.0087922)
+
+<span id="ref57">57.</span> Nguyen B, Sokoloski J, Galletto R, et al. Diffusion of human replication protein A along single-stranded DNA. J Mol Biol. 2014;426(19):3246-3261. [doi:10.1016/j.jmb.2014.07.014](https://doi.org/10.1016/j.jmb.2014.07.014)
+
+<span id="ref58">58.</span> Tsutakawa SE, Classen S, Chapados BR, et al. Human flap endonuclease structures, DNA double-base flipping, and a unified understanding of the FEN1 superfamily. Cell. 2011;145(2):198-211. [doi:10.1016/j.cell.2011.03.004](https://doi.org/10.1016/j.cell.2011.03.004)
+
+<span id="ref59">59.</span> Liu Y, Kao HI, Bambara RA. Flap endonuclease 1: a central component of DNA metabolism. Annu Rev Biochem. 2004;73:589-615. [doi:10.1146/annurev.biochem.73.012803.092453](https://doi.org/10.1146/annurev.biochem.73.012803.092453)
+
+<span id="ref60">60.</span> Ray S, Bandaria JN, Qureshi MH, et al. G-quadruplex formation in telomeres enhances POT1/TPP1 protection against RPA binding. Proc Natl Acad Sci USA. 2014;111(8):2990-2995. [doi:10.1073/pnas.1321436111](https://doi.org/10.1073/pnas.1321436111)
+
+<span id="ref61">61.</span> Rossi ML, Pike JE, Wang W, et al. Pif1 helicase directs eukaryotic Okazaki fragments toward the two-nuclease cleavage pathway for primer removal. J Biol Chem. 2008;283(41):27483-27493. [doi:10.1074/jbc.M804550200](https://doi.org/10.1074/jbc.M804550200)
+
+<span id="ref62">62.</span> Bae SH, Bae KH, Kim JA, et al. RPA governs endonuclease switching during processing of Okazaki fragments in eukaryotes. Nature. 2001;412(6845):456-461. [doi:10.1038/35086609](https://doi.org/10.1038/35086609)
+
+<span id="ref63">63.</span> Unciuleac MC, Shuman S. Double strand break unwinding and resection by the mycobacterial helicase-nuclease AdnAB in the presence of single strand DNA-binding protein (SSB). J Biol Chem. 2010;285(45):34319-34329. [doi:10.1074/jbc.M110.162925](https://doi.org/10.1074/jbc.M110.162925)
+
+<span id="ref64">64.</span> Roberts JA. DNA end-directed and processive nuclease activities of the archaeal XPF enzyme. Nucleic Acids Res. 2005;33(20):6662-6670. [doi:10.1093/nar/gki974](https://doi.org/10.1093/nar/gki974)
+
+<span id="ref65">65.</span> Gradia S, Subramanian D, Wilson T, et al. hMSH2–hMSH6 forms a hydrolysis-independent sliding clamp on mismatched DNA. Mol Cell. 1999;3(2):255-261. [doi:10.1016/S1097-2765(00)80316-0](https://doi.org/10.1016/S1097-2765(00)80316-0)
+
+<span id="ref66">66.</span> Bowen N, Smith CE, Srivatsan A, et al. Reconstitution of long and short patch mismatch repair reactions using *Saccharomyces cerevisiae* proteins. Proc Natl Acad Sci USA. 2013;110(46):18472-18477. [doi:10.1073/pnas.1318971110](https://doi.org/10.1073/pnas.1318971110)
+
+<span id="ref67">67.</span> Adkins NL, Niu H, Sung P, et al. Nucleosome dynamics regulates DNA processing. Nat Struct Mol Biol. 2013;20(7):836-842. [doi:10.1038/nsmb.2585](https://doi.org/10.1038/nsmb.2585)
+
+<span id="ref68">68.</span> Couch FB, Bansbach CE, Driscoll R, et al. ATR phosphorylates SMARCAL1 to prevent replication fork collapse. Genes Dev. 2013;27(14):1610-1623. [doi:10.1101/gad.214080.113](https://doi.org/10.1101/gad.214080.113)
+
+<span id="ref69">69.</span> Driscoll R, Cimprich KA. HARPing on about the DNA damage response during replication. Genes Dev. 2009;23(20):2359-2365. [doi:10.1101/gad.1860609](https://doi.org/10.1101/gad.1860609)
+
+<span id="ref70">70.</span> Peterson SE, Li Y, Wu-Baer F, et al. Activation of DSB processing requires phosphorylation of CtIP by ATR. Mol Cell. 2013;49(4):657-667. [doi:10.1016/j.molcel.2012.11.020](https://doi.org/10.1016/j.molcel.2012.11.020)
+
+<span id="ref71">71.</span> Shiotani B, Nguyen HD, Håkansson P, et al. Two distinct modes of ATR activation orchestrated by Rad17 and Nbs1. Cell Rep. 2013;3(5):1651-1662. [doi:10.1016/j.celrep.2013.04.018](https://doi.org/10.1016/j.celrep.2013.04.018)
+
+<span id="ref72">72.</span> Lee JY, Finkelstein IJ, Crozat E, et al. Single-molecule imaging of DNA curtains reveals mechanisms of KOPS sequence targeting by the DNA translocase FtsK. Proc Natl Acad Sci USA. 2012;109(17):6531-6536. [doi:10.1073/pnas.1201613109](https://doi.org/10.1073/pnas.1201613109)
+
+<span id="ref73">73.</span> Efron B, Tibshirani RJ. An Introduction to the Bootstrap. Springer US; 1993. [doi:10.1007/978-1-4899-4541-9](https://doi.org/10.1007/978-1-4899-4541-9)
+
+<span id="ref74">74.</span> Beckett D, Kovaleva E, Schatz PJ. A minimal peptide substrate in biotin holoenzyme synthetase-catalyzed biotinylation. Protein Sci. 1999;8(4):921-929. [doi:10.1110/ps.8.4.921](https://doi.org/10.1110/ps.8.4.921)
+
+<span id="ref75">75.</span> Horn R. Statistical methods for model discrimination. Applications to gating kinetics and permeation of the acetylcholine receptor channel. Biophys J. 1987;51(2):255-263. [doi:10.1016/S0006-3495(87)83331-3](https://doi.org/10.1016/S0006-3495(87)83331-3)
+
+<span id="ref76">76.</span> Shee C, et al. Engineered proteins detect spontaneous DNA breakage in human and bacterial cells. eLife. 2013;2:e01222. [doi:10.7554/eLife.01222](https://doi.org/10.7554/eLife.01222)
+
+<span id="ref77">77.</span> Gong F, Chiu LY, Cox B, et al. Screen identifies bromodomain protein ZMYND8 in chromatin recognition of transcription-associated DNA damage that promotes homologous recombination. Genes Dev. 2015;29(2):197-211. [doi:10.1101/gad.252189.114](https://doi.org/10.1101/gad.252189.114)
+
+<span id="ref78">78.</span> Leung JW, Agarwal P, Canny MD, et al. Nucleosome acidic patch promotes RNF168- and RING1B/BMI1-dependent H2AX and H2A ubiquitination and DNA damage signaling. PLoS Genet. 2014;10(3):e1004178. [doi:10.1371/journal.pgen.1004178](https://doi.org/10.1371/journal.pgen.1004178)
+
+<span id="ref79">79.</span> Aymard F, Bugler B, Schmidt CK, et al. Transcriptionally active chromatin recruits homologous recombination at DNA double-strand breaks. Nat Struct Mol Biol. 2014;21(4):366-374. [doi:10.1038/nsmb.2796](https://doi.org/10.1038/nsmb.2796)

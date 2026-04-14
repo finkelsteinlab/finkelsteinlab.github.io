@@ -593,7 +593,7 @@ Status key:
 :FILE: papers/_posts/2016-03-01-exo1-ssb-curtains.md
 :JOURNAL: Proc Natl Acad Sci USA
 :VERIFIED: 2026-04-13
-:VERIFIED_NOTES: 7 double-space headers fixed. §6a: MgCl₂, Mg²⁺, Na₂HPO₄, KH₂PO₄, bp s⁻¹ processivity units. 15 figs ✓ (6 main + 9 supp), refs 1-40 ✓ with anchors. NOTE: refs 41-79 are absent from the file (truncated scrape) — needs future fetch from PMC (PMC4624423). EXO1-SSB DNA curtains paper.
+:VERIFIED_NOTES: 7 double-space headers fixed. §6a: MgCl₂, Mg²⁺, Na₂HPO₄, KH₂PO₄, bp s⁻¹ processivity units. 15 figs ✓ (6 main + 9 supp), all 79 refs ✓ (refs 41-79 fetched via CrossRef on 2026-04-13 after initial truncated scrape). EXO1-SSB DNA curtains paper.
 :END:
 ** DONE 29. Brown _et al._ Nat. Commun. (2016)
 :PROPERTIES:
