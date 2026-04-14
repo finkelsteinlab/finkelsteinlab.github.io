@@ -92,6 +92,16 @@ sed -i '' 's/μ _M_/μM/g' "$FILE"
 ```
 Then check for any remaining `_M_` (standalone molar, e.g., `0.5 _M_`) and fix surgically.
 
+### `_μ_` micrometer artifact
+
+In some older papers, the scraper corrupts "μm" (micrometers) into `_μ_ m` or `_μ_m` — markdown-italicized μ with a detached "m":
+```
+_μ_ m  →  μm
+5 _μ_ m  →  5 μm
+150 _μ_ m  →  150 μm
+```
+Fix by searching for `_μ_ m` and replacing with `μm`. Verify the context is indeed micrometers (not some other μ usage).
+
 ### Run-together units with ASCII hyphens
 
 Some papers (notably older journals scraped via PMC) emit units without spaces and with ASCII hyphens instead of Unicode minus:
