@@ -641,13 +641,14 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 7 double-space headers fixed. §6a: OD₆₀₀, H₂O₂ (×4), mm s⁻¹/μm s⁻¹/μL min⁻¹ units, × 10⁻¹⁶ scientific notation, &#42;p < 0.05 in Fig. 7 figcaption. 7 figs ✓, 48 refs ✓. Microfluidic yeast aging microdissector (FYLM) paper.
 :END:
-** PDF [#A] 25. Spivey and Finkelstein Mol. Biosyst. (2014)
+** DONE 25. Spivey and Finkelstein Mol. Biosyst. (2014)
 :PROPERTIES:
+:MD_SLUG: 2014-07-01-high-throughput-aging
 :DOI: 10.1039/c3mb70604d
 :FILE: papers/_posts/2014-07-01-high-throughput-aging.md
 :JOURNAL: Mol. Biosyst.
-:PAGES: 10
-:CONVERSION_NOTES: Biology review. 10pp, mostly text + figures. No equations. Easy win.
+:VERIFIED: 2026-04-14
+:VERIFIED_NOTES: Converted from PDF via marker_single. 6 figs ✓, 61 refs ✓. Review paper on high-throughput aging in model organisms. Tables 1-2 preserved.
 :END:
 ** DONE 24. Lee _et al._ Mol. Cell (2014)
 :PROPERTIES:
@@ -658,13 +659,14 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂, mg ml⁻¹, *K*<sub>d</sub>/*k*<sub>off</sub> kinetic params in body; <i>K</i><sub>d</sub>/<i>k</i><sub>off</sub> in figcaptions. 7 figs ✓, 49 refs ✓. FtsK protein-protein collisions on DNA curtains.
 :END:
-** PDF [#A] 23. Robison and Finkelstein AC (2014)
+** DONE 23. Robison and Finkelstein AC (2014)
 :PROPERTIES:
+:MD_SLUG: 2014-05-06-microfluidic-devices-curtains
 :DOI: 10.1021/ac500267v
 :FILE: papers/_posts/2014-05-06-microfluidic-devices-curtains.md
 :JOURNAL: Anal. Chem.
-:PAGES: 7
-:CONVERSION_NOTES: Shortest biology paper. 7pp, microfluidic device methods. No equations. Easiest win.
+:VERIFIED: 2026-04-14
+:VERIFIED_NOTES: Converted from PDF via marker_single. 7 figs ✓, 44 refs ✓. Microfluidic devices for single-molecule DNA curtain imaging.
 :END:
 ** DONE 22. Leung _et al._ PLoS Genetics (2014)
 :PROPERTIES:
@@ -850,13 +852,14 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: §6a: Fe³⁺/Fe²⁺ ion charges, CaF₂, GW/cm²→GW/cm² and W/cm²→W/cm² (×4). 8 figs ✓, 26 refs ✓. Vibrational echo beats in heme-CO proteins.
 :END:
-** PDF [#A] 2. McClain _et al._ CPLett (2004)
+** DONE 2. McClain _et al._ CPLett (2004)
 :PROPERTIES:
+:MD_SLUG: 2004-06-15-vibrational-echoes-red-blood-cells
 :DOI: 10.1016/j.cplett.2004.05.080
 :FILE: papers/_posts/2004-06-15-vibrational-echoes-red-blood-cells.md
 :JOURNAL: Chem. Phys. Lett.
-:PAGES: 6
-:CONVERSION_NOTES: Shortest paper overall. 6pp CPLett, no explicit equations. Spectroscopy but brief communication format.
+:VERIFIED: 2026-04-14
+:VERIFIED_NOTES: Converted from PDF via pdftotext (marker_single crashed on 2004 PDF). 5 figs ✓ (cropped from page images), 35 refs ✓. §6a: cm⁻¹, CaF₂, μm (lm→μm). Vibrational echo on red blood cells.
 :END:
 * 2003
 ** DONE 1. Merchant _et al._ JACS (2003)
