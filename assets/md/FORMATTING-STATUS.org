@@ -19,11 +19,13 @@ Status key:
 :VERIFIED: 2026-04-11
 :VERIFIED_NOTES: Converted from PDF via marker_single (no PMC). 6 figures, 48 refs. Cleaned journal chrome, renamed figure files, added front matter + markdown field to paper post.
 :END:
-** PDF 97. Buffington et al. Nat Biotechnol (2025)
+** PDF [#B] 97. Buffington et al. Nat Biotechnol (2025)
 :PROPERTIES:
 :DOI: 10.1038/s41587-025-02879-3
 :FILE: papers/_posts/2025-10-23-Retron-genome-editing.MD
 :JOURNAL: Nature Biotechnology
+:PAGES: 18
+:CONVERSION_NOTES: Biology paper, no PMC. 18pp but standard Nat Biotech structure, moderate figures. No equations expected.
 :END:
 ** DONE 96. Nalefski et al. NAR (2025)
 :PROPERTIES:
@@ -52,11 +54,13 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (8 rows) ✓, Figs 1-5 ✓, 26 refs ✓. Fixes: MgCl₂, FQ-C₅/FQ-C₁₀ subscripts, FAM₂-T₅-Biotin₂ & Dig-Sp₁₈-FAM-T₅-Biotin₂ subscripts, kss/kact kinetic parameters, trans/cis italics in figcaptions, λ subscripts, reference anchors.
 :END:
-** PDF 93. Chou et al. bioRxiv (2025)
+** PDF [#B] 93. Chou et al. bioRxiv (2025)
 :PROPERTIES:
 :DOI: 10.1101/2025.09.12.675955
 :FILE: papers/_posts/2024-11-26-Cas13-structure.MD
 :JOURNAL: bioRxiv
+:PAGES: 19
+:CONVERSION_NOTES: Structural biology paper. 19pp, complex cryo-EM figures but standard text. No equations expected.
 :END:
 * 2024
 ** DONE 92. Chin Sang et al. EMBO Rep (2024)
@@ -85,11 +89,13 @@ Status key:
 :JOURNAL: Nature Communications
 :NOTES: PDF-verified 2026-03-30. Fixed kinetic params (*k*on, *k*a, *k*d, *K*d), unit superscripts (ml⁻¹, min⁻¹), MgCl₂ subscripts (×4), OD₆₀₀, *I*min/*I*max/*I*obs, model variables (*a*i, *b*i,v, *c*i, *d*i,v, *e*). Restored garbled Model II text and ΔABA log formula. No 'Open in a new tab' found.
 :END:
-** PDF 89. Quezada et al. MIMB (2024)
+** PDF [#B] 89. Quezada et al. MIMB (2024)
 :PROPERTIES:
 :DOI: 10.1007/978-1-0716-3666-4_12
 :FILE: papers/_posts/2024-04-23-Mammalian-antigen-display.MD
 :JOURNAL: Methods in Molecular Biology
+:PAGES: 12
+:CONVERSION_NOTES: Methods chapter. 12pp, procedural text with reagent lists. No equations.
 :END:
 ** DONE 87. Leão et al. Nat Commun (2024)
 :PROPERTIES:
@@ -570,11 +576,13 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂ (×3), CaCl₂, ³²P in Fig. 6 caption, _M_ concentration artifact (mM/nM/μM/M), mg mL⁻¹, mL min⁻¹, μL min⁻¹, min⁻¹ unit superscripts. 6 figs ✓, 55 refs ✓. DNA curtains HR methods chapter.
 :END:
-** PDF 32. Brown _et al._ Methods Enzymology (2017)
+** PDF [#B] 32. Brown _et al._ Methods Enzymology (2017)
 :PROPERTIES:
 :DOI: 10.1016/bs.mie.2016.08.006
 :FILE: papers/_posts/2016-10-24-mmr-methods-enzymology-chapter.md
 :JOURNAL: Methods in Enzymology
+:PAGES: 18
+:CONVERSION_NOTES: Methods chapter. 18pp but procedural text — protocols, reagent lists, no equations. Long but straightforward.
 :END:
 * 2016
 ** DONE 31. Yu _et al._ JBC (2016)
@@ -633,11 +641,13 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 7 double-space headers fixed. §6a: OD₆₀₀, H₂O₂ (×4), mm s⁻¹/μm s⁻¹/μL min⁻¹ units, × 10⁻¹⁶ scientific notation, &#42;p < 0.05 in Fig. 7 figcaption. 7 figs ✓, 48 refs ✓. Microfluidic yeast aging microdissector (FYLM) paper.
 :END:
-** PDF 25. Spivey and Finkelstein Mol. Biosyst. (2014)
+** PDF [#A] 25. Spivey and Finkelstein Mol. Biosyst. (2014)
 :PROPERTIES:
 :DOI: 10.1039/c3mb70604d
 :FILE: papers/_posts/2014-07-01-high-throughput-aging.md
 :JOURNAL: Mol. Biosyst.
+:PAGES: 10
+:CONVERSION_NOTES: Biology review. 10pp, mostly text + figures. No equations. Easy win.
 :END:
 ** DONE 24. Lee _et al._ Mol. Cell (2014)
 :PROPERTIES:
@@ -648,11 +658,13 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂, mg ml⁻¹, *K*<sub>d</sub>/*k*<sub>off</sub> kinetic params in body; <i>K</i><sub>d</sub>/<i>k</i><sub>off</sub> in figcaptions. 7 figs ✓, 49 refs ✓. FtsK protein-protein collisions on DNA curtains.
 :END:
-** PDF 23. Robison and Finkelstein AC (2014)
+** PDF [#A] 23. Robison and Finkelstein AC (2014)
 :PROPERTIES:
 :DOI: 10.1021/ac500267v
 :FILE: papers/_posts/2014-05-06-microfluidic-devices-curtains.md
 :JOURNAL: Anal. Chem.
+:PAGES: 7
+:CONVERSION_NOTES: Shortest biology paper. 7pp, microfluidic device methods. No equations. Easiest win.
 :END:
 ** DONE 22. Leung _et al._ PLoS Genetics (2014)
 :PROPERTIES:
@@ -751,23 +763,29 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: No fixes needed — already fully formatted. 5 figs ✓, 49 refs ✓. Neuroglobin ultrafast dynamics.
 :END:
-** PDF 12. Kwak _et al._ JCP (2007)
+** PDF [#C] 12. Kwak _et al._ JCP (2007)
 :PROPERTIES:
 :DOI: 10.1063/1.2772269
 :FILE: papers/_posts/2007-09-28-frequency-frequency-correlation.md
 :JOURNAL: J. Chem. Phys.
+:PAGES: 18
+:CONVERSION_NOTES: Hardest paper. 18pp JCP, 29 equation references. Heavy spectroscopy theory with FFCFs, response functions, integrals.
 :END:
-** PDF 11. Finkelstein _et al._ Biophys J (2007)
+** PDF [#C] 11. Finkelstein _et al._ Biophys J (2007)
 :PROPERTIES:
 :DOI: 10.1529/biophysj.106.093708
 :FILE: papers/_posts/2007-05-15-viscosity-dependent-protein-dynamics.md
 :JOURNAL: Biophys J
+:PAGES: 11
+:CONVERSION_NOTES: 11pp, 8 equation references. Spectroscopy with FFCF analysis, vibrational echo theory.
 :END:
-** PDF 10. Finkelstein _et al._ PCCP (2007)
+** PDF [#C] 10. Finkelstein _et al._ PCCP (2007)
 :PROPERTIES:
 :DOI: 10.1039/b618158a
 :FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
 :JOURNAL: Phys. Chem. Chem. Phys.
+:PAGES: 17
+:CONVERSION_NOTES: 17pp PCCP review on ultrafast 2D-IR. Long review with spectroscopy theory, likely equation-heavy despite low "Eq." count.
 :END:
 ** DONE 9. Finkelstein _et al._ PNAS (2007)
 :PROPERTIES:
@@ -779,11 +797,13 @@ Status key:
 :VERIFIED_NOTES: §6a: ²H₂O (×3), H₂O₂, 21-ps⁻¹→21-ps time constant (spurious superscript). 5 figs ✓, 46 refs ✓. HRP protein dynamics via 2D-IR vibrational echo.
 :END:
 * 2006
-** PDF 8. Massari _et al._ JPCB (2006)
+** PDF [#B] 8. Massari _et al._ JPCB (2006)
 :PROPERTIES:
 :DOI: 10.1021/jp054959q
 :FILE: papers/_posts/2006-09-28-cytochrome-c552-mutants.md
 :JOURNAL: J. Phys. Chem. B.
+:PAGES: 8
+:CONVERSION_NOTES: 8pp, spectroscopy + NMR. Short but may have inline spectral analysis equations. Moderate difficulty.
 :END:
 ** DONE 7. Massari _et al._ JACS (2006)
 :PROPERTIES:
@@ -795,17 +815,21 @@ Status key:
 :VERIFIED_NOTES: 1 double-space header fixed. §6a: D₂O (×6), H₂O, CaF₂ (×3). 5 figs ✓, 119 refs ✓. Proteins in silica sol-gel glasses via 2D-IR.
 :END:
 * 2005
-** PDF 6. Massari _et al._ JACS (2005)
+** PDF [#C] 6. Massari _et al._ JACS (2005)
 :PROPERTIES:
 :DOI: 10.1021/ja053627w
 :FILE: papers/_posts/2005-10-19-glassy-solvents-protein-dynamics.md
 :JOURNAL: J. Am. Chem. Soc.
+:PAGES: 11
+:CONVERSION_NOTES: 11pp, spectroscopy + MD simulations. Vibrational echo + molecular dynamics — likely has FFCFs, response function formulas.
 :END:
-** PDF 5. Finkelstein _et al._ JPCB (2005)
+** PDF [#B] 5. Finkelstein _et al._ JPCB (2005)
 :PROPERTIES:
 :DOI: 10.1021/jp0517201
 :FILE: papers/_posts/2005-09-08-myoglobin-dynamics-histidine.md
 :JOURNAL: J. Phys. Chem. B.
+:PAGES: 8
+:CONVERSION_NOTES: 8pp, spectroscopy + MD simulations. Short — similar structure to papers 3/4/9 already converted. Moderate difficulty.
 :END:
 * 2004
 ** DONE 4. McClain _et al._ JACS (2004)
@@ -826,11 +850,13 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: §6a: Fe³⁺/Fe²⁺ ion charges, CaF₂, GW/cm²→GW/cm² and W/cm²→W/cm² (×4). 8 figs ✓, 26 refs ✓. Vibrational echo beats in heme-CO proteins.
 :END:
-** PDF 2. McClain _et al._ CPLett (2004)
+** PDF [#A] 2. McClain _et al._ CPLett (2004)
 :PROPERTIES:
 :DOI: 10.1016/j.cplett.2004.05.080
 :FILE: papers/_posts/2004-06-15-vibrational-echoes-red-blood-cells.md
 :JOURNAL: Chem. Phys. Lett.
+:PAGES: 6
+:CONVERSION_NOTES: Shortest paper overall. 6pp CPLett, no explicit equations. Spectroscopy but brief communication format.
 :END:
 * 2003
 ** DONE 1. Merchant _et al._ JACS (2003)
