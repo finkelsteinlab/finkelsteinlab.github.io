@@ -73,6 +73,38 @@ The scraper inserts `Open in a new tab` lines after tables. Delete these entirel
 Open in a new tab     ← delete this line
 ```
 
+### `_M_` concentration unit artifact
+
+In some PMC papers (notably Methods Enzymology chapters), the scraper corrupts concentration units by splitting the prefix from the unit:
+
+```
+10m _M_   →   10 mM
+100n _M_  →   100 nM
+1μ _M_    →   1 μM
+0.5 _M_   →   0.5 M
+```
+
+Fix with three sed passes:
+```bash
+sed -i '' 's/m _M_/mM/g' "$FILE"
+sed -i '' 's/n _M_/nM/g' "$FILE"
+sed -i '' 's/μ _M_/μM/g' "$FILE"
+```
+Then check for any remaining `_M_` (standalone molar, e.g., `0.5 _M_`) and fix surgically.
+
+### Run-together units with ASCII hyphens
+
+Some papers (notably older journals scraped via PMC) emit units without spaces and with ASCII hyphens instead of Unicode minus:
+
+```
+mgmL-1   →   mg mL⁻¹
+mLmin-1  →   mL min⁻¹
+μLmin-1  →   μL min⁻¹
+min-1    →   min⁻¹
+```
+
+These require surgical `edit` calls rather than simple sed, since the pattern is ambiguous (e.g., `min-1` could also appear in a date or range). Always verify against the PDF before replacing.
+
 ### Malformed mailto links
 
 The scraper sometimes prepends `http://` to `mailto:` links in STAR Methods / contact sections:
