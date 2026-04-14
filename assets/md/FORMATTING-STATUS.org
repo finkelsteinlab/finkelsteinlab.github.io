@@ -534,33 +534,41 @@ Status key:
 :FILE: papers/_posts/2017-08-01-euk-resectosome-single-molecule-review.md
 :JOURNAL: Progress in Biophysics and Molecular Biology
 :END:
-** WAITING 36. Jung, Hawkins and Jones et al. Cell (2017)
+** DONE 36. Jung, Hawkins and Jones et al. Cell (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-06-29-champ-cascade
 :DOI: 10.1016/j.cell.2017.05.044
 :FILE: papers/_posts/2017-06-29-champ-cascade.md
 :JOURNAL: Cell
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 7 double-space headers fixed. §6a: His₆, OD₆₀₀, MgCl₂, μg mL⁻¹, μl min⁻¹, mg ml⁻¹, γ-³²P/³²P-labeled. Stripped PMC structural links from refs placeholder. 6 figs ✓, 52 inline citations use #refN anchors (no numbered ref list — placeholder retained).
 :END:
-** WAITING 35. Kim _et al._ Sci Rep. (2017)
+** DONE 35. Kim _et al._ Sci Rep. (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-05-18-lambda-modification
 :DOI: 10.1038/s41598-017-01984-x
 :FILE: papers/_posts/2017-05-18-lambda-modification.md
 :JOURNAL: Sci Rep.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 9+1 double-space headers fixed. §6a: OD₆₀₀, His₆, MgCl₂, μm² sec⁻¹ mM⁻¹, μg mL⁻¹/μL⁻¹, ng μL⁻¹, mL min⁻¹, mg mL⁻¹, kV cm⁻¹, °C min⁻¹. 5 figs ✓, 63 refs ✓. λ-DNA recombineering and PCNA/yRFC curtains paper.
 :END:
-** WAITING 34. Spivey and Jones _et al._ eLife (2017)
+** DONE 34. Spivey and Jones _et al._ eLife (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-01-31-yeast-aging-multylm
 :DOI: 10.7554/eLife.20340
 :FILE: papers/_posts/2017-01-31-yeast-aging-multylm.md
 :JOURNAL: eLife
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 11 double-space headers fixed. §6a: His₆ (eGFP-FLAG-His₆), µL min⁻¹ (×3), mL h⁻¹ flow rate units. 7 figs ✓, 83 refs ✓. multFYLM fission yeast aging device paper.
 :END:
-** WAITING 33. Soniat _et al._ Methods Enzymol. (2017)
+** DONE 33. Soniat _et al._ Methods Enzymol. (2017)
 :PROPERTIES:
 :MD_SLUG: 2017-01-01-hr-methods-enzymology-chapter
 :DOI: 10.1016/bs.mie.2017.03.011
 :FILE: papers/_posts/2017-01-01-hr-methods-enzymology-chapter.md
 :JOURNAL: Methods in Enzymololgy
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂ (×3), CaCl₂, ³²P in Fig. 6 caption, _M_ concentration artifact (mM/nM/μM/M), mg mL⁻¹, mL min⁻¹, μL min⁻¹, min⁻¹ unit superscripts. 6 figs ✓, 55 refs ✓. DNA curtains HR methods chapter.
 :END:
 ** PDF 32. Brown _et al._ Methods Enzymology (2017)
 :PROPERTIES:
@@ -569,49 +577,61 @@ Status key:
 :JOURNAL: Methods in Enzymology
 :END:
 * 2016
-** WAITING 31. Yu _et al._ JBC (2016)
+** DONE 31. Yu _et al._ JBC (2016)
 :PROPERTIES:
 :MD_SLUG: 2016-07-08-sequence-preference-proteasome
 :DOI: 10.1074/jbc.M116.727578
 :FILE: papers/_posts/2016-07-08-sequence-preference-proteasome.md
 :JOURNAL: J. Biol. Chem.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 7 double-space headers fixed. Deleted 2 "Open in a new tab" artifacts. File was otherwise well-formatted: 8 figs ✓ (all HTML blocks), 104 refs ✓ (all anchored). No scientific notation or ion fixes needed. Proteasome sequence preference paper.
 :END:
-** WAITING 30. Myler and Gallardo _et al._ PNAS (2016)
+** DONE 30. Myler and Gallardo _et al._ PNAS (2016)
 :PROPERTIES:
 :MD_SLUG: 2016-03-01-exo1-ssb-curtains
 :DOI: 10.1073/pnas.1516674113
 :FILE: papers/_posts/2016-03-01-exo1-ssb-curtains.md
 :JOURNAL: Proc Natl Acad Sci USA
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 7 double-space headers fixed. §6a: MgCl₂, Mg²⁺, Na₂HPO₄, KH₂PO₄, bp s⁻¹ processivity units. 15 figs ✓ (6 main + 9 supp), refs 1-40 ✓ with anchors. NOTE: refs 41-79 are absent from the file (truncated scrape) — needs future fetch from PMC (PMC4624423). EXO1-SSB DNA curtains paper.
 :END:
-** WAITING 29. Brown _et al._ Nat. Commun. (2016)
+** DONE 29. Brown _et al._ Nat. Commun. (2016)
 :PROPERTIES:
 :MD_SLUG: 2016-02-03-dna-bypass-roadblocks
 :DOI: 10.1038/ncomms10607
 :FILE: papers/_posts/2016-02-03-dna-bypass-roadblocks.md
 :JOURNAL: Nature Communications
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 6 double-space headers fixed. §6a: MgCl₂ (×6+), OD₆₀₀, KH₂PO₄, K₂HPO₄, ATP-Mg²⁺/Mg²⁺ ion charges, μm² s⁻¹ diffusion coefficients, mg ml⁻¹/μg ml⁻¹/ng μl⁻¹ units, × 10⁻²/10⁻⁴/10⁻⁷ scientific notation, *K*<sub>D</sub> kinetic param, γ-³²P isotope. 6 figs ✓, 70 refs ✓. Msh2-Msh3 DNA curtains bypass paper.
 :END:
 * 2015
-** WAITING 28. Gallardo _et al._ Langmuir (2015)
+** DONE 28. Gallardo _et al._ Langmuir (2015)
 :PROPERTIES:
 :MD_SLUG: 2015-09-22-dna-curtain-arrays
 :DOI: 10.1021/acs.langmuir.5b02416
 :FILE: papers/_posts/2015-09-22-dna-curtain-arrays.md
 :JOURNAL: Langmuir
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: Double-space headers fixed. Stripped [PubMed] and [Google Scholar] metadata from all 76 refs. §6a: *k*<sub>off</sub> kinetic param (antibody–DIG), μm² s⁻¹ units. 5 figs ✓, 76 refs ✓. High-throughput DNA curtain arrays methodology paper.
 :END:
 * 2014
-** WAITING 27. Robison and Finkelstein FEBS Lett. (2014)
+** DONE 27. Robison and Finkelstein FEBS Lett. (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-10-01-single-molecule-curtains-letter
 :DOI: 10.1016/j.febslet.2014.05.021
 :FILE: papers/_posts/2014-10-01-single-molecule-curtains-letter.md
 :JOURNAL: FEBS Lett.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 5 double-space headers fixed. Deleted 2 "Open in a new tab" artifacts. §6a: μl min⁻¹ flow rate. 5 figs ✓, 93 refs ✓. DNA curtains review/letter with extensive reference list.
 :END:
-** WAITING 26. Spivey _et al._ AC (2014)
+** DONE 26. Spivey _et al._ AC (2014)
 :PROPERTIES:
 :MD_SLUG: 2014-08-05-microdissector-cellular-aging
 :DOI: 10.1021/ac500893a
 :FILE: papers/_posts/2014-08-05-microdissector-cellular-aging.md
 :JOURNAL: Anal. Chem.
+:VERIFIED: 2026-04-13
+:VERIFIED_NOTES: 7 double-space headers fixed. §6a: OD₆₀₀, H₂O₂ (×4), mm s⁻¹/μm s⁻¹/μL min⁻¹ units, × 10⁻¹⁶ scientific notation, &#42;p < 0.05 in Fig. 7 figcaption. 7 figs ✓, 48 refs ✓. Microfluidic yeast aging microdissector (FYLM) paper.
 :END:
 ** PDF 25. Spivey and Finkelstein Mol. Biosyst. (2014)
 :PROPERTIES:
