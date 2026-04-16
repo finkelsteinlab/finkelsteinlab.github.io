@@ -315,7 +315,7 @@ This work was supported by the National Institutes of Health (NIH; Grant No. 2 R
 
 <span id="ref73">73.</span> Tan, H.-S.; Piletic, I. R.; Riter, R. E.; Levinger, N. E.; Fayer, M. D. *Phys. Rev. Lett.* **2005**, *94*, 057405.
 
-<span id="ref74">74.</span> Cho, M. H.; Yu, J. Y.; Joo, T. H.; Nagasawa, Y.; Passino, S. A.; Fleming, G. R. *J. Phys. Chem.* **1996**, *100*, 11944–11953.
+<span id="ref74">74.</span> Cho, M. H.; Yu, J. Y.; Joo, T. H.; Nagasawa, Y.; Passino, S. A.; Fleming, G. R. *J. Chem. Phys.* **1996**, *100*, 11944–11953.
 
 <span id="ref75">75.</span> Passino, S. A.; Nagasawa, Y.; Joo, T.; Fleming, G. R. *J. Phys. Chem. A* **1997**, *101*, 725–731.
 
