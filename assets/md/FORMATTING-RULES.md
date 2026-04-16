@@ -677,6 +677,41 @@ Always italicize:
 
 ---
 
+## 6c. Equations
+
+Papers containing displayed equations (FFCF, WLC, Michaelis-Menten, etc.) should use **MathJax LaTeX** as the primary rendering, with a **cropped PDF image** as a `<noscript>` fallback.
+
+### 6c.1 Format
+
+```markdown
+$$C(t) = \Delta_0^2 + \sum_{i=1}^{n} \Delta_i^2 \exp(-t/\tau_i) \tag{1}$$
+<noscript><img src="eq1.jpg" alt="Equation 1"></noscript>
+```
+
+Rules:
+- Use `$$...$$` delimiters (display math mode). MathJax is loaded site-wide via `_includes/themes/lab/default.html`.
+- Use `\tag{N}` for equation numbering.
+- Immediately below the `$$` block, add a `<noscript>` element with an `<img>` pointing to the cropped equation image. This renders when JavaScript is disabled.
+- Equation images are named `eq1.jpg`, `eq2.jpg`, etc. and stored alongside the other figures in the paper's `assets/md/<slug>/` directory.
+
+### 6c.2 Creating equation images
+
+Crop equations directly from the published PDF — **never re-typeset or recreate**:
+
+```bash
+# Render the PDF page containing the equation
+pdftoppm -png -r 300 "assets/pdfs/<pdf>.pdf" /tmp/<slug>-page
+
+# Crop the equation region (adjust coordinates per equation)
+magick /tmp/<slug>-page-N.png -crop WxH+X+Y -quality 95 "assets/md/<slug>/eq1.jpg"
+```
+
+### 6c.3 Writing LaTeX
+
+Write LaTeX that faithfully matches the PDF. **Do not editorially correct** apparent errors in the original — the PDF is ground truth. Verify the rendered MathJax output matches the PDF.
+
+---
+
 ## 6b. PDF Verification
 
 After formatting a paper's `index.md`, verify the markdown against the published PDF. **The PDF is always ground truth.**
@@ -702,7 +737,7 @@ Image each PDF page and compare against the markdown:
 | **Table headers** | Column names with correct sub/superscripts |
 | **Table footnotes** | Footnote markers are superscripted, text matches |
 | **Figure legends** | Full caption text matches PDF; kinetic parameters formatted |
-| **Equations** | All terms correct (if any) |
+| **Equations** | LaTeX `$$` renders correctly via MathJax; every symbol, subscript, superscript matches PDF; `<noscript>` image fallback present and cropped cleanly; equation numbers match |
 | **Chemical formulas** | MgCl₂, His₆, ³²P, etc. |
 | **References** | Count matches PDF; spot-check a few entries |
 
