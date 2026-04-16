@@ -265,12 +265,14 @@ The nicking cassette contains NcoI and NotI motifs for measuring oligonucleotide
 3. Calculate the 1D mean squared displacements (MSD) of individual molecules using:
 
 $$MSD(n\Delta t) = \frac{1}{N-n}\sum_{i=1}^{N-n}(y_{i+n} - y_i)^2$$
+<noscript><img src="eq1.jpg" alt="Equation 1"></noscript>
 
 where *N* is the total number of frames in the trajectory, *n* is the number of frames for a given time interval, Δ*t* is the time between frames (time interval), and *y*<sub>i</sub> is the molecule position at frame *i*.
 
 4. Calculate the diffusion coefficient of individual molecules by fitting a line through a plot of the MSDs for the first 10 time intervals using the following formula:
 
 $$MSD(\Delta t) = 2D\Delta t$$
+<noscript><img src="eq2.jpg" alt="Equation 2"></noscript>
 
 where *D* is the apparent 1D diffusion coefficient.
 

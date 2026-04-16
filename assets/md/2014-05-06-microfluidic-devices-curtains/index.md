@@ -95,6 +95,7 @@ DNA curtains were assembled within a single-channel PDMS device. Biotinylated λ
 To investigate the interdependence between DNA extension and flow rate, DNA extension was measured in an ~230 μm wide chamber ([Fig. 3](#fig3)). At least 10 DNA molecules were analyzed at each flow rate, and error bars represent the standard deviation of the mean DNA lengths. To approximate the applied force as a function of flow rate, the data was modeled with a wormlike chain (WLC) model according to eq 1:
 
 $$F = \frac{k_\mathrm{B}T}{L_\mathrm{p}} \left[ \frac{1}{4\left(1 - \frac{\langle x \rangle}{L}\right)^2} - \frac{1}{4} + \frac{\langle x \rangle}{L} \right] \tag{1}$$
+<noscript><img src="eq1.jpg" alt="Equation 1"></noscript>
 
 where *F* is the applied force, *k*<sub>B</sub> is Boltzmann's constant, *T* is the temperature, *L*<sub>p</sub> is the persistence length of double-stranded DNA (50 nm), *L* is the B-form λ-DNA length (16.5 μm), and ⟨*x*⟩ is the measured experimental DNA length.<sup>[[32]](#ref32),[[33]](#ref33)</sup> The red line is not a fit to the data; rather it is calculated from the experimental parameters. The excellent agreement between the model and simulations allows us to accurately estimate the forces that are exerted on the DNA molecules as a function of the applied flow rate. Less than 1 pN of force is applied at ~80% DNA extension (relative to crystallographic B-form length), and shear forces up to ~9 pN could be applied at flow rates of 200 μL s⁻¹. These forces are well below the rupture forces required to remove a lipid from the bilayer or to break the strong biotin–streptavidin interaction.<sup>[[34]](#ref34),[[35]](#ref35)</sup> Thus, the reduced volumes in PDMS-based fluidic devices will permit high-throughput interrogation of protein–DNA interactions in the 0.1–9 pN force regime.
 
@@ -133,6 +134,7 @@ Next, the gradient mixer was used to characterize the ATP-dependent digestion ra
 Kymograms of RecBCD activity are shown in [Fig. 7](#fig7)A. RecBCD-mediated DNA digestion was rapid in 1 mM ATP (first channel, top kymogram), and there was no digestion in the absence of ATP (fifth channel, bottom kymogram). As expected, the RecBCD velocity shows a strong ATP dependence. The digestion rates from these five channels were fit to the Michaelis–Menten equation:
 
 $$\nu = \frac{V_\mathrm{max}[S]}{K_\mathrm{m} + [S]} \tag{2}$$
+<noscript><img src="eq2.jpg" alt="Equation 2"></noscript>
 
 where *ν* is the reaction rate, *V*<sub>max</sub> is the maximum rate at saturating substrate concentration [S], and *K*<sub>m</sub> is the substrate concentration at which the reaction rate is half of *V*<sub>max</sub>. The resulting fit yielded *V*<sub>max</sub> = 556 ± 66 bp s⁻¹ and *K*<sub>m</sub> = 229 ± 106 μM ATP, which is in agreement with previously reported values.<sup>[[9]](#ref9),[[29]](#ref29)</sup> We conclude that our passive gradient mixer permits the concurrent observation of five distinct biochemical reactions with single-molecule sensitivity.
 
