@@ -7,9 +7,11 @@ doi: 10.1007/978-1-0716-3666-4_12
 
 # Mammalian Antigen Display for Pandemic Countermeasures
 
-**Andrea Quezada, Ankur Annapareddy, Kamyab Javanmardi, John Cooper, and Ilya J. Finkelstein**
+**Andrea Quezada<sup>#</sup>, Ankur Annapareddy<sup>#</sup>, Kamyab Javanmardi, John Cooper, and Ilya J. Finkelstein**
 
-*Methods in Molecular Biology, Vol. 2504, pp. 191–216, 2024*
+<sup>#</sup>These authors contributed equally to this work.
+
+*Methods in Molecular Biology, Vol. 2762, pp. 191–216, 2024*
 
 **DOI:** [10.1007/978-1-0716-3666-4_12](https://doi.org/10.1007/978-1-0716-3666-4_12)
 

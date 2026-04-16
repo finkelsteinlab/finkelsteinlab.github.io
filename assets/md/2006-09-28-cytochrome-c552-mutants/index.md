@@ -52,7 +52,7 @@ The vibrational echo data revealed that the ultrafast active site dynamics (≤1
 
 ## II. Materials and Methods
 
-**A. Protein Expression and Purification.** Preparation of Ht-M61A and Ht-M61A/Q64N utilized an *E. coli*-based expression system.[<sup>50,52</sup>](#ref50) Molecular biology procedures and materials and the preparation of Ht-M61A are described in detail elsewhere.[<sup>22,53</sup>](#ref22) To prepare Ht-M61A/Q64N, the polymerase chain reaction overlap extension method[<sup>54</sup>](#ref54) was employed using the pSHC552A61 expression plasmid[<sup>53</sup>](#ref53) as the template. The mutagenic primers (mutation site italicized) were 5′-CCCGCGCCTCCTAAT**A**ATGTAACC-3′ and 5′-CGGTTACATTATTAGGAGGCGCGG-3′. Cloning, expression, and purification of Ht-M61A/Q64N were as described for Ht-M61A.[<sup>53</sup>](#ref53)
+**A. Protein Expression and Purification.** Preparation of Ht-M61A and Ht-M61A/Q64N utilized an *E. coli*-based expression system.[<sup>50,52</sup>](#ref50) Molecular biology procedures and materials and the preparation of Ht-M61A are described in detail elsewhere.[<sup>22,53</sup>](#ref22) To prepare Ht-M61A/Q64N, the polymerase chain reaction overlap extension method[<sup>54</sup>](#ref54) was employed using the pSHC552A61 expression plasmid[<sup>53</sup>](#ref53) as the template. The mutagenic primers (mutation site italicized) were 5′-CCCGCGCCTCCTAAT*A*ATGTAACC-3′ and 5′-CGGTTACAT*T*ATTAGGAGGCGCGG-3′. Cloning, expression, and purification of Ht-M61A/Q64N were as described for Ht-M61A.[<sup>53</sup>](#ref53)
 
 **B. Sample Preparation for Vibrational Echo Spectroscopy.** To prepare aqueous samples of carbonmonoxy Ht-M61A and Ht-M61A/Q64N, 10 mg of lyophilized protein was dissolved in 1.0 mL of pH 7.0 H₂O phosphate buffer (50 mM). The buffer pH was measured before addition of protein. The solutions were reduced with a 5-fold excess of dithionite (Sigma Aldrich) and stirred under a CO atmosphere for 1 h. The solutions were centrifuged at 3000 relative centrifugal force for 15 min through a 0.45 µm acetate filter (Pall Nanosep MF) to remove particulates. The samples were further concentrated by repeated centrifugation (Eppendorf 5415D) over modified polyethersulfone membranes (Pall Nanosep 3K Omega) to a final protein concentration of 10–15 mM. The sample was then placed in a sample cell with CaF₂ windows and a 50 µm Teflon spacer. UV-visible (Varian Cary 3E) and Fourier transform infrared (FTIR; ATI Mattson Infinity 9495) absorption spectroscopies were performed to determine all protein concentrations. The samples had mid-IR absorbances of 0.1 at the CO stretching frequency on a background absorbance of 0.5.
 
@@ -315,7 +315,7 @@ This work was supported by the National Institutes of Health (NIH; Grant No. 2 R
 
 <span id="ref73">73.</span> Tan, H.-S.; Piletic, I. R.; Riter, R. E.; Levinger, N. E.; Fayer, M. D. *Phys. Rev. Lett.* **2005**, *94*, 057405.
 
-<span id="ref74">74.</span> Cho, M. H.; Yu, J. Y.; Joo, T. H.; Nagasawa, Y.; Passino, S. A.; Fleming, G. R. *J. Chem. Phys.* **1996**, *100*, 11944–11953.
+<span id="ref74">74.</span> Cho, M. H.; Yu, J. Y.; Joo, T. H.; Nagasawa, Y.; Passino, S. A.; Fleming, G. R. *J. Phys. Chem.* **1996**, *100*, 11944–11953.
 
 <span id="ref75">75.</span> Passino, S. A.; Nagasawa, Y.; Joo, T.; Fleming, G. R. *J. Phys. Chem. A* **1997**, *101*, 725–731.
 
