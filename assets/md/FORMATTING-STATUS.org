@@ -89,13 +89,14 @@ Status key:
 :JOURNAL: Nature Communications
 :NOTES: PDF-verified 2026-03-30. Fixed kinetic params (*k*on, *k*a, *k*d, *K*d), unit superscripts (ml⁻¹, min⁻¹), MgCl₂ subscripts (×4), OD₆₀₀, *I*min/*I*max/*I*obs, model variables (*a*i, *b*i,v, *c*i, *d*i,v, *e*). Restored garbled Model II text and ΔABA log formula. No 'Open in a new tab' found.
 :END:
-** PDF [#B] 89. Quezada et al. MIMB (2024)
+** DONE 89. Quezada et al. MIMB (2024)
 :PROPERTIES:
+:MD_SLUG: 2024-04-23-Mammalian-antigen-display
 :DOI: 10.1007/978-1-0716-3666-4_12
 :FILE: papers/_posts/2024-04-23-Mammalian-antigen-display.MD
 :JOURNAL: Methods in Molecular Biology
-:PAGES: 12
-:CONVERSION_NOTES: Methods chapter. 12pp, procedural text with reagent lists. No equations.
+:VERIFIED: 2026-04-15
+:VERIFIED_NOTES: Converted from PDF via marker_single. 8 figs ✓, 63 refs ✓. Mammalian antigen display methods chapter.
 :END:
 ** DONE 87. Leão et al. Nat Commun (2024)
 :PROPERTIES:
@@ -576,13 +577,14 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: 5 double-space headers fixed. §6a: MgCl₂ (×3), CaCl₂, ³²P in Fig. 6 caption, _M_ concentration artifact (mM/nM/μM/M), mg mL⁻¹, mL min⁻¹, μL min⁻¹, min⁻¹ unit superscripts. 6 figs ✓, 55 refs ✓. DNA curtains HR methods chapter.
 :END:
-** PDF [#B] 32. Brown _et al._ Methods Enzymology (2017)
+** DONE 32. Brown _et al._ Methods Enzymology (2017)
 :PROPERTIES:
+:MD_SLUG: 2016-10-24-mmr-methods-enzymology-chapter
 :DOI: 10.1016/bs.mie.2016.08.006
 :FILE: papers/_posts/2016-10-24-mmr-methods-enzymology-chapter.md
 :JOURNAL: Methods in Enzymology
-:PAGES: 18
-:CONVERSION_NOTES: Methods chapter. 18pp but procedural text — protocols, reagent lists, no equations. Long but straightforward.
+:VERIFIED: 2026-04-15
+:VERIFIED_NOTES: Converted from PDF via pdftotext (marker_single crashed). 4 figs ✓, 23 refs ✓. DNA mismatch repair methods with DNA curtains protocols.
 :END:
 * 2016
 ** DONE 31. Yu _et al._ JBC (2016)
@@ -799,13 +801,14 @@ Status key:
 :VERIFIED_NOTES: §6a: ²H₂O (×3), H₂O₂, 21-ps⁻¹→21-ps time constant (spurious superscript). 5 figs ✓, 46 refs ✓. HRP protein dynamics via 2D-IR vibrational echo.
 :END:
 * 2006
-** PDF [#B] 8. Massari _et al._ JPCB (2006)
+** DONE 8. Massari _et al._ JPCB (2006)
 :PROPERTIES:
+:MD_SLUG: 2006-09-28-cytochrome-c552-mutants
 :DOI: 10.1021/jp054959q
 :FILE: papers/_posts/2006-09-28-cytochrome-c552-mutants.md
 :JOURNAL: J. Phys. Chem. B.
-:PAGES: 8
-:CONVERSION_NOTES: 8pp, spectroscopy + NMR. Short but may have inline spectral analysis equations. Moderate difficulty.
+:VERIFIED: 2026-04-15
+:VERIFIED_NOTES: Converted from PDF via pdftotext. 6 figs ✓, 87 refs ✓. §6a: cm⁻¹, CaF₂, D₂O, Na₂S₂O₄. FFCF equation + 2 tables. Cytochrome c552 NMR + vibrational echo.
 :END:
 ** DONE 7. Massari _et al._ JACS (2006)
 :PROPERTIES:
@@ -825,13 +828,14 @@ Status key:
 :PAGES: 11
 :CONVERSION_NOTES: 11pp, spectroscopy + MD simulations. Vibrational echo + molecular dynamics — likely has FFCFs, response function formulas.
 :END:
-** PDF [#B] 5. Finkelstein _et al._ JPCB (2005)
+** DONE 5. Finkelstein _et al._ JPCB (2005)
 :PROPERTIES:
+:MD_SLUG: 2005-09-08-myoglobin-dynamics-histidine
 :DOI: 10.1021/jp0517201
 :FILE: papers/_posts/2005-09-08-myoglobin-dynamics-histidine.md
 :JOURNAL: J. Phys. Chem. B.
-:PAGES: 8
-:CONVERSION_NOTES: 8pp, spectroscopy + MD simulations. Short — similar structure to papers 3/4/9 already converted. Moderate difficulty.
+:VERIFIED: 2026-04-15
+:VERIFIED_NOTES: Converted from PDF via pdftotext. 7 figs ✓, 68 refs ✓. §6a: cm⁻¹, CaF₂, D₂O. 7 FFCF equations + Table 1. Myoglobin H64V ultrafast dynamics.
 :END:
 * 2004
 ** DONE 4. McClain _et al._ JACS (2004)
