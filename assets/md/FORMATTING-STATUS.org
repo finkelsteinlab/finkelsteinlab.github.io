@@ -19,13 +19,13 @@ Status key:
 :VERIFIED: 2026-04-11
 :VERIFIED_NOTES: Converted from PDF via marker_single (no PMC). 6 figures, 48 refs. Cleaned journal chrome, renamed figure files, added front matter + markdown field to paper post.
 :END:
-** PDF [#B] 97. Buffington et al. Nat Biotechnol (2025)
+** TODO 97. Buffington et al. Nat Biotechnol (2025)
 :PROPERTIES:
+:MD_SLUG: 2025-10-23-Retron-genome-editing
 :DOI: 10.1038/s41587-025-02879-3
 :FILE: papers/_posts/2025-10-23-Retron-genome-editing.MD
 :JOURNAL: Nature Biotechnology
-:PAGES: 18
-:CONVERSION_NOTES: Biology paper, no PMC. 18pp but standard Nat Biotech structure, moderate figures. No equations expected.
+:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading (marker_single crashed). 5 figures, 112 refs. Retron genome editing paper.
 :END:
 ** DONE 96. Nalefski et al. NAR (2025)
 :PROPERTIES:
@@ -54,13 +54,13 @@ Status key:
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (8 rows) ✓, Figs 1-5 ✓, 26 refs ✓. Fixes: MgCl₂, FQ-C₅/FQ-C₁₀ subscripts, FAM₂-T₅-Biotin₂ & Dig-Sp₁₈-FAM-T₅-Biotin₂ subscripts, kss/kact kinetic parameters, trans/cis italics in figcaptions, λ subscripts, reference anchors.
 :END:
-** PDF [#B] 93. Chou et al. bioRxiv (2025)
+** TODO 93. Chou et al. bioRxiv (2025)
 :PROPERTIES:
+:MD_SLUG: 2024-11-26-Cas13d-structure
 :DOI: 10.1101/2025.09.12.675955
 :FILE: papers/_posts/2024-11-26-Cas13-structure.MD
 :JOURNAL: bioRxiv
-:PAGES: 19
-:CONVERSION_NOTES: Structural biology paper. 19pp, complex cryo-EM figures but standard text. No equations expected.
+:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading (marker_single crashed). 5 figures, 60 refs. Structural biology paper with cryo-EM data.
 :END:
 * 2024
 ** DONE 92. Chin Sang et al. EMBO Rep (2024)
@@ -767,13 +767,13 @@ Status key:
 :VERIFIED: 2026-04-13
 :VERIFIED_NOTES: No fixes needed — already fully formatted. 5 figs ✓, 49 refs ✓. Neuroglobin ultrafast dynamics.
 :END:
-** PDF [#C] 12. Kwak _et al._ JCP (2007)
+** TODO 12. Kwak _et al._ JCP (2007)
 :PROPERTIES:
+:MD_SLUG: 2007-09-28-frequency-frequency-correlation
 :DOI: 10.1063/1.2772269
 :FILE: papers/_posts/2007-09-28-frequency-frequency-correlation.md
 :JOURNAL: J. Chem. Phys.
-:PAGES: 18
-:CONVERSION_NOTES: Hardest paper. 18pp JCP, 29 equation references. Heavy spectroscopy theory with FFCFs, response functions, integrals.
+:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 9 figures, 23 equation images with MathJax + noscript fallbacks. FFCF theory paper.
 :END:
 ** PDF [#C] 11. Finkelstein _et al._ Biophys J (2007)
 :PROPERTIES:

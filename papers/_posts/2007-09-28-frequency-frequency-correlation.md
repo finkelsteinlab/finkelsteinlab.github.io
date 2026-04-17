@@ -14,6 +14,7 @@ supplement:
 doi: 10.1063/1.2772269
 pmcid:
 pmid: 17902917
+markdown: 2007-09-28-frequency-frequency-correlation
 extra_text: ''
 category: paper
 tags: [Infrared spectra, Diffusion, Correlation functions, Fourier transforms]

@@ -14,6 +14,7 @@ supplement:
 doi: 10.1038/s41587-025-02879-3
 pmcid:
 pmid: 41131151
+markdown: 2025-10-23-Retron-genome-editing
 extra_text: '
 **Press:**
 

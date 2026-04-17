@@ -14,6 +14,7 @@ supplement:
 doi: 10.1101/2025.09.12.675955
 pmcid: 
 pmid: 
+markdown: 2024-11-26-Cas13d-structure
 extra_text: ''
 category: paper
 tags: Cas13d structure
