@@ -775,13 +775,13 @@ Status key:
 :JOURNAL: J. Chem. Phys.
 :CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 9 figures, 23 equation images with MathJax + noscript fallbacks. FFCF theory paper.
 :END:
-** PDF [#C] 11. Finkelstein _et al._ Biophys J (2007)
+** TODO 11. Finkelstein _et al._ Biophys J (2007)
 :PROPERTIES:
+:MD_SLUG: 2007-05-15-viscosity-dependent-protein-dynamics
 :DOI: 10.1529/biophysj.106.093708
 :FILE: papers/_posts/2007-05-15-viscosity-dependent-protein-dynamics.md
 :JOURNAL: Biophys J
-:PAGES: 11
-:CONVERSION_NOTES: 11pp, 8 equation references. Spectroscopy with FFCF analysis, vibrational echo theory.
+:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 7 figures, 8 equation images with MathJax + noscript fallbacks, 67 refs. Viscosity-dependent protein dynamics with FFCF analysis.
 :END:
 ** PDF [#C] 10. Finkelstein _et al._ PCCP (2007)
 :PROPERTIES:

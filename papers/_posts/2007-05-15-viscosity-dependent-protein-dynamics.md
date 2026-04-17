@@ -14,6 +14,7 @@ supplement: 0011-2007-BiophysJ-Finkelstein et al-supplement.pdf
 doi: 10.1529/biophysj.106.093708
 pmcid:
 pmid: 17446536
+markdown: 2007-05-15-viscosity-dependent-protein-dynamics
 extra_text: ''
 category: paper
 tags: []
