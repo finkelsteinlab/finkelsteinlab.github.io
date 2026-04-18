@@ -14,6 +14,7 @@ supplement:
 doi: 10.1039/b618158a
 pmcid:
 pmid: 17429547
+markdown: 2007-02-20-protein-dynamics-ultrafast-2d-ir
 extra_text: ''
 category: paper
 tags: []

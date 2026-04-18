@@ -787,13 +787,13 @@ Status key:
 :VERIFIED: 2026-04-18
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 8 eqs ✓, 67 refs ✓. Fixes: ref 61 missing comma (Berg, M. C. A.→Berg, M., C. A.), ref 65 author typo (Vixkup→Vitkup). All kinetic params, cm⁻¹, CaF₂, cytochrome *c*₅₅₂ correct.
 :END:
-** PDF [#C] 10. Finkelstein _et al._ PCCP (2007)
+** TODO 10. Finkelstein _et al._ PCCP (2007)
 :PROPERTIES:
+:MD_SLUG: 2007-02-20-protein-dynamics-ultrafast-2d-ir
 :DOI: 10.1039/b618158a
 :FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
 :JOURNAL: Phys. Chem. Chem. Phys.
-:PAGES: 17
-:CONVERSION_NOTES: 17pp PCCP review on ultrafast 2D-IR. Long review with spectroscopy theory, likely equation-heavy despite low "Eq." count.
+:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 17 figs, 2 eqs with MathJax + noscript fallbacks, 123 refs. 2D IR vibrational echo review paper.
 :END:
 ** DONE 9. Finkelstein _et al._ PNAS (2007)
 :PROPERTIES:
