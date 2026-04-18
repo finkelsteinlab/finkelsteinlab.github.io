@@ -1,6 +1,6 @@
 ---
 layout: paper-md
-title: "Frequency-frequency correlation functions and apodization in two-dimensional infrared vibrational echo spectroscopy: a new approach"
+title: "Frequency-frequency correlation functions and apodization in two-dimensional infrared vibrational echo spectroscopy: A new approach"
 paper_slug: 2007-09-28-frequency-frequency-correlation
 doi: 10.1063/1.2772269
 ---
@@ -233,7 +233,7 @@ The HRP absorption line shapes are narrow and almost Gaussian with substantial i
 
 **TABLE I.** HRP FFCF input parameters from Ref. 40, and parameters determined from the CLS method as discussed in the text.
 
-| | | *T*₂ (ps) | Δ₂ (rad/ps) | *τ*₂ (ps) | Δ₃ (rad/ps) | *τ*₃ (ps) | *T*₁ (ps) |
+| | | *T*₂ (ps) | Δ₂ (rad/ps) | *τ*₂ (ps) | Δ₁ (rad/ps) | *τ*₁ (ps) | *T*₁ (ps) |
 |---|---|---|---|---|---|---|---|
 | HRP red | Experiment | 7.5 | 0.58 | 1.5 | 1.06 | 21 | 8 |
 | | CLS (norm) | NA | 0.07ª | 1.6 | 0.75ª | 21 | |
@@ -292,7 +292,7 @@ Figure 4(b) shows plots of the dynamic linewidths.¹˒¹³ The dynamic linewidth
 
 The ellipticity²⁹ and the eccentricity³⁰ are two other observables that are sensitive to spectral diffusion. Both of them use diagonal and antidiagonal widths of the 2D-IR spectra. The diagonal width is the standard deviation of the cut through the 2D spectrum along the diagonal. The antidiagonal width is the standard deviation of the cut perpendicular to the diagonal through the center of the 0-1 portion of the spectrum. Using the same procedure applied above to show the relationship between the CLS and the FFCF, the direct relationships between the ellipticity and the eccentricity can be derived. The derivation has been published for the ellipticity²⁹ but the procedure for obtaining the full FFCF including the homogeneous contribution and the true amplitudes of each component was not developed. The ellipticity²⁹ (El) and the eccentricity³⁰ (Ec) are given by
 
-$$\text{El}(T_w) = \frac{\sigma_D^2(T_w) - \sigma_{AD}^2(T_w)}{\sigma_D^2(T_w) - \sigma_{AD}^2(T_w)}, \tag{18}$$
+$$\text{El}(T_w) = \frac{\sigma_D^2(T_w) - \sigma_{AD}^2(T_w)}{\sigma_D^2(T_w) + \sigma_{AD}^2(T_w)}, \tag{18}$$
 
 <noscript><img src="eq18.jpg" alt="Equation 18"></noscript>
 

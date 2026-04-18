@@ -5,7 +5,7 @@ paper_slug: 2025-10-23-Retron-genome-editing
 doi: 10.1038/s41587-025-02879-3
 ---
 
-**Jesse D. Buffington\*, Hung-Che Kuo\*, Kuang Hu\*, You-Chiun Chang\*, Kamyab Javanmardi\*, Brittney Voigt, Yi-Ru Li, Mary E. Little, Sravan K. Devanathan, Blerta Xhemalçe, Ryan S. Gray, and Ilya J. Finkelstein† (\* co-first authors) († corresponding)**
+**Jesse D. Buffington\*, Hung-Che Kuo\*, Kuang Hu\*, You-Chiun Chang\*, Kamyab Javanmardi, Brittney Voigt, Yi-Ru Li, Mary E. Little, Sravan K. Devanathan, Blerta Xhemalçe, Ryan S. Gray, and Ilya J. Finkelstein† (\* co-first authors) († corresponding)**
 
 *Nature Biotechnology, 2025*
 

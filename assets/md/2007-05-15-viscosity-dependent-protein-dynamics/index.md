@@ -342,7 +342,7 @@ This work was supported by the National Institutes of Health (2 R01 GM-061137-05
 
 <span id="ref60">60.</span> Walsh, C. A., M. Berg, L. R. Narasimhan, and M. D. Fayer. 1986. Optical dephasing of chromophores in an organic glass: picosecond photon echo and hole burning experiments. *Chem. Phys. Lett.* 130:6–11.
 
-<span id="ref61">61.</span> Berg, M. C. A. Walsh, L. R. Narasimhan, K. A. Littau, and M. D. Fayer. 1988. Dynamics in low temperature glasses: theory and experiment of optical dephasing, spectral diffusion, and hydrogen tunneling. *J. Chem. Phys.* 88:1564–1587.
+<span id="ref61">61.</span> Berg, M., C. A. Walsh, L. R. Narasimhan, K. A. Littau, and M. D. Fayer. 1988. Dynamics in low temperature glasses: theory and experiment of optical dephasing, spectral diffusion, and hydrogen tunneling. *J. Chem. Phys.* 88:1564–1587.
 
 <span id="ref62">62.</span> Bai, Y. S., and M. D. Fayer. 1989. Time scales and optical dephasing measurements: investigation of dynamics in complex systems. *Phys. Rev. B.* 39:11066–11084.
 
@@ -350,7 +350,7 @@ This work was supported by the National Institutes of Health (2 R01 GM-061137-05
 
 <span id="ref64">64.</span> Williams, R. B., R. F. Loring, and M. D. Fayer. 2001. Vibrational dephasing of carbonmonoxy myoglobin. *J. Phys. Chem. B.* 105:4068–4071.
 
-<span id="ref65">65.</span> Vixkup, D., D. Ringe, G. A. Petsko, and M. Karplus. 2000. Solvent mobility and the protein 'glass' transition. *Nat. Struct. Biol.* 7:34–38.
+<span id="ref65">65.</span> Vitkup, D., D. Ringe, G. A. Petsko, and M. Karplus. 2000. Solvent mobility and the protein 'glass' transition. *Nat. Struct. Biol.* 7:34–38.
 
 <span id="ref66">66.</span> Zwanzig, R., and R. D. Mountain. 1965. High-frequency elastic moduli of simple fluids. *J. Chem. Phys.* 43:4464–4471.
 
