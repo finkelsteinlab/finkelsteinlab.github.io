@@ -14,6 +14,7 @@ supplement: 0006-2005-JACS-Massari et al-supplement.pdf
 doi: 10.1021/ja053627w
 pmcid:
 pmid: 16218622
+markdown: 2005-10-19-glassy-solvents-protein-dynamics
 extra_text: ''
 category: paper
 tags: []
