@@ -98,7 +98,7 @@ $$\times \exp(-T_w/T_1)(1 + 0.8\exp(-T_w/T_\text{or})),$$
 
 $$R_3^3(t_3, T_w, t_1) = -|\mu_{0,1}|^2|\mu_{1,2}|^2 e^{-i[\langle\omega_{0,1}\rangle(-t_1+t_3) - \Delta t_3]}$$
 
-$$\times \exp[-g_1^*(t_1) + g_2(T_w) - g_3(t_3) - g_2(t_1 + T_w) - g_2(T_w + t_3) + g_2(t_1 + T_w + t_3)]$$
+$$\times \exp[-g_1(t_1) + g_2(T_w) - g_3(t_3) - g_2(t_1 + T_w) - g_2(T_w + t_3) + g_2(t_1 + T_w + t_3)]$$
 
 $$\times \exp(-T_w/T_1)(1 + 0.8\exp(-T_w/T_\text{or})),$$
 
@@ -124,7 +124,7 @@ $$g_2(t) = \int_0^t d\tau_2 \int_0^{\tau_2} d\tau_1 \langle \delta\omega_{2,1}(\
 
 *g*<sub>3</sub>(*t*) is the autocorrelation of the excited transition frequency,
 
-$$g_3(t) = \int_0^t d\tau_2 \int_0^{\tau_2} d\tau_1 \langle \delta\omega_{2,1}(t) \delta\omega_{2,1}(0) \rangle. \tag{9}$$
+$$g_3(t) = \int_0^t d\tau_2 \int_0^{\tau_2} d\tau_1 \langle \delta\omega_{2,1}(\tau_1) \delta\omega_{2,1}(0) \rangle. \tag{9}$$
 
 <noscript><img src="eq9.jpg" alt="Equation 9"></noscript>
 
@@ -441,7 +441,7 @@ When apodization is applied along the *ω*<sub>m</sub> axis, CLS is obtained by 
 21. S. Mukamel and R. F. Loring, J. Opt. Soc. Am. B **3**, 595 (1986).
 22. S. Mukamel, Annu. Rev. Phys. Chem. **51**, 691 (2000).
 23. W. M. Zhang, V. Chernyak, and S. Mukamel, J. Chem. Phys. **110**, 5011 (1999).
-24. M. H. Cho, J. Y. Yu, T. H. Joo, Y. Nagasawa, S. A. Passino, and G. R. Fleming, J. Chem. Phys. **100**, 11944 (1996).
+24. M. H. Cho, J. Y. Yu, T. H. Joo, Y. Nagasawa, S. A. Passino, and G. R. Fleming, J. Phys. Chem. **100**, 11944 (1996).
 25. A. Piryatinski and J. L. Skinner, J. Phys. Chem. B **106**, 8055 (2002).
 26. A. Tokmakoff, J. Phys. Chem. A **104**, 4247 (2000).
 27. K. Okumura, A. Tokmakoff, and Y. Tanimura, Chem. Phys. Lett. **314**, 488 (1999).
