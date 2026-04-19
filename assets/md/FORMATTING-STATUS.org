@@ -787,13 +787,14 @@ Status key:
 :VERIFIED: 2026-04-18
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-7 ✓, 8 eqs ✓, 67 refs ✓. Fixes: ref 61 missing comma (Berg, M. C. A.→Berg, M., C. A.), ref 65 author typo (Vixkup→Vitkup). All kinetic params, cm⁻¹, CaF₂, cytochrome *c*₅₅₂ correct.
 :END:
-** TODO 10. Finkelstein _et al._ PCCP (2007)
+** WAITING 10. Finkelstein _et al._ PCCP (2007)
 :PROPERTIES:
 :MD_SLUG: 2007-02-20-protein-dynamics-ultrafast-2d-ir
 :DOI: 10.1039/b618158a
 :FILE: papers/_posts/2007-02-20-protein-dynamics-ultrafast-2d-ir.md
 :JOURNAL: Phys. Chem. Chem. Phys.
-:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 17 figs, 2 eqs with MathJax + noscript fallbacks, 123 refs. 2D IR vibrational echo review paper.
+:VERIFIED: 2026-04-18
+:VERIFIED_NOTES: Converted from PDF via pdftotext. 17 figs, 2 eqs, 123 refs. 3 verification passes: fixed A₀ substate label, section numbering, 93 wrong references (rewritten via CrossRef API), restored missing HRP comparison paragraph, corrected citation numbers throughout.
 :END:
 ** DONE 9. Finkelstein _et al._ PNAS (2007)
 :PROPERTIES:
@@ -824,13 +825,14 @@ Status key:
 :VERIFIED_NOTES: 1 double-space header fixed. §6a: D₂O (×6), H₂O, CaF₂ (×3). 5 figs ✓, 119 refs ✓. Proteins in silica sol-gel glasses via 2D-IR.
 :END:
 * 2005
-** TODO 6. Massari _et al._ JACS (2005)
+** WAITING 6. Massari _et al._ JACS (2005)
 :PROPERTIES:
 :MD_SLUG: 2005-10-19-glassy-solvents-protein-dynamics
 :DOI: 10.1021/ja053627w
 :FILE: papers/_posts/2005-10-19-glassy-solvents-protein-dynamics.md
 :JOURNAL: J. Am. Chem. Soc.
-:CONVERSION_NOTES: Converted from PDF via pdftotext + manual PDF reading. 9 figs, 5 eqs with MathJax + noscript fallbacks, Table 1, 72 refs. Vibrational echo + MD simulations paper.
+:VERIFIED: 2026-04-18
+:VERIFIED_NOTES: Converted from PDF via pdftotext. 9 figs, 5 eqs, Table 1, 72 refs. 3 verification passes: fixed 46 wrong references, restored 2 missing paragraphs + reagent text + Ht-M61A preparation, corrected section heading, renumbered in-text citations, fixed 3 more wrong citations in final pass.
 :END:
 ** DONE 5. Finkelstein _et al._ JPCB (2005)
 :PROPERTIES:
