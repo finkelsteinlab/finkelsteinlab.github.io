@@ -289,7 +289,7 @@ Leave references that already use `[Fig. N](#figN)` format alone. Do not double-
 
 ### 4.1 Strip PMC links, add local reference anchors
 
-Every inline citation currently links to a PMC URL. Convert these to local anchor links pointing to the References section.
+Every inline citation currently links to a PMC URL. Convert these to local anchor links pointing to the References section. Use **double-bracket** format so citations render with visible square brackets.
 
 **Numbered citation style:**
 ```markdown
@@ -297,7 +297,7 @@ Every inline citation currently links to a PMC URL. Convert these to local ancho
 ([1](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#B1),[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#B2))
 
 <!-- AFTER -->
-([1](#ref1),[2](#ref2))
+[[1](#ref1)],[[2](#ref2)]
 ```
 
 **Author-year citation style:**
@@ -306,7 +306,16 @@ Every inline citation currently links to a PMC URL. Convert these to local ancho
 ([Author et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC.../#R25))
 
 <!-- AFTER -->
-([Author et al., 2020](#ref25))
+[[Author et al., 2020](#ref25)]
+```
+
+**Spacing:** Always insert a space between the preceding text and the opening `[[`:
+```markdown
+<!-- WRONG -->
+the genome[[1–3](#ref1)]
+
+<!-- RIGHT -->
+the genome [[1–3](#ref1)]
 ```
 
 ### 4.2 Determining the correct reference number
@@ -316,14 +325,19 @@ Every inline citation currently links to a PMC URL. Convert these to local ancho
 
 ### 4.3 Multiple citations in one parenthetical
 
-Keep them together in the same parentheses, separated by semicolons or commas as in the original:
+Keep them together, separated by commas as in the original:
 ```markdown
-([Author et al., 2020](#ref25); [Other et al., 2019](#ref57))
-([1](#ref1),[2](#ref2))
-([8–10](#ref8))
+[[1](#ref1)],[[2](#ref2)]
+[[8–10](#ref8)]
+[[Author et al., 2020](#ref25)]; [[Other et al., 2019](#ref57)]
 ```
 
-For ranges like `[8–10]`, link only to the first reference: `[8–10](#ref8)`.
+For ranges like `[8–10]`, link only to the first reference: `[[8–10](#ref8)]`.
+
+For grouped numbered citations from a single sentence, a single double-bracket with all numbers is also acceptable:
+```markdown
+[[20,21,23,27](#ref20)]
+```
 
 ### 4.4 Citations without PMC links
 
@@ -344,13 +358,27 @@ See Key Resources Table
 Open in a new tab
 ```
 
+### 4.6 PDF-converted papers with missing inline citations
+
+Papers converted from PDF (via `marker_single` or similar tools) often **lose all superscript citation numbers**. The body text will have a reference list but zero inline citations. These must be restored manually:
+
+1. Extract text from the PDF: `pdftotext -layout "file.pdf" /tmp/text.txt`
+2. Superscript numbers appear glued to preceding words in the extracted text (e.g., `genome1–3`, `immunity36–44`)
+3. Map each superscript group to its location in the markdown body text
+4. Insert citations in double-bracket format with a preceding space: `genome [[1–3](#ref1)]`
+5. Handle special inline forms:
+   - `(refs. 21,35)` in the PDF → `(refs. [[21](#ref21)],[[35](#ref35)])`
+   - `(ref. 64)` in the PDF → `(ref. [[64](#ref64)])`
+
+This is labor-intensive but critical — without inline citations, readers cannot navigate from claims to their sources.
+
 ---
 
 ## 5. References Section
 
 ### 5.1 Anchor IDs on each reference
 
-Add an anchor ID to each numbered reference entry so inline citations can link to it. Use a span element at the start of each entry:
+Add an anchor ID to each numbered reference entry so inline citations can link to it. Use a span element at the start of each entry. **Separate each reference with a blank line** so markdown renders them as distinct paragraphs (without blank lines, the entire list runs together as one block):
 
 ```markdown
 <span id="ref1">1.</span> Author names. Title. *Journal* year;volume:pages. [doi:10.xxx/yyy](https://doi.org/10.xxx/yyy)
