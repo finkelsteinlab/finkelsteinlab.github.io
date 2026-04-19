@@ -160,11 +160,11 @@ Fig. 9a shows the *T*<sub>w</sub> dependent eccentricities for the blue and red 
 
 It is clear from Fig. 9 and the FFCF parameters that the dynamics of HRP with a bound substrate are very different than the red state of free HRP. The free blue state and red state, which are different, have a 15 ps and 21 ps component, respectively. In contrast, the FFCFs for HRP with bound substrates have a common component of *&tau;*<sub>2</sub> = 3–5 ps in the observation time window. The linear absorption spectra of the free HRP red state and with bound substrates show that the substrate bound states have substantially narrowed protein structural dynamics.
 
-The similarity between the MbCO data and the HRP red state data, it is reasonable to assume that a substantial contribution to the vibrational dephasing of the free HRP comes from the fluctuations of the distal histidine and the distal arginine. The striking similarity in HRP-substrate and H64V dynamics highlights that substrate binding in HRP renders the distal residues nearly static on the 2D IR experimental timescale. The clear conclusion to be drawn is that substrate binding locks up the distal ligands, constraining the structural fluctuations in the active site. The result is that the time scale of the fluctuations is pushed out to long times (>100 ps). It is worth noting that the protein dynamics are significantly decreased even when additional potential sources of CO frequency perturbations are introduced into the active site. The distal residues participate in every step of the enzymatic cycle of HRP and the results indicate that substrate binding recognizes and dynamically constrains these residues.<sup>74</sup> Based on the observation that substrates in the HRP active site significantly decreased structural fluctuations of the distal residues, it is possible that the protein may exploit the flutter of substrate binding to catalyze further steps in the enzymatic pathway. Thus, upon recognition of biologically occurring substrates, the protein active site is not only constrained structurally but also dynamically, priming the enzyme to sample the portion of the conformational energy landscape that may lead to subsequent steps in the reaction.<sup>74</sup>
+Based on the similarity between the MbCO data and the HRP red state data, it is reasonable to assume that a substantial contribution to the vibrational dephasing of the free HRP comes from the fluctuations of the distal histidine and the distal arginine. The striking similarity in HRP-substrate and H64V dynamics highlights that substrate binding in HRP renders the distal residues nearly static on the 2D IR experimental timescale. The clear conclusion to be drawn is that substrate binding locks up the distal ligands, constraining the structural fluctuations in the active site. The result is that the time scale of the fluctuations is pushed out to long times (>100 ps). It is worth noting that the protein dynamics are significantly decreased even when additional potential sources of CO frequency perturbations are introduced into the active site. The distal residues participate in every step of the enzymatic cycle of HRP and the results indicate that substrate binding recognizes and dynamically constrains these residues.<sup>74</sup> Based on the observation that substrates in the HRP active site significantly decreased structural fluctuations of the distal residues, it is possible that the protein may exploit the flutter of substrate binding to catalyze further steps in the enzymatic pathway. Thus, upon recognition of biologically occurring substrates, the protein active site is not only constrained structurally but also dynamically, priming the enzyme to sample the portion of the conformational energy landscape that may lead to subsequent steps in the reaction.<sup>74</sup>
 
 ---
 
-## IV. 2D IR chemical exchange spectroscopy
+## Chemical exchange vibrational echo spectroscopy
 
 ### 1. Chemical exchange vibrational echo spectroscopy
 
@@ -175,9 +175,7 @@ The similarity between the MbCO data and the HRP red state data, it is reasonabl
 
 The effect of chemical exchange on the 2D spectrum. Fig. 10 illustrates the influence of chemical exchange on the 2D vibrational echo spectrum. Two species, A and B, with absorptions at distinct transition frequencies, *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, are in thermal equilibrium. Species A is converted to species B, and *vice versa*, but there is no net change in the populations of A and B because the rate of A's going to B equals the rate of B's going to A. Fig. 10a shows the 2D spectrum at very short time prior to chemical exchange. (Only the 0–1 portion of the spectrum is shown.) There are two peaks on the diagonal, one for species A and one for species B with frequencies on both axes, *i.e.*, *&omega;*<sub>m</sub> and *&omega;*<sub>&tau;</sub>, of *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, respectively. Fig. 10b shows what would happen if some of the A's convert to B's. The right part of Fig. 10b shows the quantum pathways that lead to the signal.<sup>43</sup> A dashed arrow represents a coherence (coherent superposition state) produced by a radiation field. The solid arrow represents a population, and the curved arrow represents the vibrational echo emission. The first pulse produces a coherence between the states of species A at frequency *&omega;*<sub>A</sub>. After time *&tau;*, the second pulse produces a population. There are several pathways, and a population can be produced in either the ground state (0) or the first excited state (1). During the period *T*<sub>w</sub>, some A's turn into B's (A → B). The third pulse again produces a coherence, but it is a coherence of species B at *&omega;*<sub>B</sub>, followed by echo emission at *&omega;*<sub>B</sub>. Because the first interaction (frequency on the *&omega;*<sub>&tau;</sub> axis) is at *&omega;*<sub>A</sub>, but the last interaction and echo emission (frequency on the *&omega;*<sub>m</sub> axis) is at *&omega;*<sub>B</sub>, an off-diagonal peak is generated as shown in the left portion of Fig. 10b. Fig. 10c shows what happens if B's turn into A's (B → A). Everything is equivalent to the description of Fig. 10b, but the initial frequency is *&omega;*<sub>B</sub> and the final frequency is *&omega;*<sub>A</sub>.
 
-In a real system, A and B are in equilibrium. Therefore, the number of A's turning into B's in a given time period is equal to the number of B's turning into A's. As shown in Fig. 10d, the result is to produce two off-diagonal peaks. Because some A's and B's may not have undergone chemical exchange, or may have undergone chemical exchange but reverted back to the original species prior to the third pulse, there are also diagonal peaks. In addition to chemical exchange, there are other dynamical processes that contribute to the time dependent changes in the spectrum. Spectral diffusion causes the peaks to change shape. The rate of chemical exchange without complications arising from the changing peak shapes can be obtained by measuring the time dependent peak volumes.<sup>29,100</sup> The vibrational lifetimes of the hydroxyl stretch and the orientational relaxation rates cause all of the peaks to decay in amplitude while chemical exchange causes the off-diagonal peaks to grow in. The vibrational lifetimes and the orientational relaxation rates are measured independently using ultrafast IR pump–probe spectroscopy.<sup>29,36,100</sup> In addition, the equilibrium constant and the transition dipole moments of the species are necessary inputs in calculations and are obtained from the FT-IR absorption spectra.<sup>29,100</sup>
-
-Because two off-diagonal peaks grow in at the same rate (see Fig. 13), the rate of complex formation and dissociation are equal, that is, the system is in equilibrium. The fact that vibrational excitation does not take the system out of equilibrium was further tested by comparing time evolution of the 0–1 and 1–2 regions of the spectra.<sup>29</sup> With the system in equilibrium and the other input parameters known,<sup>29,100</sup> there is only one adjustable parameter to fit the *T*<sub>w</sub> dependence of all of the peaks in the spectra. Because the rate of complex dissociation is equal to the rate of complex formation, we can fit everything using *a single adjustable parameter*, the complex dissociation time, *&tau;*<sub>d</sub> = 1/*k*<sub>cr</sub>, where *k*<sub>cr</sub> is the rate constant for dissociation of the complex (c) to the free form (f).
+In a real system, A and B are in equilibrium. Therefore, the number of A's turning into B's in a given time period is equal to the number of B's turning into A's. As shown in Fig. 10d, the result is to produce two off-diagonal peaks. Because some A's and B's may not have undergone chemical exchange, or may have undergone chemical exchange but reverted back to the original species prior to the third pulse, there are also diagonal peaks. The model spectrum in Fig. 10d is the spectrum for a time long compared to the chemical exchange time, while the spectrum in Fig. 10a is for a time short compared to the chemical exchange time. The rate of chemical exchange can be determined by observing the growth of the off-diagonal peaks in the 2D vibrational echo spectrum.<sup>29,31,36,100</sup>
 
 ### 2. Organic solute–solvent complex formation and dissociation
 
@@ -199,7 +197,9 @@ Fig. 11a displays the spectrum of the hydroxyl OD stretch of phenol in a mixed s
 <figcaption><strong>Fig. 12</strong> Three dimensional representation of the <em>T</em><sub>w</sub> dependence of the 2D vibrational echo chemical exchange data. The off-diagonal peaks grow in as time progresses.</figcaption>
 </figure>
 
-The growth of the off-diagonal peaks with increasing *T*<sub>w</sub> can be used to directly determine the thermal equilibrium rate for complex formation and dissociation. Fig. 12 displays 2D spectra as three dimensional representations. At 2 ps, the off-diagonal peaks are just appearing in these plots. By 5 ps they are clearly evident, and continue to grow as can be seen in the 14 ps plot. Data like these are used for detailed analysis of the chemical exchange kinetics.<sup>29,36,100,101</sup> In addition to chemical exchange, there are other dynamical processes that contribute to the time dependent changes in the spectrum. Spectral diffusion causes the peaks to change shape. The rate of chemical exchange without complications arising from the changing peak shapes can be obtained by measuring the time dependent peak volumes.<sup>29,100</sup>
+The growth of the off-diagonal peaks with increasing *T*<sub>w</sub> can be used to directly determine the thermal equilibrium rate for complex formation and dissociation. Fig. 12 displays 2D spectra as three dimensional representations. At 2 ps, the off-diagonal peaks are just appearing in these plots. By 5 ps they are clearly evident, and continue to grow as can be seen in the 14 ps plot. Data like these are used for detailed analysis of the chemical exchange kinetics.<sup>29,36,100,101</sup> In addition to chemical exchange, there are other dynamical processes that contribute to the time dependent changes in the spectrum. Spectral diffusion causes the peaks to change shape. The rate of chemical exchange without complications arising from the changing peak shapes can be obtained by measuring the time dependent peak volumes.<sup>29,100</sup> The vibrational lifetimes of the hydroxyl stretch and the orientational relaxation rates cause all of the peaks to decay in amplitude while chemical exchange causes the off-diagonal peaks to grow in. The vibrational lifetimes and the orientational relaxation rates are measured independently using ultrafast IR pump–probe spectroscopy.<sup>29,36,100</sup> In addition, the equilibrium constant and the transition dipole moments of the species are necessary inputs in calculations and are obtained from the FT-IR absorption spectra.<sup>29,100</sup>
+
+Because two off-diagonal peaks grow in at the same rate (see Fig. 13), the rate of complex formation and dissociation are equal, that is, the system is in equilibrium. The fact that vibrational excitation does not take the system out of equilibrium was further tested by comparing time evolution of the 0–1 and 1–2 regions of the spectra.<sup>29</sup> With the system in equilibrium and the other input parameters known,<sup>29,100</sup> there is only one adjustable parameter to fit the *T*<sub>w</sub> dependence of all of the peaks in the spectra. Because the rate of complex dissociation is equal to the rate of complex formation, we can fit everything using *a single adjustable parameter*, the complex dissociation time, *&tau;*<sub>d</sub> = 1/*k*<sub>cr</sub>, where *k*<sub>cr</sub> is the rate constant for dissociation of the complex (c) to the free form (f).
 
 <figure class="paper-figure" id="fig13">
 <img src="fig13.jpg" alt="Figure 13">
@@ -388,7 +388,7 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref57">57.</span> S. M. Aitken, J. L. Turnbull, M. D. Percival and A. M. English, *Biochemistry*, 2001, **40**, 13980.
 
-<span id="ref58">58.</span> P. D. Dalosto, N. V. Prabhu, J. M. Bhatt, A. M. English and M. V. Bhatt, *J. Phys. Chem. B*, 2003, **107**, 1884.
+<span id="ref58">58.</span> P. D. Dalosto, N. V. Prabhu, J. M. Vanderkooi and K. A. Sharp, *J. Phys. Chem. B*, 2003, **107**, 1884.
 
 <span id="ref59">59.</span> A. D. Kaposi, N. V. Prabhu, D. Dalosto, K. A. Sharp, W. W. Wright, S. S. Stavrov and J. M. Vanderkooi, *Biophys. Chem.*, 2003, **106**, 1.
 
@@ -398,79 +398,79 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref62">62.</span> G. H. Carlson, P. Nicholls, D. Svistunenko, G. I. Berglund and J. Hajdu, *Biochemistry*, 2005, **44**, 635.
 
-<span id="ref63">63.</span> A. Henriksen, M. Gajhede, P. Baker, A. T. Smith and J. F. Burke, *Acta Crystallogr., Sect. D*, 1995, **51**, 121.
+<span id="ref63">63.</span> J. Vojtechovsky, K. Chu, J. Berendzen, R. M. Sweet and I. Schlichting, *Biophys. J.*, 1999, **77**, 2153.
 
-<span id="ref64">64.</span> B. D. Howes, H. A. Heering, T. O. Roberts, F. Schneider-Belhaddad, A. T. Smith and G. Smulevich, *Biopolymers*, 2001, **62**, 261.
+<span id="ref64">64.</span> K. A. Merchant, W. G. Noid, R. Akiyama, I. Finkelstein, A. Goun, B. L. McClain, R. F. Loring and M. D. Fayer, *J. Am. Chem. Soc.*, 2003, **125**, 13804.
 
-<span id="ref65">65.</span> M. Khajehpour, T. Troxler and J. M. Vanderkooi, *Biochemistry*, 2003, **42**, 2672.
+<span id="ref65">65.</span> S. T. Roberts, J. J. Loparo and A. Tokmakoff, *J. Chem. Phys.*, 2006, **125**, 084502.
 
-<span id="ref66">66.</span> C. Smulevich, A. Feis, C. Indiani, M. Becucci and M. P. Marcocchi, *J. Biol. Inorg. Chem.*, 1999, **4**, 39.
+<span id="ref66">66.</span> T. G. Spiro and I. H. Wasbotten, *J. Inorg. Biochem.*, 2005, **99**, 34.
 
-<span id="ref67">67.</span> A. Henriksen, D. J. Schuller, K. Meno, K. G. Welinder, A. T. Smith and M. Gajhede, *Biochemistry*, 1998, **37**, 8054.
+<span id="ref67">67.</span> S. Mukamel, *Annu. Rev. Phys. Chem.*, 2000, **51**, 691.
 
-<span id="ref68">68.</span> T. E. Holzbaur, A. M. English and A. A. Ismail, *J. Am. Chem. Soc.*, 1996, **118**, 3354.
+<span id="ref68">68.</span> S. Mukamel, *Principles of Nonlinear Optical Spectroscopy*, Oxford University Press, New York, 1995.
 
-<span id="ref69">69.</span> W. J. Ingledew and P. R. Rich, *Biochem. Soc. Trans.*, 2005, **33**, 886.
+<span id="ref69">69.</span> P. Hamm and R. M. Hochstrasser, in *Ultrafast Infrared and Raman Spectroscopy*, ed. M. D. Fayer, Marcel Dekker Inc., New York, 2001, vol. 26, p. 273.
 
-<span id="ref70">70.</span> S. Hashimoto and H. Takeuchi, *Biochemistry*, 2006, **45**, 9660.
+<span id="ref70">70.</span> R. B. Williams, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2001, **105**, 4068.
 
-<span id="ref71">71.</span> A. M. Massari, I. J. Finkelstein and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, **128**, 3990.
+<span id="ref71">71.</span> A. M. Massari, I. J. Finkelstein, B. L. McClain, A. Goj, X. Wen, K. L. Bren, R. F. Loring and M. D. Fayer, *J. Am. Chem. Soc.*, 2005, **127**, 14279.
 
-<span id="ref72">72.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 2001, **52**, 315.
+<span id="ref72">72.</span> Y. S. Bai and M. D. Fayer, *Phys. Rev. B*, 1989, **39**, 11066.
 
-<span id="ref73">73.</span> J. B. Asbury, T. Steinel, C. Stromberg, S. A. Corcelli, C. P. Lawrence, J. L. Skinner and M. D. Fayer, *J. Phys. Chem. A*, 2004, **108**, 1107.
+<span id="ref73">73.</span> J. Schmidt, N. Sundlass and J. Skinner, *Chem. Phys. Lett.*, 2003, **378**, 559.
 
-<span id="ref74">74.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *J. Phys. Chem. B*, 2004, **108**, 6544.
+<span id="ref74">74.</span> I. J. Finkelstein, H. Ishikawa, S. Kim, A. M. Massari and M. D. Fayer, *Proc. Natl. Acad. Sci. U. S. A.*, 2007, **104**, 2637.
 
-<span id="ref75">75.</span> J. Zheng, K. Kwak, J. B. Asbury, X. Chen, I. Piletic and M. D. Fayer, *Science*, 2005, **309**, 1338.
+<span id="ref75">75.</span> W. D. Tian, J. T. Sage and P. M. Champion, *J. Mol. Biol.*, 1993, **233**, 155.
 
-<span id="ref76">76.</span> M. T. Zanni and R. M. Hochstrasser, *Curr. Opin. Struct. Biol.*, 2001, **11**, 516.
+<span id="ref76">76.</span> D. Braunstein, K. Chu, K. D. Egeberg, H. Frauenfelder, J. R. Mourant, G. U. Nienhaus, P. Ormos, S. G. Sligar, B. A. Springer and R. D. Young, *Biophys. J.*, 1993, **65**, 2447.
 
-<span id="ref77">77.</span> Y. S. Kim and R. M. Hochstrasser, *Proc. Natl. Acad. Sci. U. S. A.*, 2005, **102**, 11185.
+<span id="ref77">77.</span> E. Park, S. Andrews and G. S. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
 
-<span id="ref78">78.</span> M. T. Caglioti, M. T. Zanni and R. M. Hochstrasser, in *Ultrafast Infrared and Raman Spectroscopy*, ed. M. D. Fayer, Marcel Dekker Inc., New York, 2001, vol. 26, p. 273.
+<span id="ref78">78.</span> R. Jimenez, G. Salazar, J. Yin, T. Joo and F. E. Romesberg, *Proc. Natl. Acad. Sci. U. S. A.*, 2004, **101**, 3803.
 
-<span id="ref79">79.</span> M. Khalil, N. Demirdoven and A. Tokmakoff, *J. Chem. Phys.*, 2004, **121**, 362.
+<span id="ref79">79.</span> V. Ma, M. Shatsky, H. J. Wolfson and R. Nussinov, *Protein Sci.*, 2002, **11**, 184.
 
-<span id="ref80">80.</span> M. F. DeCamp, L. DeFlores, J. M. McCracken, A. Tokmakoff, K. Kwac and M. Cho, *J. Phys. Chem. B*, 2005, **109**, 11016.
+<span id="ref80">80.</span> T. Frauenfelder, B. H. McMahon, R. H. Austin, K. Chu and J. T. Groves, *Proc. Natl. Acad. Sci. U. S. A.*, 2001, **98**, 2370.
 
-<span id="ref81">81.</span> J. Zheng, K. Kwak, X. Chen, J. B. Asbury and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, **128**, 2977.
+<span id="ref81">81.</span> P. Mukherjee, I. Kass, I. T. Arkin and M. T. Zanni, *Proc. Natl. Acad. Sci. U. S. A.*, 2006, **103**, 3528.
 
-<span id="ref82">82.</span> J. B. Asbury, T. Steinel, K. Kwak, S. Corcelli, C. P. Lawrence, J. L. Skinner and M. D. Fayer, *J. Chem. Phys.*, 2004, **121**, 12431.
+<span id="ref82">82.</span> A. W. Smith, H. S. Chung, Z. Ganim and A. Tokmakoff, *J. Phys. Chem. B*, 2005, **109**, 17025.
 
-<span id="ref83">83.</span> C. J. Fecko, J. D. Eaves, J. J. Loparo, A. Tokmakoff and P. L. Geissler, *Science*, 2003, **301**, 1698.
+<span id="ref83">83.</span> N. C. Veitch, *Phytochemistry*, 2004, **65**, 249.
 
-<span id="ref84">84.</span> K. D. Rector, C. W. Rella, A. S. Kwok, J. R. Hill, S. G. Sligar, D. P. Chien, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. B*, 1997, **101**, 1468.
+<span id="ref84">84.</span> A. T. Smith and N. C. Veitch, *Curr. Opin. Chem. Biol.*, 1998, **2**, 269.
 
-<span id="ref85">85.</span> K. A. Merchant, W. G. Noid, D. E. Thompson, R. Akiyama, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2003, **107**, 4.
+<span id="ref85">85.</span> S. C. Veitch and A. T. Smith, *Adv. Inorg. Chem.*, 2001, **51**, 107.
 
-<span id="ref86">86.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **381**, 139.
+<span id="ref86">86.</span> S. M. Aitken, J. L. Turnbull, M. D. Percival and A. M. English, *Biochemistry*, 2001, **40**, 13980.
 
-<span id="ref87">87.</span> A. Tokmakoff, D. Zimdars, B. Sauter, R. S. Francis, A. S. Kwok and M. D. Fayer, *J. Chem. Phys.*, 1994, **101**, 1741.
+<span id="ref87">87.</span> P. D. Dalosto, N. V. Prabhu, J. M. Vanderkooi and K. A. Sharp, *J. Phys. Chem. B*, 2003, **107**, 1884.
 
-<span id="ref88">88.</span> A. Tokmakoff and M. D. Fayer, *Acc. Chem. Res.*, 1995, **28**, 437.
+<span id="ref88">88.</span> A. D. Kaposi, N. V. Prabhu, D. Dalosto, K. A. Sharp, W. W. Wright, S. S. Stavrov and J. M. Vanderkooi, *Biophys. Chem.*, 2003, **106**, 1.
 
-<span id="ref89">89.</span> A. K. Morehar, D. E. Thompson and M. D. Fayer, *J. Phys. Chem. B*, 2003, **107**, 1449.
+<span id="ref89">89.</span> E. S. Park, S. S. Andrews, R. B. Hu and S. G. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
 
-<span id="ref90">90.</span> M. Koziol, N. Demirdoven and A. Tokmakoff, *J. Phys. Chem. A*, 2003, **66**, 64740(1).
+<span id="ref90">90.</span> B. Summers, H. Mazzdivasni, J. H. Holms, J. D. Ratajczyk, R. D. Dyer and G. W. Carter, *J. Med. Chem.*, 1987, **30**, 574.
 
-<span id="ref91">91.</span> M. F. Hegazi, R. T. Borchardt and R. L. Schowen, *J. Am. Chem. Soc.*, 1979, **101**, 4359.
+<span id="ref91">91.</span> G. H. Carlson, P. Nicholls, D. Svistunenko, G. I. Berglund and J. Hajdu, *Biochemistry*, 2005, **44**, 635.
 
-<span id="ref92">92.</span> I. J. Finkelstein, H. Ishikawa, S. Kim, A. M. Massari and M. D. Fayer, *Proc. Natl. Acad. Sci. U. S. A.*, 2007, **104**, 2637.
+<span id="ref92">92.</span> A. Henriksen, M. Gajhede, P. Baker, A. T. Smith and J. F. Burke, *Acta Crystallogr., Sect. D*, 1995, **51**, 121.
 
-<span id="ref93">93.</span> I. J. Finkelstein, A. Goj, B. L. McClain, A. M. Massari, K. A. Merchant, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2005, **109**, 16959.
+<span id="ref93">93.</span> B. D. Howes, H. A. Heering, T. O. Roberts, F. Schneider-Belhaddad, A. T. Smith and G. Smulevich, *Biopolymers*, 2001, **62**, 261.
 
-<span id="ref94">94.</span> A. M. Massari, I. J. Finkelstein and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, **128**, 3990.
+<span id="ref94">94.</span> M. Khajehpour, T. Troxler and J. M. Vanderkooi, *Biochemistry*, 2003, **42**, 2672.
 
-<span id="ref95">95.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 2001, **52**, 315.
+<span id="ref95">95.</span> G. Smulevich, A. Feis, C. Indiani, M. Becucci and M. P. Marcocchi, *J. Biol. Inorg. Chem.*, 1999, **4**, 39.
 
-<span id="ref96">96.</span> D. Morikis, P. M. Champion, B. A. Springer and S. G. Sligar, *Biochemistry*, 1989, **28**, 4791.
+<span id="ref96">96.</span> A. Henriksen, D. J. Schuller, K. Meno, K. G. Welinder, A. T. Smith and M. Gajhede, *Biochemistry*, 1998, **37**, 8054.
 
-<span id="ref97">97.</span> S. Hashimoto and H. Takeuchi, *Biochemistry*, 2006, **45**, 9660.
+<span id="ref97">97.</span> T. E. Holzbaur, A. M. English and A. A. Ismail, *J. Am. Chem. Soc.*, 1996, **118**, 3354.
 
-<span id="ref98">98.</span> A. M. Massari, I. J. Finkelstein, B. L. McClain, A. Goj, X. Wen, K. L. Bren, R. F. Loring and M. D. Fayer, *J. Am. Chem. Soc.*, 2005, **127**, 14279.
+<span id="ref98">98.</span> W. J. Ingledew and P. R. Rich, *Biochem. Soc. Trans.*, 2005, **33**, 886.
 
-<span id="ref99">99.</span> J. Bischoff, *Ber. Deutsch. Chem. Ges.*, 1891, **24**, 1085.
+<span id="ref99">99.</span> S. Hashimoto and H. Takeuchi, *Biochemistry*, 2006, **45**, 9660.
 
 <span id="ref100">100.</span> K. Kwak, J. Zheng, H. Cang and M. D. Fayer, *J. Phys. Chem. B*, 2006, **110**, 19998.
 
