@@ -62,7 +62,7 @@ To obtain the well resolved 2D vibrational echo spectra discussed below, it is n
 
 ### A. Description of the technique—myoglobin-CO
 
-To illustrate the nature of the method, experiments are presented on the stretch of CO bound to the site of the protein myoglobin used as an example. Carbonmonoxy-myoglobin (MbCO) has been extensively studied both experimentally<sup>46,47</sup> and computationally.<sup>48,49</sup> Myoglobin (Mb) is a small globular heme protein consisting of approximately 150 amino acids found in mammalian muscle tissue. The prosthetic heme group can reversibly bind a variety of small molecule ligands such as O<sub>2</sub>, CO and NO.<sup>50</sup> The crystal structure of Mb has been known for over 40 years.<sup>51,52</sup> The CO stretching mode of MbCO has a very strong transition dipole, making it an easily monitored experimental observable that can be used to track kinetics and dynamics in the protein. Studies on Mb, and in particular on MbCO, serve as tests for many of the ideas on the relationship between structure and function in proteins.
+To illustrate the nature of the method, experiments are presented on the stretch of CO bound to the site of the protein myoglobin used as an example. Carbonmonoxy-myoglobin (MbCO) has been extensively studied both experimentally<sup>46,47</sup> and computationally.<sup>48,49</sup> Myoglobin (Mb) is a small globular heme protein consisting of approximately 150 amino acids found in mammalian muscle tissue. The prosthetic heme group can reversibly bind a variety of small molecule ligands such as O<sub>2</sub>, CO and NO.<sup>50</sup> The crystal structure of Mb has been known for over 40 years.<sup>61,62</sup> The CO stretching mode of MbCO has a very strong transition dipole, making it an easily monitored experimental observable that can be used to track kinetics and dynamics in the protein. Studies on Mb, and in particular on MbCO, serve as tests for many of the ideas on the relationship between structure and function in proteins.
 
 Fig. 2a shows the linear FT-IR absorption spectrum of the CO stretch of MbCO. There are three bands labeled A<sub>0</sub>, A<sub>1</sub>, and A<sub>3</sub> that correspond to different configurations of the distal histidine (His64). These bands will be discussed below. In a 2D vibrational echo spectrum, there are two frequency axes, which require two Fourier transforms of the time domain data to convert the time structure of the echo observable into 2D frequency data. As shown in Fig. 1, the vibrational echo pulse, which is overlapped with the local oscillator (LO) pulse, is passed through the monochromator. Taking the spectrum of the pulse performs one of the Fourier transforms and provides the vertical axis in the 2D spectrum, *&omega;*<sub>m</sub> (m for monochromator, see Fig. 2c). The other frequency axis is obtained by scanning *&tau;*. Scanning *&tau;* produces an interferogram (see Fig. 2b) as the echo pulse changes its phase relationship relative to the fixed LO pulse. There is one interferogram for each frequency on the *&omega;*<sub>m</sub> axis for which there is signal. The numerical Fourier transforms of the *&tau;* scan interferograms provide the *&omega;*<sub>&tau;</sub> axis. The data S(*&omega;*<sub>&tau;</sub>, *&omega;*<sub>m</sub>, *T*<sub>w</sub>) are then plotted for each *T*<sub>w</sub> in a three dimensional representation, that is, the amplitude as a function of both *&omega;*<sub>&tau;</sub> and *&omega;*<sub>m</sub> (the *&omega;*<sub>1</sub> and *&omega;*<sub>3</sub> axes, respectively in 2D NMR). More experimental details of the method including phase error corrections have been presented in detail.<sup>25,43</sup>
 
@@ -107,7 +107,7 @@ $$C(t) = \Delta_1^2 e^{-t/\tau_1} + \Delta_2^2 e^{-t/\tau_2} + \Delta_3^2 e^{-t/
 
 FFCFs were obtained from the data by iterative fitting using response theory calculations.<sup>67,68</sup> The FFCF was deemed correct when it could be used to simultaneously calculate 2D IR spectra at all *T*<sub>w</sub>s, and the linear absorption spectrum. Such calculations can also reproduce the *T*<sub>w</sub> dependence of the eccentricity (see eqn (1)). For the experiments on MbCO and on horseradish peroxidase (HRP) discussed below, the data and calculations were in excellent agreement.<sup>64,74</sup>
 
-From studying the dynamics of MbCO and combining the results with molecular dynamics (MD) simulations, it was possible to determine the structures of the A<sub>1</sub> and A<sub>3</sub> substates.<sup>40,64</sup> It has been well documented that the A<sub>3</sub> state has the distal histidine swung out of the pocket that contains the active iron heme site.<sup>73,76</sup> It was also known that the A<sub>1</sub> and A<sub>3</sub> states have the distal histidine in the pocket. However, these structures interconvert too fast to be amenable to study using other techniques such as NMR. Using the vibrational echo experiments, the FFCFs of both the A<sub>1</sub> and A<sub>3</sub> states were determined. The results were then compared to MD simulations. However, it was first necessary to develop a method to calculate the ultrafast vibrational echo observables from a classical MD simulation of MbCO.<sup>70</sup> The method uses the MD simulations to determine the fluctuating electric field along the CO transition dipole. The electric field fluctuations are caused by the motions of all of the groups in the proteins, which carry partial charges. The simulation produces the time dependent fluctuating electric field and then through the Stark coupling constant, the fluctuating CO frequency.<sup>77</sup>
+From studying the dynamics of MbCO and combining the results with molecular dynamics (MD) simulations, it was possible to determine the structures of the A<sub>1</sub> and A<sub>3</sub> substates.<sup>40,64</sup> It has been well documented that the A<sub>0</sub> state has the distal histidine swung out of the pocket that contains the active iron heme site.<sup>75,76</sup> It was also known that the A<sub>1</sub> and A<sub>3</sub> states have the distal histidine in the pocket. However, these structures interconvert too fast to be amenable to study using other techniques such as NMR. Using the vibrational echo experiments, the FFCFs of both the A<sub>1</sub> and A<sub>3</sub> states were determined. The results were then compared to MD simulations. However, it was first necessary to develop a method to calculate the ultrafast vibrational echo observables from a classical MD simulation of MbCO.<sup>70</sup> The method uses the MD simulations to determine the fluctuating electric field along the CO transition dipole. The electric field fluctuations are caused by the motions of all of the groups in the proteins, which carry partial charges. The simulation produces the time dependent fluctuating electric field and then through the Stark coupling constant, the fluctuating CO frequency.<sup>77</sup>
 
 <figure class="paper-figure" id="fig5">
 <img src="fig5.jpg" alt="Figure 5">
@@ -160,20 +160,22 @@ Fig. 9a shows the *T*<sub>w</sub> dependent eccentricities for the blue and red 
 
 It is clear from Fig. 9 and the FFCF parameters that the dynamics of HRP with a bound substrate are very different than the red state of free HRP. The free blue state and red state, which are different, have a 15 ps and 21 ps component, respectively. In contrast, the FFCFs for HRP with bound substrates have a common component of *&tau;*<sub>2</sub> = 3–5 ps in the observation time window. The linear absorption spectra of the free HRP red state and with bound substrates show that the substrate bound states have substantially narrowed protein structural dynamics.
 
-Based on the similarity between the MbCO data and the HRP red state data, it is reasonable to assume that a substantial contribution to the vibrational dephasing of the free HRP comes from the fluctuations of the distal histidine and the distal arginine. The striking similarity in HRP-substrate and H64V dynamics highlights that substrate binding in HRP renders the distal residues nearly static on the 2D IR experimental timescale. The clear conclusion to be drawn is that substrate binding locks up the distal ligands, constraining the structural fluctuations in the active site. The result is that the time scale of the fluctuations is pushed out to long times (>100 ps). It is worth noting that the protein dynamics are significantly decreased even when additional potential sources of CO frequency perturbations are introduced into the active site. The distal residues participate in every step of the enzymatic cycle of HRP and the results indicate that substrate binding recognizes and dynamically constrains these residues.<sup>74</sup> Based on the observation that substrates in the HRP active site significantly decreased structural fluctuations of the distal residues, it is possible that the protein may exploit the flutter of substrate binding to catalyze further steps in the enzymatic pathway. Thus, upon recognition of biologically occurring substrates, the protein active site is not only constrained structurally but also dynamically, priming the enzyme to sample the portion of the conformational energy landscape that may lead to subsequent steps in the reaction.<sup>74</sup>
+Further insights into the changes in HRP dynamics upon ligand binding can be obtained by comparison to MbCO. The active site of HRP, in its entirety, can bind a diverse array of substrate molecules, and contains a distal histidine and arginine, but the active site of myoglobin accommodates only endogenous substrates and does not have a distal arginine, but it also contains a distal histidine and a heme bound to CO. A mutant of myoglobin lacking the distal histidine and bound to CO, called H64V, has been the subject of experimental observations and simulations and has underscored the pivotal role of the distal histidine in modulating the CO frequency in myoglobin. The H64V mutant (the distal histidine is replaced by a non-polar valine) displays significantly decreased vibrational dephasing because of the elimination of this polar residue.<sup>71</sup> It is instructive to compare the dynamics of free HRP to that of wild-type myoglobin and substrate-bound HRP with H64V. When this is done, it is found that the dynamics of the A<sub>1</sub> state of MbCO are very similar to the free HRP red state while the HRP-substrate dynamics are very similar to those of H64V.<sup>71</sup>
+
+In H64V, the distal histidine has been removed, and the rate and magnitude of the vibrational dephasing on the experimental time scales are reduced accordingly. Based on the similarity between the MbCO data and the HRP red state data, it is reasonable to assume that a substantial contribution to the vibrational dephasing of the free HRP comes from the fluctuations of the distal histidine and the distal arginine. The striking similarity in HRP-substrate and H64V dynamics highlights that substrate binding in HRP renders the distal residues nearly static on the 2D IR experimental timescale. The clear conclusion to be drawn is that substrate binding locks up the distal ligands, constraining the structural fluctuations in the active site. The result is that the time scale of the fluctuations is pushed out to long times (>100 ps). It is worth noting that the protein dynamics are significantly decreased even when additional potential sources of CO frequency perturbations are introduced into the active site. The distal residues participate in every step of the enzymatic cycle of HRP and the results indicate that substrate binding recognizes and dynamically constrains these residues.<sup>74</sup> Based on the observation that substrates in the HRP active site significantly decreased structural fluctuations of the distal residues, it is possible that the protein may exploit the flutter of substrate binding to catalyze further steps in the enzymatic pathway. Thus, upon recognition of biologically occurring substrates, the protein active site is not only constrained structurally but also dynamically, priming the enzyme to sample the portion of the conformational energy landscape that may lead to subsequent steps in the reaction.<sup>74</sup>
 
 ---
 
-## Chemical exchange vibrational echo spectroscopy
+## III. Chemical exchange vibrational echo spectroscopy
 
-### 1. Chemical exchange vibrational echo spectroscopy
+### 1. The effect of chemical exchange on the 2D spectrum
 
 <figure class="paper-figure" id="fig10">
 <img src="fig10.jpg" alt="Figure 10">
 <figcaption><strong>Fig. 10</strong> Schematic illustration of the influence of chemical exchange between two species, A and B, on the 2D vibrational echo spectrum. See text for details.</figcaption>
 </figure>
 
-The effect of chemical exchange on the 2D spectrum. Fig. 10 illustrates the influence of chemical exchange on the 2D vibrational echo spectrum. Two species, A and B, with absorptions at distinct transition frequencies, *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, are in thermal equilibrium. Species A is converted to species B, and *vice versa*, but there is no net change in the populations of A and B because the rate of A's going to B equals the rate of B's going to A. Fig. 10a shows the 2D spectrum at very short time prior to chemical exchange. (Only the 0–1 portion of the spectrum is shown.) There are two peaks on the diagonal, one for species A and one for species B with frequencies on both axes, *i.e.*, *&omega;*<sub>m</sub> and *&omega;*<sub>&tau;</sub>, of *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, respectively. Fig. 10b shows what would happen if some of the A's convert to B's. The right part of Fig. 10b shows the quantum pathways that lead to the signal.<sup>43</sup> A dashed arrow represents a coherence (coherent superposition state) produced by a radiation field. The solid arrow represents a population, and the curved arrow represents the vibrational echo emission. The first pulse produces a coherence between the states of species A at frequency *&omega;*<sub>A</sub>. After time *&tau;*, the second pulse produces a population. There are several pathways, and a population can be produced in either the ground state (0) or the first excited state (1). During the period *T*<sub>w</sub>, some A's turn into B's (A → B). The third pulse again produces a coherence, but it is a coherence of species B at *&omega;*<sub>B</sub>, followed by echo emission at *&omega;*<sub>B</sub>. Because the first interaction (frequency on the *&omega;*<sub>&tau;</sub> axis) is at *&omega;*<sub>A</sub>, but the last interaction and echo emission (frequency on the *&omega;*<sub>m</sub> axis) is at *&omega;*<sub>B</sub>, an off-diagonal peak is generated as shown in the left portion of Fig. 10b. Fig. 10c shows what happens if B's turn into A's (B → A). Everything is equivalent to the description of Fig. 10b, but the initial frequency is *&omega;*<sub>B</sub> and the final frequency is *&omega;*<sub>A</sub>.
+Fig. 10 illustrates the influence of chemical exchange on the 2D vibrational echo spectrum. Two species, A and B, with absorptions at distinct transition frequencies, *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, are in thermal equilibrium. Species A is converted to species B, and *vice versa*, but there is no net change in the populations of A and B because the rate of A's going to B equals the rate of B's going to A. Fig. 10a shows the 2D spectrum at very short time prior to chemical exchange. (Only the 0–1 portion of the spectrum is shown.) There are two peaks on the diagonal, one for species A and one for species B with frequencies on both axes, *i.e.*, *&omega;*<sub>m</sub> and *&omega;*<sub>&tau;</sub>, of *&omega;*<sub>A</sub> and *&omega;*<sub>B</sub>, respectively. Fig. 10b shows what would happen if some of the A's convert to B's. The right part of Fig. 10b shows the quantum pathways that lead to the signal.<sup>43</sup> A dashed arrow represents a coherence (coherent superposition state) produced by a radiation field. The solid arrow represents a population, and the curved arrow represents the vibrational echo emission. The first pulse produces a coherence between the states of species A at frequency *&omega;*<sub>A</sub>. After time *&tau;*, the second pulse produces a population. There are several pathways, and a population can be produced in either the ground state (0) or the first excited state (1). During the period *T*<sub>w</sub>, some A's turn into B's (A → B). The third pulse again produces a coherence, but it is a coherence of species B at *&omega;*<sub>B</sub>, followed by echo emission at *&omega;*<sub>B</sub>. Because the first interaction (frequency on the *&omega;*<sub>&tau;</sub> axis) is at *&omega;*<sub>A</sub>, but the last interaction and echo emission (frequency on the *&omega;*<sub>m</sub> axis) is at *&omega;*<sub>B</sub>, an off-diagonal peak is generated as shown in the left portion of Fig. 10b. Fig. 10c shows what happens if B's turn into A's (B → A). Everything is equivalent to the description of Fig. 10b, but the initial frequency is *&omega;*<sub>B</sub> and the final frequency is *&omega;*<sub>A</sub>.
 
 In a real system, A and B are in equilibrium. Therefore, the number of A's turning into B's in a given time period is equal to the number of B's turning into A's. As shown in Fig. 10d, the result is to produce two off-diagonal peaks. Because some A's and B's may not have undergone chemical exchange, or may have undergone chemical exchange but reverted back to the original species prior to the third pulse, there are also diagonal peaks. The model spectrum in Fig. 10d is the spectrum for a time long compared to the chemical exchange time, while the spectrum in Fig. 10a is for a time short compared to the chemical exchange time. The rate of chemical exchange can be determined by observing the growth of the off-diagonal peaks in the 2D vibrational echo spectrum.<sup>29,31,36,100</sup>
 
@@ -212,7 +214,7 @@ Eight *&pi;* hydrogen bond complexes of phenol and phenol derivatives with benze
 
 ### 3. Isomerization around a carbon–carbon single bond
 
-Isomerization of organic molecules is responsible for the vast diversity of their chemical structures and the ability of both small molecules and large biopolymers to undergo structural changes without breaking chemical bonds. During the course of isomerization a molecule is transformed from one relatively stable conformation to another by passing through unfavorable configurations. Ethane and its derivatives are textbook examples of molecules that undergo this type of isomerization.<sup>103</sup> In ethane, as one of the two methyl groups rotates 360° around the central carbon–carbon single bond, it will alternate three times between an unstable eclipsed conformation and the preferred staggered conformation. The transition from one staggered state to another leaves ethane structurally identical. Therefore, the result of ethane isomerization cannot be observed through a change in chemical structure. In a 1,2-disubstituted ethane derivative, the molecule can undergo a similar isomerization. However, a 1,2-disubstituted ethane has two distinct staggered conformations, *gauche* and *trans*. The two conformations have distinguishing characteristics because of the change in the relative positions of the two substituents.<sup>103</sup> Carbon–carbon bond isomerization has been the subject of intense theoretical and experimental study since Bischoff found 100 years ago that rotation about the C–C single bond in ethane is not completely free.<sup>99</sup>
+Isomerization of organic molecules is responsible for the vast diversity of their chemical structures and the ability of both small molecules and large biopolymers to undergo structural changes without breaking chemical bonds. During the course of isomerization a molecule is transformed from one relatively stable conformation to another by passing through unfavorable configurations. Ethane and its derivatives are textbook examples of molecules that undergo this type of isomerization.<sup>103</sup> In ethane, as one of the two methyl groups rotates 360° around the central carbon–carbon single bond, it will alternate three times between an unstable eclipsed conformation and the preferred staggered conformation. The transition from one staggered state to another leaves ethane structurally identical. Therefore, the result of ethane isomerization cannot be observed through a change in chemical structure. In a 1,2-disubstituted ethane derivative, the molecule can undergo a similar isomerization. However, a 1,2-disubstituted ethane has two distinct staggered conformations, *gauche* and *trans*. The two conformations have distinguishing characteristics because of the change in the relative positions of the two substituents.<sup>103</sup> Carbon–carbon bond isomerization has been the subject of intense theoretical and experimental study since Bischoff found 100 years ago that rotation about the C–C single bond in ethane is not completely free.<sup>104</sup>
 
 <figure class="paper-figure" id="fig14">
 <img src="fig14.jpg" alt="Figure 14">
@@ -284,47 +286,47 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref5">5.</span> I. D. Abella, N. A. Kurnit and S. R. Hartmann, *Phys. Rev.*, 1966, **141**, 391.
 
-<span id="ref6">6.</span> S. Mukamel and R. M. Hochstrasser, in *Ultrafast Infrared and Raman Spectroscopy*, ed. M. D. Fayer, Marcel Dekker Inc., New York, 2001, vol. 26, p. 273.
+<span id="ref6">6.</span> T. J. Aartsma and D. A. Wiersma, *Chem. Phys. Lett.*, 1978, **54**, 415.
 
-<span id="ref7">7.</span> R. M. Hochstrasser and H. P. Trommsdorff, *Acc. Chem. Res.*, 1983, **16**, 376.
+<span id="ref7">7.</span> W. H. Hesselink and D. A. Wiersma, *Phys. Rev. Lett.*, 1979, **43**, 1991.
 
-<span id="ref8">8.</span> D. Zimdars, A. Tokmakoff, S. Chen, S. R. Greenfield, M. D. Fayer, T. I. Smith and H. A. Schwettman, *Phys. Rev. Lett.*, 1993, **70**, 2718.
+<span id="ref8">8.</span> D. E. Cooper, R. W. Olson, R. D. Wieting and M. D. Fayer, *Chem. Phys. Lett.*, 1979, **67**, 41.
 
-<span id="ref9">9.</span> K. D. Rector, C. W. Rella, A. S. Kwok, J. R. Hill, S. G. Sligar, D. P. Chien, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. B*, 1997, **101**, 1468.
+<span id="ref9">9.</span> R. W. Olson, H. W. H. Lee, F. G. Patterson and M. D. Fayer, *J. Chem. Phys.*, 1982, **76**, 31.
 
-<span id="ref10">10.</span> K. A. Merchant, W. G. Noid, D. E. Thompson, R. Akiyama, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2003, **107**, 4.
+<span id="ref10">10.</span> R. J. Gulotty, C. A. Walsh, F. G. Patterson, W. L. Wilson and M. D. Fayer, *Chem. Phys. Lett.*, 1986, **125**, 507.
 
-<span id="ref11">11.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **381**, 139.
+<span id="ref11">11.</span> L. W. Molenkamp and D. A. Wiersma, *J. Chem. Phys.*, 1985, **83**, 1.
 
-<span id="ref12">12.</span> B. J. Asbury, T. Steinel and M. D. Fayer, *J. Lumin.*, 2004, **107**, 271.
+<span id="ref12">12.</span> M. Berg, C. A. Walsh, L. R. Narasimhan, K. A. Littau and M. D. Fayer, *J. Chem. Phys.*, 1988, **88**, 1564.
 
-<span id="ref13">13.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 1982, **33**, 63.
+<span id="ref13">13.</span> C. A. Walsh, M. Berg, L. R. Narasimhan and M. D. Fayer, *J. Chem. Phys.*, 1987, **86**, 77.
 
-<span id="ref14">14.</span> J. B. Asbury, T. Steinel, C. Stromberg, K. J. Gaffney, I. R. Piletic, A. Goun and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **374**, 362.
+<span id="ref14">14.</span> C. A. Walsh, M. Berg, L. R. Narasimhan and M. D. Fayer, *Chem. Phys. Lett.*, 1986, **130**, 6.
 
-<span id="ref15">15.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *J. Lumin.*, 2004, **107**, 325.
+<span id="ref15">15.</span> D. T. Leeson and D. A. Wiersma, *Phys. Rev. Lett.*, 1995, **74**, 2138.
 
-<span id="ref16">16.</span> R. R. Ernst, G. Bodenhausen and A. Wokaun, *Nuclear Magnetic Resonance in One and Two Dimensions*, Oxford University Press, Oxford, 1987.
+<span id="ref16">16.</span> D. T. Leeson, D. A. Wiersma, K. Fritsch and J. Friedrich, *J. Phys. Chem. B*, 1997, **101**, 6331.
 
-<span id="ref17">17.</span> A. Ansari, J. Berendzen, D. Braunstein, B. R. Cowen, H. Frauenfelder, M. K. Hong, I. E. T. Iben, J. B. Johnson, P. Ormos, T. B. Sauke, R. Scholl, A. Schulte, P. J. Steinbach, J. Vittitow and R. D. Young, *Biophys. Chem.*, 1987, **26**, 337.
+<span id="ref17">17.</span> X. J. Jordanides, M. J. Lang, X. Song and G. R. Fleming, *J. Phys. Chem. B*, 1999, **103**, 7995.
 
-<span id="ref18">18.</span> W. S. Caughey, H. Shimada, M. G. Choc and M. P. Tucker, *Proc. Natl. Acad. Sci. U. S. A.*, 1981, **78**, 2903.
+<span id="ref18">18.</span> D. M. Jonas, M. J. Lang, Y. Nagasawa, T. Joo and G. R. Fleming, *J. Phys. Chem.*, 1996, **100**, 12660.
 
-<span id="ref19">19.</span> K. D. Rector, J. R. Engholm, C. W. Rella, J. R. Hill, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. A*, 1999, **103**, 2381.
+<span id="ref19">19.</span> D. Zigmantas, E. L. Read, T. Mancal, T. Brixner, A. T. Gardiner, R. J. Cogdell and G. R. Fleming, *Proc. Natl. Acad. Sci. U. S. A.*, 2006, **103**, 12672.
 
-<span id="ref20">20.</span> W. D. Tian, J. T. Sage and P. M. Champion, *J. Mol. Biol.*, 1993, **233**, 155.
+<span id="ref20">20.</span> D. Zimdars, A. Tokmakoff, S. Chen, S. R. Greenfield, M. D. Fayer, T. I. Smith and H. A. Schwettman, *Phys. Rev. Lett.*, 1993, **70**, 2718.
 
-<span id="ref21">21.</span> G. N. Phillips, Jr, M. L. Teodoro, T. Li, B. Smith and J. S. Olson, *J. Phys. Chem. B*, 1999, **103**, 8817.
+<span id="ref21">21.</span> C. W. Rella, A. Kwok, K. Rector, J. R. Hill, H. A. Schwettman, D. D. Dlott and M. D. Fayer, *Phys. Rev. Lett.*, 1996, **77**, 1648.
 
-<span id="ref22">22.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 2001, **52**, 315.
+<span id="ref22">22.</span> C. W. Rella, K. D. Rector, A. Kwok, J. R. Hill, H. A. Schwettman, D. D. Dlott and M. D. Fayer, *J. Phys. Chem.*, 1996, **100**, 15620.
 
-<span id="ref23">23.</span> D. Morikis, P. M. Champion, B. A. Springer and S. G. Sligar, *Biochemistry*, 1989, **28**, 4791.
+<span id="ref23">23.</span> A. Tokmakoff, D. Zimdars, R. S. Urdahl, R. S. Francis, A. S. Kwok and M. D. Fayer, *J. Phys. Chem.*, 1995, **99**, 13310.
 
-<span id="ref24">24.</span> E. Oldfield, K. Guo, J. D. Augspurger and C. E. Dykstra, *J. Am. Chem. Soc.*, 1991, **113**, 7537.
+<span id="ref24">24.</span> A. Tokmakoff and M. D. Fayer, *Acc. Chem. Res.*, 1995, **28**, 437.
 
-<span id="ref25">25.</span> I. J. Finkelstein, A. Goj, B. L. McClain, A. M. Massari, K. A. Merchant, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2005, **109**, 16959.
+<span id="ref25">25.</span> K. A. Merchant, D. E. Thompson and M. D. Fayer, *Phys. Rev. Lett.*, 2001, **86**, 3899.
 
-<span id="ref26">26.</span> A. M. Massari, I. J. Finkelstein and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, **128**, 3990.
+<span id="ref26">26.</span> M. Khalil, N. Demirdoven and A. Tokmakoff, *Phys. Rev. Lett.*, 2003, **90**, 047401.
 
 <span id="ref27">27.</span> J. B. Asbury, T. Steinel, C. Stromberg, S. A. Corcelli, C. P. Lawrence, J. L. Skinner and M. D. Fayer, *J. Phys. Chem. A*, 2004, **108**, 1107.
 
@@ -350,53 +352,53 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref38">38.</span> C. J. Fecko, J. D. Eaves, J. J. Loparo, A. Tokmakoff and P. L. Geissler, *Science*, 2003, **301**, 1698.
 
-<span id="ref39">39.</span> K. D. Rector, C. W. Rella, A. S. Kwok, J. R. Hill, S. G. Sligar, D. P. Chien, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. B*, 1997, **101**, 1468.
+<span id="ref39">39.</span> K. D. Rector, C. W. Rella, A. S. Kwok, J. R. Hill, S. G. Sligar, E. Y. T. Chien, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. B*, 1997, **101**, 1468.
 
 <span id="ref40">40.</span> K. A. Merchant, W. G. Noid, D. E. Thompson, R. Akiyama, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2003, **107**, 4.
 
 <span id="ref41">41.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **381**, 139.
 
-<span id="ref42">42.</span> J. B. Asbury, T. Steinel, C. Stromberg, K. J. Gaffney, I. R. Piletic, A. Goun and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **374**, 362.
+<span id="ref42">42.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *J. Lumin.*, 2004, **107**, 271.
 
-<span id="ref43">43.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *J. Lumin.*, 2004, **107**, 325.
+<span id="ref43">43.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 1982, **33**, 63.
 
-<span id="ref44">44.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 1982, **33**, 63.
+<span id="ref44">44.</span> J. B. Asbury, T. Steinel, C. Stromberg, K. J. Gaffney, I. R. Piletic, A. Goun and M. D. Fayer, *Chem. Phys. Lett.*, 2003, **374**, 362.
 
-<span id="ref45">45.</span> J. J. Finkelstein, H. Ishikawa, S. Kim, A. M. Massari and M. D. Fayer, *Proc. Natl. Acad. Sci. U. S. A.*, 2007, **104**, 2637.
+<span id="ref45">45.</span> J. B. Asbury, T. Steinel and M. D. Fayer, *J. Lumin.*, 2004, **107**, 217.
 
-<span id="ref46">46.</span> W. D. Tian, J. T. Sage and P. M. Champion, *J. Mol. Biol.*, 1993, **233**, 155.
+<span id="ref46">46.</span> R. R. Ernst, G. Bodenhausen and A. Wokaun, *Nuclear Magnetic Resonance in One and Two Dimensions*, Oxford University Press, Oxford, 1987.
 
-<span id="ref47">47.</span> D. Braunstein, K. Chu, K. D. Egeberg, H. Frauenfelder, J. R. Mourant, G. U. Nienhaus, P. Ormos, S. G. Sligar, B. A. Springer and R. D. Young, *Biophys. J.*, 1993, **65**, 2447.
+<span id="ref47">47.</span> A. Ansari, J. Berendzen, D. Braunstein, B. R. Cowen, H. Frauenfelder, M. K. Hong, I. E. T. Iben, J. B. Johnson, P. Ormos, T. B. Sauke, R. Scholl, A. Schulte, P. J. Steinbach, J. Vittitow and R. D. Young, *Biophys. Chem.*, 1987, **26**, 337.
 
-<span id="ref48">48.</span> E. Park, S. Andrews and G. S. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
+<span id="ref48">48.</span> W. S. Caughey, H. Shimada, M. G. Choc and M. P. Tucker, *Proc. Natl. Acad. Sci. U. S. A.*, 1981, **78**, 2903.
 
-<span id="ref49">49.</span> R. Jimenez, G. Salazar, J. Yin, T. Joo and F. E. Romesberg, *Proc. Natl. Acad. Sci. U. S. A.*, 2004, **101**, 3803.
+<span id="ref49">49.</span> K. D. Rector, J. R. Engholm, C. W. Rella, J. R. Hill, D. D. Dlott and M. D. Fayer, *J. Phys. Chem. A*, 1999, **103**, 2381.
 
-<span id="ref50">50.</span> V. Ma, M. Shatsky, H. J. Wolfson and R. Nussinov, *Protein Sci.*, 2002, **11**, 184.
+<span id="ref50">50.</span> W. D. Tian, J. T. Sage, P. M. Champion, E. Chien and S. G. Sligar, *Biochemistry*, 1996, **35**, 3487.
 
-<span id="ref51">51.</span> T. Frauenfelder, B. H. McMahon, R. H. Austin, K. Chu and J. T. Groves, *Proc. Natl. Acad. Sci. U. S. A.*, 2001, **98**, 2370.
+<span id="ref51">51.</span> G. N. Phillips, Jr, M. L. Teodoro, T. Li, B. Smith and J. S. Olson, *J. Phys. Chem. B*, 1999, **103**, 8817.
 
-<span id="ref52">52.</span> P. Mukherjee, I. Kass, I. T. Arkin and M. T. Zanni, *Proc. Natl. Acad. Sci. U. S. A.*, 2006, **103**, 3528.
+<span id="ref52">52.</span> M. D. Fayer, *Annu. Rev. Phys. Chem.*, 2001, **52**, 315.
 
-<span id="ref53">53.</span> A. W. Smith, H. S. Chung, Z. Ganim and A. Tokmakoff, *J. Phys. Chem. B*, 2005, **109**, 17025.
+<span id="ref53">53.</span> D. Morikis, P. M. Champion, B. A. Springer and S. G. Sligar, *Biochemistry*, 1989, **28**, 4791.
 
-<span id="ref54">54.</span> N. C. Veitch, *Phytochemistry*, 2004, **65**, 249.
+<span id="ref54">54.</span> E. Oldfield, K. Guo, J. D. Augspurger and C. E. Dykstra, *J. Am. Chem. Soc.*, 1991, **113**, 7537.
 
-<span id="ref55">55.</span> A. T. Smith and N. C. Veitch, *Curr. Opin. Chem. Biol.*, 1998, **2**, 269.
+<span id="ref55">55.</span> I. J. Finkelstein, A. Goj, B. L. McClain, A. M. Massari, K. A. Merchant, R. F. Loring and M. D. Fayer, *J. Phys. Chem. B*, 2005, **109**, 16959.
 
-<span id="ref56">56.</span> S. C. Veitch and A. T. Smith, *Adv. Inorg. Chem.*, 2001, **51**, 107.
+<span id="ref56">56.</span> A. M. Massari, I. J. Finkelstein and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, **128**, 3990.
 
-<span id="ref57">57.</span> S. M. Aitken, J. L. Turnbull, M. D. Percival and A. M. English, *Biochemistry*, 2001, **40**, 13980.
+<span id="ref57">57.</span> C. Rovira, B. Schulze, M. Eichinger, J. D. Evanseck and M. Parrinello, *Biophys. J.*, 2001, **81**, 435.
 
-<span id="ref58">58.</span> P. D. Dalosto, N. V. Prabhu, J. M. Vanderkooi and K. A. Sharp, *J. Phys. Chem. B*, 2003, **107**, 1884.
+<span id="ref58">58.</span> R. Elber and M. Karplus, *Science*, 1987, **235**, 318.
 
-<span id="ref59">59.</span> A. D. Kaposi, N. V. Prabhu, D. Dalosto, K. A. Sharp, W. W. Wright, S. S. Stavrov and J. M. Vanderkooi, *Biophys. Chem.*, 2003, **106**, 1.
+<span id="ref59">59.</span> D. Vitkup, D. Ringe, G. A. Petsko and M. Karplus, *Nat. Struct. Biol.*, 2000, **7**, 34.
 
-<span id="ref60">60.</span> E. S. Park, S. S. Andrews, R. B. Hu and S. G. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
+<span id="ref60">60.</span> B. Kushkuley and S. S. Stavrov, *Biophys. J.*, 1997, **72**, 899.
 
-<span id="ref61">61.</span> B. Summers, H. Mazzdivasni, J. H. Holms, J. D. Ratajczyk, R. D. Dyer and G. W. Carter, *J. Med. Chem.*, 1987, **30**, 574.
+<span id="ref61">61.</span> J. C. Kendrew, R. E. Dickerson, B. E. Strandberg, R. G. Hart, D. R. Davies, D. C. Phillips and V. C. Shore, *Nature*, 1960, **185**, 422.
 
-<span id="ref62">62.</span> G. H. Carlson, P. Nicholls, D. Svistunenko, G. I. Berglund and J. Hajdu, *Biochemistry*, 2005, **44**, 635.
+<span id="ref62">62.</span> G. S. Kachalova, A. N. Popov and H. D. Bartunik, *Science*, 1999, **284**, 473.
 
 <span id="ref63">63.</span> J. Vojtechovsky, K. Chu, J. Berendzen, R. M. Sweet and I. Schlichting, *Biophys. J.*, 1999, **77**, 2153.
 
@@ -418,21 +420,21 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref72">72.</span> Y. S. Bai and M. D. Fayer, *Phys. Rev. B*, 1989, **39**, 11066.
 
-<span id="ref73">73.</span> J. Schmidt, N. Sundlass and J. Skinner, *Chem. Phys. Lett.*, 2003, **378**, 559.
+<span id="ref73">73.</span> J. R. Schmidt, N. Sundlass and J. L. Skinner, *Chem. Phys. Lett.*, 2003, **378**, 559.
 
 <span id="ref74">74.</span> I. J. Finkelstein, H. Ishikawa, S. Kim, A. M. Massari and M. D. Fayer, *Proc. Natl. Acad. Sci. U. S. A.*, 2007, **104**, 2637.
 
 <span id="ref75">75.</span> W. D. Tian, J. T. Sage and P. M. Champion, *J. Mol. Biol.*, 1993, **233**, 155.
 
-<span id="ref76">76.</span> D. Braunstein, K. Chu, K. D. Egeberg, H. Frauenfelder, J. R. Mourant, G. U. Nienhaus, P. Ormos, S. G. Sligar, B. A. Springer and R. D. Young, *Biophys. J.*, 1993, **65**, 2447.
+<span id="ref76">76.</span> D. P. Braunstein, K. Chu, K. D. Egeberg, H. Frauenfelder, J. R. Mourant, G. U. Nienhaus, P. Ormos, S. G. Sligar, B. A. Springer and R. D. Young, *Biophys. J.*, 1993, **65**, 2447.
 
-<span id="ref77">77.</span> E. Park, S. Andrews and G. S. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
+<span id="ref77">77.</span> E. S. Park, S. S. Andrews and G. S. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
 
 <span id="ref78">78.</span> R. Jimenez, G. Salazar, J. Yin, T. Joo and F. E. Romesberg, *Proc. Natl. Acad. Sci. U. S. A.*, 2004, **101**, 3803.
 
-<span id="ref79">79.</span> V. Ma, M. Shatsky, H. J. Wolfson and R. Nussinov, *Protein Sci.*, 2002, **11**, 184.
+<span id="ref79">79.</span> B. Ma, M. Shatsky, H. J. Wolfson and R. Nussinov, *Protein Sci.*, 2002, **11**, 184.
 
-<span id="ref80">80.</span> T. Frauenfelder, B. H. McMahon, R. H. Austin, K. Chu and J. T. Groves, *Proc. Natl. Acad. Sci. U. S. A.*, 2001, **98**, 2370.
+<span id="ref80">80.</span> H. Frauenfelder, B. H. McMahon, R. H. Austin, K. Chu and J. T. Groves, *Proc. Natl. Acad. Sci. U. S. A.*, 2001, **98**, 2370.
 
 <span id="ref81">81.</span> P. Mukherjee, I. Kass, I. T. Arkin and M. T. Zanni, *Proc. Natl. Acad. Sci. U. S. A.*, 2006, **103**, 3528.
 
@@ -442,19 +444,19 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref84">84.</span> A. T. Smith and N. C. Veitch, *Curr. Opin. Chem. Biol.*, 1998, **2**, 269.
 
-<span id="ref85">85.</span> S. C. Veitch and A. T. Smith, *Adv. Inorg. Chem.*, 2001, **51**, 107.
+<span id="ref85">85.</span> N. C. Veitch and A. T. Smith, *Adv. Inorg. Chem.*, 2001, **51**, 107.
 
 <span id="ref86">86.</span> S. M. Aitken, J. L. Turnbull, M. D. Percival and A. M. English, *Biochemistry*, 2001, **40**, 13980.
 
-<span id="ref87">87.</span> P. D. Dalosto, N. V. Prabhu, J. M. Vanderkooi and K. A. Sharp, *J. Phys. Chem. B*, 2003, **107**, 1884.
+<span id="ref87">87.</span> S. D. Dalosto, N. V. Prabhu, J. M. Vanderkooi and K. A. Sharp, *J. Phys. Chem. B*, 2003, **107**, 1884.
 
-<span id="ref88">88.</span> A. D. Kaposi, N. V. Prabhu, D. Dalosto, K. A. Sharp, W. W. Wright, S. S. Stavrov and J. M. Vanderkooi, *Biophys. Chem.*, 2003, **106**, 1.
+<span id="ref88">88.</span> A. D. Kaposi, N. V. Prabhu, S. D. Dalosto, K. A. Sharp, W. W. Wright, S. S. Stavrov and J. M. Vanderkooi, *Biophys. Chem.*, 2003, **106**, 1.
 
 <span id="ref89">89.</span> E. S. Park, S. S. Andrews, R. B. Hu and S. G. Boxer, *J. Phys. Chem. B*, 1999, **103**, 9813.
 
-<span id="ref90">90.</span> B. Summers, H. Mazzdivasni, J. H. Holms, J. D. Ratajczyk, R. D. Dyer and G. W. Carter, *J. Med. Chem.*, 1987, **30**, 574.
+<span id="ref90">90.</span> J. B. Summers, H. Mazdiyasni, J. H. Holms, J. D. Ratajczyk, R. D. Dyer and G. W. Carter, *J. Med. Chem.*, 1987, **30**, 574.
 
-<span id="ref91">91.</span> G. H. Carlson, P. Nicholls, D. Svistunenko, G. I. Berglund and J. Hajdu, *Biochemistry*, 2005, **44**, 635.
+<span id="ref91">91.</span> G. H. Carlsson, P. Nicholls, D. Svistunenko, G. I. Berglund and J. Hajdu, *Biochemistry*, 2005, **44**, 635.
 
 <span id="ref92">92.</span> A. Henriksen, M. Gajhede, P. Baker, A. T. Smith and J. F. Burke, *Acta Crystallogr., Sect. D*, 1995, **51**, 121.
 
@@ -462,11 +464,11 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref94">94.</span> M. Khajehpour, T. Troxler and J. M. Vanderkooi, *Biochemistry*, 2003, **42**, 2672.
 
-<span id="ref95">95.</span> G. Smulevich, A. Feis, C. Indiani, M. Becucci and M. P. Marcocchi, *J. Biol. Inorg. Chem.*, 1999, **4**, 39.
+<span id="ref95">95.</span> G. Smulevich, A. Feis, C. Indiani, M. Becucci and M. P. Marzocchi, *J. Biol. Inorg. Chem.*, 1999, **4**, 39.
 
 <span id="ref96">96.</span> A. Henriksen, D. J. Schuller, K. Meno, K. G. Welinder, A. T. Smith and M. Gajhede, *Biochemistry*, 1998, **37**, 8054.
 
-<span id="ref97">97.</span> T. E. Holzbaur, A. M. English and A. A. Ismail, *J. Am. Chem. Soc.*, 1996, **118**, 3354.
+<span id="ref97">97.</span> I. E. Holzbaur, A. M. English and A. A. Ismail, *J. Am. Chem. Soc.*, 1996, **118**, 3354.
 
 <span id="ref98">98.</span> W. J. Ingledew and P. R. Rich, *Biochem. Soc. Trans.*, 2005, **33**, 886.
 
@@ -476,7 +478,7 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref101">101.</span> J. Zheng and M. D. Fayer, *J. Am. Chem. Soc.*, 2006, accepted.
 
-<span id="ref102">102.</span> J. R. Zheng, K. Kwak, J. Asbury, X. Chen, I. R. Piletic and M. D. Fayer, *Science*, 2005, **309**, 1338.
+<span id="ref102">102.</span> J. Zheng, K. Kwak, J. Asbury, X. Chen, I. R. Piletic and M. D. Fayer, *Science*, 2005, **309**, 1338.
 
 <span id="ref103">103.</span> J. March, *Advanced Organic Chemistry*, John Wiley and Sons, New York, 1985.
 
@@ -492,7 +494,7 @@ Work on protein dynamics was supported by a grant from the NIH (2 R01 GM061137-0
 
 <span id="ref109">109.</span> J. Ramirez and M. Laso, *J. Chem. Phys.*, 2001, **115**, 7285.
 
-<span id="ref110">110.</span> J. Zheng, K. Kwak, J. Xie and M. D. Fayer, *Science*, 2006, 1951.
+<span id="ref110">110.</span> J. Zheng, K. Kwak, J. Xie and M. D. Fayer, *Science*, 2006, **313**, 1951.
 
 <span id="ref111">111.</span> A. Streitwieser and R. W. Taft, *Progress in Physical Organic Chemistry*, John Wiley and Sons, New York, 1968.
 
