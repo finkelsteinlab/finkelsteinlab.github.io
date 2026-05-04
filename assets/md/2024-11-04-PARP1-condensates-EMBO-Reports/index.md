@@ -369,54 +369,103 @@ The authors declare no competing interests.
 ## References
 
 <span id="ref1">1.</span> Barkauskaite E, Bax B, Ahel I. (2015) Nucleotide-dependent protein interactions in DNA damage response. _Trends Biochem Sci._ 40:318–329.
+
 <span id="ref2">2.</span> Bai P. (2015) Biology of poly(ADP-ribose) polymerases: The factotums of cell maintenance. _Mol Cell_ 58:947–958.
+
 <span id="ref3">3.</span> Leung AK, Vyas S, Rood JE, et al. (2011) Poly(ADP-ribose) regulates stress responses and translocates RNA polymerase II to sites of DNA damage. _J Cell Biol._ 195:7–18.
+
 <span id="ref4">4.</span> Altmeyer M, Neelsen KJ, Teloni F, et al. (2015) Liquid demixing of intrinsically disordered proteins is seeded by poly(ADP-ribose). _Nat Commun._ 6:8088.
+
 <span id="ref5">5.</span> Léger H, Roques BP, Schved JF, et al. (2014) PARP1 regulates myeloid differentiation and inflammatory response. _PLoS ONE_ 9:e98741.
+
 <span id="ref6">6.</span> Eustermann S, Wu WF, Langelier MF, et al. (2015) Mechanism of poly(ADP-ribose) polymerase-1 inhibition by nucleosomes. _Nature_ 522:198–202.
+
 <span id="ref7">7.</span> Eustermann S, Brockmann C, Mehrotra PV, et al. (2011) Solution structures of the DNA-binding domain of human PARP-1 bound to DNA. _FEBS J._ 278:3423–3434.
+
 <span id="ref8">8.</span> Langelier MF, Planck JL, Roy S, Pascal JM. (2011) Structural basis for DNA damage-dependent poly(ADP-ribosyl)ation by human PARP-1. _Science_ 336:728–732.
+
 <span id="ref9">9.</span> Larsen NK, Sorensen CS. (2018) The N-terminal acidic region of the PARP-1 protein regulates both its catalytic activity and the DNA damage response. _Oncogene_ 37:1588–1597.
+
 <span id="ref10">10.</span> Jungmichel S, Clements DJ, Bonfiglio JJ, et al. (2013) Specificity and commonality of the ubiquitin response to genotoxic stress. _Mol Cell_ 50:617–625.
+
 <span id="ref11">11.</span> Karch KR, Langelier MF, Pascal JM. (2017) High-resolution crystal structure of human PARP-1 catalytic domain. _PLoS ONE_ 12:e0182504.
+
 <span id="ref12">12.</span> Wei H, Yu X. (2016) Functions of PARylation in DNA damage repair pathways. _Genomics Proteomics Bioinformatics_ 14:131–139.
+
 <span id="ref13">13.</span> Liu C, Vyas A, Kassab MA, et al. (2017) The role of poly(ADP-ribose) glycohydrolase in DNA damage and stress responses. _Biochem J._ 472:231–243.
+
 <span id="ref14">14.</span> Chou DM, Adamson B, Dephoure NE, et al. (2010) A chromatin localization screen reveals poly(ADP ribose)-regulated recruitment of the repressive polycomb and NuRD complexes to sites of DNA damage. _Proc Natl Acad Sci USA_ 107:18475–18480.
+
 <span id="ref15">15.</span> Polo SE, Kaidi A, Baskcomb L, et al. (2010) Regulation of DNA-damage responses and cell-cycle progression by the chromatin remodelling factor CHD4. _EMBO J._ 29:3130–3139.
+
 <span id="ref16">16.</span> Gottschalk AJ, Timinszky G, Kong SE, et al. (2009) Poly(ADP-ribosyl)ation directs recruitment and activation of an ATP-dependent chromatin remodeler. _Proc Natl Acad Sci USA_ 106:13770–13774.
+
 <span id="ref17">17.</span> Aleksandrov R, Dotchev A, Pouvelle C, et al. (2018) Protein poly(ADP-ribosyl)ation by PARP1: 'On' and 'Off' by ubiquitylation. _Nat Struct Mol Biol._ 25:347–350.
+
 <span id="ref18">18.</span> Koczor CA, Ludlow AT, Rinder PN, et al. (2021) PARP1 is essential for mitochondrial metabolic maintenance and plays a role in mitochondrial DNA repair capacity. _Cells_ 10:2803.
+
 <span id="ref19">19.</span> Ray Chaudhuri A, Nussenzweig A. (2017) The multifaceted roles of PARP1 in DNA repair and metabolism. _Nat Rev Mol Cell Biol._ 18:610–621.
+
 <span id="ref20">20.</span> Patel A, Lee HO, Jawerth L, et al. (2015) A liquid-to-solid phase transition of the ALS protein FUS accelerated by disease mutation. _Cell_ 162:1066–1077.
+
 <span id="ref21">21.</span> Kilic S, Bachmann AL, Fierz B, et al. (2019) Phase separation of 53BP1 regulates DNA damage recognition and signaling. _Cell_ 6:e1000853.
+
 <span id="ref22">22.</span> Levone BR, Lenzken SC, Antonaci M, et al. (2021) FUS inclusions trigger and propagate dipeptide repeat-associated pathology. _Cell_ 184:6221–6238.
+
 <span id="ref23">23.</span> Li L, Monahan Z, Oldridge DA, et al. (2022) Phase separation of signaling proteins promotes tumor suppression. _Cell_ 184:3693–3710.
+
 <span id="ref24">24.</span> Hyman AA, Weber CA, Jülicher F. (2014) Liquid-liquid phase separation in biology. _Annu Rev Cell Dev Biol._ 30:39–58.
+
 <span id="ref25">25.</span> Banani SF, Lee HO, Hyman AA, Whelan ME. (2017) Biomolecular condensates: The nucleus is just the beginning. _Dev Cell_ 39:139–153.
+
 <span id="ref26">26.</span> Spannl S, Cox SB, Rees DJ, et al. (2019) Organelles maintain liquid-liquid phase separation. _Dev Cell_ 49:239–255.
+
 <span id="ref27">27.</span> Lafontaine DL, Riback JA, Bouffard J, et al. (2021) The nucleolus as a multiphase liquid condensate. _Nat Rev Mol Cell Biol._ 22:165–182.
+
 <span id="ref28">28.</span> Correll CC, Bartek J, Dundr M. (2019) The nucleolus: structure and function. _Nat Rev Mol Cell Biol._ 20:635–654.
+
 <span id="ref29">29.</span> Lau R, Ono S, Coulter Z, et al. (2020) Phase separation as a mechanism of regulation of liquid-liquid phase separation. _Nat Rev Mol Cell Biol._ 21:453–469.
+
 <span id="ref30">30.</span> Hofmann S, Cherkasova V, Bankhead P, et al. (2021) Intrinsically disordered regions direct transcription factor in vivo dynamics and function. _eLife_ 10:e61134.
+
 <span id="ref31">31.</span> Su X, Ditlev JA, Hui E, et al. (2021) Phase separation of signaling proteins promotes TNF-induced recruitment to the plasma membrane. _Nat Chem Biol._ 17:864–873.
+
 <span id="ref32">32.</span> Case LB, Zhang X, Ditlev JA, et al. (2019) Molecular mechanism of adhesive signaling by cadherins revealed by single-molecule force spectroscopy. _eLife_ 8:e50529.
+
 <span id="ref33">33.</span> Kim TH, Tsang B, Vernon RM, et al. (2019) Phospho-dependent phase separation of FXYD2 and heteromeric protein assembly. _Science_ 365:765–771.
+
 <span id="ref34">34.</span> Tsang B, Arsenault J, Vernon RM, et al. (2019) Phosphoregulated KASH-SUN interaction and nuclear envelope dynamics depend on Nesprin-2 intrinsically disordered regions. _Nat Commun._ 10:1584.
+
 <span id="ref35">35.</span> Monahan Z, Ryan VH, Janich A, et al. (2017) Phosphorylation of the FUS low-complexity domain enhances its intrinsic disorder and promotes phase separation. _Sci Signal._ 10:eaal3711.
+
 <span id="ref36">36.</span> Nott TJ, Petsalaki E, Farber P, et al. (2015) Phase transition of a disordered nuage-associated protein drives primordial germ cell formation. _Cell_ 160:75–87.
+
 <span id="ref37">37.</span> Qamar S, Wang G, Randle SJ, et al. (2018) FUS phase separation is modulated by a member of the elongated SUMO-like protein family. _Cell_ 173:596–609.
+
 <span id="ref38">38.</span> Hofweber M, Dormann C. (2018) Gene structure and expression of mammalian PARP genes. _Biochem Pharmacol._ 154:190–204.
+
 <span id="ref39">39.</span> Nosella ML, Forman-Kay JD, Leung AKL. (2021) Phase separation of PARP1 and nucleosomes through PAR-histone interactions. _bioRxiv_.
+
 <span id="ref40">40.</span> Kim TH, Tsang B, Vernon RM, et al. (2021) Phospho-dependent phase separation of FXYD5 regulates YAP signaling. _Nat Struct Mol Biol._ 26:288–297.
+
 <span id="ref41">41.</span> Breslin C, Tomlinson CG, Caldecott KW. (2015) Occupying an XRCC1-shaped hole in the DNA repair landscape. _Nat Rev Mol Cell Biol._ 16:333–343.
+
 <span id="ref42">42.</span> Polo SL, Jackson SP, Bartek J. (2019) Dynamics of DNA damage response proteins at DNA breaks: a systems perspective. _Nat Rev Mol Cell Biol._ 12:9–22.
+
 <span id="ref43">43.</span> Kim JK, Krasieva T, LaMorte VJ, et al. (2015) Selective recruitment of damaged DNA by XRCC1 during base excision repair. _Nucleic Acids Res._ 43:1897–1909.
+
 <span id="ref44">44.</span> Mok HP, Voeltz GK, Keyser F, et al. (2019) DNA damage checkpoint control through the FHA domain of CHK2. _Nat Cell Biol._ 4:676–684.
+
 <span id="ref45">45.</span> Pleschke JM, Kleczkowska HE, Ivaniov VN, Heikkila JE. (2000) Poly(ADP-ribose) binding by specifically configured ligand-binding pockets. _J Biol Chem._ 275:40974–40980.
+
 <span id="ref46">46.</span> Caldecott KW, Tucker JD, Stanker LH, et al. (1994) Characterization of the XRCC1-DNA ligase III complex in vitro. _Biochemistry_ 33:11114–11120.
+
 <span id="ref47">47.</span> Nash RA, Caldecott KW, Barnes DE, Lindahl T. (1997) XRCC1 protein interacts with one of two variant forms of DNA ligase III. _Biochemistry_ 36:11891–11898.
+
 <span id="ref48">48.</span> Caldecott KW, McKeown CK, Tucker JD, et al. (1996) An interaction between the mammalian DNA repair protein XRCC1 and DNA ligase III. _Mol Cell Biol._ 16:4312–4319.
+
 <span id="ref49">49.</span> Kubota Y, Nash RA, Klungland A, et al. (1996) Reconstitution of DNA base excision-repair with purified human proteins. _J Biol Chem._ 271:33217–33222.
+
 <span id="ref50">50.</span> Caldecott KW. (2008) Single-strand break repair and genetic disease. _Nat Rev Genet._ 9:619–631.
 
 ---
