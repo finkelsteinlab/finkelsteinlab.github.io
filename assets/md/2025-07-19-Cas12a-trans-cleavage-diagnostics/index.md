@@ -339,7 +339,7 @@ The authors gratefully acknowledge a generous gift from Tito's Handmade Vodka. T
 
 <span id="ref11">11.</span> Marino ND, Pinilla-Redondo R, Bondy-Denomy J. CRISPR–Cas12a targeting of ssDNA plays no detectable role in immunity. *Nucleic Acids Res*. 2022;50:6414–22. [doi:10.1093/nar/gkac462](https://doi.org/10.1093/nar/gkac462)
 
-<span id="ref12">12.</span> Liu S, Rao X, Zhao R, et al. The trans DNA cleavage activity of Cas12a provides no detectable immunity against plasmid or phage. *Front Genome Ed*. 2022;4:929929. [doi:10.3389/fgeed.2022.929929](https://doi.org/10.3389/fgeed.2022.929929)
+<span id="ref12">12.</span> Liu S, Rao X, Zhao R, et al. The *trans* DNA cleavage activity of Cas12a provides no detectable immunity against plasmid or phage. *Front Genome Ed*. 2022;4:929929. [doi:10.3389/fgeed.2022.929929](https://doi.org/10.3389/fgeed.2022.929929)
 
 <span id="ref13">13.</span> Dmytrenko O, Neumann GC, Hallmark T, et al. Cas12a2 elicits abortive infection through RNA-triggered destruction of dsDNA. *Nature*. 2023;613:588–94. [doi:10.1038/s41586-022-05559-3](https://doi.org/10.1038/s41586-022-05559-3)
 
@@ -357,7 +357,7 @@ The authors gratefully acknowledge a generous gift from Tito's Handmade Vodka. T
 
 <span id="ref20">20.</span> Xie S, Xu B, Tang R, et al. Kinetics accelerated CRISPR–Cas12a enabling live-cell monitoring of Mn²⁺ homeostasis. *Anal Chem*. 2022;94:10159–67. [doi:10.1021/acs.analchem.2c01461](https://doi.org/10.1021/acs.analchem.2c01461)
 
-<span id="ref21">21.</span> Worle E, Newman A, D'Silva J, et al. Allosteric activation of CRISPR–Cas12a requires the concerted movement of the bridge helix and helix 1 of the RuvC II domain. *Nucleic Acids Res*. 2022;50:10153–68. [doi:10.1093/nar/gkac767](https://doi.org/10.1093/nar/gkac767)
+<span id="ref21">21.</span> Wörle E, Newman A, D'Silva J, et al. Allosteric activation of CRISPR–Cas12a requires the concerted movement of the bridge helix and helix 1 of the RuvC II domain. *Nucleic Acids Res*. 2022;50:10153–68. [doi:10.1093/nar/gkac767](https://doi.org/10.1093/nar/gkac767)
 
 <span id="ref22">22.</span> Santiago JG. Inconsistent treatments of the kinetics of Clustered regularly Interspaced Short Palindromic Repeats (CRISPR) impair assessment of its diagnostic potential. *QRB Discovery*. 2022;3:e9. [doi:10.1017/qrd.2022.7](https://doi.org/10.1017/qrd.2022.7)
 
@@ -371,7 +371,7 @@ The authors gratefully acknowledge a generous gift from Tito's Handmade Vodka. T
 
 <span id="ref27">27.</span> Nouri R, Dong M, Politza AJ, et al. Figure of merit for CRISPR-based nucleic acid-sensing systems: improvement strategies and performance comparison. *ACS Sens*. 2022;7:900–11. [doi:10.1021/acssensors.2c00024](https://doi.org/10.1021/acssensors.2c00024)
 
-<span id="ref28">28.</span> Motulski HJ. GraphPad curve fitting guide. 2024.
+<span id="ref28">28.</span> Motulsky HJ. GraphPad curve fitting guide. 2024.
 
 <span id="ref29">29.</span> Nguyen LT, Macaluso NC, Rakestraw NR, et al. Harnessing noncanonical crRNAs to improve functionality of Cas12a orthologs. *Cell Rep*. 2024;43:113777. [doi:10.1016/j.celrep.2024.113777](https://doi.org/10.1016/j.celrep.2024.113777)
 

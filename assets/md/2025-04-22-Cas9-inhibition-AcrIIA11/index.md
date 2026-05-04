@@ -56,13 +56,13 @@ We recently reported that AcrIIA11 is a potent Cas9 inhibitor with broad phyloge
 
 _Sa_ Cas9 (Addgene #101086), _Fn_ Cas9 (Addgene #130966), and AcrIIA11 were cloned into a pET19 expression vector containing an N-terminal 6xHis-TwinStrep-SUMO fusion [[42](#ref42), [43](#ref43)]. _Sa_ Cas9 and _Fn_ Cas9 encoded an N-terminal 3xFLAG epitope. Nuclease dead _Sa_ Cas9 (d_Sa_ Cas9) was created using primers KD197 and KD198 to mutate residues D10A and N580A (Supplementary Table S1). AcrIIA11 used in pull-down assays was cloned into a pET19 expression vector with either a C-terminal TwinStrep (TS) or 6xHis epitope. SUMO protease was purified as previously described [[44](#ref44)]. For the TS–SUMO–_Sa_ Cas9–sgRNA copurification with AcrIIA11, the T7 promoter and single guide RNA (sgRNA) were cloned downstream of _Sa_ Cas9 in the pET19 vector (Supplementary Table S2). pMCSG7-WT-_Neisseria meningitidis_ (_Nme_) Cas9 was a gift from Dr. Erik Sontheimer (Addgene plasmid #71474) [[45](#ref45)]. _Fn_ Cas9 protein for _in vitro_ cleavage assays was purchased from Millipore Sigma (FNCAS9PROT-250UG). _Sp_ Cas9 protein was purchased from NEB (M0386M).
 
-_Sa_ Cas9 was expressed in Rosetta (DE3) pLysS cells (VWR, 80509-788) and grown in 2 l of LB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively, at 37°C to an OD600 ∼0.6. Cells were induced with 500 μM isopropyl β-d-1-thiogalactopyranoside (IPTG) and grown overnight (∼16 h) at 18°C. After induction, cells were pelleted via centrifugation and resuspended in _Sa_ Cas9 Lysis Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, and 2 mM Dithiothreitol (DTT)) with protease inhibitors and DNase before lysing with sonication. Cellular debris was pelleted by ultracentrifugation before placing lysate over a Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in Lysis Buffer. The column was washed with 100 ml of _Sa_ Cas9 Lysis Buffer and eluted with 20 ml of _Sa_ Cas9 Elution Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5 mM desthiobiotin, and 2 mM DTT). The eluate was concentrated with a 50 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC905096) and incubated with SUMO protease at 4°C overnight (∼16 h). _Sa_ Cas9 was isolated using a HiLoad 16/600 Superdex 200 pg column (Cytiva, 28 989 335) equilibrated in _Sa_ Cas9 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Peak fractions were concentrated and frozen with liquid nitrogen before storing at −80°C.
+_Sa_ Cas9 was expressed in Rosetta (DE3) pLysS cells (VWR, 80509-788) and grown in 2 l of LB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively, at 37°C to an OD₆₀₀ ∼0.6. Cells were induced with 500 μM isopropyl β-d-1-thiogalactopyranoside (IPTG) and grown overnight (∼16 h) at 18°C. After induction, cells were pelleted via centrifugation and resuspended in _Sa_ Cas9 Lysis Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, and 2 mM Dithiothreitol (DTT)) with protease inhibitors and DNase before lysing with sonication. Cellular debris was pelleted by ultracentrifugation before placing lysate over a Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in Lysis Buffer. The column was washed with 100 ml of _Sa_ Cas9 Lysis Buffer and eluted with 20 ml of _Sa_ Cas9 Elution Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5 mM desthiobiotin, and 2 mM DTT). The eluate was concentrated with a 50 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC905096) and incubated with SUMO protease at 4°C overnight (∼16 h). _Sa_ Cas9 was isolated using a HiLoad 16/600 Superdex 200 pg column (Cytiva, 28 989 335) equilibrated in _Sa_ Cas9 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Peak fractions were concentrated and frozen with liquid nitrogen before storing at −80°C.
 
-AcrIIA11 was expressed in BL21 (DE3) RIL cells and grown in either LB or TB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively, at 37°C to an OD600 ∼0.6. Cells were induced with 200 μM IPTG for ∼16 h at 18°C. Cells were pelleted and resuspended in AcrIIA11 Lysis Buffer (500 mM NaCl, 25 mM HEPES, pH 7.5, and 2 mM DTT) with protease inhibitors and DNase. Cells were lysed either via sonication or via the LM10 Microfluidizer before ultracentrifugation. Clarified lysate was placed on a Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in AcrIIA11 Lysis Buffer. The column was washed with 100 ml of AcrIIA11 Lysis Buffer and the protein was eluted with 20 ml of AcrIIA11 Elution Buffer (150 mM NaCl, 25 mM HEPES, pH 7.5, 5 mM desthiobiotin, and 2 mM DTT). The protein was incubated with SUMO protease at 4°C overnight before flowing over a Ni-NTA gravity column (Thermo Fisher Scientific, 88222) to remove the cleaved 6xHis-TS-SUMO tag and SUMO Protease. The flow-through was concentrated to 1 ml using a 10 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC901096) before placing over a 5 ml Q column (Cytiva, 17515901) equilibrated in Q Buffer A (150 mM NaCl, 25 mM HEPES pH 7.5, 2 mM DTT, and 5% glycerol). The protein was eluted via a linear gradient with Q Buffer B (1 M NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Peak fractions were collected and concentrated to 1 ml and isolated on a HiLoad 16/600 Superdex 200 pg column (Cytiva, 28989335) equilibrated in AcrIIA11 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 2 mM DTT, and 10% glycerol). Peak fractions were concentrated and frozen with liquid nitrogen before storing at −80°C.
+AcrIIA11 was expressed in BL21 (DE3) RIL cells and grown in either LB or TB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively, at 37°C to an OD₆₀₀ ∼0.6. Cells were induced with 200 μM IPTG for ∼16 h at 18°C. Cells were pelleted and resuspended in AcrIIA11 Lysis Buffer (500 mM NaCl, 25 mM HEPES, pH 7.5, and 2 mM DTT) with protease inhibitors and DNase. Cells were lysed either via sonication or via the LM10 Microfluidizer before ultracentrifugation. Clarified lysate was placed on a Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in AcrIIA11 Lysis Buffer. The column was washed with 100 ml of AcrIIA11 Lysis Buffer and the protein was eluted with 20 ml of AcrIIA11 Elution Buffer (150 mM NaCl, 25 mM HEPES, pH 7.5, 5 mM desthiobiotin, and 2 mM DTT). The protein was incubated with SUMO protease at 4°C overnight before flowing over a Ni-NTA gravity column (Thermo Fisher Scientific, 88222) to remove the cleaved 6xHis-TS-SUMO tag and SUMO Protease. The flow-through was concentrated to 1 ml using a 10 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC901096) before placing over a 5 ml Q column (Cytiva, 17515901) equilibrated in Q Buffer A (150 mM NaCl, 25 mM HEPES pH 7.5, 2 mM DTT, and 5% glycerol). The protein was eluted via a linear gradient with Q Buffer B (1 M NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Peak fractions were collected and concentrated to 1 ml and isolated on a HiLoad 16/600 Superdex 200 pg column (Cytiva, 28989335) equilibrated in AcrIIA11 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 2 mM DTT, and 10% glycerol). Peak fractions were concentrated and frozen with liquid nitrogen before storing at −80°C.
 
-_Nme_ Cas9 was expressed in Rosetta 2(DE3) cells (Millipore Sigma, 71400-3) and grown in LB supplemented with 100 μg/ml carbenicillin and 34 μg/ml chloramphenicol. Cultures were grown at 37°C to an OD600 ∼0.6 and induced with 500 μM IPTG for ∼16 h at 18°C. Cells were harvested by centrifugation at 6000 × _g_ for 15 min using a JLA 8.1000 rotor and resuspended in _Nme_ Cas9 Lysis Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, and 1 mM Tris(2-Chloroethyl) Phosphate (TCEP)) with protease inhibitors and DNase. Cells were lysed by sonication and pelleted using ultracentrifugation. Clarified lysate was placed on a 5 ml of Ni-NTA gravity column and washed with 100 ml of _Nme_ Cas9 Wash Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, 1 mM TCEP, and 25 mM imidazole). _Nme_ Cas9 was eluted with 15 ml of NmeCas9 Elution Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, 1 mM TCEP, and 200 mM imidazole). The protein was dialyzed overnight (∼16 h) at 4°C with TEV protease into _Nme_ Cas9 Dialysis Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The sample was concentrated to 2 ml with a 30 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC903096) and placed on a 5 ml Heparin column (Cytiva, 17040703) equilibrated in _Nme_ Cas9 Heparin A Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The protein was eluted by a linear gradient with _Nme_ Cas9 Heparin B Buffer (1 M KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The peak fractions were collected and spin concentrated to 1 ml before placing on the HiLoad 16/600 Superdex 200 pg column (Cytiva, 28989335) equilibrated in _Nme_ Cas9 SEC Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). Peak fractions were collected, spin concentrated, and frozen with liquid nitrogen before storing at −80°C.
+_Nme_ Cas9 was expressed in Rosetta 2(DE3) cells (Millipore Sigma, 71400-3) and grown in LB supplemented with 100 μg/ml carbenicillin and 34 μg/ml chloramphenicol. Cultures were grown at 37°C to an OD₆₀₀ ∼0.6 and induced with 500 μM IPTG for ∼16 h at 18°C. Cells were harvested by centrifugation at 6000 × _g_ for 15 min using a JLA 8.1000 rotor and resuspended in _Nme_ Cas9 Lysis Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, and 1 mM Tris(2-Chloroethyl) Phosphate (TCEP)) with protease inhibitors and DNase. Cells were lysed by sonication and pelleted using ultracentrifugation. Clarified lysate was placed on a 5 ml of Ni-NTA gravity column and washed with 100 ml of _Nme_ Cas9 Wash Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, 1 mM TCEP, and 25 mM imidazole). _Nme_ Cas9 was eluted with 15 ml of NmeCas9 Elution Buffer (500 mM NaCl, 50 mM Tris–HCl, pH 8, 10% glycerol, 1 mM TCEP, and 200 mM imidazole). The protein was dialyzed overnight (∼16 h) at 4°C with TEV protease into _Nme_ Cas9 Dialysis Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The sample was concentrated to 2 ml with a 30 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC903096) and placed on a 5 ml Heparin column (Cytiva, 17040703) equilibrated in _Nme_ Cas9 Heparin A Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The protein was eluted by a linear gradient with _Nme_ Cas9 Heparin B Buffer (1 M KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). The peak fractions were collected and spin concentrated to 1 ml before placing on the HiLoad 16/600 Superdex 200 pg column (Cytiva, 28989335) equilibrated in _Nme_ Cas9 SEC Buffer (150 mM KCl, 20 mM HEPES, pH 7.5, 5% glycerol, and 1 mM DTT). Peak fractions were collected, spin concentrated, and frozen with liquid nitrogen before storing at −80°C.
 
-_Fn_ Cas9 was expressed in Rosetta (DE3) pLysS cells (VWR, 80509-788) and grown in 2 l of LB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively. Cultures were grown at 37°C to an OD600 ∼0.6. Cells were induced with 500 μM IPTG and grown for ∼16 h at 18°C. Cells were pelleted by centrifugation at 6000 × _g_ for 15 min using a JLA 8.1000 rotor and then resuspended in _Fn_ Cas9 Lysis Buffer (500 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT) with protease inhibitors and DNase. Cells were lysed using sonication and pelleted via ultracentrifugation. Clarified lysate was placed on a 5 ml of Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in _Fn_ Cas9 Lysis Buffer. The column was washed with 100 ml of _Fn_ Cas9 Lysis Buffer and eluted with 20 ml of _Fn_ Cas9 Elution Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, 5 mM desthiobiotin, and 2 mM DTT). The sample was spin concentrated with a 50 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC905096) and incubated with SUMO protease at 4°C overnight (∼16 h). The sample was placed over a Superdex 200 Increase 10/300 GL (Cytiva, 28990944) equilibrated in _Fn_ Cas9 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT), and peak fractions were collected, spin concentrated, and frozen with liquid nitrogen before storing at −80°C.
+_Fn_ Cas9 was expressed in Rosetta (DE3) pLysS cells (VWR, 80509-788) and grown in 2 l of LB supplemented with 100 and 34 μg/ml carbenicillin and chloramphenicol, respectively. Cultures were grown at 37°C to an OD₆₀₀ ∼0.6. Cells were induced with 500 μM IPTG and grown for ∼16 h at 18°C. Cells were pelleted by centrifugation at 6000 × _g_ for 15 min using a JLA 8.1000 rotor and then resuspended in _Fn_ Cas9 Lysis Buffer (500 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT) with protease inhibitors and DNase. Cells were lysed using sonication and pelleted via ultracentrifugation. Clarified lysate was placed on a 5 ml of Strep-Tactin Superflow 50% suspension (IBA Life Sciences, 2-1206-025) gravity column equilibrated in _Fn_ Cas9 Lysis Buffer. The column was washed with 100 ml of _Fn_ Cas9 Lysis Buffer and eluted with 20 ml of _Fn_ Cas9 Elution Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, 5 mM desthiobiotin, and 2 mM DTT). The sample was spin concentrated with a 50 kDa Amicon Ultra-15 Centrifugal Filter (Millipore Sigma, UFC905096) and incubated with SUMO protease at 4°C overnight (∼16 h). The sample was placed over a Superdex 200 Increase 10/300 GL (Cytiva, 28990944) equilibrated in _Fn_ Cas9 SEC Buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT), and peak fractions were collected, spin concentrated, and frozen with liquid nitrogen before storing at −80°C.
 
 ### Human cell culture genome editing
 
@@ -78,7 +78,7 @@ Rosetta (DE3) pLysS cells containing TS–SUMO–_Sa_ Cas9–sgRNA and BL21 (DE3
 
 ### AcrIIA11:_Sa_ Cas9 RNP negative stain EM
 
-Purified _Sa_ Cas9 RNP:AcrllA11 complex was diluted to a concentration of 0.02 mg/ml in SEC buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Samples were deposited on a CF-400-CU grid (Electron Microscopy Science) that had been plasma cleaned for 30 s on a Solarus 950 plasma cleaner (Gaten). Grids were stained with 1% uranyl acetate and imaged on the JOEL 2010F transmission electron microscope at 200 kV. Fifty-five micrographs were manually collected at a magnification of ×60 000 in 2K mode (corresponding pixel size = 3.6Å/pix) on a Gaten OneView Camera with IS software. CTF-estimation, particle picking, and 2D classification were performed on CisTEM [[49](#ref49)]. Particles were then imported into cryoSPARC for further 2D classification and _ab initio_ 3D reconstruction [[50](#ref50)].
+Purified _Sa_ Cas9 RNP:AcrIIA11 complex was diluted to a concentration of 0.02 mg/ml in SEC buffer (200 mM NaCl, 25 mM HEPES, pH 7.5, 5% glycerol, and 2 mM DTT). Samples were deposited on a CF-400-CU grid (Electron Microscopy Science) that had been plasma cleaned for 30 s on a Solarus 950 plasma cleaner (Gaten). Grids were stained with 1% uranyl acetate and imaged on the JOEL 2010F transmission electron microscope at 200 kV. Fifty-five micrographs were manually collected at a magnification of ×60 000 in 2K mode (corresponding pixel size = 3.6Å/pix) on a Gaten OneView Camera with IS software. CTF-estimation, particle picking, and 2D classification were performed on CisTEM [[49](#ref49)]. Particles were then imported into cryoSPARC for further 2D classification and _ab initio_ 3D reconstruction [[50](#ref50)].
 
 ### _In vitro_ AcrIIA11:Cas9 pulldown assays
 
@@ -223,77 +223,149 @@ _Author contributions:_ Conceptualization: K.J.F., I.J.F.; Data curation and for
 ## References
 
 <span id="ref1">1.</span> Mayo-Muñoz D, Pinilla-Redondo R, Birkholz N, et al. (2023) A host of armor: prokaryotic immune strategies against mobile genetic elements. _Cell Rep._ 42:872. [doi:10.1016/j.celrep.2023.112672](https://doi.org/10.1016/j.celrep.2023.112672)
+
 <span id="ref2">2.</span> Georjon H, Bernheim A. (2023) The highly diverse antiphage defence systems of bacteria. _Nat Rev Microbiol._ 21:686–700. [doi:10.1038/s41579-023-00934-x](https://doi.org/10.1038/s41579-023-00934-x)
+
 <span id="ref3">3.</span> Mayo-Muñoz D, Pinilla-Redondo R, Camara-Wilpert S, et al. (2024) Inhibitors of bacterial immune systems: discovery, mechanisms and applications. _Nat Rev Genet._ 25:237–54. [doi:10.1038/s41576-023-00676-9](https://doi.org/10.1038/s41576-023-00676-9)
+
 <span id="ref4">4.</span> Pons BJ, van Houte S, Westra ER, et al. (2023) Ecology and evolution of phages encoding anti-CRISPR proteins. _J Mol Biol._ 435:167974. [doi:10.1016/j.jmb.2023.167974](https://doi.org/10.1016/j.jmb.2023.167974)
+
 <span id="ref5">5.</span> Jinek M, Chylinski K, Fonfara I, et al. (2012) A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. _Science_ 337:816–21. [doi:10.1126/science.1225829](https://doi.org/10.1126/science.1225829)
+
 <span id="ref6">6.</span> Gasiunas G, Barrangou R, Horvath P, et al. (2012) Cas9–crRNA ribonucleoprotein complex mediates specific DNA cleavage for adaptive immunity in bacteria. _Proc Natl Acad Sci USA_ 109:E2579–E2586. [doi:10.1073/pnas.1208507109](https://doi.org/10.1073/pnas.1208507109)
+
 <span id="ref7">7.</span> Singh D, Sternberg SH, Fei J, et al. (2016) Real-time observation of DNA recognition and rejection by the RNA-guided endonuclease Cas9. _Nat Commun._ 7:12778. [doi:10.1038/ncomms12778](https://doi.org/10.1038/ncomms12778)
+
 <span id="ref8">8.</span> Sternberg SH, Redding S, Jinek M, et al. (2014) DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. _Nature_ 507:62–7. [doi:10.1038/nature13011](https://doi.org/10.1038/nature13011)
+
 <span id="ref9">9.</span> Bondy-Denomy J, Pawluk A, Maxwell KL, et al. (2013) Bacteriophage genes that inactivate the CRISPR–Cas bacterial immune system. _Nature_ 493:429–32. [doi:10.1038/nature11723](https://doi.org/10.1038/nature11723)
+
 <span id="ref10">10.</span> Chowdhury S, Carter J, Rollins MF, et al. (2017) Structure reveals mechanisms of viral suppressors that intercept a CRISPR RNA-guided surveillance complex. _Cell_ 169:47–57. [doi:10.1016/j.cell.2017.03.012](https://doi.org/10.1016/j.cell.2017.03.012)
+
 <span id="ref11">11.</span> Bondy-Denomy J, Garcia B, Strum S, et al. (2015) Multiple mechanisms for CRISPR–Cas inhibition by anti-CRISPR proteins. _Nature_ 526:136–9. [doi:10.1038/nature15254](https://doi.org/10.1038/nature15254)
+
 <span id="ref12">12.</span> Guo TW, Bartesaghi A, Yang H, et al. (2017) Cryo-EM structures reveal mechanism and inhibition of DNA targeting by a CRISPR–Cas surveillance complex. _Cell_ 171:414–26. [doi:10.1016/j.cell.2017.09.006](https://doi.org/10.1016/j.cell.2017.09.006)
+
 <span id="ref13">13.</span> Wang X, Yao D, Xu J-G, et al. (2016) Structural basis of Cas3 inhibition by the bacteriophage protein AcrF3. _Nat Struct Mol Biol._ 23:868–70. [doi:10.1038/nsmb.3269](https://doi.org/10.1038/nsmb.3269)
+
 <span id="ref14">14.</span> Wiegand T, Karambelkar S, Bondy-Denomy J, et al. (2020) Structures and strategies of anti-CRISPR-mediated immune suppression. _Annu Rev Microbiol._ 74:21–37. [doi:10.1146/annurev-micro-020518-120107](https://doi.org/10.1146/annurev-micro-020518-120107)
+
 <span id="ref15">15.</span> Pawluk A, Staals RHJ, Taylor C, et al. (2016) Inactivation of CRISPR-Cas systems by anti-CRISPR proteins in diverse bacterial species. _Nat Microbiol._ 1:16085. [doi:10.1038/nmicrobiol.2016.85](https://doi.org/10.1038/nmicrobiol.2016.85)
+
 <span id="ref16">16.</span> Pawluk A, Amrani N, Zhang Y, et al. (2016) Naturally occurring off-switches for CRISPR–Cas9. _Cell_ 167:1829–38. [doi:10.1016/j.cell.2016.11.017](https://doi.org/10.1016/j.cell.2016.11.017)
+
 <span id="ref17">17.</span> Rauch BJ, Silvis MR, Hultquist JF, et al. (2017) Inhibition of CRISPR–Cas9 with bacteriophage proteins. _Cell_ 168:150–8. [doi:10.1016/j.cell.2016.12.009](https://doi.org/10.1016/j.cell.2016.12.009)
+
 <span id="ref18">18.</span> Hynes AP, Rousseau GM, Lemay M-L, et al. (2017) An anti-CRISPR from a virulent streptococcal phage inhibits Streptococcus pyogenes Cas9. _Nat Microbiol._ 2:1374–80. [doi:10.1038/s41564-017-0004-7](https://doi.org/10.1038/s41564-017-0004-7)
+
 <span id="ref19">19.</span> Hynes AP, Rousseau GM, Agudelo D, et al. (2018) Widespread anti-CRISPR proteins in virulent bacteriophages inhibit a range of Cas9 proteins. _Nat Commun._ 9:2919. [doi:10.1038/s41467-018-05092-w](https://doi.org/10.1038/s41467-018-05092-w)
+
 <span id="ref20">20.</span> Watters KE, Fellmann C, Bai HB, et al. (2018) Systematic discovery of natural CRISPR–Cas12a inhibitors. _Science_ 362:236–9. [doi:10.1126/science.aau5138](https://doi.org/10.1126/science.aau5138)
+
 <span id="ref21">21.</span> Forsberg KJ, Bhatt IV, Schmidtke DT, et al. (2019) Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome. _eLife_ 8:e46540. [doi:10.7554/eLife.46540](https://doi.org/10.7554/eLife.46540)
+
 <span id="ref22">22.</span> Uribe RV, van der Helm E, Misiakou M-A, et al. (2019) Discovery and characterization of Cas9 inhibitors disseminated across seven bacterial phyla. _Cell Host Microbe_ 25:233–41. [doi:10.1016/j.chom.2019.01.003](https://doi.org/10.1016/j.chom.2019.01.003)
+
 <span id="ref23">23.</span> Forsberg KJ, Schmidtke DT, Werther R, et al. (2021) The novel anti-CRISPR AcrIIA22 relieves DNA torsion in target plasmids and impairs SpyCas9 activity. _PLoS Biol._ 19:e3001428. [doi:10.1371/journal.pbio.3001428](https://doi.org/10.1371/journal.pbio.3001428)
+
 <span id="ref24">24.</span> Allemailem KS, Almatroudi A, Alrumaihi F, et al. (2024) Current updates of CRISPR–Cas system and anti-CRISPR proteins: innovative applications to improve the genome editing strategies. _Int J Nanomed._ 19:10185–212.
+
 <span id="ref25">25.</span> Choudhary N, Tandi D, Verma RK, et al. (2023) A comprehensive appraisal of mechanism of anti-CRISPR proteins: an advanced genome editor to amend the CRISPR gene editing. _Front Plant Sci._ 14:1164461. [doi:10.3389/fpls.2023.1164461](https://doi.org/10.3389/fpls.2023.1164461)
+
 <span id="ref26">26.</span> Bondy-Denomy J, Davidson AR, Doudna JA, et al. (2018) A unified resource for tracking anti-CRISPR names. _CRISPR J._ 1:304–5. [doi:10.1089/crispr.2018.0043](https://doi.org/10.1089/crispr.2018.0043)
+
 <span id="ref27">27.</span> Forsberg KJ. (2023) Anti-CRISPR discovery: using magnets to find needles in haystacks. _J Mol Biol._ 435:167952. [doi:10.1016/j.jmb.2023.167952](https://doi.org/10.1016/j.jmb.2023.167952)
+
 <span id="ref28">28.</span> Chou-Zheng L, Howell O, Boyle TA, et al. (2024) AcrIIIA1 is a protein–RNA anti-CRISPR complex that targets core Cas and accessory nucleases. _Nucleic Acids Res._ 52:13490–514. [doi:10.1093/nar/gkae1006](https://doi.org/10.1093/nar/gkae1006)
+
 <span id="ref29">29.</span> Hwang S, Maxwell KL. (2019) Meet the anti-CRISPRs: widespread protein inhibitors of CRISPR–Cas systems. _CRISPR J._ 2:23–30. [doi:10.1089/crispr.2018.0052](https://doi.org/10.1089/crispr.2018.0052)
+
 <span id="ref30">30.</span> Davidson AR, Lu W-T, Stanley SY, et al. (2020) Anti-CRISPRs: protein inhibitors of CRISPR–Cas systems. _Annu Rev Biochem._ 89:309–32. [doi:10.1146/annurev-biochem-011420-111224](https://doi.org/10.1146/annurev-biochem-011420-111224)
+
 <span id="ref31">31.</span> Jia N, Patel DJ. (2021) Structure-based functional mechanisms and biotechnology applications of anti-CRISPR proteins. _Nat Rev Mol Cell Biol._ 22:563–79. [doi:10.1038/s41580-021-00371-9](https://doi.org/10.1038/s41580-021-00371-9)
+
 <span id="ref32">32.</span> Harrington LB, Doxzen KW, Ma E, et al. (2017) A broad-spectrum inhibitor of CRISPR–Cas9. _Cell_ 170:1224–33. [doi:10.1016/j.cell.2017.07.037](https://doi.org/10.1016/j.cell.2017.07.037)
+
 <span id="ref33">33.</span> Lee J, Mou H, Ibraheim R, et al. (2019) Tissue-restricted genome editing in vivo specified by microRNA-repressible anti-CRISPR proteins. _RNA_ 25:1421–31. [doi:10.1261/rna.071704.119](https://doi.org/10.1261/rna.071704.119)
+
 <span id="ref34">34.</span> Hoffmann MD, Aschenbrenner S, Grosse S, et al. (2019) Cell-specific CRISPR–Cas9 activation by microRNA-dependent expression of anti-CRISPR proteins. _Nucleic Acids Res._ 47:e75. [doi:10.1093/nar/gkz271](https://doi.org/10.1093/nar/gkz271)
+
 <span id="ref35">35.</span> Matsumoto D, Tamamura H, Nomura W. (2020) A cell cycle-dependent CRISPR–Cas9 activation system based on an anti-CRISPR protein shows improved genome editing accuracy. _Commun Biol._ 3:601. [doi:10.1038/s42003-020-01340-2](https://doi.org/10.1038/s42003-020-01340-2)
+
 <span id="ref36">36.</span> Marsiglia J, Vaalavirta K, Knight E, et al. (2024) Computationally guided high-throughput engineering of an anti-CRISPR protein for precise genome editing in human cells. _Cell Rep Methods_ 4:100882. [doi:10.1016/j.crmeth.2024.100882](https://doi.org/10.1016/j.crmeth.2024.100882)
+
 <span id="ref37">37.</span> Nakamura M, Srinivasan P, Chavez M, et al. (2019) Anti-CRISPR-mediated control of gene editing and synthetic circuits in eukaryotic cells. _Nat Commun._ 10:194. [doi:10.1038/s41467-018-08158-x](https://doi.org/10.1038/s41467-018-08158-x)
+
 <span id="ref38">38.</span> Marino ND, Zhang JY, Borges AL, et al. (2018) Discovery of widespread type I and type V CRISPR–Cas inhibitors. _Science_ 362:240–2. [doi:10.1126/science.aau5174](https://doi.org/10.1126/science.aau5174)
+
 <span id="ref39">39.</span> Shin J, Jiang F, Liu J-J, et al. (2017) Disabling Cas9 by an anti-CRISPR DNA mimic. _Sci Adv._ 3:e1701620. [doi:10.1126/sciadv.1701620](https://doi.org/10.1126/sciadv.1701620)
+
 <span id="ref40">40.</span> Li C, Psatha N, Gil S, et al. (2018) HDAd5/35++ Adenovirus vector expressing anti-CRISPR peptides decreases CRISPR/Cas9 toxicity in Human hematopoietic stem cells. _Mol Ther Methods Clin Dev._ 9:390–401. [doi:10.1016/j.omtm.2018.04.008](https://doi.org/10.1016/j.omtm.2018.04.008)
+
 <span id="ref41">41.</span> Lee J, Mir A, Edraki A, et al. (2018) Potent Cas9 inhibition in bacterial and Human cells by AcrIIC4 and AcrIIC5 anti-CRISPR proteins. _mBio_ 9:e02321–18. [doi:10.1128/mBio.02321-18](https://doi.org/10.1128/mBio.02321-18)
+
 <span id="ref42">42.</span> Soares Medeiros LC, South L, Peng D, et al. (2017) Rapid, selection-free, high-efficiency genome editing in protozoan parasites using CRISPR–Cas9 ribonucleoproteins. _mBio_ 8:e01788–17. [doi:10.1128/mBio.01788-17](https://doi.org/10.1128/mBio.01788-17)
+
 <span id="ref43">43.</span> Acharya S, Mishra A, Paul D, et al. (2019) Francisella novicida Cas9 interrogates genomic DNA with very high specificity and can be used for mammalian genome editing. _Proc Natl Acad Sci USA_ 116:20959–68. [doi:10.1073/pnas.1818461116](https://doi.org/10.1073/pnas.1818461116)
+
 <span id="ref44">44.</span> Malakhov MP, Mattern MR, Malakhova OA, et al. (2004) SUMO fusions and SUMO-specific protease for efficient expression and purification of proteins. _J Struct Funct Genomics_ 5:75–86. [doi:10.1023/B:JSFG.0000029237.70316.52](https://doi.org/10.1023/B:JSFG.0000029237.70316.52)
+
 <span id="ref45">45.</span> Esvelt KM, Mali P, Braff JL, et al. (2013) Orthogonal Cas9 proteins for RNA-guided gene regulation and editing. _Nat Methods_ 10:1116–21. [doi:10.1038/nmeth.2681](https://doi.org/10.1038/nmeth.2681)
+
 <span id="ref46">46.</span> Ran FA, Cong L, Yan WX, et al. (2015) In vivo genome editing using Staphylococcus aureus Cas9. _Nature_ 520:186–91. [doi:10.1038/nature14299](https://doi.org/10.1038/nature14299)
+
 <span id="ref47">47.</span> Maggio I, Gonçalves MA. (2015) Genome editing at the crossroads of delivery, specificity, and fidelity. _Trends Biotechnol._ 33:280–91. [doi:10.1016/j.tibtech.2015.02.011](https://doi.org/10.1016/j.tibtech.2015.02.011)
+
 <span id="ref48">48.</span> Kleinstiver BP, Prew MS, Tsai SQ, et al. (2015) Engineered CRISPR-Cas9 nucleases with altered PAM specificities. _Nature_ 523:481–5. [doi:10.1038/nature14592](https://doi.org/10.1038/nature14592)
+
 <span id="ref49">49.</span> Grant T, Rohou A, Grigorieff N. (2018) cisTEM, user-friendly software for single-particle image processing. _eLife_ 7:e35383. [doi:10.7554/eLife.35383](https://doi.org/10.7554/eLife.35383)
+
 <span id="ref50">50.</span> Punjani A, Rubinstein JL, Fleet DJ, et al. (2017) cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination. _Nat Methods_ 14:290–6. [doi:10.1038/nmeth.4169](https://doi.org/10.1038/nmeth.4169)
+
 <span id="ref51">51.</span> Finkelstein IJ, Greene EC. (2011) Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. _Methods Mol Biol._ 745:447–61. [doi:10.1007/978-1-61779-129-1_26](https://doi.org/10.1007/978-1-61779-129-1_26)
+
 <span id="ref52">52.</span> Ma CJ, Gibb B, Kwon Y, et al. (2017) Protein dynamics of human RPA and RAD51 on ssDNA during assembly and recruitment of RAD51 by BRCA2. _Nucleic Acids Res._ 45:749–61. [doi:10.1093/nar/gkw1125](https://doi.org/10.1093/nar/gkw1125)
+
 <span id="ref53">53.</span> Gibb B, Silverstein TD, Finkelstein IJ, et al. (2014) Protein dynamics during presynaptic-complex assembly on individual single-stranded DNA molecules. _Nat Struct Mol Biol._ 21:893–900. [doi:10.1038/nsmb.2886](https://doi.org/10.1038/nsmb.2886)
+
 <span id="ref54">54.</span> Ran FA, Cong L, Yan WX, et al. (2015) In vivo genome editing using Staphylococcus aureus Cas9. _Nature_ 520:186–91. [doi:10.1038/nature14299](https://doi.org/10.1038/nature14299)
+
 <span id="ref55">55.</span> Kleinstiver BP, Prew MS, Tsai SQ, et al. (2015) Engineered CRISPR-Cas9 nucleases with altered PAM specificities. _Nature_ 523:481–5. [doi:10.1038/nature14592](https://doi.org/10.1038/nature14592)
+
 <span id="ref56">56.</span> Broeders M, Herrero-Hernandez P, Ernst MPT, et al. (2020) Shielding off: conditioning gene expression by AAV-mediated transduction. _Mol Ther._ 28:2465–78.
+
 <span id="ref57">57.</span> Vakulskas CA, Dever DP, Rettig GR, et al. (2018) A high-fidelity Cas9 mutant delivered as a ribonucleoprotein complex enables efficient gene editing in human hematopoietic stem and progenitor cells. _Nat Med._ 24:1216–24. [doi:10.1038/s41591-018-0137-0](https://doi.org/10.1038/s41591-018-0137-0)
+
 <span id="ref58">58.</span> Gaudelli NM, Lam DK, Rees HA, et al. (2020) Directed evolution of adenine base editors with increased activity and therapeutic application. _Nat Biotechnol._ 38:892–900. [doi:10.1038/s41587-020-0491-6](https://doi.org/10.1038/s41587-020-0491-6)
+
 <span id="ref59">59.</span> Rees HA, Wilson C, Doman JL, et al. (2019) Analysis and minimization of cellular RNA editing by DNA adenine base editors. _Sci Adv._ 5:eaax5717. [doi:10.1126/sciadv.aax5717](https://doi.org/10.1126/sciadv.aax5717)
+
 <span id="ref60">60.</span> Dong D, Ren K, Qiu X, et al. (2016) The crystal structure of Cpf1 in complex with CRISPR RNA. _Nature_ 532:522–6. [doi:10.1038/nature17944](https://doi.org/10.1038/nature17944)
+
 <span id="ref61">61.</span> Globyte V, Lee SH, Bae T, et al. (2019) CRISPR/Cas9 searches for a protospacer adjacent motif by lateral diffusion. _EMBO J._ 38:e99466. [doi:10.15252/embj.201899466](https://doi.org/10.15252/embj.201899466)
+
 <span id="ref62">62.</span> Jones DL, Leroy P, Unoson C, et al. (2017) Kinetics of dCas9 target search in Escherichia coli. _Science_ 357:1420–4. [doi:10.1126/science.aah7084](https://doi.org/10.1126/science.aah7084)
+
 <span id="ref63">63.</span> Sternberg SH, Redding S, Jinek M, et al. (2014) DNA interrogation by the CRISPR RNA-guided endonuclease Cas9. _Nature_ 507:62–7. [doi:10.1038/nature13011](https://doi.org/10.1038/nature13011)
+
 <span id="ref64">64.</span> Swarts DC, Jinek M. (2019) Mechanistic insights into the cis- and trans-acting DNase activities of Cas12a. _Mol Cell_ 73:589–600. [doi:10.1016/j.molcel.2018.11.021](https://doi.org/10.1016/j.molcel.2018.11.021)
+
 <span id="ref65">65.</span> Strohkendl I, Saifuddin FA, Rybarski JR, et al. (2018) Kinetic basis for DNA target specificity of CRISPR-Cas12a. _Mol Cell_ 71:816–24. [doi:10.1016/j.molcel.2018.06.043](https://doi.org/10.1016/j.molcel.2018.06.043)
+
 <span id="ref66">66.</span> Sampson TR, Saroj SD, Llewellyn AC, et al. (2013) A CRISPR/Cas system mediates bacterial innate immune evasion and virulence. _Nature_ 497:254–7. [doi:10.1038/nature12048](https://doi.org/10.1038/nature12048)
+
 <span id="ref67">67.</span> Edraki A, Mir A, Ibraheim R, et al. (2019) A compact, high-accuracy Cas9 with a dinucleotide PAM for in vivo genome editing. _Mol Cell_ 73:714–26. [doi:10.1016/j.molcel.2018.12.003](https://doi.org/10.1016/j.molcel.2018.12.003)
+
 <span id="ref68">68.</span> Forni D, Cagliani R, Pontremoli C, et al. (2024) AcrIF9 tames CRISPR-Cas immunity through DNA mimicry and exploits limited target site deformation for broad-range Cascade inhibition. _Nucleic Acids Res._ 52:2363–83.
+
 <span id="ref69">69.</span> Szczelkun MD, Friedhoff P, Seidel R. (2024) Bacteriophage AcrIF9 sequesters type I-F CRISPR-Cas surveillance complexes. _Nat Commun._ 15:1537.
+
 <span id="ref70">70.</span> Knight SC, Xie L, Deng W, et al. (2015) Dynamics of CRISPR-Cas9 genome interrogation in living cells. _Science_ 350:823–6. [doi:10.1126/science.aac6572](https://doi.org/10.1126/science.aac6572)
+
 <span id="ref71">71.</span> Kim I, Jeong M, Ka D, et al. (2018) Solution structure and dynamics of anti-CRISPR AcrIIA4, the Cas9 inhibitor. _Sci Rep._ 8:3883. [doi:10.1038/s41598-018-22177-0](https://doi.org/10.1038/s41598-018-22177-0)
+
 <span id="ref72">72.</span> Liu L, Yin M, Wang M, et al. (2020) Phage AcrIIA2 DNA mimicry: structural basis of the CRISPR and anti-CRISPR arms race. _Mol Cell_ 78:176–84.
+
 <span id="ref73">73.</span> Liu L, Yin M, Wang M, et al. (2019) Structural basis for the RNA-guided ribonuclease activity of CRISPR-Cas13d. _Cell_ 178:1262–71.
 
 ---
