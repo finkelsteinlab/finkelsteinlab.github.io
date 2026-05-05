@@ -185,86 +185,87 @@ In summary, our results demonstrate that interactions between PARP1 and damaged 
 ## Methods
 
 Reagents and tools table
-Reagent/resource | Reference or source | Identifier or catalog number  
----|---|---  
-**Experimental models**  
-_E. coli_ BL21 codon plus (DE3)-RIPL | Agilent Technologies | Cat # 130280  
-_E. coli_ BL21 (DE3) | In-house | N/A  
-**Recombinant DNA**  
-pET-SUMO-PARP1 | This study | N/A  
-pET-SUMO-mCherry-PARP1 | This study | N/A  
-pET-SUMO-PARP1-ZnF | This study | N/A  
-pET-SUMO-PARP1 ΔZnF | This study | N/A  
-pET-SUMO-Lig3 | This study | N/A  
-pET-SUMO-XRCC1 | This study | N/A  
-pET-SUMO-PARG | This study | N/A  
-pET-SUMO-Polβ | This study | N/A  
-pET28a-His-MBP-FUS-GFP | This study | N/A  
-pET-SUMO-Caspase-3 WT | Genscript | N/A  
-pET-SUMO-Caspase-3 C165S | Genscript | N/A  
-pFl Strep Sumo TEV OAS1 | Ando et al, [[2019](#ref7)] | N/A  
-pET24a-PARP5a (1093-1327) | Rhine et al, [[2022](#ref90)] | N/A  
-**Antibodies**  
-Mouse Anti-PAR | Enzo Life Sciences | ALX-804-220-R100  
-anti-Mouse IgG, HRP | Cell Signaling Technology | 7076 V  
-**Oligonucleotides and other sequence-based reagents**  
-DNA substrates and oligos | This study | Appendix Table S[2]  
-**Chemicals, enzymes, and other reagents**  
-18:1 (Δ9-Cis) PC (DOPC) | Avanti Polar Lipids | Cat # 850375 P  
-18:1 Biotinyl Cap PE | Avanti Polar Lipids | Cat # 870273 P  
-18:1 PEG2000 PE | Avanti Polar Lipids | Cat # 880130 P  
-2-mercaptoethanol | Sigma-Aldrich | Cat # M3148-250ML  
-ABT-888 | Toronto Research Chemicals | Cat # A112580-10  
-Alexa Fluor 488 NHS-ester | Thermo Fisher Scientific | Cat # A20000  
-Benzamidine | BioShop | Cat # BEN601.5  
-Bovine Serum Albumin | Thermo Fisher Scientific | Cat # BP9706100  
-Catalase | Sigma-Aldrich | Cat # C100  
-Chloramphenicol | BioShop | Cat # CLR201.5  
-Cy3-dATP | Jena Bioscience | Cat # NU-835-CY3  
-DNase | Roche Diagnostics | Cat # 4536282001  
-DTT | Goldbio | Cat # DTT50  
-EDTA | Wisent Bioproducts | Cat # 625-060-CG  
-Gibson Assembly Master Mix | New England Biolabs | Cat # E2611S  
-Glucose Oxidase | Sigma-Aldrich | Cat # G2133  
-Glycerol | BioShop | Cat # GLY002.4  
-Glycine | BioShop | Cat # GLN001.1  
-HEPES | BioShop | Cat # HEP005.100  
-Histones | Sigma-Aldrich | Cat # H9250  
-Imidazole | BioShop | Cat # IMD508.100  
-isopropyl β-D-1-thiogalactopyranoside (IPTG) | BioShop | Cat # IPT001.5  
-Kanamycin | BioShop | Cat # KAN201.5  
-Kapa HiFi Hotstart ReadyMix | Roche Diagnostics | Cat # 07958927001  
-Lambda DNA | New England Biolabs | Cat # N3011S  
-LB Broth (Miller) | BioShop | Cat # LBL407.5  
-Luminata Crescendo Western HRP Substrate | Sigma-Aldrich | Cat # WBLUR0500  
-Lysozyme | BioShop | Cat # LYS702.5  
-Magnesium chloride | BioShop | Cat # MAN222.100  
-Methanol | Caledon Laboratories | Cat # 6701-7-40  
-Nicotinamide adenine dinucleotide (NAD⁺) | New England Biolabs | Cat # B9007S  
-Ni-NTA Agarose | Qiagen | Cat # 30210  
-Nt.BspQI | New England Biolabs | Cat # R0644S  
-PMSF | BioShop | Cat # PMS123.25  
-Poly(I:C) RNA | Invivogen | Cat # Tlrl-picw  
-Potassium chloride | BioShop | Cat # POC888.1  
-QuickChange Site-Directed Mutagenesis Kit | Agilent | Cat # 200515  
-RNase A | Thermo Fisher Scientific | Cat # EN0531  
-SfoI | New England Biolabs | Cat # R0606S  
-Skim milk powder | BioShop | Cat # SKI400.1  
-Sodium chloride | BioShop | Cat # SOD002.5  
-Streptavidin | Thermo Fisher Scientific | Cat # 434302  
-SYTOX Orange Nucleic Acid Stain | Thermo Fisher Scientific | Cat # S11368  
-T4 DNA Ligase | New England Biolabs | Cat # M0202S  
-Tris | BioShop | Cat # TRS001.1  
-tris(2-carboxyethyl)phosphine (TCEP) | BioShop | Cat # TCE101.1  
-Tween-20 | BioShop | Cat # TWN510.500  
-Zinc chloride | BioShop | Cat # ZNC233.100  
-**Software**  
-Fiji |  <https://fiji.sc/> |   
-Matlab |  <https://www.mathworks.com/products/matlab.html> |   
-GraphPad Prism |  <https://www.graphpad.com/> |   
-Biorender |  <https://www.biorender.com/> |   
-ImageStudio |  <https://www.licor.com/bio/image-studio/> |   
-Adobe Illustrator |  <https://www.adobe.com/> |   
+
+| Reagent/resource | Reference or source | Identifier or catalog number |
+|---|---|---|
+| **Experimental models** | | |
+| _E. coli_ BL21 codon plus (DE3)-RIPL | Agilent Technologies | Cat # 130280 |
+| _E. coli_ BL21 (DE3) | In-house | N/A |
+| **Recombinant DNA** | | |
+| pET-SUMO-PARP1 | This study | N/A |
+| pET-SUMO-mCherry-PARP1 | This study | N/A |
+| pET-SUMO-PARP1-ZnF | This study | N/A |
+| pET-SUMO-PARP1 ΔZnF | This study | N/A |
+| pET-SUMO-Lig3 | This study | N/A |
+| pET-SUMO-XRCC1 | This study | N/A |
+| pET-SUMO-PARG | This study | N/A |
+| pET-SUMO-Polβ | This study | N/A |
+| pET28a-His-MBP-FUS-GFP | This study | N/A |
+| pET-SUMO-Caspase-3 WT | Genscript | N/A |
+| pET-SUMO-Caspase-3 C165S | Genscript | N/A |
+| pFl Strep Sumo TEV OAS1 | Ando et al, [[2019](#ref7)] | N/A |
+| pET24a-PARP5a (1093-1327) | Rhine et al, [[2022](#ref90)] | N/A |
+| **Antibodies** | | |
+| Mouse Anti-PAR | Enzo Life Sciences | ALX-804-220-R100 |
+| anti-Mouse IgG, HRP | Cell Signaling Technology | 7076 V |
+| **Oligonucleotides and other sequence-based reagents** | | |
+| DNA substrates and oligos | This study | Appendix Table S[2] |
+| **Chemicals, enzymes, and other reagents** | | |
+| 18:1 (Δ9-Cis) PC (DOPC) | Avanti Polar Lipids | Cat # 850375 P |
+| 18:1 Biotinyl Cap PE | Avanti Polar Lipids | Cat # 870273 P |
+| 18:1 PEG2000 PE | Avanti Polar Lipids | Cat # 880130 P |
+| 2-mercaptoethanol | Sigma-Aldrich | Cat # M3148-250ML |
+| ABT-888 | Toronto Research Chemicals | Cat # A112580-10 |
+| Alexa Fluor 488 NHS-ester | Thermo Fisher Scientific | Cat # A20000 |
+| Benzamidine | BioShop | Cat # BEN601.5 |
+| Bovine Serum Albumin | Thermo Fisher Scientific | Cat # BP9706100 |
+| Catalase | Sigma-Aldrich | Cat # C100 |
+| Chloramphenicol | BioShop | Cat # CLR201.5 |
+| Cy3-dATP | Jena Bioscience | Cat # NU-835-CY3 |
+| DNase | Roche Diagnostics | Cat # 4536282001 |
+| DTT | Goldbio | Cat # DTT50 |
+| EDTA | Wisent Bioproducts | Cat # 625-060-CG |
+| Gibson Assembly Master Mix | New England Biolabs | Cat # E2611S |
+| Glucose Oxidase | Sigma-Aldrich | Cat # G2133 |
+| Glycerol | BioShop | Cat # GLY002.4 |
+| Glycine | BioShop | Cat # GLN001.1 |
+| HEPES | BioShop | Cat # HEP005.100 |
+| Histones | Sigma-Aldrich | Cat # H9250 |
+| Imidazole | BioShop | Cat # IMD508.100 |
+| isopropyl β-D-1-thiogalactopyranoside (IPTG) | BioShop | Cat # IPT001.5 |
+| Kanamycin | BioShop | Cat # KAN201.5 |
+| Kapa HiFi Hotstart ReadyMix | Roche Diagnostics | Cat # 07958927001 |
+| Lambda DNA | New England Biolabs | Cat # N3011S |
+| LB Broth (Miller) | BioShop | Cat # LBL407.5 |
+| Luminata Crescendo Western HRP Substrate | Sigma-Aldrich | Cat # WBLUR0500 |
+| Lysozyme | BioShop | Cat # LYS702.5 |
+| Magnesium chloride | BioShop | Cat # MAN222.100 |
+| Methanol | Caledon Laboratories | Cat # 6701-7-40 |
+| Nicotinamide adenine dinucleotide (NAD⁺) | New England Biolabs | Cat # B9007S |
+| Ni-NTA Agarose | Qiagen | Cat # 30210 |
+| Nt.BspQI | New England Biolabs | Cat # R0644S |
+| PMSF | BioShop | Cat # PMS123.25 |
+| Poly(I:C) RNA | Invivogen | Cat # Tlrl-picw |
+| Potassium chloride | BioShop | Cat # POC888.1 |
+| QuickChange Site-Directed Mutagenesis Kit | Agilent | Cat # 200515 |
+| RNase A | Thermo Fisher Scientific | Cat # EN0531 |
+| SfoI | New England Biolabs | Cat # R0606S |
+| Skim milk powder | BioShop | Cat # SKI400.1 |
+| Sodium chloride | BioShop | Cat # SOD002.5 |
+| Streptavidin | Thermo Fisher Scientific | Cat # 434302 |
+| SYTOX Orange Nucleic Acid Stain | Thermo Fisher Scientific | Cat # S11368 |
+| T4 DNA Ligase | New England Biolabs | Cat # M0202S |
+| Tris | BioShop | Cat # TRS001.1 |
+| tris(2-carboxyethyl)phosphine (TCEP) | BioShop | Cat # TCE101.1 |
+| Tween-20 | BioShop | Cat # TWN510.500 |
+| Zinc chloride | BioShop | Cat # ZNC233.100 |
+| **Software** | | |
+| Fiji | <https://fiji.sc/> |  |
+| Matlab | <https://www.mathworks.com/products/matlab.html> |  |
+| GraphPad Prism | <https://www.graphpad.com/> |  |
+| Biorender | <https://www.biorender.com/> |  |
+| ImageStudio | <https://www.licor.com/bio/image-studio/> |  |
+| Adobe Illustrator | <https://www.adobe.com/> |  |
 
 ### Cloning and construct generation
 
