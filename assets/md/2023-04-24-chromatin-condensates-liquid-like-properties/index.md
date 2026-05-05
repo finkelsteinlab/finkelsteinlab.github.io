@@ -18,21 +18,30 @@ pmcid: PMC10161002
 
 ## Table of Contents
 
+- [Significance](#significance)
 - [Abstract](#abstract)
 - [Results](#results)
 - [Discussion](#discussion)
 - [Experimental Methods](#experimental-methods)
 - [Acknowledgments](#acknowledgments)
+- [References](#references)
+
+---
+
+## Significance
+
+The organization of eukaryotic chromatin is important in many nuclear processes. Recent studies have shown that chromatin fragments can self-assemble by phase separation into micron-scale structures in the presence of salt or varying; whether these chromatin structures generally have liquid-like or solid-like behaviors, are an important distinction in considering how processes such as transcription and chromatin remodeling by loop extrusion factors occur in cells. Here, we resolve conflicting reports by demonstrating that chromatin condensates have liquid-like behaviors in diverse conditions, and describe aspects of sample handling that can lead to artifactual solid-like behaviors. Our data suggest how chromatin can be dynamic on short length scales but restrained on long scales, as observed in cells.
 
 ---
 
 ## Abstract
-Nuclear DNA in eukaryotes is wrapped around histone proteins to form nucleosomes on a chromatin fiber. Dynamic folding of the chromatin fiber into loops and variations in the degree of chromatin compaction regulate essential processes such as transcription, recombination, and mitotic chromosome segregation. Our understanding of the physical properties that allow chromatin to be dynamically remodeled even in highly compacted states is limited. Previously, we reported that chromatin has an intrinsic capacity to phase separate and form dynamic liquid-like condensates, which can be regulated by cellular factors [B. A. Gibson _et al._ , _Cell_ **179** , 470–484.e421 (2019)]. Recent contradictory reports claim that a specific set of solution conditions is required for fluidity in condensates that would otherwise be solid [J. C. Hansen, K. Maeshima, M. J. Hendzel, _Epigenetics Chromatin_ **14** , 50 (2021); H. Strickfaden _et al._ , _Cell_ **183** , 1772–1784.e1713 (2020)]. We sought to resolve these discrepancies, as our ability to translate with confidence these biophysical observations to cells requires their precise characterization. Moreover, whether chromatin assemblies are dynamic or static affects how processes such as transcription, loop extrusion, and remodeling will engage them inside cells. Here, we show in diverse conditions and without specific buffering components that chromatin fragments form phase separated fluids in vitro. We also explore how sample preparation and imaging affect the experimental observation of chromatin condensate dynamics. Last, we describe how liquid-like in vitro behaviors can translate to the locally dynamic but globally constrained chromatin movement observed in cells.
-* * *
+Nuclear DNA in eukaryotes is wrapped around histone proteins to form nucleosomes on a chromatin fiber. Dynamic folding of the chromatin fiber into loops and variations in the degree of chromatin compaction regulate essential processes such as transcription, recombination, and mitotic chromosome segregation. Our understanding of the physical properties that allow chromatin to be dynamically remodeled even in highly compacted states is limited. Previously, we reported that chromatin has an intrinsic capacity to phase separate and form dynamic liquid-like condensates, which can be regulated by cellular factors [B. A. Gibson _et al._ , _Cell_ **179** , 470–484.e421 (2019)]. Recent contradictory reports claim that a specific set of solution conditions is required for fluidity in condensates that would otherwise be solid [J. C. Hansen, K. Maeshima, M. J. Hendzel, _Epigenetics Chromatin_ **14** , 50 (2021); H. Strickfaden _et al._ , _Cell_ **183** , 1772–1784.e1713 (2020)]. We sought to resolve these discrepancies, as our ability to translate with confidence these biophysical observations to cells requires their precise characterization. Moreover, whether chromatin assemblies are dynamic or static affects how processes such as transcription, loop extrusion, and remodeling will engage them inside cells. Here, we show in diverse conditions and without specific buffering components that chromatin fragments form phase separated fluids *in vitro*. We also explore how sample preparation and imaging affect the experimental observation of chromatin condensate dynamics. Last, we describe how liquid-like *in vitro* behaviors can translate to the locally dynamic but globally constrained chromatin movement observed in cells.
+
 To maintain integrity during mitosis and fit into the nucleus, the eukaryotic genome must undergo substantial compaction ([1](#ref1)). Chromatin is compacted by affinity-based interactions within the fiber and motor-driven extrusion of dynamic loops by protein complexes of the structural maintenance of chromosome (SMC) family. Together, these activities regulate many essential functions, including transcription, recombination, DNA repair, and chromosome segregation ([2](#ref2)–[5](#ref5)).
 Individual genomic loci are constrained to move only within a locally defined region inside the nucleus, controlled by interchromatin interactions, physical crosslinks induced by macromolecular complexes, and attachment of chromatin to static nuclear structures ([6](#ref6)–[8](#ref8)). A detailed account of the physical mechanisms that package the genome is critical, given the importance of spatial organization in regulating DNA-templated processes such as transcription, DNA replication, and DNA repair ([9](#ref9), [10](#ref10)).
-In a previous report, we described how chromatin has an intrinsic capacity to phase separate, producing liquid-like condensates with cell-like DNA density ([11](#ref11)). Among other advances, this work shed light on the physical mechanism underlying a well-described assay for chromatin self-assembly, historically performed by adding superphysiological concentrations of divalent cation alone ([12](#ref12), [13](#ref13)). These intrinsic chromatin condensates, which refers here to factor-independent nucleosome-driven phase separation, can be regulated by cellular factors in kind with their functions in genome regulation ([11](#ref11), [14](#ref14)). We suggested that interchromatin interaction through intrinsic condensation could represent a “ground state” for chromatin organization, molded or disrupted in cells by different regulatory factors ([11](#ref11), [15](#ref15)–[25](#ref25)). Recent reports have called this work into question, suggesting that without specific buffering components, intrinsic chromatin condensates are solid, reflecting the globally constrained organization of chromatin in cells ([26](#ref26), [27](#ref27)). The distinction between liquid-like and solid-like behavior of chromatin condensates is important because many nuclear processes rely on dynamic rearrangements of chromatin. Whether such dynamics, especially those on short length scales, can occur through simple thermal fluctuations (as in a liquid-like state) or require input of energy (as in a solid-like state) impacts mechanistic considerations of many processes, and the ability of in vitro chromatin condensates to model them.
+In a previous report, we described how chromatin has an intrinsic capacity to phase separate, producing liquid-like condensates with cell-like DNA density ([11](#ref11)). Among other advances, this work shed light on the physical mechanism underlying a well-described assay for chromatin self-assembly, historically performed by adding superphysiological concentrations of divalent cation alone ([12](#ref12), [13](#ref13)). These intrinsic chromatin condensates, which refers here to factor-independent nucleosome-driven phase separation, can be regulated by cellular factors in kind with their functions in genome regulation ([11](#ref11), [14](#ref14)). We suggested that interchromatin interaction through intrinsic condensation could represent a “ground state” for chromatin organization, molded or disrupted in cells by different regulatory factors ([11](#ref11), [15](#ref15)–[25](#ref25)). Recent reports have called this work into question, suggesting that without specific buffering components, intrinsic chromatin condensates are solid, reflecting the globally constrained organization of chromatin in cells ([26](#ref26), [27](#ref27)). The distinction between liquid-like and solid-like behavior of chromatin condensates is important because many nuclear processes rely on dynamic rearrangements of chromatin. Whether such dynamics, especially those on short length scales, can occur through simple thermal fluctuations (as in a liquid-like state) or require input of energy (as in a solid-like state) impacts mechanistic considerations of many processes, and the ability of *in vitro* chromatin condensates to model them.
 Here, we examine in detail the effect of solution conditions on the properties of intrinsic chromatin condensates. We find that condensates composed of small chromatin fragments are fluid, similar to a recent report ([28](#ref28)); no unique solution composition is needed for their liquid-like properties. We also examine how sample preparation and imaging strategies can lead to mischaracterization of chromatin condensates. Last, we make efforts to clarify how the liquid-like organization of condensates might translate to chromatin dynamics in cells.
+
 ---
 
 ## Results
@@ -57,7 +66,7 @@ To probe the dynamics of molecules within these condensates, we photobleached a 
 ### Condensate Fluidity Is Retarded by a Nonphysiologic Solution, but not by Several Other Factors.
 The material properties of biomolecular condensates are an emergent phenomenon, where small differences between molecules and their interactions can impart substantial effects. We next sought to explore whether small differences in nucleosome arrays vs nucleosomal arrays or the conditions used to assay chromatin condensates might have significant effects on their dynamics and liquid-like behavior.
 Reconstituting nucleosome arrays from bacterially purified components is a complex biochemical procedure ([37](#ref37)), and small errors can result in underassembly, partial assembly, or overassembly of nucleosome arrays, which result, respectively, in free nucleosome positioning sequences, subnucleosomal structures (e.g., tetra- or hexasomes), or aggregates of nonnucleosomal histones on chromatinized DNA. Intrinsic chromatin condensates composed of improperly formed nucleosome arrays would likely affect their material properties, so we have accounted here for potential differences in the quality of nucleosome arrays by performing key experiments with independent materials from multiple laboratories with experience in chromatin reconstitution ([Fig. 2](#fig2) and [_SI Appendix_ , Fig. S2](http://www.pnas.org/lookup/doi/10.1073/pnas.2218085120#supplementary-materials); also, see _Experimental Methods_), with each demonstrating clear liquid-like material properties. We first explored how long linker DNA lengths might affect chromatin droplet fluidity.
-In cells, linker DNA length is highly regulated. While each eukaryotic organism, cell type, and genomic region can harbor short (~20 bp in _Saccharomyces cerevisiae_) to long (~90 bp in _Thyone briareus_) average linker lengths ([38](#ref38)), across eukaryotes, there is a predisposition for nucleosomes to be placed every 10n+5 base pairs from one another (e.g., 5, 15, and 25) ([39](#ref39)–[41](#ref41)). 10n-spaced (e.g., 10, 20, and 30) polynucleosome arrays can adopt hierarchically folded two-start zig-zag fibers in vitro ([42](#ref42), [43](#ref43)), while 10n+5-spaced arrays prefer to interact with other chromatin fragments and form intrinsic chromatin condensates ([11](#ref11)), demonstrating how the specific DNA template used in these assays can impact chromatin droplet formation and perhaps the material properties of the condensates that are formed.
+In cells, linker DNA length is highly regulated. While each eukaryotic organism, cell type, and genomic region can harbor short (~20 bp in _Saccharomyces cerevisiae_) to long (~90 bp in _Thyone briareus_) average linker lengths ([38](#ref38)), across eukaryotes, there is a predisposition for nucleosomes to be placed every 10n+5 base pairs from one another (e.g., 5, 15, and 25) ([39](#ref39)–[41](#ref41)). 10n-spaced (e.g., 10, 20, and 30) polynucleosome arrays can adopt hierarchically folded two-start zig-zag fibers *in vitro* ([42](#ref42), [43](#ref43)), while 10n+5-spaced arrays prefer to interact with other chromatin fragments and form intrinsic chromatin condensates ([11](#ref11)), demonstrating how the specific DNA template used in these assays can impact chromatin droplet formation and perhaps the material properties of the condensates that are formed.
 We assembled nucleosome arrays using a DNA template that purported to produce condensates with more solid-like material properties ([27](#ref27)). This template has 60 bp internucleosome linker DNA lengths, longer than those we had previously employed (15 to 45 bp), and 4 bp palindromic single-stranded DNA overhangs, which might act as a source of nonnucleosomal valency for this template ([Fig. 3A](#fig3)). We prepared chromatin using this DNA template and found that intrinsic chromatin condensates fused and rounded in seconds in a buffer lacking BSA or DTT, composed of 25 mM Tris-acetate, 150 mM potassium acetate, and 1 mM magnesium acetate ([Fig. 3B](#fig3)). In partial-droplet FRAP assays in the presence of either BSA or BSA and DTT, these condensates each recovered in minutes within error of one another ([Fig. 3C-E](#fig3)). These experiments demonstrate that altered material properties do not arise from differences in DNA template or an effect from BSA in the presence of DTT.
 <figure class="paper-figure" id="fig3">
 <img src="pnas.2218085120fig03.jpg" alt="Figure 3">
@@ -85,7 +94,7 @@ We developed an assay to measure light-induced photocrosslinking of intrinsic ch
 We formed intrinsic chromatin condensates with 1 in 80 histone proteins conjugated to a fluorophore in a magnesium-dependent phase separation buffer. Exposure of these condensates to 20 W/cm² of fluorescent light for 500 ms (λ = 488 nm), comparable to that used on our microscope in a typical imaging experiment, prevented their dissolution by EDTA ([Fig. 5B](#fig5)). Condensates in adjacent fields, which had not been exposed to light, were dissolved 1 min after the addition of EDTA. Light-induced solidification of condensates did not occur with fivefold less fluorophore or 10-fold less light ([Fig. 5C and D](#fig5)). Shorter exposure to light of higher intensity also led to condensate solidification, demonstrating that the totality and not duration of light exposure drives condensate solidification ([Fig. 5E](#fig5)). Addition of an oxygen scavenging system to the buffer prevents light-induced condensate solidification ([Fig. 5F](#fig5)), although its inclusion can alter condensate properties ([_SI Appendix_ , Fig. S4](http://www.pnas.org/lookup/doi/10.1073/pnas.2218085120#supplementary-materials)). Together, these data demonstrate that imaging intrinsic chromatin condensates can cause their solidification and suggest that this results from light-induced ROS production and photocrosslinking. Furthermore, these data highlight how minimizing light exposure, fluorophore density, and including oxygen scavengers can prevent artifactual hardening of condensates.
 We next sought to understand how the inclusion of BSA and/or DTT can influence photocrosslinking of intrinsic chromatin condensates. Adding 100 ng/μL BSA, as used in our own and other studies ([11](#ref11), [26](#ref26), [27](#ref27)), did not prevent condensate solidification ([Fig. 5G](#fig5)). In 5 mM DTT, light exposure and EDTA addition resulted in loss of spherical condensates but left aggregates in solution, suggesting partial but incomplete mitigation of photocrosslinking ([Fig. 5H](#fig5)). Adding BSA and DTT together prevented condensate solidification, enabling their dissolution upon EDTA addition. While the mechanism by which BSA, or some component in commercially available BSA, can inhibit photocrosslinking is unclear, these observations suggest that BSA and DTT can act in concert to reduce light-induced hardening of intrinsic chromatin condensates ([Fig. 5I](#fig5)).
 ### Intrinsic Chromatin Condensates Show Length-Dependent Dynamics.
-The cellular chromatin polymer is vastly longer than the nucleosome arrays investigated here. According to classical polymer theory, this additional length would add constraints on polymer movement due to increased adhesion to neighboring molecules ([50](#ref50)). As a step toward addressing this issue, we reconstituted chromatin in vitro with 7, 12, or 17 nucleosomes by altering the number of repeats of Widom’s 601 nucleosome positioning sequence, while keeping the internucleosome linker lengths constant. Chromatin condensates composed of these arrays were formed at 1 μM nucleosome concentration in a physiologic salt solution and assayed for changes in their dynamics using FRAP ([Fig. 6A-D](#fig6)). We found that increased chromatin length results in more limited recovery from photobleach. Condensates composed of even longer nucleosome arrays would be expected to exhibit more solid-like properties, as demonstrated recently with other biomolecular condensates ([51](#ref51), [52](#ref52)). Still, for very long polymers, short sections will retain dynamics at short length scales while moving little at longer lengths ([50](#ref50)). Thus, an intrinsic chromatin condensate composed of chromosome-length fragments would be locally dynamic but exhibit little recovery from photobleach, like the dynamics of the genome observed in cells ([53](#ref53)).
+The cellular chromatin polymer is vastly longer than the nucleosome arrays investigated here. According to classical polymer theory, this additional length would add constraints on polymer movement due to increased adhesion to neighboring molecules ([50](#ref50)). As a step toward addressing this issue, we reconstituted chromatin *in vitro* with 7, 12, or 17 nucleosomes by altering the number of repeats of Widom’s 601 nucleosome positioning sequence, while keeping the internucleosome linker lengths constant. Chromatin condensates composed of these arrays were formed at 1 μM nucleosome concentration in a physiologic salt solution and assayed for changes in their dynamics using FRAP ([Fig. 6A-D](#fig6)). We found that increased chromatin length results in more limited recovery from photobleach. Condensates composed of even longer nucleosome arrays would be expected to exhibit more solid-like properties, as demonstrated recently with other biomolecular condensates ([51](#ref51), [52](#ref52)). Still, for very long polymers, short sections will retain dynamics at short length scales while moving little at longer lengths ([50](#ref50)). Thus, an intrinsic chromatin condensate composed of chromosome-length fragments would be locally dynamic but exhibit little recovery from photobleach, like the dynamics of the genome observed in cells ([53](#ref53)).
 <figure class="paper-figure" id="fig6">
 <img src="pnas.2218085120fig06.jpg" alt="Figure 6">
 <figcaption><strong>Figure 6.</strong> Length-dependent effects on chromatin condensate dynamics. Confocal fluorescence microscopy images of partial-droplet FRAP of intrinsic chromatin condensates, in green, composed of AlexaFluor 488-labeled arrays that are (A) 7, (B) 12, or (C) 17 nucleosomes in length. (D) Quantification of partial-droplet FRAP of intrinsic chromatin condensates composed of 7, 12, or 17 nucleosome-long arrays in blue, green, and purple, respectively. Fluorescence signal is normalized to pre-bleach droplet intensity and error bars are SD of six technical replicates. Scale bars, in white, are 4 μm.</figcaption>
@@ -99,8 +108,8 @@ Here, we present data demonstrating that intrinsic chromatin condensates compose
 We have shown intrinsic chromatin condensates are fluid, but it remains possible that chromatin assemblies may solidify in cells even on short length scales as part of a regulated biological process. ROS can crosslink and solidify chromatin ([Fig. 5](#fig5)) and are produced in cells as a by-product of cellular processes. ROS are produced at large by mitochondrial metabolism or inflammatory cell signaling ([54](#ref54)), and at specific genomic loci by enzymes like lysine-specific demethylase 1, whose removal of histone lysine methylation produces not just hydrogen peroxide, but also formaldehyde, which can crosslink and arrest chromatin movement ([6](#ref6), [55](#ref55)). It will be interesting to examine in future studies whether, and how, chromatin dynamics might be slowed to a solid-like state as part of normal cellular signaling and functions.
 ### Bridging Fluid Condensates to Chromatin Dynamics in the Cell.
 A large body of data on the spatial organization and movement of loci in different cell types has demonstrated that on short length scales chromatin is highly dynamic. Superresolution and single-molecule fluorescence imaging have shown nucleosomes compact into 30 to 50 nm chromatin assemblies called “clutches” ([56](#ref56)), which further assemble into chromatin domains with a radius of ~100 to 300 nm ([57](#ref57)–[61](#ref61)). Analyses of their motion have shown that individual nucleosomes move within these domains on tens of milliseconds timescales ([62](#ref62), [63](#ref63)) and the domains themselves move on hundreds of milliseconds to seconds timescales ([6](#ref6), [57](#ref57), [58](#ref58), [61](#ref61), [64](#ref64), [65](#ref65)). In both regimes, movement is subdiffusive and/or confined ([6](#ref6), [58](#ref58), [61](#ref61), [63](#ref63)–[66](#ref66)), in part due to constraints on a given chromatin segment imparted by adhesions to surrounding structures, which increase with length of the segment (i.e., number of adhesions) ([64](#ref64), [67](#ref67)).
-While poorly understood ATP-dependent processes can affect longer-length chromatin motion ([65](#ref65), [68](#ref68)), movement at small scales (e.g., short chromatin assemblies, limited radius) is thought to primarily occur via passive thermal fluctuations rather than actively driven processes ([6](#ref6), [57](#ref57), [58](#ref58), [64](#ref64), [65](#ref65), [67](#ref67)). Thus, short range/timescale movement reflects the dynamics of local internucleosome contacts that are subject to changes induced by histone acetylation and binding of linker histone H1 ([59](#ref59), [63](#ref63)). These local dynamics are likely necessary for many genome functions, such as enhancer–promoter interactions ([69](#ref69)), loop extrusion by SMC complexes ([70](#ref70), [71](#ref71)), and homologous pairing of sequences during meiosis and DNA repair ([71](#ref71), [72](#ref72)). Lack of movement at greater scales (~400 nm or larger) arises from multiple constraints, including the large size of chromosomes, crosslinking macromolecules (e.g., SMC complexes, adaptor proteins), and attachment of chromatin to nuclear structures (e.g., nuclear bodies, nuclear lamina) ([6](#ref6), [66](#ref66), [73](#ref73)–[75](#ref75)). These constraints lead to the well-described reticence of chromatin in cells to recover from photobleaching ([27](#ref27), [73](#ref73), [76](#ref76)–[80](#ref80)). In condensates that form through interactions between small chromatin fragments alone, these larger-scale constraints are not present, allowing micrometer-scale movement and photobleach recovery. These long-range behaviors of intrinsic chromatin condensates in vitro very likely reflect the interactions that govern short length/timescale chromatin dynamics in cells ([81](#ref81)). As numerous cellular processes depend on short-range chromatin dynamics, the reported absence of dynamics in chromatin condensates in vitro ([26](#ref26), [27](#ref27)) is thus unlikely to be physiologic, except perhaps in very specific biological situations (see above).
-The length-dependent FRAP recovery behaviors shown in [Fig. 6](#fig6) underscore an important issue when studying condensates in vitro. Decades of study have demonstrated that the structure and function of discrete macromolecular complexes in vitro inform in a straightforward fashion on the structure and function of those factors in vivo. In contrast, the properties of condensates generated in vitro (e.g., size, structure, and behavior) require care in their translation to cellular correlates. In this regard, we propose that factors that influence “mesoscale” genome dynamics in cells will not be readily observable when studying intrinsic chromatin condensates generated from kilobase-scale DNA stretches. Mesoscale genome dynamics, defined as the larger-scale motion that determines photobleach recovery of chromatin in cells, are likely governed by short-range chromatin interactions translated to genome-relevant scales in the context of complicating factors that crosslink and adhere chromatin to physical structures of the nucleus. The utility of the reconstituted system of phase-separated nucleosomal arrays is the ability to study how factors influence short-range chromatin dynamics using a macroscopic technique like FRAP.
+While poorly understood ATP-dependent processes can affect longer-length chromatin motion ([65](#ref65), [68](#ref68)), movement at small scales (e.g., short chromatin assemblies, limited radius) is thought to primarily occur via passive thermal fluctuations rather than actively driven processes ([6](#ref6), [57](#ref57), [58](#ref58), [64](#ref64), [65](#ref65), [67](#ref67)). Thus, short range/timescale movement reflects the dynamics of local internucleosome contacts that are subject to changes induced by histone acetylation and binding of linker histone H1 ([59](#ref59), [63](#ref63)). These local dynamics are likely necessary for many genome functions, such as enhancer–promoter interactions ([69](#ref69)), loop extrusion by SMC complexes ([70](#ref70), [71](#ref71)), and homologous pairing of sequences during meiosis and DNA repair ([71](#ref71), [72](#ref72)). Lack of movement at greater scales (~400 nm or larger) arises from multiple constraints, including the large size of chromosomes, crosslinking macromolecules (e.g., SMC complexes, adaptor proteins), and attachment of chromatin to nuclear structures (e.g., nuclear bodies, nuclear lamina) ([6](#ref6), [66](#ref66), [73](#ref73)–[75](#ref75)). These constraints lead to the well-described reticence of chromatin in cells to recover from photobleaching ([27](#ref27), [73](#ref73), [76](#ref76)–[80](#ref80)). In condensates that form through interactions between small chromatin fragments alone, these larger-scale constraints are not present, allowing micrometer-scale movement and photobleach recovery. These long-range behaviors of intrinsic chromatin condensates *in vitro* very likely reflect the interactions that govern short length/timescale chromatin dynamics in cells ([81](#ref81)). As numerous cellular processes depend on short-range chromatin dynamics, the reported absence of dynamics in chromatin condensates *in vitro* ([26](#ref26), [27](#ref27)) is thus unlikely to be physiologic, except perhaps in very specific biological situations (see above).
+The length-dependent FRAP recovery behaviors shown in [Fig. 6](#fig6) underscore an important issue when studying condensates *in vitro*. Decades of study have demonstrated that the structure and function of discrete macromolecular complexes *in vitro* inform in a straightforward fashion on the structure and function of those factors *in vivo*. In contrast, the properties of condensates generated *in vitro* (e.g., size, structure, and behavior) require care in their translation to cellular correlates. In this regard, we propose that factors that influence “mesoscale” genome dynamics in cells will not be readily observable when studying intrinsic chromatin condensates generated from kilobase-scale DNA stretches. Mesoscale genome dynamics, defined as the larger-scale motion that determines photobleach recovery of chromatin in cells, are likely governed by short-range chromatin interactions translated to genome-relevant scales in the context of complicating factors that crosslink and adhere chromatin to physical structures of the nucleus. The utility of the reconstituted system of phase-separated nucleosomal arrays is the ability to study how factors influence short-range chromatin dynamics using a macroscopic technique like FRAP.
 ---
 
 ## Experimental Methods
@@ -116,95 +125,172 @@ The research was supported by the HHMI, a Paul G. Allen Frontiers Distinguished 
 B.A.G., D.W.G., G.J.N., and M.K.R. designed research; B.A.G., C.B., T.L., L.C., and L.K.D. performed research; B.G. contributed new reagents/analytic tools; B.A.G., C.B., T.L., L.C., G.J.N., I.F., D.W.G., and M.K.R. analyzed data; and B.A.G., I.F., G.J.N., D.W.G., and M.K.R. wrote the paper.
 ## Data, Materials, and Software Availability
 Datasets and software are available by requests to the corresponding author. Microscopy images data have been deposited in Dryad (doi:[10.5061/dryad.83bk3j9ws](http://doi.org/10.5061/dryad.83bk3j9ws)) ([82](#ref82)).
-## Supporting Information
-
 ---
 
 ## References
 
 <span id="ref1">1.</span> Olins D. E., Olins A. L., "Chromatin history: Our view from the bridge." *Nat. Rev. Mol. Cell Biol.* 4, 809–814 (2003).
+
 <span id="ref2">2.</span> Misteli T., "The self-organizing genome: Principles of genome architecture and function." *Cell* 183, 28–45 (2020).
+
 <span id="ref3">3.</span> Mirny L., Dekker J., "Mechanisms of chromosome folding and nuclear organization: Their interplay and open questions." *Cold Spring Harb. Perspect. Biol.* 14, a040147 (2022).
+
 <span id="ref4">4.</span> Batty P., Gerlich D. W., "Mitotic chromosome mechanics: How cells segregate their genome." *Trends Cell Biol.* 29, 717–726 (2019).
+
 <span id="ref5">5.</span> Rowley M. J., Corces V. G., "Organizational principles of 3D genome architecture." *Nat. Rev. Genet.* 19, 789–800 (2018).
+
 <span id="ref6">6.</span> Marshall W. F., et al., "Interphase chromosomes undergo constrained diffusional motion in living cells." *Curr. Biol.* 7, 930–939 (1997).
+
 <span id="ref7">7.</span> Shaban H. A., Seeber A., "Monitoring the spatio-temporal organization and dynamics of the genome." *Nucleic Acids Res.* 48, 3423–3434 (2020).
+
 <span id="ref8">8.</span> Mirny L. A., Imakaev M., Abdennur N., "Two major mechanisms of chromosome organization." *Curr. Opin. Cell Biol.* 58, 142–152 (2019).
+
 <span id="ref9">9.</span> Finn E. H., Misteli T., "Molecular basis and biological function of variability in spatial genome organization." *Science* 365 (2019).
+
 <span id="ref10">10.</span> Dekker J., Mirny L., "The 3D genome as moderator of chromosomal communication." *Cell* 164, 1110–1121 (2016).
+
 <span id="ref11">11.</span> Gibson B. A., et al., "Organization of chromatin by intrinsic and regulated phase separation." *Cell* 179, 470–484.e421 (2019).
+
 <span id="ref12">12.</span> Hansen J. C., "Conformational dynamics of the chromatin fiber in solution: Determinants, mechanisms, and functions." *Annu. Rev. Biophys. Biomol. Struct.* 31, 361–392 (2002).
+
 <span id="ref13">13.</span> Maeshima K., et al., "Nucleosomal arrays self-assemble into supramolecular globular structures lacking 30-nm fibers." *Embo J.* 35, 1115–1132 (2016).
+
 <span id="ref14">14.</span> Sanulli S., et al., "HP1 reshapes nucleosome core to promote phase separation of heterochromatin." *Nature* 575, 390–394 (2019).
+
 <span id="ref15">15.</span> Larson A. G., et al., "Liquid droplet formation by HP1alpha suggests a role for phase separation in heterochromatin." *Nature* 547, 236–240 (2017).
+
 <span id="ref16">16.</span> Strom A. R., et al., "Phase separation drives heterochromatin domain formation." *Nature* 547, 241–245 (2017).
+
 <span id="ref17">17.</span> Boija A., et al., "Transcription factors activate genes through the phase-separation capacity of their activation domains." *Cell* 175, 1842–1855.e1816 (2018).
+
 <span id="ref18">18.</span> Kagey M. H., et al., "Mediator and cohesin connect gene expression and chromatin architecture." *Nature* 467, 430–435 (2010).
+
 <span id="ref19">19.</span> Li C. H., et al., "MeCP2 links heterochromatin condensates and neurodevelopmental disease." *Nature* 586, 440–444 (2020).
+
 <span id="ref20">20.</span> Sabari B. R., et al., "Coactivator condensation at super-enhancers links phase separation and gene control." *Science* 361 (2018).
+
 <span id="ref21">21.</span> Plys A. J., et al., "Phase separation of Polycomb-repressive complex 1 is governed by a charged disordered region of CBX2." *Genes Dev* 33, 799–813 (2019).
+
 <span id="ref22">22.</span> Wang L., et al., "Histone modifications regulate chromatin compartmentalization by contributing to a phase separation mechanism." *Mol. Cell* 76, 646–659.e646 (2019).
+
 <span id="ref23">23.</span> Eeftens J. M., Kapoor M., Michieletto D., Brangwynne C. P., "Polycomb condensates can promote epigenetic marks but are not required for sustained chromatin compaction." *Nat. Commun.* 12, 5888 (2021).
+
 <span id="ref24">24.</span> Lafontaine D. L. J., Riback J. A., Bascetin R., Brangwynne C. P., "The nucleolus as a multiphase liquid condensate." *Nat. Rev. Mol. Cell Biol.* 22, 165–182 (2021).
+
 <span id="ref25">25.</span> Lee D. S. W., Wingreen N. S., Brangwynne C. P., "Chromatin mechanics dictates subdiffusion and coarsening dynamics of embedded condensates." *Nat. Phys.* 17, 531–538 (2021).
+
 <span id="ref26">26.</span> Hansen J. C., Maeshima K., Hendzel M. J., "The solid and liquid states of chromatin." *Epigenetics Chromatin* 14, 50 (2021).
+
 <span id="ref27">27.</span> Strickfaden H., et al., "Condensed chromatin behaves like a solid on the mesoscale in vitro and in living cells." *Cell* 183, 1772–1784.e1713 (2020).
+
 <span id="ref28">28.</span> Chen Q., et al., "Chromatin liquid-liquid phase separation (LLPS) is regulated by ionic conditions and fiber length." *Cells* 11 (2022).
+
 <span id="ref29">29.</span> Feric M., et al., "Coexisting liquid phases underlie nucleolar subcompartments." *Cell* 165, 1686–1697 (2016).
+
 <span id="ref30">30.</span> Mittag T., Pappu R. V., "A conceptual framework for understanding phase separation and addressing open questions and challenges." *Mol. Cell* 82, 2201–2214 (2022).
+
 <span id="ref31">31.</span> Sanders D. W., et al., "Competing protein-RNA interaction networks control multiphase intracellular organization." *Cell* 181, 306–324.e328 (2020).
+
 <span id="ref32">32.</span> Yang P., et al., "G3BP1 is a tunable switch that triggers phase separation to assemble stress granules." *Cell* 181, 325–345.e328 (2020).
+
 <span id="ref33">33.</span> Park J. O., et al., "Metabolite concentrations, fluxes and free energies imply efficient enzyme usage." *Nat. Chem. Biol.* 12, 482–489 (2016).
+
 <span id="ref34">34.</span> Mitchison T., Kirschner M., "Dynamic instability of microtubule growth." *Nature* 312, 237–242 (1984).
+
 <span id="ref35">35.</span> Elie A., et al., "Tau co-organizes dynamic microtubule and actin networks." *Sci. Rep.* 5, 9964 (2015).
+
 <span id="ref36">36.</span> Mendes M. A., Chies J. M., de Oliveira Dias A. C., Filho S. A., Palma M. S., "The shielding effect of glycerol against protein ionization in electrospray mass spectrometry." *Rapid. Commun. Mass Spectrom.* 17, 672–677 (2003).
+
 <span id="ref37">37.</span> Luger K., Rechsteiner T. J., Richmond T. J., "Expression and purification of recombinant histones and nucleosome reconstitution." *Methods Mol. Biol.* 119, 1–16 (1999).
+
 <span id="ref38">38.</span> Perisic O., Collepardo-Guevara R., Schlick T., "Modeling studies of chromatin fiber structure as a function of DNA linker length." *J. Mol. Biol.* 403, 777–802 (2010).
+
 <span id="ref39">39.</span> Lohr D., Van Holde K. E., "Organization of spacer DNA in chromatin." *Proc. Natl. Acad. Sci. U.S.A.* 76, 6326–6330 (1979).
+
 <span id="ref40">40.</span> Brogaard K., Xi L., Wang J. P., Widom J., "A map of nucleosome positions in yeast at base-pair resolution." *Nature* 486, 496–501 (2012).
+
 <span id="ref41">41.</span> Voong L. N., et al., "Insights into nucleosome organization in mouse embryonic stem cells through chemical mapping." *Cell* 167, 1555–1570.e1515 (2016).
+
 <span id="ref42">42.</span> Schalch T., Duda S., Sargent D. F., Richmond T. J., "X-ray structure of a tetranucleosome and its implications for the chromatin fibre." *Nature* 436, 138–141 (2005).
+
 <span id="ref43">43.</span> Song F., et al., "Cryo-EM study of the chromatin fiber reveals a double helix twisted by tetranucleosomal units." *Science* 344, 376–380 (2014).
+
 <span id="ref44">44.</span> Lu X., Klonoski J. M., Resch M. G., Hansen J. C., "In vitro chromatin self-association and its relevance to genome architecture." *Biochem. Cell Biol.* 84, 411–417 (2006).
+
 <span id="ref45">45.</span> Joo C., Ha T., "Preparing sample chambers for single-molecule FRET." *Cold Spring Harb. Protoc.* 2012, 1104–1108 (2012).
+
 <span id="ref46">46.</span> Ditlev J. A., et al., "A composition-dependent molecular clutch between T cell signaling condensates and actin." *eLife* 8 (2019).
+
 <span id="ref47">47.</span> Zheng Q., Jockusch S., Zhou Z., Blanchard S. C., "The contribution of reactive oxygen species to the photobleaching of organic fluorophores." *Photochem. Photobiol.* 90, 448–454 (2014).
+
 <span id="ref48">48.</span> Dixit R., Cyr R., "Cell damage and reactive oxygen species production induced by fluorescence microscopy: Effect on mitosis and guidelines for non-invasive fluorescence microscopy." *Plant J.* 36, 280–290 (2003).
+
 <span id="ref49">49.</span> Joo C., et al., "Real-time observation of RecA filament dynamics with single monomer resolution." *Cell* 126, 515–527 (2006).
+
 <span id="ref50">50.</span> Rubinstein M., Colby R. H., *Polymer Physics* (OUP Oxford, 2003), p. 456.
+
 <span id="ref51">51.</span> Keenen M. M., et al., "HP1 proteins compact DNA into mechanically and positionally stable phase separated domains." *Elife* 10 (2021).
+
 <span id="ref52">52.</span> Muzzopappa F., Hertzog M., Erdel F., "DNA length tunes the fluidity of DNA-based condensates." *Biophys. J.* 120, 1288–1300 (2021).
+
 <span id="ref53">53.</span> Tortora M. M., Salari H., Jost D., "Chromosome dynamics during interphase: A biophysical perspective." *Curr. Opin. Genet. Dev.* 61, 37–43 (2020).
+
 <span id="ref54">54.</span> Sies H., Jones D. P., "Reactive oxygen species (ROS) as pleiotropic physiological signalling agents." *Nat. Rev. Mol. Cell Biol.* 21, 363–383 (2020).
+
 <span id="ref55">55.</span> Shi Y., et al., "Histone demethylation mediated by the nuclear amine oxidase homolog LSD1." *Cell* 119, 941–953 (2004).
+
 <span id="ref56">56.</span> Ricci M. A., Manzo C., García-Parajo M. F., Lakadamyali M., Cosma M. P., "Chromatin fibers are formed by heterogeneous groups of nucleosomes in vivo." *Cell* 160, 1145–1158 (2015).
+
 <span id="ref57">57.</span> Nozaki T., et al., "Dynamic organization of chromatin domains revealed by super-resolution live-cell imaging." *Mol. Cell* 67, 282–293 e287 (2017).
+
 <span id="ref58">58.</span> Ashwin S. S., Nozaki T., Maeshima K., Sasai M., "Organization of fast and slow chromatin revealed by single-nucleosome dynamics." *Proc. Natl. Acad. Sci. U.S.A.* 116, 19939–19944 (2019).
+
 <span id="ref59">59.</span> Otterstrom J., et al., "Super-resolution microscopy reveals how histone tail acetylation affects DNA compaction within nucleosomes in vivo." *Nucleic Acids Res.* 47, 8470–8484 (2019).
+
 <span id="ref60">60.</span> Lakadamyali M., Cosma M. P., "Visualizing the genome in high resolution challenges our textbook understanding." *Nat. Methods* 17, 371–379 (2020).
+
 <span id="ref61">61.</span> Itoh Y., Woods E. J., Minami K., Maeshima K., Collepardo-Guevara R., "Liquid-like chromatin in the cell: What can we learn from imaging and computational modeling?" *Curr. Opin. Struct. Biol.* 71, 123–135 (2021).
+
 <span id="ref62">62.</span> Lerner J., et al., "Two-parameter mobility assessments discriminate diverse regulatory factor behaviors in chromatin." *Mol Cell* 79, 677–688.e676 (2020).
+
 <span id="ref63">63.</span> Gómez-García P. A., et al., "Mesoscale modeling and single-nucleosome tracking reveal remodeling of clutch folding and dynamics in stem cell differentiation." *Cell Reports* 34, 108614 (2021).
+
 <span id="ref64">64.</span> Hajjoul H., et al., "High-throughput chromatin motion tracking in living yeast reveals the flexibility of the fiber throughout the genome." *Genome Res* 23, 1829–1838 (2013).
+
 <span id="ref65">65.</span> Levi V., Ruan Q., Plutz M., Belmont A. S., Gratton E., "Chromatin dynamics in interphase cells revealed by tracking in a two-photon excitation microscope." *Biophys. J.* 89, 4275–4285 (2005).
+
 <span id="ref66">66.</span> Nozaki T., et al., "Dynamic organization of chromatin domains revealed by super-resolution live-cell imaging." *Mol. Cell* 67, 282–293.e287 (2017).
+
 <span id="ref67">67.</span> Chubb J. R., Boyle S., Perry P., Bickmore W. A., "Chromatin motion is constrained by association with nuclear compartments in human cells." *Curr. Biol.* 12, 439–445 (2002).
+
 <span id="ref68">68.</span> Zidovska A., Weitz D. A., Mitchison T. J., "Micron-scale coherence in interphase chromatin dynamics." *Proc. Natl. Acad. Sci. U.S.A.* 110, 15555–15560 (2013).
+
 <span id="ref69">69.</span> Chen H., et al., "Dynamic interplay between enhancer-promoter topology and gene activity." *Nat. Genet.* 50, 1296–1303 (2018).
+
 <span id="ref70">70.</span> Davidson I. F., Peters J. M., "Genome folding through loop extrusion by SMC complexes." *Nat. Rev. Mol. Cell Biol.* 22, 445–464 (2021).
+
 <span id="ref71">71.</span> Kim Y., Shi Z., Zhang H., Finkelstein I. J., Yu H., "Human cohesin compacts DNA by loop extrusion." *Science* 366, 1345–1349 (2019).
+
 <span id="ref72">72.</span> Karanam K., Kafri R., Loewer A., Lahav G., "Quantitative live cell imaging reveals a gradual shift between DNA repair mechanisms and a maximal use of HR in mid S phase." *Mol. Cell* 47, 320–329 (2012).
+
 <span id="ref73">73.</span> Cheutin T., et al., "Maintenance of stable heterochromatin domains by dynamic HP1 binding." *Science* 299, 721–725 (2003).
+
 <span id="ref74">74.</span> Tran J. R., Brodsky A. S., Struhl K., "Condensin-binding sites in S. cerevisiae chromosomes are connected by a highly dynamic chromatin structure." *Proc. Natl. Acad. Sci. U.S.A.* 98, 14389–14394 (2001).
+
 <span id="ref75">75.</span> Fakan S., "Perichromatin fibrils are in situ forms of nascent transcripts." *Trends Cell Biol.* 4, 86–90 (1994).
+
 <span id="ref76">76.</span> Kimura H., Cook P. R., "Kinetics of core histones in living human cells: Little exchange of H3 and H4 and some rapid exchange of H2B." *J. Cell Biol.* 153, 1341–1353 (2001).
+
 <span id="ref77">77.</span> Xu M., et al., "Partitioning of histone H3-H4 tetramers during DNA replication-dependent chromatin assembly." *Science* 328, 94–98 (2010).
+
 <span id="ref78">78.</span> Raghuram N., Carrero G., Th'ng J., Hendzel M. J., "Molecular dynamics of histone H1." *Biochem. Cell Biol.* 87, 189–206 (2009).
+
 <span id="ref79">79.</span> Lever M. A., Th'ng J. P., Sun X., Hendzel M. J., "Rapid exchange of histone H1.1 on chromatin in living human cells." *Nature* 408, 873–876 (2000).
+
 <span id="ref80">80.</span> Misteli T., Gunjan A., Hock R., Bustin M., Brown D. T., "Dynamic binding of histone H1 to chromatin in living cells." *Nature* 408, 877–881 (2000).
+
 <span id="ref81">81.</span> Ou H. D., et al., "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." *Science* 357 (2017).
+
 <span id="ref82">82.</span> Gibson, Bryan A. et al. (2023). Data from: In diverse conditions, intrinsic chromatin condensates have liquid-like material properties [Dataset]. Dryad. https://doi.org/10.5061/dryad.83bk3j9ws
 
 ---
-
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10161002/) on PubMed Central.
