@@ -56,11 +56,11 @@ Pandemics are becoming more frequent due to increased encroachment into zoonotic
 
 Antiviral subunit vaccines focus the immune system on viral entry glycoproteins. Targeting the pre-fusion conformation of these glycoproteins can produce potent neutralizing antibodies that prevent viral entry [[3](#ref3)–[10](#ref10)]. Structure-guided antigen design is the leading approach for developing subunit vaccine antigens [[11](#ref11), [12](#ref12)]. However, structure-guided protein engineering requires the relatively low-throughput expression, purification, and biochemical characterization of antigen candidates. Machine learning and other computational engineering approaches can accelerate antigen development by predicting stabilizing mutations [[13](#ref13)–[16](#ref16)]. However, these candidates must still be validated using the same laborious biochemical approaches. In short, antigen design is bottlenecked by the need to individually express, purify, and test each protein candidate. Accelerating the antigen design-build-test cycle is a central plank of future pandemic countermeasures.
 
-A second key plank in future pandemic preparedness is the ability to map the binding sites of antigen-specific monoclonal antibodies (mAbs). Understanding how mAbs bind and neutralize viruses improves our understanding of conserved epitopes, sheds light on neutralization mechanisms, and anticipates viral escape potential. For example, understanding which conserved and rare epitopes lead to potent and broad-spectrum neutralizations may lead to the design of antigens that are protective against emerging viral lineages, such as the SARS-CoV-2 variants of concern. More broadly, such approaches can lead to the development of vaccines that protect against multiple viral clades or even entire viral families, recently demonstrated for pan-influenza pan-coronavirus vaccine candidates [[17](#ref17)–[21](#ref21)].
+A second key plank in future pandemic preparedness is the ability to map the binding sites of antigen-specific monoclonal antibodies (mAbs). Understanding how mAbs bind and neutralize viruses improves our understanding of conserved epitopes, sheds light on neutralization mechanisms, and anticipates viral escape potential. For example, understanding which conserved and rare epitopes lead to potent and broad-spectrum neutralizations may lead to the design of antigens that are protective against emerging viral lineages, such as the SARS-CoV-2 variants of concern. More broadly, such approaches can lead to the development of vaccines that protect against multiple viral clades or even entire viral families, recently demonstrated for pan-influenza and pan-coronavirus vaccine candidates [[17](#ref17)–[21](#ref21)].
 
 Cell surface display is a high-throughput approach for antigen design and antibody epitope mapping. Tethering antigens (or their subdomains) to cells bypasses the need for biochemical purifications and can be used to pool antigen variants in a single experiment. The most common cell surface display approaches leverage the budding yeast *S. cerevisiae* [[22](#ref22)]. *S. cerevisiae* has been used for epitope mapping and deep mutational scanning of influenza hemagglutinins and the SARS-CoV-2 spike receptor binding domain (RBD) [[23](#ref23)–[28](#ref28)]. These experiments provide valuable insight into the mechanisms for viral evolution and immune escape but also face several limitations. First, yeast is unable to produce many full-length antigens (e.g., the SARS-CoV-2 spike ectodomain). The humoral immune response to SARS-CoV-2 produces potent anti-spike neutralizing antibodies that target the N-terminal domain as well as the S2 stalk [[29](#ref29)–[34](#ref34)]. These domains are outside the RBD and cannot be addressed via yeast display. Second, antigens produced in yeast do not recapitulate mammalian glycosylation [[35](#ref35)]. These differences may alter a protein's antigenicity toward cell receptors and antibodies [[36](#ref36)]. To overcome these limitations, we developed a mammalian cell surface display platform that measures antigen expression and antibody binding on the surface of mammalian cells.
 
-Mammalian antigen display is designed for phenotypic screening of full-length viral glycoproteins on the surface of mammalian cells ([Fig. 1](#fig1)). As a proof of principle, we displayed the SARS-CoV-2 spike protein and the influenza hemagglutinin (HA) on the surface of human embryonic kidney (HEK293T) cells [[37](#ref37), [38](#ref38)]. Although we have tested this approach in HEK293Ts, the protocols are general and can be adapted to any cell type in about a week ([Fig. 2](#fig2)). Mammalian cell lines express viral proteins with glycosylation patterns comparable to those found from bona fide viruses [[39](#ref39), [40](#ref40)]. We focus on the SARS-CoV-2 spike ectodomain coding sequence (residues 1–1208) containing six pre-fusion stabilizing prolines and a mutated furin cleavage site to improve spike stability and expression [[41](#ref41), [42](#ref42)]. The promoters, chimeric introns, and terminators are also optimized to further boost protein expression in mammalian cells. Combinations of N-terminal secretion tags and C-terminal linkers ensure high surface display density. Due to the variability of plasmid transfections in mammalian cell cultures, we included a triple FLAG epitope tag as a proxy for expression levels and as an internal control for signal normalization. Transfected cells expressing antigens are immunostained and analyzed by imaging or flow cytometry ([Fig. 4](#fig4)). A 3C protease cleavage site and a Strep II tag are included in the C-terminal linker to enable the cleavage and rapid purification of surface-displayed antigens. Cleaving the antigen from cell surfaces for conventional biochemical and biophysical methods can save time and laborious recombinant purification. These features make mammalian antigen display a valuable tool for the current and future pandemic countermeasures [[43](#ref43), [44](#ref44)].
+Mammalian antigen display is designed for phenotypic screening of full-length viral glycoproteins on the surface of mammalian cells ([Fig. 1](#fig1)). As a proof of principle, we displayed the SARS-CoV-2 spike protein and the influenza hemagglutinin (HA) on the surface of human embryonic kidney (HEK293T) cells [[37](#ref37), [38](#ref38)]. Although we have tested this approach in HEK293Ts, the protocols are general and can be adapted to any cell type in about a week ([Fig. 2](#fig2)). Mammalian cell lines express viral proteins with glycosylation patterns comparable to those found from *bona fide* viruses [[39](#ref39), [40](#ref40)]. We focus on the SARS-CoV-2 spike ectodomain coding sequence (residues 1–1208) containing six pre-fusion stabilizing prolines and a mutated furin cleavage site to improve spike stability and expression [[41](#ref41), [42](#ref42)]. The promoters, chimeric introns, and terminators are also optimized to further boost protein expression in mammalian cells. Combinations of N-terminal secretion tags and C-terminal linkers ensure high surface display density. Due to the variability of plasmid transfections in mammalian cell cultures, we included a triple FLAG epitope tag as a proxy for expression levels and as an internal control for signal normalization. Transfected cells expressing antigens are immunostained and analyzed by imaging or flow cytometry ([Fig. 4](#fig4)). A 3C protease cleavage site and a Strep II tag are included in the C-terminal linker to enable the cleavage and rapid purification of surface-displayed antigens. Cleaving the antigen from cell surfaces for conventional biochemical and biophysical methods can save time and laborious recombinant purification. These features make mammalian antigen display a valuable tool for the current and future pandemic countermeasures [[43](#ref43), [44](#ref44)].
 
 <figure class="paper-figure" id="fig1">
 <img src="fig1.jpg" alt="Figure 1">
@@ -78,8 +78,8 @@ Mammalian antigen display is designed for phenotypic screening of full-length vi
 
 ### 2.1 Media, Strains, Plasmids
 
-1. DH5-alpha competent *E. coli*.
-2. Mix & Go competent cells strain Zymo 10B (Zymo Research T3019).
+1. DH5α competent *E. coli*.
+2. Mix & Go competent cells – strain Zymo 10B (Zymo Research T3019).
 3. Superior Broth.
 4. DMEM, high glucose, pyruvate.
 5. Fetal Bovine Serum (FBS).
@@ -99,7 +99,7 @@ Mammalian antigen display is designed for phenotypic screening of full-length vi
 
 1. Gene blocks for antigen mutagenesis.
 2. AarI and activating oligo.
-3. Drop-out plasmid (AddGene #172726).
+3. Drop-out plasmid (Addgene #172726).
 
 #### 2.2.2 Saturation Mutagenesis Library Generation
 
@@ -209,7 +209,7 @@ Gene blocks that encode antigen fragments are ordered as double-stranded DNA gen
 
 1. Design one or multiple gene blocks with specific overhangs matching the entry vector (*see* **Note 2**).
 2. Assemble the GG reaction in PCR tubes with the gene blocks and dropout vector:
-   - (a) Golden Gate assembly mix
+   - (a) *Golden Gate assembly mix*
      - (i) 0.25 μL T7 DNA Ligase.
      - (ii) 0.25 μL AarI.
      - (iii) 0.2 μL AarI oligo [or 1 μL AarI oligo (1:5 dilution)].
@@ -218,12 +218,12 @@ Gene blocks that encode antigen fragments are ordered as double-stranded DNA gen
      - (vi) 10 ng of a single gene block or 10 ng/gblock in case of a multi-part assembly.
      - (vii) 20–30 ng dropout plasmid.
      - (viii) Final volume: 10 μL.
-   - (b) Thermocycling (two-part assemblies)
+   - (b) *Thermocycling (two-part assemblies)*
      - (i) 25 cycles: 37 °C for 1 min (digestion) and 16 °C for 2 min (ligation).
      - (ii) 37 °C for 30 min (final digestion).
      - (iii) 80 °C for 20 min (heat inactivation).
      - (iv) 4 °C hold.
-   - (c) Thermocycling (multi-part assemblies)
+   - (c) *Thermocycling (multi-part assemblies)*
      - (i) 35 cycles: 37 °C for 2 min (digestion) and 16 °C for 4 min (ligation).
      - (ii) 37 °C for 60 min (final digestion).
      - (iii) 80 °C for 20 min (heat inactivation).
@@ -268,7 +268,7 @@ Mutagenic oligos are designed to contain the desired mutations and complement th
      - (iv) 1 μL Nt.BbvCI (10 U/μL).
      - (v) 1 μL Exonuclease I (20 U/μL).
      - (vi) H₂O to 20 μL.
-   - (b) Thermocycling conditions:
+   - (b) *Thermocycling conditions:*
      - (i) 37 °C for 1 h.
      - (ii) 80 °C for 20 min.
      - (iii) 4 °C hold.
@@ -283,7 +283,7 @@ Mutagenic oligos are designed to contain the desired mutations and complement th
      - (vi) 2 μL 10 mM dNTPs.
      - (vii) 1 μL Phusion HiFi polymerase (2 U/μL).
      - (viii) 5 μL Taq DNA Ligase (40 U/μL).
-   - (b) Thermocycling conditions (×15 cycles for steps ii–iv; add additional 4.3 μL of oligo mixture at the beginning of cycles 6 and 11):
+   - (b) *Thermocycling conditions* (×15 cycles for steps ii–iv; add additional 4.3 μL of oligo mixture at the beginning of cycles 6 and 11):
      - (i) 98 °C for 2 min.
      - (ii) 98 °C for 30 s.
      - (iii) 55 °C for 45 s.
@@ -297,7 +297,7 @@ Mutagenic oligos are designed to contain the desired mutations and complement th
      - (ii) 2 μL 1:50 diluted Exonuclease III (2 U/μL).
      - (iii) 1 μL 1:10 diluted Nb.BbvCI (1 U/μL).
      - (iv) 1 μL Exonuclease I (20 U/μL).
-   - (b) Thermocycling conditions:
+   - (b) *Thermocycling conditions:*
      - (i) 37 °C for 1 h.
      - (ii) 80 °C for 20 min.
      - (iii) 4 °C hold.
@@ -311,7 +311,7 @@ Mutagenic oligos are designed to contain the desired mutations and complement th
      - (vi) 2 μL 10 mM dNTPs.
      - (vii) 1 μL Phusion HiFi Polymerase (2 U/μL).
      - (viii) 5 μL Taq DNA Ligase (40 U/μL).
-   - (b) Thermocycling conditions:
+   - (b) *Thermocycling conditions:*
      - (i) 98 °C for 30 s.
      - (ii) 55 °C for 45 s.
      - (iii) 72 °C for 5 min.
@@ -322,7 +322,7 @@ Mutagenic oligos are designed to contain the desired mutations and complement th
    - (a) 5 μL cleaned plasmid from the previous step.
    - (b) 2 μL DpnI.
    - (c) 2 μL rCutSmart (10× buffer).
-9. Thermocycling conditions:
+9. *Thermocycling conditions:*
    - (a) 37 °C for 2 h.
    - (b) 80 °C for 15 min.
    - (c) 4 °C hold.
@@ -445,7 +445,7 @@ In this case, the median signal measured by AF-647, *M*ₓ⁶⁴⁷, is divided 
 
 #### 3.6.2 Fluorescence-Assisted Cell Sorting (FACS)
 
-Pooled antigen libraries can be analyzed via FACS, followed by next-generation sequencing (NGS). Transient transfection is not suitable for these experiments because individual cells can receive multiple plasmids, confounding the genotype-to-phenotype linkage. Instead, we recommend integrating antigen libraries into the genome, either via lentiviral integration, CRISPR knock-in, or via a serine integrase [[52](#ref52)–[55](#ref55)]. Lentiviral integration is a mature technology but suffers from slow viral amplification and selection. In addition, random integration into highly transcribed regions can lead to variable antigen expression levels. We prefer integration into an engineered landing pad in the AAVS1 locus ([Fig. 8](#fig8)) [[56](#ref56)]. This system uses BxbI integrase for efficient genomic insertion, followed by selection. Our lab routinely uses the engineered HEK-LLP cell lines described in Matreyek et al. to ensure single-copy integration and to reduce background noise. In order to integrate, antigen plasmids will need to contain the attL and attR attachment sites. The HEK-LLP cell line encodes iCasp9 for negative selection [[57](#ref57), [58](#ref58)]. iCasp9 is a fusion between Caspase 9 and the inducible dimerization domain FKBP1A. Cells that fail to integrate the donor plasmid will still contain iCasp9 in their active site, and will express the protein when induced. The small molecule AP1903 will trigger dimerization of expressed iCasp9 and will cause cell death through apoptosis [[58](#ref58)]. We've observed integration efficiencies of 90% following negative selection. Integration, selection, and expansion of the HEK-LLP cells generally take 2 weeks.
+Pooled antigen libraries can be analyzed via FACS, followed by next-generation sequencing (NGS). Transient transfection is not suitable for these experiments because individual cells can receive multiple plasmids, confounding the genotype-to-phenotype linkage. Instead, we recommend integrating antigen libraries into the genome, either via lentiviral integration, CRISPR knock-in, or via a serine integrase [[52](#ref52)–[55](#ref55)]. Lentiviral integration is a mature technology but suffers from slow viral amplification and selection. In addition, random integration into highly transcribed regions can lead to variable antigen expression levels. We prefer integration into an engineered landing pad in the AAVS1 locus ([Fig. 8](#fig8)) [[56](#ref56)]. This system uses BxbI integrase for efficient genomic insertion, followed by selection. Our lab routinely uses the engineered HEK-LLP cell lines described in Matreyek et al. to ensure single-copy integration and to reduce background noise. In order to integrate, antigen plasmids will need to contain the *attL* and *attR* attachment sites. The HEK-LLP cell line encodes iCasp9 for negative selection [[57](#ref57), [58](#ref58)]. iCasp9 is a fusion between Caspase 9 and the inducible dimerization domain FKBP1A. Cells that fail to integrate the donor plasmid will still contain iCasp9 in their active site, and will express the protein when induced. The small molecule AP1903 will trigger dimerization of expressed iCasp9 and will cause cell death through apoptosis [[58](#ref58)]. We've observed integration efficiencies of 90% following negative selection. Integration, selection, and expansion of the HEK-LLP cells generally take 2 weeks.
 
 <figure class="paper-figure" id="fig7">
 <img src="fig7.jpg" alt="Figure 7">
@@ -454,7 +454,7 @@ Pooled antigen libraries can be analyzed via FACS, followed by next-generation s
 
 <figure class="paper-figure" id="fig8">
 <img src="fig8.jpg" alt="Figure 8">
-<figcaption><strong>Figure 8.</strong> Recombinase mediated integration and SARS-CoV-2 RBD mutagenesis. (a) SARS-CoV-2 spike domain map. SARS-CoV-2 spike protein is comprised of two domains S1 (residues 14–685) and S2 (residues 686–1273). S1 mediates receptor binding and contains the N-terminal domain (NTD) and the receptor binding domain (RBD) while S2 contains the fusion peptides required for membrane fusion. We only display the ectodomain, which lacks the transmembrane (TM) region (residues 1209–1273). (b) Schematic of BxbI recombinase-mediated integration of antigen construct to the AAVS1 locus of HEK293T-LLP cells. (Adapted from [[56](#ref56)]). The integration cassette at the AAVS1 locus contains a Tet inducible promoter, a blasticidin resistance (Bsd) gene, a blue fluorescent protein (BFP) for positive selection, and iCasp9 for negative selection. rtTA is the reverse Tet transactivator. LTR is a lentiviral long terminal repeat [[56](#ref56)]. The AAVS1 locus contains a BxbI attP recombination sequence. Similarly, the donor plasmid contains the corresponding attL and attR recombination sites that direct the BxbI-mediated integration. (c) Heatmap of a saturating single amino-acid library created with nicking mutagenesis for 200 residues of the SARS-CoV-2 RBD. The wild-type sequence is dark blue.</figcaption>
+<figcaption><strong>Figure 8.</strong> Recombinase mediated integration and SARS-CoV-2 RBD mutagenesis. (a) SARS-CoV-2 spike domain map. SARS-CoV-2 spike protein is comprised of two domains S1 (residues 14–685) and S2 (residues 686–1273). S1 mediates receptor binding and contains the N-terminal domain (NTD) and the receptor binding domain (RBD) while S2 contains the fusion peptides required for membrane fusion. We only display the ectodomain, which lacks the transmembrane (TM) region (residues 1209–1273). (b) Schematic of BxbI recombinase-mediated integration of antigen construct to the AAVS1 locus of HEK293T-LLP cells. (Adapted from [[56](#ref56)]). The integration cassette at the AAVS1 locus contains a Tet inducible promoter, a blasticidin resistance (Bsd) gene, a blue fluorescent protein (BFP) for positive selection, and iCasp9 for negative selection. rtTA is the reverse Tet transactivator. LTR is a lentiviral long terminal repeat [[56](#ref56)]. The AAVS1 locus contains a BxbI <em>attP</em> recombination sequence. Similarly, the donor plasmid contains the corresponding <em>attL</em> and <em>attR</em> recombination sites that direct the BxbI-mediated integration. (c) Heatmap of a saturating single amino-acid library created with nicking mutagenesis for 200 residues of the SARS-CoV-2 RBD. The wild-type sequence is dark blue.</figcaption>
 </figure>
 
 #### 3.6.3 Collect Cells
@@ -483,7 +483,7 @@ Pooled antigen libraries can be analyzed via FACS, followed by next-generation s
 
 #### 3.6.5 Cell Sorting
 
-1. Define the fluorescent channels and set gates to isolate single cells as described in [Section 3.6](#36-flow-cytometry-analysis-and-facs).
+1. Define the fluorescent channels and set gates to isolate single cells as described in [Subheading 3.6](#36-flow-cytometry-analysis-and-facs).
 2. The cell binning strategy is dependent on the type of experiment and the expected dynamic range, which must be calibrated ahead of time (see below). For example, when assessing antibody binding to a library of antigens, we use a four-bin sort. Each of the bins is defined as follows. Bin 1: cells with background fluorescence; bin 2: low affinity binding; bin 3: wild type-like binding; bin 4: antigens that bind the antibody with higher affinity than wt antigen. Bins are set using antigen mutants with lower and higher affinity than wild-type to the antibody. To calibrate these values, cells expressing these mutants should be expressed and stained in parallel with antigen libraries, following the same protocol. To anticipate low-affinity antigens, we routinely perform a limited alanine scan of the expected epitope prior to performing bigger sorts.
 3. Spin down sorted cells at max speed for 4 min. Aspirate supernatant.
 4. Use Promega Wizard Genomic DNA purification kit to isolate genomic DNA (gDNA).
@@ -504,11 +504,11 @@ Align nucleotide sequences of merged reads to the wild-type sequence using bowti
 3. Cells should be tested for Mycoplasma contamination before use and regularly thereafter. Immortalized cell lines (such as HEK293T) are more prone to be genetically unstable. Therefore, discard the plates and flasks after 4–6 weeks of passaging. Performing experiments with cells that have been passaged more than 20 times is not recommended due to the genotypic and phenotypic drift that might arise from the selective pressure of culture conditions.
 4. Fixation with PFA or methanol will partially permeabilize the cell membrane, resulting in antibodies entering the cell and staining intracellular antigens. Skip the fixation step to stain only the antigens displayed on the cell surface. Extra care must be taken while manipulating the cells, especially during the washing steps. These cells are prone to dissociating from the surface and may be decanted along with the aspirated liquids.
 
-**Author Contributions:** A.A., A.Q., K.J., and I.J.F. conceived the project. A.Q., A.A., and K.J. performed all experiments, analyzed the data, and prepared figures. J.C. wrote the bioinformatics processing pipeline and analyzed some data. I.J.F. secured funding and supervised the project. A.A., A.Q., and I.J.F. wrote the manuscript with input from all co-authors.
+**Author Contributions** A.A., A.Q., K.J., and I.J.F. conceived the project. A.Q., A.A., and K.J. performed all experiments, analyzed the data, and prepared figures. J.C. wrote the bioinformatics processing pipeline and analyzed some data. I.J.F. secured funding and supervised the project. A.A., A.Q., and I.J.F. wrote the manuscript with input from all co-authors.
 
-**Inclusion and Diversity Statement:** The Finkelstein lab is committed to elevating people of underrepresented geographical locations, ethnicities, genders, abilities, and other forms of diversity in science. A.Q. self-identifies as part of underrepresented gender and ethnic groups in STEM.
+**Inclusion and Diversity Statement** The Finkelstein lab is committed to elevating people of underrepresented geographical locations, ethnicities, genders, abilities, and other forms of diversity in science. A.Q. self-identifies as part of underrepresented gender and ethnic groups in STEM.
 
-**Funding:** This work was supported by the Welch Foundation grant F-1808 to I.J.F., the Bill & Melinda Gates Foundation (INV-034714 to I.J.F.), and NIST (70NANB22H017 to I.J.F.).
+**Funding** This work was supported by the Welch Foundation grant F-1808 to I.J.F., the Bill & Melinda Gates Foundation (INV-034714 to I.J.F.), and NIST (70NANB22H017 to I.J.F.).
 
 ---
 

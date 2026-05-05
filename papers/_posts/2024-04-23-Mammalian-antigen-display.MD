@@ -14,6 +14,7 @@ supplement:
 doi: 10.1007/978-1-0716-3666-4_12
 pmcid: 
 pmid: 38315367
+markdown: 2024-04-23-Mammalian-antigen-display
 extra_text: ''
 category: paper
 tags: Mammalian Antigen Display , Pandemic
