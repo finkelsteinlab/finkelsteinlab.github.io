@@ -280,8 +280,8 @@ Status key:
 :DOI: 10.1016/j.ajpath.2021.07.002
 :FILE: papers/_posts/2021-07-03-SARS-CoV-2-variants.md
 :JOURNAL: American Journal of Pathology
-:VERIFIED: 2026-04-02
-:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Tables 1-2 ✓, Figs 1-8 ✓, 84 refs ✓. Fixed: C<sub>T</sub> subscripts throughout (7× — cycle threshold values in body text, table header, section heading, figure caption). Figure 7 p-value asterisks encoded as HTML entities. COVID-19 genomic epidemiology study of SARS-CoV-2 variants in Houston.
+:VERIFIED: 2026-05-06
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Tables 1-2 ✓, Figs 1-8 ✓, 84 refs ✓. Formatting pass 2: converted 163 inline citations from [N](#refN) to [[N](#refN)] double-bracket format; removed 2x "Open in a new tab" table artifacts; fixed BMI kg/m² superscript; italicized *et al* in 4 author-citation instances; added space before all inline citations; fixed *in vitro* spacing in body text; italicized "in vitro" in ref 54 title.
 :END:
 ** DONE 68. Voss et al. Science (2021)
 :PROPERTIES:
