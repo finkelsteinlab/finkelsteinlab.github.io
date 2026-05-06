@@ -289,8 +289,8 @@ Status key:
 :DOI: 10.1126/science.abg5268
 :FILE: papers/_posts/2021-05-04-SARS-CoV-2-IgG.md
 :JOURNAL: Science
-:VERIFIED: 2026-04-02
-:VERIFIED_NOTES: Title ✓, authors ✓, summary ✓. Stub file only — PMC license restrictions prevented full-text archiving (bioRxiv preprint only). Contains summary/abstract from preprint. Formatting fix: 149 Å² area unit superscript. No figures, tables, or references in archive. PDF is full 5-page Science article with Figs 1-4 and 33 refs.
+:VERIFIED: 2026-05-06
+:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-4 ✓, 54 refs ✓. Full text added from PMC8224265 (published Science article; original stub incorrectly referenced PMC7781304 which is the bioRxiv preprint). Formatting: *K*<sub>D</sub> and IC₅₀ formatted; *in vitro*/*in vivo* italicized; superscripts for Glu³⁶, Phe⁵⁶, Å² area units, 10⁴/10⁵ PFU; figure blocks in HTML format; 54 ref anchors; DOI links on all refs; PMC/PubMed/Google Scholar metadata stripped. Figure image files (abg5268-F1.jpg through F4.jpg) not yet present in directory.
 :END:
 ** DONE 67. Calcines-Cruz et al. NanoLett(2021)
 :PROPERTIES:

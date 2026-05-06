@@ -32,7 +32,7 @@ The global pandemic caused by severe acute respiratory syndrome coronavirus 2 (S
 One of the key goals since the start of the pandemic has been to sequence all positive SARS-CoV-2 specimens from patients in our hospital system and rapidly identify mutations that may be associated with detrimental patient outcome, including therapeutic or vaccine failure. Similarly, with the recognition of an increasing number of SARS-CoV-2 variants of interest (VOIs) and variants of concern (VOCs) by public health agencies, such as the US CDC, World Health Organization, and Public Health England ([_https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html_](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html), last accessed June 8, 2021; and [_https://www.gov.uk/government/collections/new-sars-cov-2-variant_](https://www.gov.uk/government/collections/new-sars-cov-2-variant), last accessed June 8, 2021), there is now substantial domestic and international need to identify these virus genotypes rapidly and understand their velocity and patterns of dissemination. In particular, VOC B.1.1.7 (also termed Alpha), first identified in the United Kingdom, is of special interest because it has the ability to transmit effectively, it can spread through populations rapidly, and has been reported to have a significantly higher mortality rate than non-B.1.1.7 infections (Virological, [_https://virological.org/t/preliminary-genomic-characterisation- of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563_](https://virological.org/t/preliminary-genomic-characterisation-%20of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563), last accessed June 8, 2021; Public Health England, [_https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/technical_briefing_voc_sh_njl2_sh2.pdf_](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/technical_briefing_voc_sh_njl2_sh2.pdf), last accessed June 8, 2021; New and Emerging Respiratory Virus Threats Advisory Group, [_https://app.box.com/s/3lkcbxepqixkg4mv640dpvvg978ixjtf/file/756963730457_](https://app.box.com/s/3lkcbxepqixkg4mv640dpvvg978ixjtf/file/756963730457), last accessed June 8, 2021; Centre for Mathematical Modelling of Infectious Diseases, [_https://cmmid.github.io/topics/covid19/uk-novel-variant.html_](https://cmmid.github.io/topics/covid19/uk-novel-variant.html), last accessed June 8, 2021; and [_https://virological.org/t/lineage-specific-growth-of-sars-cov-2-b-1-1-7-during-the-english-national-lockdown/575_](https://virological.org/t/lineage-specific-growth-of-sars-cov-2-b-1-1-7-during-the-english-national-lockdown/575), last accessed June 8, 2021). [[23](#ref23)], [[24](#ref24)], [[25](#ref25)], [[26](#ref26)], [[27](#ref27)], [[28](#ref28)], [[29](#ref29)], [[30](#ref30)], [[31](#ref31)], [[32](#ref32)], [[33](#ref33)], [[34](#ref34)], [[35](#ref35)], [[36](#ref36)] VOCs B.1.351 (β) and P.1 (Gamma), found to cause widespread disease in South Africa and Brazil, respectively, have sequence changes in spike protein that make them less susceptible to host and some therapeutic antibodies. [[37](#ref37)], [[38](#ref38)], [[39](#ref39)], [[40](#ref40)] Recently, two additional VOIs, B.1.427 and B.1.429 (Epsilon), were recognized by the CDC in part because of their rapid transmission in many California communities [[41](#ref41)] (Outbreak.info, [_https://outbreak.info/situation-reports?pango=b.1.427_](https://outbreak.info/situation-reports?pango=b.1.427), last accessed June 8, 2021; and [_https://outbreak.info/situation-reports?pango=b.1.4279_](https://outbreak.info/situation-reports?pango=b.1.4279), last accessed June 8, 2021).
 Based on sequencing 20,453 SARS-CoV-2 genomes causing COVID-19 disease in Houston, all named VOIs and VOCs are circulating in the metropolitan region, making it the first community to document their presence. [[10](#ref10)] A follow-up study reported rapid increase of VOC UK B.1.1.7 in Houston [[11](#ref11)]; cases infected with the variant were estimated to have a doubling time of approximately 7 days. This rapid B.1.1.7 growth trajectory raised the possibility that this variant would cause nearly all new COVID-19 cases in metropolitan Houston by the end of March or early April 2021, a time frame similar to an estimate made in late January by the CDC. [[33](#ref33)]
 This study reports integrated virus genome and patient data for 12,476 unique COVID-19 cases identified between January 1, 2021, and May 31, 2021, including 3276 patients with the B.1.1.7 VOC. In the latter half of May, depending on the day, 63% to 90% of all new COVID-19 cases in metropolitan Houston were caused by B.1.1.7. Linked medical record information, available for virtually all sequenced genomes, was used to study the relationship between virus genotypes and patient phenotypes. Patients infected with B.1.1.7 had significantly lower cycle threshold (C<sub>T</sub>) values in nasopharyngeal specimens (considered to be a proxy for higher virus load) and a significantly higher hospitalization rate compared with non-B.1.1.7 patients. There was no difference between these two groups in hospital length of stay or mortality. Of the 3276 B.1.1.7 genomes, 11 (0.3%) had an E484K change in spike protein that reduces binding by some neutralizing antibodies. Unexpectedly, five cases of B.1.1.7 were detected from samples collected in early December, resulting in a revised time frame for the introduction of this variant to Houston. Twenty-two patients were identified with COVID-19 caused by B.1.617.1 (Kappa) or B.1.617.2 (Delta) variants reported to be causing widespread disease and extensive public health problems in India, other Southeast Asian countries, and many regions of the United Kingdom (World Health Organization, [_https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---8-june-2021_](https://www.who.int/publications/m/item/weekly-epidemiological-update-on-covid-19---8-june-2021), last accessed June 9, 2021). [[42](#ref42)], [[43](#ref43)], [[44](#ref44)], [[45](#ref45)], [[46](#ref46)], [[47](#ref47)], [[48](#ref48)], [[49](#ref49)] These patients also had a high rate of hospitalization. Vaccine breakthrough cases (_n_ = 207) were caused by diverse virus genotypes, many of which were not VOCs or VOIs. Our genome data show that VOCs and VOIs now account for the great majority of all new COVID-19 cases in this region, identify B.1.1.7 as the major cause of new cases in Houston, and document the arrival and spread of B.1.617 variants in the Houston metroplex.
----
+
 ## Materials and Methods
 ### Patient Specimens
 Specimens were obtained from registered patients at Houston Methodist hospitals, associated facilities (eg, urgent care centers), and institutions in the Houston metropolitan region that use our laboratory services. Virtually all individuals had signs or symptoms consistent with COVID-19 disease. We analyzed a comprehensive sample of genomes obtained from January 1, 2021, through May 31, 2021. This time frame was chosen for convenience because it represents the period during which, at the onset of the study, we identified an uptick in identification of VOIs and VOCs. The study included all 12,476 unique patients identified in this time frame. The work was approved by the Houston Methodist Research Institute Institutional Review Board (IRB1010-0199).
@@ -49,61 +49,47 @@ Summary of Pertinent Patient Metadata for the 12,476 Unique Patients
 Variable | B.1.1.7 variant | Other variants | Total | Statistical analysis
 ---|---|---|---|---
 Patients with data | 3276 (26.3) | 9200 (73.7) | 12,476 |
-Patient characteristics
-Median age, years | 49.9 | 53.7 | 52.5 |  _P_ < 0.0001
-(_U_ -test)
-Female sex | 1693 (51.7) | 4880 (53.0) | 6573 (52.7) |  _P_ = 0.1854
-(Fisher exact test)
-Male sex | 1583 (48.3) | 4320 (47.0) | 5903 (47.3)
-Race/ethnicity
-White | 1304 (40.1) | 3720 (40.6) | 5024 (40.5) |  _P <_ 0.0001
-(χ2 test)
-Hispanic or Latino | 945 (29.1) | 2720 (29.7) | 3665 (29.5)
-Black | 748 (23.0) | 1644 (18.0) | 2392 (19.3)
-Asian | 128 (3.9) | 549 (6.0) | 677 (5.5)
-Native American | 16 (0.5) | 28 (0.3) | 44 (0.4)
-Hawaiian/Pacific Islander | 3 (0.1) | 23 (0.3) | 26 (0.2)
-Unavailable | 107 (3.3) | 472 (5.2) | 579 (4.7)
-BMI, kg/m²
-Median | 30.4 | 29.5 |  _n_ = 11,009 |  _P_ < 0.0001
-(_U_ -test)
-<18.5 | 48 (1.5) | 140 (1.5) | 188 (1.5) |  _P <_ 0.0001
-(χ2 test)
-18.5-25 | 506 (15.4) | 1608 (17.5) | 2114 (16.9)
-25-30 | 857 (26.2) | 2520 (27.4) | 3377 (27.1)
-30-35 | 740 (22.6) | 1833 (19.9) | 2573 (20.6)
-≥35 | 811 (24.8) | 1946 (21.2) | 2757 (22.1)
-Unknown | 314 (9.6) | 1153 (12.5) | 1467 (11.8)
-Admission data
-Admitted | 1768 (54.0) | 4265 (46.4) | 6033 (48.4) |  _P <_ 0.0001
-(Fisher exact test)
-Odds ratio: 1.357 (95% CI, 1.252-1.469)
-Not admitted | 1508 (46.0) | 4935 (53.6) | 6443 (51.6)
-Median LOS, days | 5.1 | 5.2 | 5.2 |  _P_ = 0.8917
-(_U_ -test)
-Maximum respiratory support
-ECMO | 8 (0.5) | 17 (0.4) | 25 (0.4) |  _P_ = 0.0135
-(χ2 test)
-Mechanical ventilation | 150 (8.5) | 365 (8.6) | 515 (8.5)
-Noninvasive ventilation | 169 (9.6) | 433 (10.2) | 602 (10.0)
-High-flow oxygen | 358 (20.2) | 696 (16.3) | 1054 (17.5)
-Low-flow oxygen | 734 (41.5) | 1830 (42.9) | 2564 (42.5)
-Room air | 349 (19.7) | 924 (21.7) | 1273 (21.1)
-Mortality
-Alive | 3132 (95.6) | 8760 (95.2) | 11,892 (95.3) |  _P_ = 0.3862
-(Fisher exact test)
-Odds ratio: 0.915 (95% CI, 0.755-1.111)
-Deceased | 144 (4.4) | 440 (4.8) | 584 (4.7)
-Median PCR C<sub>T</sub>
-Abbott Alinity | 23.9 (_n_ = 1133) | 26.8 (_n_ = 3344) |  _n_ = 4477 |  _P <_ 0.0001
-(_U_ -test)
-Hologic Panther | 25.0 (_n_ = 385) | 26.2 (_n_ = 1574) |  _n_ = 1959 |  _P_ = 0.0274
-(_U_ -test)
-Vaccine
-No vaccine | 3023 (92.3) | 8715 (94.7) | 11,738 (94.1) |  _P <_ 0.0001
-(χ2 test)
->7 Days past first vaccine | 127 (3.9) | 404 (4.4) | 531 (4.3)
->14 Days past second vaccine | 126 (3.8) | 81 (0.9) | 207 (1.7)
+Patient characteristics | | | |
+Median age, years | 49.9 | 53.7 | 52.5 | _P_ < 0.0001 (_U_ -test)
+Female sex | 1693 (51.7) | 4880 (53.0) | 6573 (52.7) | _P_ = 0.1854 (Fisher exact test)
+Male sex | 1583 (48.3) | 4320 (47.0) | 5903 (47.3) |
+Race/ethnicity | | | |
+White | 1304 (40.1) | 3720 (40.6) | 5024 (40.5) | _P_ < 0.0001 (χ2 test)
+Hispanic or Latino | 945 (29.1) | 2720 (29.7) | 3665 (29.5) |
+Black | 748 (23.0) | 1644 (18.0) | 2392 (19.3) |
+Asian | 128 (3.9) | 549 (6.0) | 677 (5.5) |
+Native American | 16 (0.5) | 28 (0.3) | 44 (0.4) |
+Hawaiian/Pacific Islander | 3 (0.1) | 23 (0.3) | 26 (0.2) |
+Unavailable | 107 (3.3) | 472 (5.2) | 579 (4.7) |
+BMI, kg/m² | | | |
+Median | 30.4 | 29.5 | _n_ = 11,009 | _P_ < 0.0001 (_U_ -test)
+<18.5 | 48 (1.5) | 140 (1.5) | 188 (1.5) | _P_ < 0.0001 (χ2 test)
+18.5-25 | 506 (15.4) | 1608 (17.5) | 2114 (16.9) |
+25-30 | 857 (26.2) | 2520 (27.4) | 3377 (27.1) |
+30-35 | 740 (22.6) | 1833 (19.9) | 2573 (20.6) |
+≥35 | 811 (24.8) | 1946 (21.2) | 2757 (22.1) |
+Unknown | 314 (9.6) | 1153 (12.5) | 1467 (11.8) |
+Admission data | | | |
+Admitted | 1768 (54.0) | 4265 (46.4) | 6033 (48.4) | _P_ < 0.0001 (Fisher exact test) Odds ratio: 1.357 (95% CI, 1.252-1.469)
+Not admitted | 1508 (46.0) | 4935 (53.6) | 6443 (51.6) |
+Median LOS, days | 5.1 | 5.2 | 5.2 | _P_ = 0.8917 (_U_ -test)
+Maximum respiratory support | | | |
+ECMO | 8 (0.5) | 17 (0.4) | 25 (0.4) | _P_ = 0.0135 (χ2 test)
+Mechanical ventilation | 150 (8.5) | 365 (8.6) | 515 (8.5) |
+Noninvasive ventilation | 169 (9.6) | 433 (10.2) | 602 (10.0) |
+High-flow oxygen | 358 (20.2) | 696 (16.3) | 1054 (17.5) |
+Low-flow oxygen | 734 (41.5) | 1830 (42.9) | 2564 (42.5) |
+Room air | 349 (19.7) | 924 (21.7) | 1273 (21.1) |
+Mortality | | | |
+Alive | 3132 (95.6) | 8760 (95.2) | 11,892 (95.3) | _P_ = 0.3862 (Fisher exact test) Odds ratio: 0.915 (95% CI, 0.755-1.111)
+Deceased | 144 (4.4) | 440 (4.8) | 584 (4.7) |
+Median PCR C<sub>T</sub> | | | |
+Abbott Alinity | 23.9 (_n_ = 1133) | 26.8 (_n_ = 3344) | _n_ = 4477 | _P_ < 0.0001 (_U_ -test)
+Hologic Panther | 25.0 (_n_ = 385) | 26.2 (_n_ = 1574) | _n_ = 1959 | _P_ = 0.0274 (_U_ -test)
+Vaccine | | | |
+No vaccine | 3023 (92.3) | 8715 (94.7) | 11,738 (94.1) | _P_ < 0.0001 (χ2 test)
+>7 Days past first vaccine | 127 (3.9) | 404 (4.4) | 531 (4.3) |
+>14 Days past second vaccine | 126 (3.8) | 81 (0.9) | 207 (1.7) |
 Data are given as _n_ (%), unless otherwise indicated. Data include 12,476 unique patients with high-quality sequence results between January 1, 2021, and May 31, 2021.
 BMI, body mass index; ECMO, extracorporeal membrane oxygenation; LOS, length of stay.
 #### Table 2.
@@ -111,46 +97,35 @@ Summary of Pertinent Patient Metadata for B.1.617.1/B.1.617.2 Patients (Excludin
 Variable | B.1.617 variants | Other variants | Total | Statistical analysis
 ---|---|---|---|---
 Patients with data | 22 (0.2) | 9178 (99.8) | 9200 |
-Race/ethnicity
-Asian | 7 (33.3) | 542 (5.9) | 549 (6.0) |  _P_ < 0.001
-(Fisher exact test) (Asian versus non-Asian)
-Odds ratio:
-7.927 (95% CI, 2.973-19.40)
-White | 8 (38.1) | 3712 (40.6) | 3720 (40.6)
-Hispanic or Latino | 3 (14.3) | 2717 (29.7) | 2720 (29.7)
-Black | 0 (0) | 1644 (18.0) | 1644 (18.0)
-Native American | 1 (4.8) | 27 (0.3) | 28 (0.3)
-Hawaiian/Pacific Islander | 1 (4.8) | 22 (0.2) | 23 (0.3)
-Unavailable | 1 (4.8) | 471 (5.2) | 472 (5.2)
-Admission data
-Admitted | 17 (77.3) | 4248 (46.3) | 4265 (46.4) |  _P_ = 0.0045
-(Fisher exact test)
-Odds ratio: 3.946 (95% CI, 1.529-9.788)
-Not admitted | 5 (22.7) | 4930 (53.7) | 4935 (53.6)
-Median LOS, days | 6.7 | 5.2 |  |  _P_ = 0.5388
-(_U_ -test)
-Highest level of care
-ICU | 3 (17.6) | 639 (15.0) | 642 (15.1) |  _P_ = 0.5474
-(_U_ -test)
-IMU | 1 (5.9) | 93 (2.2) | 94 (2.2)
-Other inpatient | 13 (76.5) | 3516 (82.8) | 3529 (82.7)
-Maximum respiratory support
-ECMO | 0 (0) | 17 (0.4) | 17 (0.4) |  _P_ > 0.9999
-(Fisher exact test) (room air and low-flow oxygen versus other)
-Odds ratio: 1.006 (95% CI, 0.3803-2.647)
-Mechanical ventilation | 3 (17.6) | 362 (8.5) | 365 (8.6)
-Noninvasive ventilation | 1 (5.9) | 432 (10.2) | 433 (10.2)
-High-flow oxygen | 2 (11.8) | 694 (16.3) | 696 (16.3)
-Low-flow oxygen | 8 (47.1) | 1822 (42.9) | 1830 (42.9)
-Room air | 3 (17.6) | 921 (21.7) | 924 (21.7)
-Mortality
-Alive | 20 (90.9) | 8740 (95.2) | 8760 (95.2) |  _P_ = 0.2838
-(Fisher exact test)
-Odds ratio: 1.995 (95% CI, 0.459-7.462)
-Deceased | 2 (9.1) | 438 (4.8) | 440 (4.8)
+Race/ethnicity | | | |
+Asian | 7 (33.3) | 542 (5.9) | 549 (6.0) | _P_ < 0.001 (Fisher exact test) (Asian versus non-Asian) Odds ratio: 7.927 (95% CI, 2.973-19.40)
+White | 8 (38.1) | 3712 (40.6) | 3720 (40.6) |
+Hispanic or Latino | 3 (14.3) | 2717 (29.7) | 2720 (29.7) |
+Black | 0 (0) | 1644 (18.0) | 1644 (18.0) |
+Native American | 1 (4.8) | 27 (0.3) | 28 (0.3) |
+Hawaiian/Pacific Islander | 1 (4.8) | 22 (0.2) | 23 (0.3) |
+Unavailable | 1 (4.8) | 471 (5.2) | 472 (5.2) |
+Admission data | | | |
+Admitted | 17 (77.3) | 4248 (46.3) | 4265 (46.4) | _P_ = 0.0045 (Fisher exact test) Odds ratio: 3.946 (95% CI, 1.529-9.788)
+Not admitted | 5 (22.7) | 4930 (53.7) | 4935 (53.6) |
+Median LOS, days | 6.7 | 5.2 | | _P_ = 0.5388 (_U_ -test)
+Highest level of care | | | |
+ICU | 3 (17.6) | 639 (15.0) | 642 (15.1) | _P_ = 0.5474 (_U_ -test)
+IMU | 1 (5.9) | 93 (2.2) | 94 (2.2) |
+Other inpatient | 13 (76.5) | 3516 (82.8) | 3529 (82.7) |
+Maximum respiratory support | | | |
+ECMO | 0 (0) | 17 (0.4) | 17 (0.4) | _P_ > 0.9999 (Fisher exact test) (room air and low-flow oxygen versus other) Odds ratio: 1.006 (95% CI, 0.3803-2.647)
+Mechanical ventilation | 3 (17.6) | 362 (8.5) | 365 (8.6) |
+Noninvasive ventilation | 1 (5.9) | 432 (10.2) | 433 (10.2) |
+High-flow oxygen | 2 (11.8) | 694 (16.3) | 696 (16.3) |
+Low-flow oxygen | 8 (47.1) | 1822 (42.9) | 1830 (42.9) |
+Room air | 3 (17.6) | 921 (21.7) | 924 (21.7) |
+Mortality | | | |
+Alive | 20 (90.9) | 8740 (95.2) | 8760 (95.2) | _P_ = 0.2838 (Fisher exact test) Odds ratio: 1.995 (95% CI, 0.459-7.462)
+Deceased | 2 (9.1) | 438 (4.8) | 440 (4.8) |
 Data are given as _n_ (%), unless otherwise indicated. Data include 9200 unique patients with high-quality sequence results between January 1, 2021, and May 31, 2021.
 ECMO, extracorporeal membrane oxygenation; ICU, intensive care unit; IMU, intermediate care unit; LOS, length of stay.
----
+
 ## Results
 ### Epidemiologic Trajectory and Patient Overview
 Metropolitan Houston has experienced three distinct epidemiologic peaks of COVID-19 ([Fig. 1](#fig1)). The timing and shape of the epidemiologic curve for Houston Methodist patients mirrors the curve for the metropolitan region (Harris County Public Health, [_https://covid-harriscounty.hub.arcgis.com/pages/cumulative-data_](https://covid-harriscounty.hub.arcgis.com/pages/cumulative-data), last accessed June 7, 2021). The third wave of COVID-19 started in approximately early November, following a prolonged disease trough occurring after the second wave ([Fig. 1](#fig1)). Approximately 12,476 patients were studied from January 1, 2021, through May 31, 2021, a period during which most of the VOIs and VOCs were initially identified in Houston, and several of them increased substantially (Table 1 and [Figures 2](#fig2), [3](#fig3), and [4](#fig4)).
@@ -204,7 +179,7 @@ To test the hypothesis that VOCs and VOIs were overrepresented among post-vaccin
 <img src="gr8.jpg" alt="Figure 8">
 <figcaption><strong>Figure 8.</strong> Number of COVID-19 vaccine breakthrough cases over time, by virus variant. The month of diagnosis and the infecting virus variant based on whole-genome sequencing are shown. A total of 207 vaccine breakthrough cases was identified in patients receiving either the Pfizer [<em>n</em> = 181 (87%)] or Moderna [<em>n</em> = 26 (13%)] vaccine.</figcaption>
 </figure>
----
+
 ## Discussion
 The molecular population genomics of SARS-CoV-2 occurring in metropolitan Houston were analyzed with a focus on infections occurring early in 2021, from January 1 through May 31. This study was based on genome sequences from 12,476 ethnically, socioeconomically, and geographically diverse patients distributed throughout the metropolitan area. Infections caused by B.1.1.7 increased rapidly, and in the latter half of May caused 63% to 90% of all new cases in the population. Compared with non-B.1.1.7 patients, individuals infected with B.1.1.7 had significantly lower virus C<sub>T</sub> values and a higher rate of hospitalization, but no difference in length of stay or mortality. Twenty-two patients were infected with B.1.617-family variants, genotypes that are now causing extensive disease in India, elsewhere in Southeast Asia, and several areas of the United Kingdom. [[42](#ref42)], [[43](#ref43)], [[44](#ref44)]
 A key finding from this study was the rapid growth trajectory of VOC B.1.1.7 in metropolitan Houston, an area with a population size of approximately 7 million. Patients infected with the B.1.1.7 VOC have significantly lower C<sub>T</sub> values on initial diagnosis, but this has not been a universal finding. [[11](#ref11)],[[65](#ref65)], [[66](#ref66)], [[67](#ref67)], [[68](#ref68)], [[69](#ref69)], [[70](#ref70)] In the absence of quantitative virus cultures, the C<sub>T</sub> value is viewed by many as a convenient proxy for virus load. C<sub>T</sub> value in nasopharyngeal swabs taken from B.1.1.7 patients was significantly decreased compared with that in non-B.1.1.7 patients (Table 1 and [Fig. 7](#fig7)), a result consistent with previous reports. [[11](#ref11)],[[66](#ref66)],[[71](#ref71)], [[72](#ref72)], [[73](#ref73)] Thus, these data are consistent with the potential for enhanced transmissibility of B.1.1.7 because of higher nasopharyngeal virus loads. However, it is clear that there is no uniform relationship between C<sub>T</sub> value and ability to disseminate. For example, patients infected with B.1.1.7 and high C<sub>T</sub> values and non-B.1.1.7 patients with low C<sub>T</sub> values were identified. Many factors contribute to SARS-CoV-2 transmission dynamics, including, but not limited to, behavioral characteristics of human populations, percentage of susceptible individuals, vaccination status, network structure, and biologic variation in the capacity of virus genotypes to survive and be successfully transmitted. Collectively, these findings stress the need for more information about the relationship between C<sub>T</sub> values, quantitative virus cultures, and specific genotypes of SARS-CoV-2.
