@@ -65,6 +65,11 @@ $(document).ready(function(){
               {% if person.linkedin %} | <a href="https://www.linkedin.com/in/{{ person.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
               {% if person.consulting %} | <a href="{{ person.consulting }}"><i class="fas fa-balance-scale" aria-hidden="true"></i> Expert Consulting</a>{% endif %}
             </div>
+            {% if person.bio %}
+            <div class="bio">
+              {{ person.bio | markdownify }}
+            </div>
+            {% endif %}
             <div class="quote">
               "{{ person.quote }}" - <i>{{ person.quote_author }}</i>
             </div>
