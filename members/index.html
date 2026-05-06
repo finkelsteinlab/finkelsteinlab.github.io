@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Members"
-description: ""
+description: "Finkelstein Lab at UT Austin. Led by Ilya Finkelstein, molecular biologist with expertise in gene editing and experience as expert witness in biotech patent matters."
 group: navigation
 navorder: 2
 ---
@@ -63,6 +63,7 @@ $(document).ready(function(){
               {% if person.GitHub %} | <a href="https://www.github.com/{{ person.GitHub }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a>{% endif %}
               {% if person.gitlab %} | <a href="https://gitlab.com/{{ person.gitlab }}"><i class="fab fa-gitlab" aria-hidden="true"></i> Gitlab</a>{% endif %}
               {% if person.linkedin %} | <a href="https://www.linkedin.com/in/{{ person.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
+              {% if person.consulting %} | <a href="{{ person.consulting }}"><i class="fas fa-balance-scale" aria-hidden="true"></i> Expert Consulting</a>{% endif %}
             </div>
             <div class="quote">
               "{{ person.quote }}" - <i>{{ person.quote_author }}</i>

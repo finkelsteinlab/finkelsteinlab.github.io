@@ -16,6 +16,10 @@ MBB Building, Room 3.422
 2500 Speedway  
 Austin, TX 78712   	
 
+### Expert Consulting
+
+Technical consulting and expert witness services available for patent matters in biotechnology, cell and gene therapy, and molecular biology. [Learn more](/consulting/).
+
 # Map
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.1946633430384!2d-97.73953597989247!3d30.288519431922527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5833be09aa1%3A0xd598b7d8ce634aa5!2sMoffett+Molecular+Biology+Building%2C+2500+Speedway%2C+Austin%2C+TX+78712!5e0!3m2!1sen!2sus!4v1534477339793" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
