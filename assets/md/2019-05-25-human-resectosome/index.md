@@ -37,7 +37,7 @@ Homologous recombination (HR) is a universally conserved double-strand break rep
 <img src="nihms-1040851-f0001.jpg" alt="Figure 1">
 <figcaption><strong>Figure 1. Overview of double-strand break resection.</strong> (<em>1</em>) The MRE11-RAD50-NBS1 (MRN) complex rapidly identifies genomic double-strand breaks (DSBs). (<em>2</em>) MRN loads Bloom's syndrome helicase (BLM) and Exonuclease 1 (EXO1) complex or the BLM/DNA2 complex at DNA ends. EXO1 or DNA2 then nucleolytically processes (resect) the free DNA ends to produce long 3ʹ-ssDNA ends. (<em>3</em>) The resulting ssDNA is rapidly bound by Replication Protein A (RPA). (<em>4</em>) RPA is then replaced by the recombinase RAD51. 5. RAD51 catalyzes the search for a homologous DNA sequence in a sister chromatid. Finally, the missing genetic information is resynthesized to repair the genome</figcaption>
 </figure>
-Long-range resection is carried out by two partially redundant multiprotein molecular complexes [[4](#ref4)]. The first pathway couples exonuclease 1 (EXO1) and the Bloom's Syndrome helicase (BLM) [[3](#ref3), [20](#ref20), [22](#ref22)–[27](#ref27)]. While the EXO1/BLM resection machinery appears to be the major pathway in human cells, an alternative pathway uses the DNA2 helicase/nuclease along with BLM [[28](#ref28)]. Together, these DNA resection complexes nucleolytically process the genome to generate kilobase-length stretches of single-stranded DNA (ssDNA) [[4](#ref4)]. The functional significance of how these resection machineries are selected and whether this modulates repair outcomes remains an outstanding question in the field. Furthermore, many of the biophysical properties (e.g., velocity, processivity, and regulation by interacting partners) remain active areas of research. To address these outstanding questions, our lab has reconstituted the first key steps of human HR in vitro and with single-molecule resolution. Here, we provide methods for purifying, labeling, and single-molecule imaging of these resectosome components on the DNA curtains assay. The DNA curtains assay enables high-throughput single-molecule imaging of individual protein molecules on organized arrays of DNA molecules within a microfluidic flowcell. Compared to other ensemble and single-molecule fluorescence methods, DNA curtains offer three key advantages: [1] long DNA substrates (~48 kb) permit direct observation of kilobase-length DNA resection and repair, [2] by using multilaser illumination, multiple protein components can be monitored simultaneously with millisecond temporal resolution, and [3] the construction of multichannel, microfluidic DNA curtains facilitates high-throughput data acquisition. Bottom-up assembly of DNA resection with single-molecule sensitivity is shedding new light on the functions and regulation of these critical guardians of genome integrity. DNA curtains is a high-throughput single-molecule assay that facilitates direct imaging of DNA resection proteins using fluorescence microscopy ([Fig. 2](#fig2)) [[30](#ref30)–[33](#ref33)].
+Long-range resection is carried out by two partially redundant multiprotein molecular complexes [[4](#ref4)]. The first pathway couples exonuclease 1 (EXO1) and the Bloom's Syndrome helicase (BLM) [[3](#ref3), [20](#ref20), [22](#ref22)–[27](#ref27)]. While the EXO1/BLM resection machinery appears to be the major pathway in human cells, an alternative pathway uses the DNA2 helicase/nuclease along with BLM [[28](#ref28)]. Together, these DNA resection complexes nucleolytically process the genome to generate kilobase-length stretches of single-stranded DNA (ssDNA) [[4](#ref4)]. The functional significance of how these resection machineries are selected and whether this modulates repair outcomes remains an outstanding question in the field. Furthermore, many of the biophysical properties (e.g., velocity, processivity, and regulation by interacting partners) remain active areas of research. To address these outstanding questions, our lab has reconstituted the first key steps of human HR *in vitro* and with single-molecule resolution. Here, we provide methods for purifying, labeling, and single-molecule imaging of these resectosome components on the DNA curtains assay. The DNA curtains assay enables high-throughput single-molecule imaging of individual protein molecules on organized arrays of DNA molecules within a microfluidic flowcell. Compared to other ensemble and single-molecule fluorescence methods, DNA curtains offer three key advantages: [1] long DNA substrates (~48 kb) permit direct observation of kilobase-length DNA resection and repair, [2] by using multilaser illumination, multiple protein components can be monitored simultaneously with millisecond temporal resolution, and [3] the construction of multichannel, microfluidic DNA curtains facilitates high-throughput data acquisition. Bottom-up assembly of DNA resection with single-molecule sensitivity is shedding new light on the functions and regulation of these critical guardians of genome integrity. DNA curtains is a high-throughput single-molecule assay that facilitates direct imaging of DNA resection proteins using fluorescence microscopy ([Fig. 2](#fig2)) [[30](#ref30)–[33](#ref33)].
 <figure class="paper-figure" id="fig2">
 <img src="nihms-1040851-f0002.jpg" alt="Figure 2">
 <figcaption><strong>Figure 2. Single-Molecule Imaging of EXO1.</strong> (<b>a</b>) Overview of the custom-built total internal reflection fluorescence (TIRF) microscope for DNA curtain experiments. A 488 nm laser beam passes through a computer-controlled shutter and neutral density filter (not shown). The laser is directed through a prism at a total internal reflection angle. The beam terminates in a beam stop (BS). This generates an evanescent excitation wave that illuminates the surface-bound DNA and protein molecules. The resulting fluorescent signals are collected via a water immersion high numerical aperture objective, passed through two excitation cleanup filters (FW) and dispersed through a dichromic mirror (DM) onto two electron-multiplied charge coupled device (EMCCD) cameras. A computer-controlled dual-syringe pump and two digitally actuated injections valves permit rapid buffer switching or the injection of different protein complexes. (<b>b</b>) Domain map of EXO1 showing key known interacting partner domains (<b>c</b>) Purification scheme of EXO1-AviTag (<b>d</b>) Kymograph of a single EXO1 resecting a DNA substrate. White arrow indicates when the molecule dissociates from the DNA. Below is a time-dependent single-particle trajectory of the same EXO1 molecule. Black arrow indicates protein dissociation. (<b>e</b>) Kymograph of nuclease-dead (D78A/D173A) EXO1 molecule. Gray line indicates the raw particle-tracking trajectory and the magenta line is a 15-s sliding average. (<b>f</b>) Kymograph of EXO1 (magenta, top) as it is displaced by RPA-GFP (green, middle). Merged images: bottom. The orange line indicates when RPA-GFP enters the flowcell, and white arrowheads indicate EXO1 dissociation. (<b>g</b>) Lifetime analysis of DNA end-bound EXO1 in the absence and in the presence of 1 nM RPA-GFP. Images in panel (<b>c–g</b>) are reprinted with permission from PNAS [<a href="#ref29">29</a>]</figcaption>
@@ -45,18 +45,18 @@ Long-range resection is carried out by two partially redundant multiprotein mole
 ---
 ## 2. Materials
 ### 2.1. Purification
-  1. BLM Lysis Buffer: 50 mM KH2PO4, 500 mM KCl, 10% (vol/vol) glycerol, 2.5 mM imidazole, 400 μL 50% Tween-20, 400 μL of phenylmethylsulfonyl fluoride (PMSF: 17 mg/ mL), 20 mM β-mercaptoethanol.
+  1. BLM Lysis Buffer: 50 mM KH₂PO₄, 500 mM KCl, 10% (vol/vol) glycerol, 2.5 mM imidazole, 400 μL 50% Tween-20, 400 μL of phenylmethylsulfonyl fluoride (PMSF: 17 mg/ mL), 20 mM β-mercaptoethanol.
   2. EXO1/DNA2 Lysis Buffer: 25 mM Tris–HCl pH 8.0, 100 mM NaCl, 10% (vol/vol) glycerol, 400 μL of PMSF (17 mg/mL), 20 mM β-mercaptoethanol.
-  3. Ni2+ B Buffer: 50 mM KH2PO4, 500 mM KCl, 10% (vol/vol) glycerol, 250 mM imidazole, 20 mM β-mercaptoethanol.
+  3. Ni²⁺ B Buffer: 50 mM KH₂PO₄, 500 mM KCl, 10% (vol/vol) glycerol, 250 mM imidazole, 20 mM β-mercaptoethanol.
   4. A Buffer: 25 mM Tris–HCl pH 8.0, 100 mM NaCl, 10% (vol/vol) glycerol, 1 mM DTT.
   5. B Buffer: 25 mM Tris–HCl pH 8.0, 1 M NaCl, 10% (vol/vol) glycerol, 1 mM DTT.
-  6. PBS: 137 mM NaCl, 2.7 mM KCl, 4.3 mM Na2HPO4, 1.47 mM KH2PO4.
-  7. RPA Ni2+ A Buffer: 40 mM Tris–HCl pH 7.5, 1 M NaCl, 10 mM imidazole, pH 8.0, 20% glycerol, 4 mM β-mercaptoethanol, 1 mM PMSF.
-  8. RPA Ni2+ B Buffer: 20 mM Tris–HCl pH 7.5, 500 mM NaCl, 500 mM imidazole pH 8.0, 10% glycerol, 2 mM β-mercaptoethanol.
+  6. PBS: 137 mM NaCl, 2.7 mM KCl, 4.3 mM Na₂HPO₄, 1.47 mM KH₂PO₄.
+  7. RPA Ni²⁺ A Buffer: 40 mM Tris–HCl pH 7.5, 1 M NaCl, 10 mM imidazole, pH 8.0, 20% glycerol, 4 mM β-mercaptoethanol, 1 mM PMSF.
+  8. RPA Ni²⁺ B Buffer: 20 mM Tris–HCl pH 7.5, 500 mM NaCl, 500 mM imidazole pH 8.0, 10% glycerol, 2 mM β-mercaptoethanol.
   9. RPA Heparin Buffer A: 20 mM Tris–HCl pH 7.5, 50 mM KCl, 10% glycerol, 0.5 mM EDTA, 1 mM DTT.
   10. RPA Heparin Buffer B: 20 mM Tris–HCl pH 7.5, 500 mM KCl, 10% glycerol, 0.5 mM EDTA, 1 mM DTT.
   11. RPA Storage Buffer: 10 mM Tris pH 7.5, 100 mM KCl, 0.1 mM EDTA, 50% glycerol, 1 mM DTT.
-  12. Ni2+-NTA resin.
+  12. Ni²⁺-NTA resin.
   13. Anti-FLAG M2 resin.
   14. Streptavidin resin.
   15. Dounce homogenizer.
@@ -68,8 +68,8 @@ Long-range resection is carried out by two partially redundant multiprotein mole
   21. HiLoad 16/600 Superdex 200 pg column (GE Healthcare).
 
 ### 2.2. Microscopy
-  1. Lipids Buffer: 40 mM Tris–HCl pH 8.0, Bovine Serum Albumin (BSA; 0.2 mg/mL in H2O).
-  2. Imaging Buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 1 mM MgCl2, 2 mM DTT, bovine serum albumin (BSA; 0.2 mg/mL in H2O).
+  1. Lipids Buffer: 40 mM Tris–HCl pH 8.0, Bovine Serum Albumin (BSA; 0.2 mg/mL in H₂O).
+  2. Imaging Buffer: 40 mM Tris–HCl pH 8.0, 60 mM NaCl, 1 mM MgCl₂, 2 mM DTT, bovine serum albumin (BSA; 0.2 mg/mL in H₂O).
   3. Biotinylated anti-FLAG M2 antibody (Sigma-Aldrich).
   4. Streptavidin-conjugated quantum dots (QDs) 705 nm (ThermoFisher).
 
@@ -92,7 +92,7 @@ Long-range resection is carried out by two partially redundant multiprotein mole
 Since its discovery in 1992, the 5ʹ to 3ʹ exonuclease 1 (EXO1) has been identified as a key player in DNA double-strand break repair, mismatch repair, telomere maintenance, and replication fork restart [[5](#ref5), [34](#ref34)–[37](#ref37)]. EXO1 translocates on DNA without hydrolyzing ATP by acting as a Brownian ratchet, stabilizing the transient opening of the DNA to allow for phosphodiester bond cleavage [[38](#ref38), [39](#ref39)]. In the cell, the ssDNA that is generated by EXO1 is rapidly bound by replication protein A (RPA), a ubiquitous eukaryotic ssDNA-binding protein. However, the molecular details of EXO1 processivity and its regulation by RPA remained controversial, largely because ensemble-biochemical methods cannot distinguish the precise choreography of both proteins at the ssDNA-dsDNA junction [[23](#ref23), [40](#ref40), [41](#ref41)].
 We recently established a single-molecule assay that visualizes EXO1 on high-throughput DNA curtains [[29](#ref29)]. In these assays, EXO1 is purified with a C-terminal epitope tag that can be used for conjugation with fluorescent antibodies or quantum dots (QDs) ([Fig. 2b](#fig2), [c](#fig2)). QDs are relatively small (~10 nm radius) fluorophores that have a high quantum yield. Moreover, QDs do not photo-bleach over several hours of illumination (_see_ Note 1) [[42](#ref42)]. We have evaluated several C-terminal epitopes for fluorescent EXO1 labeling. These include GFP, FLAG, and the 15-amino acid-long AviTag (GLNDIFEAQKIEWHE). AviTag is biotinylated on the lysine residue in insect cells that are coinfected with both the EXO1 and _E. coli_ biotin ligase (BirA) viruses [[43](#ref43)]. Coinfection of EXO1-AviTag with BirA resulted in ~50% biotinylation efficiency, as determined by streptavidin band-shift on an SDS-PAGE gel [[44](#ref44)]. A streptavidin column was used in the protocol described below to further enrich for biotinylated protein. The fully biotinylated EXO1 concentration was ~300–400 nM, which is sufficient for single-molecule studies. Direct labeling of the EXO1-biotin using streptavidin-conjugated QDs resulted in excellent fluorescent imaging on DNA curtains ([Fig. 2d](#fig2), [e](#fig2)). The following protocols detail the purification and fluorescent imaging of EXO1-biotin via single-molecule resection assays.
 #### 3.1.1. Purification of EXO1
-  1. Grow Sf21 insect cells with baculoviruses harboring EXO1-biotin and BirA (biotin ligase) following manufacturer-suggested protocols (Thermo). Briefly, the FastBac plasmid containing human EXO1, BirA, Tn7 transposon segments are transformed into DH10bac cells. The baculovirus is then produced by transfecting the bacmid into a small culture of insect cells and then amplifying the titer. To amplify the baculovirus, incubate the virus in a 15-cm plate of insect cells for 72 h (first amplification). Next, incubated the first amplification in the same manner in several 15-cm plates of cells to create the second amplification. Following amplification, add 600 μL of virus to 15 × 106 cells in sixty 15-cm dish containing 25 mL of Sf-900 II Serum Free Media containing penicillin–streptomycin. Incubate for 72 h.
+  1. Grow Sf21 insect cells with baculoviruses harboring EXO1-biotin and BirA (biotin ligase) following manufacturer-suggested protocols (Thermo). Briefly, the FastBac plasmid containing human EXO1, BirA, Tn7 transposon segments are transformed into DH10bac cells. The baculovirus is then produced by transfecting the bacmid into a small culture of insect cells and then amplifying the titer. To amplify the baculovirus, incubate the virus in a 15-cm plate of insect cells for 72 h (first amplification). Next, incubated the first amplification in the same manner in several 15-cm plates of cells to create the second amplification. Following amplification, add 600 μL of virus to 15 × 10⁶ cells in sixty 15-cm dish containing 25 mL of Sf-900 II Serum Free Media containing penicillin–streptomycin. Incubate for 72 h.
   2. Harvest Sf21 cells 72 h after infection. Centrifuge at 4000 × _g_ to pellet the cells, snap-freeze in liquid nitrogen, and store at −80 °C until purification.
   3. Thaw the pellet quickly at room temperature.
   4. Homogenize pellet in 40 mL of EXO1 Lysis Buffer in a 40 mL Dounce homogenizer with 50 strokes of a B pestle.
@@ -111,7 +111,7 @@ We recently established a single-molecule assay that visualizes EXO1 on high-thr
   17. To measure EXO1 biotinylation efficiency: incubate purified EXO1-bio with a large excess of streptavidin (~2 μM) for 10 min on ice. Mix with loading dye and run on an SDS-PAGE gel (do not boil sample to preserve the EXO1-Streptavidin interaction). Measure biotinylation efficiency by measuring the percentage of EXO1 that shift above the molecular weight of EXO1 on the gel.
 
 #### 3.1.2. Purification of RPA-GFP
-  1. Grow hRPA-GFP-His6 plasmid in Rosetta(DE3)/pLysS cells.
+  1. Grow hRPA-GFP-His₆ plasmid in Rosetta(DE3)/pLysS cells.
   2. Inoculate single colony into 50 mL of LB in a 500 mL flask with 50 μg/mL of carbenicillin and 34 μg/mL chloramphenicol.
   3. Grow overnight at 37 °C.
   4. Next day, inoculate 2 L of LB with 15 mL of overnight per liter.
@@ -119,10 +119,10 @@ We recently established a single-molecule assay that visualizes EXO1 on high-thr
   6. Harvest cells for 15 min at 4000 × _g_.
   7. Resuspend pellet in 20 mL of 1× PBS and respin for 15 min at 4000 × _g_.
   8. Cells can be flash frozen in liquid nitrogen and store in −80 °C until ready to use.
-  9. Resuspend pellet in 25 mL of RPA Ni2+ A Buffer.
+  9. Resuspend pellet in 25 mL of RPA Ni²⁺ A Buffer.
   10. Sonicate cells on ice for a total of 90 s (75 amplitude; 15 s bursts with 90 s rests in between).
   11. Centrifuge the mixture at 100,000 × _g_ for 35 min at 4 °C to obtain soluble extract. Keep a small aliquot for analysis.
-  12. Run supernatant through a 5 mL HisTrap column using RPA Ni2+ A Buffer and RPA Ni2+ B Buffer. Perform a linear gradient over 10 CVs to elute protein. Collect 1 mL fractions. (RPA elutes at about 250 mM imidazole).
+  12. Run supernatant through a 5 mL HisTrap column using RPA Ni²⁺ A Buffer and RPA Ni²⁺ B Buffer. Perform a linear gradient over 10 CVs to elute protein. Collect 1 mL fractions. (RPA elutes at about 250 mM imidazole).
   13. To remove NaCl, dialyze for 4 h-overnight with RPA Heparin Buffer A.
   14. Following dialysis, if there are aggregates centrifuge at 4000 × _g_ for 15 min.
   15. Run sample through a 1 mL Heparin column using RPA Heparin Buffer A and RPA Heparin Buffer B. Perform a linear gradient over 10 CVs to elute protein. Collect 1 mL fractions. Monitor the fractions with two wavelengths. 280 nm for protein absorption and 488 nm for GFP fluorescence. Analyze samples on a 10–12% SDS-PAGE gel.
@@ -151,7 +151,7 @@ A homemade prism-type total internal reflection fluorescence (TIRF) microscope i
   4. Tracked data can be used to calculate the velocity, processivity, and DNA-binding lifetimes of individual molecules.
 
 ### 3.2. Imaging DNA2 Resection by Tracking RPA-GFP
-DNA2 was first discovered as a key enzyme in Okazaki flap maturation, but is also implicated in other nucleolytic transactions in DSB repair, mitochondrial DNA replication/repair, and telomere maintenance [[4](#ref4)]. DNA2 encodes an ATP-dependent helicase and ATP-independent nuclease domains in a single polypeptide ([Fig. 3a](#fig3)). How these two activities are coupled, and how DNA2 processes long DNA substrates is not entirely clear. Recently it has been shown that the helicase activity of DNA2 accelerates DNA resection in the presence of RPA. This is further stimulated by BLM helicase. Based on these biochemical reconstitutions, an emerging model posits that BLM and DNA2 form a bidirectional motor where BLM is the lead helicase and the helicase activity of DNA2 acts as a ssDNA translocase to promote DNA resection [[31](#ref31), [47](#ref47)]. The nuclease activity of DNA2 is critical to all of DNA2 functions; however, little is known about the role of the DNA2’s helicase activity and whether this activity is required for efficient DSB resection in vivo [[31](#ref31)–[33](#ref33), [47](#ref47)]. A recent single-molecule study found that the nuclease-dead DNA2 exhibits processive helicase activity, suggesting that the helicase activity is autoregulated by the nuclease activity [[32](#ref32)]. Furthermore, structural studies have also defined the basis for DNA2 interaction with RPA and its preference for DNA ends [[48](#ref48)]. RPA directs the 5ʹ to 3ʹ nuclease activity of DNA while inhibiting the 3ʹ to 5ʹ nuclease activity [[49](#ref49)]. Though the helicase and nuclease activity of DNA2's role in DNA repair has been shown, the long-range resection activity of DNA2 protein is still undefined. Here, we describe the purification of recombinant human DNA2-FLAG in Sf21 cells using the Bac-to-Bac (Life Tech.) expression system (_see_ Note 4) ([Fig. 3b](#fig3)). We also describe single-molecule analysis of DNA2 translocation on DNA curtains using RPA-GFP as a readout of DNA resection (_see_ Note 5) ([Fig. 3c](#fig3), [d](#fig3)):
+DNA2 was first discovered as a key enzyme in Okazaki flap maturation, but is also implicated in other nucleolytic transactions in DSB repair, mitochondrial DNA replication/repair, and telomere maintenance [[4](#ref4)]. DNA2 encodes an ATP-dependent helicase and ATP-independent nuclease domains in a single polypeptide ([Fig. 3a](#fig3)). How these two activities are coupled, and how DNA2 processes long DNA substrates is not entirely clear. Recently it has been shown that the helicase activity of DNA2 accelerates DNA resection in the presence of RPA. This is further stimulated by BLM helicase. Based on these biochemical reconstitutions, an emerging model posits that BLM and DNA2 form a bidirectional motor where BLM is the lead helicase and the helicase activity of DNA2 acts as a ssDNA translocase to promote DNA resection [[31](#ref31), [47](#ref47)]. The nuclease activity of DNA2 is critical to all of DNA2 functions; however, little is known about the role of the DNA2’s helicase activity and whether this activity is required for efficient DSB resection *in vivo* [[31](#ref31)–[33](#ref33), [47](#ref47)]. A recent single-molecule study found that the nuclease-dead DNA2 exhibits processive helicase activity, suggesting that the helicase activity is autoregulated by the nuclease activity [[32](#ref32)]. Furthermore, structural studies have also defined the basis for DNA2 interaction with RPA and its preference for DNA ends [[48](#ref48)]. RPA directs the 5ʹ to 3ʹ nuclease activity of DNA while inhibiting the 3ʹ to 5ʹ nuclease activity [[49](#ref49)]. Though the helicase and nuclease activity of DNA2's role in DNA repair has been shown, the long-range resection activity of DNA2 protein is still undefined. Here, we describe the purification of recombinant human DNA2-FLAG in Sf21 cells using the Bac-to-Bac (Life Tech.) expression system (_see_ Note 4) ([Fig. 3b](#fig3)). We also describe single-molecule analysis of DNA2 translocation on DNA curtains using RPA-GFP as a readout of DNA resection (_see_ Note 5) ([Fig. 3c](#fig3), [d](#fig3)):
 <figure class="paper-figure" id="fig3">
 <img src="nihms-1040851-f0003.jpg" alt="Figure 3">
 <figcaption><strong>Figure 3. Indirect Imaging of DNA2 resection by RPA-GFP tracking.</strong> (<b>a</b>) Domain map of DNA2 used for single-molecule assays. Key interacting partners are highlighted in the map. (<b>b</b>) DNA2-FLAG purification scheme and SDS-PAGE gel of the purified protein. (<b>c</b>) Kymograph of DNA2-mediated resection by monitoring RPA-GFP signal. (<b>d</b>) DNA2 processively generates ssDNA, as indicated by snapshots of RPA-GFP accumulation</figcaption>
@@ -190,13 +190,13 @@ DNA2 was first discovered as a key enzyme in Okazaki flap maturation, but is als
   5. Calculate RPA intensity as readout of DNA resection by summing the total pixel intensity over a defined area over every frame in ImageJ.
 
 ### 3.3. Imaging of BLM Helicase Activity
-BLM is a 3ʹ to 5ʹ ATP-dependent helicase and one of five helicases found in humans with structural similarity to _E. coli_ RecQ [[50](#ref50), [51](#ref51)]. BLM is a key player in DNA double-strand break repair, DNA recombination, DNA replication, and telomere maintenance. The enzyme is comprised of an N-terminal oligomerization domain followed by a conserved core RecQ helicase domain containing the helicase domain, the RecQ C-terminal (RQC) domain and the helicase-and-ribonuclease D-C terminal (HRDC) domains ([Fig. 4a](#fig4)). The N-terminus of BLM induces oligomerization of the full-length enzyme, but the role of these structures in promoting BLM’s myriad functions is still unknown [[52](#ref52)]. The RQC domain directs binding to of BLM to ssDNA–dsDNA junctions, and aids in coupling ATP hydrolysis to DNA unwinding (_see_ Note 6) [[53](#ref53), [54](#ref54)]. The HRDC domain has weak affinity for ssDNA and is required in BLM-catalyzed dissolution of double Holliday junctions [[54](#ref54)–[57](#ref57)]. BLM unwinds a variety of DNA substrates during DNA replication and repair (14). BLM is also critical for DSB resection because it stimulates the DNA resection activities of both EXO1 and DNA2 nucleases [[22](#ref22)–[25](#ref25), [40](#ref40)]. Along with EXO1 and DNA2, RPA also physically interacts with BLM and stimulates BLM's helicase activity [[58](#ref58)–[60](#ref60)]. However, the mechanism of this stimulation is unknown, nor is the functional overlap with the DNA2 helicase activity. One gap in the field is that most biochemical and biophysical studies have focused on an _E. coli_ -expressed BLM truncation that retains just the core RecQ helicase domain [[61](#ref61)–[67](#ref67)]. This truncated BLM likely recapitulates the key features of the motor core but lacks the oligomerization and additional regulatory peptides that facilitate interactions with other repair proteins. Here, we describe the purification of full-length BLM with an N-terminal FLAG and a C-terminal His6 epitope from Sf21 insect cells using the Bac-to-Bac (Life Tech.) expression system ([Fig. 4b](#fig4)). We also describe single-molecule analysis of BLM helicase activity on DNA curtains by tracking both fluorescently tagged BLM and RPA-GFP ([Fig. 4c](#fig4), [d](#fig4)).
+BLM is a 3ʹ to 5ʹ ATP-dependent helicase and one of five helicases found in humans with structural similarity to _E. coli_ RecQ [[50](#ref50), [51](#ref51)]. BLM is a key player in DNA double-strand break repair, DNA recombination, DNA replication, and telomere maintenance. The enzyme is comprised of an N-terminal oligomerization domain followed by a conserved core RecQ helicase domain containing the helicase domain, the RecQ C-terminal (RQC) domain and the helicase-and-ribonuclease D-C terminal (HRDC) domains ([Fig. 4a](#fig4)). The N-terminus of BLM induces oligomerization of the full-length enzyme, but the role of these structures in promoting BLM’s myriad functions is still unknown [[52](#ref52)]. The RQC domain directs binding to of BLM to ssDNA–dsDNA junctions, and aids in coupling ATP hydrolysis to DNA unwinding (_see_ Note 6) [[53](#ref53), [54](#ref54)]. The HRDC domain has weak affinity for ssDNA and is required in BLM-catalyzed dissolution of double Holliday junctions [[54](#ref54)–[57](#ref57)]. BLM unwinds a variety of DNA substrates during DNA replication and repair [[14](#ref14)]. BLM is also critical for DSB resection because it stimulates the DNA resection activities of both EXO1 and DNA2 nucleases [[22](#ref22)–[25](#ref25), [40](#ref40)]. Along with EXO1 and DNA2, RPA also physically interacts with BLM and stimulates BLM's helicase activity [[58](#ref58)–[60](#ref60)]. However, the mechanism of this stimulation is unknown, nor is the functional overlap with the DNA2 helicase activity. One gap in the field is that most biochemical and biophysical studies have focused on an _E. coli_-expressed BLM truncation that retains just the core RecQ helicase domain [[61](#ref61)–[67](#ref67)]. This truncated BLM likely recapitulates the key features of the motor core but lacks the oligomerization and additional regulatory peptides that facilitate interactions with other repair proteins. Here, we describe the purification of full-length BLM with an N-terminal FLAG and a C-terminal His₆ epitope from Sf21 insect cells using the Bac-to-Bac (Life Tech.) expression system ([Fig. 4b](#fig4)). We also describe single-molecule analysis of BLM helicase activity on DNA curtains by tracking both fluorescently tagged BLM and RPA-GFP ([Fig. 4c](#fig4), [d](#fig4)).
 <figure class="paper-figure" id="fig4">
 <img src="nihms-1040851-f0004.jpg" alt="Figure 4">
-<figcaption><strong>Figure 4. Direct Imaging of BLM helicase activity.</strong> (<b>a</b>) Domain map of BLM used for single-molecule assays. (<b>b</b>) Purification scheme and SDS-PAGE gel of FLAG-BLM-His6. (<b>c</b>) Kymograph of BLM (top) during helicase activity in the presence of RPA-GFP (green). Bottom: merged images. (<b>d</b>) BLM helicase generates two strands of ssDNA, which appears as RPA-GFP accumulation at the BLM position. (<b>e</b>) Quantification of RPA-GFP intensity. Solid lines represent a twenty-frame moving average filter of the raw particle tracking intensities</figcaption>
+<figcaption><strong>Figure 4. Direct Imaging of BLM helicase activity.</strong> (<b>a</b>) Domain map of BLM used for single-molecule assays. (<b>b</b>) Purification scheme and SDS-PAGE gel of FLAG-BLM-His₆. (<b>c</b>) Kymograph of BLM (top) during helicase activity in the presence of RPA-GFP (green). Bottom: merged images. (<b>d</b>) BLM helicase generates two strands of ssDNA, which appears as RPA-GFP accumulation at the BLM position. (<b>e</b>) Quantification of RPA-GFP intensity. Solid lines represent a twenty-frame moving average filter of the raw particle tracking intensities</figcaption>
 </figure>
 #### 3.3.1. Purification of BLM
-  1. Grow Sf21 insect cells in 60 15-cm dishes with a baculovirus harboring FLAG-BLM-His6, as recommended by the manufacturer. See Subheading 3.1.1 for details.
+  1. Grow Sf21 insect cells in 60 15-cm dishes with a baculovirus harboring FLAG-BLM-His₆, as recommended by the manufacturer. See Subheading 3.1.1 for details.
   2. Harvest 2 L of Sf21 cells 72 h after infection. Centrifuge at 4000 × _g_ to pellet the cells, snap-freeze in liquid nitrogen, and store at −80 °C until purification.
   3. Thaw the pellet quickly at room temperature.
   4. Homogenize pellet in 40 mL of BLM Lysis Buffer in a 40 mL Dounce homogenizer with 50 strokes of a B pestle.
@@ -206,7 +206,7 @@ BLM is a 3ʹ to 5ʹ ATP-dependent helicase and one of five helicases found in hu
   8. Centrifuge the sample at 500 × _g_ for 2 min. Keep a small aliquot for analysis.
   9. Transfer Ni-NTA resin to a disposable column.
   10. Wash the resin with 50 mL of BLM Lysis Buffer three times.
-  11. Add 15 mL of Ni2+ B Buffer: to resin and incubate for 30 min at 4 °C.
+  11. Add 15 mL of Ni²⁺ B Buffer to resin and incubate for 30 min at 4 °C.
   12. Collect the 15 mL of sample from the Ni-NTA resin. Keep a small aliquot for analysis.
   13. Add sample to 0.8 mL of equilibrated anti-FLAG M2 affinity resin and incubate for 30 min at 4 °C.
   14. Transfer FLAG resin to a disposable column.
@@ -239,96 +239,156 @@ BLM is a 3ʹ to 5ʹ ATP-dependent helicase and one of five helicases found in hu
 ---
 ## Acknowledgments
 We are indebted to Drs. Mauro Modesti and Tanya Paull for plasmids, cell pellets, and other reagents. This work was supported by the National Institutes of Health (GM120554 and CA092584) and the Welch Foundation (F-1808 to I.J.F.). M.M.S. is supported by a Postdoctoral Fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452).
-## 4 Notes
-1.
-Quantum dots (QDs), while having a high quantum yield, also have batch-to-batch variation in the percent of “dark” QDs. One estimate indicates that 25–75% of QDs in a particular batch may not be fluorescent [[68](#ref68), [69](#ref69)].
-2.
-EXO1 will load onto nicks and blunt ends with roughly equal affinity. Avoid centrifugation and pipette gently with wide-bore tips to avoid accumulating unwanted nicks in the 48.5 kb-long DNA substrate. Even with the gentlest handling, we routinely observe ~3–5 nicks in freshly prepared DNA substrates. We find that addition of the 78-nt long 3ʹ ssDNA overhang stimulates loading of ~60% of the EXO1 molecules at the DNA ends as opposed to internal nicks.
-3.
-EXO1 loading on DNA ends is salt sensitive. We did not observe efficient protein binding to the DNA above ~80 mM NaCl (total ionic strength: 103 mM). Preloading the EXO1 and then switching to a buffer at 120 mM NaCl (total ionic strength: 143 mM) retained most of the EXO1 molecules. We typically inject 4 nM of EXO1 in Imaging Buffer supplemented with 60 mM NaCl, resulting in ~1 EXO1 molecule per DNA substrate.
-4.
-Movement of the FLAG tag to the N-terminus of DNA2 results in low protein expression (personal communication).
-5.
-DNA2 activity is inhibited when an anti-Flag antibody-conjugated QD is appended to the C-terminus. This suggests that both termini may be important for regulating helicase/nuclease activity.
-6.
-BLM binding to DNA is nucleotide-dependent. We observe that BLM loads onto DNA curtains nonspecifically in the apo (no nucleotide) or ADP-bound states. To promote specific DNA end binding, 1 mM ATP is added to the reaction buffer.
-7.
-Unlike EXO1, BLM can also load onto DNA substrates containing a blunt end or a 12 nt 5ʹ-overhang.
-8.
-BLM helicase activity and fluorescent labeling efficiency are highest when it is preincubated with the fluorescent antibodies prior to injection onto DNA curtains.
+## 4. Notes
+1. Quantum dots (QDs), while having a high quantum yield, also have batch-to-batch variation in the percent of “dark” QDs. One estimate indicates that 25–75% of QDs in a particular batch may not be fluorescent [[68](#ref68), [69](#ref69)].
+2. EXO1 will load onto nicks and blunt ends with roughly equal affinity. Avoid centrifugation and pipette gently with wide-bore tips to avoid accumulating unwanted nicks in the 48.5 kb-long DNA substrate. Even with the gentlest handling, we routinely observe ~3–5 nicks in freshly prepared DNA substrates. We find that addition of the 78-nt long 3ʹ ssDNA overhang stimulates loading of ~60% of the EXO1 molecules at the DNA ends as opposed to internal nicks.
+3. EXO1 loading on DNA ends is salt sensitive. We did not observe efficient protein binding to the DNA above ~80 mM NaCl (total ionic strength: 103 mM). Preloading the EXO1 and then switching to a buffer at 120 mM NaCl (total ionic strength: 143 mM) retained most of the EXO1 molecules. We typically inject 4 nM of EXO1 in Imaging Buffer supplemented with 60 mM NaCl, resulting in ~1 EXO1 molecule per DNA substrate.
+4. Movement of the FLAG tag to the N-terminus of DNA2 results in low protein expression (personal communication).
+5. DNA2 activity is inhibited when an anti-Flag antibody-conjugated QD is appended to the C-terminus. This suggests that both termini may be important for regulating helicase/nuclease activity.
+6. BLM binding to DNA is nucleotide-dependent. We observe that BLM loads onto DNA curtains nonspecifically in the apo (no nucleotide) or ADP-bound states. To promote specific DNA end binding, 1 mM ATP is added to the reaction buffer.
+7. Unlike EXO1, BLM can also load onto DNA substrates containing a blunt end or a 12 nt 5ʹ-overhang.
+8. BLM helicase activity and fluorescent labeling efficiency are highest when it is preincubated with the fluorescent antibodies prior to injection onto DNA curtains.
 
 ---
 
 ## References
 
 <span id="ref1">1.</span> Vilenchik MM, Knudson AG (2003) Endogenous DNA double-strand breaks: production, fidelity of repair, and induction of cancer. Proc Natl Acad Sci U S A 100:12871–12876
+
 <span id="ref2">2.</span> Vilenchik MM, Knudson AG (2006) Radiation dose-rate effects, endogenous DNA damage, and signaling resonance. Proc Natl Acad Sci U S A 103:17874–17879
+
 <span id="ref3">3.</span> Ciccia A, Elledge SJ (2010) The DNA damage response: making it safe to play with knives. Mol Cell 40:179–204
+
 <span id="ref4">4.</span> Symington LS (2016) Mechanism and regulation of DNA end resection in eukaryotes. Crit Rev Biochem Mol Biol 51:195–212
+
 <span id="ref5">5.</span> Symington LS, Gautier J (2011) Double-strand break end resection and repair pathway choice. Annu Rev Genet 45:247–271
+
 <span id="ref6">6.</span> Jasin M, Rothstein R (2013) Repair of strand breaks by homologous recombination. Cold Spring Harb Perspect Biol 5:a012740
+
 <span id="ref7">7.</span> Cannavo E, Cejka P (2014) Sae2 promotes dsDNA endonuclease activity within Mre11-Rad50-Xrs2 to resect DNA breaks. Nature 514:122–125
+
 <span id="ref8">8.</span> Paull TT, Gellert M (1998) The 3ʹ to 5ʹ exonuclease activity of Mre11 facilitates repair of DNA double-strand breaks. Mol Cell 1:969–979
+
 <span id="ref9">9.</span> Shibata A, Moiani D, Arvai AS et al. (2014) DNA double-strand break repair pathway choice is directed by distinct MRE11 nuclease activities. Mol Cell 53:7–18
+
 <span id="ref10">10.</span> Lukas C, Melander F, Stucki M et al. (2004) Mdc1 couples DNA double-strand break recognition by Nbs1 with its H2AX-dependent chromatin retention. EMBO J 23:2674–2683
+
 <span id="ref11">11.</span> Stracker TH, Petrini JHJ (2011) The MRE11 complex: starting from the ends. Nat Rev Mol Cell Biol 12:90–103
+
 <span id="ref12">12.</span> Lee J-H, Mand MR, Deshpande RA et al. (2013) Ataxia telangiectasia-mutated (ATM) kinase activity is regulated by ATP-driven conformational changes in the Mre11/Rad50/Nbs1 (MRN) complex. J Biol Chem 288:12840–12851
+
 <span id="ref13">13.</span> Tauchi H, Kobayashi J, Morishima K et al. (2002) Nbs1 is essential for DNA repair by homologous recombination in higher vertebrate cells. Nature 420:93–98
+
 <span id="ref14">14.</span> Desai-Mehta A, Cerosaletti KM, Concannon P (2001) Distinct functional domains of nibrin mediate Mre11 binding, focus formation, and nuclear localization. Mol Cell Biol 21:2184–2191
+
 <span id="ref15">15.</span> Williams RS, Dodson GE, Limbo O et al. (2009) Nbs1 flexibly tethers Ctp1 and Mre11-Rad50 to coordinate DNA double-strand break processing and repair. Cell 139:87–99
+
 <span id="ref16">16.</span> Deshpande RA, Lee J-H, Arora S et al. (2016) Nbs1 converts the human Mre11/Rad50 nuclease complex into an endo/exonuclease machine specific for protein-DNA adducts. Mol Cell 64:593–606
+
 <span id="ref17">17.</span> Anand R, Ranjha L, Cannavo E et al. (2016) Phosphorylated CtIP functions as a co-factor of the MRE11-RAD50-NBS1 endonuclease in DNA end resection. Mol Cell 64:940–950
+
 <span id="ref18">18.</span> Myler LR, Gallardo IF, Soniat MM et al. (2017) Single-molecule imaging reveals how Mre11-Rad50-Nbs1 initiates DNA break repair. Mol Cell 67:891–898
+
 <span id="ref19">19.</span> Mimitou EP, Symington LS (2008) Sae2, Exo1 and Sgs1 collaborate in DNA double-strand break processing. Nature 455:770–774
+
 <span id="ref20">20.</span> Zhu Z, Chung W-H, Shim EY et al. (2008) Sgs1 helicase and two nucleases Dna2 and Exo1 resect DNA double-strand break ends. Cell 134:981–994
+
 <span id="ref21">21.</span> Garcia V, Phelps SE, Gray S et al. (2011) Bidirectional resection of DNA double-strand breaks by Mre11 and Exo1. Nature 479:241–244
+
 <span id="ref22">22.</span> Cejka P, Cannavo E, Polaczek P et al. (2010) DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2. Nature 467:112–116
+
 <span id="ref23">23.</span> Nimonkar AV, Genschel J, Kinoshita E et al. (2011) BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. Genes Dev 25:350–362
+
 <span id="ref24">24.</span> Nimonkar AV, Ozsoy AZ, Genschel J et al. (2008) Human exonuclease 1 and BLM helicase interact to resect DNA and initiate DNA repair. Proc Natl Acad Sci U S A 105:16906–16911
+
 <span id="ref25">25.</span> Niu H, Chung W-H, Zhu Z et al. (2010) Mechanism of the ATP-dependent DNA end-resection machinery from Saccharomyces cerevisiae. Nature 467:108–111
+
 <span id="ref26">26.</span> Gravel S, Chapman JR, Magill C et al. (2008) DNA helicases Sgs1 and BLM promote DNA double-strand break resection. Genes Dev 22:2767–2772
+
 <span id="ref27">27.</span> Mimitou EP, Symington LS (2011) DNA end resection—Unraveling the tail. DNA Repair 10:344–348
+
 <span id="ref28">28.</span> Tomimatsu N, Mukherjee B, Deland K et al. (2012) Exo1 plays a major role in DNA end resection in humans and influences double-strand break repair and damage signaling decisions. DNA Repair 11:441–448
+
 <span id="ref29">29.</span> Myler LR, Gallardo IF, Zhou Y et al. (2016) Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. Proc Natl Acad Sci U S A 113:e1170–e1179
+
 <span id="ref30">30.</span> Gallardo IF, Pasupathy P, Brown M et al. (2015) High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. Langmuir 31:10310–10317
+
 <span id="ref31">31.</span> Levikova M, Pinto C, Cejka P (2017) The motor activity of DNA2 functions as an ssDNA translocase to promote DNA end resection. Genes Dev 31:493–502
+
 <span id="ref32">32.</span> Levikova M, Klaue D, Seidel R et al. (2013) Nuclease activity of Saccharomyces cerevisiae Dna2 inhibits its potent DNA helicase activity. Proc Natl Acad Sci U S A 110:E1992–E2001
+
 <span id="ref33">33.</span> Pinto C, Kasaciunaite K, Seidel R et al. (2016) Human DNA2 possesses a cryptic DNA unwinding activity that functionally integrates with BLM or WRN helicases. elife 5:e18574
+
 <span id="ref34">34.</span> Szankasi P, Smith GR (1992) A DNA exonuclease induced during meiosis of Schizosaccharomyces pombe. J Biol Chem 267:3014–3023
+
 <span id="ref35">35.</span> Wu P, Takai H, de LT (2012) Telomeric 3ʹ overhangs derive from resection by Exo1 and Apollo and fill-in by POT1b-associated CST. Cell 150:39–52
+
 <span id="ref36">36.</span> Modrich P (2006) Mechanisms in eukaryotic mismatch repair. J Biol Chem 281:30305–30309
+
 <span id="ref37">37.</span> Pasero P, Vindigni A (2017) Nucleases acting at stalled forks: how to reboot the replication program with a few shortcuts. Annu Rev Genet 51:477–499
+
 <span id="ref38">38.</span> Orans J, McSweeney EA, Iyer RR et al. (2011) Structures of human exonuclease 1 DNA complexes suggest a unified mechanism for nuclease family. Cell 145:212–223
+
 <span id="ref39">39.</span> Shi Y, Hellinga HW, Beese LS (2017) Interplay of catalysis, fidelity, threading, and processivity in the exo- and endonucleolytic reactions of human exonuclease I. Proc Natl Acad Sci U S A 114:6010–6015
+
 <span id="ref40">40.</span> Yang S-H, Zhou R, Campbell J et al. (2013) The SOSS1 single-stranded DNA binding complex promotes DNA end resection in concert with Exo1. EMBO J 32:126–139
+
 <span id="ref41">41.</span> Genschel J, Modrich P (2003) Mechanism of 5ʹ-directed excision in human mismatch repair. Mol Cell 12:1077–1086
+
 <span id="ref42">42.</span> Finkelstein IJ, Visnapuu M-L, Greene EC (2010) Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. Nature 468:983–987
+
 <span id="ref43">43.</span> Duffy S, Tsao KL, Waugh DS (1998) Site-specific, enzymatic biotinylation of recombinant proteins in Spodoptera frugiperda cells using biotin acceptor peptides. Anal Biochem 262:122–128
+
 <span id="ref44">44.</span> Sorenson AE, Askin SP, Schaeffer PM (2015) In-gel detection of biotin–protein conjugates with a green fluorescent streptavidin probe. Anal Methods 7:2087–2092
+
 <span id="ref45">45.</span> Soniat MM, Myler LR, Schaub JM et al. (2017) Next-Generation DNA curtains for single-molecule studies of homologous recombination. In: Eichman BF (ed) Methods in Enzymology. Academic Press, Cambridge, MA, pp 259–281
+
 <span id="ref46">46.</span> Finkelstein IJ, Greene EC (2011) Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. Methods Mol Biol 745:447–461
+
 <span id="ref47">47.</span> Miller AS, Daley JM, Pham NT et al. (2017) A novel role of the Dna2 translocase function in DNA break resection. Genes Dev 31:503–510
+
 <span id="ref48">48.</span> Zhou C, Pourmal S, Pavletich NP (2015) Dna2 nuclease-helicase structure, mechanism and regulation by Rpa. elife 4:e09832
+
 <span id="ref49">49.</span> Masuda-Sasa T, Imamura O, Campbell JL (2006) Biochemical analysis of human Dna2. Nucleic Acids Res 34:1865–1875
+
 <span id="ref50">50.</span> Croteau DL, Popuri V, Opresko PL et al. (2014) Human RecQ helicases in DNA repair, recombination, and replication. Annu Rev Biochem 83:519–552
+
 <span id="ref51">51.</span> Bernstein KA, Gangloff S, Rothstein R (2010) The RecQ DNA helicases in DNA repair. Annu Rev Genet 44:393–417
+
 <span id="ref52">52.</span> Beresten SF, Stan R, van Brabant AJ et al. (1999) Purification of overexpressed hexahistidine-tagged BLM N431 as oligomeric complexes. Protein Expr Purif 17:239–248
+
 <span id="ref53">53.</span> Janscak P, Garcia PL, Hamburger F et al. (2003) Characterization and mutational analysis of the RecQ core of the bloom syndrome protein. J Mol Biol 330:29–42
+
 <span id="ref54">54.</span> Kitano K (2014) Structural mechanisms of human RecQ helicases WRN and BLM. Front Genet 5:366
+
 <span id="ref55">55.</span> Bernstein DA, Keck JL (2003) Domain mapping of Escherichia coli RecQ defines the roles of conserved N- and C-terminal regions in the RecQ family. Nucleic Acids Res 31:2778–2785
+
 <span id="ref56">56.</span> Kim YM, Choi B-S (2010) Structure and function of the regulatory HRDC domain from human Bloom syndrome protein. Nucleic Acids Res 38:7764–7777
+
 <span id="ref57">57.</span> Liu Z, Macias MJ, Bottomley MJ et al. (1999) The three-dimensional structure of the HRDC domain and implications for the Werner and Bloom syndrome proteins. Structure 7:1557–1566
+
 <span id="ref58">58.</span> Brosh RM, Li J-L, Kenny MK et al. (2000) Replication protein A physically interacts with the Bloom's syndrome protein and stimulates its helicase activity. J Biol Chem 275:23500–23508
+
 <span id="ref59">59.</span> Doherty KM, Sommers JA, Gray MD et al. (2005) Physical and functional mapping of the replication protein A interaction domain of the Werner and Bloom syndrome helicases. J Biol Chem 280:29494–29505
+
 <span id="ref60">60.</span> Kang D, Lee S, Ryu K-S et al. (2018) Interaction of replication protein A with two acidic peptides from human Bloom syndrome protein. FEBS Lett 592:547–558
+
 <span id="ref61">61.</span> Guo R-B, Rigolet P, Ren H et al. (2007) Structural and functional analyses of disease-causing missense mutations in Bloom syndrome protein. Nucleic Acids Res 35:6297–6310
+
 <span id="ref62">62.</span> Chatterjee S, Zagelbaum J, Savitsky P et al. (2014) Mechanistic insight into the interaction of BLM helicase with intra-strand G-quadruplex structures. Nat Commun 5:ncomms6556
+
 <span id="ref63">63.</span> Yodh JG, Stevens BC, Kanagaraj R et al. (2009) BLM helicase measures DNA unwound before switching strands and hRPA promotes unwinding reinitiation. EMBO J 28:405–416
+
 <span id="ref64">64.</span> Newman JA, Savitsky P, Allerston CK et al. (2015) Crystal structure of the Bloom's syndrome helicase indicates a role for the HRDC domain in conformational changes. Nucleic Acids Res 43:5221–5235
+
 <span id="ref65">65.</span> Swan MK, Legris V, Tanner A et al. (2014) Structure of human Bloom's syndrome helicase in complex with ADP and duplex DNA. Acta Crystallogr D Biol Crystallogr 70:1465–1475
+
 <span id="ref66">66.</span> Nguyen GH, Dexheimer TS, Rosenthal AS et al. (2013) A small molecule inhibitor of the BLM helicase modulates chromosome stability in human cells. Chem Biol 20:55–62
+
 <span id="ref67">67.</span> Karow JK, Chakraverty RK, Hickson ID (1997) The Bloom's syndrome gene product is a 3ʹ–5ʹ DNA helicase. J Biol Chem 272:30611–30614
+
 <span id="ref68">68.</span> Yao J, Larson DR, Vishwasrao HD et al. (2005) Blinking and nonradiant dark fraction of water-soluble quantum dots in aqueous solution. Proc Natl Acad Sci U S A 102:14284–14289
+
 <span id="ref69">69.</span> Ebenstein Y, Mokari T, Banin U (2002) Fluorescence quantum yield of CdSe/ZnS nanocrystals investigated by correlated atomic-force and single-particle fluorescence microscopy. Appl Phys Lett 80:4033–4035
 
 
