@@ -28,15 +28,15 @@ pmcid: PMC5951408
 
 ---
 
-##  Abstract
+## Abstract
 Whole-lifespan single-cell analysis has greatly increased our understanding of fundamental cellular processes such as cellular aging. To observe individual cells across their entire lifespan, all progeny must be removed from the growth medium, typically via manual microdissection. However, manual microdissection is laborious, low-throughput, and incompatible with fluorescence microscopy. Here, we describe assembly and operation of the multiplexed-Fission Yeast Lifespan Microdissector (multFYLM), a high-throughput microfluidic device for rapidly acquiring single-cell whole-lifespan imaging. multFYLM captures approximately one thousand rod-shaped fission yeast cells from up to six different genetic backgrounds or treatment regimens. The immobilized cells are fluorescently imaged for over a week, while the progeny cells are removed from the device. The resulting datasets yield high-resolution multi-channel images that record each cell’s replicative lifespan. We anticipate that the multFYLM will be broadly applicable for single-cell whole-lifespan studies in the fission yeast (_Schizosaccharomyces pombe_) and other symmetrically-dividing unicellular organisms. 
 **Keywords:** Cellular aging, Lifespan, Microdissection, Microfluidics, Lithography, Fabrication
 ---
-##  Background
+## Background
 Cellular aging results in the cumulative decline of cellular function that eventually leads to mortality. Most studies of cellular aging focus on the replicative lifespan of model unicellular organisms, such as budding yeast _Saccharomyces cerevisiae_ ([Nyström and Liu, 2014](#ref19); [Wasko and Kaeberlein, 2014](#ref30); [Wierman and Smith, 2014](#ref31); [Ruetenik and Barrientos, 2015](#ref21)). The replicative lifespan (RLS) of a cell is defined as the number of daughters produced by a mother cell over the course of its life ([Henderson and Gottschling, 2008](#ref8); [Sutphin _et al._, 2014](#ref27)). RLS studies have greatly expanded our understanding of cellular aging in mitotically active cells. For example, in budding yeast, old mothers preferentially retain misfolded proteins and other cellular senescence factors from the budding daughter cells ([Aguilaniu _et al._, 2003](#ref1); [Hughes and Gottschling, 2012](#ref10); [Liu _et al._, 2010](#ref14); [Saka _et al._, 2013](#ref22); [Zhou _et al._, 2014](#ref34); [Paoletti _et al._, 2016](#ref20)). This feat is achieved by restricting the flow of these ‘senescence factors’ across the bud septum, preventing their accumulation in the rejuvenated daughters ([Shcheprova _et al._, 2008](#ref23); [Higuchi-Sanabria _et al._, 2014](#ref9)). Whether senescence factors are also segregated in symmetrically dividing cells is unclear ([Wang _et al._, 2010](#ref29); [Coelho _et al._, 2013](#ref4); [Nakaoka and Wakamoto, 2017](#ref17)). Indeed, relatively little is known about the mechanisms and causes of aging in symmetrically dividing cells. 
 Whole-lifespan cellular aging studies require the separation of aging cells from their progeny. Pioneering, early studies in budding yeast removed daughter cells from their mothers via manual microdissection ([Mortimer and Johnston, 1959](#ref16)). Since the first such study in 1959, manual microdissection still remains a popular, albeit laborious method for studying replicative aging in most unicellular organisms ([Mortimer and Johnston, 1959](#ref16); [Kennedy _et al._, 1994](#ref12); [Barker and Walmsley, 1999](#ref2); [Fu _et al._, 2008](#ref6)). However, the low-throughput and laborious nature of this assay limits our current understanding of replicative aging. Most recently, removal of progeny cells has been automated in microfluidic devices that capture and retain individual aging cells ([Wang _et al._, 2010](#ref29); [Lee _et al._, 2012](#ref13); [Xie _et al._, 2012](#ref32); [Zhang _et al._, 2012](#ref33); [Tian _et al._, 2013](#ref28); [Crane _et al._, 2014](#ref5); [Nobs and Maerkl, 2014](#ref18); [Jo _et al._, 2015](#ref11); [Liu _et al._, 2015](#ref15); [Nakaoka and Wakamoto, 2017](#ref17); [Spivey _et al._, 2017](#ref25)). Using such devices, relatively large cohorts of individual cells (100 s to 1,000 s of cells) can then be tracked independently from one another. However, most of these approaches focused on prokaryotic cells or the asymmetrically dividing budding yeast ([Spivey and Finkelstein, 2014](#ref24); [Chen _et al._, 2017](#ref3)). 
 Here, we describe the fabrication and assembly of a microfluidic device for capturing and imaging thousands of fission yeast cells over their entire replicative lifespans. The multiplexed fission yeast lifespan microdissector (multFYLM) enables the experimentalist to track the lifespan of over a thousand fission yeast cells ([Spivey _et al._, 2017](#ref25)). The cells may be continuously imaged for up to six independent populations for over a week, yielding high-resolution imaging over each cell’s replicative lifespan. The multFYLM is constructed of silicone elastomer using templates manufactured via UV photo-lithography. The protocol contained herein details construction of the multFYLM, loading with fission yeast cells, and image collection using a fluorescent microscope. We anticipate that this protocol will be broadly useful for long-term imaging of rod-shaped eukaryotic cells and will shed light on diverse biological processes, including cell cycle regulation, chromatin dynamics, proteome homeostasis, and cellular aging. 
-##  Materials and Reagents
+## Materials and Reagents
   1. Microfabrication
     1. SU-8 2005 photoresist (Microchem)
     2. SU-8 2010 photoresist (Microchem)
@@ -85,7 +85,7 @@ _Manufacturer: Electron Microscopy Sciences, catalog number: 2423610._
     12. YES 225 agar media (Recipe 1)
     13. YES 225 liquid media (Recipe 2)
 
-##  Equipment
+## Equipment
   1. Microfabrication
     1. 1 L flask (No. 1000; Corning, Pyrex®, catalog number: 1000-1L) 
     2. Suss MA-6 Mask Aligner (Suss MicroTec Lithography GmbH)
@@ -134,25 +134,38 @@ _Note: This product has been discontinued._
 Chamber design file available at:
 <https://github.com/finkelsteinlab/FYLM_mask_files/blob/master/FYLMChamber.scad>
 
-<figure class="paper-figure" id="fig4">
-<img src="BioProtoc-8-07-2783-g004.jpg" alt="Figure 4">
-<figcaption><strong>Figure 4. Epifluorescent microscope prepared for imaging of the multFYLM.</strong> A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.</figcaption>
-</figure>
-##  Software
+## Software
   1. NIS-Elements Advanced Research (v4.30.02; Nikon Instruments)
 
 ---
-##  Procedure
+## Procedure
   1. Microfabrication
 multFYLM microfabrication follows conventional soft lithography methods. The first step is to generate a patterned mold, which can be used to cast devices in elastomeric silicone (PDMS). Such molds, or 'master' structures are created on silicon wafers, using UV lithography to deposit patterns on the surface in an epoxy resin (SU-8). The patterns are dictated by masks, which restrict the ability of a UV light source to cross-link the resin. Their alignment is critical to the proper patterning on the wafer, as features of the final master are contained on each of the two masks. A developer is used to remove unexposed resin, leaving a master that is now ready for use ([Fig. 1](#fig1)). A master can be used repeatedly for at least two years to make hundreds of multFYLM devices. 
 _Note: The procedures detailed below should be performed in a cleanroom. All instrument settings are unique to the equipment used and included as a guideline. These settings will need to be adjusted to match the instruments available in a user’s cleanroom. All microfabrication steps should be completed in a single day; although suitable stopping points may exist, they have not been tested._
+
+<figure class="paper-figure" id="fig1">
+<img src="BioProtoc-8-07-2783-g001.jpg" alt="Figure 1">
+<figcaption><strong>Figure 1. Overview of the multFYLM design.</strong> The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).</figcaption>
+</figure>
+
     1. Rinse the polished wafer surface with acetone, isopropanol, and then water.
     2. Air-dry the wafer while setting up the plasma cleaner.
     3. Set the hotplate to 200 °C.
 **_Plasma cleaning_**
 Plasma clean the wafer to yield an ultra-clean surface, so that resin patterns may be deposited on the surface with high resolution and adherence.
     4. Turn on the plasma cleaner and gas controller.
-    5. Create a plasma cleaning program (Table 1) that will clean the wafer with a 30/70 ratio of O2 to N2. More time does not necessarily yield a better surface. 
+    5. Create a plasma cleaning program (Table 1) that will clean the wafer with a 30/70 ratio of O₂ to N₂. More time does not necessarily yield a better surface. 
+
+### Table 1. First plasma cleaning program.
+Pressure | 0  
+---|---  
+Power | 150 W  
+EndPt | 100 sec  
+Temp | 25 °C  
+BP/RP | 90  
+R4(O₂)  | 30%  
+RF tuning switch | Manual  
+
     6. Break the chamber vacuum, and load the wafer with the polished side up.
 _Note: Manual operation works best for bleeding the vacuum._
     7. Run the cleaning program.
@@ -190,6 +203,16 @@ _Note: The resulting layer of SU-8 should be uniform. If not, the wafer must be 
 **_Expose wafer with the first mask_**
 Install the first mask and the resin-covered wafer into the mask aligner. Expose the wafer to UV light long enough to produce patterns in the resin at sufficient resolution. Under-exposure results in incomplete patterning or diminished features, while over-exposure results in enlarged features and low resolution.
     28. Adjust the mask aligner parameters (Table 2). The parameters here should only be used as a guideline. 
+
+### Table 2. Mask aligner parameters for the first layer.
+Exposure |  95 mJ/cm²  
+---|---  
+Mode | Vacuum  
+PreVac | 15 sec  
+FullVac | 10 sec  
+Purge time | 10 sec  
+WEC | Continuous  
+
     29. Set mask 1 into the mask holder.
       1. Remove and install the correct mask holder for 100-mm wafers.
       2. Set the mask in the holder chrome-side face up, using vacuum to hold the mask in.
@@ -208,10 +231,20 @@ Use developer to remove the unexposed resin from the wafer surface; this process
     40. Remove wafer.
     41. Rinse wafer surface with fresh developer.
     42. Rinse wafer surface with isopropanol.
-    43. Dry the wafer using pressurized N2. 
+    43. Dry the wafer using pressurized N₂. 
 **_Prepare the wafer for second exposure_**
 Deposit the second layer of resin evenly on the wafer surface to yield a resin thickness of 20-30 µm. Both the resin and spin parameters have been optimized for depositing a resin layer with the proper characteristics for the second exposure.
     44. Clean the wafer surface in the plasma cleaner following Steps A4-A10 but with the following program (Table 3). 
+
+### Table 3. Second plasma cleaning program.
+Pressure | 0  
+---|---  
+Power | 100 W  
+EndPt | 20 sec  
+Temp | 25 °C  
+BP/RP | 90  
+R4(O₂)  | 30%  
+
     45. Place the wafer directly on a hotplate with the polished surface face up for 20 min at 200 °C.
 _Note: This step assures that the wafer is dry. The temperature of the wafer does not have to be maintained once removed from the hotplate, but one should proceed quickly to the next step. A hot-hand protector mitt may be used to transfer the wafer between instruments._
     46. Place a 100-mm carousel on the spin coater.
@@ -231,6 +264,16 @@ _Note: This step assures that the wafer is dry. The temperature of the wafer doe
 **_Expose wafer with the second mask_**
 Install the second mask and the resin-covered wafer into the mask aligner. Expose the wafer to UV light long enough to produce patterns in the resin at sufficient resolution. Alignment at this step is critical, as it ensures that features produced using the second mask will overlay properly with those already on the wafer surface.
     58. Adjust the mask aligner parameters (Table 4). The parameters here should only be used as a guideline. 
+
+### Table 4. Mask aligner parameters for the second layer.
+Exposure |  150 mJ/cm²  
+---|---  
+Mode | Vacuum  
+PreVac | 15 sec  
+FullVac | 10 sec  
+Purge time | 10 sec  
+WEC | Continuous  
+
     59. Set mask 2 into the mask holder.
       1. Remove and install the correct mask holder for 100-mm wafers.
       2. Set the mask in the holder chrome-side face up, using vacuum to hold the mask in.
@@ -251,11 +294,17 @@ Use developer to remove the unexposed resin from the wafer surface. This process
     72. Rinse wafer surface with fresh developer.
     73. Rinse wafer surface with isopropanol.
     74. Repeat Steps A72-A73.
-    75. Dry the wafer using pressurized N2. 
+    75. Dry the wafer using pressurized N₂. 
   2. multFYLM assembly
 Assembly of the multFYLM via soft-lithography proceeds once the master structure is complete. The master structure is used as a mold for PDMS. Before the PDMS hardens, ports are added to allow media flow into the microfluidic structures. Once the silicone has set, it is cleaned and adhered to a large cover glass. The thin, transparent cover glass forms the base of the multFYLM and allows imaging of cells that are captured within the individual arms of the device.
 **_Cast the multFYLM in polydimethylsiloxane (PDMS)_**
 Prepare a PDMS solution according to the manufacturer's protocol ([Fig. 2](#fig2)). Wrap the master structure with tape to create a vertical barrier for the PDMS. Pour half of the solution onto the master structure. Soft-bake the first layer until it is tacky, then place a clean port over each conduit passage present on the master structure. Pour the remaining PDMS onto the first layer, then bake it until all the PDMS has fully hardened. 
+
+<figure class="paper-figure" id="fig2">
+<img src="BioProtoc-8-07-2783-g002.jpg" alt="Figure 2">
+<figcaption><strong>Figure 2. Soft lithography.</strong> A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.</figcaption>
+</figure>
+
      * 1
 Preheat oven to 75 °C.
      * 2
@@ -304,7 +353,7 @@ Remove the multFYLM from the master structure, then use a razor blade to trim aw
      * 20
 Place a cover glass in a Petri dish containing a 2% Hellmanex solution for one hour with agitation on a rocker.
      * 21
-Rinse the cover glass twice with diH2O. 
+Rinse the cover glass twice with diH₂O. 
      * 22
 Rinse the cover glass twice with isopropanol.
      * 23
@@ -355,13 +404,19 @@ Apply light pressure to the multFYLM to assure that it has fully-adhered to the 
        1. For best results, the multFYLM should be used within several hours of assembly. Alternatively, the multFYLM may be stored in 70% ethanol for extended, sterile storage.
        2. The completed multFYLM should be stored in a container to avoid contamination.
 **_Microscope and microfluidics setup_**
-Whole-lifespan imaging adds additional technical challenges to operating any microfluidic device. First, the microfluidic system must provide fresh media to the captured cells while also removing waste. Imperfections in the flow path can cause air bubbles that dislodge cells, potentially disrupting a multi-day experiment. Moreover, additional precautions must be taken to remove cells that are trapped upstream of the multFYLM. This is because these cells may grow into microcolonies during multFYLM operation, ultimately obstructing the flow of fresh media to the device. Second, the microscope should be equipped with stable optical and mechanical components for up to a week of continuous imaging. An active feedback focus-finding system ensures that the multFYLM can be imaged for several days without requiring any user intervention. Similarly, a light source (_i.e._ , LED lamp) that does not change in output intensity or spectrum during a week of continuous operation is recommended. Finally, we recommend that the entire device is enclosed in an incubator jacket that maintains optimal growth conditions for the desired cells (see Equipment D8). 
+Whole-lifespan imaging adds additional technical challenges to operating any microfluidic device. First, the microfluidic system must provide fresh media to the captured cells while also removing waste. Imperfections in the flow path can cause air bubbles that dislodge cells, potentially disrupting a multi-day experiment. Moreover, additional precautions must be taken to remove cells that are trapped upstream of the multFYLM. This is because these cells may grow into microcolonies during multFYLM operation, ultimately obstructing the flow of fresh media to the device. Second, the microscope should be equipped with stable optical and mechanical components for up to a week of continuous imaging. An active feedback focus-finding system ensures that the multFYLM can be imaged for several days without requiring any user intervention. Similarly, a light source (*i.e.*, LED lamp) that does not change in output intensity or spectrum during a week of continuous operation is recommended. Finally, we recommend that the entire device is enclosed in an incubator jacket that maintains optimal growth conditions for the desired cells (see Equipment D8). 
 **_Prepare microfluidic tubing_**
 Clean all the microfluidic fittings ([Fig. 3](#fig3)) that will be used for attaching to the multFYLM, then fit them onto microfluidic tubing. It is necessary to put a right angle in the tubing immediately after the fittings that will attach to the nanoports, otherwise the tubing will not clear the environmental chamber and microscope components. 
+
+<figure class="paper-figure" id="fig3">
+<img src="BioProtoc-8-07-2783-g003.jpg" alt="Figure 3">
+<figcaption><strong>Figure 3. Microfluidic fittings.</strong></figcaption>
+</figure>
+
      * 44
 Submerge all microfluidic fittings in a beaker containing 2% Hellmannex detergent and sonicate in a bath sonicator for 20 min on the sonication setting.
      * 45
-Rinse all fittings with diH2O three times. 
+Rinse all fittings with diH₂O three times. 
      * 46
 Submerge all microfluidic fittings in a beaker containing 100% ethanol and sonicate in a bath sonicator for 20 min on the sonication setting.
      * 47
@@ -413,11 +468,17 @@ Make a liter of degassed, filtered YES 225 media, and culture the yeast strains 
     4. Streak cells from glycerol stocks onto the agar plates four days prior to the start of the experiment. Plates should be incubated at 30 °C until colonies are well-formed, then left at room temperature.
     5. Select a 2-3 day-old colony and inoculate 10 ml of YES 225 media in a test tube.
     6. Incubate the cell culture overnight in a shaking incubator at 30 °C.
-    7. When the optical density at 595 nm (OD595) of the cell culture reaches 0.1, inoculate a fresh test tube containing 10 ml of YES 225 media. 
-    8. Incubate the new cell culture in a shaking incubator at 30 °C until the OD595 is 0.5 to 1.0 (4-6 h). 
+    7. When the optical density at 595 nm (OD₅₉₅) of the cell culture reaches 0.1, inoculate a fresh test tube containing 10 ml of YES 225 media. 
+    8. Incubate the new cell culture in a shaking incubator at 30 °C until the OD₅₉₅ is 0.5 to 1.0 (4-6 h). 
     9. Degas the YES 225 media by placing it in a vacuum desiccator with the bottle cap loose for 15 min. This should be done just prior to loading the media into syringes.
 **_Connect and clean media/waste lines_**
 Load the prepared media into syringes large enough to hold enough media for the entire experimental time course. Clean the media and waste lines using ethanol and sterile water, as sterility is essential to experimental success. Install the multFYLM in the environmental chamber, then connect the waste lines ([Fig. 4](#fig4)). 
+
+<figure class="paper-figure" id="fig4">
+<img src="BioProtoc-8-07-2783-g004.jpg" alt="Figure 4">
+<figcaption><strong>Figure 4. Epifluorescent microscope prepared for imaging of the multFYLM.</strong> A. The complete multFYLM microfluidic path. B. Microfluidic fittings connect lines to the multFYLM.</figcaption>
+</figure>
+
     10. Turn on the syringe pump.
     11. Determine how many flowpaths within the multFYLM will be used.
 Only three or four of the available six flowpaths are typically used due to spatial constraints and image collection rates. All six flowpaths can be used if the image collection rate is infrequent enough, the lines do not over-torque the multFYLM, and all areas can be observed by the microscope.
@@ -428,7 +489,7 @@ Only three or four of the available six flowpaths are typically used due to spat
       1. Syringe: B-D Plastipak 10 ml syringe
       2. 5 min
       3. 1 ml/min
-    16. Fill N 10 ml syringes with diH2O. 
+    16. Fill N 10 ml syringes with diH₂O. 
     17. Replace the ethanol syringes with the water syringes.
     18. Rerun the pump according to Step C15.
     19. Load N syringes with the degassed YES media.
@@ -464,6 +525,12 @@ Be very careful while attaching: use a drop-to-drop connection strategy to avoid
       2. Fourteen minutes at 5 µl/min.
       3. Repeat 725 times.
     33. Once cells have filled most of the channels to be observed, start the above program.
+
+<figure class="paper-figure" id="fig5">
+<img src="BioProtoc-8-07-2783-g005.jpg" alt="Figure 5">
+<figcaption><strong>Figure 5. <em>Schizosaccharomyces pombe</em> cells loaded into the multFYLM.</strong> A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).</figcaption>
+</figure>
+
 **_Begin image acquisition_**
 Using the NIS Elements software, set up a multi-dimensional acquisition strategy that will capture images of cells in each compartment of the multFYLM at regular time intervals, an in-focus and out-of-focus Z plane, and all filter sets necessary for the emission of the fluorophores in use (Table 5). Other software suites may be used, though the following directions are specific to NIS Elements. 
     34. Move the 60x air objective into place.
@@ -492,69 +559,7 @@ Camera ROI file:
       1. X-Y positions should be tiled across the observable cells.
       2. It is recommended that positions be defined in a loop pattern to avoid large changes in the focal plane, which can lead to loss of focus mid-experiment.
     43. Once all parameters have been set (Table 5), press ‘Run’. 
-    44. Observe the first few rounds of imaging to assure that everything remains as set.
-    45. The experiment should be observed at least once a day to check for errors and to collect a new image file. Downstream analysis is optimized for files containing 24 h of data.
-    46. After 24 h, press ‘Finish’ to complete one day’s collection.
-      1. This will also save the file, though saving can be assured by accessing ’Save’ in the ‘File’ menu.
-      2. If prompted, it is not necessary to complete the current loop before finishing.
-    47. Image analysis software may now be used to create videos and analyze the collected data.
 
-<figure class="paper-figure" id="fig1">
-<img src="BioProtoc-8-07-2783-g001.jpg" alt="Figure 1">
-<figcaption><strong>Figure 1. Overview of the multFYLM design.</strong> The multFYLM contains six independent paths. Media enters through each nanoport at the top of the device (Entry), and then follows the path indicated by blue arrows, before exiting through nanoports at the bottom of the device (Exit).</figcaption>
-</figure>
-### Table 1. First plasma cleaning program.
-Pressure | 0  
----|---  
-Power | 150 W  
-EndPt | 100 sec  
-Temp | 25 °C  
-BP/RP | 90  
-R4(O2)  | 30%  
-RF tuning switch | Manual  
-
-### Table 2. Mask aligner parameters for the first layer.
-Exposure |  95 mJ/cm2  
----|---  
-Mode | Vacuum  
-PreVac | 15 sec  
-FullVac | 10 sec  
-Purge time | 10 sec  
-WEC | Continuous  
-
-### Table 3. Second plasma cleaning program.
-Pressure | 0  
----|---  
-Power | 100 W  
-EndPt | 20 sec  
-Temp | 25 °C  
-BP/RP | 90  
-R4(O2)  | 30%  
-
-### Table 4. Mask aligner parameters for the second layer.
-Exposure |  150 mJ/cm2  
----|---  
-Mode | Vacuum  
-PreVac | 15 sec  
-FullVac | 10 sec  
-Purge time | 10 sec  
-WEC | Continuous  
-
-
-<figure class="paper-figure" id="fig2">
-<img src="BioProtoc-8-07-2783-g002.jpg" alt="Figure 2">
-<figcaption><strong>Figure 2. Soft lithography.</strong> A. Paper tape surrounds the wafer containing the SU-8 master to keep the PDMS in place while it sets. B. First layer of PDMS. C. Layer one is semi-hardened. D. Nanoports are placed on the first layer. E. The second PDMS layer is poured around the nanoports. F. The fully-cured multFYLM, removed from the master structure.</figcaption>
-</figure>
-
-<figure class="paper-figure" id="fig3">
-<img src="BioProtoc-8-07-2783-g003.jpg" alt="Figure 3">
-<figcaption><strong>Figure 3. Microfluidic fittings.</strong></figcaption>
-</figure>
-
-<figure class="paper-figure" id="fig5">
-<img src="BioProtoc-8-07-2783-g005.jpg" alt="Figure 5">
-<figcaption><strong>Figure 5. <em>Schizosaccharomyces pombe</em> cells loaded into the multFYLM.</strong> A. 10x image of cells within a single flowpath immediately following the loading process. B. 60x image of cells viewable within the defined region of interest (ROI).</figcaption>
-</figure>
 ### Table 5. Example parameters for multi-dimensional image acquisition.
 Dimensions | T’(140) x XY(16) x Z(2) x λ(4)  
 ---|---  
@@ -606,25 +611,32 @@ PFS-S, mirror | Inserted |  | PFS-S, mirror | Inserted
 |  |  | Time Loop | 140-Nonequidistant  
 |  |  | Z Stack Loop | 2 - Step 4 µm  
 
-##  Data analysis
+    44. Observe the first few rounds of imaging to assure that everything remains as set.
+    45. The experiment should be observed at least once a day to check for errors and to collect a new image file. Downstream analysis is optimized for files containing 24 h of data.
+    46. After 24 h, press ‘Finish’ to complete one day’s collection.
+      1. This will also save the file, though saving can be assured by accessing ’Save’ in the ‘File’ menu.
+      2. If prompted, it is not necessary to complete the current loop before finishing.
+    47. Image analysis software may now be used to create videos and analyze the collected data.
+
+## Data analysis
 Information on how data collected using this methodology is analyzed can be found in these references ([Greenstein _et al._, 2017](#ref7); [Spivey _et al._, 2017](#ref25)). 
-##  Notes
+## Notes
   1. During microfabrication, the type and volume of photoresist, and the spin parameters can be varied to alter the height of the deposited features. Similarly, the type of photoresist and exposure time and intensity can be varied to alter the resolution and width of the deposited features. This can be particularly useful for capturing cells with slightly larger dimensions.
   2. A common failure point during multFYLM assembly is punching out the PDMS from the center of the nanoports. Often, removal of the punch results in the nanoport lifting away from the PDMS, creating a small pocket of air. With care, such pockets of air can later be expelled when the coverglass is pressed to the PDMS. If pockets remain, they can become a reservoir for air that will dislodge cells while passing through the multFYLM, or for other cells that can clump and block the passageways as the experiment proceeds.
   3. Loading the multFYLM with cells often works best with a freshly-assembled device, as the interior is still quite dehydrated, thus media and cells readily flow into it in order to rehydrate the surfaces. If the multFYLM has been stored for a length of time, it is advisable to run one ml of 70% ethanol, then one ml of water through the device backwards, so that air is not trapped in the exit channels. Otherwise, trapped air will not be displaced from the exit pathways, and adjacent channels will not yield the required pressure differential necessary for subsequent cell loading.
 
-##  Recipes
+## Recipes
   1. YES 225 agar media (1 L)
-    1. 36.13 g YES 225 powder, 20 g agar; add diH2O up to 1 L total volume 
+    1. 36.13 g YES 225 powder, 20 g agar; add diH₂O up to 1 L total volume 
     2. Autoclave, then pour 25 ml into individual Petri plates using sterile technique
   2. YES 225 liquid media (1 L)
-    1. 36.13 g of the YES 225 powder; add diH2O up to 1 L total volume. 
+    1. 36.13 g of the YES 225 powder; add diH₂O up to 1 L total volume. 
     2. Filter sterilize the solution–this will also remove small particulates that can lead to clogged passages. Autoclave treatment is not sufficient, as it will sterilize the solution but will not remove particulates
 
 ---
-##  Acknowledgments
+## Acknowledgments
 We would like to thank members of the Finkelstein laboratory for their input and advice during the development and preparation of this method. This work was generously supported by the following grants and fellowships: the American Federation for Aging Research (AFAR-020 to I.J.F.), the Welch Foundation (F-1808 to I.J.F.), and the NIH (F32 AG053051 to S.K.J.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Science Foundation. This protocol was adapted from prior designs ([Spivey _et al._, 2014](#ref26); [Spivey _et al._, 2017](#ref25)). 
-##  Citation
+## Citation
 Readers should cite both the Bio-protocol article and the original research article where this protocol was used.
 
 ---
