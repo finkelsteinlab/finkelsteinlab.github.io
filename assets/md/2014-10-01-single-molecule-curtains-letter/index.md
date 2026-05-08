@@ -46,8 +46,8 @@ Approach | Applications | Comments | References
 ---|---|---|---
 smFRET | Observing protein conformations, protein–nucleic acid binding and short-distance translocation | Used for short-distance (1–5 nm) interactions | [[15–19](#ref15)]
 Microfluidic DNA Curtains | Observing micron-length protein–DNA interactions | 1000's of molecules in single field-of-view, defined DNA orientation | [[26](#ref26),[27](#ref27),[32](#ref32)]
-Random Surface Tethering | Tens of molecules in single field-of-view. DNA orientation unknown. | [[1–3](#ref1)]
-DNA Tightropes | Tens of molecules in single field-of-view. Tension and orientation unknown | [[9](#ref9),[92](#ref92)]
+Random Surface Tethering | Observing protein–DNA interactions | Tens of molecules in single field-of-view. DNA orientation unknown. | [[1–3](#ref1)]
+DNA Tightropes | Observing protein–DNA interactions | Tens of molecules in single field-of-view. Tension and orientation unknown. | [[9](#ref9),[92](#ref92)]
 Tethered Particle Motion | Monitors changes in DNA length, which can be used as an indirect probe of enzyme activity. | 100's of molecules in single field-of-view | [[20](#ref20)]
 Multiplexed Magnetic Tweezers | Force spectroscopy of protein–DNA interactions. Torsional control possible. | 10's to 100's of molecules in single field-of-view | [[70](#ref70),[71](#ref71),[93](#ref93)]
 Multiplexed Optical Tweezers | Observing mechanical properties of DNA and protein–DNA interactions. | Offers 3D control of captured particles | [[78](#ref78),[79](#ref79)]
