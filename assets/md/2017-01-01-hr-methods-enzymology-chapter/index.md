@@ -22,13 +22,16 @@ pmcid: PMC5564670
 - [1. Introduction](#1-introduction)
 - [2. Methods](#2-methods)
 - [3. Applications](#3-applications)
+- [4. Notes](#4-notes)
 - [Acknowledgments](#acknowledgments)
 
 ---
 
 ## Abstract
 Homologous recombination (HR) is a universally conserved DNA double-strand break repair pathway. Single-molecule fluorescence imaging approaches have revealed new mechanistic insights into nearly all aspects of HR. These methods are especially suited for studying protein complexes because multicolor fluorescent imaging can parse out subassemblies and transient intermediates that associate with the DNA substrates on the millisecond to hour timescales. However, acquiring single-molecule datasets remains challenging because most of these approaches are designed to measure one molecular reaction at a time. The DNA curtains platform facilitates high-throughput single-molecule imaging by organizing arrays of DNA molecules on the surface of a microfluidic flowcell. Here, we describe a second-generation UV lithography-based protocol for fabricating flowcells for DNA curtains. This protocol greatly reduces the challenges associated with assembling DNA curtains and paves the way for the rapid acquisition of large datasets from individual single-molecule experiments. Drawing on our recent studies of human HR, we also provide an overview of how DNA curtains can be used for observing facilitated protein diffusion, processive enzyme translocation, and nucleoprotein filament dynamics on single-stranded DNA. Together, these protocols and case studies form a comprehensive introduction for other researchers that may want to adapt DNA curtains for high-throughput single-molecule studies of DNA replication, transcription, and repair.
+
 ---
+
 ## 1. INTRODUCTION
 DNA double-strand breaks (DSBs) occur when both strands of the DNA duplex are cleaved in close proximity, fragmenting the chromosome into two distinct pieces. Each of our cells must repair upward of 50 DSBs that arise spontaneously per cell cycle ([Vilenchik & Knudson, 2003](#ref50)). DSBs also occur as a result of radio- and chemotherapeutics, which remain our frontline treatments for cancer. Repairing DSBs rapidly and accurately is critical, as incorrect DSB repair may lead to genome rearrangements, oncogene activation, and tumor formation. The global importance of DSB repair is illustrated by the severe cancer syndromes in patients with disruptions in any of the DSB repair proteins. For example, mutations in the MRE11-RAD50-NBS1 (MRN) complex, which participates in the first steps of DSB repair as well as the DNA damage response, lead to several familial cancer syndromes, immunodeficiency, and intellectual disability ([Lamarche, Orazio, & Weitzman, 2010](#ref25); [Luo et al., 1999](#ref29); [Williams et al., 2002](#ref53)). While MRN deficiency can lead to genome instability, MRN overexpression is also seen in up to ~30% of cancer cell lines ([Cerami et al., 2012](#ref8)). By elevating MRN levels, cancer cells develop resistance to genotoxic treatments via MRN-dependent alternative end-joining pathways ([Bunting & Nussenzweig, 2013](#ref5)). The spectrum and severity of MRN-associated diseases likely arise from the global effects of diminished DSB repair and DNA damage signaling ([Paull, 2015](#ref38)).
 Eukaryotes have two major DSB repair pathways ([Fig. 1A](#fig1)). Non-homologous end joining (NHEJ) is an error-prone mechanism that does not use any DNA sequence homology to repair the DSB ([Weterings & Chen, 2008](#ref52)). NHEJ is active throughout the cell cycle and is the predominant repair pathway during the G1 phase in mammalian cells ([Bogomazova, Lagarkova, Tskhovrebova, Shutova, & Kiselev, 2011](#ref2); [Shahar et al., 2012](#ref42); [Shibata et al., 2011](#ref43)). We direct the reader to several excellent reviews that summarize the mechanisms of human NHEJ, which is beyond the scope of this manuscript ([Deriano & Roth, 2013](#ref12); [Weterings & Chen, 2008](#ref52)).
@@ -38,7 +41,9 @@ Eukaryotes have two major DSB repair pathways ([Fig. 1A](#fig1)). Non-homologous
 </figure>
 Broken DNA ends can also be repaired via homologous recombination (HR), which uses the intact sister chromatid to promote error-free repair ([Karanam, Kafri, Loewer, & Lahav, 2012](#ref23); [Mao, Bozzella, Seluanov, & Gorbunova, 2008](#ref30)). HR requires a spatiotemporally controlled assembly of repair enzymes at a DSB. In humans, HR is initiated by the MRN complex, which is one of the first repair factors to localize to DSBs ([Lisby & Rothstein, 2009](#ref27); [Lukas et al., 2004](#ref28)). The MRE11 subunit encodes a nuclease domain that initiates endo- and exonucleolytic processing of the free DNA ends ([Cannavo & Cejka, 2014](#ref6); [Paull & Gellert, 1998](#ref39); [Shibata et al., 2014](#ref44)). Following initial processing by MRN and CtIP, cells assemble a multienzyme resectosome consisting minimally of Exonuclease 1 (EXO1) and the Bloom's syndrome helicase (BLM). Together, the BLM-EXO1-MRN resectosome catalyzes long-range resection of the free DNA ends to produce 3′-ssDNA overhangs ([Cejka et al., 2010](#ref7); [Gravel, Chapman, Magill, & Jackson, 2008](#ref21); [Mimitou & Symington, 2011](#ref32); [Myler & Finkelstein, 2016](#ref34); [Nimonkar et al., 2011](#ref36); [Niu et al., 2010](#ref37); [Symington, 2016](#ref46); [Symington & Gautier, 2011](#ref47)). While EXO1 appears to be the major nuclease in human cells, a redundant resection pathway uses the DNA2 nuclease/helicase along with BLM to catalyze DNA resection ([Farah, Cromie, & Smith, 2009](#ref14); [Myler et al., 2016](#ref35); [Tomimatsu et al., 2014](#ref49); [Zhou, Caron, Legube, & Paull, 2014](#ref55)). The resectosome generates kilobase-length tracks of single-stranded DNA (ssDNA) that are initially bound by replication protein A (RPA). RPA is subsequently displaced by RAD51 recombinase, which forms presynaptic nucleoprotein filaments on the DNA ([Chen & Wold, 2014](#ref10); [Symington, 2016](#ref46)). The RAD51-ssDNA filament then searches for homologous sequences in a sister chromatid. After a stretch of homology is found, strand invasion creates a displacement loop, which is then extended by a DNA polymerase and resolved by structure-specific nucleases (resolvases) to complete error-free DSB repair ([Mehta & Haber, 2014](#ref31)). In sum, HR requires a spatiotemporal assembly of dozens of DNA repair enzymes at the site of the lesion.
 Here, we describe a rapid and scalable protocol for assembling high-throughput single-molecule DNA curtains to visualize the first steps of HR ([Fig. 1B](#fig1)). Observing DSB repair factors on DNA curtains permits the direct observation of transient protein-DNA interactions that are frequently averaged out in ensemble biochemical experiments. For example, we demonstrate an assay for observing how MRN rapidly locates to the DSB among a vast pool of homoduplex DNA. We also describe assays for observing how the multienzyme resectosome nucleolytically processes the free DNA ends and how RPA and RAD51 dynamically exchange on the resulting ssDNA substrate. More broadly, we anticipate that high-throughput DNA curtains will be widely applicable for single-molecule fluorescence studies for nearly all protein-nucleic acid interactions.
+
 ---
+
 ## 2. METHODS
 ### 2.1 Overview
 To assemble DNA curtains, DNA molecules are anchored to a supported lipid bilayer (SLB) via a biotin-streptavidin linkage and organized at patterned features on the flowcell surface ([Finkelstein & Greene, 2011](#ref16); [Gallardo et al., 2015](#ref18)). SLBs offer three key advantages for single-molecule studies of protein-DNA interactions. First, the zwitterionic lipid head groups provide excellent surface passivation, thereby preventing nonspecific adsorption of nucleic acids and proteins to the flowcell surfaces. Second, biotin, poly(ethylene glycol)s, and other chemically nonreactive species can be readily introduced into the bilayer by including these lipids during SLB preparation. Finally, SLBs form a two-dimensional fluid on the flowcell surface. This allows the bilayers to be readily manipulated via external shear or electrophoretic forces.
@@ -80,19 +85,19 @@ Below, we describe the minimal set of tools that are required for microfabricati
   10. Silicon wafer tape (18074-8.00; Semiconductor Equipment Corp.)
 
 #### 2.2.3 Protocol
-  1. Wash 100mm wafers with water, acetone, and isopropanol and then dry with N2 gas. Repeat until no stains are visible against light.
+  1. Wash 100mm wafers with water, acetone, and isopropanol and then dry with N₂ gas. Repeat until no stains are visible against light.
   2. Following cleaning, set a clean wafer on a hot plate heated at 120°C for at least 5min, then remove wafer, and let cool down.
   3. Load wafer on a spin coater and add ~3mL of photoresist to the center of wafer. Wafer should be covered ~80%, especially over pattern areas. Avoid forming bubbles in the photoresist.
-  4. Spin wafer at 500rpm for 5s followed by 4000rpm for 45s at a ramp rate of 300 rpms-1.
+  4. Spin wafer at 500rpm for 5s followed by 4000rpm for 45s at a ramp rate of 300 rpm s⁻¹.
   5. Set coated wafers on a hot plate set at 95°C for 2min, then remove wafer, and let cool (protect from UV light to avoid exposing the photoresist).
-  6. Linear barriers are produced by UV lithography using an MA6 mask aligner. Expose a Cr-coated quartz mask in vacuum mode with the photoresist-coated wafer for about 8s with a lamp power of 6.0-7.0 mWcm-2. AutoCAD files of the quartz masks are available on GitHub: <https://github.com/finkelsteinlab>. Exposure time may need to be optimized for the preferred developer and mask aligner.
-  7. Develop the resist by placing the wafer in developer for 1min while gently shaking. Purple lines should appear where patterns are located. After 1min, put wafer into water bath for 30s and blow-dry with N2 gas.
+  6. Linear barriers are produced by UV lithography using an MA6 mask aligner. Expose a Cr-coated quartz mask in vacuum mode with the photoresist-coated wafer for about 8s with a lamp power of 6.0-7.0 mW cm⁻². AutoCAD files of the quartz masks are available on GitHub: <https://github.com/finkelsteinlab>. Exposure time may need to be optimized for the preferred developer and mask aligner.
+  7. Develop the resist by placing the wafer in developer for 1min while gently shaking. Purple lines should appear where patterns are located. After 1min, put wafer into water bath for 30s and blow-dry with N₂ gas.
   8. Verify that discrete lines and pedestals are visible on wafer using a light microscope similar to patterns shown in [Fig. 2D](#fig2). If patterns are not well formed, repeat steps 1-7.
   9. Etch the wafers with oxygen plasma for 60s at 100W to remove residual photoresist from wafer surface.
-  10. Use an E-beam deposition system at 8kV to deposit a 13-nm layer of Cr (rate of deposition: 0.05 nms-1).
+  10. Use an E-beam deposition system at 8kV to deposit a 13-nm layer of Cr (rate of deposition: 0.05 nm s⁻¹).
   11. Lift off the photoresist and Cr from the wafer by sonication in acetone for 1min. Repeat sonication if excess photoresist remains. Time is very important here, as longer sonication may strip some Cr features from the wafer.
-  12. Rinse wafer with isopropanol to remove any additional Cr and dry with N2 gas.
-  13. Cover wafers in a clean-room silicon wafer tape and use a dicing saw to cut the wafers (0.5-1 mms-1 at 30,000rpm) into six 50mm × 22mm slides. Procedure for cutting wafer is listed below and cut sites labeled in [Fig. 2B](#fig2):
+  12. Rinse wafer with isopropanol to remove any additional Cr and dry with N₂ gas.
+  13. Cover wafers in a clean-room silicon wafer tape and use a dicing saw to cut the wafers (0.5-1 mm s⁻¹ at 30,000rpm) into six 50mm × 22mm slides. Procedure for cutting wafer is listed below and cut sites labeled in [Fig. 2B](#fig2):
     1. Make the first cut 22mm from the flat of the wafer.
     2. Following the first cut, move up 50mm to make the second cut followed by a 22mm movement up to make the third cut. Remove slides 5 and 6.
     3. Rotate slides 1-4 by 90 degrees and move 6mm from the bottom to make the fourth cut.
@@ -106,13 +111,13 @@ Below, we describe the minimal set of tools that are required for microfabricati
   1. Lipids buffer: 10mM Tris-HCl [pH 8.0]; 100mM NaCl.
   2. BSA buffer: 40mM Tris-HCl [pH 8.0]; 1mM MgCl₂; 1mM DTT; 0.2 mg mL⁻¹ BSA.
   3. Streptavidin, stored as a 1.0 mg mL⁻¹ stock in water (434301; Thermo).
-  4. **λ** -phage DNA (SD0011; Thermo).
+  4. λ-phage DNA (SD0011; Thermo).
   5. Affinity purified goat antirabbit IgG h + l (GGHL-15A; Immunology Consultants Laboratory).
   6. Anti-digoxigenin rabbit monoclonal antibody (700772; Thermo).
   7. Liposome stock-DOPC (97.7mol%; 850375P), DOPE-biotin (0.3mol%; 87 0273P), and DOPE-mPEG2K (2mol%; 880130P) (Avanti Polar Lipids).
 
 #### 2.3.2 Depositing Lipid Bilayers on the Flowcell Surface
-  1. Wash the flowcell with distilled H2O to carefully remove all bubbles.
+  1. Wash the flowcell with distilled H₂O to carefully remove all bubbles.
   2. Equilibrate the channel with 3-4mL of lipids buffer.
   3. Dilute 40 μL of liposome stock solution in 960 μL lipids buffer. Inject on the flowcell in three rounds of ~300 μL and let incubate for 10min in-between injections.
   4. Wash the flowcell in 3-4mL of lipids buffer and let incubate for 30min.
@@ -121,7 +126,7 @@ Below, we describe the minimal set of tools that are required for microfabricati
   1. Equilibrate the flowcell with 3-4mL BSA buffer and let stand for 10 min.
   2. Dilute 30 μL of 1.0 mg mL⁻¹ streptavidin in 270 μL BSA buffer (0.1 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   3. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
-  4. Dilute 100 μL of **λ** -DNA in 900 μL of BSA buffer. Inject DNA in ~ 300 μL increments with 5-min incubation in between.
+  4. Dilute 100 μL of λ-DNA in 900 μL of BSA buffer. Inject DNA in ~ 300 μL increments with 5-min incubation in between.
   5. Wash the flowcell with 2-3mL of BSA buffer.
   6. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired imaging buffer. In a 4-mm-wide flowcell channel, flow rates of 0.4 mL min⁻¹ extend dsDNA by ~80% of the crystallographic B-form (corresponding to ~0.6pN of tension). This provides a convenient DNA extension for data acquisition and analysis.
 
@@ -131,21 +136,22 @@ Below, we describe the minimal set of tools that are required for microfabricati
   3. Dilute 2.5 μL of 0.5 mg mL⁻¹ antidigoxigenin rabbit monoclonal antibody in 250 μL BSA buffer (0.01 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   4. Dilute 30 μL of 1.0 mg mL⁻¹ streptavidin in 270 μL BSA buffer (0.1 mg mL⁻¹ final) and inject on flowcell. Incubate for 10min.
   5. Wash the flowcell with 3-4mL of BSA buffer to remove any unbound streptavidin.
-  6. Dilute 100 μL of **λ** -DNA with a digoxigenin label opposite the bio-tinylated end in 900 μL of BSA buffer. Inject DNA in ~300 μL increments with 5-min incubation in between.
+  6. Dilute 100 μL of λ-DNA with a digoxigenin label opposite the biotinylated end in 900 μL of BSA buffer. Inject DNA in ~300 μL increments with 5-min incubation in between.
   7. Wash the flowcell with 2-3mL of BSA buffer.
   8. Connect the flowcell with the microfluidic syringe pump with a syringe (10-30mL) filled with desired buffer. Flow rates of 0.4 mL min⁻¹ provide good DNA extension for data acquisition. In this configuration, flow can be stopped in order to observe proteins on double-tethered DNA. See Notes 2 and 3.
 
 ---
+
 ## 3. APPLICATIONS
 ### 3.1 Facilitated Diffusion of MRN on Double-Tethered dsDNA Curtains
 #### 3.1.1 Overview
-Sequence and structure-specific DNA-binding proteins must rapidly locate their targets amid a vast pool of nonspecific DNA. These proteins accelerate the search process by employing a combination of three-dimensional diffusion through the nucleus and facilitated one-dimensional (1D) diffusion along the DNA. During 1D diffusion, proteins can either slide along the helical pitch of the DNA backbone or transiently dissociate and associate with the DNA via a series of microscopic hops. Both sliding and hopping have been observed in vitro via single-molecule and ensemble biochemistry approaches and have also been inferred via single-molecule imaging in live cells ([Blainey et al., 2009](#ref1); [Cravens et al., 2015](#ref11); [Elf, Li, & Xie, 2007](#ref13); [Halford & Marko, 2004](#ref22); [Schonhoft & Stivers, 2012](#ref41)). Indeed, 1D facilitated diffusion is a common feature of nearly all proteins that scan both DNA ([Blainey et al., 2009](#ref1); [Halford & Marko, 2004](#ref22); [Tafvizi, Mirny, & van Oijen, 2011](#ref48)) and RNA ([Chandradoss, Schirle, Szczepaniak, MacRae, & Joo, 2015](#ref9); [Koh, Kidwell, Ragunathan, Doudna, & Myong, 2013](#ref24)). Here, we describe the use of double-tethered DNA curtains to visualize and quantify the diffusive properties of MRN, which rapidly locates DSBs in human cells ([Fig. 4](#fig4)).
+Sequence and structure-specific DNA-binding proteins must rapidly locate their targets amid a vast pool of nonspecific DNA. These proteins accelerate the search process by employing a combination of three-dimensional diffusion through the nucleus and facilitated one-dimensional (1D) diffusion along the DNA. During 1D diffusion, proteins can either slide along the helical pitch of the DNA backbone or transiently dissociate and associate with the DNA via a series of microscopic hops. Both sliding and hopping have been observed *in vitro* via single-molecule and ensemble biochemistry approaches and have also been inferred via single-molecule imaging in live cells ([Blainey et al., 2009](#ref1); [Cravens et al., 2015](#ref11); [Elf, Li, & Xie, 2007](#ref13); [Halford & Marko, 2004](#ref22); [Schonhoft & Stivers, 2012](#ref41)). Indeed, 1D facilitated diffusion is a common feature of nearly all proteins that scan both DNA ([Blainey et al., 2009](#ref1); [Halford & Marko, 2004](#ref22); [Tafvizi, Mirny, & van Oijen, 2011](#ref48)) and RNA ([Chandradoss, Schirle, Szczepaniak, MacRae, & Joo, 2015](#ref9); [Koh, Kidwell, Ragunathan, Doudna, & Myong, 2013](#ref24)). Here, we describe the use of double-tethered DNA curtains to visualize and quantify the diffusive properties of MRN, which rapidly locates DSBs in human cells ([Fig. 4](#fig4)).
 <figure class="paper-figure" id="fig4">
 <img src="nihms892254f4.jpg" alt="Figure 4">
 <figcaption><strong>Fig. 4.</strong> Facilitated diffusion of repair factors on DNA curtains. (A) Illustration and (B) individual frames from a movie of a fluorescent MRN complex diffusing on a double-tethered DNA substrate. <em>Contour plots</em> indicate a two-dimensional (2D) Gaussian fit to the fluorescence data. The center of the Gaussian fit is used to extract the absolute position of the molecule over time with subpixel accuracy. (C) Kymograph of the same MRN molecule as in (B). <em>Red arrow</em> indicates when the molecule dissociates from the DNA. Tracking data extracted from the fits in (B) are used to determine the time-dependent trajectory of a single MRN molecule. <em>Black arrow</em> indicates MRN dissociation. These trajectories are used to calculate the mean-squared displacement (MSD) curves. (D) MSD curves and corresponding diffusion coefficients of five MRN molecules. A linear fit of the MSD curves is used to determine the one-dimensional diffusion coefficients. (E) Histogram of the diffusion coefficients of 234 individual MRN molecules. <em>Red line</em>: Gaussian fit indicates that the diffusion coefficients are log-normally distributed.</figcaption>
 </figure>
 #### 3.1.2 Materials
-  1. Imaging buffer: 40mM Tris-HCl [pH 8.0]; 60mM NaCl; 1mM ; MgCl₂; 2mM DTT; 0.2 mg mL⁻¹ BSA
+  1. Imaging buffer: 40mM Tris-HCl [pH 8.0]; 60mM NaCl; 1mM MgCl₂; 2mM DTT; 0.2 mg mL⁻¹ BSA
   2. Biotinylated anti-FLAG M2 antibody (F9291; Sigma)
   3. Streptavidin-conjugated quantum dots (QDots) 705nm (Q10163MP; Thermo)
   4. YOYO-1 stored as a 1mM stock in DMSO (Y3601; Life Technologies)
@@ -215,7 +221,7 @@ RAD51 forms nucleoprotein filaments on ssDNA and catalyzes the homology search w
 
 #### 3.3.3 Protocol for Ligation Reaction
   1. Prepare a 49 μL ligation reaction containing: (i) 5 μL 10× T4 ligase reaction buffer; (ii) 2 μL template oligo (10 μM stock in TE buffer); (iii) 1.8 μL primer oligo (10 μM stock in TE buffer); and (iv) 40.2 μL nuclease-free water.
-  2. Heat the ligation reaction to 75°C for 5min in a thermocycler and cool the reaction to 4°C at a rate of μ1°C min⁻¹.
+  2. Heat the ligation reaction to 75°C for 5min in a thermocycler and cool the reaction to 4°C at a rate of −1°C min⁻¹.
   3. Add 1 μL of T4 DNA ligase to the reaction and incubate at room temperature for 3-5h. See Note 6.
 
 #### 3.3.4 Protocol for RCR
@@ -241,6 +247,20 @@ RAD51 forms nucleoprotein filaments on ssDNA and catalyzes the homology search w
   6. Fluorescent intensity can be calculated over the ssDNA or region of interest using the "Measure" tool to average the pixel intensity over time.
 
 ---
+
+## 4. NOTES
+
+1. The dimensions of the Cr micropatterns will depend on the thickness of the photoresist layer, the UV lamp power, the UV exposure time, and the development time of the wafer. These parameters need to be optimized to achieve the highest-resolution (smallest) features.
+2. The fluidity of the SLB is critical for assembling DNA curtains. We find that freshly cleaned slides promote SLB formation. Slides should be cleaned regularly and flowcells used within 2 weeks after are assembled.
+3. The double-tethering efficiency can be improved by increasing the DNA concentration in the flowcell. However, excess DNA may hinder visualization of single protein molecules because two or more DNAs may be within the same diffraction-limited area.
+4. The laser power and the shuttering rate need to be optimized for every experiment and are especially important for long movies (e.g., EXO1 reaction).
+5. EXO1 loads on DNA nicks that accumulate during DNA handling. In our hands, multiple freeze-thaw cycles rapidly degrade the DNA and cause EXO1 to bind across the entire DNA substrate. We recommend that the oligonucleotide handles be annealed to freshly thawed aliquots of commercial λ-DNA. After the DNA is annealed and ligated, it can be stored at 4°C for ~6 weeks.
+6. Ligated mini-circles can be stored at 4°C for up to 1 week. RCR products degrade rapidly when stored at 4°C and should be used the same day for maximum efficiency.
+7. Store all RCR reagents, including oligonucleotides as single-use aliquots. Multiple freeze-thaw cycles reduce the yield of RCR reactions and the length of the ssDNA curtains.
+8. Use of nuclease-free water improves the ssDNA quality during RCR.
+
+---
+
 ## Acknowledgments
 We are indebted to Dr. Mauro Modesti and Dr. Tanya Paull for overexpression plasmids. We thank Dr. Praveenkumar Pasupathy for his help in troubleshooting the quartz slide fabrication process.
 _Funding._ This work was supported by the National Science Foundation (1453358 to I.J.F.), the Institute of General Medical Sciences of the National Institutes of Health (GM097177 and GM120554 to I.J.F.), CPRIT (R1214 to I.J.F.), and the Welch Foundation (F-l808 to I.J.F.). I.J.F. is a CPRIT Scholar in Cancer Research. L.R.M. is supported by the National Cancer Institute (CA212452). Y.K. is a Howard Hughes Medical Institute international graduate student fellow.
@@ -250,59 +270,113 @@ _Funding._ This work was supported by the National Science Foundation (1453358 t
 ## References
 
 <span id="ref1">1.</span> Blainey PC, Luo G, Kou SC, Mangel WF, Verdine GL, Bagchi B, et al. Nonspecifically bound proteins spin while diffusing along DNA. *Nature Structural & Molecular Biology*. 2009;16:1224-1229.
+
 <span id="ref2">2.</span> Bogomazova AN, Lagarkova MA, Tskhovrebova LV, Shutova MV, Kiselev SL. Error-prone nonhomologous end joining repair operates in human pluripotent stem cells during late G2. *Aging*. 2011;3:584-596.
+
 <span id="ref3">3.</span> Brockman C, Kim SJ, Schroeder CM. Direct observation of single flexible polymers using single stranded DNA. *Soft Matter*. 2011;7:8005-8008.
+
 <span id="ref4">4.</span> Brown MW, Kim Y, Williams GM, Huck JD, Surtees JA, Finkelstein IJ. Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions. *Nature Communications*. 2016;7:10607.
+
 <span id="ref5">5.</span> Bunting SF, Nussenzweig A. End-joining, translocations and cancer. *Nature Reviews Cancer*. 2013;13:443-454.
+
 <span id="ref6">6.</span> Cannavo E, Cejka P. Sae2 promotes dsDNA endonuclease activity within Mre11-Rad50-Xrs2 to resect DNA breaks. *Nature*. 2014;514:122-125.
+
 <span id="ref7">7.</span> Cejka P, Cannavo E, Polaczek P, Masuda-Sasa T, Pokharel S, Campbell JL, et al. DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2. *Nature*. 2010;467:112-116.
+
 <span id="ref8">8.</span> Cerami E, Gao J, Dogrusoz U, Gross BE, Sumer SO, Aksoy BA, et al. The cBio cancer genomics portal: An open platform for exploring multidimensional cancer genomics data. *Cancer Discovery*. 2012;2:401-404.
+
 <span id="ref9">9.</span> Chandradoss SD, Schirle NT, Szczepaniak M, MacRae IJ, Joo C. A dynamic search process underlies microRNA targeting. *Cell*. 2015;162:96-107.
+
 <span id="ref10">10.</span> Chen R, Wold MS. Replication protein A: Single-stranded DNA's first responder: Dynamic DNA-interactions allow replication protein A to direct single-strand DNA intermediates into different pathways for synthesis or repair. *BioEssays: News and Reviews in Molecular, Cellular and Developmental Biology*. 2014;36:1156-1161.
+
 <span id="ref11">11.</span> Cravens SL, Schonhoft JD, Rowland MM, Rodriguez AA, Anderson BG, Stivers JT. Molecular crowding enhances facilitated diffusion of two human DNA glycosylases. *Nucleic Acids Research*. 2015;43:4087-4097.
+
 <span id="ref12">12.</span> Deriano L, Roth DB. Modernizing the nonhomologous end-joining repertoire: Alternative and classical NHEJ share the stage. *Annual Review of Genetics*. 2013;47:433-455.
+
 <span id="ref13">13.</span> Elf J, Li GW, Xie XS. Probing transcription factor dynamics at the single-molecule level in a living cell. *Science*. 2007;316:1191-1194.
+
 <span id="ref14">14.</span> Farah JA, Cromie GA, Smith GR. Ctp1 and exonuclease 1, alternative nucleases regulated by the MRN complex, are required for efficient meiotic recombination. *Proceedings of the National Academy of Sciences of the United States of America*. 2009;106:9356-9361.
+
 <span id="ref15">15.</span> Fazio T, Visnapuu ML, Wind S, Greene EC. DNA curtains and nanoscale curtain rods: High-throughput tools for single molecule imaging. *Langmuir*. 2008;24:10524-10531.
+
 <span id="ref16">16.</span> Finkelstein IJ, Greene EC. Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies. *Methods in Molecular Biology*. 2011;745:447-461.
+
 <span id="ref17">17.</span> Finkelstein IJ, Visnapuu ML, Greene EC. Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase. *Nature*. 2010;468:983-987.
+
 <span id="ref18">18.</span> Gallardo IF, Pasupathy P, Brown M, Manhart CM, Neikirk DP, Alani E, et al. High-throughput universal DNA curtain arrays for single-molecule fluorescence imaging. *Langmuir*. 2015;31:10310-10317.
+
 <span id="ref19">19.</span> Gibb B, Ye LF, Gergoudis SC, Kwon Y, Niu H, Sung P, et al. Concentration-dependent exchange of replication protein A on single-stranded DNA revealed by single-molecule imaging. *PLoS One*. 2014;9:e87922.
+
 <span id="ref20">20.</span> Granéli A, Yeykal CC, Prasad TK, Greene EC. Organized arrays of individual DNA molecules tethered to supported lipid bilayers. *Langmuir*. 2006;22:292-299.
+
 <span id="ref21">21.</span> Gravel S, Chapman JR, Magill C, Jackson SP. DNA helicases Sgs1 and BLM promote DNA double-strand break resection. *Genes & Development*. 2008;22:2767-2772.
+
 <span id="ref22">22.</span> Halford SE, Marko JF. How do site-specific DNA-binding proteins find their targets? *Nucleic Acids Research*. 2004;32:3040-3052.
+
 <span id="ref23">23.</span> Karanam K, Kafri R, Loewer A, Lahav G. Quantitative live cell imaging reveals a gradual shift between DNA repair mechanisms and a maximal use of HR in mid S phase. *Molecular Cell*. 2012;47:320-329.
+
 <span id="ref24">24.</span> Koh HR, Kidwell MA, Ragunathan K, Doudna JA, Myong S. ATP-independent diffusion of double-stranded RNA binding proteins. *Proceedings of the National Academy of Sciences of the United States of America*. 2013;110:151-156.
+
 <span id="ref25">25.</span> Lamarche BJ, Orazio NI, Weitzman MD. The MRN complex in double-strand break repair and telomere maintenance. *FEBS Letters*. 2010;584:3682-3695.
-<span id="ref26">26.</span> Lee KS, Marciel AB, Kozlov AG, Schroeder CM, Lohman TM, Ha T. Ultrafast redistribution of E. coli SSB along long single-stranded DNA via inter-segment transfer. *Journal of Molecular Biology*. 2014;426:2413-2421.
+
+<span id="ref26">26.</span> Lee KS, Marciel AB, Kozlov AG, Schroeder CM, Lohman TM, Ha T. Ultrafast redistribution of *E. coli* SSB along long single-stranded DNA via inter-segment transfer. *Journal of Molecular Biology*. 2014;426:2413-2421.
+
 <span id="ref27">27.</span> Lisby M, Rothstein R. Choreography of recombination proteins during the DNA damage response. *DNA Repair*. 2009;8:1068-1076.
+
 <span id="ref28">28.</span> Lukas C, Melander F, Stucki M, Falck J, Bekker-Jensen S, Goldberg M, et al. Mdc1 couples DNA double-strand break recognition by Nbs1 with its H2AX-dependent chromatin retention. *The EMBO Journal*. 2004;23:2674-2683.
+
 <span id="ref29">29.</span> Luo G, Yao MS, Bender CF, Mills M, Bladl AR, Bradley A, et al. Disruption of mRad50 causes embryonic stem cell lethality, abnormal embryonic development, and sensitivity to ionizing radiation. *Proceedings of the National Academy of Sciences of the United States of America*. 1999;96:7376-7381.
+
 <span id="ref30">30.</span> Mao Z, Bozzella M, Seluanov A, Gorbunova V. DNA repair by non-homologous end joining and homologous recombination during cell cycle in human cells. *Cell Cycle*. 2008;7:2902-2906.
+
 <span id="ref31">31.</span> Mehta A, Haber JE. Sources of DNA double-strand breaks and models of recombinational DNA repair. *Cold Spring Harbor Perspectives in Biology*. 2014;6:a016428.
+
 <span id="ref32">32.</span> Mimitou EP, Symington LS. DNA end resection-Unraveling the tail. *DNA Repair*. 2011;10:344-348.
+
 <span id="ref33">33.</span> Modesti M, Ristic D, van der Heijden T, Dekker C, van Mameren J, Peterman EJG, et al. Fluorescent human RAD51 reveals multiple nucleation sites and filament segments tightly associated along a single DNA molecule. *Cell*. 2007;15:599-609.
+
 <span id="ref34">34.</span> Myler LR, Finkelstein IJ. Eukaryotic resectosomes: A single-molecule perspective. *Progress in Biophysics and Molecular Biology*. 2016 (In press).
+
 <span id="ref35">35.</span> Myler LR, Gallardo IF, Zhou Y, Gong F, Yang SH, Wold MS, et al. Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins. *Proceedings of the National Academy of Sciences of the United States of America*. 2016;113:e1170-e1179.
+
 <span id="ref36">36.</span> Nimonkar AV, Genschel J, Kinoshita E, Polaczek P, Campbell JL, Wyman C, et al. BLM-DNA2-RPA-MRN and EXO1-BLM-RPA-MRN constitute two DNA end resection machineries for human DNA break repair. *Genes & Development*. 2011;25:350-362.
-<span id="ref37">37.</span> Niu H, Chung WH, Zhu Z, Kwon Y, Zhao W, Chi P, et al. Mechanism of the ATP-dependent DNA end-resection machinery from Saccharomyces cerevisiae. *Nature*. 2010;467:108-111.
+
+<span id="ref37">37.</span> Niu H, Chung WH, Zhu Z, Kwon Y, Zhao W, Chi P, et al. Mechanism of the ATP-dependent DNA end-resection machinery from *Saccharomyces cerevisiae*. *Nature*. 2010;467:108-111.
+
 <span id="ref38">38.</span> Paull TT. Mechanisms of ATM activation. *Annual Review of Biochemistry*. 2015;84:711-738.
+
 <span id="ref39">39.</span> Paull TT, Gellert M. The 3′ to 5′ exonuclease activity of Mre11 facilitates repair of DNA double-strand breaks. *Molecular Cell*. 1998;1:969-979.
+
 <span id="ref40">40.</span> Schindelin J, Arganda-Carreras I, Frise E, Kaynig V, Longair M, Pietzsch T, et al. Fiji: An open-source platform for biological-image analysis. *Nature Methods*. 2012;9:676-682.
+
 <span id="ref41">41.</span> Schonhoft JD, Stivers JT. Timing facilitated site transfer of an enzyme on DNA. *Nature Chemical Biology*. 2012;8:205-210.
+
 <span id="ref42">42.</span> Shahar OD, Raghu Ram EVS, Shimshoni E, Hareli S, Meshorer E, Goldberg M. Live imaging of induced and controlled DNA double-strand break formation reveals extremely low repair by homologous recombination in human cells. *Oncogene*. 2012;31:3495-3504.
+
 <span id="ref43">43.</span> Shibata A, Conrad S, Birraux J, Geuting V, Barton O, Ismail A, et al. Factors determining DNA double-strand break repair pathway choice in G2 phase. *The EMBO Journal*. 2011;30:1079-1092.
+
 <span id="ref44">44.</span> Shibata A, Moiani D, Arvai AS, Perry J, Harding SM, Genois MM, et al. DNA double-strand break repair pathway choice is directed by distinct MRE11 nuclease activities. *Molecular Cell*. 2014;53:7-18.
+
 <span id="ref45">45.</span> Stuurman N, Edelstein AD, Amodaj N, Hoover KH, Vale RD. Computer control of microscopes using μManager. *Current Protocols in Molecular Biology*. 2010;Chapter 14(Unit14.20).
+
 <span id="ref46">46.</span> Symington LS. Mechanism and regulation of DNA end resection in eukaryotes. *Critical Reviews in Biochemistry and Molecular Biology*. 2016;51:195-212.
+
 <span id="ref47">47.</span> Symington LS, Gautier J. Double-strand break end resection and repair pathway choice. *Annual Review of Genetics*. 2011;45:247-271.
+
 <span id="ref48">48.</span> Tafvizi A, Mirny LA, van Oijen AM. Dancing on DNA: Kinetic aspects of search processes on DNA. *Chemphyschem*. 2011;12:1481-1489.
+
 <span id="ref49">49.</span> Tomimatsu N, Mukherjee B, Catherine Hardebeck M, Ilcheva M, Vanessa Camacho C, Harris L, et al. Phosphorylation of EXO1 by CDKs 1 and 2 regulates DNA end resection and repair pathway choice. *Nature Communications*. 2014;5:3561.
+
 <span id="ref50">50.</span> Vilenchik MM, Knudson AG. Endogenous DNA double-strand breaks: Production, fidelity of repair, and induction of cancer. *Proceedings of the National Academy of Sciences of the United States of America*. 2003;100:12871-12876.
+
 <span id="ref51">51.</span> Visnapuu ML, Fazio T, Wind S, Greene EC. Parallel arrays of geometric nanowells for assembling curtains of DNA with controlled lateral dispersion. *Langmuir*. 2008;24:11293-11299.
+
 <span id="ref52">52.</span> Weterings E, Chen DJ. The endless tale of non-homologous end-joining. *Cell Research*. 2008;18:114-124.
+
 <span id="ref53">53.</span> Williams BR, Mirzoeva OK, Morgan WF, Lin J, Dunnick W, Petrini JHJ. A murine model of Nijmegen breakage syndrome. *Current Biology*. 2002;12:648-653.
+
 <span id="ref54">54.</span> Yildiz A, Forkey JN, McKinney SA, Ha T, Goldman YE, Selvin PR. Myosin V walks hand-over-hand: Single fluorophore imaging with 1.5-nm localization. *Science*. 2003;300:2061-2065.
+
 <span id="ref55">55.</span> Zhou Y, Caron P, Legube G, Paull TT. Quantitation of DNA double-strand break resection intermediates in human cells. *Nucleic Acids Research*. 2014;42:e19.
 
 
