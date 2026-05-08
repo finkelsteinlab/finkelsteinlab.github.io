@@ -10,7 +10,7 @@ pmcid: PMC3033736
 
 **Ilya J. Finkelstein and Eric C. Greene**
 
-*Mol. Cell*, Volume 35, Issue 5, Pages 549-50 (2009)
+*Mol. Cell*, Volume 35, Issue 5, Pages 549–550 (2009)
 
 **DOI:** [10.1016/j.molcel.2009.08.012](https://doi.org/10.1016/j.molcel.2009.08.012)
 
@@ -31,7 +31,7 @@ Helicases and other DNA translocases must travel along crowded substrates. In th
 
 Traffic congestion is an unfortunate part of everyday life. Few experiences match the frustration of being stuck on a crowded highway, in bumper-to-bumper traffic, ticking away the minutes as the car in front inches forward. Molecular motors that navigate along DNA must also cope with potential traffic jams in a crowded intracellular milieu. Collisions between actively moving enzymes and stationary or stalled DNA-binding proteins must occur frequently, and the stakes couldn't be higher. Deleterious roadblocks have the potential to bring transcription, replication, and DNA repair to a virtual standstill. Several reports have explored the outcome of such collisions during replication and transcription ([Hodges et al., 2009](#ref2); [Pomerantz and O'Donnell, 2008](#ref5); [Saeki and Svejstrup, 2009](#ref7)).
 
-In this issue of _Molecular Cell_ , [Honda et al. (2009)](#ref3) extend these studies to explore what happens when a DNA helicase encounters a stationary roadblock. Helicases employ the energy of ATP hydrolysis to translocate along nucleic acids while destabilizing duplex DNA or RNA ([Singleton et al., 2007](#ref8)). For example, nucleotide excision repair requires the XPD helicase, which is an SF2 family protein that undergoes ATP-dependent, unidirectional 5′ → 3′ movement on single-stranded DNA (ssDNA). Most biochemical studies of helicases look at these enzymes as they interact with naked DNA (or RNA); however, in living cells XPD must travel along ssDNA that is coated by ssDNA-binding proteins. _Ferroplasma acidarmanus_ encodes two such proteins: RPA1 is a homodimer that extends ssDNA and competes with XPD loading, and RPA2 is a monomer that wraps ssDNA and stimulates XPD activity. How might _F. acidarmanus_ XPD deal with the inevitable collisions it must have with these ssDNA-binding proteins?
+In this issue of _Molecular Cell_, [Honda et al. (2009)](#ref3) extend these studies to explore what happens when a DNA helicase encounters a stationary roadblock. Helicases employ the energy of ATP hydrolysis to translocate along nucleic acids while destabilizing duplex DNA or RNA ([Singleton et al., 2007](#ref8)). For example, nucleotide excision repair requires the XPD helicase, which is an SF2 family protein that undergoes ATP-dependent, unidirectional 5′ → 3′ movement on single-stranded DNA (ssDNA). Most biochemical studies of helicases look at these enzymes as they interact with naked DNA (or RNA); however, in living cells XPD must travel along ssDNA that is coated by ssDNA-binding proteins. _Ferroplasma acidarmanus_ encodes two such proteins: RPA1 is a homodimer that extends ssDNA and competes with XPD loading, and RPA2 is a monomer that wraps ssDNA and stimulates XPD activity. How might _F. acidarmanus_ XPD deal with the inevitable collisions it must have with these ssDNA-binding proteins?
 
 [Honda et al. (2009)](#ref3) report that XPD has a trick up its sleeve for dealing with potential traffic jams: the enzyme is able to motor along on DNA coated with ssDNA-binding proteins, seemingly while maintaining contact with the DNA, and it can either displace proteins it encounters or it can slip right past them without either protein falling off of the DNA ([Figure 1](#fig1)).
 
@@ -52,15 +52,24 @@ To further investigate the effects of RPA on XPD translocation, the authors labe
 In summary, these new findings demonstrate that it is physically possible for XPD to bypass potential traffic jams by either displacing the offending obstruction or by moving past the obstruction without either participant dissociating from the DNA. In moving forward, these observations must now be placed within the proper biological context. Is there a specific reason that XPD can bypass RPA2 but not RPA1? Do specific protein-protein interactions between XPD and either of the RPAs contribute to the outcome of the collisions? Is this activity limited to RPA1 and RPA2, or can XPD displace or bypass other potential roadblocks? How do other helicases behave during molecular collisions, and what role, if any, does the surprising bypass activity of XPD confer on the biological function of the enzyme? As future experiments begin to answer these questions, our understanding of molecular traffic jams will continue to speed ahead.
 
 ## References
-<span id="ref1">1.</span> Fan L, Fuss JO, Cheng QJ, Arvai AS, Hammel M, Roberts VA, Cooper PK, Tainer JA. Cell. 2008;133:789-800. [doi:10.1016/j.cell.2008.04.030](https://doi.org/10.1016/j.cell.2008.04.030)
-<span id="ref2">2.</span> Hodges C, Bintu L, Lubkowska L, Kashlev M, Bustamante C. Science. 2009;325:626-628. [doi:10.1126/science.1172926](https://doi.org/10.1126/science.1172926)
-<span id="ref3">3.</span> Honda M, Park J, Pugh RA, Ha T, Spies M. Mol. Cell. 2009;35:694-703. [doi:10.1016/j.molcel.2009.07.003](https://doi.org/10.1016/j.molcel.2009.07.003)
-<span id="ref4">4.</span> Liu H, Rudolf J, Johnson KA, McMahon SA, Oke M, Carter L, McRobbie AM, Brown SE, Naismith JH, White MF. Cell. 2008;133:801-812. [doi:10.1016/j.cell.2008.04.029](https://doi.org/10.1016/j.cell.2008.04.029)
-<span id="ref5">5.</span> Pomerantz RT, O'Donnell M. Nature. 2008;456:762-766. [doi:10.1038/nature07527](https://doi.org/10.1038/nature07527)
-<span id="ref6">6.</span> Pugh RA, Honda M, Leesley H, Thomas A, Lin Y, Nilges MJ, Cann IK, Spies M. J. Biol. Chem. 2008;283:1732-1743. [doi:10.1074/jbc.M707064200](https://doi.org/10.1074/jbc.M707064200)
-<span id="ref7">7.</span> Saeki H, Svejstrup JQ. Mol. Cell. 2009;35:191-205. [doi:10.1016/j.molcel.2009.06.009](https://doi.org/10.1016/j.molcel.2009.06.009)
-<span id="ref8">8.</span> Singleton MR, Dillingham MS, Wigley DB. Annu. Rev. Biochem. 2007;76:23-50. [doi:10.1146/annurev.biochem.76.052305.115300](https://doi.org/10.1146/annurev.biochem.76.052305.115300)
-<span id="ref9">9.</span> Studitsky VM, Kassavetis GA, Geiduschek EP, Felsenfeld G. Science. 1997;278:1960-1963. [doi:10.1126/science.278.5345.1960](https://doi.org/10.1126/science.278.5345.1960)
+
+<span id="ref1">1.</span> Fan L, Fuss JO, Cheng QJ, Arvai AS, Hammel M, Roberts VA, Cooper PK, Tainer JA. Cell. 2008;133:789–800. [doi:10.1016/j.cell.2008.04.030](https://doi.org/10.1016/j.cell.2008.04.030)
+
+<span id="ref2">2.</span> Hodges C, Bintu L, Lubkowska L, Kashlev M, Bustamante C. Science. 2009;325:626–628. [doi:10.1126/science.1172926](https://doi.org/10.1126/science.1172926)
+
+<span id="ref3">3.</span> Honda M, Park J, Pugh RA, Ha T, Spies M. Mol. Cell. 2009;35:694–703. [doi:10.1016/j.molcel.2009.07.003](https://doi.org/10.1016/j.molcel.2009.07.003)
+
+<span id="ref4">4.</span> Liu H, Rudolf J, Johnson KA, McMahon SA, Oke M, Carter L, McRobbie AM, Brown SE, Naismith JH, White MF. Cell. 2008;133:801–812. [doi:10.1016/j.cell.2008.04.029](https://doi.org/10.1016/j.cell.2008.04.029)
+
+<span id="ref5">5.</span> Pomerantz RT, O'Donnell M. Nature. 2008;456:762–766. [doi:10.1038/nature07527](https://doi.org/10.1038/nature07527)
+
+<span id="ref6">6.</span> Pugh RA, Honda M, Leesley H, Thomas A, Lin Y, Nilges MJ, Cann IK, Spies M. J. Biol. Chem. 2008;283:1732–1743. [doi:10.1074/jbc.M707064200](https://doi.org/10.1074/jbc.M707064200)
+
+<span id="ref7">7.</span> Saeki H, Svejstrup JQ. Mol. Cell. 2009;35:191–205. [doi:10.1016/j.molcel.2009.06.009](https://doi.org/10.1016/j.molcel.2009.06.009)
+
+<span id="ref8">8.</span> Singleton MR, Dillingham MS, Wigley DB. Annu. Rev. Biochem. 2007;76:23–50. [doi:10.1146/annurev.biochem.76.052305.115300](https://doi.org/10.1146/annurev.biochem.76.052305.115300)
+
+<span id="ref9">9.</span> Studitsky VM, Kassavetis GA, Geiduschek EP, Felsenfeld G. Science. 1997;278:1960–1963. [doi:10.1126/science.278.5345.1960](https://doi.org/10.1126/science.278.5345.1960)
 
 ---
 
