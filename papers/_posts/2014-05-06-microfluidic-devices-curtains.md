@@ -16,6 +16,7 @@ pmcid:
 pmid: 24734940
 extra_text: ''
 category: paper
+markdown: 2014-05-06-microfluidic-devices-curtains
 tags: [DNA, Microfluidics]
 ---
 {% include JB/setup %}

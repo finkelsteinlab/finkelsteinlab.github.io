@@ -16,6 +16,7 @@ pmcid:
 pmid: 16853158
 extra_text: ''
 category: paper
+markdown: 2005-09-08-myoglobin-dynamics-histidine
 tags: []
 ---
 {% include JB/setup %}

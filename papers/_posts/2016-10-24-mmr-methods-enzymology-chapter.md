@@ -16,6 +16,7 @@ pmcid:
 pmid: 28062036
 extra_text: ''
 category: paper
+markdown: 2016-10-24-mmr-methods-enzymology-chapter
 tags: [DNA curtains, Nicking enzyme, Recombineering, Single-molecule imaging]
 ---
 {% include JB/setup %}

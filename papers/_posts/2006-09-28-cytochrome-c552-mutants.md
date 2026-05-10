@@ -16,6 +16,7 @@ pmcid:
 pmid:  16986870
 extra_text: ''
 category: paper
+markdown: 2006-09-28-cytochrome-c552-mutants
 tags: []
 ---
 {% include JB/setup %}
