@@ -241,7 +241,7 @@
 - date: 2023-01-30
   text: Wei-Che Tseng joins the Finkelstein lab as a rotation student!
 - date: 2023-02-02
-  text: Michael and Giaochau's [MRN resection paper](/papers/paper/MRN-Resection) is published in the Journal of Biological Chemistry, describing how MRN and topoisomerase IIIa synchronize DNA resection.
+  text: Michael and Giaochau's [MRN resection paper](/papers/paper/MRN-DNA-Resection) is published in the Journal of Biological Chemistry, describing how MRN and topoisomerase IIIa synchronize DNA resection.
 - date: 2023-02-10
   text: Dr. Ilya Finkelstein is one of the six [Functional Genomics Awardees](https://jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees) ! ([<img src="/assets/images/icons/text-icon.svg" alt="Text" style="height:14px;width:14px;vertical-align:middle;margin:0 2px;">](/assets/md/news/2023-02-10-jgi-functional-genomics/),[<img src="/assets/images/icons/pdf-icon.png" alt="PDF" style="height:14px;width:14px;vertical-align:middle;margin:0 2px;">](/assets/md/news/2023-02-10-jgi-functional-genomics/jgi.pdf))
 - date: 2023-03-04
@@ -249,7 +249,7 @@
 - date: 2023-04-21
   text: You-Chiun Chang joins the lab!
 - date: 2023-04-24
-  text: Our collaborative [chromatin condensates paper](/papers/paper/Chromatin-condensates-liquid-like-properties) with the Rosen, Narlikar, and Gerlich labs is published in PNAS.
+  text: Our collaborative [chromatin condensates paper](/papers/paper/chromatin-condensates-liquid-like-properties) with the Rosen, Narlikar, and Gerlich labs is published in PNAS.
 - date: 2023-05-12
   text: Dr. Jim Rybarski departs the lab to work at Moderna in Boston, MA. Congratulations!
 - date: 2023-06-22
@@ -271,13 +271,13 @@
 - date: 2024-02-08  
   text: Dr. John Cooper defends his PhD! Congrats!
 - date: 2024-04-23
-  text: Andrea, Ankur, Kamyab, and John's [mammalian antigen display methods chapter](/papers/paper/Mammalian-Antigen-Display) is published in Methods in Molecular Biology.
+  text: Andrea, Ankur, Kamyab, and John's [mammalian antigen display methods chapter](/papers/paper/Mammalian-antigen-display) is published in Methods in Molecular Biology.
 - date: 2024-04-23
   text: Jami's [Cas13d CHAMP paper](/papers/paper/Massively-Parallel-Profiling-CRISPR-Cas13d) is published in Nature Communications, describing massively parallel profiling of RNA-targeting CRISPR-Cas13d.
 - date: 2024-09-01  
   text: Abhirup Paul joins the Finkelstein lab as a rotation student!
 - date: 2024-09-16
-  text: Selma's [Cas12a pre-crRNA paper](/papers/paper/Kinetic-dissection-pre-crRNA-binding) is published in RNA, a collaboration with the Russell lab.
+  text: Selma's [Cas12a pre-crRNA paper](/papers/paper/Kinetic-dissection-of-pre-crRNA-binding) is published in RNA, a collaboration with the Russell lab.
 - date: 2024-10-15  
   text: Sabranth Gupta and Paola Carneiro join the Finkelstein lab as rotation students!
 - date: 2024-11-18  
@@ -285,7 +285,7 @@
 - date: 2024-11-20  
   text: Dr. Chia-Wei Chou defends his PhD. Congratulations, Alvin!
 - date: 2024-11-04
-  text: Logan and Hongshan's [PARP1 condensates paper](/papers/paper/PARP1-condensates) is published in EMBO Reports, a collaboration with the Bhargava and Paull labs.
+  text: Logan and Hongshan's [PARP1 condensates paper](/papers/paper/PARP1-condensates-EMBO-Reports) is published in EMBO Reports, a collaboration with the Bhargava and Paull labs.
 - date: 2024-12-17
   text: Paola Carneiro officially joins the Finkelstein lab as a graduate student.
 - date: 2025-01-31
