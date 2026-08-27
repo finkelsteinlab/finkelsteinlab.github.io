@@ -2,6 +2,52 @@
 
 This is a Jekyll site hosted on GitHub Pages at `finkelsteinlab.org`. Push to `master` triggers an automatic Jekyll build — no custom CI/Actions.
 
+## Building locally
+
+Push goes straight to production and there is no CI, so this build is the only
+test environment the site has. Use it before every push.
+
+macOS system Ruby (2.6) cannot install this gem set — `activesupport` needs Ruby
+3.1+. Ruby 4.x is too new: bundler backtracks to `github-pages 15` and fails on
+`yajl-ruby`. **Use Ruby 3.3**, which matches what GitHub Pages runs.
+
+```sh
+brew install ruby@3.3
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"   # add to your shell profile
+gem install bundler:2.6.9
+bundle install
+bundle exec jekyll serve      # http://127.0.0.1:4000
+bundle exec jekyll build      # one-shot into _site/
+```
+
+This resolves `github-pages 232` / `jekyll 3.10.0` — the same stack GitHub Pages
+uses, so what builds locally is what deploys. A clean build takes about 6s and
+produces ~426 MB in `_site/` (the 1 GB Pages limit is the constraint to watch).
+
+`GitHub Metadata: No GitHub API authentication` is harmless; it only affects
+`site.github.*`, which this theme does not use.
+
+### Before pushing
+
+```sh
+bundle exec jekyll build
+xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml
+```
+
+Both feeds embed every post's full text, so one stray control character in a
+single abstract invalidates both — this happened, and went unnoticed for years.
+Then open the local site and check the browser console is clean, which catches
+blocked mixed content and missing assets immediately.
+
+### Slugs are case-sensitive on the server, not on your Mac
+
+Paper URLs come from the post filename, not `nickname`. Two posts whose slugs
+differ only in case build fine on GitHub's Linux host but collapse into one file
+on macOS's case-insensitive filesystem, so one silently disappears from local
+previews. Keep slugs distinct by more than case. When renaming a post, add a
+`redirect_from` entry with the old URL (`jekyll-redirect-from` is enabled) and
+update any `paper_url` in the matching `assets/md/<slug>/index.md`.
+
 ## Auto-commit on every file change
 
 After every file edit or write in this project, immediately stage and commit the changed file(s). Do not batch changes — commit each logical change separately.
