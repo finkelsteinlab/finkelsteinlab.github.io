@@ -6,6 +6,7 @@
             <b>{{ paper_number_text }}<a href="{{ paper.url }}" class="off">{{ paper.title }}</a></b>
           </div>
               {% assign all = paper.authors %}
+              {% assign safe_title = paper.title | strip_html | escape %}
 
               {% if paper.volume and paper.issue and paper.pages %}
                 {% capture journal_line %}<br>*{{ paper.journal | remove:'.' }}*. {{ paper.volume }} ({{ paper.issue }}): {{ paper.pages }}{% endcapture %}
@@ -14,13 +15,13 @@
               {% endif %}
               {% assign all = all | append: journal_line %}
               {% if paper.markdown and paper.pdf %}
-                {% capture icons %}<br>(<a href="/assets/md/{{ paper.markdown }}/"><img src="/assets/images/icons/text-icon.svg" alt="Text" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>,<a href="/assets/pdfs/{{ paper.pdf }}"><img src="/assets/images/icons/pdf-icon.png" alt="PDF" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
+                {% capture icons %}<br>(<a href="/assets/md/{{ paper.markdown }}/" title="Full text: {{ safe_title }}" aria-label="Full text of {{ safe_title }}"><img src="/assets/images/icons/text-icon.svg" alt="Full text" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>,<a href="/assets/pdfs/{{ paper.pdf }}" title="PDF: {{ safe_title }}" aria-label="PDF of {{ safe_title }}"><img src="/assets/images/icons/pdf-icon.png" alt="PDF" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
                 {% assign all = all | append: icons %}
               {% elsif paper.pdf %}
-                {% capture icons %}<br>(<a href="/assets/pdfs/{{ paper.pdf }}"><img src="/assets/images/icons/pdf-icon.png" alt="PDF" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
+                {% capture icons %}<br>(<a href="/assets/pdfs/{{ paper.pdf }}" title="PDF: {{ safe_title }}" aria-label="PDF of {{ safe_title }}"><img src="/assets/images/icons/pdf-icon.png" alt="PDF" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
                 {% assign all = all | append: icons %}
               {% elsif paper.markdown %}
-                {% capture icons %}<br>(<a href="/assets/md/{{ paper.markdown }}/"><img src="/assets/images/icons/text-icon.svg" alt="Text" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
+                {% capture icons %}<br>(<a href="/assets/md/{{ paper.markdown }}/" title="Full text: {{ safe_title }}" aria-label="Full text of {{ safe_title }}"><img src="/assets/images/icons/text-icon.svg" alt="Full text" style="height:14px;width:14px;vertical-align:middle;margin:0 1px;"></a>){% endcapture %}
                 {% assign all = all | append: icons %}
               {% endif %}
 

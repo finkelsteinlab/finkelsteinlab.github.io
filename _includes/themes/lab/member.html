@@ -7,7 +7,7 @@
 	<div class="col-md-3">
 		<div class="media">
 			{% if member.image %}
-			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
+			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}" alt="{{ member.title }}">
 			{% endif %}
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-file-text-o fa-fw"></i>			
+			<i class="far fa-file-alt fa-fw" aria-hidden="true"></i>			
 			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
 		</div>		
 		<div class="bigspacer"></div>		
@@ -45,7 +45,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-twitter fa-fw"></i>
+			<i class="fab fa-twitter fa-fw" aria-hidden="true"></i>
 			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
 		</div>		
 		<div class="bigspacer"></div>				
@@ -56,7 +56,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
+			<i class="fab fa-github-alt fa-fw" aria-hidden="true"></i>
 			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
@@ -67,7 +67,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
+			<i class="fas fa-book fa-fw" aria-hidden="true"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
@@ -79,7 +79,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
+			<i class="fas fa-inbox fa-fw" aria-hidden="true"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
 		</div>		
 		<div class="bigspacer"></div>			

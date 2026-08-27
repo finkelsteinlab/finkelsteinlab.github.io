@@ -8,14 +8,15 @@ navorder: 3
 {% include JB/setup %}
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <div class="bigspacer"></div>
+<h1 class="sr-only">Papers from the Finkelstein Lab</h1>
 {% assign preprints = site.categories.papers | where_exp: "paper", "paper.doi contains '10.1101/'" %}
 {% assign paper_count = site.categories.papers.size | minus: preprints.size %}
 
 {% if preprints.size > 0 %}
   <div class="row">
-    <div class="head">
+    <h2 class="head" style="margin: 0;">
     Preprints
-    </div>
+    </h2>
     <div class="bigspacer"></div>
   </div>
   {% assign paper_number_text = '' %}
@@ -36,9 +37,9 @@ navorder: 3
     {% if paper.year < year %}
       {% assign year = paper.year %}
         <div class="row">
-          <div class="head">
+          <h2 class="head" style="margin: 0;">
             {{ year }}
-          </div>
+          </h2>
           <div class="bigspacer"></div>
         </div>
     {% endif %}

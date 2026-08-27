@@ -9,9 +9,9 @@ navorder: 2
 
 <script>
 $(document).ready(function(){
-  $('img').bind('mouseenter mouseleave', function() {
+  $('img.personimage').on('mouseenter mouseleave', function() {
     $(this).attr({
-      src: $(this).attr('young-src'), 'young-src': $(this).attr('src')
+      src: $(this).attr('data-young-src'), 'data-young-src': $(this).attr('src')
     })
   });
 });
@@ -20,6 +20,8 @@ $(document).ready(function(){
 </script>
 
 <div class="bigspacer"></div>
+
+<h1 class="sr-only">Finkelstein Lab members</h1>
 {% for position in site.data.jobtypes %}
   {% assign people = site.data.members | where: "position", position[0] %}
   {% assign current_people = '' | split: '' %}
@@ -34,7 +36,7 @@ $(document).ready(function(){
     {% continue %}
   {% else %}
 
-    <div class="bigtitle position-title">{{ position[1][1] }}</div>
+    <h2 class="bigtitle position-title" style="margin: 0;">{{ position[1][1] }}</h2>
     <div class="bigspacer"></div>
 
     {% for person in people %}
@@ -44,7 +46,7 @@ $(document).ready(function(){
       <div class="person">
 
         <div class="person-image-container">
-          <img class="personimage" young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}">
+          <img class="personimage" loading="lazy" alt="{{ person.name }}" data-young-src="/assets/images/members/{{ person.young_image }}" src="/assets/images/members/{{ person.image }}">
         </div>
 
         <div class="persondata">
@@ -77,9 +79,11 @@ $(document).ready(function(){
             <div class="favorite-activities">
               {% if person.favorite_activities %}
                 <br><b>Favorite Austin Activities:</b>
+                <ul style="margin-left: -15px; margin-bottom: 0px; list-style: none;">
                 {% for activity in person.favorite_activities %}
-                  <ul style="margin-left: -15px; margin-bottom: 0px;">&bull; {{ activity | markdownify | remove: '<p>' | remove: '</p>' }}</ul>
+                  <li>&bull; {{ activity | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                 {% endfor %}
+                </ul>
               {% endif %}
             </div>
 
@@ -95,12 +99,12 @@ $(document).ready(function(){
         </div>
       </div>
 
-      <div style="float: clear"></div>
+      <div style="clear: both"></div>
     {% endfor %}
   {% endif %}
 {% endfor %}
 
-<div class="bigtitle" style="float: clear">Alumni</div>
+<h2 class="bigtitle" style="clear: both; margin: 0;">Alumni</h2>
 <div class="bigspacer"></div>
 
 <table>

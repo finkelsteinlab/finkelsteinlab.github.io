@@ -6,19 +6,21 @@ with gratitude.
 
 <div class="bigspacer"></div>
 
+<article>
+
 <div class="row">
 
 	<div class="col-md-9">
 		<div class="media-body titlebox">
-			<div class="title media-heading">
+			<h1 class="title media-heading" style="margin: 0;">
 				{{ page.title }}
-			</div>
+			</h1>
 			<p>
 			<div class="smallhead">
 				{{ page.authors }},
-				<span class="journal">
+				<cite class="journal">
 				{{ page.journal }}
-				</span>
+				</cite>
 				{% if page.volume %}
 				 {{ page.volume }}
 				{% endif %}
@@ -28,7 +30,7 @@ with gratitude.
 				{% if page.pages %}
 				:{{ page.pages }}
 				{% endif %}
-				({{ page.year }}).
+				(<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.year }}</time>).
 			</div>
 		</div>
 	</div>
@@ -39,27 +41,31 @@ with gratitude.
 <div class="row">
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
-			{% if page.pdf or page.pdflink or page.fulltext %}
+			{% if page.pdf or page.pdflink or page.fulltext or page.markdown %}
 			<div class="smallhead subtle">
 				Full text
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% if page.pdflink %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<i class="far fa-file-pdf fa-fw" aria-hidden="true"></i>
 					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
 					<br/>
 				{% endif %}
 				{% if page.pdf %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<i class="far fa-file-pdf fa-fw" aria-hidden="true"></i>
 					<a class="off" href="/assets/pdfs/{{ page.pdf }}">PDF</a>
 					{% if page.markdown %}
 					| <a class="off" href="/assets/md/{{ page.markdown }}/">Full text (md)</a>
 					{% endif %}
 					<br/>
+				{% elsif page.markdown %}
+					<i class="far fa-file-alt fa-fw" aria-hidden="true"></i>
+					<a class="off" href="/assets/md/{{ page.markdown }}/">Full text (md)</a>
+					<br/>
 				{% endif %}
 				{% if page.fulltext %}
-				<i class="fa fa-external-link fa-fw"></i>
+				<i class="fas fa-external-link-alt fa-fw" aria-hidden="true"></i>
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 				{% endif %}
 			</div>
@@ -72,7 +78,7 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
+				<i class="fas fa-paperclip fa-fw" aria-hidden="true"></i>
 				<a class="off" href="/assets/pdfs/{{ page.supplement }}">Supplement</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -84,8 +90,8 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+				<i class="fas fa-external-link-alt fa-fw" aria-hidden="true"></i>
+				<a class="off" href="https://pubmed.ncbi.nlm.nih.gov/{{ page.pmid }}/">{{ page.pmid }}</a>
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
@@ -96,8 +102,8 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+				<i class="fas fa-external-link-alt fa-fw" aria-hidden="true"></i>
+				<a class="off" href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
 				<br>
 				<br>
 				<div data-badge-popover="right" data-badge-type="medium-donut" data-doi="{{ page.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>
@@ -114,5 +120,7 @@ with gratitude.
 
 	<div class="col-md-1"></div>
 </div>
+
+</article>
 
 <div class="bigspacer"></div>
