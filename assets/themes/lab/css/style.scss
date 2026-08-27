@@ -13,7 +13,8 @@ $carousel-height: 350px;
 
 body {
 	font-size: $font-size-base;
-	font: $font-stack;
+	// NOTE: no `font:` shorthand here - it requires a size before the family,
+	// so `font: $font-stack` was invalid and the whole declaration was dropped.
 	font-family: $font-stack;
 	font-weight: $font-weight-base;
 	// color set by theme.css
@@ -23,8 +24,50 @@ body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	font-weight: $font-weight-base;
-	padding-bottom: 50px; /* to prevent navbar overlap */
+	/* The fixed bottom navbar is 55px at desktop widths but wraps to two rows
+	   at tablet widths, where it measures ~105px. Reserve enough for the tall
+	   case so the end of the page is never occluded. */
+	padding-bottom: 120px;
 	// color set by theme.css
+}
+
+// Skip link: visually hidden until it receives focus, then pinned top-left.
+.skip-link {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	z-index: 2000;
+}
+
+.skip-link:focus {
+	left: 8px;
+	top: 8px;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	padding: 10px 16px;
+	border-radius: 4px;
+	background-color: var(--color-bg-secondary, #ffffff);
+	color: var(--color-link, #1a56d0);
+	font-weight: $heavy-font-weight;
+	text-decoration: none;
+	outline: 2px solid var(--color-link, #1a56d0);
+	outline-offset: 2px;
+}
+
+// Bootstrap's bundled normalize replaces the browser focus ring with
+// `a:focus { outline: thin dotted }`. Restore a real, high-contrast ring for
+// keyboard users while keeping mouse clicks ring-free.
+:focus-visible {
+	outline: 2px solid var(--color-link, #1a56d0);
+	outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+	outline: none;
 }
 
 :target:before {
@@ -93,9 +136,22 @@ p {
 	height: 5px;
 }
 
-a.off { 
-	color: inherit; 
+// `a.off` takes the body text colour. Combined with Bootstrap's
+// `a { text-decoration: none }` that made these links computationally
+// identical to surrounding text (WCAG 1.4.1 - colour alone, and here not even
+// colour). Give them a quiet but permanent underline that firms up on hover.
+a.off {
+	color: inherit;
 	border-bottom: none;
+	text-decoration: underline;
+	text-decoration-color: var(--color-link-underline, #6c6f85);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+}
+
+a.off:hover,
+a.off:focus {
+	text-decoration-color: currentColor;
 }
 
 /*a {
@@ -131,7 +187,10 @@ a.off {
 	font-size: ceil($font-size-base*1.2);
 }
 
-@media all and (max-width: 800) {
+// Was `max-width: 800` (no unit), so the query never matched. `.member-name`
+// is not referenced by any template, so restoring the unit is inert today but
+// leaves the rule correct if the class is ever used.
+@media all and (max-width: 800px) {
 	.member-name {
 		font-size: $font-size-base;
 	}
@@ -210,8 +269,11 @@ strong {
 
 // projects pages
 
+// Unused by any template today; kept but made non-overflowing in case it is.
 .project-image {
 	width: 600px;
+	max-width: 100%;
+	height: auto;
 	background-color: var(--ctp-yellow, #FFFFCC);
 }
 

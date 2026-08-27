@@ -1,7 +1,21 @@
+/* `display: flow-root` contains the two floated children (.person-image-container
+   and .persondata). Without it .person had zero content height and the 250px
+   padding-bottom was the only thing separating one member from the next - which
+   made the gap wildly uneven (up to 250px for short entries, 0 for long ones)
+   and wasted about a third of a phone screen 11 times over. With the floats
+   contained the padding is a real, uniform gutter. */
 .person {
+  display: flow-root;
   padding-top: 25px;
-  padding-bottom: 250px;
+  padding-bottom: 60px;
   clear: both;
+}
+
+@media all and (max-width: 767px) {
+  .person {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
 }
 
 .position-title {
@@ -16,10 +30,20 @@
   float: left;
 }
 
+/* The hover handler swaps src for young-src. Current and childhood photos have
+   different aspect ratios, so with `height: auto` the box resized on hover and
+   the page jumped by up to 91px. Almost every image in assets/images/members/
+   is square (the handful that are not are near-square or portrait), so a fixed
+   1:1 box with object-fit: cover holds the layout still and crops the outliers
+   sensibly. */
 .personimage {
-  max-width: 100%;
-  height: auto;
+  display: block;
   width: 200px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .research-image-container {

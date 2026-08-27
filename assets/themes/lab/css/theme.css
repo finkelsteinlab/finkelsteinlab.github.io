@@ -37,16 +37,25 @@
   --ctp-base: #eff1f5;
   --ctp-mantle: #e6e9ef;
   --ctp-crust: #dce0e8;
-  
+
+  /* WCAG AA adjusted hues.
+     Latte's blue (#1e66f5) and sapphire (#209fb5) are too light for body-sized
+     text on --ctp-base / --ctp-mantle (4.34:1 and 2.78:1). These are the same
+     hues darkened until they clear 4.5:1 on both backgrounds. */
+  --ctp-blue-aa: #1a56d0;
+  --ctp-sapphire-aa: #0b7285;
+  --ctp-overlay1-aa: #61647a;
+
   /* Semantic mappings */
   --color-bg: var(--ctp-base);
   --color-bg-secondary: var(--ctp-mantle);
   --color-bg-tertiary: var(--ctp-surface0);
   --color-text: var(--ctp-text);
-  --color-text-muted: var(--ctp-subtext0);
-  --color-text-subtle: var(--ctp-overlay1);
-  --color-link: var(--ctp-blue);
-  --color-link-hover: var(--ctp-sapphire);
+  --color-text-muted: var(--ctp-subtext1);
+  --color-text-subtle: var(--ctp-overlay1-aa);
+  --color-link: var(--ctp-blue-aa);
+  --color-link-hover: var(--ctp-sapphire-aa);
+  --color-link-underline: var(--ctp-subtext0);   /* #6c6f85, 4.37:1 - visible hairline, clearly lighter than body text */
   --color-border: var(--ctp-surface1);
   --color-border-strong: var(--ctp-surface2);
   --color-accent: var(--ctp-mauve);
@@ -103,16 +112,24 @@
   --ctp-base: #1e1e2e;
   --ctp-mantle: #181825;
   --ctp-crust: #11111b;
-  
+
+  /* Mocha is already well clear of AA, so the "-aa" hues are just the
+     stock Mocha values; they exist so the semantic mappings can be
+     written identically in both themes. */
+  --ctp-blue-aa: #89b4fa;
+  --ctp-sapphire-aa: #89dceb;
+  --ctp-overlay1-aa: #9399b2;
+
   /* Semantic mappings (automatically update) */
   --color-bg: var(--ctp-base);
   --color-bg-secondary: var(--ctp-mantle);
   --color-bg-tertiary: var(--ctp-surface0);
   --color-text: var(--ctp-text);
   --color-text-muted: var(--ctp-subtext0);
-  --color-text-subtle: var(--ctp-overlay1);
-  --color-link: var(--ctp-blue);
-  --color-link-hover: var(--ctp-sky);
+  --color-text-subtle: var(--ctp-overlay1-aa);
+  --color-link: var(--ctp-blue-aa);
+  --color-link-hover: var(--ctp-sapphire-aa);
+  --color-link-underline: var(--ctp-overlay1);   /* #7f849c, 4.44:1 */
   --color-border: var(--ctp-surface1);
   --color-border-strong: var(--ctp-surface2);
   --color-accent: var(--ctp-mauve);
@@ -134,6 +151,85 @@
   --color-button-text: var(--ctp-crust);
   --color-tag-bg: var(--ctp-surface1);
   --color-tag-text: var(--ctp-text);
+}
+
+/* ========================================
+   Dark Theme (Mocha) - CSS-only fallback
+
+   Mirrors the [data-theme="dark"] block above so the dark palette works
+   with JavaScript disabled or broken. The :not([data-theme="light"])
+   guard means an explicit light choice from the toggle still wins over a
+   dark OS preference; [data-theme="dark"] above still wins the other way.
+   Keep the two blocks in sync.
+   ======================================== */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    /* Base colors */
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa;
+    --ctp-lavender: #b4befe;
+
+    /* Grayscale */
+    --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de;
+    --ctp-subtext0: #a6adc8;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a;
+    --ctp-surface0: #313244;
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+
+    --ctp-blue-aa: #89b4fa;
+    --ctp-sapphire-aa: #89dceb;
+    --ctp-overlay1-aa: #9399b2;
+
+    /* Semantic mappings */
+    --color-bg: var(--ctp-base);
+    --color-bg-secondary: var(--ctp-mantle);
+    --color-bg-tertiary: var(--ctp-surface0);
+    --color-text: var(--ctp-text);
+    --color-text-muted: var(--ctp-subtext0);
+    --color-text-subtle: var(--ctp-overlay1-aa);
+    --color-link: var(--ctp-blue-aa);
+    --color-link-hover: var(--ctp-sapphire-aa);
+    --color-link-underline: var(--ctp-overlay1);   /* #7f849c, 4.44:1 */
+    --color-border: var(--ctp-surface1);
+    --color-border-strong: var(--ctp-surface2);
+    --color-accent: var(--ctp-mauve);
+    --color-success: var(--ctp-green);
+    --color-warning: var(--ctp-yellow);
+    --color-error: var(--ctp-red);
+
+    /* Component colors */
+    --color-navbar-bg: var(--ctp-mantle);
+    --color-navbar-text: var(--ctp-text);
+    --color-card-bg: var(--ctp-surface0);
+    --color-code-bg: var(--ctp-surface0);
+    --color-code-text: var(--ctp-text);
+    --color-table-header-bg: var(--ctp-surface0);
+    --color-table-stripe-bg: var(--ctp-mantle);
+    --color-input-bg: var(--ctp-surface0);
+    --color-input-border: var(--ctp-surface1);
+    --color-button-bg: var(--ctp-blue);
+    --color-button-text: var(--ctp-crust);
+    --color-tag-bg: var(--ctp-surface1);
+    --color-tag-text: var(--ctp-text);
+  }
 }
 
 /* ========================================
@@ -214,8 +310,15 @@ p, li, td, th, label {
   background-color: var(--color-bg-tertiary);
 }
 
+/* Bootstrap's navbar-collapse divider is hardcoded #e7e7e7 upstream. */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: var(--color-border);
+}
+
 .dropdown-menu {
   background-color: var(--color-bg-secondary);
+  background-image: none;
   border-color: var(--color-border);
 }
 
@@ -226,12 +329,17 @@ p, li, td, th, label {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   background-color: var(--color-bg-tertiary);
+  background-image: none;
   color: var(--color-link) !important;
 }
 
-/* Buttons */
+/* Buttons.
+   background-image is reset alongside every background-color: bootstrap-theme
+   ships light linear-gradients (e.g. .btn-default gets #fff -> #e0e0e0) that
+   would otherwise paint over the dark background under light text. */
 .btn-primary {
   background-color: var(--color-button-bg);
+  background-image: none;
   border-color: var(--color-button-bg);
   color: var(--color-button-text);
 }
@@ -239,11 +347,13 @@ p, li, td, th, label {
 .btn-primary:hover,
 .btn-primary:focus {
   background-color: var(--ctp-sapphire);
+  background-image: none;
   border-color: var(--ctp-sapphire);
 }
 
 .btn-default {
   background-color: var(--color-bg-tertiary);
+  background-image: none;
   border-color: var(--color-border);
   color: var(--color-text);
 }
@@ -251,6 +361,7 @@ p, li, td, th, label {
 .btn-default:hover,
 .btn-default:focus {
   background-color: var(--color-border);
+  background-image: none;
   border-color: var(--color-border-strong);
   color: var(--color-text);
 }
@@ -274,6 +385,7 @@ p, li, td, th, label {
 
 .table > thead > tr > th {
   background-color: var(--color-table-header-bg);
+  background-image: none;
   border-color: var(--color-border);
   color: var(--color-text);
 }
@@ -293,13 +405,38 @@ p, li, td, th, label {
 /* Cards and panels */
 .panel, .well, .card {
   background-color: var(--color-card-bg);
+  background-image: none;
   border-color: var(--color-border);
 }
 
-.panel-heading {
+.panel-heading,
+.panel-default > .panel-heading,
+.panel-primary > .panel-heading,
+.panel-info > .panel-heading,
+.panel-success > .panel-heading,
+.panel-warning > .panel-heading,
+.panel-danger > .panel-heading {
   background-color: var(--color-bg-tertiary);
+  background-image: none;
   border-color: var(--color-border);
   color: var(--color-text);
+}
+
+.list-group-item {
+  background-color: var(--color-card-bg);
+  background-image: none;
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.progress {
+  background-color: var(--color-bg-tertiary);
+  background-image: none;
+}
+
+.progress-bar {
+  background-color: var(--color-button-bg);
+  background-image: none;
 }
 
 /* Labels and badges */
@@ -353,29 +490,45 @@ hr {
   border-color: var(--color-border);
 }
 
-/* Alerts */
+/* Alerts (background-image reset: bootstrap-theme gradients them too) */
+.alert {
+  background-image: none;
+}
+
 .alert-info {
   background-color: var(--ctp-sapphire);
+  background-image: none;
   border-color: var(--ctp-blue);
   color: var(--color-button-text);
 }
 
 .alert-success {
   background-color: var(--ctp-green);
+  background-image: none;
   border-color: var(--ctp-teal);
   color: var(--color-button-text);
 }
 
 .alert-warning {
   background-color: var(--ctp-peach);
+  background-image: none;
   border-color: var(--ctp-yellow);
   color: var(--ctp-crust);
 }
 
 .alert-danger {
   background-color: var(--ctp-red);
+  background-image: none;
   border-color: var(--ctp-maroon);
   color: var(--color-button-text);
+}
+
+/* Page header rule.
+   Bootstrap hardcodes `border-bottom: 1px solid #eee`, which renders as a
+   near-white hairline on the dark background. Used by the page, post, news,
+   protocol and project layouts. */
+.page-header {
+  border-bottom-color: var(--color-border);
 }
 
 /* Footer - includes bottom navbar */
@@ -448,6 +601,12 @@ hr {
   --giscus-bg: var(--ctp-surface0);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .giscus {
+    --giscus-bg: var(--ctp-surface0);
+  }
+}
+
 /* ========================================
    Theme Toggle Button (in footer)
    ======================================== */
@@ -471,7 +630,19 @@ hr {
   border-color: var(--color-link);
 }
 
+/* Split into separate rules on purpose: an unsupported :focus-visible in a
+   comma-separated selector list would invalidate the whole list, taking the
+   plain :focus fallback down with it. */
 .theme-toggle:focus {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+.theme-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.theme-toggle:focus-visible {
   outline: 2px solid var(--color-link);
   outline-offset: 2px;
 }
