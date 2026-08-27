@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Probing dynamics of complex molecular systems with ultrafast 2D IR vibrational echo spectroscopy"
 paper_slug: 2007-02-20-protein-dynamics-ultrafast-2d-ir
+paper_url: /papers/paper/protein-dynamics-ultrafast-2d-ir
 doi: 10.1039/b618158a
 ---
 

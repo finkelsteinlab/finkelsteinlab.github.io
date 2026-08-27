@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Massively Parallel Profiling of RNA-targeting CRISPR-Cas13d"
 paper_slug: 2024-04-23-Massively-Parallel-Profiling-CRISPR-Cas13d
+paper_url: /papers/paper/Massively-Parallel-Profiling-CRISPR-Cas13d
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10786891/
 pmcid: PMC10786891
 ---

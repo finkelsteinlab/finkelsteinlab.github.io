@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Rapid prototyping of multichannel microfluidic devices for single-molecule DNA curtain imaging"
 paper_slug: 2014-05-06-microfluidic-devices-curtains
+paper_url: /papers/paper/microfluidic-devices-curtains
 doi: 10.1021/ac500267v
 ---
 

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Discovery and engineering of retrons for precise genome editing"
 paper_slug: 2025-10-23-Retron-genome-editing
+paper_url: /papers/paper/Retron-genome-editing
 doi: 10.1038/s41587-025-02879-3
 ---
 

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-molecule imaging reveals how Mre11-Rad50-Nbs1 initiates DNA break repair"
 paper_slug: 2017-09-07-mrn-dna-curtains
+paper_url: /papers/paper/mrn-dna-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5609712/
 pmcid: PMC5609712
 ---

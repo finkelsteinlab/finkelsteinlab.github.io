@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Frequency-frequency correlation functions and apodization in two-dimensional infrared vibrational echo spectroscopy: A new approach"
 paper_slug: 2007-09-28-frequency-frequency-correlation
+paper_url: /papers/paper/frequency-frequency-correlation
 doi: 10.1063/1.2772269
 ---
 

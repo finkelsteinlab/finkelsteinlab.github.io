@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Nucleosome acidic patch promotes RNF168- and RING1B/BMI1-dependent H2AX and H2A ubiquitination and DNA damage signaling."
 paper_slug: 2014-03-06-rnf168-h2a-ubiquitination-dna-damage
+paper_url: /papers/paper/rnf168-h2a-ubiquitination-dna-damage
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3945288/
 pmcid: PMC3945288
 ---

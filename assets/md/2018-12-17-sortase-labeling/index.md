@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Sortase-mediated fluorescent labeling of CRISPR complexes"
 paper_slug: 2018-12-17-sortase-labeling
+paper_url: /papers/paper/sortase-labeling
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6380366/
 pmcid: PMC6380366
 ---

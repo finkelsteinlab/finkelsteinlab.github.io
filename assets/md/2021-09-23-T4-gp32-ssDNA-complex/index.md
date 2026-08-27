@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Characterization of the T4 gp32-ssDNA complex by native, cross-linking, and ultraviolet photodissociation mass spectrometry"
 paper_slug: 2021-09-23-T4-gp32-ssDNA-complex
+paper_url: /papers/paper/T4-gp32-ssDNA-complex
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/
 pmcid: PMC8549804
 ---

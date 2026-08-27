@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Massively parallel kinetic profiling of natural and engineered CRISPR nucleases"
 paper_slug: 2020-09-07-nucleaseq
+paper_url: /papers/paper/nucleaseq
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9665413/
 pmcid: PMC9665413
 ---

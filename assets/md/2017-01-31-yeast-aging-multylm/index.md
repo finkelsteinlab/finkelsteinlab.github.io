@@ -2,6 +2,7 @@
 layout: paper-md
 title: "An aging-independent replicative lifespan in a symmetrically dividing eukaryote."
 paper_slug: 2017-01-31-yeast-aging-multylm
+paper_url: /papers/paper/yeast-aging-multylm
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/
 pmcid: PMC5332158
 ---

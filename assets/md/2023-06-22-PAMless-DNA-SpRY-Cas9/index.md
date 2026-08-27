@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Unraveling the mechanisms of PAMless DNA interrogation by SpRY-Cas9"
 paper_slug: 2023-06-22-PAMless-DNA-SpRY-Cas9
+paper_url: /papers/paper/PAMless-DNA-SpRY-Cas9
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11061278/
 pmcid: PMC11061278
 ---

@@ -4,15 +4,17 @@ layout: default
 
 <div class="bigspacer"></div>
 
+<article>
+
 <div class="row">
 	<div class="col-md-9">
 		<div class="media-body titlebox">
-			<div class="title media-heading">
+			<h1 class="title media-heading">
 				{{ page.title }}
-			</div>
+			</h1>
 			<p>
 			<div class="smallhead">
-				<a class="off" href="/papers/{{ page.source_paper }}">&larr; Back to paper page</a>
+				<a class="off" href="{{ page.paper_url | default: '/papers/' }}">&larr; Back to paper page</a>
 			</div>
 		</div>
 	</div>
@@ -28,11 +30,14 @@ layout: default
 	</div>
 </div>
 
+</article>
+
 <div class="bigspacer"></div>
 
 <script>
 // Wrap figure images + captions in styled <figure> boxes
 (function() {
+  try {
   var figRe = /^(Figure\s+\d|Fig[\.\s]+\d)/;
   var sel = '.paper-fulltext img[alt^="Figure"], .paper-fulltext img[alt^="Fig."], .paper-fulltext img[alt^="Fig "]';
   var imgs = Array.prototype.slice.call(document.querySelectorAll(sel));
@@ -41,6 +46,11 @@ layout: default
     var img = imgs[i];
     if (img.closest('.paper-figure')) continue;
     var parent = img.parentElement;
+    // A previous iteration may have detached this image's parent (two images in
+    // one paragraph), or the image may sit directly in the container with no
+    // wrapper. Either case would throw below and abort every later figure.
+    if (!parent || !parent.parentNode) continue;
+    if (parent.classList && parent.classList.contains('paper-fulltext')) continue;
 
     var figure = document.createElement('figure');
     figure.className = 'paper-figure';
@@ -118,6 +128,10 @@ layout: default
         }
       }
     }
+  }
+  } catch (e) {
+    // Figure styling is cosmetic; never let it break the rest of the page.
+    if (window.console) console.warn('figure wrapping skipped:', e);
   }
 })();
 </script>

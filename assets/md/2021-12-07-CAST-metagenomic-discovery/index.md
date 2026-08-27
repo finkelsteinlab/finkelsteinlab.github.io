@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Metagenomic Discovery of CRISPR-Associated Transposons"
 paper_slug: 2021-12-07-CAST-metagenomic-discovery
+paper_url: /papers/paper/CAST-metagenomic-discovery
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8670466/
 pmcid: PMC8670466
 ---

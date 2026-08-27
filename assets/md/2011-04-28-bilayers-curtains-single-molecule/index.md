@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Supported lipid bilayers and DNA curtains for high-throughput single-molecule studies."
 paper_slug: 2011-04-28-bilayers-curtains-single-molecule
+paper_url: /papers/paper/bilayers-curtains-single-molecule
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/
 pmcid: PMC3319767
 ---

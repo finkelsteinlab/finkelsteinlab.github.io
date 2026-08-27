@@ -2,6 +2,7 @@
 layout: paper-md
 title: "A Microfluidic Device for Massively Parallel, Whole-lifespan Imaging of Single Fission Yeast Cells."
 paper_slug: 2018-04-05-multfylm-protocol
+paper_url: /papers/paper/multfylm-protocol
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/
 pmcid: PMC5951408
 ---

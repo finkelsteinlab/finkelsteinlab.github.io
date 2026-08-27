@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Asgard archaea defense systems and their roles in the origin of eukaryotic immunity"
 paper_slug: 2023-09-13-archaea-defense-immunity
+paper_url: /papers/paper/archaea-defense-immunity
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11291487/
 pmcid: PMC11291487
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Cytochrome c552 mutants: structure and dynamics at the active site probed by multidimensional NMR and vibration echo spectroscopy"
 paper_slug: 2006-09-28-cytochrome-c552-mutants
+paper_url: /papers/paper/cytochrome-c552-mutants
 doi: 10.1021/jp054959q
 ---
 

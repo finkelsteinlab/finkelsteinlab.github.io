@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Mammalian Antigen Display for Pandemic Countermeasures"
 paper_slug: 2024-04-23-Mammalian-antigen-display
+paper_url: /papers/paper/Mammalian-antigen-display
 doi: 10.1007/978-1-0716-3666-4_12
 ---
 

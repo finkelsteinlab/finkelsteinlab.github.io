@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Room temperature CRISPR diagnostics for low-resource settings"
 paper_slug: 2025-01-31-Room-Temperature-CRISPR-Diagnostics
+paper_url: /papers/paper/Room-Temperature-CRISPR-Diagnostics
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11785965/
 pmcid: PMC11785965
 ---

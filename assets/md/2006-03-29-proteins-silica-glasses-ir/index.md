@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Dynamics of proteins encapsulated in silica sol-gel glasses studied with IR vibrational echo spectroscopy."
 paper_slug: 2006-03-29-proteins-silica-glasses-ir
+paper_url: /papers/paper/proteins-silica-glasses-ir
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2532503/
 pmcid: PMC2532503
 ---

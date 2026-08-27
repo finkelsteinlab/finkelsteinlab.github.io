@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Kinetic dissection of pre-crRNA binding and processing by CRISPR-Cas12a"
 paper_slug: 2024-09-16-Kinetic-dissection-of-pre-crRNA-binding
+paper_url: /papers/paper/Kinetic-dissection-of-pre-crRNA-binding
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11404446/
 pmcid: PMC11404446
 ---

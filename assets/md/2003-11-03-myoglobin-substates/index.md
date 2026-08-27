@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Myoglobin-CO substate structures and dynamics: multidimensional vibrational echoes and molecular dynamics simulations."
 paper_slug: 2003-11-03-myoglobin-substates
+paper_url: /papers/paper/myoglobin-substates
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2435512/
 pmcid: PMC2435512
 ---

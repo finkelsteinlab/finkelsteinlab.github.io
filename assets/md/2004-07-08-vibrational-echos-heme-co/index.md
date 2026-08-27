@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Fifth-order contributions to ultrafast spectrally resolved vibrational echoes: heme-CO proteins."
 paper_slug: 2004-07-08-vibrational-echos-heme-co
+paper_url: /papers/paper/vibrational-echos-heme-co
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2501118/
 pmcid: PMC2501118
 ---

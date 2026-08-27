@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks"
 paper_slug: 2019-07-04-adp-ribose-polymerase-1
+paper_url: /papers/paper/adp-ribose-polymerase-1
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6609622/
 pmcid: PMC6609622
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "From cradle to grave: high-throughput studies of aging in model organisms"
 paper_slug: 2014-07-01-high-throughput-aging
+paper_url: /papers/paper/high-throughput-aging
 doi: 10.1039/c3mb70604d
 ---
 

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "DNA-dependent Protein Kinase Promotes DNA End Processing by MRN and CtIP"
 paper_slug: 2020-01-08-pkcs-end-processing
+paper_url: /papers/paper/pkcs-end-processing
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6949041/
 pmcid: PMC6949041
 ---

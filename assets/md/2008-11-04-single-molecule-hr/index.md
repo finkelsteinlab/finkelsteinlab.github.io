@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single molecule studies of homologous recombination."
 paper_slug: 2008-11-04-single-molecule-hr
+paper_url: /papers/paper/single-molecule-hr
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2726709/
 pmcid: PMC2726709
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Compartmentalization of telomeres through DNA-scaffolded phase separation"
 paper_slug: 2022-01-25-telomeres-phase-separation
+paper_url: /papers/paper/telomeres-phase-separation
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/
 pmcid: PMC8988007
 ---

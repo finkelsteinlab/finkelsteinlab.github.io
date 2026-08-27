@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Vibrational echo experiments on red blood cells: Comparison of the dynamics of cytoplasmic and aqueous hemoglobin"
 paper_slug: 2004-06-15-vibrational-echoes-red-blood-cells
+paper_url: /papers/paper/vibrational-echoes-red-blood-cells
 doi: 10.1016/j.cplett.2004.05.080
 ---
 

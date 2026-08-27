@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Dynamics of hemoglobin in human erythrocytes and in solution: influence of viscosity studied by ultrafast vibrational echo experiments."
 paper_slug: 2004-12-08-hemoglobin-dynamics-vibrational-echo
+paper_url: /papers/paper/hemoglobin-dynamics-vibrational-echo
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2486496/
 pmcid: PMC2486496
 ---

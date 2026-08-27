@@ -2,6 +2,7 @@
 layout: paper-md
 title: "High-throughput single-molecule studies of protein-DNA interactions."
 paper_slug: 2014-10-01-single-molecule-curtains-letter
+paper_url: /papers/paper/single-molecule-curtains-letter
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/
 pmcid: PMC4163502
 ---

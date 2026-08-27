@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Viscosity-Dependent Protein Dynamics"
 paper_slug: 2007-05-15-viscosity-dependent-protein-dynamics
+paper_url: /papers/paper/viscosity-dependent-protein-dynamics
 doi: 10.1529/biophysj.106.093708
 ---
 

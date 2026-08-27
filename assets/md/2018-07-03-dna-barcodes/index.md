@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Indel-correcting DNA barcodes for high-throughput sequencing."
 paper_slug: 2018-07-03-dna-barcodes
+paper_url: /papers/paper/dna-barcodes
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6142223/
 pmcid: PMC6142223
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "RPA phosphorylation inhibits DNA resection"
 paper_slug: 2019-07-11-rpa-phosphorylation
+paper_url: /papers/paper/rpa-phosphorylation
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/
 pmcid: PMC6625828
 ---

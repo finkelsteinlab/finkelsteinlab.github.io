@@ -2,6 +2,7 @@
 layout: paper-md
 title: "3D-printed microfluidic microdissector for high-throughput studies of cellular aging."
 paper_slug: 2014-08-05-microdissector-cellular-aging
+paper_url: /papers/paper/microdissector-cellular-aging
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4636036/
 pmcid: PMC4636036
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "The MRN complex and topoisomerase IIIa–RMI1/2 synchronize DNA resection motor proteins"
 paper_slug: 2023-02-02-MRN-DNA-Resection
+paper_url: /papers/paper/MRN-DNA-Resection
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9971906/
 pmcid: PMC9971906
 ---

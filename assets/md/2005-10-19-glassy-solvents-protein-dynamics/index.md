@@ -2,6 +2,7 @@
 layout: paper-md
 title: "The influence of aqueous versus glassy solvents on protein dynamics: vibrational echo experiments and molecular dynamics simulations"
 paper_slug: 2005-10-19-glassy-solvents-protein-dynamics
+paper_url: /papers/paper/glassy-solvents-protein-dynamics
 doi: 10.1021/ja053627w
 ---
 

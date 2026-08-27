@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Systematic discovery of endogenous human ribonucleoprotein complexes"
 paper_slug: 2019-10-29-discovery-of-rnp-complexes
+paper_url: /papers/paper/discovery-of-rnp-complexes
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/
 pmcid: PMC6873818
 ---

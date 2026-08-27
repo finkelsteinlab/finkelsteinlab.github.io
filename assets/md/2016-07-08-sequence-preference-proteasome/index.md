@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Conserved Sequence Preferences Contribute to Substrate Recognition by the Proteasome."
 paper_slug: 2016-07-08-sequence-preference-proteasome
+paper_url: /papers/paper/sequence-preference-proteasome
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4938175/
 pmcid: PMC4938175
 ---

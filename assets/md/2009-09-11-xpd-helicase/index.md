@@ -2,6 +2,7 @@
 layout: paper-md
 title: "XPD helicase speeds through a molecular traffic jam."
 paper_slug: 2009-09-11-xpd-helicase
+paper_url: /papers/paper/xpd-helicase
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3033736/
 pmcid: PMC3033736
 ---

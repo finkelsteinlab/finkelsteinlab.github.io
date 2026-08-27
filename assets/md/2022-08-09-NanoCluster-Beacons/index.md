@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Massively Parallel Selection of NanoCluster Beacons"
 paper_slug: 2022-08-09-NanoCluster-Beacons
+paper_url: /papers/paper/NanoCluster-Beacons
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9588665/
 pmcid: PMC9588665
 ---

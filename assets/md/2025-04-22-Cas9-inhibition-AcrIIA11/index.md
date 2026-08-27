@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Mechanism of Cas9 inhibition by AcrIIA11"
 paper_slug: 2025-04-22-Cas9-inhibition-AcrIIA11
+paper_url: /papers/paper/Cas9-inhibition-AcrIIA11
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12022753/
 pmcid: PMC12022753
 ---

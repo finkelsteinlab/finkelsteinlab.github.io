@@ -2,6 +2,7 @@
 layout: paper-md
 title: "In Diverse Conditions, Intrinsic Chromatin Condensates Have Liquid-like Material Properties"
 paper_slug: 2023-04-24-chromatin-condensates-liquid-like-properties
+paper_url: /papers/paper/chromatin-condensates-liquid-like-properties
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10161002/
 pmcid: PMC10161002
 ---

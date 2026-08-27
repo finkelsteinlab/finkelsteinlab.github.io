@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Opfi: A Python package for identifying gene clusters in large genomics and metagenomics data sets"
 paper_slug: 2021-10-27-Python-package-gene-clusters
+paper_url: /papers/paper/Python-package-gene-clusters
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9017871/
 pmcid: PMC9017871
 ---

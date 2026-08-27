@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Assessing Protein Dynamics on Low-Complexity Single-Stranded DNA Curtains."
 paper_slug: 2018-08-02-low-complexity-ssdna-curtains
+paper_url: /papers/paper/low-complexity-ssdna-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6679933/
 pmcid: PMC6679933
 ---

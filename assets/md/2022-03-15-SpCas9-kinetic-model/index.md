@@ -2,6 +2,7 @@
 layout: paper-md
 title: "A kinetic model predicts SpCas9 activity, improves off-target classification, and reveals the physical basis of targeting fidelity"
 paper_slug: 2022-03-15-SpCas9-kinetic-model
+paper_url: /papers/paper/SpCas9-kinetic-model
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/
 pmcid: PMC8924176
 ---

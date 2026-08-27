@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Epigenetic cell fate in Candida albicans is controlled by transcription factor condensates acting at super-enhancer-like elements"
 paper_slug: 2020-07-27-epigenetic-cell-fate
+paper_url: /papers/paper/epigenetic-cell-fate
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/
 pmcid: PMC7581547
 ---

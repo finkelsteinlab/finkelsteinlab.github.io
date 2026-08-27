@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Sequence Analysis of 20,453 Severe Acute Respiratory Syndrome Coronavirus 2 Genomes from the Houston Metropolitan Area Identifies the Emergence and Widespread Distribution of Multiple Isolates of All Major Variants of Concern"
 paper_slug: 2021-03-16-SARS-CoV-2-Variants
+paper_url: /papers/paper/SARS-CoV-2-Variants
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7962948/
 pmcid: PMC7962948
 ---

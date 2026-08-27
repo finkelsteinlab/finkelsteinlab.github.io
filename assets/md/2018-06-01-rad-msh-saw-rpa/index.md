@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Coordination of Rad1-Rad10 interactions with Msh2-Msh3, Saw1 and RPA is essential for functional 3' non-homologous tail removal."
 paper_slug: 2018-06-01-rad-msh-saw-rpa
+paper_url: /papers/paper/rad-msh-saw-rpa
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/
 pmcid: PMC6007489
 ---

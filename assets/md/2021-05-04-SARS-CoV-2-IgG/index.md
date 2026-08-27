@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Prevalent, protective, and convergent IgG recognition of SARS-CoV-2 non-RBD spike epitopes"
 paper_slug: 2021-05-04-SARS-CoV-2-IgG
+paper_url: /papers/paper/SARS-CoV-2-IgG
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8224265/
 pmcid: PMC8224265
 ---

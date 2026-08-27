@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Trajectory of Growth of SARS-CoV-2 Variants in Houston, Texas, January through May 2021 Based on 12,476 Genome Sequences"
 paper_slug: 2021-07-03-SARS-CoV-2-variants
+paper_url: /papers/paper/SARS-CoV-2-variants
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/
 pmcid: PMC8299152
 ---

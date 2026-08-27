@@ -2,6 +2,7 @@
 layout: paper-md
 title: "How Glutamate Promotes Liquid-liquid Phase Separation and DNA Binding Cooperativity of E. coli SSB Protein"
 paper_slug: 2022-05-15-SSB-protein
+paper_url: /papers/paper/SSB-protein
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/
 pmcid: PMC9400470
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Expression and characterization of SARS-CoV-2 Spike Proteins"
 paper_slug: 2021-10-05-SARS-CoV-2-Spike-proteins
+paper_url: /papers/paper/SARS-CoV-2-Spike-proteins
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/
 pmcid: PMC9665560
 ---

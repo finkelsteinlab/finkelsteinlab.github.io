@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Distinct roles of XPF-ERCC1 and Rad1-Rad10-Saw1 in replication-coupled and uncoupled inter-strand crosslink repair."
 paper_slug: 2018-05-23-crosslink-repair-proteins
+paper_url: /papers/paper/crosslink-repair-proteins
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5966407/
 pmcid: PMC5966407
 ---

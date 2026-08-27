@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins."
 paper_slug: 2016-03-01-exo1-ssb-curtains
+paper_url: /papers/paper/exo1-ssb-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4780606/
 pmcid: PMC4780606
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-molecule imaging of DNA curtains reveals mechanisms of KOPS sequence targeting by the DNA translocase FtsK."
 paper_slug: 2012-04-24-curtains-kops-ftsk
+paper_url: /papers/paper/curtains-kops-ftsk
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3340036/
 pmcid: PMC3340036
 ---

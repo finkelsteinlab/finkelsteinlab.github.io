@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Next-Generation DNA Curtains for Single-Molecule Studies of Homologous Recombination."
 paper_slug: 2017-01-01-hr-methods-enzymology-chapter
+paper_url: /papers/paper/hr-methods-enzymology-chapter
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/
 pmcid: PMC5564670
 ---

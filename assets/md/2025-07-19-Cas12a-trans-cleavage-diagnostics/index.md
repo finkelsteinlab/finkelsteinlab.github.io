@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Unleashing high trans-substrate cleavage kinetics of Cas12a for nucleic acid diagnostics"
 paper_slug: 2025-07-19-Cas12a-trans-cleavage-diagnostics
+paper_url: /papers/paper/Cas12a-trans-cleavage-diagnostics
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12604663/
 pmcid: PMC12604663
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Neuroglobin dynamics observed with ultrafast 2D-IR vibrational echo spectroscopy."
 paper_slug: 2007-10-09-neuroglobin-ultrafast
+paper_url: /papers/paper/neuroglobin-ultrafast
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2042171/
 pmcid: PMC2042171
 ---

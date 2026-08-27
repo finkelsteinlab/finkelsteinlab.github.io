@@ -2,6 +2,7 @@
 layout: paper-md
 title: "HEDGES error-correcting code for DNA storage corrects indels and allows sequence constraints"
 paper_slug: 2020-07-16-HEDGES
+paper_url: /papers/paper/HEDGES
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7414044/
 pmcid: PMC7414044
 ---

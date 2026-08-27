@@ -2,6 +2,7 @@
 layout: paper-md
 title: "CTCF and R-loops are boundaries of cohesin-mediated DNA looping"
 paper_slug: 2023-08-17-Cohesin-Rloops
+paper_url: /papers/paper/Cohesin-Rloops
 doi: 10.1016/j.molcel.2023.07.006
 ---
 

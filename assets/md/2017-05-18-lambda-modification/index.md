@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Efficient modification of λ-DNA substrates for single-molecule studies."
 paper_slug: 2017-05-18-lambda-modification
+paper_url: /papers/paper/lambda-modification
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/
 pmcid: PMC5437064
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Polymerase theta-helicase promotes end joining by stripping single-stranded DNA-binding proteins and bridging DNA ends"
 paper_slug: 2022-04-22-Pol-theta-end-joining
+paper_url: /papers/paper/Pol-theta-end-joining
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9023281/
 pmcid: PMC9023281
 ---

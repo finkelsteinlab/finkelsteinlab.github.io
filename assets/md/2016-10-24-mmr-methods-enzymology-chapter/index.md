@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Inserting Extrahelical Structures into Long DNA Substrates for Single-Molecule Studies of DNA Mismatch Repair"
 paper_slug: 2016-10-24-mmr-methods-enzymology-chapter
+paper_url: /papers/paper/mmr-methods-enzymology-chapter
 doi: 10.1016/bs.mie.2016.08.006
 ---
 

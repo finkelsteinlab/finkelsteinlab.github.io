@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a."
 paper_slug: 2018-07-24-cas12a-kinetics
+paper_url: /papers/paper/cas12a-kinetics
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/
 pmcid: PMC6679935
 ---

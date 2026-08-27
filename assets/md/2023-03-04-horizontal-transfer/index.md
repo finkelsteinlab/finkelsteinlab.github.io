@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Distinct horizontal transfer mechanisms for type I and type V CRISPR-associated transposons"
 paper_slug: 2023-03-04-horizontal-transfer
+paper_url: /papers/paper/horizontal-transfer
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11300857/
 pmcid: PMC11300857
 ---

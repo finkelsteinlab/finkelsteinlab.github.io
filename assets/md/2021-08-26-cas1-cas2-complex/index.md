@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Disintegration promotes proto-spacer integration by the Cas1-Cas2 complex"
 paper_slug: 2021-08-26-cas1-cas2-complex
+paper_url: /papers/paper/cas1-cas2-complex
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8390005/
 pmcid: PMC8390005
 ---

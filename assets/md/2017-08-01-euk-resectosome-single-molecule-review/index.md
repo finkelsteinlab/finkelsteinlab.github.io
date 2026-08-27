@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Eukaryotic resectosomes: A single-molecule perspective."
 paper_slug: 2017-08-01-euk-resectosome-single-molecule-review
+paper_url: /papers/paper/euk-resectosome-single-molecule-review
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5290259/
 pmcid: PMC5290259
 ---

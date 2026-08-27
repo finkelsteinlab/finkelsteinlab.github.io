@@ -2,6 +2,7 @@
 layout: paper-md
 title: "One-Pot Isothermal Linear Amplification and Cas12a-Based Nucleic Acid Detection"
 paper_slug: 2025-12-19-One-Pot-Isothermal-Cas12a-Detection
+paper_url: /papers/paper/One-Pot-Isothermal-Cas12a-Detection
 doi: 10.1021/acssynbio.5c00463
 ---
 

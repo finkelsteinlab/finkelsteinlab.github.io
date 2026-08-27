@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Inhibition of CRISPR-Cas12a DNA Targeting by Nucleosomes and Chromatin"
 paper_slug: 2021-03-10-Cas12a-nucleosomes
+paper_url: /papers/paper/Cas12a-nucleosomes
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946368/
 pmcid: PMC7946368
 ---

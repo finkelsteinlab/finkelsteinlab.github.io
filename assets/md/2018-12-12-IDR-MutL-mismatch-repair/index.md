@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Intrinsically disordered regions regulate both catalytic and noncatalytic activities of the MutL&#945; mismatch repair complex."
 paper_slug: 2018-12-12-IDR-MutL-mismatch-repair
+paper_url: /papers/paper/IDR-MutL-mismatch-repair
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6393296/
 pmcid: PMC6393296
 ---

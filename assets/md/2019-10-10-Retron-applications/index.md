@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Retrons and their applications in genome engineering"
 paper_slug: 2019-10-10-Retron-applications
+paper_url: /papers/paper/Retron-applications
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/
 pmcid: PMC6868368
 ---

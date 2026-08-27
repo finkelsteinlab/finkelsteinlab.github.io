@@ -2,6 +2,7 @@
 layout: paper-md
 title: "High-Throughput Universal DNA Curtain Arrays for Single-Molecule Fluorescence Imaging."
 paper_slug: 2015-09-22-dna-curtain-arrays
+paper_url: /papers/paper/dna-curtain-arrays
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4624423/
 pmcid: PMC4624423
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions."
 paper_slug: 2016-02-03-dna-bypass-roadblocks
+paper_url: /papers/paper/dna-bypass-roadblocks
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4742970/
 pmcid: PMC4742970
 ---

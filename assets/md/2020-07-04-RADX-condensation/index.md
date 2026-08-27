@@ -2,6 +2,7 @@
 layout: paper-md
 title: "RADX condenses single-stranded DNA to antagonize RAD51 loading"
 paper_slug: 2020-07-04-RADX-condensation
+paper_url: /papers/paper/RADX-condensation
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/
 pmcid: PMC7430644
 ---

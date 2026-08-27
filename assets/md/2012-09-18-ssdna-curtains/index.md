@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-stranded DNA curtains for real-time single-molecule visualization of protein-nucleic acid interactions."
 paper_slug: 2012-09-18-ssdna-curtains
+paper_url: /papers/paper/ssdna-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/
 pmcid: PMC3475199
 ---

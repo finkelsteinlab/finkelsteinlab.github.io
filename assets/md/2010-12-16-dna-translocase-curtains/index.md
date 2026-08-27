@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase."
 paper_slug: 2010-12-16-dna-translocase-curtains
+paper_url: /papers/paper/dna-translocase-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3230117/
 pmcid: PMC3230117
 ---

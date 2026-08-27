@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Molecular traffic jams on DNA."
 paper_slug: 2013-02-28-traffic-dna
+paper_url: /papers/paper/traffic-dna
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3651777/
 pmcid: PMC3651777
 ---

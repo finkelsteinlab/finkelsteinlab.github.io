@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Structural Basis for Target Discrimination and Activation by Cas13d"
 paper_slug: 2024-11-26-Cas13d-structure
+paper_url: /papers/paper/Cas13-structure
 doi: 10.1101/2025.09.12.675955
 ---
 

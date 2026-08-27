@@ -2,6 +2,7 @@
 layout: paper-md
 title: "High-speed AFM imaging reveals DNA capture and loop extrusion dynamics by cohesin-NIPBL"
 paper_slug: 2023-09-28-AFM-cohesin-NIPBL
+paper_url: /papers/paper/AFM-cohesin-NIPBL
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10656236/
 pmcid: PMC10656236
 ---

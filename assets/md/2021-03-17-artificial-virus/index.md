@@ -2,6 +2,7 @@
 layout: paper-md
 title: "CRISPR-guided programmable self-assembly of artificial virus-like nucleocapsids"
 paper_slug: 2021-03-17-artificial-virus
+paper_url: /papers/paper/artificial-virus
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9724498/
 pmcid: PMC9724498
 ---

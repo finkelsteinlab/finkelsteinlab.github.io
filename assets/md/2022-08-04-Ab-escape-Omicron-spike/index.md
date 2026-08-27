@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Antibody escape and cryptic cross-domain stabilization in the SARS-CoV-2 Omicron spike protein"
 paper_slug: 2022-08-04-Ab-escape-Omicron-spike
+paper_url: /papers/paper/Ab-escape-Omicron-spike
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9350683/
 pmcid: PMC9350683
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome"
 paper_slug: 2019-09-10-Cas9-inhibitors
+paper_url: /papers/paper/Cas9-inhibitors
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6739867/
 pmcid: PMC6739867
 ---

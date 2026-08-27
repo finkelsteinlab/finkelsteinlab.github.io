@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Ultrafast dynamics of myoglobin without the distal histidine: stimulated vibrational echo experiments and molecular dynamics simulations"
 paper_slug: 2005-09-08-myoglobin-dynamics-histidine
+paper_url: /papers/paper/myoglobin-dynamics-histidine
 doi: 10.1021/jp0517201
 ---
 

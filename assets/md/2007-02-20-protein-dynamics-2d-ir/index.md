@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Substrate binding and protein conformational dynamics measured by 2D-IR vibrational echo spectroscopy."
 paper_slug: 2007-02-20-protein-dynamics-2d-ir
+paper_url: /papers/paper/protein-dynamics-2d-ir
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1815234/
 pmcid: PMC1815234
 ---

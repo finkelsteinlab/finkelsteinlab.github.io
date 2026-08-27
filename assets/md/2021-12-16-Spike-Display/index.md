@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Rapid characterization of spike variants via mammalian cell surface display"
 paper_slug: 2021-12-16-Spike-Display
+paper_url: /papers/paper/Spike-Display
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/
 pmcid: PMC8675084
 ---

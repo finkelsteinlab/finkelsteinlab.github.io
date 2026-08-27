@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Assembling the Human Resectosome on DNA Curtains."
 paper_slug: 2019-05-25-human-resectosome
+paper_url: /papers/paper/human-resectosome
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6666396/
 pmcid: PMC6666396
 ---

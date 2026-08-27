@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Massively Parallel Biophysical Analysis of CRISPR-Cas Complexes on Next Generation Sequencing Chips"
 paper_slug: 2017-06-29-champ-cascade
+paper_url: /papers/paper/champ-cascade
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5552236/
 pmcid: PMC5552236
 ---

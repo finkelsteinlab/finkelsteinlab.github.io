@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Structure-based Design of Prefusion-stabilized SARS-CoV-2 Spikes"
 paper_slug: 2020-07-23-SARS-CoV-2-Structure
+paper_url: /papers/paper/SARS-CoV-2-Structure
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7402631/
 pmcid: PMC7402631
 ---

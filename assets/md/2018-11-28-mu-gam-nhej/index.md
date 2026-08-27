@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Phage Mu Gam protein promotes NHEJ in concert with Escherichia coli ligase"
 paper_slug: 2018-11-28-mu-gam-nhej
+paper_url: /papers/paper/mu-gam-nhej
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6294893/
 pmcid: PMC6294893
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Human cohesin compacts DNA by loop extrusion"
 paper_slug: 2019-12-13-cohesin-compaction
+paper_url: /papers/paper/cohesin-compaction
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/
 pmcid: PMC7387118
 ---

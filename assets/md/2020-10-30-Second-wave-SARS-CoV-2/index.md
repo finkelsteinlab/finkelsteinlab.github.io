@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Molecular Architecture of Early Dissemination and Massive Second Wave of the SARS-CoV-2 Virus in a Major Metropolitan Area"
 paper_slug: 2020-10-30-Second-wave-SARS-CoV-2
+paper_url: /papers/paper/Second-wave-SARS-CoV-2
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/
 pmcid: PMC7642679
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "The promoter-search mechanism of Escherichia coli RNA polymerase is dominated by three-dimensional diffusion."
 paper_slug: 2013-02-01-search-rnap-3d
+paper_url: /papers/paper/search-rnap-3d
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3565103/
 pmcid: PMC3565103
 ---

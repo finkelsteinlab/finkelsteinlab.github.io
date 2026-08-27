@@ -2,6 +2,7 @@
 layout: paper-md
 title: "PARP1 condensates differentially partition DNA repair proteins and enhance DNA ligation"
 paper_slug: 2024-11-04-PARP1-condensates-EMBO-Reports
+paper_url: /papers/paper/PARP1-condensates-EMBO-Reports
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11624282/
 pmcid: PMC11624282
 ---

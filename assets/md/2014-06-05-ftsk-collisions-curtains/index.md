@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Single-molecule imaging of FtsK translocation reveals mechanistic features of protein-protein collisions on DNA."
 paper_slug: 2014-06-05-ftsk-collisions-curtains
+paper_url: /papers/paper/ftsk-collisions-curtains
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4048639/
 pmcid: PMC4048639
 ---

@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Purification and Biophysical Characterization of the Mre11-Rad50-Nbs1 Complex."
 paper_slug: 2019-05-31-mre1-rad50-nbs1-complex
+paper_url: /papers/paper/mre1-rad50-nbs1-complex
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/
 pmcid: PMC6667175
 ---

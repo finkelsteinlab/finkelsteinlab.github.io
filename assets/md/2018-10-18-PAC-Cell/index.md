@@ -2,6 +2,7 @@
 layout: paper-md
 title: "Assembly and Translocation of a CRISPR-Cas Primed Acquisition Complex."
 paper_slug: 2018-10-18-PAC-Cell
+paper_url: /papers/paper/PAC-Cell
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6441324/
 pmcid: PMC6441324
 ---
