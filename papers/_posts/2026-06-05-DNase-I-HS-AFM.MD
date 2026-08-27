@@ -14,7 +14,7 @@ supplement: 0098-2026-Elessawy et al-ACSChemBio-supplement.pdf
 doi: 10.1021/acschembio.6c00195
 pmcid: PMC13307592
 pmid: 42246973
-markdown:
+markdown: 2026-06-05-DNase-I-HS-AFM
 extra_text: ''
 category: paper
 tags: [DNase I, atomic force microscopy, single-molecule, nuclease]

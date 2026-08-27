@@ -9,6 +9,34 @@ Status key:
 - DONE :: Manually reviewed and approved
 - PDF :: No MD archive (PDF only)
 
+* 2026
+** WAITING 101. Hooper et al. Nat Commun (2026)
+:PROPERTIES:
+:MD_SLUG: 2026-05-18-Hna-antiphage-defense
+:DOI: 10.1038/s41467-026-73157-2
+:FILE: papers/_posts/2026-05-18-Hna-antiphage-defense.MD
+:JOURNAL: Nature Communications
+:VERIFIED: 2026-08-27
+:VERIFIED_NOTES: Scraped from PMC13381803 with scripts/pmc-to-md.py. Figs 1-5 ✓, 63 refs ✓ (all sequential, all inline anchors resolve). Fixes: MgCl₂, mL min⁻¹ and mg mL⁻¹ unit superscripts (source printed "mg mL/1"), *K*<sub>D</sub>/<i>K</i><sub>d,app</sub> binding constants, panel letters pulled inside figure links, condensed supplementary-file listing, EMDB/PDB accession links.
+:END:
+** WAITING 100. Elessawy et al. ACS Chem Biol (2026)
+:PROPERTIES:
+:MD_SLUG: 2026-06-05-DNase-I-HS-AFM
+:DOI: 10.1021/acschembio.6c00195
+:FILE: papers/_posts/2026-06-05-DNase-I-HS-AFM.MD
+:JOURNAL: ACS Chemical Biology
+:VERIFIED: 2026-08-27
+:VERIFIED_NOTES: Scraped from PMC13307592 with scripts/pmc-to-md.py. Figs 1-5 ✓, 34 refs ✓. Letter format — the body has no section headings in the published article, so none were invented. Fixes: Ca²⁺ in ref 13, en dashes in citation ranges, "Fig 2E/2F" normalized to "Fig. 2E/2F", merged split panel links, condensed supplementary movie listing.
+:END:
+** WAITING 99. Chou et al. Sci Adv (2026)
+:PROPERTIES:
+:MD_SLUG: 2026-08-19-Cas13d-structure
+:DOI: 10.1126/sciadv.aec4221
+:FILE: papers/_posts/2026-08-19-Cas13d-structure.MD
+:JOURNAL: Science Advances
+:VERIFIED: 2026-08-27
+:VERIFIED_NOTES: Re-scraped from PMC13488901, replacing the bioRxiv preprint body and figures that had been left under the old slug 2024-11-26-Cas13d-structure (deleted). Abstract now matches the published Science Advances text. Figs 1-5 ✓, 61 refs ✓. Fixes: ALL-CAPS journal headings title-cased, italics for *in cis*/*in trans*/*in vitro* and *trans*-cleavage/*trans*-substrate, PDB accession link.
+:END:
 * 2025
 ** DONE 98. Sinan et al. ACS Synth Biol (2025)
 :PROPERTIES:
@@ -54,15 +82,6 @@ Status key:
 :JOURNAL: Scientific Reports
 :VERIFIED: 2026-04-02
 :VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Table 1 (8 rows) ✓, Figs 1-5 ✓, 26 refs ✓. Fixes: MgCl₂, FQ-C₅/FQ-C₁₀ subscripts, FAM₂-T₅-Biotin₂ & Dig-Sp₁₈-FAM-T₅-Biotin₂ subscripts, kss/kact kinetic parameters, trans/cis italics in figcaptions, λ subscripts, reference anchors.
-:END:
-** WAITING 93. Chou et al. bioRxiv (2025)
-:PROPERTIES:
-:MD_SLUG: 2024-11-26-Cas13d-structure
-:DOI: 10.1101/2025.09.12.675955
-:FILE: papers/_posts/2024-11-26-Cas13-structure.MD
-:JOURNAL: bioRxiv
-:VERIFIED: 2026-04-18
-:VERIFIED_NOTES: Title ✓, authors ✓, abstract ✓, Figs 1-5 ✓, 60 refs ✓. No fixes needed. MgCl₂, OD₆₀₀, [γ-³²P], Mg²⁺, species italics (*E. siraeum*, *E. coli*), Latin terms (*in cis*, *in trans*) all correct.
 :END:
 * 2024
 ** DONE 92. Chin Sang et al. EMBO Rep (2024)

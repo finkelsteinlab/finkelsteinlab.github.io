@@ -14,7 +14,7 @@ supplement: 0099-2026-Hooper et al-NatCommun-supplement.pdf
 doi: 10.1038/s41467-026-73157-2
 pmcid: PMC13381803
 pmid: 42151145
-markdown:
+markdown: 2026-05-18-Hna-antiphage-defense
 extra_text: ''
 category: paper
 tags: [anti-phage defense, abortive infection, nuclease, cryo-EM, single-molecule]

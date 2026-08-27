@@ -16,7 +16,7 @@ supplement: 0097-2026-Chou et al-SciAdv-supplement.pdf
 doi: 10.1126/sciadv.aec4221
 pmcid: PMC13488901
 pmid: 42616864
-markdown: 2024-11-26-Cas13d-structure
+markdown: 2026-08-19-Cas13d-structure
 extra_text: ''
 category: paper
 tags: [Cas13d structure]
