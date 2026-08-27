@@ -2,15 +2,15 @@
 layout: paper-md
 title: "Structural Basis for Target Discrimination and Activation by Cas13d"
 paper_slug: 2024-11-26-Cas13d-structure
-paper_url: /papers/paper/Cas13-structure
-doi: 10.1101/2025.09.12.675955
+paper_url: /papers/paper/Cas13d-structure
+doi: 10.1126/sciadv.aec4221
 ---
 
-**Chia-Wei Chou, Selma Sinan, Hung-Che Kuo, Carlos Arguello, Daphne Sahaya, Rick Russell, and Ilya J. Finkelstein†  († corresponding)**
+**Chia-Wei Chou, Selma Sinan, Hung-Che Kuo, You-Chiun Chang, Carlos Arguello, Daphne Sahaya, Rick Russell, and Ilya J. Finkelstein†  († corresponding)**
 
-*bioRxiv, 2025*
+*Science Advances*, 12(34): eaec4221, 2026
 
-DOI: [10.1101/2025.09.12.675955](https://doi.org/10.1101/2025.09.12.675955)
+DOI: [10.1126/sciadv.aec4221](https://doi.org/10.1126/sciadv.aec4221)
 
 ---
 
