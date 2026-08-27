@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9400470/
 pmcid: PMC9400470
 ---
 
-# How Glutamate Promotes Liquid-liquid Phase Separation and DNA Binding Cooperativity of _E. coli_ SSB Protein
-
 **Alexander G. Kozlov, Xian Cheng, Hongshan Zhang, Min Kyung Shinn, Elizabeth Weiland, Binh Nguyen, Irina A. Shkel, Emily Zytkiewicz, Ilya J. Finkelstein, M. Thomas Record Jr., and Timothy M. Lohman**
 
 *J. Mol. Bio.*, Volume 434, Issue 9, Pages 167562 (2022)

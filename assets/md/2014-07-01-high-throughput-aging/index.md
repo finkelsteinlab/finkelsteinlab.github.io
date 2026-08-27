@@ -6,8 +6,6 @@ paper_url: /papers/paper/high-throughput-aging
 doi: 10.1039/c3mb70604d
 ---
 
-# From cradle to grave: high-throughput studies of aging in model organisms
-
 **Eric C. Spivey and Ilya J. Finkelstein***
 
 *Molecular BioSystems, Vol. 10, Issue 7, pp. 1658–1667, 2014*

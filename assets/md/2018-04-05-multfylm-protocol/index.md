@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5951408/
 pmcid: PMC5951408
 ---
 
-# A Microfluidic Device for Massively Parallel, Whole-lifespan Imaging of Single Fission Yeast Cells
-
 **Stephen K. Jones Jr, Eric C. Spivey, James R. Rybarski, and Ilya J. Finkelstein**
 
 *Bio-protocol*, Volume 8, Issue 7, e2783 (2018)

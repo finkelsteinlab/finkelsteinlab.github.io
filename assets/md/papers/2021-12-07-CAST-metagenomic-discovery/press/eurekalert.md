@@ -5,8 +5,6 @@ source_url: https://www.eurekalert.org/news-releases/936789
 archived: 2025-02-09
 ---
 
-# Potential new gene editing tools uncovered
-
 **News Release** · 7-Dec-2021 · Peer-Reviewed Publication · University of Texas at Austin
 
 ---

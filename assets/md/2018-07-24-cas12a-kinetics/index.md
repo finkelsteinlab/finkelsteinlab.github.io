@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6679935/
 pmcid: PMC6679935
 ---
 
-# Kinetic Basis for DNA Target Specificity of CRISPR-Cas12a
-
 **Isabel Strohkendl, Fatema A. Saifuddin, James R. Rybarski, Ilya J. Finkelstein, and Rick Russell**
 
 *Mol. Cell*, Volume 71, Issue 5, Pages 816–824.e3 (2018)

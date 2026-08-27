@@ -5,7 +5,7 @@ source_url: https://spectrum.ieee.org/nanoclast/semiconductors/memory/dna-data-s
 archived: 2025-02-09
 ---
 
-#  How Scientists Encoded “The Wizard of Oz” Into DNA 
+## How Scientists Encoded “The Wizard of Oz” Into DNA
 ## University of Texas researchers unveil protocol to shuffle large data stores into strands of genetic material
 27 Jul 2020
 4 min read

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6739867/
 pmcid: PMC6739867
 ---
 
-# Functional metagenomics-guided discovery of potent Cas9 inhibitors in the human microbiome
-
 **Kevin J. Forsberg, Ishan V. Bhatt, Danica T. Schmidtke, Kamyab Javanmardi, Kaylee E. Dillard, Barry L. Stoddard, Ilya J. Finkelstein, Brett K. Kaiser, and Harmit S. Malik**
 
 *eLife*, Volume 8, e46540 (2019)

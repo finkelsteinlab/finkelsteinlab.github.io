@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11404446/
 pmcid: PMC11404446
 ---
 
-# Kinetic dissection of pre-crRNA binding and processing by CRISPR–Cas12a
-
 **Selma Sinan, Nathan M. Appleby, Chia-Wei Chou, Ilya J. Finkelstein, and Rick Russell†** († corresponding)
 
 *RNA*, Volume 30, Issue 10, Pages 1345–1355 (2024)

@@ -5,8 +5,6 @@ source_url: https://www.eurekalert.org/news-releases/1102990
 archived: 2025-02-09
 ---
 
-# New gene-editing tech holds promise for treating complex genetic diseases
-
 *Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA.*
 
 **News Release** · 23-Oct-2025 · Peer-Reviewed Publication · University of Texas at Austin

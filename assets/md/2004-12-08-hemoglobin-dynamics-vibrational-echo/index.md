@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2486496/
 pmcid: PMC2486496
 ---
 
-# Dynamics of Hemoglobin in Human Erythrocytes and in Solution: Influence of Viscosity Studied by Ultrafast Vibrational Echo Experiments
-
 **Brian L. McClain, Ilya J. Finkelstein, and M. D. Fayer**
 
 *J. Am. Chem. Soc.*, Volume 126, Issue 48, Pages 15702-10 (2004)

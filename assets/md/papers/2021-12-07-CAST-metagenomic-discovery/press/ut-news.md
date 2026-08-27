@@ -5,8 +5,6 @@ source_url: https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-
 archived: 2025-02-09
 ---
 
-# Potential New Gene Editing Tools Uncovered
-
 AUSTIN, Texas — Few developments have rocked the biotechnology world or generated as much buzz as the discovery of CRISPR-Cas systems, a breakthrough in gene editing recognized in 2020 with a Nobel Prize. But these systems that naturally occur in bacteria are limited because they can make only small tweaks to genes. In recent years, scientists discovered a different system in bacteria that might lead to even more powerful methods for gene editing, given its unique ability to insert genes or whole sections of DNA in a genome.
 New research from The University of Texas at Austin dramatically expands the number of naturally occurring versions of this system, giving researchers a wealth of potential new tools for large-scale gene editing.
 Other scientists had identified clusters of genes that use CRISPR to insert themselves into different places in an organism’s genome, dubbed [CRISPR-associated transposons (CASTs)](https://www.pnas.org/content/114/35/E7358). Earlier work has shown they can be used to[ add an entire gene or large DNA sequence to the genome](https://news.mit.edu/2019/gene-editing-system-precisely-inserts-large-dna-sequences-0612), at least for bacteria.

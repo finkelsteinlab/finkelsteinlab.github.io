@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6868368/
 pmcid: PMC6868368
 ---
 
-# Retrons and their applications in genome engineering
-
 **Anna J. Simon, Andrew D. Ellington, and Ilya J. Finkelstein**
 
 *Nucleic Acids Research*, Volume 47, Issue 21, Pages 11007–11019 (2019)

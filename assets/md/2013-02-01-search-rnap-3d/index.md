@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3565103/
 pmcid: PMC3565103
 ---
 
-# The promoter-search mechanism of *Escherichia coli* RNA polymerase is dominated by three-dimensional diffusion
-
 **Feng Wang\*, Sy Redding\*, Ilya J. Finkelstein, Jason Gorman, David R. Reichman, and Eric C. Greene** (\* co-first authors)
 
 *Nat. Struct. Mol. Biol.*, Volume 20, Issue 2, Pages 174–81 (2013)

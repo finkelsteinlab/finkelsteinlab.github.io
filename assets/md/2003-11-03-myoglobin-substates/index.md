@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2435512/
 pmcid: PMC2435512
 ---
 
-# Myoglobin-CO Substate Structures and Dynamics: Multidimensional Vibrational Echoes and Molecular Dynamics Simulations
-
 **Kusai A. Merchant, W. G. Noid, Ryo Akiyama, Ilya J. Finkelstein, Alexei Goun, Brian L. McClain, Roger F. Loring, and M. D. Fayer**
 
 *J. Am. Chem. Soc.*, Volume 125, Issue 45, Pages 13804–18 (2003)

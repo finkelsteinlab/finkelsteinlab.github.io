@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6667175/
 pmcid: PMC6667175
 ---
 
-# Purification and Biophysical Characterization of the Mre11-Rad50-Nbs1 Complex
-
 **Logan R. Myler, Michael M. Soniat, Xiaoming Zhang, Rajashree A. Deshpande, Tanya T. Paull, and Ilya J. Finkelstein**
 
 *Methods Mol. Biol.*, Volume 2004, Pages 269–287 (2019)

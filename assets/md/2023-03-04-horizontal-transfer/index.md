@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11300857/
 pmcid: PMC11300857
 ---
 
-# Distinct horizontal transfer mechanisms for type I and type V CRISPR-associated transposons
-
 **Kuang Hu, Chia-Wei Chou, Claus O. Wilke, and Ilya J. Finkelstein†** († corresponding)
 
 *Nature Communications*, Volume 15, Issue 1, Pages 6653 (2024)

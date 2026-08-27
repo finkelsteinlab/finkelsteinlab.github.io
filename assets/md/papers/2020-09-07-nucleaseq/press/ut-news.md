@@ -5,8 +5,6 @@ source_url: https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improv
 archived: 2025-02-09
 ---
 
-# Matching CRISPR to the Job Improves the Safety, Efficiency of the Gene-Editing Tool
-
 AUSTIN, Texas — One of the biggest scientific advances of the last decade is getting better thanks to researchers at The University of Texas at Austin; the University of California, Berkeley; and Korea University. The team has developed a new tool to help scientists choose the best available gene-editing option for a given job, making the technology called CRISPR safer, cheaper and more efficient. The tool is outlined in a paper out today in _[Nature Biotechnology](https://www.nature.com/articles/s41587-020-0646-5). _
 The CRISPR gene-editing technique holds tremendous potential to improve human health, agriculture and the future of people on the planet, but the challenge lies in the delicate nature of gene editing — there is almost no room for error.
 To edit genes, scientists use dozens of different enzymes from a naturally occurring system called CRISPR. Researchers locate a problematic DNA sequence and use these specialized enzymes to snip it as if using a pair of scissors, allowing genetic material to be added, removed or altered. But these scissors are not perfect. Accuracy and effectiveness vary by the CRISPR enzyme and the project. The new tool guides users, so they can pick the best CRISPR enzyme for their high-stakes gene edit.

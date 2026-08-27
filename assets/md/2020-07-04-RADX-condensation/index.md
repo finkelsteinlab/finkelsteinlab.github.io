@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7430644/
 pmcid: PMC7430644
 ---
 
-# RADX condenses single-stranded DNA to antagonize RAD51 loading
-
 **Hongshan Zhang, Jeffrey M. Schaub, and Ilya J. Finkelstein**
 
 *Nucleic Acids Research*, Volume 48, Issue 14, Pages 7834–7843 (2020)

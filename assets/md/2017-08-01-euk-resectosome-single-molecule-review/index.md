@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5290259/
 pmcid: PMC5290259
 ---
 
-# Eukaryotic resectosomes: a single-molecule perspective
-
 **Logan R. Myler and Ilya J. Finkelstein**
 
 *Progress in Biophysics and Molecular Biology*, Volume 127, Pages 119–129 (2017)

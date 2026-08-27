@@ -5,7 +5,6 @@ source_url: https://cns.utexas.edu/news/accolades/molecular-biologist-receives-t
 archived: 2025-02-09
 ---
 
-#  Molecular Biologist Receives TAMEST O’Donnell Award
 December 11, 2024 • by Staff Writer 
 Ilya Finkelstein’s research focuses on improving gene editing, understanding DNA repair and finding disease treatments.
 Ilya Finkelstein, associate professor of molecular biosciences at The University of Texas at Austin, will receive a 2025 Edith and Peter O’Donnell Award from the Texas Academy of Medicine, Engineering, Science & Technology (TAMEST). He will be honored, along with four other recipients, at the [TAMEST 2025 Annual Conference](http://tamest.org/2025) in February.

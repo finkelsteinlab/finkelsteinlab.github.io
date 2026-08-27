@@ -5,8 +5,6 @@ source_url: https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker
 archived: 2025-02-09
 ---
 
-# UT scientists tinker with gene-mapping device to make DNA editing safe
-
 **By Marty Toohey** · Aug 11, 2017 · *Austin American-Statesman*
 
 Ilya Finkelstein chuckles when recounting the origins of the project that landed the University of Texas scientist and his colleagues in the prestigious academic journal Cell.

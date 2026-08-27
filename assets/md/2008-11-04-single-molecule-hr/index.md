@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2726709/
 pmcid: PMC2726709
 ---
 
-# Single molecule studies of homologous recombination
-
 **Ilya J. Finkelstein and Eric C. Greene**
 
 *Mol. Biosyst.*, Volume 4, Issue 11, Pages 1094-104 (2008)

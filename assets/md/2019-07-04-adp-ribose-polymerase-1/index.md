@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6609622/
 pmcid: PMC6609622
 ---
 
-# Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks
-
 **Marie-Christine Caron\*, Ajit K. Sharma\*, Julia O'Sullivan, Logan R. Myler, Maria Tedim Ferreira, Amélie Rodrigue, Yan Coulombe, Chantal Ethier, Jean-Philippe Gagné, Marie-France Langelier, John M. Pascal, Ilya J. Finkelstein, Michael J. Hendzel†, Guy G. Poirier†, and Jean-Yves Masson†** (\* co-first authors; † co-corresponding)
 
 *Nature Communications*, Volume 10, Issue 1, Pages 2954 (2019)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8988007/
 pmcid: PMC8988007
 ---
 
-# Compartmentalization of Telomeres through DNA-scaffolded Phase Separation
-
 **Amanda Jack\*, Yoonji Kim\*, Amy R. Strom\*, Daniel S.W. Lee, Byron Williams, Jeffrey M. Schaub, Elizabeth H. Kellogg, Ilya J. Finkelstein, Luke S. Ferro†, Ahmet Yildiz†, and Clifford P. Brangwynne†** (\* co-first authors; † co-corresponding)
 
 *Dev. Cell*, Volume 57, Issue 2, Pages 277-290.e9 (2022)

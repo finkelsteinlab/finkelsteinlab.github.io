@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11061278/
 pmcid: PMC11061278
 ---
 
-# Unraveling the mechanisms of PAMless DNA interrogation by SpRY-Cas9
-
 **Grace N. Hibshman\*, Jack P. K. Bravo\*, Matthew M. Hooper, Tyler L. Dangerfield, Hongshan Zhang, Ilya J. Finkelstein, Kenneth A. Johnson, and David W. Taylor†** (\* co-first authors; † corresponding)
 
 *Nature Communications*, Volume 15, Issue 1, Pages 3663 (2024)

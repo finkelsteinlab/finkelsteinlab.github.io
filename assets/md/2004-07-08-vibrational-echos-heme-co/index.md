@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2501118/
 pmcid: PMC2501118
 ---
 
-# Fifth-order contributions to ultrafast spectrally resolved vibrational echoes: Heme-CO proteins
-
 **Ilya J. Finkelstein, Brian L. McClain, and M. D. Fayer**
 
 *J. Chem. Phys.*, Volume 121, Issue 2, Pages 877–85 (2004)

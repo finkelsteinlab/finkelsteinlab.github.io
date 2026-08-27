@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6949041/
 pmcid: PMC6949041
 ---
 
-# DNA-dependent protein kinase promotes DNA end processing by MRN and CtIP
-
 **Rajashree Deshpande, Logan Myler, Michael Soniat, Nodar Makharashvili, Linda Lee, Susan Lees-Miller, Ilya Finkelstein, and Tanya Paull**
 
 *Science Advances*, Volume 6, Issue 2, eaay0922 (2020)

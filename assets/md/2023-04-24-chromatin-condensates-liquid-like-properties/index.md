@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10161002/
 pmcid: PMC10161002
 ---
 
-# In diverse conditions, intrinsic chromatin condensates have liquid-like material properties
-
 **Bryan A. Gibson, Claudia Blaukopf, Tracy Lou, Lifeng Chen, Lynda K. Doolittle, Ilya J. Finkelstein, Geeta J. Narlikar, Daniel W. Gerlich, and Michael K. Rosen**
 
 *PNAS*, Volume 120, Issue 18, e2218085120 (2023)

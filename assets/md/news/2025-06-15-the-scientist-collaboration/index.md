@@ -5,7 +5,6 @@ source_url: https://www.the-scientist.com/science-thrives-on-trust-why-collabora
 archived: 2025-02-09
 ---
 
-# Science Thrives on Trust: Why Collaboration Is Our Greatest Strength
 In a competitive academic world, building bridges instead of walls may be our most powerful tool to accelerate discovery and rebuild public trust in science.
 Written byPedro Leão, PhD
 Pedro Leão is a microbiologist and Assistant Professor at Radboud University. He advocates for open science, and the improvement of scientific impact and quality metrics.

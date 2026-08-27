@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6625828/
 pmcid: PMC6625828
 ---
 
-# RPA phosphorylation inhibits DNA resection
-
 **Michael M. Soniat, Logan R. Myler, Hung-Che Kuo, Tanya T. Paull, and Ilya J. Finkelstein**
 
 *Molecular Cell*, Volume 75, Issue 1, Pages 145-153 (2019)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5966407/
 pmcid: PMC5966407
 ---
 
-# Distinct roles of XPF-ERCC1 and Rad1-Rad10-Saw1 in replication-coupled and uncoupled inter-strand crosslink repair
-
 **Ja-Hwan Seol\*, Cory Holland\*, Xiaolei Li\*, Christopher Kim, Fuyang Li, Melisa Medina-Rivera, Robin Eichmiller, Ignacio F. Gallardo, Ilya J. Finkelstein, Paul Hasty, Eun Yong Shim, Jennifer A. Surtees, and Sang Eun Lee** (\* co-first authors)
 
 *Nature Communications*, Volume 9, Issue 1, Pages 2025 (2018)

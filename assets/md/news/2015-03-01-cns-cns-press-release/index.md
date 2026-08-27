@@ -5,8 +5,6 @@ source_url: https://cns.utexas.edu/news/two-assistant-profs-win-career-awards
 archived: 2025-02-09
 ---
 
-# Two Assistant Profs Win Career Awards
-
 ![Ilya Finkelstein](/assets/md/news/2015-03-01-cns-cns-press-release/ilya-finkelstein.jpg)
 
 Two College of Natural Sciences assistant professors have won the National Science Foundation's Faculty Early Career Development (CAREER) Award.

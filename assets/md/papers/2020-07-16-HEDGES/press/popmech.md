@@ -5,8 +5,6 @@ source_url: https://www.popularmechanics.com/science/a33327626/scientists-encode
 archived: 2025-02-09
 ---
 
-# Scientists Encoded The Entire Wizard of Oz Into DNA
-
 *STEVEN MCDOWELL/SCIENCE PHOTO LIBRARY//Getty Images*
 
   * DNA can store far more data than a magnetic [hard drive](https://www.popularmechanics.com/technology/gear/a31787710/best-external-hard-drive/), but the technology is limited because the genetic material is prone to errors. 

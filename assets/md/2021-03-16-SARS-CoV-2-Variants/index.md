@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7962948/
 pmcid: PMC7962948
 ---
 
-# Sequence Analysis of 20,453 Severe Acute Respiratory Syndrome Coronavirus 2 Genomes from the Houston Metropolitan Area Identifies the Emergence and Widespread Distribution of Multiple Isolates of All Major Variants of Concern
-
 **S. Wesley Long, Randall J. Olsen, Paul A. Christensen, Sishir Subedi, Robert Olson, James J. Davis, Matthew Ojeda Saavedra, Prasanti Yerramilli, Layne Pruitt, Kristina Reppond, Madison N. Shyer, Jessica Cambric, Ilya J. Finkelstein, Jimmy Gollihar, and James M. Musser**
 
 *American Journal of Pathology*, Volume 191, Issue 6, Pages 983–992 (2021)

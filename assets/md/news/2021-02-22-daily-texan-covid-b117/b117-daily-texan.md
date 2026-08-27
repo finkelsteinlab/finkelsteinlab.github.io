@@ -5,7 +5,6 @@ source_url: https://thedailytexan.com/2021/02/22/what-is-the-b117-covid-19-varia
 archived: 2025-02-09
 ---
 
-#  What is the B.1.1.7 COVID-19 variant, and how is UT-Austin reacting to its arrival?
 February 22, 2021
 B.1.1.7, the COVID-19 variant first identified in the United Kingdom, found its way to UT’s campus [Feb. 5](https://thedailytexan.com/2021/02/05/ut-austin-reports-two-cases-of-b117-covid-19-variant), and as of Feb. 11, UT has identified four cases of B.1.1.7. 
 The new variant spreads faster than the current circulating strain and is expected to become the dominant coronavirus variant in the United States [by March](https://www.washingtonpost.com/health/coronavirus-variant-dominant-us/2021/01/15/4420d814-5738-11eb-a817-e5e7f8a406d6_story.html), according to the Centers for Disease Control and Prevention. The [first B.1.1.7 case](https://www.nytimes.com/2020/12/29/world/covid-variant-british-us.html) in the U.S. was reported on Dec. 29, and by Jan. 7, it [was in Texas](https://www.dshs.texas.gov/news/releases/2021/20210107a.aspx). Travis County [first identified](https://twitter.com/auspublichealth/status/1357126640921423874?s=12) a case of the variant on Feb. 3.

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4780606/
 pmcid: PMC4780606
 ---
 
-# Single-molecule imaging reveals the mechanism of Exo1 regulation by single-stranded DNA binding proteins
-
 **Logan R. Myler*, Ignacio F. Gallardo*, Yi Zhou, Fade Gong, Soo-Hyun Yang, Marc S. Wold, Kyle M. Miller, Tanya T. Paull†, and Ilya J. Finkelstein†** (* co-first authors; † co-corresponding)
 
 *Proc. Natl. Acad. Sci. USA*, Volume 113, Issue 9, Pages E1170-9 (2016)

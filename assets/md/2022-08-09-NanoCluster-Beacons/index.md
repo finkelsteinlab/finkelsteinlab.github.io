@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9588665/
 pmcid: PMC9588665
 ---
 
-# Massively Parallel Selection of NanoCluster Beacons
-
 **Yu-An Kuo, Cheulhee Jung, Yu-An Chen, Hung-Che Kuo, Oliver S. Zhao, Truong D. Nguyen, James R. Rybarski, Soonwoo Hong, Yuan-I Chen, Dennis C. Wylie, John A. Hawkins, Jada N. Walker, Samuel W. Shields, Jennifer S. Brodbelt, Jeffrey T. Petty, Ilya J. Finkelstein, and Hsin-Chih Yeh**
 
 *Advanced Materials*, Volume 34, Issue 41, e2204957 (2022)

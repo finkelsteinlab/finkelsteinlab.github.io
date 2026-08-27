@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9971906/
 pmcid: PMC9971906
 ---
 
-# The MRN complex and topoisomerase IIIa–RMI1/2 synchronize DNA resection motor proteins
-
 **Michael M. Soniat†, Giaochau Nguyen, Hung-Che Kuo, and Ilya J. Finkelstein†** († co-corresponding)
 
 *Journal of Biological Chemistry*, Volume 299, Issue 2, Pages 102802 (2023)

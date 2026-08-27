@@ -5,8 +5,6 @@ source_url: https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sa
 archived: 2025-02-09
 ---
 
-# Our Immune Systems Blanket the SARS-CoV-2 Spike Protein with Antibodies
-
 AUSTIN, Texas — The most complete picture yet is coming into focus of how antibodies produced in people who effectively fight off SARS-CoV-2 work to neutralize the part of the virus responsible for causing infection. [In the journal _Science_](https://science.sciencemag.org/lookup/doi/10.1126/science.abg5268), researchers at The University of Texas at Austin describe the finding, which represents good news for designing the next generation of vaccines to protect against variants of the virus or future emerging coronaviruses.
 Previous research focused on one group of antibodies that target the most obvious part of the coronavirus’s spike protein, called the receptor-binding domain (RBD). Because the RBD is the part of the spike that attaches directly to human cells and enables the virus to infect them, it was rightly assumed to be a primary target of the immune system. But, testing blood plasma samples from four people who recovered from SARS-CoV-2 infections, the researchers found that most of the antibodies circulating in the blood — on average, about 84% — target areas of the viral spike protein outside the RBD — and, apparently, for good reason.
 “We found these antibodies are painting the entire spike, both the arc and the stalk of the spike protein, which looks a bit like an umbrella,” said co-corresponding author Greg Ippolito, who is a research associate professor in UT Austin’s Department of Molecular Biosciences and an assistant professor of oncology at UT Austin’s Dell Medical School. “The immune system sees the entire spike and tries to neutralize it.”

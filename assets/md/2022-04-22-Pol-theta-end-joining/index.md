@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9023281/
 pmcid: PMC9023281
 ---
 
-# Polymerase theta-helicase promotes end joining by stripping single-stranded DNA-binding proteins and bridging DNA ends
-
 **Jeffrey M. Schaub†, Michael M. Soniat, and Ilya J. Finkelstein†** († co-corresponding)
 
 *NAR*, Volume 50, Issue 7, Pages 3911-3921 (2022)

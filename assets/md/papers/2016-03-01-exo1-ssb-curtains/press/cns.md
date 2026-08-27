@@ -5,7 +5,7 @@ source_url: https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to
 archived: 2025-02-09
 ---
 
-#  Scientists Study How DNA Repairs Itself Through Single Molecule Imaging
+## Scientists Study How DNA Repairs Itself Through Single Molecule Imaging
 March 23, 2016 • by Juan S Lozano 
 UT Austin scientists are doing research, which uses novel single-molecule imaging techniques partially developed by Finkelstein, and could lead to a better understanding of how cancerous cells repair their DNA.
 ​A group of scientists from UT Austin's[ Finkelstein Laboratory](https://cns.utexas.edu/finkelsteinlab.org " Finkelstein Laboratory"), headed by assistant professor in Molecular Biosciences[ Ilya Finkelstein](https://cns.utexas.edu/component/cobalt/item/16-molecular-biosciences/146-finkelstein-ilya-j?Itemid=830 " Ilya Finkelstein Directory Entry"), have imaged proteins which repair DNA and gained new insights into how the body regulates DNA repair. The research, which uses novel single-molecule imaging techniques partially developed by Finkelstein, could lead to a better understanding of how cancerous cells repair their DNA.

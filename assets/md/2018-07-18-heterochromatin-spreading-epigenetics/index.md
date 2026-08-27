@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6070336/
 pmcid: PMC6070336
 ---
 
-# Noncoding RNA-nucleated heterochromatin spreading is intrinsically labile and requires accessory elements for epigenetic stability
-
 **R. A. Greenstein, Stephen K. Jones, Eric C. Spivey, James R. Rybarski, Ilya J. Finkelstein, and Bassem Al-Sady**
 
 *eLife*, Volume 7, e32948 (2018)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946368/
 pmcid: PMC7946368
 ---
 
-# Inhibition of CRISPR-Cas12a DNA targeting by nucleosomes and chromatin
-
 **Isabel Strohkendl, Fatema A. Saifuddin, Bryan A. Gibson, Michael K. Rosen, Rick Russell†, and Ilya J. Finkelstein†** († co-corresponding)
 
 *Science Advances*, Volume 7, Issue 11, eabd6030 (2021)

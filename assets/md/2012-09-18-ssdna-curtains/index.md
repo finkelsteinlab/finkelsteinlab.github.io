@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3475199/
 pmcid: PMC3475199
 ---
 
-# Single-Stranded DNA Curtains for Real-Time Single-Molecule Visualization of Protein-Nucleic Acid Interactions
-
 **Bryan Gibb, Tim D. Silverstein, Ilya J. Finkelstein, and Eric C. Greene**
 
 *Anal. Chem.*, Volume 84, Issue 18, Pages 7607-12 (2012)

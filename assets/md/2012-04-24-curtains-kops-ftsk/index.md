@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3340036/
 pmcid: PMC3340036
 ---
 
-# Single-molecule imaging of DNA curtains reveals mechanisms of KOPS sequence targeting by the DNA translocase FtsK
-
 **Ja Yil Lee\*, Ilya J. Finkelstein\*, Estelle Crozat, David J. Sherratt, and Eric C. Greene** (\* co-first authors)
 
 *Proc. Natl. Acad. Sci. USA*, Volume 109, Issue 17, Pages 6531–6536 (2012)

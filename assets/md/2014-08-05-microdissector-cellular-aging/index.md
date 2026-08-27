@@ -7,8 +7,7 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4636036/
 pmcid: PMC4636036
 ---
 
-# A 3D-Printed Microfluidic Microdissector for High-Throughput Studies of Cellular Aging
-
+## A 3D-Printed Microfluidic Microdissector for High-Throughput Studies of Cellular Aging
 **Eric C. Spivey, Blerta Xhemalce, Jason B. Shear, and Ilya J. Finkelstein**
 
 *Anal. Chem.*, Volume 86, Issue 15, Pages 7406-12 (2014)

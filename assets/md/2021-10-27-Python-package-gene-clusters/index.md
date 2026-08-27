@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9017871/
 pmcid: PMC9017871
 ---
 
-# Opfi: A Python package for identifying gene clusters in large genomics and metagenomics data sets
-
 **Alexis M. Hill\*, James R. Rybarski\*, Kuang Hu, Ilya J. Finkelstein, and Claus O. Wilke** (\* co-first authors)
 
 *Journal of Open Source Software*, Volume 6, Issue 66, 3678 (2021)

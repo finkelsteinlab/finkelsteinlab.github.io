@@ -6,8 +6,6 @@ paper_url: /papers/paper/myoglobin-dynamics-histidine
 doi: 10.1021/jp0517201
 ---
 
-# Ultrafast Dynamics of Myoglobin without the Distal Histidine: Stimulated Vibrational Echo Experiments and Molecular Dynamics Simulations
-
 **Ilya J. Finkelstein, Anne Goj, Brian L. McClain, Aaron M. Massari, Kusai A. Merchant, Roger F. Loring, and M. D. Fayer**
 
 *J. Phys. Chem. B*, Vol. 109, No. 35, pp. 16959–16966 (2005)

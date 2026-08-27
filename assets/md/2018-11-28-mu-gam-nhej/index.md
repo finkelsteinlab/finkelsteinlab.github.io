@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6294893/
 pmcid: PMC6294893
 ---
 
-# Phage Mu Gam protein promotes NHEJ in concert with _Escherichia coli_ ligase
-
 **Sudipta Bhattacharyya, Michael M. Soniat, David Walker, Sooin Jang, Ilya J. Finkelstein†, and Rasika M. Harshey†** († co-corresponding)
 
 *Proc. Natl. Acad. Sci. USA*, Volume 115, Issue 50, Pages E11614-E11622 (2018)

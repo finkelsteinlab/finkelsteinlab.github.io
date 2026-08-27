@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10786891/
 pmcid: PMC10786891
 ---
 
-# Massively parallel profiling of RNA-targeting CRISPR-Cas13d
-
 **Hung-Che Kuo†, Joshua Prupes, Chia-Wei Chou, and Ilya J. Finkelstein†** († co-corresponding)
 
 *Nature Communications*, Volume 15, Issue 1, Pages 498 (2024)

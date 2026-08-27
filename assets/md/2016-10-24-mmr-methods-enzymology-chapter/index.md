@@ -6,8 +6,6 @@ paper_url: /papers/paper/mmr-methods-enzymology-chapter
 doi: 10.1016/bs.mie.2016.08.006
 ---
 
-# Inserting Extrahelical Structures into Long DNA Substrates for Single-Molecule Studies of DNA Mismatch Repair
-
 **Maxwell W. Brown, Armando de la Torre, and Ilya J. Finkelstein**
 
 *Methods in Enzymology*, Volume 582, Pages 221–238 (2017)

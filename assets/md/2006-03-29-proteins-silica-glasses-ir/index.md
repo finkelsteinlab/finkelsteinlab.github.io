@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2532503/
 pmcid: PMC2532503
 ---
 
-# Dynamics of Proteins Encapsulated in Silica Sol-gel Glasses Studied with IR Vibrational Echo Spectroscopy
-
 **Aaron M. Massari, Ilya J. Finkelstein, and Michael D. Fayer**
 
 *J. Am. Chem. Soc.*, Volume 128, Issue 12, Pages 3990–7 (2006)

@@ -6,8 +6,6 @@ archived: 2025-02-09
 note: "Original URL is dead. Content recovered from https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees"
 ---
 
-# JGI announces final round of 2022 Functional Genomics awardees
-
 *February 9, 2023*
 
 Twice each year, the JGI accepts proposals for state-of-the-art functional genomics research from potential users who need help translating genomic information into biological function. Through the [CSP Functional Genomics call](https://jgi.doe.gov/work-with-us/proposals/community-science-program/functional-genomics), the JGI looks for projects that will leverage its DNA synthesis and omics capabilities to enhance understanding of gene and genome function.

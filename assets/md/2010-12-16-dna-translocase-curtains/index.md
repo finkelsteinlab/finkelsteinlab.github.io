@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3230117/
 pmcid: PMC3230117
 ---
 
-# Single-molecule imaging reveals mechanisms of protein disruption by a DNA translocase
-
 **Ilya J. Finkelstein, Mari-Liis Visnapuu, and Eric C. Greene**
 
 *Nature*, Volume 468, Issue 7326, Pages 983–7 (2010)

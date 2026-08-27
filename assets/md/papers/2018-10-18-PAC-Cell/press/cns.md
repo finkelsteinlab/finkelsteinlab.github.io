@@ -5,7 +5,6 @@ source_url: https://cns.utexas.edu/news/two-studies-shed-light-on-how-complex-cr
 archived: 2025-02-09
 ---
 
-#  Two Studies Shed Light on How Complex CRISPR Systems Work
 October 18, 2018 • by Esther Robards-Forbes 
 In a pair of papers out this week, scientists at the University of Texas at Austin made new discoveries about a remarkable naturally occurring system known as CRISPR.
 In one paper, just [published in Cell](https://doi.org/10.1016/j.cell.2018.09.039), a team unlocked some of the secrets of how bacteria protect themselves from viral attack using the CRISPR tool. 

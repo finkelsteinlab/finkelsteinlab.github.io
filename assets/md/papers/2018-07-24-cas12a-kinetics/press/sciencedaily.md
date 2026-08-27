@@ -5,8 +5,7 @@ source_url: https://www.sciencedaily.com/releases/2018/08/180802141744.htm
 archived: 2025-02-09
 ---
 
-# How to make the gene-editing tool CRISPR work even better 
-
+## How to make the gene-editing tool CRISPR work even better
 Date:
     August 2, 2018 
 

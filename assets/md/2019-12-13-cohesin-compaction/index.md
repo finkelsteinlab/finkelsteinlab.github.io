@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7387118/
 pmcid: PMC7387118
 ---
 
-# Human cohesin compacts DNA by loop extrusion
-
 **Yoori Kim\*, Zhubing Shi\*, Hongshan Zhang, Ilya J. Finkelstein†, and Hongtao Yu†** (\* co-first authors; † co-corresponding)
 
 *Science*, Volume 366, Issue 6471, Pages 1345-1349 (2019)

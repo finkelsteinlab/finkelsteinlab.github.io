@@ -5,7 +5,6 @@ source_url: https://thedailytexan.com/2016/04/12/ut-researchers-view-interaction
 archived: 2025-02-09
 ---
 
-#  UT researchers view interactions between DNA-repairing proteins
 April 12, 2016
 A closer look at the individual proteins that repair living cells could provide clues for defeating cancer, according to UT research scientist Ilya Finkelstein.
 The Finkelstein Lab used a single-molecule imaging technique, called DNA curtains, to study the interaction between two key DNA-repairing proteins, RPA, a DNA-binding protein, and Exo1, an enzyme that digests DNA. When the interaction between these two enzymes malfunctions, it can sometimes create cancerous cells. 

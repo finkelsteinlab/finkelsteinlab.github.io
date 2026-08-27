@@ -5,7 +5,7 @@ source_url: https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus
 archived: 2025-02-09
 ---
 
-# Massive genetic study shows coronavirus mutating and potentially evolving amid rapid U.S. spread
+## Massive genetic study shows coronavirus mutating and potentially evolving amid rapid U.S. spread
 Add to list
 On my list
 ## The largest U.S. genetic study of the virus, conducted in Houston, shows one viral strain outdistancing all of its competitors, and many potentially important mutations.

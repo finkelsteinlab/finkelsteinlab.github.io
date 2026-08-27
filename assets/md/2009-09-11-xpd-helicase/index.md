@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3033736/
 pmcid: PMC3033736
 ---
 
-# XPD Helicase Speeds through a Molecular Traffic Jam
-
 **Ilya J. Finkelstein and Eric C. Greene**
 
 *Mol. Cell*, Volume 35, Issue 5, Pages 549–550 (2009)

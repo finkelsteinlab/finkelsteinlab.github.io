@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6441324/
 pmcid: PMC6441324
 ---
 
-# Assembly and translocation of a CRISPR-Cas primed acquisition complex
-
 **Kaylee E. Dillard\*, Maxwell W. Brown\*, Nicole V. Johnson, Yibei Xiao, Adam Dolan, Erik Hernandez, Samuel D. Dahlhauser, Yoori Kim, Logan R. Myler, Eric V. Anslyn, Ailong Ke, and Ilya J. Finkelstein** (\* co-first authors)
 
 *Cell*, Volume 175, Issue 4, Pages 934-946.e15 (2018)

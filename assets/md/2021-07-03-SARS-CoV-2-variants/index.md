@@ -7,8 +7,7 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8299152/
 pmcid: PMC8299152
 ---
 
-# Trajectory of Growth of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Variants in Houston, Texas, January through May 2021, Based on 12,476 Genome Sequences
-
+## Trajectory of Growth of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Variants in Houston, Texas, January through May 2021, Based on 12,476 Genome Sequences
 **Randall J. Olsen, Paul A. Christensen\*, S. Wesley Long\*, Sishir Subedi\*, Parsa Hodjat, Robert Olson, Marcus Nguyen, James J. Davis, Prasanti Yerramilli, Matthew Ojeda Saavedra, Layne Pruitt, Kristina Reppond, Madison N. Shyer, Jessica Cambric, Ryan Gaad, Rashi M. Thakur, Akanksha Batajoo, Ilya J. Finkelstein, Jimmy Gollihar, and James M. Musser** (\* co-authors)
 
 *American Journal of Pathology*, Volume 191, Issue 10, Pages 1754-1773 (2021)

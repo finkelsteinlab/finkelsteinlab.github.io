@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8549804/
 pmcid: PMC8549804
 ---
 
-# Characterization of the T4 gp32-ssDNA complex by native, cross-linking, and ultraviolet photodissociation mass spectrometry
-
 **Molly S. Blevins, Jada N. Walker, Jeffrey M. Schaub, Ilya J. Finkelstein, and Jennifer S. Brodbelt**
 
 *Chem. Sci.*, Volume 12, Issue 41, Pages 13764–13776 (2021)

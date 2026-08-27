@@ -5,7 +5,6 @@ source_url: https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-pro
 archived: 2025-02-09
 ---
 
-#  New Gene-Editing Tech Holds Promise for Treating Complex Genetic Diseases
 October 23, 2025 • by Marc Airhart 
 Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA.
 Human cells that have been edited with the new retron-based gene editing technology. Orange dots mark successful gene edits. Green dots show a fluorescent protein tag on the surface of mitochondria. Image credit: You-Chiun Chang/University of Texas at Austin.

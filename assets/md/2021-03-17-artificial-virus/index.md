@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9724498/
 pmcid: PMC9724498
 ---
 
-# CRISPR-Guided Programmable Self-Assembly of Artificial Virus-Like Nucleocapsids
-
 **Carlos Calcines-Cruz, Ilya J. Finkelstein\*, and Armando Hernandez-Garcia\*** (\* co-corresponding)
 
 *Nano Letters*, Volume 21, Issue 7, Pages 2752−2757 (2021)

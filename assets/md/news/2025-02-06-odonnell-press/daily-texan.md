@@ -5,7 +5,6 @@ source_url: https://thedailytexan.com/2025/02/18/ut-professors-gene-editing-rese
 archived: 2025-02-09
 ---
 
-#  UT professor’s gene editing research wins 2025 Edith and Peter O’Donnell Award
 , General Life&Arts Reporter
 February 18, 2025
 [Courtesy of Keiko Torii](https://thedailytexan.com/staff_name/courtesy-of-keiko-torii/)

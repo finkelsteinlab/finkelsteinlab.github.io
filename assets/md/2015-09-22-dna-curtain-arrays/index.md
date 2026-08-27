@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4624423/
 pmcid: PMC4624423
 ---
 
-# High-Throughput Universal DNA Curtain Arrays for Single-Molecule Fluorescence Imaging
-
 **Ignacio F. Gallardo, Praveenkumar Pasupathy, Maxwell Brown, Carol M. Manhart, Dean P. Neikirk, Eric Alani, and Ilya J. Finkelstein**
 
 *Langmuir*, Volume 31, Issue 37, Pages 10310–7 (2015)

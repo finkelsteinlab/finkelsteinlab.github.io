@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6142223/
 pmcid: PMC6142223
 ---
 
-# Indel-correcting DNA barcodes for high-throughput sequencing
-
 **John A. Hawkins, Stephen K. Jones Jr., Ilya J. Finkelstein†, and William H. Press†** († co-corresponding)
 
 *Proc. Natl. Acad. Sci. USA*, Volume 115, Issue 27, Pages E6217–E6226 (2018)

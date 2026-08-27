@@ -5,8 +5,6 @@ source_url: https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could
 archived: 2025-02-09
 ---
 
-# COVID-19 Vaccine Innovation Could Dramatically Speed Up Worldwide Production
-
 AUSTIN, Texas — Responding to a need to quickly develop billions of doses of lifesaving COVID-19 vaccines, a scientific team at The University of Texas at Austin has successfully redesigned a key protein from the coronavirus, and the modification could enable much faster and more stable production of vaccines worldwide.
 The new findings are [described in the journal _Science_](https://science.sciencemag.org/lookup/doi/10.1126/science.abd0826) _._
 Most coronavirus vaccine candidates train the human immune system to recognize a key protein on the surface of the SARS-CoV-2 virus called the spike protein in order to fight infection. Researchers designed a new version of this protein that, when expressed in cells, produces up to 10 times more protein than that of an earlier synthetic spike protein already in use in multiple COVID-19 vaccines. Along with colleagues at the National Institutes of Health, several members of the UT research team also designed [the earlier version](https://test-texas-news.pantheonsite.io/2020/02/19/breakthrough-in-coronavirus-research-results-in-new-map-to-support-vaccine-design/) of the spike protein found in at least two COVID-19 vaccine candidates currently in U.S. clinical trials.

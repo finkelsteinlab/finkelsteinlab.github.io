@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8390005/
 pmcid: PMC8390005
 ---
 
-# Disintegration promotes protospacer integration by the Cas1-Cas2 complex
-
 **Chien-Hui Ma, Kamyab Javanmardi, Ilya J. Finkelstein†, and Makkuni Jayaram†** († co-corresponding)
 
 *eLife*, Volume 10, e65763 (2021)

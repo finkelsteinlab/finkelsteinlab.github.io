@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7414044/
 pmcid: PMC7414044
 ---
 
-# HEDGES error-correcting code for DNA storage corrects indels and allows sequence constraints
-
 **William H. Press, John A. Hawkins, Stephen K. Jones Jr., Jeffrey M. Schaub, and Ilya J. Finkelstein**
 
 *Proc. Natl. Acad. Sci. USA*, Volume 117, Issue 31, Pages 18489-18496 (2020)

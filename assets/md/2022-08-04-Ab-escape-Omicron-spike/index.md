@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9350683/
 pmcid: PMC9350683
 ---
 
-# Antibody escape and cryptic cross-domain stabilization in the SARS-CoV-2 Omicron spike protein
-
 **Kamyab Javanmardi†, Thomas H. Segall-Shapiro, Chia-Wei Chou, Daniel R. Boutz, Randall J. Olsen, Xuping Xie, Hongjie Xia, Pei-Yong Shi, Charlie D. Johnson, Ankur Annapareddy, Scott Weaver, James M. Musser, Andrew D. Ellington, Ilya J. Finkelstein†, and Jimmy D. Gollihar†** († co-corresponding)
 
 *Cell Host Microbe*, Volume 30, Issue 9, Pages 1242-1254.e6 (2022)

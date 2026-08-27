@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8675084/
 pmcid: PMC8675084
 ---
 
-# Rapid characterization of spike variants via mammalian cell surface display
-
 **Kamyab Javanmardi†, Chia-Wei Chou, Cynthia I. Terrace, Ankur Annapareddy, Tamer S. Kaoud, Qingqing Guo, Josh Lutgens, Hayley Zorkic, Andrew P. Horton, Elizabeth C. Gardner, Giaochau Nguyen, Daniel R. Boutz, Jule Goike, Will N. Voss, Hung-Che Kuo, Kevin N. Dalby, Jimmy D. Gollihar, and Ilya J. Finkelstein†** († co-corresponding)
 
 *Mol. Cell*, Volume 81, Issue 24, Pages 5099-5111.e8 (2021)

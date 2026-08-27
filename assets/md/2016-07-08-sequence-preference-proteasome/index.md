@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4938175/
 pmcid: PMC4938175
 ---
 
-# Conserved Sequence Preferences Contribute to Substrate Recognition by the Proteasome
-
 **Houqing Yu, Amit K. Singh Gautam, Shameika R. Wilmington, Dennis Wylie, Kirby Martinez-Fonts, Grace Kago, Marie Warburton, Sreenivas Chavali, Tomonao Inobe, Ilya J. Finkelstein, M. Madan Babu, and Andreas Matouschek**
 
 *J. Biol. Chem.*, Volume 291, Issue 28, Pages 14526-39 (2016)

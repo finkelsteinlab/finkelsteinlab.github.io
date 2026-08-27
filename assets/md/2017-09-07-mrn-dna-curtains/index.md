@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5609712/
 pmcid: PMC5609712
 ---
 
-# Single-molecule imaging reveals how Mre11-Rad50-Nbs1 initiates DNA break repair
-
 **Logan R. Myler\*, Ignacio F. Gallardo\*, Michael M. Soniat, Rajashree A. Deshpande, Xenia B. Gonzalez, Yoori Kim, Tanya T. Paull, and Ilya J. Finkelstein** (\* co-first authors)
 
 *Molecular Cell*, Volume 67, Issue 5, Pages 891-898 (2017)

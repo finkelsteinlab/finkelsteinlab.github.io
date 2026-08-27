@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6666396/
 pmcid: PMC6666396
 ---
 
-# Assembling the Human Resectosome on DNA Curtains
-
 **Michael M. Soniat, Logan R. Myler, and Ilya J. Finkelstein**
 
 *Methods Mol. Biol.*, Volume 1999, Pages 225–244 (2019)

@@ -6,8 +6,7 @@ paper_url: /papers/paper/cytochrome-c552-mutants
 doi: 10.1021/jp054959q
 ---
 
-# Cytochrome c₅₅₂ Mutants: Structure and Dynamics at the Active Site Probed by Multidimensional NMR and Vibration Echo Spectroscopy
-
+## Cytochrome c₅₅₂ Mutants: Structure and Dynamics at the Active Site Probed by Multidimensional NMR and Vibration Echo Spectroscopy
 **Aaron M. Massari, Brian L. McClain, Ilya J. Finkelstein, Andrew P. Lee, Heather L. Reynolds, Kara L. Bren, and Michael D. Fayer**
 
 *J. Phys. Chem. B*, Vol. 110, Issue 38, pp. 18803–18810 (2006)

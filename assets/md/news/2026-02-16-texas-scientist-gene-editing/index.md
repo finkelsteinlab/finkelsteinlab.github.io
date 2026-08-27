@@ -5,8 +5,6 @@ source_url: https://www.texasscientist.cns.utexas.edu/articles/cut-paste-cure
 archived: 2026-04-16
 ---
 
-# Cut, Paste, Cure
-
 **By Marc Airhart** · Illustrations by Zara Picken · Published: February 16, 2026 · *The Texas Scientist*
 
 [PDF version](/assets/md/news/2026-02-16-texas-scientist-gene-editing/cut-paste-cure.pdf)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2042171/
 pmcid: PMC2042171
 ---
 
-# Neuroglobin dynamics observed with ultrafast 2D-IR vibrational echo spectroscopy
-
 **Haruto Ishikawa, Ilya J. Finkelstein, Seongheun Kim, Kyungwon Kwak, Jean K. Chung, Keisuke Wakasugi, Aaron M. Massari, and Michael D. Fayer**
 
 *Proc. Natl. Acad. Sci. USA*, Volume 104, Issue 41 (2007)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5552236/
 pmcid: PMC5552236
 ---
 
-# Massively parallel biophysical analysis of CRISPR-Cas complexes on next generation sequencing chips
-
 **Cheulhee Jung\*, John A. Hawkins\*, Stephen K. Jones, Jr.\*, Yibei Xiao, James R. Rybarski, Kaylee E. Dillard, Jeffrey Hussmann, Fatema A. Saifuddin, Cagri A. Savran, Andrew D. Ellington, Ailong Ke, William H. Press, and Ilya J. Finkelstein** (\* co-first authors)
 
 *Cell*, Volume 170, Issue 1, Pages 35-47.e13 (2017)

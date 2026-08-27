@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6380366/
 pmcid: PMC6380366
 ---
 
-# Sortase-mediated fluorescent labeling of CRISPR complexes
-
 **Kaylee E. Dillard, Jeffrey M. Schaub, Maxwell W. Brown, Fatema A. Saifuddin, Yibei Xiao, Erik Hernandez, Samuel D. Dahlhauser, Eric V. Anslyn, Ailong Ke, and Ilya J. Finkelstein**
 
 *Methods in Enzymology*, Volume 616, Pages 43–59 (2019)

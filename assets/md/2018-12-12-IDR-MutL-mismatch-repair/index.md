@@ -7,8 +7,7 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6393296/
 pmcid: PMC6393296
 ---
 
-# Intrinsically disordered regions regulate both catalytic and noncatalytic activities of the MutLα mismatch repair complex
-
+## Intrinsically disordered regions regulate both catalytic and noncatalytic activities of the MutLα mismatch repair complex
 **Yoori Kim\*, Christopher M. Furman\*, Carol M. Manhart, Eric Alani†, and Ilya J. Finkelstein†** (\* co-first authors; † co-corresponding)
 
 *Nucleic Acids Research*, Volume 47, Issue 4, Pages 1823-1835 (2019)

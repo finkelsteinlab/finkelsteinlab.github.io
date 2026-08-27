@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7581547/
 pmcid: PMC7581547
 ---
 
-# Epigenetic Cell Fate in _Candida albicans_ is Controlled by Transcription Factor Condensates Acting at Super-Enhancer-Like Elements
-
 **Corey Frazer\*, Mae I. Staples\*, Yoori Kim, Matthew Hirakawa, Maureen A. Dowell, Nicole V. Johnson, Aaron D. Hernday, Veronica H. Ryan, Nicolas L. Fawzi, Ilya J. Finkelstein, and Richard J. Bennett** (\* co-first authors)
 
 *Nature Microbiology*, Volume 5, Issue 11, Pages 1374–1389 (2020)

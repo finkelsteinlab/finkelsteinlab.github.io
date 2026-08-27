@@ -6,8 +6,6 @@ paper_url: /papers/paper/Mammalian-antigen-display
 doi: 10.1007/978-1-0716-3666-4_12
 ---
 
-# Mammalian Antigen Display for Pandemic Countermeasures
-
 **Andrea Quezada<sup>#</sup>, Ankur Annapareddy<sup>#</sup>, Kamyab Javanmardi, John Cooper, and Ilya J. Finkelstein**
 
 <sup>#</sup>These authors contributed equally to this work.

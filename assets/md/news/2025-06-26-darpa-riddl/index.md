@@ -5,8 +5,6 @@ source_url: https://www.darpa.mil/research/programs/rapid-inhibitor-discovery-ri
 archived: 2025-02-09
 ---
 
-# RIDDL: Rapid Inhibitor Discovery and Development PipeLine
-
 The Defense Advanced Research Projects Agency (DARPA) is soliciting innovative proposals to develop and demonstrate rapid methods to identify and optimize novel molecules that exhibit inhibitory effects on gene editing technologies.
 
 Of particular interest are commonly used gene editors such as Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-CRISPR associated proteins (CRISPR-Cas) nucleases; gene editing technologies beyond CRISPR-Cas systems are also of interest to keep pace with the rapidly advancing field and promote the safe, controlled use of these technologies.

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5564670/
 pmcid: PMC5564670
 ---
 
-# Next-Generation DNA Curtains for Single-Molecule Studies of Homologous Recombination
-
 **Michael M. Soniat, Logan R. Myler, Jeffrey M. Schaub, Yoori Kim, Ignacio F. Gallardo, and Ilya J. Finkelstein**
 
 *Methods in Enzymology*, Volume 592, Pages 259-281 (2017)

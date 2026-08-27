@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7642679/
 pmcid: PMC7642679
 ---
 
-# Molecular Architecture of Early Dissemination and Massive Second Wave of the SARS-CoV-2 Virus in a Major Metropolitan Area
-
 **Scott Wesley Long\*, Randall J. Olsen\*, Paul A. Christensen\*, David W. Bernard, James J. Davis, Maulik Shukla, Marcus Nguyen, Matthew Ojeda Saavedra, Prasanti Yerramilli, Layne Pruitt, Sishir Subedi, Hung-Che Kuo, Heather Hendrickson, Ghazaleh Eskandari, Hoang A.T. Nguyen, J. Hunter Long, Muthiah Kumaraswami, Jule Goike, Daniel Boutz, Jimmy Gollihar, Jason S. McLellan, Chia-Wei Chou, Kamyab Javanmardi, Ilya J. Finkelstein, and James Musser** (\* co-first authors)
 
 *mBio*, Volume 11, Issue 6, e02707-20 (2020)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4163502/
 pmcid: PMC4163502
 ---
 
-# High-Throughput Single-Molecule Studies of Protein–DNA Interactions
-
 **Aaron D. Robison and Ilya J. Finkelstein**
 
 *FEBS Lett.*, Volume 588, Issue 19, Pages 3539-46 (2014)

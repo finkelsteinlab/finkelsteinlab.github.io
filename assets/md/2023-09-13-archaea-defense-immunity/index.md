@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11291487/
 pmcid: PMC11291487
 ---
 
-# Asgard archaea defense systems and their roles in the origin of eukaryotic immunity
-
 **Pedro Leão, Mary E. Little, Kathryn E. Appler, Daphne Sahaya, Emily Aguilar-Pine, Kathryn Currie, Ilya J. Finkelstein, Valerie De Anda, and Brett J. Baker†** († corresponding)
 
 *Nature Communications*, Volume 15, Issue 1, Pages 6386 (2024)

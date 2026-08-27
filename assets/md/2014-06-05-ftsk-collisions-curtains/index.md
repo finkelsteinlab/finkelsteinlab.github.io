@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4048639/
 pmcid: PMC4048639
 ---
 
-# Single-molecule imaging of FtsK translocation reveals mechanistic features of protein-protein collisions on DNA
-
 **Ja Yil Lee, Ilya J. Finkelstein, Lidia K. Arciszewska, David J. Sherratt, and Eric C. Greene**
 
 *Mol. Cell*, Volume 54, Issue 5, Pages 832–43 (2014)

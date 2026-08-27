@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8224265/
 pmcid: PMC8224265
 ---
 
-# Prevalent, protective, and convergent IgG recognition of SARS-CoV-2 non-RBD spike epitopes
-
 **William N. Voss, Yixuan J. Hou\*, Nicole V. Johnson\*, George Delidakis, Jin Eyun Kim, Kamyab Javanmardi, Andrew P. Horton, Foteini Bartzoka, Chelsea J. Paresi, Yuri Tanno, Chia-Wei Chou, Shawn A. Abbasi, Whitney Pickens, Katia George, Daniel R. Boutz, Dalton M. Towers, Jonathan R. McDaniel, Daniel Billick, Jule Goike, Lori Rowe, Dhwani Batra, Jan Pohl, Justin Lee, Shivaprakash Gangappa, Suryaprakash Sambhara, Michelle Gadush, Nianshuang Wang, Maria D. Person, Brent L. Iverson, Jimmy D. Gollihar, John M. Dye, Andrew S. Herbert, Ilya J. Finkelstein, Ralph S. Baric, Jason S. McLellan, George Georgiou, Jason L. Lavinder†, and Gregory C. Ippolito†** (\* co-first authors; † co-corresponding)
 
 *Science*, Volume 372, Issue 6546, Pages 1108–1112 (2021)

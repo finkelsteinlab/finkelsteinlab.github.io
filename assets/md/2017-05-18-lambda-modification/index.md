@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5437064/
 pmcid: PMC5437064
 ---
 
-# Efficient modification of λ-DNA substrates for single-molecule studies
-
 **Yoori Kim, Armando de la Torre, Andrew A. Leal, and Ilya J. Finkelstein**
 
 *Sci. Rep.*, Volume 7, Issue 1, Pages 2071 (2017)

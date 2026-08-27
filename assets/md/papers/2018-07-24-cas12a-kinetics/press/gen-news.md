@@ -5,8 +5,6 @@ source_url: https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-
 archived: 2025-02-09
 ---
 
-# CRISPR-Cas12a More Precise Than CRISPR-Cas9
-
 *A quantitative kinetics study has dissected the reaction steps whereby Cas12a targets DNA. This study explains the DNA cleavage patterns measured in vivo and the observations of greater reported target specificity for Cas12a than for the Cas9 nuclease. [Molecular Cell]*
 In CRISPR tool development, Cas9 got there firstest, but not necessarily with the mostest. So, even though Cas9 is currently king of the CRISPR gene modification hill, it may be pushed aside by the less familiar Cas12a, another CRISPR enzyme that is, according to scientists at the University of Texas at Austin (UT-Austin), more effective and precise.
 Various CRISPR systems are found in nature, where they help bacteria recognize and destroy viral infections. As these CRISPR systems came to be adapted for human purposes, they started to show just how varied they were, particularly with respect to their CRISPR-associated (Cas) enzymes, which follow guide RNA and cut DNA where guide RNA specifies.

@@ -5,8 +5,6 @@ source_url: https://www.eurekalert.org/news-releases/473518
 archived: 2025-02-09
 ---
 
-# COVID-19 vaccine innovation could dramatically speed up worldwide production
-
 **News Release** · 23-Jul-2020 · Peer-Reviewed Publication · University of Texas at Austin
 
 ![3D atomic scale map of HexaPro](https://www.eurekalert.org/multimedia/830040)

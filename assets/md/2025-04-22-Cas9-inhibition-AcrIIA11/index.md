@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12022753/
 pmcid: PMC12022753
 ---
 
-# Mechanism of Cas9 inhibition by AcrIIA11
-
 **Kaylee E. Dillard, Hongshan Zhang, Lianne Z. Dubbs, Chia-Wei Chou, Cynthia Terrace, Kamyab Javanmardi, Wantae Kim, Kevin J. Forsberg, and Ilya J. Finkelstein†** († corresponding)
 
 *Nucleic Acids Research*, Volume 53, Issue 8, gkaf318 (2025)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6679933/
 pmcid: PMC6679933
 ---
 
-# Assessing Protein Dynamics on Low-Complexity Single-Stranded DNA Curtains
-
 **Jeffrey M. Schaub, Hongshan Zhang, Michael M. Soniat, and Ilya J. Finkelstein**
 
 *Langmuir*, Volume 34, Issue 49, Pages 14882–14890 (2018)

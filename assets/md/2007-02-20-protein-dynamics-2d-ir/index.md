@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1815234/
 pmcid: PMC1815234
 ---
 
-# Substrate binding and protein conformational dynamics measured by 2D-IR vibrational echo spectroscopy
-
 **Ilya J. Finkelstein, Haruto Ishikawa, Seongheun Kim, Aaron M. Massari, and M. D. Fayer**
 
 *Proc. Natl. Acad. Sci. USA*, Volume 104, Issue 8, Pages 2637–42 (2007)

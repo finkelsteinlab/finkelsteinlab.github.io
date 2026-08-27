@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10656236/
 pmcid: PMC10656236
 ---
 
-# High-speed AFM imaging reveals DNA capture and loop extrusion dynamics by cohesin-NIPBL
-
 **Parminder Kaur†, Xiaotong Lu, Qi Xu, Elizabeth Marie Irvin, Colette Pappas, Hongshan Zhang, Ilya J. Finkelstein, Zhubing Shi, Yizhi Jane Tao, Hongtao Yu, and Hong Wang†** († co-corresponding)
 
 *Journal of Biological Chemistry*, Volume 299, Issue 11, Pages 105296 (2023)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7402631/
 pmcid: PMC7402631
 ---
 
-# Structure-based design of prefusion-stabilized SARS-CoV-2 spikes
-
 **Ching-Lin Hsieh, Jory A. Goldsmith, Jeffrey M. Schaub, Andrea M. DiVenere, Hung-Che Kuo, Kamyab Javanmardi, Kevin C. Le, Daniel Wrapp, Alison G. Lee, Yutong Liu, Chia-Wei Chou, Patrick O. Byrne, Christy K. Hjorth, Nicole V. Johnson, John Ludes-Meyers, Annalee W. Nguyen, Juyeon Park, Nianshuang Wang, Dzifa Amengor, Jason J. Lavinder, Gregory C. Ippolito, Jennifer A. Maynard†, Ilya J. Finkelstein†, and Jason S. McLellan†** († co-corresponding)
 
 *Science*, Volume 369, Issue 6510, Pages 1501–1505 (2020)

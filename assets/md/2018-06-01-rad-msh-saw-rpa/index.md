@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6007489/
 pmcid: PMC6007489
 ---
 
-# Coordination of Rad1-Rad10 interactions with Msh2-Msh3, Saw1 and RPA is essential for functional 3′ non-homologous tail removal
-
 **Robin Eichmiller\*, Melisa Medina-Rivera\*, Rachel DeSanto, Eugen Minca, Christopher Kim, Cory Holland, Ja-Hwan Seol, Megan Schmit, Diane Oramus, Jessica Smith, Ignacio F. Gallardo, Ilya J. Finkelstein, Sang Eun Lee, and Jennifer A. Surtees** (\* co-first authors)
 
 *Nucleic Acids Research*, Volume 46, Issue 10, Pages 5075-5096 (2018)

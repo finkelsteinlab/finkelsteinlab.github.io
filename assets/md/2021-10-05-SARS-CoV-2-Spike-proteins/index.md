@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/
 pmcid: PMC9665560
 ---
 
-# Expression and characterization of SARS-CoV-2 spike proteins
-
 **Jeffrey M. Schaub\*, Chia-Wei Chou\*, Hung-Che Kuo\*, Kamyab Javanmardi\*, Ching-Lin Hsieh, Jory Goldsmith, Andrea M. DiVenere, Kevin C. Le, Daniel Wrapp, Patrick O. Byrne, Christy K. Hjorth, Nicole V. Johnson, John Ludes-Meyers, Annalee W. Nguyen, Nianshuang Wang, Jason J. Lavinder, Gregory C. Ippolito, Jennifer A. Maynard, Jason S. McLellan, and Ilya J. Finkelstein** (\* co-first authors)
 
 *Nature Protocols*, Volume 16, Issue 11, Pages 5339–5356 (2021)

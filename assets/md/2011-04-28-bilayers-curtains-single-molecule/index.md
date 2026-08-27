@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3319767/
 pmcid: PMC3319767
 ---
 
-# Supported Lipid Bilayers and DNA Curtains for High-Throughput Single-Molecule Studies
-
 **Ilya J. Finkelstein and Eric C. Greene**
 
 *Methods Mol. Biol.*, Volume 745, Pages 447–461 (2011)

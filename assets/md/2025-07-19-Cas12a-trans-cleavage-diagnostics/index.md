@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12604663/
 pmcid: PMC12604663
 ---
 
-# Unleashing high *trans*-substrate cleavage kinetics of Cas12a for nucleic acid diagnostics
-
 **Eric A. Nalefski, Samantha Hedley, Karunya Rajaraman, Remy M. Kooistra, Ishira Parikh, Selma Sinan, Ilya J. Finkelstein, and Damian Madan**
 
 *Nucleic Acids Research*, Volume 53, Issue 14, gkaf712 (2025)

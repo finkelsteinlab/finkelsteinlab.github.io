@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5332158/
 pmcid: PMC5332158
 ---
 
-# An aging-independent replicative lifespan in a symmetrically dividing eukaryote
-
 **Eric C. Spivey\*, Stephen K. Jones\*, James R. Rybarski, Fatema A. Saifuddin, and Ilya J. Finkelstein** (\* co-first authors)
 
 *eLife*, Volume 6, e20340 (2017)

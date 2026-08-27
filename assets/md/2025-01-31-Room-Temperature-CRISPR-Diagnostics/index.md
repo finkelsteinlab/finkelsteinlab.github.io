@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11785965/
 pmcid: PMC11785965
 ---
 
-# Room temperature CRISPR diagnostics for low-resource settings
-
 **Eric A. Nalefski, Selma Sinan, Jason L. Cantera, Anastasia G. Kim, Remy M. Kooistra, Rafael E. Rivera, Jordyn P. Janshen, Sanchita Bhadra, Joshua D. Bishop, Andrew D. Ellington, Ilya J. Finkelstein, and Damian Madan**
 
 *Scientific Reports*, Volume 15, Issue 1, Pages 3909 (2025)

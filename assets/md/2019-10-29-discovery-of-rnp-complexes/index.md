@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6873818/
 pmcid: PMC6873818
 ---
 
-# Systematic Discovery of Endogenous Human Ribonucleoprotein Complexes
-
 **Anna L. Mallam\*, Wisath Sae-Lee, Jeffrey M. Schaub, Fan Tu, Anna Battenhouse, Yu Jin Jang, Jonghwan Kim, John B. Wallingford, Ilya J. Finkelstein, Edward M. Marcotte†, and Kevin Drew\*†** (\* co-first authors; † co-corresponding)
 
 *Cell Reports*, Volume 29, Issue 5, Pages 1351-1368 (2019)

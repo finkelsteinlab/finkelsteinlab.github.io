@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11624282/
 pmcid: PMC11624282
 ---
 
-# PARP1 condensates differentially partition DNA repair proteins and enhance DNA ligation
-
 **Christopher Chin Sang, Gaelen Moore, Maria Tereshchenko, Hongshan Zhang, Michael L. Nosella, Morgan Dasovich, T. Reid Alderson, Anthony K. L. Leung, Ilya J. Finkelstein, Julie D. Forman-Kay, and Hyun O. Lee†** († corresponding)
 
 *EMBO Reports*, Volume 25, Issue 12, Pages 5635–5666 (2024)

@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9665413/
 pmcid: PMC9665413
 ---
 
-# Massively parallel kinetic profiling of natural and engineered CRISPR nucleases
-
 **Stephen K. Jones Jr.\*, John A. Hawkins\*, Nicole V. Johnson, Cheulhee Jung, Kuang Hu, James R. Rybarski, Janice S. Chen, Jennifer A. Doudna, William H. Press, and Ilya J. Finkelstein** (\* co-first authors)
 
 *Nature Biotechnology*, Volume 39, Issue 1, Pages 84–93 (2021)

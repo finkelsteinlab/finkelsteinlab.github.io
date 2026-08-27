@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8670466/
 pmcid: PMC8670466
 ---
 
-# Metagenomic discovery of CRISPR-associated transposons
-
 **James R. Rybarski\*, Kuang Hu\*, Alexis M. Hill\*, Claus O. Wilke, and Ilya J. Finkelstein** (\* co-first authors)
 
 *PNAS*, Volume 118, Issue 49, e2112279118 (2021)

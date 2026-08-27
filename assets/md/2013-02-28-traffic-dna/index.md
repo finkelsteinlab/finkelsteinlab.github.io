@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3651777/
 pmcid: PMC3651777
 ---
 
-# Molecular Traffic Jams on DNA
-
 **Ilya J. Finkelstein and Eric C. Greene**
 
 *Annu. Rev. Biophys.*, Volume 42, Pages 241-63 (2013)

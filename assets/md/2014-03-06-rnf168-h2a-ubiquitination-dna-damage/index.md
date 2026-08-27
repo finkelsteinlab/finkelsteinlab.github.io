@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3945288/
 pmcid: PMC3945288
 ---
 
-# Nucleosome Acidic Patch Promotes RNF168- and RING1B/BMI1-Dependent H2AX and H2A Ubiquitination and DNA Damage Signaling
-
 **Justin W. Leung\*, Poonam Agarwal\*, Marella D. Canny, Fade Gong, Aaron D. Robison, Ilya J. Finkelstein, Daniel Durocher, and Kyle M. Miller** (\* co-first authors)
 
 *PLoS Genet.*, Volume 10, Issue 3 (2014)

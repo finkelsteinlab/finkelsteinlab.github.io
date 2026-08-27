@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4742970/
 pmcid: PMC4742970
 ---
 
-# Dynamic DNA binding licenses a repair factor to bypass roadblocks in search of DNA lesions
-
 **Maxwell W. Brown, Yoori Kim, Gregory M. Williams, John D. Huck, Jennifer A. Surtees, and Ilya J. Finkelstein**
 
 *Nature Communications*, Volume 7, Pages 10607 (2016)

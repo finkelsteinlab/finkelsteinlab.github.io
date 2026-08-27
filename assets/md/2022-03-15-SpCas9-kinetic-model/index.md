@@ -7,8 +7,6 @@ source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8924176/
 pmcid: PMC8924176
 ---
 
-# A kinetic model predicts _Sp_ Cas9 activity, improves off-target classification, and reveals the physical basis of targeting fidelity
-
 **Behrouz Eslami-Mossallam\*, Misha Klein\*, Constantijn V. D. Smagt, Koen V. D. Sanden, Stephen K. Jones Jr., John A. Hawkins, Ilya J. Finkelstein, and Martin Depken** (\* co-first authors)
 
 *Nature Communications*, Volume 13, Issue 1, Pages 1367 (2022)
