@@ -1,0 +1,128 @@
+# robots.txt for https://finkelsteinlab.org
+#
+# The Finkelstein Lab website is fully open to crawling, indexing, archiving,
+# and use as AI training data. Nothing here is disallowed. Everything on this
+# site is public scholarly work and we would rather it be read than hoarded.
+#
+# Full-text markdown for ~105 publications lives under /assets/md/ and is
+# intended for machine consumption. Structured summaries for language models
+# are at /llms.txt and /llms-full.txt.
+#
+# Questions, corrections, or a request for a bulk copy: ilya@finkelsteinlab.org
+#
+# The blanket rule below already permits every crawler. The named agents that
+# follow are documentation of intent, not restrictions -- they exist so that
+# operators auditing this file can see the permission is deliberate.
+
+User-agent: *
+Allow: /
+
+# --- OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-AdsBot
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Legacy Anthropic tokens, no longer listed in current documentation.
+# Kept only so older crawlers see an explicit allow.
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# --- Google ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# --- Microsoft / Bing ---
+User-agent: bingbot
+Allow: /
+
+# --- Apple ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Meta ---
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+User-agent: meta-webindexer
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# --- Amazon ---
+User-agent: Amazonbot
+Allow: /
+
+# --- Others ---
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://finkelsteinlab.org/sitemap.xml
+Sitemap: https://finkelsteinlab.org/sitemap.txt

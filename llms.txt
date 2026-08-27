@@ -1,0 +1,29 @@
+---
+permalink: /llms.txt
+layout: null
+---
+# Finkelstein Lab
+
+> The lab of Ilya J. Finkelstein, Professor of Molecular Biosciences at UT Austin. Builds single-molecule and high-throughput biophysical methods (DNA curtains, CHAMP/NGS-chip repurposing, microfluidic single-cell arrays) to study how molecular machines edit and repair genomes: CRISPR-Cas adaptive immunity and nuclease engineering, eukaryotic DNA double-strand-break repair and homologous recombination, mismatch repair, retron-based genome editing, and biosensing. Also expert-witness and technical consulting in biotechnology and gene-editing patent matters.
+
+## Overview
+
+- [Research](https://finkelsteinlab.org/research/): current research programs
+- [CV](https://finkelsteinlab.org/cv/): short-form curriculum vitae
+- [Full CV](https://finkelsteinlab.org/cv/full): complete curriculum vitae
+- [Members](https://finkelsteinlab.org/members/): lab roster
+- [Consulting](https://finkelsteinlab.org/consulting/): expert-witness and technical consulting
+- [News](https://finkelsteinlab.org/news/): lab news
+- [Join us](https://finkelsteinlab.org/join/): openings and how to apply
+- [Teaching](https://finkelsteinlab.org/teaching/): courses taught
+
+## Publications
+{% for paper in site.categories.papers %}
+{%- assign p_title = paper.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}{% assign p_authors = paper.authors | replace: '&#42;', '*' | replace: '&dagger;', '†' | replace: '&#8224;', '†' | strip %}{% assign p_journal = paper.journal | strip %}{% assign p_year = paper.year | strip %}{% assign p_doi = paper.doi | strip %}{% assign p_pmid = paper.pmid | strip -%}
+- [{{ p_title }}]({{ site.production_url }}{{ paper.url }}): {{ p_authors }}. {{ p_journal }}{% if p_year != '' %}, {{ p_year }}{% endif %}.{% if p_doi != '' %} DOI: {{ p_doi }}.{% endif %}{% if p_pmid != '' %} PMID: {{ p_pmid }}.{% endif %}{% if paper.markdown %} Full text: {{ site.production_url }}/assets/md/{{ paper.markdown }}/.{% endif %}{% if paper.pdf %} PDF: {{ site.production_url }}/assets/pdfs/{{ paper.pdf | uri_escape }}.{% endif %}
+{% endfor %}
+
+## Optional
+
+- [Sitemap](https://finkelsteinlab.org/sitemap.txt): plain-text list of every URL on the site
+- [Full text and abstracts](https://finkelsteinlab.org/llms-full.txt): citation plus abstract for every publication

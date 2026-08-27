@@ -1,0 +1,24 @@
+---
+permalink: /llms-full.txt
+layout: null
+---
+# Finkelstein Lab — Full-Text Publication Summaries
+
+> Citations and abstracts for every publication from the Finkelstein Lab (Ilya J. Finkelstein, Professor of Molecular Biosciences, UT Austin). Generated from https://finkelsteinlab.org/llms.txt for machine consumption; see that file for an overview of the rest of the site.
+{% for paper in site.categories.papers %}
+{% assign p_title = paper.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}{% assign p_authors = paper.authors | replace: '&#42;', '*' | replace: '&dagger;', '†' | replace: '&#8224;', '†' | strip %}{% assign p_journal = paper.journal | strip %}{% assign p_volume = paper.volume | strip %}{% assign p_issue = paper.issue | strip %}{% assign p_pages = paper.pages | strip %}{% assign p_year = paper.year | strip %}{% assign p_doi = paper.doi | strip %}{% assign p_pmid = paper.pmid | strip %}{% assign p_pmcid = paper.pmcid | strip %}{% assign p_tags = paper.tags | join: ", " %}{% assign p_abs = paper.content | strip_html | strip_newlines | remove_first: 'Abstract' | strip -%}
+## {{ p_title }}
+
+Authors: {{ p_authors }}
+Journal: {{ p_journal }}{% if p_volume != '' %} {{ p_volume }}{% endif %}{% if p_issue != '' %}({{ p_issue }}){% endif %}{% if p_pages != '' %}:{{ p_pages }}{% endif %}{% if p_year != '' %} ({{ p_year }}){% endif %}
+{% if p_doi != '' %}DOI: {{ p_doi }}
+{% endif %}{% if p_pmid != '' %}PMID: {{ p_pmid }}
+{% endif %}{% if p_pmcid != '' %}PMCID: {{ p_pmcid }}
+{% endif %}URL: {{ site.production_url }}{{ paper.url }}
+{% if paper.markdown %}Full text: {{ site.production_url }}/assets/md/{{ paper.markdown }}/
+{% endif %}{% if p_tags != '' %}Tags: {{ p_tags }}
+{% endif %}
+{{ p_abs }}
+
+---
+{% endfor %}
