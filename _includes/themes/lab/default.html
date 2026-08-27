@@ -6,13 +6,19 @@
 
     {% comment %}
       GitHub Pages cannot set response headers, so this is the only way to get a
-      CSP. Origins were derived from the real request graph in Chrome, not
-      guessed: Altmetric fans out from the CloudFront loader to embed.altmetric.com
-      (script AND stylesheet), api.altmetric.com (JSONP, so script-src, not
-      connect-src) and badges.altmetric.com (image), and MathJax pulls its own
-      .woff fonts from jsDelivr. The policy was then enforced against live copies
-      of a paper page and a math page: zero violations, with math, badges, icons
-      and Lato all still rendering.
+      CSP. Origins come from an inventory of EVERY external reference in the
+      built site, grouped by element - not from sampling a few pages, which is
+      how the first version of this policy shipped without frame-src and blocked
+      the Google Maps embed on /contact/, the YouTube embed on /teaching/, and
+      15 remote figures. If you add an embed or a remote image, re-run that
+      inventory over _site and extend the matching directive.
+
+      Non-obvious pieces: Altmetric fans out from its CloudFront loader to
+      embed.altmetric.com (script AND stylesheet), api.altmetric.com (JSONP, so
+      script-src rather than connect-src) and badges.altmetric.com (image);
+      MathJax pulls its own .woff fonts from jsDelivr, so that host needs
+      font-src too. All four are invisible in the page source and show up only
+      in the network log.
 
       'unsafe-inline' in script-src is required by three inline blocks (the
       MathJax config, the members hover swap and the figure wrapper); moving
@@ -25,7 +31,8 @@
       script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://d1bxh8uas1mnw7.cloudfront.net https://embed.altmetric.com https://api.altmetric.com;
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://embed.altmetric.com;
       font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
-      img-src 'self' data: https://badges.altmetric.com;
+      img-src 'self' data: https://badges.altmetric.com https://cdn.ncbi.nlm.nih.gov https://www.eurekalert.org https://mediasvc.eurekalert.org;
+      frame-src https://www.google.com https://www.youtube.com;
       connect-src 'self';
       base-uri 'self';
       form-action 'self';
