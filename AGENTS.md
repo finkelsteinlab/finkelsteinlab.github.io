@@ -168,6 +168,13 @@ Add a new entry anywhere in the file (entries are sorted by date automatically):
 
 ## Adding Papers
 
+> **A preprint that has now been published is a different job — see
+> `assets/md/PUBLISHING-A-PREPRINT.md` and follow all six steps.** Updating the
+> metadata alone leaves the full-text markdown and its figures holding the
+> preprint's content under the published journal's citation, which is worse than
+> not updating at all. That has happened once; the doc exists so it does not
+> happen again.
+
 ### Step 1: Create the post file
 
 **Directory:** `papers/_posts/`
@@ -322,7 +329,7 @@ Papers with a `pmcid` field can have full-text HTML scraped from PubMed Central 
 
 ### How it works
 
-- **Script:** `/tmp/pmc-to-md.py` (or recreate — it crawls PMC, downloads figures, strips chrome)
+- **Script:** `scripts/pmc-to-md.py` (PEP 723 inline deps; crawls PMC, downloads and downsamples figures, strips chrome, emits house-style markdown). `scripts/` is in `_config.yml`'s `exclude`, so it is not published.
 - **Output:** `assets/md/<paper-slug>/index.md` + figure JPGs in same directory
 - **Linking:** Add `markdown: <paper-slug>` to the paper's front matter (the slug is the filename stem, e.g., `2023-06-22-PAMless-DNA-SpRY-Cas9`)
 - **Templates:** `papers/loop.html` shows `[MD]` badge; `_includes/themes/lab/paper.html` shows `Full text (md)` link
@@ -342,7 +349,7 @@ Do NOT put a full path or `/assets/md/` prefix in the `markdown` field — the t
 ### Adding full-text for a new paper
 
 1. Ensure the paper post has a `pmcid` field
-2. Run: `uv run /tmp/pmc-to-md.py papers/_posts/<filename>`
+2. Run: `uv run scripts/pmc-to-md.py papers/_posts/<filename>` (add `--slug <slug>` when the archive directory should differ from the post's filename stem)
 3. Add `markdown: <slug>` to the paper's front matter (before `extra_text:` or `category:`)
 4. Commit both the `assets/md/<slug>/` directory and the updated paper post
 
