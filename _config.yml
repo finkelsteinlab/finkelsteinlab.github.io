@@ -39,6 +39,13 @@ wiki:
 #
 production_url : https://finkelsteinlab.org
 
+# Used by jekyll-redirect-from to build absolute redirect targets. Without it
+# the plugin falls back to GitHub repository metadata, which is only available
+# when the build has API access - so local builds emit github.com/pages/... URLs.
+# Setting it explicitly makes redirects identical locally and in production.
+url: https://finkelsteinlab.org
+baseurl: ""
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :

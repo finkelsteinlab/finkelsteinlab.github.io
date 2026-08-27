@@ -1,5 +1,7 @@
 ---
 layout: paper
+redirect_from:
+  - /papers/paper/SARS-CoV-2-variants
 title: "Trajectory of Growth of SARS-CoV-2 Variants in Houston, Texas, January through May 2021 Based on 12,476 Genome Sequences"
 volume: 191
 issue: 10
