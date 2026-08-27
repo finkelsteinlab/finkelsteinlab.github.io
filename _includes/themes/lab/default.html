@@ -1,22 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <meta charset="utf-8">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    {% comment %} ---------- Derived page metadata ---------- {% endcomment %}
+    {% comment %} A few titles carry numeric HTML entities; decode them so xml_escape does not double-escape. {% endcomment %}
+    {% assign title_clean = page.title | replace: '&#945;', 'α' | replace: '&#124;', '|' %}
+    {% if page.description and page.description != '' %}
+      {% assign page_description = page.description %}
+    {% elsif page.layout == 'paper' or page.layout == 'paper-md' %}
+      {% assign page_description = page.content | strip_html | strip_newlines | replace: 'Abstract', '' | strip | truncate: 155 %}
+    {% else %}
+      {% assign page_description = site.tagline %}
+    {% endif %}
+    {% if page.url == '/' %}
+      {% assign page_title = site.title | append: ' — ' | append: site.tagline %}
+    {% else %}
+      {% assign page_title = title_clean | append: ' · ' | append: site.title %}
+    {% endif %}
+    {% if page.layout == 'paper' or page.layout == 'paper-md' %}
+      {% assign og_type = 'article' %}
+    {% else %}
+      {% assign og_type = 'website' %}
+    {% endif %}
+
+    <title>{% if page.url == '/' %}{{ site.title }} — {{ site.tagline }}{% else %}{{ title_clean | xml_escape }} · {{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page_description | xml_escape }}">
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ page_title | xml_escape }}">
+    <meta property="og:description" content="{{ page_description | xml_escape }}">
+    <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+    <meta property="og:type" content="{{ og_type }}">
+    <meta property="og:image" content="{{ site.production_url }}/assets/images/jenna-luecke-logo.gif">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title | xml_escape }}">
+    <meta name="twitter:description" content="{{ page_description | xml_escape }}">
+
+    {% if page.layout == 'paper' %}
+    {% comment %} ---------- Google Scholar (Highwire Press) citation tags ---------- {% endcomment %}
+    {% assign cit_title = title_clean | strip %}
+    {% if cit_title != '' %}<meta name="citation_title" content="{{ cit_title | xml_escape }}">{% endif %}
+    {% assign cit_journal = page.journal | strip %}
+    {% if cit_journal != '' %}<meta name="citation_journal_title" content="{{ cit_journal | xml_escape }}">{% endif %}
+    {% assign cit_year = page.year | strip %}
+    {% if cit_year != '' %}<meta name="citation_publication_date" content="{{ cit_year }}">{% endif %}
+    {% assign cit_volume = page.volume | strip %}
+    {% if cit_volume != '' %}<meta name="citation_volume" content="{{ cit_volume }}">{% endif %}
+    {% assign cit_issue = page.issue | strip %}
+    {% if cit_issue != '' %}<meta name="citation_issue" content="{{ cit_issue }}">{% endif %}
+    {% assign cit_pages = page.pages | strip %}
+    {% if cit_pages != '' %}{% assign cit_firstpage = cit_pages | split: '-' | first | strip %}{% if cit_firstpage != '' %}<meta name="citation_firstpage" content="{{ cit_firstpage | xml_escape }}">{% endif %}{% endif %}
+    {% assign cit_doi = page.doi | strip %}
+    {% if cit_doi != '' %}<meta name="citation_doi" content="{{ cit_doi | xml_escape }}">{% endif %}
+    {% assign cit_pmid = page.pmid | strip %}
+    {% if cit_pmid != '' %}<meta name="citation_pmid" content="{{ cit_pmid | xml_escape }}">{% endif %}
+    {% assign cit_pdf = page.pdf | strip %}
+    {% if cit_pdf != '' %}<meta name="citation_pdf_url" content="{{ site.production_url }}/assets/pdfs/{{ cit_pdf | uri_escape }}">{% endif %}
+    {% comment %}
+      Nine papers join two authors with " and " and no comma, and comma lists end
+      with ", and Lastname". Normalising both separators to ", " before splitting
+      keeps every author a separate citation_author tag; the empty fragment that
+      ", and " leaves behind is dropped by the `nm == ''` guard below.
+    {% endcomment %}
+    {% assign author_list = page.authors | replace: ' & ', ', ' | replace: ', and ', ', ' | replace: ' and ', ', ' | split: ', ' %}
+    {% for author_frag in author_list %}
+      {% assign nm = author_frag | split: '(' | first %}
+      {% assign nm = nm | replace: '&#42;', '' | replace: '&dagger;', '' | replace: '&#8224;', '' | replace: '*', '' | replace: '†', '' | replace: ';', '' | replace: ',', '' | strip %}
+      {% assign nm_words = nm | split: ' ' %}
+      {% if nm_words[0] == 'and' %}{% assign nm = nm | remove_first: 'and ' | strip %}{% endif %}
+      {% unless nm == '' or nm contains 'co-first' or nm contains 'corresponding' or nm contains 'co-author' %}<meta name="citation_author" content="{{ nm | xml_escape }}">{% endunless %}
+    {% endfor %}
+    {% endif %}
 
     <!-- Bootstrap styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Optional theme -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
-    <!-- Sticky Footer -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
 
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
@@ -32,17 +103,21 @@
     <link rel="stylesheet" href="/assets/themes/lab/css/academicons-1.8.6/css/academicons.min.css"/>
 
     <!-- Fonts via Google -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
 
     <!-- Theme (Catppuccin light/dark) -->
     <link href="/assets/themes/lab/css/theme.css" rel="stylesheet" type="text/css"/>
-    <script src="/assets/themes/lab/js/theme-toggle.js"></script>
+    <script src="/assets/themes/lab/js/theme-toggle.js" defer></script>
 
-    <!-- Structured data -->
+    {% if page.url == '/' or page.url contains '/cv/' %}
+    <!-- Structured data: Person -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://finkelsteinlab.org/#ilya",
       "name": "Ilya Finkelstein",
       "givenName": "Ilya",
       "familyName": "Finkelstein",
@@ -93,7 +168,42 @@
       ]
     }
     </script>
+    {% endif %}
 
+    {% if page.layout == 'paper' %}
+    <!-- Structured data: ScholarlyArticle -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": {{ title_clean | strip | jsonify }},
+      "name": {{ title_clean | strip | jsonify }},
+      "url": {{ page.url | prepend: site.production_url | jsonify }},
+      "author": { "@id": "https://finkelsteinlab.org/#ilya" }
+      {% assign ld_year = page.year | strip %}{% if ld_year != '' %},
+      "datePublished": {{ ld_year | jsonify }}{% endif %}
+      {% assign ld_journal = page.journal | strip %}{% if ld_journal != '' %},
+      "isPartOf": { "@type": "Periodical", "name": {{ ld_journal | jsonify }} }{% endif %}
+      {% assign ld_volume = page.volume | strip %}{% if ld_volume != '' %},
+      "volume": {{ ld_volume | jsonify }}{% endif %}
+      {% assign ld_issue = page.issue | strip %}{% if ld_issue != '' %},
+      "issueNumber": {{ ld_issue | jsonify }}{% endif %}
+      {% assign ld_pages = page.pages | strip %}{% if ld_pages != '' %},
+      "pagination": {{ ld_pages | jsonify }}{% endif %}
+      {% assign ld_doi = page.doi | strip %}{% assign ld_pmid = page.pmid | strip %}
+      {% if ld_doi != '' or ld_pmid != '' %},
+      "identifier": [
+        {% if ld_doi != '' %}{ "@type": "PropertyValue", "propertyID": "doi", "value": {{ ld_doi | jsonify }} }{% endif %}
+        {% if ld_doi != '' and ld_pmid != '' %},{% endif %}
+        {% if ld_pmid != '' %}{ "@type": "PropertyValue", "propertyID": "pmid", "value": {{ ld_pmid | jsonify }} }{% endif %}
+      ]{% endif %}
+      {% if ld_doi != '' %},
+      "sameAs": {{ ld_doi | prepend: 'https://doi.org/' | jsonify }}{% endif %}
+    }
+    </script>
+    {% endif %}
+
+    {% if page.layout == 'paper-md' or page.layout == 'paper' %}
     <!-- Math via MathJax v3 -->
     <script>
     MathJax = {
@@ -101,15 +211,11 @@
       options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
     };
     </script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <script src="/assets/js/jquery.js" type="text/javascript"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"
+            integrity="sha384-AHAnt9ZhGeHIrydA1Kp1L7FN+2UosbF7RQg6C+9Is/a7kDpQ1684C2iH2VWil6r4"
+            crossorigin="anonymous"></script>
+    {% endif %}
 
     <!-- Fav and touch icons -->
     <!-- Update these with your own images
@@ -119,28 +225,29 @@
       <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     -->
 
-    <!-- atom & rss feed
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    -->
+    <!-- atom & rss feed -->
+    <link href="{{ site.production_url }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ site.production_url }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   </head>
 
   <body>
 
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <!-- Static top navbar -->
 
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class='container'>
+    <div class='container'>
 
 <a href="/">
-        <img class="pull-left logo" src="/assets/images/jenna-luecke-logo.gif" type="image/gif">
+        <img class="pull-left logo" src="/assets/images/jenna-luecke-logo.gif" alt="Finkelstein Lab" width="50" height="50">
 </a>
       <a class='navbar-brand navbar-left' style='font-size: large; font-weight: bold' href='/'>Finkelstein Lab</a>
 
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse" aria-expanded="false" aria-controls="jb-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -151,28 +258,29 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-        <ul class="nav navbar-nav navbar-right hidden-sm">
+        <div class="nav navbar-nav navbar-right">
           <a class="navbar-brand" href="/research/">research</a>
           <a class="navbar-brand" href="/members/">team</a>
           <a class="navbar-brand" href="/papers/">papers</a>
           <a class="navbar-brand" href="/news/">news</a>
           <a class="navbar-brand" href="/join/">join us</a>
-        </ul>
+        </div>
       </div><!-- /.navbar-collapse -->
-    </nav>
-   </div>
+    </div><!-- /.container -->
+  </nav>
 
    <!-- Content -->
-   <div class="container">
+   <main id="main" class="container">
       {{ content }}
-   </div>
+   </main>
 
 
   <!-- Static bottom navbar -->
   <nav class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-expanded="false" aria-controls="jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -188,8 +296,8 @@
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li>
-            <button type="button" class="theme-toggle" aria-label="Toggle theme">
-              <span class="theme-toggle-icon">🌙</span>
+            <button type="button" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false">
+              <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
               <span class="theme-toggle-text">Dark</span>
             </button>
           </li>
