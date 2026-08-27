@@ -17,9 +17,9 @@ pmid: 35357490
 markdown: 2022-04-22-Pol-theta-end-joining
 extra_text: ''
 category: paper
-tags: SF2 helicase, Replication Protein A, RAD51, PARP-1, PARylation, single-molecule, DNA curtains
+tags: [SF2 helicase, Replication Protein A, RAD51, PARP-1, PARylation, single-molecule, DNA curtains]
 ---
 {% include JB/setup %}
 
-# Abstract 
+## Abstract 
 Homologous recombination-deficient cancers rely on DNA polymerase Theta (Polθ)-Mediated End Joining (TMEJ), an alternative double-strand break repair pathway. Polθ is the only vertebrate polymerase that encodes an N-terminal superfamily 2 (SF2) helicase domain, but the role of this helicase domain in TMEJ remains unclear. Using single-molecule imaging, we demonstrate that Polθ-helicase (Polθ-h) is a highly processive single-stranded DNA (ssDNA) motor protein that can efficiently strip Replication Protein A (RPA) from ssDNA. Polθ-h also has a limited capacity for disassembling RAD51 filaments but is not processive on double- stranded DNA. Polθ-h can bridge two non-complementary DNA strands in trans. PARylation of Polθ-h by PARP-1 resolves these DNA bridges. We conclude that Polθ-h removes RPA and RAD51 filaments and mediates bridging of DNA overhangs to aid in polymerization by the Polθ polymerase domain.

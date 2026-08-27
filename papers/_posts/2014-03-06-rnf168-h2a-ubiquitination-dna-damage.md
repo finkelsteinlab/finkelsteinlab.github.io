@@ -21,7 +21,7 @@ tags: [Cell cycle proteins, DNA repair, DNA-binding proteins, HEK293 cells, Nucl
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Histone ubiquitinations are critical for the activation of the DNA damage response (DDR). In particular, RNF168 and RING1B/BMI1 function in the DDR by ubiquitinating H2A/H2AX on Lys-13/15 and Lys-118/119, respectively. However, it remains to be defined how the ubiquitin pathway engages chromatin to provide regulation of ubiquitin targeting of specific histone residues. Here we identify the nucleosome acid patch as a critical chromatin mediator of H2A/H2AX ubiquitination (ub). The acidic patch is required for RNF168- and RING1B/BMI1-dependent H2A/H2AXub in vivo. The acidic patch functions within the nucleosome as nucleosomes containing a mutated acidic patch exhibit defective H2A/H2AXub by RNF168 and RING1B/BMI1 in vitro. Furthermore, direct perturbation of the nucleosome acidic patch in vivo by the expression of an engineered acidic patch interacting viral peptide, LANA, results in defective H2AXub and RNF168-dependent DNA damage responses including 53BP1 and BRCA1 recruitment to DNA damage. The acidic patch therefore is a critical nucleosome feature that may serve as a scaffold to integrate multiple ubiquitin signals on chromatin to compose selective ubiquitinations on histones for DNA damage signaling.
 

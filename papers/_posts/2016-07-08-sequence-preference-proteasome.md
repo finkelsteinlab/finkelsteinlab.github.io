@@ -21,6 +21,6 @@ tags: [ATP-dependent protease, intrinsically disordered protein, proteasome, pro
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 The proteasome has pronounced preferences for the amino acid sequence of its substrates at the site where it initiates degradation. Here, we report that modulating these sequences can tune the steady-state abundance of proteins over 2 orders of magnitude in cells. This is the same dynamic range as seen for inducing ubiquitination through a classic N-end rule degron. The stability and abundance of His3 constructs dictated by the initiation site affect survival of yeast cells and show that variation in proteasomal initiation can affect fitness. The proteasome's sequence preferences are linked directly to the affinity of the initiation sites to their receptor on the proteasome and are conserved between Saccharomyces cerevisiae, Schizosaccharomyces pombe, and human cells. These findings establish that the sequence composition of unstructured initiation sites influences protein abundance in vivo in an evolutionarily conserved manner and can affect phenotype and fitness.

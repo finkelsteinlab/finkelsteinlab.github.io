@@ -17,9 +17,9 @@ pmcid:
 pmid: 37536339
 extra_text: ''
 category: paper
-tags: cohesin, CTCF, R-loop, single-molecule, cryo-EM, TADs, 3D genome
+tags: [cohesin, CTCF, R-loop, single-molecule, cryo-EM, TADs, 3D genome]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Cohesin and CCCTC-binding factor (CTCF) are key regulatory proteins of three-dimensional (3D) genome organization. Cohesin extrudes DNA loops that are anchored by CTCF in a polar orientation. Here, we present direct evidence that CTCF binding polarity controls cohesin-mediated DNA looping. Using single-molecule imaging, we demonstrate that a critical N-terminal motif of CTCF blocks cohesin translocation and DNA looping. The cryo-EM structure of the cohesin-CTCF complex reveals that this CTCF motif ahead of zinc fingers can only reach its binding site on the STAG1 cohesin subunit when the N terminus of CTCF faces cohesin. Remarkably, a C-terminally oriented CTCF accelerates DNA compaction by cohesin. DNA-bound Cas9 and Cas12a ribonucleoproteins are also polar cohesin barriers, indicating that stalling may be intrinsic to cohesin itself. Finally, we show that RNA-DNA hybrids (R-loops) block cohesin-mediated DNA compaction in vitro and are enriched with cohesin subunits in vivo, likely forming TAD boundaries.

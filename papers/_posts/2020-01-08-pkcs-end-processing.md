@@ -17,9 +17,9 @@ pmid: 31934630
 markdown: 2020-01-08-pkcs-end-processing
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 The repair of DNA double-strand breaks occurs through nonhomologous end joining or homologous recombination in vertebrate cells-a choice that is thought to be decided by a competition between DNA-dependent protein kinase (DNA-PK) and the Mre11/Rad50/Nbs1 (MRN) complex but is not well understood. Using ensemble biochemistry and single-molecule approaches, here, we show that the MRN complex is dependent on DNA-PK and phosphorylated CtIP to perform efficient processing and resection of DNA ends in physiological conditions, thus eliminating the competition model. Endonucleolytic removal of DNA-PK-bound DNA ends is also observed at double-strand break sites in human cells. The involvement of DNA-PK in MRN-mediated end processing promotes an efficient and sequential transition from nonhomologous end joining to homologous recombination by facilitating DNA-PK removal.

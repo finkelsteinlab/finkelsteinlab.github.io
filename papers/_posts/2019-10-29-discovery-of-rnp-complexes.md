@@ -22,6 +22,6 @@ protein complexes, biochemical fractionation, mass spectrometry, interactome]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 RNA-binding proteins (RBPs) play essential roles in biology and are frequently associated with human disease. Although recent studies have systematically identified individual RNA-binding proteins, their higher-order assembly into ribonucleoprotein (RNP) complexes has not been systematically investigated. Here, we describe a proteomics method for systematic identification of RNP complexes in human cells. We identify 1,428 protein complexes that associate with RNA, indicating that more than 20% of known human protein complexes contain RNA. To explore the role of RNA in the assembly of each complex, we identify complexes that dissociate, change composition, or form stable protein-only complexes in the absence of RNA. We use our method to systematically identify cell-type-specific RNA-associated proteins in mouse embryonic stem cells and finally, distribute our resource, rna.MAP, in an easy-to-use online interface (rna.proteincomplexes.org). Our system thus provides a methodology for explorations across human tissues, disease states, and throughout all domains of life.

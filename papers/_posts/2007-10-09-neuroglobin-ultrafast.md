@@ -21,6 +21,6 @@ tags: [Myoglobin mutants, Protein dynamics, Energy landscape]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Neuroglobin (Ngb), a protein in the globin family, is found in vertebrate brains. It binds oxygen reversibly. Compared with myoglobin (Mb), the amino acid sequence has limited similarity, but key residues around the heme and the classical globin fold are conserved in Ngb. The CO adduct of Ngb displays two CO absorption bands in the IR spectrum, referred to as N(3) (distal histidine in the pocket) and N(0) (distal histidine swung out of the pocket), which have absorption spectra that are almost identical with the Mb mutants L29F and H64V, respectively. The Mb mutants mimic the heme pocket structures of the corresponding Ngb conformers. The equilibrium protein dynamics for the CO adduct of Ngb are investigated by using ultrafast 2D-IR vibrational echo spectroscopy by observing the CO vibration's spectral diffusion (2D-IR spectra time dependence) and comparing the results with those for the Mb mutants. Although the heme pocket structure and the CO FTIR peak positions of Ngb are similar to those of the mutant Mb proteins, the 2D-IR results demonstrate that the fast structural fluctuations of Ngb are significantly slower than those of the mutant Mbs. The results may also provide some insights into the nature of the energy landscape in the vicinity of the folded protein free energy minimum.

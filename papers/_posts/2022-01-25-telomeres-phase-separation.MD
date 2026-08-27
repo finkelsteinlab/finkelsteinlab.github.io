@@ -17,9 +17,9 @@ pmid: 35077681
 markdown: 2022-01-25-telomeres-phase-separation
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Telomeres form unique nuclear compartments that prevent degradation and fusion of chromosome ends by recruiting shelterin proteins and regulating access of DNA damage repair factors. To understand how these dynamic components protect chromosome ends, we combine in vivo biophysical interrogation and in vitro reconstitution of human shelterin. We show that shelterin components form multicomponent liquid condensates with selective biomolecular partitioning on telomeric DNA. Tethering and anomalous diffusion prevent multiple telomeres from coalescing into a single condensate in mammalian cells. However, telomeres coalesce when brought into contact via an optogenetic approach. TRF1 and TRF2 subunits of shelterin drive phase separation, and their N-terminal domains specify interactions with telomeric DNA in vitro. Telomeric condensates selectively recruit telomere-associated factors and regulate access of DNA damage repair factors. We propose that shelterin mediates phase separation of telomeric chromatin, which underlies the dynamic yet persistent nature of the end-protection mechanism.

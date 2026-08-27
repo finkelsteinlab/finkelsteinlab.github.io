@@ -21,6 +21,6 @@ tags: [Aging, Cellular senescence, Computational biology]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Aging-the progressive decline of biological functions-is a universal fact of life. Decades of intense research in unicellular and metazoan model organisms have highlighted that aging manifests at all levels of biological organization - from the decline of individual cells, to tissue and organism degeneration. To better understand the aging process, we must first aim to integrate quantitative biological understanding on the systems and cellular levels. A second key challenge is to then understand the many heterogeneous outcomes that may result in aging cells, and to connect cellular aging to organism-wide degeneration. Addressing these challenges requires the development of high-throughput aging and longevity assays. In this review, we highlight the emergence of high-throughput aging approaches in the most commonly used model organisms. We conclude with a discussion of the critical questions that can be addressed with these new methods.

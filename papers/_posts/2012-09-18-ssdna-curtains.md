@@ -21,6 +21,6 @@ tags: [DNA, Single stranded DNA, DNA-binding proteins, Diffusion, Microscopy, Pr
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Single-molecule imaging of biological macromolecules has dramatically impacted our understanding of many types of biochemical reactions. To facilitate these studies, we have established new strategies for anchoring and organizing DNA molecules on the surfaces of microfluidic sample chambers that are otherwise coated with fluid lipid bilayers. This previous work was reliant upon the use of double-stranded DNA, precluding access to information on biological processes involving single-stranded nucleic acid substrates. Here, we present procedures for aligning and visualizing single-stranded DNA molecules along the leading edges of nanofabricated barriers to lipid diffusion, in both "single-tethered" and "double-tethered" experimental formats. This new single-molecule approach provides long-awaited access to critical biological reactions involving single-stranded DNA binding proteins.

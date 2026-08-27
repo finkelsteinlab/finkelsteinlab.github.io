@@ -34,6 +34,6 @@ tags: [Cascade, CHAMP, CRISPR]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 CRISPR-Cas nucleoproteins target foreign DNA via base pairing with a crRNA. However, a quantitative description of protein binding and nuclease activation at off-target DNA sequences remains elusive. Here, we describe a chip-hybridized association-mapping platform (CHAMP) that repurposes next-generation sequencing chips to simultaneously measure the interactions between proteins and ∼10^7 unique DNA sequences. Using CHAMP, we provide the first comprehensive survey of DNA recognition by a type I-E CRISPR-Cas (Cascade) complex and Cas3 nuclease. Analysis of mutated target sequences and human genomic DNA reveal that Cascade recognizes an extended protospacer adjacent motif (PAM). Cascade recognizes DNA with a surprising 3-nt periodicity. The identity of the PAM and the PAM-proximal nucleotides control Cas3 recruitment by releasing the Cse1 subunit. These findings are used to develop a model for the biophysical constraints governing off-target DNA binding. CHAMP provides a framework for high-throughput, quantitative analysis of protein-DNA interactions on synthetic and genomic DNA.

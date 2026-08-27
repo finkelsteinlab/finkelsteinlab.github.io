@@ -17,9 +17,9 @@ pmid: 31780627
 markdown: 2019-12-13-cohesin-compaction
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Cohesin is a chromosome-bound multisubunit ATPase complex. Following its loading onto chromosomes, cohesin generates chromosome loops to regulate chromosome functions. It has been suggested that cohesin organizes the genome via loop extrusion, but direct evidence is lacking. Here, we use single-molecule imaging to show that recombinant human cohesin-NIPBL complex compacts both naked and nucleosome-bound DNA by extruding DNA loops. DNA compaction by cohesin requires ATP hydrolysis, and is force-sensitive. This compaction is processive over tens of kilobases (kb) at an average rate of 0.5 kb per second. Compaction of double-tethered DNA suggests that a cohesin dimer extrudes DNA loops bidirectionally. Our results establish cohesin-NIPBL as an ATP-driven molecular machine capable of loop extrusion.

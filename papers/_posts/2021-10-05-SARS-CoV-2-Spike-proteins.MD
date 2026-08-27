@@ -17,9 +17,9 @@ pmid: 34611365
 markdown: 2021-10-05-SARS-CoV-2-Spike-proteins
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 The severe acute respiratory syndrome coronavirus 2 spike protein is a critical component of coronavirus disease 2019 vaccines and diagnostics and is also a therapeutic target. However, the spike protein is difficult to produce recombinantly because it is a large trimeric class I fusion membrane protein that is metastable and heavily glycosylated. We recently developed a prefusion-stabilized spike variant, termed HexaPro for six stabilizing proline substitutions, that can be expressed with a yield of >30 mg/L in ExpiCHO cells. This protocol describes an optimized workflow for expressing and biophysically characterizing rationally engineered spike proteins in Freestyle 293 and ExpiCHO cell lines. Although we focus on HexaPro, this protocol has been used to purify over a hundred different spike variants in our laboratories. We also provide guidance on expression quality control, long-term storage, and uses in enzyme-linked immunosorbent assays. The entire protocol, from transfection to biophysical characterization, can be completed in 7 d by researchers with basic tissue cell culture and protein purification expertise.

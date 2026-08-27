@@ -21,6 +21,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Spectrally resolved stimulated vibrational echo spectroscopy is used to investigate the dependence of fast protein dynamics on bulk solution viscosity at room temperature in four heme proteins: hemoglobin, myoglobin, a myoglobin mutant with the distal histidine replaced by a valine (H64V), and a cytochrome c552 mutant with the distal methionine replaced by an alanine (M61A). Fructose is added to increase the viscosity of the aqueous protein solutions over many orders of magnitude. The fast dynamics of the four globular proteins were found to be sensitive to solution viscosity and asymptotically approached the dynamical behavior that was previously observed in room temperature sugar glasses. The viscosity-dependent protein dynamics are analyzed in the context of a viscoelastic relaxation model that treats the protein as a deformable breathing sphere. The viscoelastic model is in qualitative agreement with the experimental data but does not capture sufficient system detail to offer a quantitative description of the underlying fluctuation amplitudes and relaxation rates. A calibration method based on the near-infrared spectrum of water overtones was constructed to accurately determine the viscosity of small volumes of protein solutions.

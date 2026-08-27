@@ -17,9 +17,9 @@ pmid: 35945159
 markdown: 2022-08-09-NanoCluster-Beacons
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 NanoCluster Beacons (NCBs) are multicolor silver nanocluster probes whose fluorescence can be activated or tuned by a proximal DNA strand called the activator. While a single-nucleotide difference in a pair of activators can lead to drastically different activation outcomes, termed the polar opposite twins (POTs), it is difficult to discover new POT-NCBs using the conventional low-throughput characterization approaches. Here a high-throughput selection method is reported that takes advantage of repurposed next-generation-sequencing (NGS) chips to screen the activation fluorescence of ~40,000 activator sequences. We find the nucleobases at positions 7-12 of the 18-nucleotide-long activator are critical to creating bright NCBs and positions 4-6 and 2-4 are hotspots to generate yellow-orange and red POTs, respectively. Based on these findings, a “zipper bag model” is proposed that can explain how these hotspots facilitate the formation of distinct silver cluster chromophores and alter their chromophore chemical yields. Combining high-throughput screening with machine learning algorithms, a pipeline is established to design bright and multicolor NCBs in silico.

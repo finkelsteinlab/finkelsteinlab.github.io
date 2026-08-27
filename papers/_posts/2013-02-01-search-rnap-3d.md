@@ -21,6 +21,6 @@ tags: [Bacterial proteins, Diffusion, RNA polymerase, Kinetics, Promoter Regions
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Gene expression, DNA replication and genome maintenance are all initiated by proteins that must recognize specific targets from among a vast excess of nonspecific DNA. For example, to initiate transcription, Escherichia coli RNA polymerase (RNAP) must locate promoter sequences, which compose <2% of the bacterial genome. This search problem remains one of the least understood aspects of gene expression, largely owing to the transient nature of search intermediates. Here we visualize RNAP in real time as it searches for promoters, and we develop a theoretical framework for analyzing target searches at the submicroscopic scale on the basis of single-molecule target-association rates. We demonstrate that, contrary to long-held assumptions, the promoter search is dominated by three-dimensional diffusion at both the microscopic and submicroscopic scales in vitro, which has direct implications for understanding how promoters are located within physiological settings.

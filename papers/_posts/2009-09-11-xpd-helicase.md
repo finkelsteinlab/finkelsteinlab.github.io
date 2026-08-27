@@ -21,6 +21,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Helicases and other DNA translocases must travel along crowded substrates. In this issue, Honda et al. (2009) report that the archaeal XPD helicase can bypass a single-stranded DNA-binding protein without either molecule being ejected from the DNA.

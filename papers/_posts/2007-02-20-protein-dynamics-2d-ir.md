@@ -21,6 +21,6 @@ tags: [Horseradish peroxidase, Ultrafast]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Enzyme structural dynamics play a pivotal role in substrate binding and biological function, but the influence of substrate binding on enzyme dynamics has not been examined on fast time scales. In this work, picosecond dynamics of horseradish peroxidase (HRP) isoenzyme C in the free form and when ligated to a variety of small organic molecule substrates is studied by using 2D-IR vibrational echo spectroscopy. Carbon monoxide bound at the heme active site of HRP serves as a spectroscopic marker that is sensitive to the structural dynamics of the protein. In the free form, HRP assumes two distinct spectroscopic conformations that undergo fluctuations on a tens-of-picoseconds time scale. After substrate binding, HRP is locked into a single conformation that exhibits reduced amplitudes and slower time-scale structural dynamics. The decrease in carbon monoxide frequency fluctuations is attributed to reduced dynamic freedom of the distal histidine and the distal arginine, which are key residues in modulating substrate binding affinity. It is suggested that dynamic quenching caused by substrate binding can cause the protein to be locked into a conformation suitable for downstream steps in the enzymatic cycle of HRP.

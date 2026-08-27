@@ -21,6 +21,6 @@ tags: [Chromatin, DNA, Histones, DNA-binding proteins, Nucleosomes, MutS Homolog
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 DNA-binding proteins search for specific targets via facilitated diffusion along a crowded genome. However, little is known about how crowded DNA modulates facilitated diffusion and target recognition. Here we use DNA curtains and single-molecule fluorescence imaging to investigate how Msh2-Msh3, a eukaryotic mismatch repair complex, navigates on crowded DNA. Msh2-Msh3 hops over nucleosomes and other protein roadblocks, but maintains sufficient contact with DNA to recognize a single lesion. In contrast, Msh2-Msh6 slides without hopping and is largely blocked by protein roadblocks. Remarkably, the Msh3-specific mispair-binding domain (MBD) licences a chimeric Msh2-Msh6(3MBD) to bypass nucleosomes. Our studies contrast how Msh2-Msh3 and Msh2-Msh6 navigate on a crowded genome and suggest how Msh2-Msh3 locates DNA lesions outside of replication-coupled repair. These results also provide insights into how DNA repair factors search for DNA lesions in the context of chromatin.

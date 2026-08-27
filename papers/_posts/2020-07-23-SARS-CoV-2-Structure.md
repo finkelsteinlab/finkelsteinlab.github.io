@@ -32,9 +32,9 @@ extra_text: '
 
 '
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 The COVID-19 pandemic has led to accelerated efforts to develop therapeutics and vaccines. A key target of these efforts is the spike (S) protein, which is metastable and difficult to produce recombinantly. Here, we characterized 100 structure-guided spike designs and identified 26 individual substitutions that increased protein yields and stability. Testing combinations of beneficial substitutions resulted in the identification of HexaPro, a variant with six beneficial proline substitutions exhibiting ~10-fold higher expression than its parental construct and the ability to withstand heat stress, storage at room temperature, and three freeze-thaw cycles. A 3.2 Å-resolution cryo-EM structure of HexaPro confirmed that it retains the prefusion spike conformation. High-yield production of a stabilized prefusion spike protein will accelerate the development of vaccines and serological diagnostics for SARS-CoV-2.

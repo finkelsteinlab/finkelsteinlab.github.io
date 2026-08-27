@@ -17,10 +17,10 @@ pmid: 31273204
 markdown: 2019-07-04-adp-ribose-polymerase-1
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 PARP-1 is rapidly recruited and activated by DNA double-strand breaks (DSBs). Upon activation, PARP-1 synthesizes a structurally complex polymer composed of ADP-ribose units that facilitates local chromatin relaxation and the recruitment of DNA repair factors. Here, we identify a function for PARP-1 in DNA DSB resection. Remarkably, inhibition of PARP-1 leads to hyperresected DNA DSBs. We show that loss of PARP-1 and hyperresection are associated with loss of Ku, 53BP1 and RIF1 resection inhibitors from the break site. DNA curtains analysis show that EXO1-mediated resection is blocked by PARP-1. Furthermore, PARP-1 abrogation leads to increased DNA resection tracks and an increase of homologous recombination in cellulo. Our results, therefore, place PARP-1 activation as a critical early event for DNA DSB repair activation and regulation of resection. Hence, our work has direct implications for the clinical use and effectiveness of PARP inhibition, which is prescribed for the treatment of various malignancies.

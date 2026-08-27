@@ -22,9 +22,9 @@ extra_text: '
 
 '
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Engineered SpCas9s and AsCas12a cleave fewer off-target genomic sites than wild-type (wt) Cas9. However, understanding their fidelity, mechanisms and cleavage outcomes requires systematic profiling across mispaired target DNAs. Here we describe NucleaSeq-nuclease digestion and deep sequencing-a massively parallel platform that measures the cleavage kinetics and time-resolved cleavage products for over 10,000 targets containing mismatches, insertions and deletions relative to the guide RNA. Combining cleavage rates and binding specificities on the same target libraries, we benchmarked five SpCas9 variants and AsCas12a. A biophysical model built from these data sets revealed mechanistic insights into off-target cleavage. Engineered Cas9s, especially Cas9-HF1, dramatically increased cleavage specificity but not binding specificity compared to wtCas9. Surprisingly, AsCas12a cleavage specificity differed little from that of wtCas9. Initial DNA cleavage sites and end trimming varied by nuclease, guide RNA and the positions of mispaired nucleotides. More broadly, NucleaSeq enables rapid, quantitative and systematic comparisons of specificity and cleavage outcomes across engineered and natural nucleases.

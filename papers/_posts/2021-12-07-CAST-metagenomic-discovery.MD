@@ -28,6 +28,6 @@ tags: [gene editing, bioinformatics, CAST, transposition, CRISPR RNA]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 'CRISPR-associated Tn7 transposons (CASTs) co-opt cas genes for RNA-guided transposition. CASTs are exceedingly rare in genomic databases; recent surveys have reported Tn7-like transposons that co-opt Type I-F, I-B, and V-K CRISPR effectors. Here, we expand the diversity of reported CAST systems via a bioinformatic search of metagenomic databases. We discover architectures for all known CASTs, including arrangements of the Cascade effectors, target homing modalities, and minimal V-K systems. We also describe families of CASTs that have co-opted the Type I-C and Type IV CRISPR-Cas systems. Our search for non-Tn7 CASTs identifies putative candidates that include a nuclease dead Cas12. These systems shed light on how CRISPR systems have coevolved with transposases and expand the programmable gene-editing toolkit.'
 

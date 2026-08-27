@@ -21,6 +21,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Single molecule methods offer an unprecedented opportunity to examine complex macromolecular reactions that are obfuscated by ensemble averaging. The application of single molecule techniques to study DNA processing enzymes has revealed new mechanistic details that are unobtainable from bulk biochemical studies. Homologous DNA recombination is a multi-step pathway that is facilitated by numerous enzymes that must precisely and rapidly manipulate diverse DNA substrates to repair potentially lethal breaks in the DNA duplex. In this review, we present an overview of single molecule assays that have been developed to study key aspects of homologous recombination and discuss the unique information gleaned from these experiments.

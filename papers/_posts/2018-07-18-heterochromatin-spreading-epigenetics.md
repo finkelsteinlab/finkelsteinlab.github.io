@@ -21,6 +21,6 @@ tags: [S. pombe, Cellular identity, Chromosomes, Epigentic inheritance, Gene exp
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 The heterochromatin spreading reaction is a central contributor to the formation of gene-repressive structures, which are re-established with high positional precision, or fidelity, following replication. How the spreading reaction contributes to this fidelity is not clear. To resolve the origins of stable inheritance of repression, we probed the intrinsic character of spreading events in fission yeast using a system that quantitatively describes the spreading reaction in live single cells. We show that spreading triggered by noncoding RNA-nucleated elements is stochastic, multimodal, and fluctuates dynamically across time. This lack of stability correlates with high histone turnover. At the mating type locus, this unstable behavior is restrained by an accessory cis-acting element REIII, which represses histone turnover. Further, REIII safeguards epigenetic memory against environmental perturbations. Our results suggest that the most prevalent type of spreading, driven by noncoding RNA-nucleators, is epigenetically unstable and requires collaboration with accessory elements to achieve high fidelity.

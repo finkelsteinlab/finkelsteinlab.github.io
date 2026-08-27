@@ -21,6 +21,6 @@ tags: [Cellular senescence, High-throughput screening assays, Microfluidics]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Due to their short lifespan, rapid division, and ease of genetic manipulation, yeasts are popular model organisms for studying aging in actively dividing cells. To study replicative aging over many cell divisions, individual cells must be continuously separated from their progeny via a laborious manual microdissection procedure. Microfluidics-based soft-lithography devices have recently been used to automate microdissection of the budding yeast Saccharomyces cerevisiae. However, little is known about replicative aging in Schizosaccharomyces pombe, a rod-shaped yeast that divides by binary fission and shares many conserved biological functions with higher eukaryotes. In this report, we develop a versatile multiphoton lithography method that enables rapid fabrication of three-dimensional master structures for polydimethylsiloxane (PDMS)-based microfluidics. We exploit the rapid prototyping capabilities of multiphoton lithography to create and characterize a cell-capture device that is capable of high-resolution microscopic observation of hundreds of individual S. pombe cells. By continuously removing the progeny cells, we demonstrate that cell growth and protein aggregation can be tracked in individual cells for over ~100 h. Thus, the fission yeast lifespan microdissector (FYLM) provides a powerful on-chip microdissection platform that will enable high-throughput studies of aging in rod-shaped cells.

@@ -21,6 +21,6 @@ tags: [DNA, Microscopy, Nanotechnology]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Single-molecule studies of protein-DNA interactions have shed critical insights into the molecular mechanisms of nearly every aspect of DNA metabolism. The development of DNA curtains-a method for organizing arrays of DNA molecules on a fluid lipid bilayer-has greatly facilitated these studies by increasing the number of reactions that can be observed in a single experiment. However, the utility of DNA curtains is limited by the challenges associated with depositing nanometer-scale lipid diffusion barriers onto quartz microscope slides. Here, we describe a UV lithography-based method for large-scale fabrication of chromium (Cr) features and organization of DNA molecules at these features for high-throughput single-molecule studies. We demonstrate this approach by assembling 792 independent DNA arrays (containing >900,000 DNA molecules) within a single microfluidic flowcell. As a first proof of principle, we track the diffusion of Mlh1-Mlh3-a heterodimeric complex that participates in DNA mismatch repair and meiotic recombination. To further highlight the utility of this approach, we demonstrate a two-lane flowcell that facilitates concurrent experiments on different DNA substrates. Our technique greatly reduces the challenges associated with assembling DNA curtains and paves the way for the rapid acquisition of large statistical data sets from individual single-molecule experiments.

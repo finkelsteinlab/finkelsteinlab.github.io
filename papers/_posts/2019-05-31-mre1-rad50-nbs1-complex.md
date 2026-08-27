@@ -21,6 +21,6 @@ tags: [DNA curtains, Single-molecule imaging, Homologous recombination, DNA repa
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 The Mre11-Rad50-Nbs1 (MRN) complex coordinates the repair of DNA double-strand breaks, replication fork restart, meiosis, class-switch recombination, and telomere maintenance. As such, MRN is an essential molecular machine that has homologs in all organisms of life, from bacteriophage to humans. In human cells, MRN is a >500 kDa multifunctional complex that encodes DNA binding, ATPase, and both endonuclease and exonuclease activities. MRN also forms larger assemblies and interacts with multiple DNA repair and replication factors. The enzymatic properties of MRN have been the subject of intense research for over 20 years, and more recently, single-molecule biophysics studies are beginning to probe its many biochemical activities. Here, we describe the methods used to overexpress, fluorescently label, and visualize MRN and its activities on single molecules of DNA.

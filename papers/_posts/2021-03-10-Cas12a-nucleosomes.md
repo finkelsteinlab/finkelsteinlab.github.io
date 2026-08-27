@@ -17,9 +17,9 @@ pmid: 33692102
 markdown: 2021-03-10-Cas12a-nucleosomes
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Genome engineering nucleases must access chromatinized DNA. Here, we investigate how AsCas12a cleaves DNA within human nucleosomes and phase-condensed nucleosome arrays. Using quantitative kinetics approaches, we show that dynamic nucleosome unwrapping regulates target accessibility to Cas12a and determines the extent to which both steps of binding—PAM recognition and R-loop formation—are inhibited by the nucleosome. Relaxing DNA wrapping within the nucleosome by reducing DNA bendability, adding histone modifications, or introducing target-proximal dCas9 enhances DNA cleavage rates over 10-fold. Unexpectedly, Cas12a readily cleaves internucleosomal linker DNA within chromatin-like, phase-separated nucleosome arrays. DNA targeting is reduced only ~5-fold due to neighboring nucleosomes and chromatin compaction. This work explains the observation that on-target cleavage within nucleosomes occurs less often than off-target cleavage within nucleosome-depleted genomic regions in cells. We conclude that nucleosome unwrapping regulates accessibility to CRISPR-Cas nucleases and propose that increasing nucleosome breathing dynamics will improve DNA targeting in eukaryotic cells.

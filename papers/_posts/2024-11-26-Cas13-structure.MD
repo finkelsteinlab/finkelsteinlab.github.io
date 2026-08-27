@@ -17,8 +17,8 @@ pmid:
 markdown: 2024-11-26-Cas13d-structure
 extra_text: ''
 category: paper
-tags: Cas13d structure
+tags: [Cas13d structure]
 ---
 {% include JB/setup %}
 
-# Abstract 
+## Abstract 

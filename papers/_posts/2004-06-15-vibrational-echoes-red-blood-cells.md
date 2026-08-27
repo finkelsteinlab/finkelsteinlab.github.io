@@ -22,7 +22,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Ultrafast spectrally resolved stimulated vibrational echo experiments measure the dephasing of the CO stretching mode of hemoglobin–CO
 (Hb–CO) inside living human erythrocytes (red blood cells). A method is presented to overcome the adverse impact

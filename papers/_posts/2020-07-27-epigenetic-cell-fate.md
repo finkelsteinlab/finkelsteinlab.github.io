@@ -17,9 +17,9 @@ pmid: 32719507
 markdown: 2020-07-27-epigenetic-cell-fate
 extra_text: ''
 category: paper
-tags:
+tags: []
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 Cell identity in eukaryotes is controlled by transcriptional regulatory networks that define cell-type-specific gene expression. In the opportunistic fungal pathogen Candida albicans, transcriptional regulatory networks regulate epigenetic switching between two alternative cell states, ‘white’ and ‘opaque’, that exhibit distinct host interactions. In the present study, we reveal that the transcription factors (TFs) regulating cell identity contain prion-like domains (PrLDs) that enable liquid–liquid demixing and the formation of phase-separated condensates. Multiple white–opaque TFs can co-assemble into complex condensates as observed on single DNA molecules. Moreover, heterotypic interactions between PrLDs support the assembly of multifactorial condensates at a synthetic locus within live eukaryotic cells. Mutation of the Wor1 TF revealed that substitution of acidic residues in the PrLD blocked its ability to phase separate and co-recruit other TFs in live cells, as well as its function in C. albicans cell fate determination. Together, these studies reveal that PrLDs support the assembly of TF complexes that control fungal cell identity and highlight parallels with the ‘super-enhancers’ that regulate mammalian cell fate.

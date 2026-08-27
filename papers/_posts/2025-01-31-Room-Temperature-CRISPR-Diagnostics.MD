@@ -17,10 +17,10 @@ pmid: 39890862
 markdown: 2025-01-31-Room-Temperature-CRISPR-Diagnostics
 extra_text: ''
 category: paper
-tags: CRISPR, Cas12a, diagnostics, room temperature
+tags: [CRISPR, Cas12a, diagnostics, room temperature]
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 Maintaining elevated reaction temperatures and multi-step sample preparations increases the costs and complexity of diagnostics, impeding their deployment in low-resource settings. Here, we develop a one-pot, room temperature recombinase polymerase amplification (RPA)-CRISPR reaction that removes these critical challenges. We show that RPA amplification is reduced by several orders of magnitude at 25 °C as compared to 37 °C. Similarly, when coupled to RPA, the performance of multiple Cas12a orthologs, including the widely used LbCas12a, is severely compromised at temperatures below 37 °C. To mitigate these limitations, we identify the ortholog TsCas12a as a highly active nuclease at 25 °C and develop a single-protocol RPA-Cas12a detection reaction with this enzyme. A quantitative kinetic analysis reveals that fast nuclease activation is more critical than higher steady-state trans-cleavage activity for room temperature diagnostic applications. RPA-TsCas12a reactions performed at 25 °C effectively detected HPV-16 in crudely prepared cervical swab samples with high sensitivity and specificity using both optical and lateral flow readouts. The reactions developed herein reduce the complexity and equipment requirements for affordable diagnostics in low- and middle-income countries.

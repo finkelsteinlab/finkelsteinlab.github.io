@@ -17,9 +17,9 @@ pmid: 38315367
 markdown: 2024-04-23-Mammalian-antigen-display
 extra_text: ''
 category: paper
-tags: Mammalian Antigen Display , Pandemic
+tags: [Mammalian Antigen Display, Pandemic]
 ---
 {% include JB/setup %}
 
-# Abstract 
+## Abstract 
 Pandemic countermeasures require the rapid design of antigens for vaccines, profiling patient antibody responses, assessing antigen structure-function landscapes, and the surveillance of emerging viral lineages. Cell surface display of a viral antigen or its subdomains can facilitate these goals by coupling the phenotypes of protein variants to their DNA sequence. Screening surface-displayed proteins via flow cytometry also eliminates time-consuming protein purification steps. Prior approaches have primarily relied on yeast as a display chassis. However, yeast often cannot express large viral glycoproteins, requiring their truncation into subdomains. Here, we describe a method to design and express antigens on the surface of mammalian HEK293T cells. We discuss three use cases, including screening of stabilizing mutations, deep mutational scanning, and epitope mapping. The mammalian antigen display platform described herein will accelerate ongoing and future pandemic countermeasures.

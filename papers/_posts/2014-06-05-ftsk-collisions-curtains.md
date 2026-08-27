@@ -21,6 +21,6 @@ tags: [Binding sites, Lambda phage, DNA, Escheria coli proteins, Protein structu
 ---
 {% include JB/setup %}
 
-# Abstract
+## Abstract
 
 In physiological settings, DNA translocases will encounter DNA-bound proteins, which must be dislodged or bypassed to allow continued translocation. FtsK is a bacterial translocase that promotes chromosome dimer resolution and decatenation by activating XerCD-dif recombination. To better understand how translocases act in crowded environments, we used single-molecule imaging to visualize FtsK in real time as it collided with other proteins. We show that FtsK can push, evict, and even bypass DNA-bound proteins. The primary factor dictating the outcome of collisions was the relative affinity of the proteins for their specific binding sites. Importantly, protein-protein interactions between FtsK and XerD help prevent removal of XerCD from DNA by promoting rapid reversal of FtsK. Finally, we demonstrate that RecBCD always overwhelms FtsK when these two motor proteins collide while traveling along the same DNA molecule, indicating that RecBCD is capable of exerting a much greater force than FtsK when translocating along DNA.
