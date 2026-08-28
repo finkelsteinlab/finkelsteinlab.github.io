@@ -5,7 +5,7 @@ source_url: https://www.eurekalert.org/news-releases/936789
 archived: 2026-02-09
 ---
 
-**News Release** · 7-Dec-2021 · Peer-Reviewed Publication · University of Texas at Austin
+**News Release** · 2-Dec-2021 · Peer-Reviewed Publication · University of Texas at Austin
 
 ---
 
