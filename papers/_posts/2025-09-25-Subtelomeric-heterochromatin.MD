@@ -14,7 +14,7 @@ supplement:
 doi: 10.1101/2025.09.25.678047
 pmcid:
 pmid:
-markdown:
+markdown: 2025-09-25-Subtelomeric-heterochromatin
 extra_text: ''
 category: paper
 tags: [heterochromatin, subtelomere, epigenetics, fission yeast]
