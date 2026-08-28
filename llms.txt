@@ -54,3 +54,4 @@ layout: null
 
 - [Sitemap](https://finkelsteinlab.org/sitemap.txt): plain-text list of every URL on the site
 - [Full text and abstracts](https://finkelsteinlab.org/llms-full.txt): citation plus abstract for every publication
+- [Markdown sources](https://github.com/{{ site.repository }}/tree/master/assets/md): every full-text and archive page above is generated from a Markdown file in this public repository. Fetch the source instead of scraping the HTML by replacing `https://finkelsteinlab.org/assets/md/<path>/` with `https://raw.githubusercontent.com/{{ site.repository }}/master/assets/md/<path>/index.md`. Each archive page also declares its own source as `<link rel="alternate" type="text/markdown">`.

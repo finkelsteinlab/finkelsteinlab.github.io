@@ -93,6 +93,18 @@
     <!-- Canonical -->
     <link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
 
+    {% if page.layout == 'news-md' or page.layout == 'paper-md' %}
+    {% comment %}
+      Jekyll converts these archives to HTML and never publishes the .md source,
+      so "Full text (md)" actually serves rendered HTML. The genuine source is
+      already public, byte for byte, in this repository - point machines at it
+      rather than duplicating 100+ files into _site to invent a local endpoint.
+    {% endcomment %}
+    <link rel="alternate" type="text/markdown"
+          href="https://raw.githubusercontent.com/{{ site.repository }}/master/{{ page.path }}"
+          title="Markdown source">
+    {% endif %}
+
     <!-- Open Graph -->
     <meta property="og:title" content="{{ page_title | xml_escape }}">
     <meta property="og:description" content="{{ page_description | xml_escape }}">
