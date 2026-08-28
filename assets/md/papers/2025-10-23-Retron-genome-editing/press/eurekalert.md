@@ -9,7 +9,7 @@ archived: 2026-02-09
 
 **News Release** · 23-Oct-2025 · Peer-Reviewed Publication · University of Texas at Austin
 
-![Human cells edited with retron-based gene editing method](https://mediasvc.eurekalert.org/Api/v1/Multimedia/00ff79cf-3660-41a6-83b5-1040ba42bee9/Rendition/low-res/Content/Public)
+![Human cells edited with retron-based gene editing method](/assets/md/papers/2025-10-23-Retron-genome-editing/press/retron-edited-cells.jpg)
 
 *Human cells that have been edited with the new retron-based gene editing technology. Orange dots mark successful gene edits. Green dots show a fluorescent protein tag on the surface of mitochondria. Credit: You-Chiun Chang/University of Texas at Austin*
 
