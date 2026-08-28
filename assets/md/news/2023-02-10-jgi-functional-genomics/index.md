@@ -2,7 +2,7 @@
 layout: news-md
 title: "JGI announces final round of 2022 Functional Genomics awardees"
 source_url: https://jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees
-archived: 2026-02-09
+archived: 2026-08-28
 note: "Original URL is dead. Content recovered from https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees"
 ---
 
@@ -23,4 +23,4 @@ Below find a list of the final six researchers accepted for 2022. Proposals are 
 
 ---
 
-*Archived from [JGI/DOE](https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees) on 2026-02-09. Note: the original link in the news entry (`jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees`) is already dead — the page was moved to a new URL structure.*
+*Archived from [JGI/DOE](https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees) on 2026-08-28. Note: the original link in the news entry (`jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees`) is already dead — the page was moved to a new URL structure.*
