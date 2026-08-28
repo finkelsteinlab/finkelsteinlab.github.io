@@ -465,6 +465,22 @@ crwl crawl <URL> -o md -bc
 #### Step 2: Write clean markdown
 
 - Use `layout: news-md` front matter with `title`, `source_url`, `archived` (YYYY-MM-DD) fields
+- Also fill in, from the article's own byline, dateline and standfirst:
+
+  | Field | Value |
+  |-------|-------|
+  | `source_name` | the outlet that ran the story (becomes the JSON-LD `publisher`) |
+  | `source_author` | the byline (becomes `<meta name="author">` and the JSON-LD `author`; join two names with " and ") |
+  | `source_author_type` | only when the byline is an organisation, not a person: `"Organization"` |
+  | `date_published` | the article's own publication date, `YYYY-MM-DD` |
+  | `description` | the standfirst, or one sentence from the lede |
+  | `image` | site-absolute path to the lead image |
+  | `pdf` | site-absolute path to the PDF snapshot |
+
+  Omit any field the source does not actually carry — do not guess. These
+  drive the page's `NewsArticle` JSON-LD, its author and description meta
+  tags, and its entry in the `## News and press` section of `llms.txt`,
+  all of which are generated automatically.
 - Add a proper `# Heading` and any subtitle/byline
 - Clean body text with proper paragraph spacing
 - Fix broken or mangled links (common in EurekAlert scrapes)
