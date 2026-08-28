@@ -517,6 +517,50 @@ The data presented in these figures were generated as part of ref. [[36](#ref36)
 
 <span id="ref49">49.</span> Starr, T. N. et al. Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding. *Cell* **182**, 1295–1310.e20 (2020). [DOI: 10.1016/j.cell.2020.08.012](https://doi.org/10.1016/j.cell.2020.08.012)
 
----
+<span id="ref50">50.</span> Greaney, A. J. et al. Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding domain that escape antibody recognition. *Cell Host Microbe* **29**, 44–57.e9 (2021). [DOI: 10.1016/j.chom.2020.11.007](https://doi.org/10.1016/j.chom.2020.11.007)
 
-For the complete references list, please see the [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9665560/) on PubMed Central.
+<span id="ref51">51.</span> Jackson, L. A. et al. An mRNA vaccine against SARS-CoV-2 — preliminary report. *N. Engl. J. Med.* (2020). [DOI: 10.1056/NEJMoa2022483](https://doi.org/10.1056/NEJMoa2022483)
+
+<span id="ref52">52.</span> Keech, C. et al. Phase 1–2 trial of a SARS-CoV-2 recombinant spike protein nanoparticle vaccine. *N. Engl. J. Med.* (2020). [DOI: 10.1056/NEJMoa2026920](https://doi.org/10.1056/NEJMoa2026920)
+
+<span id="ref53">53.</span> Juraszek, J. et al. Stabilizing the closed SARS-CoV-2 spike trimer. *Nat. Commun.* **12**, 244 (2021). [DOI: 10.1038/s41467-020-20321-x](https://doi.org/10.1038/s41467-020-20321-x)
+
+<span id="ref54">54.</span> Walsh, E. E. et al. Safety and immunogenicity of two RNA-based Covid-19 vaccine candidates. *N. Engl. J. Med.* (2020). [DOI: 10.1056/NEJMoa2027906](https://doi.org/10.1056/NEJMoa2027906)
+
+<span id="ref55">55.</span> Bangaru, S. et al. Structural analysis of full-length SARS-CoV-2 spike protein from an advanced vaccine candidate. *Science* (2020). [DOI: 10.1126/science.abe1502](https://doi.org/10.1126/science.abe1502)
+
+<span id="ref56">56.</span> McCallum, M., Walls, A. C., Bowen, J. E., Corti, D. & Veesler, D. Structure-guided covalent stabilization of coronavirus spike glycoprotein trimers in the closed conformation. *Nat. Struct. Mol. Biol.* **27**, 942–949 (2020). [DOI: 10.1038/s41594-020-0483-8](https://doi.org/10.1038/s41594-020-0483-8)
+
+<span id="ref57">57.</span> Xiong, X. et al. A thermostable, closed SARS-CoV-2 spike protein trimer. *Nat. Struct. Mol. Biol.* **27**, 934–941 (2020). [DOI: 10.1038/s41594-020-0478-5](https://doi.org/10.1038/s41594-020-0478-5)
+
+<span id="ref58">58.</span> Henderson, R. et al. Glycans on the SARS-CoV-2 spike control the receptor binding domain conformation. Preprint at *bioRxiv* (2020). [DOI: 10.1101/2020.06.26.173765](https://doi.org/10.1101/2020.06.26.173765)
+
+<span id="ref59">59.</span> Gobeil, S. M.-C. et al. D614G mutation alters SARS-CoV-2 spike conformation and enhances protease cleavage at the S1/S2 junction. *Cell Rep.* **34**, 108630 (2021). [DOI: 10.1016/j.celrep.2020.108630](https://doi.org/10.1016/j.celrep.2020.108630)
+
+<span id="ref60">60.</span> Jagtap, S. et al. Evaluation of spike protein antigens for SARS-CoV-2 serology. Preprint at *medRxiv* (2021). [DOI: 10.1101/2021.01.27.21250382](https://doi.org/10.1101/2021.01.27.21250382)
+
+<span id="ref61">61.</span> Andersen, K. G., Rambaut, A., Lipkin, W. I., Holmes, E. C. & Garry, R. F. The proximal origin of SARS-CoV-2. *Nat. Med.* **26**, 450–452 (2020). [DOI: 10.1038/s41591-020-0820-9](https://doi.org/10.1038/s41591-020-0820-9)
+
+<span id="ref62">62.</span> Shajahan, A., Supekar, N. T., Gleinich, A. S. & Azadi, P. Deducing the N- and O-glycosylation profile of the spike protein of novel coronavirus SARS-CoV-2. *Glycobiology* **30**, 981–988 (2020). [DOI: 10.1093/glycob/cwaa042](https://doi.org/10.1093/glycob/cwaa042)
+
+<span id="ref63">63.</span> Watanabe, Y., Allen, J. D., Wrapp, D., McLellan, J. S. & Crispin, M. Site-specific glycan analysis of the SARS-CoV-2 spike. *Science* (2020). [DOI: 10.1126/science.abb9983](https://doi.org/10.1126/science.abb9983)
+
+<span id="ref64">64.</span> Brun, J. et al. Analysis of SARS-CoV-2 spike glycosylation reveals shedding of a vaccine candidate. Preprint at *bioRxiv* (2020). [DOI: 10.1101/2020.11.16.384594](https://doi.org/10.1101/2020.11.16.384594)
+
+<span id="ref65">65.</span> Johari, Y. B. et al. Production of trimeric SARS-CoV-2 spike protein by CHO cells for serological COVID-19 testing. *Biotechnol. Bioeng.* **118**, 1013–1021 (2021). [DOI: 10.1002/bit.27615](https://doi.org/10.1002/bit.27615)
+
+<span id="ref66">66.</span> Esposito, D. et al. Optimizing high-yield production of SARS-CoV-2 soluble spike trimers for serology assays. *Protein Expr. Purif.* **174**, 105686 (2020). [DOI: 10.1016/j.pep.2020.105686](https://doi.org/10.1016/j.pep.2020.105686)
+
+<span id="ref67">67.</span> Asano, N. Glycosidase inhibitors: update and perspectives on practical use. *Glycobiology* **13**, 93R–104R (2003). [DOI: 10.1093/glycob/cwg090](https://doi.org/10.1093/glycob/cwg090)
+
+<span id="ref68">68.</span> Elbein, A. D., Tropea, J. E., Mitchell, M. & Kaushal, G. P. Kifunensine, a potent inhibitor of the glycoprotein processing mannosidase I. *J. Biol. Chem.* **265**, 15599–15605 (1990).
+
+<span id="ref69">69.</span> Edwards, R. J. et al. Cold sensitivity of the SARS-CoV-2 spike ectodomain. *Nat. Struct. Mol. Biol.* (2021). [DOI: 10.1038/s41594-020-00547-5](https://doi.org/10.1038/s41594-020-00547-5)
+
+<span id="ref70">70.</span> Dzimianski, J. V. et al. Rapid and sensitive detection of SARS-CoV-2 antibodies by biolayer interferometry. *Sci. Rep.* **10**, 21738 (2020). [DOI: 10.1038/s41598-020-78895-x](https://doi.org/10.1038/s41598-020-78895-x)
+
+<span id="ref71">71.</span> Shah, N. B. & Duncan, T. M. Bio-layer interferometry for measuring kinetics of protein-protein interactions and allosteric ligand effects. *J. Vis. Exp.* (2014). [DOI: 10.3791/51383](https://doi.org/10.3791/51383)
+
+<span id="ref72">72.</span> Kumaraswamy, S. & Tobias, R. Label-free kinetic analysis of an antibody-antigen interaction using biolayer interferometry. *Methods Mol. Biol.* **1278**, 165–182 (2015). [DOI: 10.1007/978-1-4939-2425-7_10](https://doi.org/10.1007/978-1-4939-2425-7_10)
+
+<span id="ref73">73.</span> Olmedillas, E. et al. Structure-based design of a highly stable, covalently-linked SARS-CoV-2 spike trimer with improved structural properties and immunogenicity. Preprint at *bioRxiv* (2021). [DOI: 10.1101/2021.05.06.441046](https://doi.org/10.1101/2021.05.06.441046)
