@@ -49,10 +49,19 @@
     {% comment %} ---------- Derived page metadata ---------- {% endcomment %}
     {% comment %} A few titles carry numeric HTML entities; decode them so xml_escape does not double-escape. {% endcomment %}
     {% assign title_clean = page.title | replace: '&#945;', 'α' | replace: '&#124;', '|' %}
+    {% comment %}
+      Every archived news/press page used to inherit site.tagline here, so 35
+      unrelated articles all advertised "Biophysical Studies of Molecular
+      Machines". Archives now carry their own `description`; those that have no
+      standfirst in the source fall back to their own opening text.
+    {% endcomment %}
     {% if page.description and page.description != '' %}
       {% assign page_description = page.description %}
     {% elsif page.layout == 'paper' or page.layout == 'paper-md' %}
       {% assign page_description = page.content | strip_html | strip_newlines | replace: 'Abstract', '' | strip | truncate: 155 %}
+    {% elsif page.layout == 'news-md' %}
+      {% comment %} page.content is still raw markdown here, so drop the rule, emphasis and heading marks before truncating. {% endcomment %}
+      {% assign page_description = page.content | strip_html | replace: '---', ' ' | replace: '**', '' | replace: '*', '' | replace: '#', '' | replace: '>', '' | strip_newlines | replace: '  ', ' ' | strip | truncate: 155 %}
     {% else %}
       {% assign page_description = site.tagline %}
     {% endif %}
@@ -61,15 +70,25 @@
     {% else %}
       {% assign page_title = title_clean | append: ' · ' | append: site.title %}
     {% endif %}
-    {% if page.layout == 'paper' or page.layout == 'paper-md' %}
+    {% if page.layout == 'paper' or page.layout == 'paper-md' or page.layout == 'news-md' %}
       {% assign og_type = 'article' %}
     {% else %}
       {% assign og_type = 'website' %}
     {% endif %}
+    {% comment %}
+      An archived Washington Post story is not written by Ilya, so news-md pages
+      take the byline from the archive's own front matter and emit no author
+      meta at all when the source carried none.
+    {% endcomment %}
+    {% if page.layout == 'news-md' %}
+      {% assign page_author = page.source_author | default: '' | strip %}
+    {% else %}
+      {% assign page_author = site.author.name %}
+    {% endif %}
 
     <title>{% if page.url == '/' %}{{ site.title }} — {{ site.tagline }}{% else %}{{ title_clean | xml_escape }} · {{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ page_description | xml_escape }}">
-    <meta name="author" content="{{ site.author.name }}">
+    {% if page_author != '' %}<meta name="author" content="{{ page_author | xml_escape }}">{% endif %}
 
     <!-- Canonical -->
     <link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
@@ -80,7 +99,11 @@
     <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
     <meta property="og:type" content="{{ og_type }}">
+    {% if page.layout == 'news-md' and page.image and page.image != '' %}
+    <meta property="og:image" content="{{ site.production_url }}{{ page.image }}">
+    {% else %}
     <meta property="og:image" content="{{ site.production_url }}/assets/images/jenna-luecke-logo.gif">
+    {% endif %}
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
