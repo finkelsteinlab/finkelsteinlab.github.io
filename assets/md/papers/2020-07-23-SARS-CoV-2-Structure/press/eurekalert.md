@@ -7,9 +7,9 @@ archived: 2026-02-09
 
 **News Release** · 23-Jul-2020 · Peer-Reviewed Publication · University of Texas at Austin
 
-![3D atomic scale map of HexaPro](https://www.eurekalert.org/multimedia/830040)
+*This is a 3D atomic scale map, or molecular structure, of HexaPro, a modified version of the SARS-CoV-2 spike protein, described in a paper in the journal Science on July 23, 2020. Six key modifications, called prolines, are indicated as red and blue spheres and help lock the protein into the prefusion conformation, the shape it takes before infection. Credit: University of Texas at Austin.*
 
-*This is a 3D atomic scale map, or molecular structure, of Hexapro, a modified version of the SARS-CoV-2 spike protein, described in a paper in the journal Science on July 23, 2020. Six key modifications, called prolines, are indicated as red and blue spheres and help lock the protein into the prefusion conformation, the shape it takes before infection. Credit: University of Texas at Austin.*
+![3D atomic scale map of the HexaPro spike protein](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/hexapro-structure.jpg)
 
 ---
 

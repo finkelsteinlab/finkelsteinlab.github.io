@@ -5,25 +5,50 @@ source_url: https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could
 archived: 2026-02-09
 ---
 
+July 23, 2020 · *UT News*
+
+---
+
 AUSTIN, Texas — Responding to a need to quickly develop billions of doses of lifesaving COVID-19 vaccines, a scientific team at The University of Texas at Austin has successfully redesigned a key protein from the coronavirus, and the modification could enable much faster and more stable production of vaccines worldwide.
-The new findings are [described in the journal _Science_](https://science.sciencemag.org/lookup/doi/10.1126/science.abd0826) _._
-Most coronavirus vaccine candidates train the human immune system to recognize a key protein on the surface of the SARS-CoV-2 virus called the spike protein in order to fight infection. Researchers designed a new version of this protein that, when expressed in cells, produces up to 10 times more protein than that of an earlier synthetic spike protein already in use in multiple COVID-19 vaccines. Along with colleagues at the National Institutes of Health, several members of the UT research team also designed [the earlier version](https://test-texas-news.pantheonsite.io/2020/02/19/breakthrough-in-coronavirus-research-results-in-new-map-to-support-vaccine-design/) of the spike protein found in at least two COVID-19 vaccine candidates currently in U.S. clinical trials.
-“Depending on the type of vaccine, this improved version of the protein could reduce the size of each dose or speed up vaccine production,” said [Jason McLellan](https://www.mclellanlab.org/), an associate professor in the Department of Molecular Biosciences and senior author of the paper. “Either way, it could mean more patients have access to vaccines faster.”
-Dubbed HexaPro, the new protein is also more stable than the team’s earlier version of the spike protein, which should make it easier to store and transport. It also keeps its shape even under heat stress, during storage at room temperature and through multiple freeze-thaws. Such qualities are desirable in a robust vaccine.
+
+The new findings are [described in the journal *Science*](https://science.sciencemag.org/lookup/doi/10.1126/science.abd0826).
+
+Most coronavirus vaccine candidates train the human immune system to recognize a key protein on the surface of the SARS-CoV-2 virus called the spike protein in order to fight infection. Researchers designed a new version of this protein that, when expressed in cells, produces up to 10 times more protein than that of an earlier synthetic spike protein already in use in multiple COVID-19 vaccines. Along with colleagues at the National Institutes of Health, several members of the UT research team also designed [the earlier version](https://news.utexas.edu/2020/02/19/breakthrough-in-coronavirus-research-results-in-new-map-to-support-vaccine-design/) of the spike protein found in at least two COVID-19 vaccine candidates currently in U.S. clinical trials.
+
+"Depending on the type of vaccine, this improved version of the protein could reduce the size of each dose or speed up vaccine production," said [Jason McLellan](https://www.mclellanlab.org/), an associate professor in the Department of Molecular Biosciences and senior author of the paper. "Either way, it could mean more patients have access to vaccines faster."
+
+Dubbed HexaPro, the new protein is also more stable than the team's earlier version of the spike protein, which should make it easier to store and transport. It also keeps its shape even under heat stress, during storage at room temperature and through multiple freeze-thaws. Such qualities are desirable in a robust vaccine.
+
 The Bill & Melinda Gates Foundation has contributed to the development of the technology through a grant in the interest of making vaccines accessible to people in lower-income countries. Vaccine companies with different platform technologies will have the ability to test and further develop COVID vaccines that use HexaPro. McLellan has also indicated there is interest from partners in extending access to the technology to people in the developing world.
-“Four billion people living in developing countries will need access to a vaccine, as all of us will,” McLellan said.
-This is a 3D atomic scale map, or molecular structure, of Hexapro, a modified version of the SARS-CoV-2 spike protein, described in a paper in the journal Science on July 23, 2020. Six key modifications, called prolines, are indicated as red and blue spheres and help lock the protein into the prefusion conformation, the shape it takes before infection. Illustration credit: University of Texas at Austin.
-HexaPro also could be used in COVID-19 antibody tests where it would act as a probe to identify the presence of antibodies in a patient’s blood, indicating whether a person has previously been infected with the virus.
-The paper’s first author is Ching-Lin Hsieh, a postdoctoral researcher in McLellan’s lab. Corresponding authors are McLellan; [Ilya Finkelstein](https://cns.utexas.edu/component/cobalt/item/16-molecular-biosciences/146-finkelstein-ilya-j?Itemid=349), an associate professor in the Department of Molecular Biosciences; and [Jennifer Maynard](https://che.utexas.edu/faculty-staff/faculty-directory/maynard/), a professor in the Cockrell School of Engineering.
-The team’s original version of the spike protein forms the basis of vaccine candidates currently in human clinical trials, including Moderna’s mRNA-1273 and Novavax’s NVX-CoV2373.
-For nucleic acid-based vaccines that use the patient’s own cells to create the viral proteins that trigger an immune response, such as mRNA-1273, this improved spike protein might enable next-generation versions that require a much smaller dose to elicit the same immune response from a patient. For subunit vaccines that contain a version of the actual viral protein as an antigen, such as NVX-CoV2373, many more vaccine doses could be produced in the same time frame. Either way, from a production standpoint, this could mean accelerating access to lifesaving vaccines.
+
+"Four billion people living in developing countries will need access to a vaccine, as all of us will," McLellan said.
+
+*This is a 3D atomic scale map, or molecular structure, of HexaPro, a modified version of the SARS-CoV-2 spike protein, described in a paper in the journal Science on July 23, 2020. Six key modifications, called prolines, are indicated as red and blue spheres and help lock the protein into the prefusion conformation, the shape it takes before infection. Illustration credit: University of Texas at Austin.*
+
+![3D atomic scale map of the HexaPro spike protein](/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/hexapro-structure.jpg)
+
+HexaPro also could be used in COVID-19 antibody tests where it would act as a probe to identify the presence of antibodies in a patient's blood, indicating whether a person has previously been infected with the virus.
+
+The paper's first author is Ching-Lin Hsieh, a postdoctoral researcher in McLellan's lab. Corresponding authors are McLellan; Ilya Finkelstein, an associate professor in the Department of Molecular Biosciences; and [Jennifer Maynard](https://che.utexas.edu/faculty-staff/faculty-directory/maynard/), a professor in the Cockrell School of Engineering.
+
+The team's original version of the spike protein forms the basis of vaccine candidates currently in human clinical trials, including Moderna's mRNA-1273 and Novavax's NVX-CoV2373.
+
+For nucleic acid-based vaccines that use the patient's own cells to create the viral proteins that trigger an immune response, such as mRNA-1273, this improved spike protein might enable next-generation versions that require a much smaller dose to elicit the same immune response from a patient. For subunit vaccines that contain a version of the actual viral protein as an antigen, such as NVX-CoV2373, many more vaccine doses could be produced in the same time frame. Either way, from a production standpoint, this could mean accelerating access to lifesaving vaccines.
+
 Drawing on their experience creating stabilized proteins as vaccines against MERS-CoV, the coronavirus that causes Middle East respiratory syndrome, and other viruses, the researchers identified 100 different modifications to the spike protein that they believed might lead to a more stable, more highly expressed version. Next they created 100 different versions of the protein by inserting the genetic blueprints for each version into a different culture of human cells. Of those 100 versions of the spike protein, 26 were more stable or had higher expression.
+
 The researchers then took four of those beneficial modifications, plus two from their original stabilized spike protein, and combined them to create HexaPro. When they inserted the genetic blueprints for this version of the spike protein into a human cell culture, the cells produced 10 times as much protein than that of their original protein.
+
 A U.S. patent application was recently filed for HexaPro, with the following inventors (who are all authors on this latest paper): Ching-Lin Hsieh, Jory A. Goldsmith, Jeffrey M. Schaub, Chia-Wei Chou, Andrea M. DiVenere, Kamyab Javanmardi, Hung-Che Kuo, Daniel Wrapp, Patrick O. Byrne, Christy K. Hjorth, Nicole V. Johnson, Nianshuang Wang, Jennifer A. Maynard, Ilya J. Finkelstein and Jason S. McLellan.
+
 Biotechnology company Sino Biological has obtained a non-exclusive license from UT Austin to manufacture HexaPro and sell it to researchers around the world.
-The paper’s other authors are Kevin C. Le, Alison Gene-Wei Lee, Yutong Liu, John Ludes-Meyers, Annalee W. Nguyen, Juyeon Park, Dzifa Amengor, Jason J. Lavinder and Greg C. Ippolito.
+
+The paper's other authors are Kevin C. Le, Alison Gene-Wei Lee, Yutong Liu, John Ludes-Meyers, Annalee W. Nguyen, Juyeon Park, Dzifa Amengor, Jason J. Lavinder and Greg C. Ippolito.
+
 This work was supported by the National Institutes of Health, the Welch Foundation and the National Science Foundation. Finkelstein is a CPRIT Scholar in Cancer Research.
-_The University of Texas at Austin is committed to transparency and disclosure of all potential conflicts of interest. The authors submitted required financial disclosure forms with the university and hold intellectual property rights that may yield revenue from the discovery described in this research._
+
+*The University of Texas at Austin is committed to transparency and disclosure of all potential conflicts of interest. The authors submitted required financial disclosure forms with the university and hold intellectual property rights that may yield revenue from the discovery described in this research.*
+
 ---
 
 *Archived from [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) on 2026-02-09.*
