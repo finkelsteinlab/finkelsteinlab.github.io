@@ -3,6 +3,9 @@ layout: news-md
 title: "Potential new gene editing tools uncovered"
 source_url: https://www.eurekalert.org/news-releases/936789
 archived: 2026-02-09
+source_name: "EurekAlert!"
+date_published: "2021-12-02"
+pdf: "/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/eurekalert.pdf"
 ---
 
 **News Release** · 2-Dec-2021 · Peer-Reviewed Publication · University of Texas at Austin

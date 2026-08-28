@@ -3,6 +3,9 @@ layout: news-md
 title: "Matching CRISPR to the Job Improves the Safety, Efficiency of the Gene-Editing Tool"
 source_url: https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/
 archived: 2026-02-09
+source_name: "UT News"
+date_published: "2020-09-08"
+pdf: "/assets/md/papers/2020-09-07-nucleaseq/press/ut-news.pdf"
 ---
 
 September 8, 2020 · *UT News*

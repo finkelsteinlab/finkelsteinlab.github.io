@@ -3,6 +3,9 @@ layout: news-md
 title: "Entire Wizard of Oz Novel Encoded Onto Strands of DNA"
 source_url: https://nerdist.com/article/wizard-of-oz-novel-encoded-dna/
 archived: 2026-08-28
+source_name: "Nerdist"
+image: "/assets/md/papers/2020-07-16-HEDGES/press/dna-structure.jpg"
+pdf: "/assets/md/papers/2020-07-16-HEDGES/press/nerdist.pdf"
 ---
 
 *Nerdist*

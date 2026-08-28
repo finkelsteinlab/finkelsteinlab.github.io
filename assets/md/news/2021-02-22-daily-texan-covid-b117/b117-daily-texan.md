@@ -3,6 +3,10 @@ layout: news-md
 title: "What is the B.1.1.7 COVID-19 variant, and how is UT-Austin reacting to its arrival?"
 source_url: https://thedailytexan.com/2021/02/22/what-is-the-b117-covid-19-variant-and-how-is-ut-austin-reacting-to-its-arrival/
 archived: 2026-02-09
+source_name: "The Daily Texan"
+source_author: "Skye Seipp"
+date_published: "2021-02-22"
+pdf: "/assets/md/news/2021-02-22-daily-texan-covid-b117/daily-texan.pdf"
 ---
 
 **By [Skye Seipp](https://thedailytexan.com/staff_name/skye-seipp/)** · February 22, 2021 · *The Daily Texan*

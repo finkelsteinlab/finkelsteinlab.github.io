@@ -3,6 +3,11 @@ layout: news-md
 title: "Molecular Biologist Receives TAMEST O'Donnell Award"
 source_url: https://cns.utexas.edu/news/accolades/molecular-biologist-receives-tamest-odonnell-award
 archived: 2026-08-28
+source_name: "UT College of Natural Sciences"
+source_author: "Staff Writer"
+date_published: "2024-12-11"
+description: "Ilya Finkelstein's research focuses on improving gene editing, understanding DNA repair and finding disease treatments."
+pdf: "/assets/md/news/2025-02-06-odonnell-press/cns.pdf"
 ---
 
 **By Staff Writer** · December 11, 2024 · *UT College of Natural Sciences*

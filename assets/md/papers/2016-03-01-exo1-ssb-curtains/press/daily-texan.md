@@ -3,6 +3,9 @@ layout: news-md
 title: "UT researchers view interactions between DNA-repairing proteins"
 source_url: https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/
 archived: 2026-02-09
+source_name: "The Daily Texan"
+date_published: "2016-04-12"
+pdf: "/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/daily-texan.pdf"
 ---
 
 April 12, 2016 · *The Daily Texan*

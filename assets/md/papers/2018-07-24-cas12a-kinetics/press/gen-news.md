@@ -3,6 +3,9 @@ layout: news-md
 title: "CRISPR-Cas12a More Precise Than CRISPR-Cas9"
 source_url: https://www.genengnews.com/topics/genome-editing/crispr-cas12a-more-precise-than-crispr-cas9/
 archived: 2026-08-28
+source_name: "GEN - Genetic Engineering & Biotechnology News"
+description: "A quantitative kinetics study has dissected the reaction steps whereby Cas12a targets DNA. This study explains the DNA cleavage patterns measured in vivo and the observations of greater reported target specificity for Cas12a than for the Cas9 nuclease."
+pdf: "/assets/md/papers/2018-07-24-cas12a-kinetics/press/gen-news.pdf"
 ---
 
 *GEN — Genetic Engineering & Biotechnology News* · Genome Editing

@@ -3,6 +3,11 @@ layout: news-md
 title: "How Scientists Encoded The Wizard of Oz Into DNA"
 source_url: https://spectrum.ieee.org/dna-data-storage-method-sets-standard-for-highdensity-data-future
 archived: 2026-08-28
+source_name: "IEEE Spectrum"
+source_author: "Margo Anderson"
+date_published: "2020-07-27"
+description: "University of Texas researchers unveil protocol to shuffle large data stores into strands of genetic material."
+pdf: "/assets/md/papers/2020-07-16-HEDGES/press/ieee.pdf"
 ---
 
 **By Margo Anderson** · 27 Jul 2020 · *IEEE Spectrum*

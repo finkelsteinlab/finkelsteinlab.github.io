@@ -3,6 +3,10 @@ layout: news-md
 title: "How to make the gene-editing tool CRISPR work even better"
 source_url: https://www.sciencedaily.com/releases/2018/08/180802141744.htm
 archived: 2026-02-09
+source_name: "ScienceDaily"
+date_published: "2018-08-02"
+description: "Scientists have found conclusive evidence that Cas9, the most popular enzyme currently used in CRISPR gene editing, is less effective and precise than one of the lesser-used CRISPR proteins, Cas12a."
+pdf: "/assets/md/papers/2018-07-24-cas12a-kinetics/press/sciencedaily.pdf"
 ---
 
 August 2, 2018 · *ScienceDaily* · Source: University of Texas at Austin

@@ -3,6 +3,11 @@ layout: news-md
 title: "Scientists Study How DNA Repairs Itself Through Single Molecule Imaging"
 source_url: https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled
 archived: 2026-08-28
+source_name: "UT College of Natural Sciences"
+source_author: "Juan S. Lozano"
+date_published: "2016-03-23"
+description: "UT Austin scientists are doing research, which uses novel single-molecule imaging techniques partially developed by Finkelstein, and could lead to a better understanding of how cancerous cells repair their DNA."
+pdf: "/assets/md/papers/2016-03-01-exo1-ssb-curtains/press/cns.pdf"
 ---
 
 **By Juan S. Lozano** · March 23, 2016 · *UT College of Natural Sciences*

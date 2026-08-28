@@ -3,6 +3,11 @@ layout: news-md
 title: "Massive genetic study shows coronavirus mutating and potentially evolving amid rapid U.S. spread"
 source_url: https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/
 archived: 2026-02-09
+source_name: "The Washington Post"
+source_author: "Chris Mooney and Joel Achenbach"
+date_published: "2020-09-23"
+description: "The largest U.S. genetic study of the virus, conducted in Houston, shows one viral strain outdistancing all of its competitors, and many potentially important mutations."
+pdf: "/assets/md/news/2020-09-29-washingtonpost-washington-post/washingtonpost.pdf"
 ---
 
 **By [Chris Mooney](https://www.washingtonpost.com/people/chris-mooney/) and [Joel Achenbach](https://www.washingtonpost.com/people/joel-achenbach/)** · Graphics by [Joe Fox](https://www.washingtonpost.com/people/joe-fox/) · September 23, 2020 · *The Washington Post*

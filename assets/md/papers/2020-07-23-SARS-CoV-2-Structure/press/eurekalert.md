@@ -3,6 +3,10 @@ layout: news-md
 title: "COVID-19 vaccine innovation could dramatically speed up worldwide production"
 source_url: https://www.eurekalert.org/news-releases/473518
 archived: 2026-02-09
+source_name: "EurekAlert!"
+date_published: "2020-07-23"
+image: "/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/hexapro-structure.jpg"
+pdf: "/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/eurekalert.pdf"
 ---
 
 **News Release** · 23-Jul-2020 · Peer-Reviewed Publication · University of Texas at Austin

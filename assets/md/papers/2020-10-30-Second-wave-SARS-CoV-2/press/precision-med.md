@@ -3,6 +3,8 @@ layout: news-md
 title: "SARS-CoV-2 Mutation May Partly Account for Fast Spread in Summer"
 source_url: https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/
 archived: 2026-08-28
+source_name: "Inside Precision Medicine"
+pdf: "/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/precision-med.pdf"
 ---
 
 *Inside Precision Medicine* · News & Features

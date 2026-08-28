@@ -3,6 +3,11 @@ layout: news-md
 title: "New gene-editing tech holds promise for treating complex genetic diseases"
 source_url: https://www.eurekalert.org/news-releases/1102990
 archived: 2026-02-09
+source_name: "EurekAlert!"
+date_published: "2025-10-23"
+description: "Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA."
+image: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/retron-edited-cells.jpg"
+pdf: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert.pdf"
 ---
 
 *Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA.*

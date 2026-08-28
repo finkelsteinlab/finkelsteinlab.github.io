@@ -4,6 +4,9 @@ title: "JGI announces final round of 2022 Functional Genomics awardees"
 source_url: https://jgi.doe.gov/user-science/science-stories/jgi-announces-final-round-2022-functional-genomics-awardees
 original_url: https://jgi.doe.gov/jgi-announces-final-round-of-2022-functional-genomics-awardees
 archived: 2026-08-28
+source_name: "DOE Joint Genome Institute"
+date_published: "2023-02-09"
+pdf: "/assets/md/news/2023-02-10-jgi-functional-genomics/jgi.pdf"
 ---
 
 *February 9, 2023* · *DOE Joint Genome Institute*

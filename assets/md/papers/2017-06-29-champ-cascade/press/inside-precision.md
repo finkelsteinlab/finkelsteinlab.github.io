@@ -3,6 +3,8 @@ layout: news-md
 title: "Scientists Develop Chip-Based Platform to Scan DNA for Off-Target CRISPR Effects"
 source_url: https://www.insideprecisionmedicine.com/news-and-features/scientists-develop-chip-based-platform-to-scan-dna-for-off-target-crispr-effects/
 archived: 2026-08-28
+source_name: "Inside Precision Medicine"
+pdf: "/assets/md/papers/2017-06-29-champ-cascade/press/inside-precision.pdf"
 ---
 
 *Inside Precision Medicine* · News & Features

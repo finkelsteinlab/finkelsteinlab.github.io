@@ -3,6 +3,10 @@ layout: news-md
 title: "Scientists just made gene editing far more powerful"
 source_url: https://www.sciencedaily.com/releases/2025/10/251025084545.htm
 archived: 2026-02-09
+source_name: "ScienceDaily"
+date_published: "2025-10-25"
+description: "A breakthrough retron gene-editing system could make universal and efficient gene therapy a reality."
+pdf: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/sciencedaily.pdf"
 ---
 
 October 25, 2025 · *ScienceDaily* · Source: University of Texas at Austin

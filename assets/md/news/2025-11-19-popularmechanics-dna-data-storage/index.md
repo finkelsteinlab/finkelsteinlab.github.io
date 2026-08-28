@@ -3,6 +3,12 @@ layout: news-md
 title: "All of Humanity's Knowledge Could Become Immortal Inside a Tiny Device—Powered by the Molecule That Built Life"
 source_url: https://www.popularmechanics.com/science/a69462408/dna-data-storage/
 archived: 2025-11-20
+source_name: "Popular Mechanics"
+source_author: "Melissa Gaskill"
+date_published: "2025-11-19"
+description: "This radical new method could preserve our entire knowledge base for thousands of years, in a storage medium the size of a coffee cup."
+image: "/assets/md/news/2025-11-19-popularmechanics-dna-data-storage/dna-header.jpg"
+pdf: "/assets/md/news/2025-11-19-popularmechanics-dna-data-storage/DNA-Data-Storage-Popular-Mechanics.pdf"
 ---
 
 *This radical new method could preserve our entire knowledge base for thousands of years, in a storage medium the size of a coffee cup.*

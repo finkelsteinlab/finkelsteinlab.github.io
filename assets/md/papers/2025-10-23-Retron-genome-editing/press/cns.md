@@ -3,6 +3,12 @@ layout: news-md
 title: "New Gene-Editing Tech Holds Promise for Treating Complex Genetic Diseases"
 source_url: https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-promise-treating-complex-genetic-diseases
 archived: 2026-08-28
+source_name: "UT College of Natural Sciences"
+source_author: "Marc Airhart"
+date_published: "2025-10-23"
+description: "Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA."
+image: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/retron-edited-cells.jpg"
+pdf: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/cns.pdf"
 ---
 
 **By Marc Airhart** · October 23, 2025 · *UT College of Natural Sciences*

@@ -3,6 +3,11 @@ layout: news-md
 title: "Emily's Entourage Awards New Funding to University of Texas at Austin to Advance Breakthrough Gene Editing Therapy for Hard-to-Treat Cystic Fibrosis Mutations"
 source_url: https://www.emilysentourage.org/emilys-entourage-awards-new-funding-to-university-of-texas-at-austin-to-advance-breakthrough-gene-editing-therapy-for-hard-to-treat-cystic-fibrosis-mutations/
 archived: 2026-02-09
+source_name: "Emily's Entourage"
+date_published: "2025-07-29"
+description: "With support from Emily's Entourage, new retron editor technology aims to restore lung function for the 10% of people with cystic fibrosis unable to benefit from current mutation-targeted therapies."
+image: "/assets/md/news/2025-07-29-emilys-entourage/ilya-finkelstein.jpeg"
+pdf: "/assets/md/news/2025-07-29-emilys-entourage/emilys-entourage.pdf"
 ---
 
 *With support from Emily's Entourage, new retron editor technology aims to restore lung function for the 10% of people with cystic fibrosis unable to benefit from current mutation-targeted therapies.*

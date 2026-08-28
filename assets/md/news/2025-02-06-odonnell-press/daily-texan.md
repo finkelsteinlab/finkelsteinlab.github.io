@@ -3,6 +3,10 @@ layout: news-md
 title: "UT professor's gene editing research wins 2025 Edith and Peter O'Donnell Award"
 source_url: https://thedailytexan.com/2025/02/18/ut-professors-gene-editing-research-wins-2025-edith-and-peter-odonnell-award/
 archived: 2026-02-09
+source_name: "The Daily Texan"
+source_author: "Madison West"
+date_published: "2025-02-18"
+pdf: "/assets/md/news/2025-02-06-odonnell-press/daily-texan.pdf"
 ---
 
 **By [Madison West](https://thedailytexan.com/staff_name/madison-west/), General Life&Arts Reporter** · February 18, 2025 · *The Daily Texan*

@@ -3,6 +3,9 @@ layout: news-md
 title: "Potential New Gene Editing Tools Uncovered"
 source_url: https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/
 archived: 2026-02-09
+source_name: "UT News"
+date_published: "2021-12-03"
+pdf: "/assets/md/papers/2021-12-07-CAST-metagenomic-discovery/press/ut-news.pdf"
 ---
 
 December 3, 2021 · *UT News*

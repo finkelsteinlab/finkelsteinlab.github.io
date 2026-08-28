@@ -3,6 +3,11 @@ layout: news-md
 title: "Science Thrives on Trust: Why Collaboration Is Our Greatest Strength"
 source_url: https://www.the-scientist.com/science-thrives-on-trust-why-collaboration-is-our-greatest-strength-73062
 archived: 2026-02-09
+source_name: "The Scientist"
+source_author: "Pedro Leão, PhD"
+date_published: "2025-06-15"
+description: "In a competitive academic world, building bridges instead of walls may be our most powerful tool to accelerate discovery and rebuild public trust in science."
+pdf: "/assets/md/news/2025-06-15-the-scientist-collaboration/the-scientist.pdf"
 ---
 
 **By [Pedro Leão, PhD](https://www.the-scientist.com/author/pedro-le-o)** · Jun 15, 2025 · *The Scientist*

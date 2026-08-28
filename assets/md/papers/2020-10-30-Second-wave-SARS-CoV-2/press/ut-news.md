@@ -3,6 +3,10 @@ layout: news-md
 title: "Coronavirus Mutation May Have Made It More Contagious"
 source_url: https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/
 archived: 2026-02-09
+source_name: "UT News"
+date_published: "2020-10-30"
+image: "/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/spike-protein-D614G.jpg"
+pdf: "/assets/md/papers/2020-10-30-Second-wave-SARS-CoV-2/press/ut-news.pdf"
 ---
 
 October 30, 2020 · *UT News*

@@ -3,6 +3,10 @@ layout: news-md
 title: "2025 O'Donnell Award in Biological Sciences: Ilya J. Finkelstein, Ph.D."
 source_url: https://tamest.org/news/odonnell-award-biological-sciences-2025/
 archived: 2026-02-09
+source_name: "TAMEST"
+description: "Ilya J. Finkelstein is the recipient of the 2025 Edith and Peter O'Donnell Award in Biological Sciences from TAMEST, for work improving the safety and efficacy of gene editing and understanding the mechanisms of DNA repair."
+image: "/assets/md/news/2025-02-06-odonnell-award/2025-odonnell-recipients.png"
+pdf: "/assets/md/news/2025-02-06-odonnell-award.pdf"
 ---
 
 ![2025 O'Donnell Awards Recipients](/assets/md/news/2025-02-06-odonnell-award/2025-odonnell-recipients.png)

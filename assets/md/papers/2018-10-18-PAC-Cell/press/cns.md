@@ -3,6 +3,10 @@ layout: news-md
 title: "Two Studies Shed Light on How Complex CRISPR Systems Work"
 source_url: https://cns.utexas.edu/news/two-studies-shed-light-on-how-complex-crispr-systems-work
 archived: 2026-08-28
+source_name: "UT College of Natural Sciences"
+source_author: "Esther Robards-Forbes"
+date_published: "2018-10-18"
+pdf: "/assets/md/papers/2018-10-18-PAC-Cell/press/cns.pdf"
 ---
 
 **By Esther Robards-Forbes** · October 18, 2018 · *UT College of Natural Sciences*

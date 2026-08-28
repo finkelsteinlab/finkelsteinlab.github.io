@@ -3,6 +3,10 @@ layout: news-md
 title: "COVID-19 Vaccine Innovation Could Dramatically Speed Up Worldwide Production"
 source_url: https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/
 archived: 2026-02-09
+source_name: "UT News"
+date_published: "2020-07-23"
+image: "/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/hexapro-structure.jpg"
+pdf: "/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/ut-news.pdf"
 ---
 
 July 23, 2020 · *UT News*

@@ -3,6 +3,12 @@ layout: news-md
 title: "Scientists Encoded The Entire Wizard of Oz Into DNA"
 source_url: https://www.popularmechanics.com/science/a33327626/scientists-encoded-wizard-of-oz-in-dna/
 archived: 2026-08-28
+source_name: "Popular Mechanics"
+source_author: "Courtney Linder"
+date_published: "2020-07-25"
+description: "Scientists successfully stored The Wizard of Oz into DNA, and this yellow brick road could lead to the future of data storage."
+image: "/assets/md/papers/2020-07-16-HEDGES/press/dna-test-tube.jpg"
+pdf: "/assets/md/papers/2020-07-16-HEDGES/press/popmech.pdf"
 ---
 
 **By Courtney Linder** · Published: Jul 25, 2020 · *Popular Mechanics*

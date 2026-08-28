@@ -3,6 +3,9 @@ layout: news-md
 title: "UT Austin research could help speed up production of COVID-19 vaccine"
 source_url: https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d
 archived: 2026-02-09
+source_name: "KVUE"
+description: "A research team at the University of Texas has redesigned a key protein from the coronavirus, which could enable faster and more stable vaccine production."
+pdf: "/assets/md/papers/2020-07-23-SARS-CoV-2-Structure/press/kvue.pdf"
 ---
 
 *KVUE — Austin, Texas*
