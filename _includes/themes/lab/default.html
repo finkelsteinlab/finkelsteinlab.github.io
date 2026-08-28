@@ -265,6 +265,51 @@
     </script>
     {% endif %}
 
+    {% if page.layout == 'news-md' %}
+    {% comment %}
+      ---------- Structured data: NewsArticle ----------
+      These pages are local archives of somebody else's journalism, so
+      `publisher` is the outlet that ran the story, not this lab, and `author`
+      is the byline from the archive's own front matter. Every property is
+      guarded: an archive that lacks a field emits no property for it rather
+      than an empty string, which would be worse than silence.
+    {% endcomment %}
+    {% assign na_headline = title_clean | strip %}
+    {% assign na_publisher = page.source_name | default: '' | strip %}
+    {% assign na_author = page.source_author | default: '' | strip %}
+    {% assign na_author_type = page.source_author_type | default: 'Person' | strip %}
+    {% assign na_published = page.date_published | default: '' | date: '%Y-%m-%d' %}
+    {% assign na_archived = page.archived | default: '' | date: '%Y-%m-%d' %}
+    {% assign na_source = page.source_url | default: '' | strip %}
+    {% assign na_image = page.image | default: '' | strip %}
+    {% assign na_pdf = page.pdf | default: '' | strip %}
+    {% assign na_url = page.url | prepend: site.production_url %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": {{ na_headline | jsonify }},
+      "name": {{ na_headline | jsonify }},
+      "url": {{ na_url | jsonify }},
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ na_url | jsonify }} },
+      "description": {{ page_description | strip | jsonify }}{% if na_publisher != '' %},
+      "publisher": { "@type": "Organization", "name": {{ na_publisher | jsonify }} }{% endif %}{% if na_author != '' %},
+      "author": [{% assign na_bylines = na_author | split: ' and ' %}{% for na_by in na_bylines %}{% unless forloop.first %}, {% endunless %}{ "@type": {{ na_author_type | jsonify }}, "name": {{ na_by | strip | jsonify }} }{% endfor %}]{% endif %}{% if na_published != '' %},
+      "datePublished": {{ na_published | jsonify }}{% endif %}{% if na_archived != '' %},
+      "dateModified": {{ na_archived | jsonify }}{% endif %}{% if na_image != '' %},
+      "image": {{ na_image | prepend: site.production_url | jsonify }}{% endif %}{% if na_source != '' %},
+      "isBasedOn": {{ na_source | jsonify }},
+      "sameAs": {{ na_source | jsonify }}{% endif %}{% if na_pdf != '' %},
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "encodingFormat": "application/pdf",
+        "contentUrl": {{ na_pdf | prepend: site.production_url | jsonify }}
+      }{% endif %},
+      "isAccessibleForFree": true
+    }
+    </script>
+    {% endif %}
+
     {% if page.layout == 'paper-md' or page.layout == 'paper' %}
     <!-- Math via MathJax v3 -->
     <script>
