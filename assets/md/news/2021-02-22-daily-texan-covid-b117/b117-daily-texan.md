@@ -2,7 +2,7 @@
 layout: news-md
 title: "What is the B.1.1.7 COVID-19 variant, and how is UT-Austin reacting to its arrival?"
 source_url: https://thedailytexan.com/2021/02/22/what-is-the-b117-covid-19-variant-and-how-is-ut-austin-reacting-to-its-arrival/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 February 22, 2021
@@ -53,4 +53,4 @@ Close
 
 ---
 
-*Archived from [The Daily Texan](https://thedailytexan.com/2021/02/22/what-is-the-b117-covid-19-variant-and-how-is-ut-austin-reacting-to-its-arrival/) on 2025-02-09.*
+*Archived from [The Daily Texan](https://thedailytexan.com/2021/02/22/what-is-the-b117-covid-19-variant-and-how-is-ut-austin-reacting-to-its-arrival/) on 2026-02-09.*

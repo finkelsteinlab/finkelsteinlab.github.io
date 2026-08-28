@@ -2,7 +2,7 @@
 layout: news-md
 title: "Scientists Encoded The Entire Wizard of Oz Into DNA"
 source_url: https://www.popularmechanics.com/science/a33327626/scientists-encoded-wizard-of-oz-in-dna/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 *STEVEN MCDOWELL/SCIENCE PHOTO LIBRARY//Getty Images*
@@ -19,4 +19,4 @@ In a new paper published this week in the journal _Proceedings of the National A
 
 ---
 
-*Archived from [Popular Mechanics](https://www.popularmechanics.com/science/a33327626/scientists-encoded-wizard-of-oz-in-dna/) on 2025-02-09.*
+*Archived from [Popular Mechanics](https://www.popularmechanics.com/science/a33327626/scientists-encoded-wizard-of-oz-in-dna/) on 2026-02-09.*

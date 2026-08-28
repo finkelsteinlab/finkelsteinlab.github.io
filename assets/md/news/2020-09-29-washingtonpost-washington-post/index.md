@@ -2,7 +2,7 @@
 layout: news-md
 title: "Washington Post"
 source_url: https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 ## Massive genetic study shows coronavirus mutating and potentially evolving amid rapid U.S. spread
@@ -175,4 +175,4 @@ Help
 
 ---
 
-*Archived from [www.washingtonpost.com](https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/) on 2025-02-09.*
+*Archived from [www.washingtonpost.com](https://www.washingtonpost.com/health/2020/09/23/houston-coronavirus-mutations/) on 2026-02-09.*

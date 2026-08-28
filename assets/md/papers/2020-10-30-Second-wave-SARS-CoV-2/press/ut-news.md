@@ -2,7 +2,7 @@
 layout: news-md
 title: "Coronavirus Mutation May Have Made It More Contagious"
 source_url: https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 AUSTIN, Texas — A study involving more than 5,000 COVID-19 patients in Houston finds that the virus that causes the disease is accumulating genetic mutations, one of which may have made it more contagious. According to the paper [published in the peer-reviewed journal _mBIO_](https://mbio.asm.org/content/11/6/e02707-20), that mutation, called D614G, is located in the spike protein that pries open our cells for viral entry. It’s the largest peer-reviewed study of SARS-CoV-2 genome sequences in one metropolitan region of the U.S. to date.
@@ -23,4 +23,4 @@ This study was supported by the Fondren Foundation, Houston Methodist Hospital a
 An earlier version of the paper was [posted last month to the preprint server medRxiv](https://www.medrxiv.org/content/10.1101/2020.09.22.20199125v1) _._
 ---
 
-*Archived from [UT News](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/) on 2025-02-09.*
+*Archived from [UT News](https://news.utexas.edu/2020/10/30/coronavirus-mutation-may-have-made-it-more-contagious/) on 2026-02-09.*

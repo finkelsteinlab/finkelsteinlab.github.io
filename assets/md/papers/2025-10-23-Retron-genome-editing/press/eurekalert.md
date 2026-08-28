@@ -2,7 +2,7 @@
 layout: news-md
 title: "New gene-editing tech holds promise for treating complex genetic diseases"
 source_url: https://www.eurekalert.org/news-releases/1102990
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 *Advanced biotechnology repurposes two bacterial immune systems to correct large stretches of DNA.*
@@ -54,4 +54,4 @@ The paper's other authors are Hung-Che Kuo, Kuang Hu, You-Chiun Chang, Kamyab Ja
 
 ---
 
-*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/1102990) on 2025-02-09.*
+*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/1102990) on 2026-02-09.*

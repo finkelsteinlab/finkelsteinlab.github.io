@@ -2,7 +2,7 @@
 layout: news-md
 title: "Entire Wizard of Oz Novel Encoded Onto Strands of DNA"
 source_url: https://nerdist.com/article/wizard-of-oz-novel-encoded-dna/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 Researchers at The University of Texas at Austin have encoded the entire novel, [_The Wonderful Wizard of Oz_ Opens in a new tab](https://nerdist.com/article/wizard-of-oz-novels-television-series/), onto intertwined strands of DNA. The researchers say that this is not only a demonstration of the capabilities of DNA storage. It’s also a demonstration of the molecule’s ability to retain readable data even after being damaged. Which makes one wonder if there’s… _no place like genome_ for storing information?
@@ -22,4 +22,4 @@ Unfortunately, there are still serious limitations on DNA storage technology tha
 
 ---
 
-*Archived from [Nerdist](https://nerdist.com/article/wizard-of-oz-novel-encoded-dna/) on 2025-02-09.*
+*Archived from [Nerdist](https://nerdist.com/article/wizard-of-oz-novel-encoded-dna/) on 2026-02-09.*

@@ -2,7 +2,7 @@
 layout: news-md
 title: "Potential New Gene Editing Tools Uncovered"
 source_url: https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 AUSTIN, Texas — Few developments have rocked the biotechnology world or generated as much buzz as the discovery of CRISPR-Cas systems, a breakthrough in gene editing recognized in 2020 with a Nobel Prize. But these systems that naturally occur in bacteria are limited because they can make only small tweaks to genes. In recent years, scientists discovered a different system in bacteria that might lead to even more powerful methods for gene editing, given its unique ability to insert genes or whole sections of DNA in a genome.
@@ -22,4 +22,4 @@ In the short term, Finkelstein said many of these new systems should be adaptabl
 This work was made possible in part by seed funding from UT Austin’s College of Natural Sciences through a Catalyst grant. Wilke holds the Jane and Roland Blumberg Centennial Professorship in Molecular Evolution and a Dwight W. and Blanche Faye Reeder Centennial Fellowship in Systematic and Evolutionary Biology. Finkelstein holds the Lorene Morrow Kelley Endowed Faculty Fellowship.
 ---
 
-*Archived from [UT News](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) on 2025-02-09.*
+*Archived from [UT News](https://news.utexas.edu/2021/12/03/potential-new-gene-editing-tools-uncovered/) on 2026-02-09.*

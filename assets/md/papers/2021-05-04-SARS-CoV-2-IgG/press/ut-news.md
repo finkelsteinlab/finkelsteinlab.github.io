@@ -2,7 +2,7 @@
 layout: news-md
 title: "Our Immune Systems Blanket the SARS-CoV-2 Spike Protein with Antibodies"
 source_url: https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sars-cov-2-spike-protein-with-antibodies/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 AUSTIN, Texas — The most complete picture yet is coming into focus of how antibodies produced in people who effectively fight off SARS-CoV-2 work to neutralize the part of the virus responsible for causing infection. [In the journal _Science_](https://science.sciencemag.org/lookup/doi/10.1126/science.abg5268), researchers at The University of Texas at Austin describe the finding, which represents good news for designing the next generation of vaccines to protect against variants of the virus or future emerging coronaviruses.
@@ -21,4 +21,4 @@ Collaborating institutions are the University of North Carolina at Chapel Hill, 
 This research was funded in part by the National Institutes of Health, the Clayton Foundation and the Welch Foundation.
 ---
 
-*Archived from [UT News](https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sars-cov-2-spike-protein-with-antibodies/) on 2025-02-09.*
+*Archived from [UT News](https://news.utexas.edu/2021/05/04/our-immune-systems-blanket-the-sars-cov-2-spike-protein-with-antibodies/) on 2026-02-09.*

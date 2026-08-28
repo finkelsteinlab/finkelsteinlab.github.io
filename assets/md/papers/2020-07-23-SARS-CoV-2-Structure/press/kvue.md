@@ -2,7 +2,7 @@
 layout: news-md
 title: "UT coronavirus research could help speed up vaccine production"
 source_url: https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 ## UT Austin research could help speed up production of COVID-19 vaccine
@@ -38,4 +38,4 @@ Loading next article...
 
 ---
 
-*Archived from [KVUE](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d) on 2025-02-09.*
+*Archived from [KVUE](https://www.kvue.com/article/news/health/coronavirus/coronavirus-vaccine-ut-austin-research/269-8b2762cc-f721-4315-830e-11aca4f41e7d) on 2026-02-09.*

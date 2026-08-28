@@ -2,7 +2,7 @@
 layout: news-md
 title: "UT scientists tinker with gene-mapping device to make DNA editing safe"
 source_url: https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 **By Marty Toohey** · Aug 11, 2017 · *Austin American-Statesman*
@@ -53,4 +53,4 @@ Marty Toohey
 
 ---
 
-*Archived from [Austin American-Statesman](https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/) on 2025-02-09.*
+*Archived from [Austin American-Statesman](https://www.statesman.com/story/news/2017/08/11/ut-scientists-tinker-with-gene-mapping-device-to-make-dna-editing-safe/10122996007/) on 2026-02-09.*

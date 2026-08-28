@@ -2,7 +2,7 @@
 layout: news-md
 title: "UT researchers view interactions between DNA-repairing proteins"
 source_url: https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 April 12, 2016
@@ -48,4 +48,4 @@ Close
 
 ---
 
-*Archived from [The Daily Texan](https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/) on 2025-02-09.*
+*Archived from [The Daily Texan](https://thedailytexan.com/2016/04/12/ut-researchers-view-interactions-between-dna-repairing-proteins/) on 2026-02-09.*

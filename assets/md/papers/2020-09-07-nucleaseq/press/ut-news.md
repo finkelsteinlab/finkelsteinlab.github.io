@@ -2,7 +2,7 @@
 layout: news-md
 title: "Matching CRISPR to the Job Improves the Safety, Efficiency of the Gene-Editing Tool"
 source_url: https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 AUSTIN, Texas — One of the biggest scientific advances of the last decade is getting better thanks to researchers at The University of Texas at Austin; the University of California, Berkeley; and Korea University. The team has developed a new tool to help scientists choose the best available gene-editing option for a given job, making the technology called CRISPR safer, cheaper and more efficient. The tool is outlined in a paper out today in _[Nature Biotechnology](https://www.nature.com/articles/s41587-020-0646-5). _
@@ -19,4 +19,4 @@ Nicole V. Johnson, Kuang Hu, James R. Rybarski, William H. Press and Ilya J. Fin
 The research was funded by a College of Natural Sciences Catalyst Grant, The Welch Foundation and the National Institutes of Health.
 ---
 
-*Archived from [UT News](https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/) on 2025-02-09.*
+*Archived from [UT News](https://news.utexas.edu/2020/09/08/matching-crispr-to-the-job-improves-the-safety-efficiency-of-the-gene-editing-tool/) on 2026-02-09.*

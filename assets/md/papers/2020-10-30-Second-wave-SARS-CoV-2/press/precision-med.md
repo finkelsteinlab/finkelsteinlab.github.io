@@ -2,7 +2,7 @@
 layout: news-md
 title: "SARS-CoV-2 Mutation May Partly Account for Fast Spread in Summer"
 source_url: https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 [Inside Precision Medicine](https://www.insideprecisionmedicine.com/) SARS-CoV-2 Mutation May Partly Account for Fast Spread in Summer
@@ -25,4 +25,4 @@ Join host Jonathan D. Grinstein, PhD, North American Editor for _Inside Precisio
 
 ---
 
-*Archived from [Inside Precision Medicine](https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/) on 2025-02-09.*
+*Archived from [Inside Precision Medicine](https://www.insideprecisionmedicine.com/news-and-features/sars-cov-2-mutation-may-partly-account-for-fast-spread-in-summer/) on 2026-02-09.*

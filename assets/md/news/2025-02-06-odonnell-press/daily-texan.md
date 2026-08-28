@@ -2,7 +2,7 @@
 layout: news-md
 title: "UT professor's gene editing research wins 2025 Edith and Peter O'Donnell Award"
 source_url: https://thedailytexan.com/2025/02/18/ut-professors-gene-editing-research-wins-2025-edith-and-peter-odonnell-award/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 , General Life&Arts Reporter
@@ -15,4 +15,4 @@ Around the same time he began his postdoctoral training at Columbia University M
 
 ---
 
-*Archived from [The Daily Texan](https://thedailytexan.com/2025/02/18/ut-professors-gene-editing-research-wins-2025-edith-and-peter-odonnell-award/) on 2025-02-09.*
+*Archived from [The Daily Texan](https://thedailytexan.com/2025/02/18/ut-professors-gene-editing-research-wins-2025-edith-and-peter-odonnell-award/) on 2026-02-09.*

@@ -2,7 +2,7 @@
 layout: news-md
 title: "COVID-19 vaccine innovation could dramatically speed up worldwide production"
 source_url: https://www.eurekalert.org/news-releases/473518
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 **News Release** · 23-Jul-2020 · Peer-Reviewed Publication · University of Texas at Austin
@@ -57,4 +57,4 @@ The University of Texas at Austin is committed to transparency and disclosure of
 
 ---
 
-*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/473518) on 2025-02-09.*
+*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/473518) on 2026-02-09.*

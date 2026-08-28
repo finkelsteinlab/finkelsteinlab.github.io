@@ -2,7 +2,7 @@
 layout: news-md
 title: "COVID-19 Vaccine Innovation Could Dramatically Speed Up Worldwide Production"
 source_url: https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 AUSTIN, Texas — Responding to a need to quickly develop billions of doses of lifesaving COVID-19 vaccines, a scientific team at The University of Texas at Austin has successfully redesigned a key protein from the coronavirus, and the modification could enable much faster and more stable production of vaccines worldwide.
@@ -26,4 +26,4 @@ This work was supported by the National Institutes of Health, the Welch Foundati
 _The University of Texas at Austin is committed to transparency and disclosure of all potential conflicts of interest. The authors submitted required financial disclosure forms with the university and hold intellectual property rights that may yield revenue from the discovery described in this research._
 ---
 
-*Archived from [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) on 2025-02-09.*
+*Archived from [UT News](https://news.utexas.edu/2020/07/23/covid-19-vaccine-innovation-could-dramatically-speed-up-worldwide-production/) on 2026-02-09.*

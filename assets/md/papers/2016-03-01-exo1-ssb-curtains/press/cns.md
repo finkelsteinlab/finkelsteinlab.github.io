@@ -2,7 +2,7 @@
 layout: news-md
 title: "Scientists Image DNA Repair Molecules"
 source_url: https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 ## Scientists Study How DNA Repairs Itself Through Single Molecule Imaging
@@ -34,4 +34,4 @@ December 12, 2025 • by Sowmya Sridhar
 
 ---
 
-*Archived from [UT CNS News](https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled) on 2025-02-09.*
+*Archived from [UT CNS News](https://cns.utexas.edu/news/scientists-image-dna-repair-molecules-to-understand-how-dna-repair-is-controlled) on 2026-02-09.*

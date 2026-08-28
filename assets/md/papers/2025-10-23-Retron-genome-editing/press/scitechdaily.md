@@ -2,7 +2,7 @@
 layout: news-md
 title: "Powerful New DNA Editing Method Raises Hopes for Cures"
 source_url: https://scitechdaily.com/powerful-new-dna-editing-method-raises-hopes-for-cures/
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 By University of Texas at AustinDecember 2, 2025
@@ -38,4 +38,4 @@ The paper’s other authors are Hung-Che Kuo, Kuang Hu, You-Chiun Chang, Kamyab 
 
 ---
 
-*Archived from [SciTechDaily](https://scitechdaily.com/powerful-new-dna-editing-method-raises-hopes-for-cures/) on 2025-02-09.*
+*Archived from [SciTechDaily](https://scitechdaily.com/powerful-new-dna-editing-method-raises-hopes-for-cures/) on 2026-02-09.*

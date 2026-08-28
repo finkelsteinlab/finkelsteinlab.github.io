@@ -2,7 +2,7 @@
 layout: news-md
 title: "Science Thrives on Trust: Why Collaboration Is Our Greatest Strength"
 source_url: https://www.the-scientist.com/science-thrives-on-trust-why-collaboration-is-our-greatest-strength-73062
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 In a competitive academic world, building bridges instead of walls may be our most powerful tool to accelerate discovery and rebuild public trust in science.
@@ -49,4 +49,4 @@ Share
 
 ---
 
-*Archived from [The Scientist](https://www.the-scientist.com/science-thrives-on-trust-why-collaboration-is-our-greatest-strength-73062) on 2025-02-09.*
+*Archived from [The Scientist](https://www.the-scientist.com/science-thrives-on-trust-why-collaboration-is-our-greatest-strength-73062) on 2026-02-09.*

@@ -2,7 +2,7 @@
 layout: news-md
 title: "Potential new gene editing tools uncovered"
 source_url: https://www.eurekalert.org/news-releases/936789
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 **News Release** · 7-Dec-2021 · Peer-Reviewed Publication · University of Texas at Austin
@@ -52,4 +52,4 @@ This work was made possible in part by seed funding from UT Austin's College of 
 
 ---
 
-*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/936789) on 2025-02-09.*
+*Archived from [EurekAlert!](https://www.eurekalert.org/news-releases/936789) on 2026-02-09.*

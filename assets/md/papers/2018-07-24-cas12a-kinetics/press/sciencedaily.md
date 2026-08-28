@@ -2,7 +2,7 @@
 layout: news-md
 title: "Making CRISPR more precise"
 source_url: https://www.sciencedaily.com/releases/2018/08/180802141744.htm
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 ## How to make the gene-editing tool CRISPR work even better
@@ -62,4 +62,4 @@ from ScienceDaily
 
 ---
 
-*Archived from [ScienceDaily](https://www.sciencedaily.com/releases/2018/08/180802141744.htm) on 2025-02-09.*
+*Archived from [ScienceDaily](https://www.sciencedaily.com/releases/2018/08/180802141744.htm) on 2026-02-09.*

@@ -2,7 +2,7 @@
 layout: news-md
 title: "RIDDL: Rapid Inhibitor Discovery and Development PipeLine"
 source_url: https://www.darpa.mil/research/programs/rapid-inhibitor-discovery-riddl
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 The Defense Advanced Research Projects Agency (DARPA) is soliciting innovative proposals to develop and demonstrate rapid methods to identify and optimize novel molecules that exhibit inhibitory effects on gene editing technologies.
@@ -29,4 +29,4 @@ Research that generates incremental improvements to the existing state-of-the-ar
 
 ---
 
-*Archived from [DARPA](https://www.darpa.mil/research/programs/rapid-inhibitor-discovery-riddl) on 2025-02-09.*
+*Archived from [DARPA](https://www.darpa.mil/research/programs/rapid-inhibitor-discovery-riddl) on 2026-02-09.*

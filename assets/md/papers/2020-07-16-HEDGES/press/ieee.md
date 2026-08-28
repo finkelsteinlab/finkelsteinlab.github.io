@@ -2,7 +2,7 @@
 layout: news-md
 title: "How to Encode The Wizard of Oz Into DNA"
 source_url: https://spectrum.ieee.org/nanoclast/semiconductors/memory/dna-data-storage-method-sets-standard-for-highdensity-data-future
-archived: 2025-02-09
+archived: 2026-02-09
 ---
 
 ## How Scientists Encoded “The Wizard of Oz” Into DNA
@@ -16,4 +16,4 @@ The trick to date has involved shoehorning vast sums of bytes—a data standard 
 
 ---
 
-*Archived from [IEEE Spectrum](https://spectrum.ieee.org/nanoclast/semiconductors/memory/dna-data-storage-method-sets-standard-for-highdensity-data-future) on 2025-02-09.*
+*Archived from [IEEE Spectrum](https://spectrum.ieee.org/nanoclast/semiconductors/memory/dna-data-storage-method-sets-standard-for-highdensity-data-future) on 2026-02-09.*
