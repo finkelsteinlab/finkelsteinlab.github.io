@@ -166,6 +166,7 @@ Taken together, we have shown that our mechanistic and kinetic model gives bioph
 ### Modelling of the (d)Cas9 targeting reaction
 
 We consider a single DNA target sequence with a PAM, in contact with (d)Cas9-sgRNA in solution at fixed concentration ([Fig. 1a](#fig1)). (d)Cas9-sgRNA binding to the PAM site is assumed to be first order,
+
 ---
 where [Cas9-sgRNA] is the concentration of active complexes relative to some reference concentration (we use 1 nM). Binding is followed by a Cas9-mediated strand exchange reaction between sgRNA and the DNA. Once a 20 bp hybrid is formed, Cas9 can cleave the DNA, while dCas9 cannot. We model the targeting recognition as a stochastic hopping process along a sequence of states: target unbound (*n* = −1), PAM bound (*n* = 0), and strand exchange (*n* = 1, 2, …, 20). The evolution of probabilities is captured by the Master Equation
 ---
@@ -179,6 +180,7 @@ which can be computed numerically, given any set of rates
 Based on the mechanistic-model assumption 1, we average the data over mismatch types (see below), and only keep track of if there is a match or a mismatch at every position. Model assumption 3 means that the model of dCas9 is the same as for Cas9, but with
 
 Denote the free energy of any state *n* with *F*<sub>*n*</sub>, and imagine that states *n* and
+
 ---
 The above relationships tie rates to free-energy differences through
 ---
@@ -196,6 +198,7 @@ To produce predications for training and validation, we model experimental setup
 ### Predicting CHAMP association constants
 
 We model the CHAMP experiments [[15](#ref15)],[[31](#ref31)] by calculating the bound fraction (
+
 ---
 to fit out an effective association constant
 ### Predicting HiTS-FLIP association rates
@@ -209,6 +212,7 @@ To predict measured dissociation rates in the HiTS-FLIP experiment [[11](#ref11)
 ### Averaging over mismatch types
 
 Our model does not account for mismatch types, and for training we need to average over all experimentally measured mismatch sequences
+
 ---
 Here
 ---
@@ -217,6 +221,7 @@ Here
 ### Cost function
 
 We look to simultaneously optimize our predictions of both effective cleavage rates from NucleaSeq (
+
 ---
 by summing log deviations
 ---
@@ -225,11 +230,13 @@ In the above
 ### Simulated annealing
 
 The Simulated Annealing algorithm [[59](#ref59)] is commonly used for high-dimensional optimization problems. We optimize with respect to model parameters
+
 ---
 In the above, [4].
 ### Calculating coarse-grained transition rates
 
 First we find the intermediate state on every possible target. As the central-local minimum in free energy ([Fig. 4a](#fig4)) can be slightly displaced by mismatches on off-targets, we seek the free-energy minimum ([Fig. 5a](#fig5)), we consider the first passage between metastable states. Take for example the passage from the PAM-bound state (
+
 ---
 and
 ---
@@ -239,6 +246,7 @@ The same process was used to calculate all other rates of directly transitioning
 ### Constructing a binary off-target predictor
 
 We rank all canonical PAM sites in the human genome according to their relative cleavage rate in the low concentration limit. In this limit, the cleavage rate is given by the PAM binding rate times the probability to cleave once the PAM site is bound. As the PAM binding rate is not expected to depend on the sgRNA sequence [[30](#ref30)],
+
 ---
 Here
 ### Statistics & Reproducibility

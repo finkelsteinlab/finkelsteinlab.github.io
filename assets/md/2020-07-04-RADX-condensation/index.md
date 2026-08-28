@@ -61,6 +61,7 @@ DNA molecules were labeled at the 3′-end via a fluorescent anti-dsDNA antibody
 ### RADX and RPA competition experiments
 
 These experiments were carried out in three steps. First, ssDNA substrates were coated with RPA-GFP. Next, a mixture of RPA-GFP and Flag-RADX was injected into the flowcell at 1:1, 10:1 and 100:1 molar ratios (2:2, 20:2 and 200:2 nM RPA-GFP:RADX). Finally, anti-Flag-ATTO647N antibodies were injected into the flowcell to visualize RADX.
+
 ---
 
 ## RESULTS

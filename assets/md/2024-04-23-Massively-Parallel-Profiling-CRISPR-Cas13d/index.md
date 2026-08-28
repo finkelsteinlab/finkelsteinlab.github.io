@@ -165,6 +165,7 @@ Catalytic active Cas13d was purified as described above. 50 nM of Cas13d were in
 ### Computational modeling
 
 To extract mechanistic insights into off-target RNA binding, we created generalized models across all target RNA experiments. First, all ∆ABAs were normalized to be between 1 and 0 for the upper and lower detection limits, respectively. Model I solely considers intramolecular base pairing across the 22 nucleotides target RNA according to the function below. The RNA structure was predicted by ViennaRNA [[45](#ref45)]. The model adjusts the 22 parameters *a*<sub>i</sub>, one for each base in the target RNA sequence:  
+
 ---  
 | 2  
 ---|---  

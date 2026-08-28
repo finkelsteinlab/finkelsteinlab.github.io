@@ -39,6 +39,7 @@ The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recogni
 Partial crystal structures, small-angle x-ray scattering analysis, and atomic force microscopy have begun to unravel MRN's conformational plasticity [[18](#ref18), [28](#ref28)–[30](#ref30)]. At least two conformations of the globular domain have been observed, which are dependent on the ATP binding of the Rad50 subunit [[21](#ref21), [31](#ref31)–[37](#ref37)]. In the "closed" state, a dimer of Rad50 ATPase domains coordinate ATP in an antiparallel manner, restricting access to the Mre11 nuclease but promoting DNA binding [[14](#ref14)]. After ATP hydrolysis, the MRN complex transitions to the "open" state, giving Mre11 access to the DNA for nucleolytic cleavage.
 
 Many of these biophysical insights have been gleaned from comparative studies of bacterial, archaeal, and phage Mre11-Rad50 homologs. This is because obtaining large quantities of biochemically active human MRN complex remains a challenge in the field [[38](#ref38)]. Additionally, imaging-based single-molecule studies require fluorescently labeled MRN complexes to directly visualize activity. Here, we present a protocol for purifying human MRN and its associated subcomplexes from insect cells. In addition, we describe both single-molecule and ensemble biochemical methods to probe MRN’s DNA binding and endonuclease activities. We anticipate that this protocol will serve as a useful guide for future studies of human MRN in various DNA repair processes.
+
 ---
 ## 2. Materials
 ### 2.1. Media, Strains, Plasmids
