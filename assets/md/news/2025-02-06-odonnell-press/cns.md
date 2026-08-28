@@ -2,7 +2,7 @@
 layout: news-md
 title: "Molecular Biologist Receives TAMEST O'Donnell Award"
 source_url: https://cns.utexas.edu/news/accolades/molecular-biologist-receives-tamest-odonnell-award
-archived: 2026-02-09
+archived: 2026-08-28
 ---
 
 December 11, 2024 • by Staff Writer 
@@ -35,4 +35,4 @@ December 12, 2025 • by Sowmya Sridhar
 
 ---
 
-*Archived from [UT CNS News](https://cns.utexas.edu/news/accolades/molecular-biologist-receives-tamest-odonnell-award) on 2026-02-09.*
+*Archived from [UT CNS News](https://cns.utexas.edu/news/accolades/molecular-biologist-receives-tamest-odonnell-award) on 2026-08-28.*

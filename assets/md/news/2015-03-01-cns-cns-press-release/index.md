@@ -2,7 +2,7 @@
 layout: news-md
 title: "Two Assistant Profs Win Career Awards"
 source_url: https://cns.utexas.edu/news/two-assistant-profs-win-career-awards
-archived: 2026-02-09
+archived: 2026-08-28
 ---
 
 ![Ilya Finkelstein](/assets/md/news/2015-03-01-cns-cns-press-release/ilya-finkelstein.jpg)
@@ -17,4 +17,4 @@ The NSF CAREER Award is among the most prestigious awards for junior faculty and
 
 ---
 
-*Archived from [cns.utexas.edu](https://cns.utexas.edu/news/two-assistant-profs-win-career-awards) on 2026-02-09.*
+*Archived from [cns.utexas.edu](https://cns.utexas.edu/news/two-assistant-profs-win-career-awards) on 2026-08-28.*

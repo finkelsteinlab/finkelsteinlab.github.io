@@ -2,7 +2,7 @@
 layout: news-md
 title: "New Gene-Editing Tech Holds Promise for Treating Complex Genetic Diseases"
 source_url: https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-promise-treating-complex-genetic-diseases
-archived: 2026-02-09
+archived: 2026-08-28
 ---
 
 October 23, 2025 • by Marc Airhart 
@@ -42,4 +42,4 @@ December 12, 2025 • by Sowmya Sridhar
 
 ---
 
-*Archived from [UT CNS News](https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-promise-treating-complex-genetic-diseases) on 2026-02-09.*
+*Archived from [UT CNS News](https://cns.utexas.edu/news/research/new-gene-editing-tech-holds-promise-treating-complex-genetic-diseases) on 2026-08-28.*
