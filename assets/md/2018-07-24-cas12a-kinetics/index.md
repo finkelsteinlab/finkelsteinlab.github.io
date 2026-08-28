@@ -110,7 +110,7 @@ Our results also highlight a key difference between Cas12a and Cas9. As noted ea
 
 ---
 
-## STAR★METHODS
+## STAR★METHODS {#star-methods}
 ### CONTACT FOR REAGENT AND RESOURCE SHARING
 Requests for further information and reagents should be directed to the Lead Contact, Rick Russell (rick_russell@cm.utexas.edu).
 ## METHOD DETAILS
