@@ -2,7 +2,7 @@
 
 Our research program aims to understand the biophysical pathways that allow cells to [edit](#CRISPR) and [repair](#DNA-repair) their genomes with extraordinary fidelity. The group approaches this challenge by developing and applying [new experimental modalities](#tools) that merge micro-/nano-engineering, single-molecule and single-cell imaging, and bioinformatics. Below, I describe ongoing research projects and future research objectives.
 
-# CRISPR-Cas Adaptive Immunity {#CRISPR}
+## CRISPR-Cas Adaptive Immunity {#CRISPR}
 
 Precision gene editing is one of the most exciting breakthroughs in modern biomedicine. This revolution has been fueled by the discovery of RNA-based CRISPR adaptive immunity in bacteria and archaea. CRISPR immunity is comprised of two pathways: degradation of foreign DNA/RNA (interference) and integration of foreign DNA fragments into the CRISPR locus (acquisition) (**Fig. 1**). My lab is advancing the molecular understanding of CRISPR adaptive immunity and using biophysical principles to engineer improved CRISPR enzymes.
 
@@ -22,7 +22,7 @@ CRISPR nucleases can be rapidly programmed to cleave any genomic site via change
 </div>
 ***Figure 2. Chip-hybridized affinity mapping platform (CHAMP) repurposes old NGS chips for high-throughput biophysics.***
 
-# Eukaryotic Genome Maintenance {#DNA-repair}
+## Eukaryotic Genome Maintenance {#DNA-repair}
 
 Our genomes are constantly accruing damage that can lead to cancer-promoting mutations. DNA repair proteins serve as the molecular caretakers of the genome. An emerging theme from both cell biology and biochemical studies is that eukaryotic DNA repair pathways require the molecular choreography of multiple repair proteins at the damage site. We are using single-molecule fluorescence imaging to decipher how repair enzymes collaborate to repair our genomes.
 
@@ -46,7 +46,7 @@ Aging--the progressive decline of function--is the leading risk factor for nearl
 </div>
 ***Figure 4. Replicative lifespan in fission yeast.***
 
-# High-throughput tools for single-molecule and single-cell research {#tools}
+## High-throughput tools for single-molecule and single-cell research {#tools}
 
 Our lab uses Total Internal Reflection Fluorescence Microscopy (TIRFM) as the primary tool for single-molecule fluorescence imaging (**Fig. 5**). For TIRFM, laser excitation is limited to a shallow (~100 nanometer) penetration depth near the surface of a microfluidic flowcell. Molecules of interest are immobilized on a passivated flowcell surface, thus eliminating spurious background signals. Images are collected with a microscope objective and recorded using a back-illuminated charge-coupled device (CCD) with on-chip signal amplification. The CCD can be used with an image-splitter containing a dichroic mirror to separate the multicolor fluorescence signal for simultaneous multi-color imaging.
 

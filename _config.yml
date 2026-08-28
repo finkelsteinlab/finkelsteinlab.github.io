@@ -3,7 +3,19 @@
 # permalink: /:categories/:year/:month/:day/:title
 permalink: /:categories/:title
 
-exclude: ["vendor/", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "desktop.ini", "AGENTS.md", "*.backup", "scripts/", "_plugins/", "assets/md/FORMATTING-RULES.md", "assets/md/PUBLISHING-A-PREPRINT.md"]
+# Note on the entries after "_plugins/":
+#
+# `papers/loop.html` is an include_relative partial with no front matter, so
+# Jekyll was copying it verbatim and serving raw Liquid at /papers/loop.html.
+#
+# The seven page bodies below are also include_relative partials. Because
+# jekyll-optional-front-matter publishes front-matter-less markdown as pages,
+# each was ALSO being served standalone and unstyled at /contact/contact,
+# /cv/cv and so on - duplicating its real page and padding the sitemap.
+#
+# `exclude` stops the file being written to _site; include_relative still reads
+# it from source, so the real pages are unaffected. Verified by build.
+exclude: ["vendor/", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "desktop.ini", "AGENTS.md", "*.backup", "scripts/", "_plugins/", "assets/md/FORMATTING-RULES.md", "assets/md/PUBLISHING-A-PREPRINT.md", "papers/loop.html", "contact/contact.md", "cv/cv.md", "cv/cv-full.md", "join/join.md", "research/research.md", "teaching/teaching.md", "wiki/wiki.md"]
 highlighter: rouge
 
 markdown: kramdown
