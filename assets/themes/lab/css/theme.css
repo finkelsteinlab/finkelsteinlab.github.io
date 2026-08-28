@@ -659,3 +659,22 @@ hr {
 .navbar-nav > li > .theme-toggle {
   margin-top: 12px;
 }
+
+/* Archived news/press and paper full-text bodies embed publisher figures at
+   their native width (up to 2000px), which overflowed the viewport and gave
+   those pages a horizontal scrollbar. Constrain images to the text column and
+   let wide tables scroll inside their own box rather than widening the page. */
+.post img,
+.news-md img,
+.paper-md img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post table,
+.news-md table,
+.paper-md table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
