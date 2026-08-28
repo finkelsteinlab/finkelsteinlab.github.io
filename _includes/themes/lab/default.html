@@ -13,12 +13,17 @@
       15 remote figures. If you add an embed or a remote image, re-run that
       inventory over _site and extend the matching directive.
 
-      Non-obvious pieces: Altmetric fans out from its CloudFront loader to
-      embed.altmetric.com (script AND stylesheet), api.altmetric.com (JSONP, so
-      script-src rather than connect-src) and badges.altmetric.com (image);
-      MathJax pulls its own .woff fonts from jsDelivr, so that host needs
-      font-src too. All four are invisible in the page source and show up only
-      in the network log.
+      Non-obvious pieces: Altmetric fans out from its CloudFront loader
+      (d1bxh8uas1mnw7) to embed.altmetric.com (script AND stylesheet),
+      api.altmetric.com (JSONP, so script-src rather than connect-src) and two
+      image hosts - badges.altmetric.com and a SECOND CloudFront distribution,
+      d1uo4w7k31k5mn, which is where the donut PNGs actually come from now. That
+      host is the hard-coded `badge_cdn` inside embed.altmetric.com's badge
+      bundle; adding it fixed 80 blocked badges on /papers/. If the badges go
+      blank again, re-read `badge_cdn` out of that bundle before assuming
+      anything else. MathJax pulls its own .woff fonts from jsDelivr, so that
+      host needs font-src too. All of these are invisible in the page source and
+      show up only in the network log.
 
       'unsafe-inline' in script-src is required by three inline blocks (the
       MathJax config, the members hover swap and the figure wrapper); moving
@@ -31,7 +36,7 @@
       script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://d1bxh8uas1mnw7.cloudfront.net https://embed.altmetric.com https://api.altmetric.com;
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://embed.altmetric.com;
       font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
-      img-src 'self' data: https://badges.altmetric.com https://cdn.ncbi.nlm.nih.gov https://www.eurekalert.org https://mediasvc.eurekalert.org;
+      img-src 'self' data: https://badges.altmetric.com https://d1uo4w7k31k5mn.cloudfront.net https://cdn.ncbi.nlm.nih.gov https://www.eurekalert.org https://mediasvc.eurekalert.org;
       frame-src https://www.google.com https://www.youtube.com;
       connect-src 'self';
       base-uri 'self';
