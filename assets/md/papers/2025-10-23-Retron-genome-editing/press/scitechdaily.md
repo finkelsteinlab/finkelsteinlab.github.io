@@ -5,6 +5,7 @@ source_url: https://scitechdaily.com/powerful-new-dna-editing-method-raises-hope
 archived: 2026-02-09
 source_name: "SciTechDaily"
 source_author: "University of Texas at Austin"
+source_author_type: "Organization"
 date_published: "2025-12-02"
 description: "Researchers created a highly efficient gene-editing method that fixes multiple DNA mutations in a single step."
 image: "/assets/md/papers/2025-10-23-Retron-genome-editing/press/retron-edited-cells.jpg"

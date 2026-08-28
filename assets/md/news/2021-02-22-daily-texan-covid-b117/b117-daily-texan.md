@@ -6,6 +6,7 @@ archived: 2026-02-09
 source_name: "The Daily Texan"
 source_author: "Skye Seipp"
 date_published: "2021-02-22"
+description: "B.1.1.7, the COVID-19 variant first identified in the United Kingdom, found its way to UT's campus on Feb. 5; as of Feb. 11 the University had identified four cases."
 pdf: "/assets/md/news/2021-02-22-daily-texan-covid-b117/daily-texan.pdf"
 ---
 

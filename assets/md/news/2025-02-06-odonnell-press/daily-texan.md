@@ -6,6 +6,7 @@ archived: 2026-02-09
 source_name: "The Daily Texan"
 source_author: "Madison West"
 date_published: "2025-02-18"
+description: "Ilya Finkelstein received the 2025 Edith and Peter O'Donnell Award from TAMEST, recognizing his research on CRISPR biology and genome editing."
 pdf: "/assets/md/news/2025-02-06-odonnell-press/daily-texan.pdf"
 ---
 

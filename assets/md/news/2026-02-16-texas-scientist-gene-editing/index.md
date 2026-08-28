@@ -6,6 +6,7 @@ archived: 2026-04-16
 source_name: "The Texas Scientist"
 source_author: "Marc Airhart"
 date_published: "2026-02-16"
+description: "How CRISPR grew from a curious repeating pattern in microbial DNA into a technology with the power to transform life as we know it."
 image: "/assets/md/news/2026-02-16-texas-scientist-gene-editing/spread.jpg"
 pdf: "/assets/md/news/2026-02-16-texas-scientist-gene-editing/cut-paste-cure.pdf"
 ---

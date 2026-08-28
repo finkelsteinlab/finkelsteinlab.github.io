@@ -4,6 +4,7 @@ title: "Entire Wizard of Oz Novel Encoded Onto Strands of DNA"
 source_url: https://nerdist.com/article/wizard-of-oz-novel-encoded-dna/
 archived: 2026-08-28
 source_name: "Nerdist"
+description: "Researchers at The University of Texas at Austin have encoded the entire novel The Wonderful Wizard of Oz onto intertwined strands of DNA."
 image: "/assets/md/papers/2020-07-16-HEDGES/press/dna-structure.jpg"
 pdf: "/assets/md/papers/2020-07-16-HEDGES/press/nerdist.pdf"
 ---
