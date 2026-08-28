@@ -23,6 +23,33 @@ layout: null
 - [{{ p_title }}]({{ site.production_url }}{{ paper.url }}): {{ p_authors }}. {{ p_journal }}{% if p_year != '' %}, {{ p_year }}{% endif %}.{% if p_doi != '' %} DOI: {{ p_doi }}.{% endif %}{% if p_pmid != '' %} PMID: {{ p_pmid }}.{% endif %}{% if paper.markdown %} Full text: {{ site.production_url }}/assets/md/{{ paper.markdown }}/.{% endif %}{% if paper.pdf %} PDF: {{ site.production_url }}/assets/pdfs/{{ paper.pdf | uri_escape }}.{% endif %}
 {% endfor %}
 
+## News and press
+
+> Local archives of journalism and press releases about the lab. The linked title is the archived copy hosted here; `Source` is the article as originally published; `PDF` is a print snapshot of the original page. Publisher is the outlet that ran the story, not this lab.
+
+{%- assign archives = site.pages | where: 'layout', 'news-md' %}
+{%- assign news_archives = archives | where_exp: 'a', "a.url contains '/assets/md/news/'" | sort: 'date_published' | reverse %}
+
+### Lab news
+{% for a in news_archives %}
+{%- assign a_title = a.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}{% assign a_outlet = a.source_name | default: '' | strip %}{% assign a_date = a.date_published | default: '' | date: '%Y-%m-%d' %}{% assign a_arch = a.archived | default: '' | date: '%Y-%m-%d' %}{% assign a_desc = a.description | default: '' | strip %}{% assign a_src = a.source_url | default: '' | strip %}{% assign a_pdf = a.pdf | default: '' | strip -%}
+- [{{ a_title }}]({{ site.production_url }}{{ a.url }}){% if a_outlet != '' %}: {{ a_outlet }}{% endif %}{% if a_date != '' %}, {{ a_date }}{% endif %}.{% if a_desc != '' %} {{ a_desc }}{% endif %}{% if a_src != '' %} Source: {{ a_src }}.{% endif %}{% if a_pdf != '' %} PDF: {{ site.production_url }}{{ a_pdf }}.{% endif %}{% if a_arch != '' %} Archived: {{ a_arch }}.{% endif %}
+{% endfor %}
+
+### Press coverage of publications
+{% for paper in site.categories.papers %}
+{%- assign p_slug = paper.path | split: '/' | last | split: '.' | first -%}
+{%- assign p_prefix = '/assets/md/papers/' | append: p_slug | append: '/press/' -%}
+{%- assign p_press = archives | where_exp: 'a', "a.url contains p_prefix" | sort: 'date_published' -%}
+{%- if p_press.size > 0 -%}
+{%- assign p_title = paper.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}
+{% for a in p_press %}
+{%- assign a_title = a.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}{% assign a_outlet = a.source_name | default: '' | strip %}{% assign a_date = a.date_published | default: '' | date: '%Y-%m-%d' %}{% assign a_arch = a.archived | default: '' | date: '%Y-%m-%d' %}{% assign a_desc = a.description | default: '' | strip %}{% assign a_src = a.source_url | default: '' | strip %}{% assign a_pdf = a.pdf | default: '' | strip -%}
+- [{{ a_title }}]({{ site.production_url }}{{ a.url }}){% if a_outlet != '' %}: {{ a_outlet }}{% endif %}{% if a_date != '' %}, {{ a_date }}{% endif %}. Covers "{{ p_title }}" ({{ site.production_url }}{{ paper.url }}).{% if a_desc != '' %} {{ a_desc }}{% endif %}{% if a_src != '' %} Source: {{ a_src }}.{% endif %}{% if a_pdf != '' %} PDF: {{ site.production_url }}{{ a_pdf }}.{% endif %}{% if a_arch != '' %} Archived: {{ a_arch }}.{% endif %}
+{% endfor %}
+{%- endif -%}
+{% endfor %}
+
 ## Optional
 
 - [Sitemap](https://finkelsteinlab.org/sitemap.txt): plain-text list of every URL on the site
