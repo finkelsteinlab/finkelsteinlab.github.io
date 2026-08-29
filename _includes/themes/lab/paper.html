@@ -115,6 +115,10 @@ with gratitude.
 	<div class="col-md-8">
 		<div class="post">
 			{{ content }}
+			{% if page.extra_text %}
+			<div class="bigspacer"></div>
+			{{ page.extra_text | markdownify }}
+			{% endif %}
 		</div>
 	</div>
 
