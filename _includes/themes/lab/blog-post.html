@@ -25,14 +25,35 @@
 
       <hr>
 
+      {% comment %}
+        page.previous / page.next walk the whole of site.posts, which on this
+        site is 100+ paper posts plus a handful of blog posts. A blog post's
+        "previous" was landing on a Nature Biotechnology paper page. Navigate
+        the blog's own list instead, and guard both ends so the newest and
+        oldest posts render one button rather than a dead link.
+      {% endcomment %}
+      {% assign nav_posts = site.posts | where: 'category', 'blog' %}
+      {% assign nav_index = -1 %}
+      {% for nav_post in nav_posts %}{% if nav_post.url == page.url %}{% assign nav_index = forloop.index0 %}{% break %}{% endif %}{% endfor %}
+      {% assign nav_older = nil %}
+      {% assign nav_newer = nil %}
+      {% if nav_index >= 0 %}
+        {% comment %} site.posts is newest-first, so +1 is older and -1 is newer. {% endcomment %}
+        {% assign nav_older_index = nav_index | plus: 1 %}
+        {% assign nav_newer_index = nav_index | minus: 1 %}
+        {% if nav_older_index < nav_posts.size %}{% assign nav_older = nav_posts[nav_older_index] %}{% endif %}
+        {% if nav_newer_index >= 0 %}{% assign nav_newer = nav_posts[nav_newer_index] %}{% endif %}
+      {% endif %}
+      {% if nav_older or nav_newer %}
       <div class="blog-nav">
-        {% if page.previous.url %}
-        <a class="btn btn-default" href="{{ page.previous.url }}">&larr; {{ page.previous.title | truncate: 40 }}</a>
+        {% if nav_older %}
+        <a class="btn btn-default" href="{{ nav_older.url }}">&larr; {{ nav_older.title | truncate: 40 }}</a>
         {% endif %}
-        {% if page.next.url %}
-        <a class="btn btn-default pull-right" href="{{ page.next.url }}">{{ page.next.title | truncate: 40 }} &rarr;</a>
+        {% if nav_newer %}
+        <a class="btn btn-default pull-right" href="{{ nav_newer.url }}">{{ nav_newer.title | truncate: 40 }} &rarr;</a>
         {% endif %}
       </div>
+      {% endif %}
 
       <!-- Giscus comments -->
       <div id="comments" class="blog-comments" style="margin-top: 2em;">
