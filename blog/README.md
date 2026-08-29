@@ -8,19 +8,19 @@ This file is internal and excluded from the build. Everything below is
 verified against the actual pipeline — where something does not work, it says
 so rather than describing an intention.
 
-**Start here:** copy `_org/blog/TEMPLATE.org`, which demonstrates every
+**Start here:** copy `blog/_org/TEMPLATE.org`, which demonstrates every
 construct that survives conversion and flags the traps inline.
 
 ## Quick Start
 
 ### Writing a New Post
 
-1. **Copy the template** — `_org/blog/TEMPLATE.org` is a commented skeleton
+1. **Copy the template** — `blog/_org/TEMPLATE.org` is a commented skeleton
    demonstrating every construct that survives conversion, with the traps
    called out inline. Start from it rather than a blank file:
 
 ```bash
-cp _org/blog/TEMPLATE.org _org/blog/my-post.org
+cp blog/_org/TEMPLATE.org blog/_org/my-post.org
 ```
 
    The header block is all that is strictly required:
@@ -48,7 +48,7 @@ More content with another citation [cite:@citekey2].
 2. **Convert to Jekyll post**:
 
 ```bash
-./scripts/org-to-post.sh _org/blog/my-post.org
+./scripts/org-to-post.sh blog/_org/my-post.org
 ```
 
 3. **Preview locally**:
@@ -66,7 +66,7 @@ bundle exec jekyll serve --drafts
 Use the `--draft` flag to save to `blog/_drafts/` instead of `blog/_posts/`:
 
 ```bash
-./scripts/org-to-post.sh _org/blog/my-post.org --draft
+./scripts/org-to-post.sh blog/_org/my-post.org --draft
 ```
 
 Drafts are named `YYYY-MM-DD-slug.md` just like posts, and `_config.yml`
@@ -81,7 +81,7 @@ the same slug would collide on the same `/blog/<slug>/` permalink. Pass
 `--force` when you mean to replace it:
 
 ```bash
-./scripts/org-to-post.sh _org/blog/my-post.org --force
+./scripts/org-to-post.sh blog/_org/my-post.org --force
 ```
 
 ### When conversion fails
@@ -174,7 +174,7 @@ The exporter is found at `~/.pi/agent/skills/zotero/export-bibtex.sh` by
 default. Override it with the `ZOTERO_EXPORT` environment variable:
 
 ```bash
-ZOTERO_EXPORT=/path/to/export-bibtex.sh ./scripts/org-to-post.sh _org/blog/my-post.org
+ZOTERO_EXPORT=/path/to/export-bibtex.sh ./scripts/org-to-post.sh blog/_org/my-post.org
 ```
 
 ### Comments (Giscus)
@@ -220,10 +220,9 @@ blog/
 ├── search/index.html # Search page
 ├── search.json       # Search index (generated)
 ├── feed.xml          # Atom feed (hand-written, like atom.xml and rss.xml)
-└── README.md         # This file (excluded from the build)
-
-_org/blog/            # Org source files, ignored by Jekyll
-  └── TEMPLATE.org    # Commented skeleton — copy this to start a post
+├── README.md         # This file (excluded from the build)
+└── _org/             # Org source files (underscore dir, ignored by Jekyll)
+    └── TEMPLATE.org  # Commented skeleton — copy this to start a post
 _csl/                 # Citation styles
   ├── vancouver.csl   # Vancouver (in use)
   └── nlm.csl         # NLM/Vancouver, Citing Medicine 2nd ed.
@@ -305,7 +304,7 @@ bundle exec jekyll serve --drafts
 
 ```bash
 # Convert and preview
-./scripts/org-to-post.sh _org/blog/test-post.org --draft
+./scripts/org-to-post.sh blog/_org/test-post.org --draft
 bundle exec jekyll serve --drafts
 # Visit http://localhost:4000/blog/test-post/
 ```

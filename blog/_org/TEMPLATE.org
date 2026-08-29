@@ -10,13 +10,13 @@
 # HOW TO USE THIS FILE
 #
 #   1. Copy it, don't edit it in place:
-#        cp _org/blog/TEMPLATE.org _org/blog/my-new-post.org
+#        cp blog/_org/TEMPLATE.org blog/_org/my-new-post.org
 #
 #   2. Fill in the header fields above, write the body, delete the examples.
 #
 #   3. Convert:
-#        ./scripts/org-to-post.sh _org/blog/my-new-post.org --draft   # -> blog/_drafts/
-#        ./scripts/org-to-post.sh _org/blog/my-new-post.org           # -> blog/_posts/
+#        ./scripts/org-to-post.sh blog/_org/my-new-post.org --draft   # -> blog/_drafts/
+#        ./scripts/org-to-post.sh blog/_org/my-new-post.org           # -> blog/_posts/
 #
 #   4. Preview:
 #        bundle exec jekyll serve --drafts   # includes drafts
@@ -168,7 +168,7 @@ rg -n "pattern" --type py
 For output or plain text you do not want highlighted:
 
 #+BEGIN_EXAMPLE
-$ ./scripts/org-to-post.sh _org/blog/my-post.org
+$ ./scripts/org-to-post.sh blog/_org/my-post.org
   Title: My Post
   Slug: my-post
 #+END_EXAMPLE

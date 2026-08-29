@@ -2,7 +2,7 @@
 #
 # org-to-post.sh - Convert org-mode file to Jekyll blog post
 #
-# Usage: ./scripts/org-to-post.sh _org/blog/my-post.org [--draft] [--force]
+# Usage: ./scripts/org-to-post.sh blog/_org/my-post.org [--draft] [--force]
 #
 # Features:
 # - Extracts front matter from org keywords, emitted as safe YAML
@@ -54,7 +54,7 @@ usage() {
     cat <<'EOF'
 Usage: org-to-post.sh <org-file> [--draft] [--force]
 
-  org-file  Path to a .org file (e.g., _org/blog/my-post.org)
+  org-file  Path to a .org file (e.g., blog/_org/my-post.org)
   --draft   Write to blog/_drafts instead of blog/_posts
   --force   Overwrite an existing post/draft with the same slug
 EOF
