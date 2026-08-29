@@ -204,3 +204,12 @@ defaults:
       category: "blog"
       author: "Ilya Finkelstein"
       permalink: /blog/:slug/
+  # Drafts render through the same layout so `jekyll serve --drafts` previews
+  # match what publishing will actually produce.
+  - scope:
+      path: "blog/_drafts"
+      type: "posts"
+    values:
+      layout: "blog-post"
+      category: "blog"
+      author: "Ilya Finkelstein"

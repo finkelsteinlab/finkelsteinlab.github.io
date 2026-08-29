@@ -25,6 +25,14 @@
       host needs font-src too. All of these are invisible in the page source and
       show up only in the network log.
 
+      giscus (blog comments) is allowed only under /blog/, not site-wide.
+      It needs three directives, not one: script-src for client.js, frame-src
+      for the /widget iframe it injects, and style-src because the script
+      prepends a <link> to giscus.app/default.css. connect-src is deliberately
+      NOT widened - the parent page only postMessages to the iframe; the GitHub
+      API calls happen inside the iframe under its own origin and CSP. Miss any
+      of the three and comments fail silently, with no visible error.
+
       'unsafe-inline' in script-src is required by three inline blocks (the
       MathJax config, the members hover swap and the figure wrapper); moving
       those to files would let it go. In style-src it is unavoidable while
@@ -33,11 +41,11 @@
     {% endcomment %}
     <meta http-equiv="Content-Security-Policy" content="
       default-src 'none';
-      script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://d1bxh8uas1mnw7.cloudfront.net https://embed.altmetric.com https://api.altmetric.com;
-      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://embed.altmetric.com;
+      script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://d1bxh8uas1mnw7.cloudfront.net https://embed.altmetric.com https://api.altmetric.com{% if page.url contains '/blog/' %} https://giscus.app{% endif %};
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://embed.altmetric.com{% if page.url contains '/blog/' %} https://giscus.app{% endif %};
       font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
       img-src 'self' data: https://badges.altmetric.com https://d1uo4w7k31k5mn.cloudfront.net https://cdn.ncbi.nlm.nih.gov https://www.eurekalert.org https://mediasvc.eurekalert.org;
-      frame-src https://www.google.com https://www.youtube.com;
+      frame-src https://www.google.com https://www.youtube.com{% if page.url contains '/blog/' %} https://giscus.app{% endif %};
       connect-src 'self';
       base-uri 'self';
       form-action 'self';
