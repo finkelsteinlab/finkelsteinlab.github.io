@@ -15,7 +15,7 @@ permalink: /:categories/:title
 #
 # `exclude` stops the file being written to _site; include_relative still reads
 # it from source, so the real pages are unaffected. Verified by build.
-exclude: ["vendor/", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "desktop.ini", "AGENTS.md", "*.backup", "scripts/", "_plugins/", "assets/md/FORMATTING-RULES.md", "assets/md/PUBLISHING-A-PREPRINT.md", "papers/loop.html", "contact/contact.md", "cv/cv.md", "cv/cv-full.md", "join/join.md", "research/research.md", "teaching/teaching.md", "wiki/wiki.md"]
+exclude: ["vendor/", ".rvmrc", ".rbenv-version", "README.md", "blog/README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "desktop.ini", "AGENTS.md", "*.backup", "scripts/", "_plugins/", "assets/md/FORMATTING-RULES.md", "assets/md/PUBLISHING-A-PREPRINT.md", "papers/loop.html", "contact/contact.md", "cv/cv.md", "cv/cv-full.md", "join/join.md", "research/research.md", "teaching/teaching.md", "wiki/wiki.md"]
 highlighter: rouge
 
 markdown: kramdown
