@@ -339,6 +339,44 @@
     </script>
     {% endif %}
 
+    {% if page.layout == 'blog-post' %}
+    {% comment %}
+      ---------- Structured data: BlogPosting ----------
+      Blog posts matched none of the blocks above, so they shipped with no
+      structured data at all. Author is Ilya (referenced by @id so the Person
+      block on / and /cv/ is the single definition), publisher is the lab.
+      Every optional property is guarded: a missing field emits nothing rather
+      than an empty string.
+    {% endcomment %}
+    {% assign bp_headline = title_clean | strip %}
+    {% assign bp_url = page.url | prepend: site.production_url %}
+    {% assign bp_description = page.description | default: '' | strip %}
+    {% assign bp_published = page.date | date: '%Y-%m-%d' %}
+    {% assign bp_modified = page.updated | default: page.last_modified_at | default: page.date | date: '%Y-%m-%d' %}
+    {% assign bp_author = page.author | default: site.author.name | strip %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ bp_headline | jsonify }},
+      "name": {{ bp_headline | jsonify }},
+      "url": {{ bp_url | jsonify }},
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ bp_url | jsonify }} },
+      "author": { "@type": "Person", "@id": "https://finkelsteinlab.org/#ilya", "name": {{ bp_author | jsonify }} },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ site.title | jsonify }},
+        "url": {{ site.production_url | jsonify }}
+      }{% if bp_description != '' %},
+      "description": {{ bp_description | jsonify }}{% endif %}{% if bp_published != '' %},
+      "datePublished": {{ bp_published | jsonify }}{% endif %}{% if bp_modified != '' %},
+      "dateModified": {{ bp_modified | jsonify }}{% endif %}{% if page.tags.size > 0 %},
+      "keywords": [{% for bp_tag in page.tags %}{% unless forloop.first %}, {% endunless %}{{ bp_tag | strip | jsonify }}{% endfor %}]{% endif %},
+      "isAccessibleForFree": true
+    }
+    </script>
+    {% endif %}
+
     {% if page.layout == 'paper-md' or page.layout == 'paper' %}
     <!-- Math via MathJax v3 -->
     <script>
