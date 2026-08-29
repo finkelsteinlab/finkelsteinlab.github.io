@@ -174,7 +174,10 @@
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
     <link href="/assets/themes/lab/css/people.css" rel="stylesheet" type="text/css">
+    {% comment %} blog.css styles nothing outside /blog/, so do not make every other page pay for it. {% endcomment %}
+    {% if page.url contains '/blog/' %}
     <link href="/assets/themes/lab/css/blog.css" rel="stylesheet" type="text/css">
+    {% endif %}
 
     <!-- icon -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico"/>
