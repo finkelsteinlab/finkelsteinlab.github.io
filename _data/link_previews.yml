@@ -8,3 +8,9 @@
   description: "CUPS is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer."
   site: "Wikipedia"
   image: /assets/images/blog/previews/en-wikipedia-org-wiki-cups.jpg
+
+- url: "https://github.com/ifinkelstein/printer-android-bridge"
+  title: "ifinkelstein/printer-android-bridge"
+  description: "An Android print service that prints to a 2011 Brother HL-4570CDW over raw TCP 9100, by converting the spooled PDF to PostScript on the phone."
+  site: "GitHub"
+  image: /assets/images/blog/previews/github-com-ifinkelstein-printer-android-bridge.jpg

@@ -37,11 +37,11 @@ After churning for about an hour, Fable gave me three choices that were all beyo
 
 I went with what sounded like a standalone app I could sideload via "USB Debugging" on our phones. Sadly, Google is making this route more difficult [in 2027](https://www.androidauthority.com/android-sideloading-changes-timeline-3679204/).
 
-Some time later, Fable spit out this code: \< link to a GitHub repo. \>
+Some time later, Fable spit out this code: [ifinkelstein/printer-android-bridge](https://github.com/ifinkelstein/printer-android-bridge).
 
 Lo and behold, it installed! And we were off to the printing races!
 
-Good ol' HL-4570CDW is now discoverable on our phones. I'm still amazed that (1) the LLM zero-shotted a solution; (2) we could extend this aging, but perfectly capable printer; and (3) I have zero knowledge about Android development. Seems like a great use-case for LLMs!
+Good ol' HL-4570CDW is now discoverable on our phones. I'm still amazed that (1) the LLM zero-shotted (zero-shat?) a solution; (2) we could extend this aging, but perfectly capable printer; and (3) I have zero knowledge about Android development. Seems like a great use-case for LLMs!
 
 And now I keep thinking that there's so much more old equipment that we can rescue from the garbage heap with our new LLM capabilities.
 
