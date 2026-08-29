@@ -162,71 +162,139 @@ CPRIT [RP190301 to I.J.F.]; NIH [CA092584 to I.J.F.]; Michael Soniat is supporte
 ## REFERENCES
 
 <span id="ref1">1.</span> Doherty A.J., Jackson S.P.. DNA repair: how ku makes ends meet. Curr. Biol. CB. 2001; 11:R920-R924. [[DOI](https://doi.org/10.1016/s0960-9822(01)00555-3)]
+
 <span id="ref2">2.</span> Stinson B.M., Loparo J.J.. Repair of DNA double-strand breaks by the nonhomologous end joining pathway. Annu. Rev. Biochem. 2021; 90:137-164. [[DOI](https://doi.org/10.1146/annurev-biochem-080320-110356)]
+
 <span id="ref3">3.</span> Davis A.J., Chen D.J.. DNA double strand break repair via non-homologous end-joining. Transl. Cancer Res. 2013; 2:130-143. [[DOI](https://doi.org/10.3978/j.issn.2218-676X.2013.04.02)]
+
 <span id="ref4">4.</span> Graham T.G.W., Walter J.C., Loparo J.J.. Two-stage synapsis of DNA ends during non-homologous end joining. Mol. Cell. 2016; 61:850-858. [[DOI](https://doi.org/10.1016/j.molcel.2016.02.010)]
+
 <span id="ref5">5.</span> Symington L.S., Gautier J.. Double-strand break end resection and repair pathway choice. Annu. Rev. Genet. 2011; 45:247-271. [[DOI](https://doi.org/10.1146/annurev-genet-110410-132435)]
+
 <span id="ref6">6.</span> Sugiyama T., Zaitseva E.M., Kowalczykowski S.C.. A Single-stranded DNA-binding protein is needed for efficient presynaptic complex formation by the saccharomyces cerevisiae rad51 protein. J. Biol. Chem. 1997; 272:7940-7945. [[DOI](https://doi.org/10.1074/jbc.272.12.7940)]
+
 <span id="ref7">7.</span> McVey M., Khodaverdian V.Y., Meyer D., Cerqueira P.G., Heyer W.-D.. Eukaryotic DNA polymerases in homologous recombination. Annu. Rev. Genet. 2016; 50:393-421. [[DOI](https://doi.org/10.1146/annurev-genet-120215-035243)]
+
 <span id="ref8">8.</span> Mathiasen D.P., Lisby M.. Cell cycle regulation of homologous recombination in saccharomyces cerevisiae. FEMS Microbiol. Rev. 2014; 38:172-184. [[DOI](https://doi.org/10.1111/1574-6976.12066)]
+
 <span id="ref9">9.</span> Kawale A.S., Sung P.. Mechanism and significance of chromosome damage repair by homologous recombination. Essays Biochem. 2020; 64:779-790. [[DOI](https://doi.org/10.1042/EBC20190093)]
+
 <span id="ref10">10.</span> Schrempf A., Slyskova J., Loizou J.I.. Targeting the DNA repair enzyme polymerase θ in cancer therapy. Trends Cancer. 2021; 7:98-111. [[DOI](https://doi.org/10.1016/j.trecan.2020.09.007)]
+
 <span id="ref11">11.</span> Malaby A.W., Martin S.K., Wood R.D., Doublié S.. Eichman B.F. Chapter five - Expression and structural analyses of human DNA polymerase θ (POLQ). Methods in Enzymology, DNA Repair Enzymes: Structure, Biophysics, and Mechanism. 2017; 592:Academic Press; 103-121. [[DOI](https://doi.org/10.1016/bs.mie.2017.03.026)]
+
 <span id="ref12">12.</span> Roerink S.F., Schendel R., van and Tijsterman M.. Polymerase theta-mediated end joining of replication-associated DNA breaks in c. elegans. Genome Res. 2014; 24:954-962. [[DOI](https://doi.org/10.1101/gr.170431.113)]
+
 <span id="ref13">13.</span> Wood R.D., Doublié S.. DNA polymerase θ (POLQ), double-strand break repair, and cancer. DNA Repair (Amst.). 2016; 44:22-32. [[DOI](https://doi.org/10.1016/j.dnarep.2016.05.003)]
+
 <span id="ref14">14.</span> Kent T., Chandramouly G., McDevitt S.M., Ozdemir A.Y., Pomerantz R.T.. Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ. Nat. Struct. Mol. Biol. 2015; 22:230-237. [[DOI](https://doi.org/10.1038/nsmb.2961)]
+
 <span id="ref15">15.</span> Wyatt D.W., Feng W., Conlin M.P., Yousefzadeh M.J., Roberts S.A., Mieczkowski P., Wood R.D., Gupta G.P., Ramsden D.A.. Essential roles for polymerase θ-Mediated end joining in the repair of chromosome breaks. Mol. Cell. 2016; 63:662-673. [[DOI](https://doi.org/10.1016/j.molcel.2016.06.020)]
+
 <span id="ref16">16.</span> He P., Yang W.. Template and primer requirements for DNA pol θ-mediated end joining. Proc. Natl. Acad. Sci. U.S.A. 2018; 115:7747-7752. [[DOI](https://doi.org/10.1073/pnas.1807329115)]
+
 <span id="ref17">17.</span> Truong L.N., Li Y., Shi L.Z., Hwang P.Y.-H., He J., Wang H., Razavian N., Berns M.W., Wu X.. Microhomology-mediated end joining and homologous recombination share the initial end resection step to repair DNA double-strand breaks in mammalian cells. Proc. Natl. Acad. Sci. 2013; 110:7720-7725. [[DOI](https://doi.org/10.1073/pnas.1213431110)]
+
 <span id="ref18">18.</span> Sallmyr A., Tomkinson A.E.. Repair of DNA double-strand breaks by mammalian alternative end-joining pathways. J. Biol. Chem. 2018; 293:10536-10546. [[DOI](https://doi.org/10.1074/jbc.TM117.000375)]
+
 <span id="ref19">19.</span> Deng S.K., Gibb B., de Almeida M.J., Greene E.C., Symington L.S.. RPA antagonizes microhomology-mediated repair of DNA double-strand breaks. Nat. Struct. Mol. Biol. 2014; 21:405-412. [[DOI](https://doi.org/10.1038/nsmb.2786)]
+
 <span id="ref20">20.</span> Jensen R.B., Carreira A., Kowalczykowski S.C.. Purified human BRCA2 stimulates RAD51-mediated recombination. Nature. 2010; 467:678-683. [[DOI](https://doi.org/10.1038/nature09399)]
+
 <span id="ref21">21.</span> Ceccaldi R., Liu J.C., Amunugama R., Hajdu I., Primack B., Petalcorin M.I.R., O'Connor K.W., Konstantinopoulos P.A., Elledge S.J., Boulton S.J.et al.. Homologous-recombination-deficient tumours are dependent on Polθ-mediated repair. Nature. 2015; 518:258-262. [[DOI](https://doi.org/10.1038/nature14184)]
+
 <span id="ref22">22.</span> Mateos-Gomez P.A., Gong F., Nair N., Miller K.M., Lazzerini-Denchi E., Sfeir A.. Mammalian polymerase θ promotes alternative NHEJ and suppresses recombination. Nature. 2015; 518:254-257. [[DOI](https://doi.org/10.1038/nature14157)]
+
 <span id="ref23">23.</span> Yousefzadeh M.J., Wood R.D.. DNA polymerase POLQ and cellular defense against DNA damage. DNA Repair (Amst.). 2013; 12:1-9. [[DOI](https://doi.org/10.1016/j.dnarep.2012.10.004)]
+
 <span id="ref24">24.</span> Black S.J., Kashkina E., Kent T., Pomerantz R.T.. DNA polymerase θ: a unique multifunctional end-joining machine. Genes. 2016; 7:67. [[DOI](https://doi.org/10.3390/genes7090067)]
+
 <span id="ref25">25.</span> Seki M., Marini F., Wood R.D.. POLQ (Pol theta), a DNA polymerase and DNA-dependent ATPase in human cells. Nucleic Acids Res. 2003; 31:6117-6126. [[DOI](https://doi.org/10.1093/nar/gkg814)]
+
 <span id="ref26">26.</span> Mateos-Gomez P.A., Kent T., Deng S.K., McDevitt S., Kashkina E., Hoang T.M., Pomerantz R.T., Sfeir A.. The helicase domain of polθ counteracts RPA to promote alt-NHEJ. Nat. Struct. Mol. Biol. 2017; 24:1116-1123. [[DOI](https://doi.org/10.1038/nsmb.3494)]
+
 <span id="ref27">27.</span> Ozdemir A.Y., Rusanov T., Kent T., Siddique L.A., Pomerantz R.T.. Polymerase θ-helicase efficiently unwinds DNA and RNA-DNA hybrids. J. Biol. Chem. 2018; 293:5259-5269. [[DOI](https://doi.org/10.1074/jbc.RA117.000565)]
+
 <span id="ref28">28.</span> Higgins G.S., Harris A.L., Prevo R., Helleday T., McKenna W.G., Buffa F.M.. Overexpression of POLQ confers a poor prognosis in early breast cancer patients. Oncotarget. 2010; 1:175-184. [[DOI](https://doi.org/10.18632/oncotarget.124)]
+
 <span id="ref29">29.</span> Kawamura K., Bahar R., Seimiya M., Chiyo M., Wada A., Okada S., Hatano M., Tokuhisa T., Kimura H., Watanabe S.et al.. DNA polymerase theta is preferentially expressed in lymphoid tissues and upregulated in human cancers. Int. J. Cancer. 2004; 109:9-16. [[DOI](https://doi.org/10.1002/ijc.11666)]
+
 <span id="ref30">30.</span> Lemée F., Bergoglio V., Fernandez-Vidal A., Machado-Silva A., Pillaire M.-J., Bieth A., Gentil C., Baker L., Martin A.-L., Leduc C.et al.. DNA polymerase theta up-regulation is associated with poor survival in breast cancer, perturbs DNA replication, and promotes genetic instability. Proc. Natl. Acad. Sci. U.S.A. 2010; 107:13390-13395. [[DOI](https://doi.org/10.1073/pnas.0910759107)]
+
 <span id="ref31">31.</span> Zhou J., Gelot C., Pantelidou C., Li A., Yücel H., Davis R.E., Farkkila A., Kochupurakkal B., Syed A., Shapiro G.I.et al.. A first-in-class polymerase theta inhibitor selectively targets homologous-recombination-deficient tumors. Nat. Cancer. 2021; 2:598-610. [[DOI](https://doi.org/10.1038/s43018-021-00203-x)]
+
 <span id="ref32">32.</span> Feng W., Simpson D.A., Carvajal-Garcia J., Price B.A., Kumar R.J., Mose L.E., Wood R.D., Rashid N., Purvis J.E., Parker J.S.et al.. Genetic determinants of cellular addiction to DNA polymerase theta. Nat. Commun. 2019; 10:4286. [[DOI](https://doi.org/10.1038/s41467-019-12234-1)]
+
 <span id="ref33">33.</span> Higgins G.S., Prevo R., Lee Y.-F., Helleday T., Muschel R.J., Taylor S., Yoshimura M., Hickson I.D., Bernhard E.J., McKenna W.G.. A small interfering RNA screen of genes involved in DNA repair identifies tumor-specific radiosensitization by POLQ knockdown. Cancer Res. 2010; 70:2984-2993. [[DOI](https://doi.org/10.1158/0008-5472.CAN-09-4040)]
+
 <span id="ref34">34.</span> Brouwer I., Moschetti T., Candelli A., Garcin E.B., Modesti M., Pellegrini L., Wuite G.J., Peterman E.J.. Two distinct conformational states define the interaction of human RAD51-ATP with single-stranded DNA. EMBO J. 2018; 37:e98162. [[DOI](https://doi.org/10.15252/embj.201798162)]
+
 <span id="ref35">35.</span> Soniat M.M., Myler L.R., Kuo H.-C., Paull T.T., Finkelstein I.J.. RPA phosphorylation inhibits DNA resection. Mol. Cell. 2019; 75:145-153. [[DOI](https://doi.org/10.1016/j.molcel.2019.05.005)]
+
 <span id="ref36">36.</span> Langelier M.-F., Planck J.L., Servent K.M., Pascal J.M.. Purification of human PARP-1 and PARP-1 domains from escherichia coli for structural and biochemical analysis. Methods Mol. Biol. 2011; 780:209-226. [[DOI](https://doi.org/10.1007/978-1-61779-270-0_13)]
+
 <span id="ref37">37.</span> Gallardo I.F., Pasupathy P., Brown M., Manhart C.M., Neikirk D.P., Alani E., Finkelstein I.J.. High-Throughput universal DNA curtain arrays for single-molecule fluorescence imaging. Langmuir. 2015; 31:10310-10317. [[DOI](https://doi.org/10.1021/acs.langmuir.5b02416)]
+
 <span id="ref38">38.</span> Soniat M.M., Myler L.R., Schaub J.M., Kim Y., Gallardo I.F., Finkelstein I.J.. Next-Generation DNA curtains for single-molecule studies of homologous recombination. Methods Enzymol. 2017; 592:259-281. [[DOI](https://doi.org/10.1016/bs.mie.2017.03.011)]
+
 <span id="ref39">39.</span> Schaub J.M., Zhang H., Soniat M.M., Finkelstein I.J.. Assessing protein dynamics on low-complexity single-stranded DNA curtains. Langmuir. 2018; 34:14882-14890. [[DOI](https://doi.org/10.1021/acs.langmuir.8b01812)]
+
 <span id="ref40">40.</span> Zhang H., Schaub J.M., Finkelstein I.J.. RADX condenses single-stranded DNA to antagonize RAD51 loading. Nucleic Acids Res. 2020; 48:7834-7843. [[DOI](https://doi.org/10.1093/nar/gkaa559)]
+
 <span id="ref41">41.</span> Schindelin J., Arganda-Carreras I., Frise E., Kaynig V., Longair M., Pietzsch T., Preibisch S., Rueden C., Saalfeld S., Schmid B.et al.. Fiji: an open-source platform for biological-image analysis. Nat. Methods. 2012; 9:676-682. [[DOI](https://doi.org/10.1038/nmeth.2019)]
+
 <span id="ref42">42.</span> Rad B., Forget A.L., Baskin R.J., Kowalczykowski S.C.. Single-molecule visualization of RecQ helicase reveals DNA melting, nucleation, and assembly are required for processive DNA unwinding. Proc. Natl. Acad. Sci. U.S.A. 2015; 112:E6852-E6861. [[DOI](https://doi.org/10.1073/pnas.1518028112)]
+
 <span id="ref43">43.</span> Caron M.-C., Sharma A.K., O'Sullivan J., Myler L.R., Ferreira M.T., Rodrigue A., Coulombe Y., Ethier C., Gagné J.-P., Langelier M.-F.et al.. Poly(ADP-ribose) polymerase-1 antagonizes DNA resection at double-strand breaks. Nat. Commun. 2019; 10:2954. [[DOI](https://doi.org/10.1038/s41467-019-10741-9)]
+
 <span id="ref44">44.</span> Newman J.A., Cooper C.D.O., Aitkenhead H., Gileadi O.. Structure of the helicase domain of DNA polymerase theta reveals a possible role in the microhomology-mediated end-joining pathway. Structure. 2015; 23:2319-2330. [[DOI](https://doi.org/10.1016/j.str.2015.10.014)]
+
 <span id="ref45">45.</span> Brockman C., Kim S.J., Schroeder C.M.. Direct observation of single flexible polymers using single stranded DNA. Soft Matter. 2011; 7:8005-8012. [[DOI](https://doi.org/10.1039/C1SM05297G)]
+
 <span id="ref46">46.</span> Lee K.S., Marciel A.B., Kozlov A.G., Schroeder C.M., Lohman T.M., Ha T.. Ultrafast redistribution of e. coli SSB along long single-stranded DNA via intersegment transfer. J. Mol. Biol. 2014; 426:2413-2421. [[DOI](https://doi.org/10.1016/j.jmb.2014.04.023)]
+
 <span id="ref47">47.</span> Dillard K.E., Schaub J.M., Brown M.W., Saifuddin F.A., Xiao Y., Hernandez E., Dahlhauser S.D., Anslyn E.V., Ke A., Finkelstein I.J.. Sortase-mediated fluorescent labeling of CRISPR complexes. Methods in Enzymology. 2019; 616:Elsevier; 43-59. [[DOI](https://doi.org/10.1016/bs.mie.2018.10.031)]
+
 <span id="ref48">48.</span> Büttner K., Nehring S., Hopfner K.-P.. Structural basis for DNA duplex separation by a superfamily-2 helicase. Nat. Struct. Mol. Biol. 2007; 14:647-652. [[DOI](https://doi.org/10.1038/nsmb1246)]
+
 <span id="ref49">49.</span> Ma C.J., Gibb B., Kwon Y., Sung P., Greene E.C.. Protein dynamics of human RPA and RAD51 on ssDNA during assembly and disassembly of the RAD51 filament. Nucleic Acids Res. 2017; 45:749-761. [[DOI](https://doi.org/10.1093/nar/gkw1125)]
+
 <span id="ref50">50.</span> Chi P., Van Komen S., Sehorn M.G., Sigurdsson S., Sung P.. Roles of ATP binding and ATP hydrolysis in human rad51 recombinase function. DNA Repair (Amst.). 2006; 5:381-391. [[DOI](https://doi.org/10.1016/j.dnarep.2005.11.005)]
+
 <span id="ref51">51.</span> Sfeir A., Symington L.S.. Microhomology-mediated end joining: a back-up survival mechanism or dedicated pathway. Trends Biochem. Sci. 2015; 40:701-714. [[DOI](https://doi.org/10.1016/j.tibs.2015.08.006)]
+
 <span id="ref52">52.</span> Wang M., Wu W., Wu W., Rosidi B., Zhang L., Wang H., Iliakis G.. PARP-1 and ku compete for repair of DNA double strand breaks by distinct NHEJ pathways. Nucleic Acids Res. 2006; 34:6170-6182. [[DOI](https://doi.org/10.1093/nar/gkl840)]
+
 <span id="ref53">53.</span> Asher G., Reinke H., Altmeyer M., Gutierrez-Arcelus M., Hottiger M.O., Schibler U.. Poly(ADP-ribose) polymerase 1 participates in the phase entrainment of circadian clocks to feeding. Cell. 2010; 142:943-953. [[DOI](https://doi.org/10.1016/j.cell.2010.08.016)]
+
 <span id="ref54">54.</span> Lönn P., van der Heide L.P., Dahl M., Hellman U., Heldin C.-H., Moustakas A.. PARP-1 attenuates Smad-mediated transcription. Mol. Cell. 2010; 40:521-532. [[DOI](https://doi.org/10.1016/j.molcel.2010.10.029)]
+
 <span id="ref55">55.</span> Luo X., Ryu K.W., Kim D.-S., Nandu T., Medina C.J., Gupte R., Gibson B.A., Soccio R.E., Yu Y., Gupta R.K.et al.. PARP-1 controls the adipogenic transcriptional program by PARylating C/EBPβ and modulating its transcriptional activity. Mol. Cell. 2017; 65:260-271. [[DOI](https://doi.org/10.1016/j.molcel.2016.11.015)]
+
 <span id="ref56">56.</span> Wang C., Zhang F., Wang L., Zhang Y., Li X., Huang K., Du M., Liu F., Huang S., Guan Y.et al.. Poly(ADP-ribose) polymerase 1 promotes oxidative-stress-induced liver cell death via suppressing farnesoid x receptor α. Mol. Cell. Biol. 2013; 33:4492-4503. [[DOI](https://doi.org/10.1128/MCB.00160-13)]
+
 <span id="ref57">57.</span> Hendriks I.A., Larsen S.C., Nielsen M.L.. An advanced strategy for comprehensive profiling of ADP-ribosylation sites using mass Spectrometry-based proteomics. Mol. Cell. Proteomics MCP. 2019; 18:1010-1026. [[DOI](https://doi.org/10.1074/mcp.TIR119.001315)]
+
 <span id="ref58">58.</span> Pascal J.M., Ellenberger T.. The rise and fall of poly(ADP-ribose): an enzymatic perspective. DNA Repair (Amst.). 2015; 32:10-16. [[DOI](https://doi.org/10.1016/j.dnarep.2015.04.008)]
+
 <span id="ref59">59.</span> Carvajal-Garcia J., Cho J.-E., Carvajal-Garcia P., Feng W., Wood R.D., Sekelsky J., Gupta G.P., Roberts S.A., Ramsden D.A.. Mechanistic basis for microhomology identification and genome scarring by polymerase theta. Proc. Natl. Acad. Sci. U.S.A. 2020; 117:8476-8485. [[DOI](https://doi.org/10.1073/pnas.1921791117)]
+
 <span id="ref60">60.</span> Koole W., van Schendel R., Karambelas A.E., van Heteren J.T., Okihara K.L., Tijsterman M.. A polymerase Theta-dependent repair pathway suppresses extensive genomic instability at endogenous G4 DNA sites. Nat. Commun. 2014; 5:3216. [[DOI](https://doi.org/10.1038/ncomms4216)]
+
 <span id="ref61">61.</span> Schimmel J., Kool H., van Schendel R., Tijsterman M.. Mutational signatures of non-homologous and polymerase theta-mediated end-joining in embryonic stem cells. EMBO J. 2017; 36:3634-3649. [[DOI](https://doi.org/10.15252/embj.201796948)]
+
 <span id="ref62">62.</span> Gibb B., Ye L.F., Gergoudis S.C., Kwon Y., Niu H., Sung P., Greene E.C.. Concentration-dependent exchange of replication protein a on single-stranded DNA revealed by single-molecule imaging. PLoS One. 2014; 9:e87922-13. [[DOI](https://doi.org/10.1371/journal.pone.0087922)]
+
 <span id="ref63">63.</span> Pokhrel N., Caldwell C.C., Corless E.I., Tillison E.A., Tibbs J., Jocic N., Tabei S.M.A., Wold M.S., Spies M., Antony E.. Dynamics and selective remodeling of the DNA-binding domains of RPA. Nat. Struct. Mol. Biol. 2019; 26:129-136. [[DOI](https://doi.org/10.1038/s41594-018-0181-y)]
+
 <span id="ref64">64.</span> Nguyen B., Sokoloski J., Galletto R., Elson E.L., Wold M.S., Lohman T.M.. Diffusion of human replication protein a along single-stranded DNA. J. Mol. Biol. 2014; 426:3246-3261. [[DOI](https://doi.org/10.1016/j.jmb.2014.07.014)]
+
 <span id="ref65">65.</span> Yang G., Liu C., Chen S.-H., Kassab M.A., Hoff J.D., Walter N.G., Yu X.. Super-resolution imaging identifies PARP1 and the ku complex acting as DNA double-strand break sensors. Nucleic Acids Res. 2018; 46:3446-3457. [[DOI](https://doi.org/10.1093/nar/gky088)]
+
 <span id="ref66">66.</span> D'Silva I., Pelletier J.D., Lagueux J., D'Amours D., Chaudhry M.A., Weinfeld M., Lees-Miller S.P., Poirier G.G.. Relative affinities of poly(ADP-ribose) polymerase and DNA-dependent protein kinase for DNA strand interruptions. Biochim. Biophys. Acta. 1999; 1430:119-126. [[DOI](https://doi.org/10.1016/s0167-4838(98)00278-7)]
+
 <span id="ref67">67.</span> Jorgensen T.J., Chen K., Chasovskikh S., Roy R., Dritschilo A., Uren A.. Binding kinetics and activity of human poly(ADP-ribose) polymerase-1 on oligo-deoxyribonucleotide substrates. J. Mol. Recognit. JMR. 2009; 22:446-452. [[DOI](https://doi.org/10.1002/jmr.962)]
+
 <span id="ref68">68.</span> Dutta A., Eckelmann B., Adhikari S., Ahmed K.M., Sengupta S., Pandey A., Hegde P.M., Tsai M.-S., Tainer J.A., Weinfeld M.et al.. Microhomology-mediated end joining is activated in irradiated human cells due to phosphorylation-dependent formation of the XRCC1 repair complex. Nucleic Acids Res. 2017; 45:2585-2599. [[DOI](https://doi.org/10.1093/nar/gkw1262)]
+
 <span id="ref69">69.</span> Schimmel J., van Schendel R., den Dunnen J.T., Tijsterman M.. Templated insertions: a smoking gun for polymerase theta-mediated end joining. Trends Genet. TIG. 2019; 35:632-644. [[DOI](https://doi.org/10.1016/j.tig.2019.06.001)]

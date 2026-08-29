@@ -164,135 +164,265 @@ The Greene laboratory is supported by funding from the National Institutes of He
 ## References
 
 <span id="ref1">1.</span> van Oijen AM. Single-molecule kinetics of lambda exonuclease reveal base dependence and dynamic disorder. *Mol Biosyst.* 2007;3:117-125. doi: 10.1039/b612545j
+
 <span id="ref2">2.</span> Tanner NA, Hamdan SM, Jergic S, Schaeffer PM, Dixon NE, van Oijen AM. Single-molecule studies of fork dynamics in Escherichia coli DNA replication. *Nat Struct Mol Biol.* 2008;15:170-176. doi: 10.1038/nsmb.1381
+
 <span id="ref3">3.</span> Bianco PR, Brewer LR, Corzett M, Balhorn R, Yeh Y, Kowalczykowski SC, Baskin RJ. Processive translocation and DNA unwinding by individual RecBCD enzyme molecules. *Nature.* 2001;409:374-378. doi: 10.1038/35053131
+
 <span id="ref4">4.</span> Blainey PC, van Oijen AM, Banerjee A, Verdine GL, Xie XS. A base-excision DNA-repair protein finds intrahelical lesion bases by fast sliding in contact with DNA. *Proc Natl Acad Sci U S A.* 2006;103:5752-5757. doi: 10.1073/pnas.0509723103
+
 <span id="ref5">5.</span> Joo C, McKinney SA, Nakamura M, Rasnik I, Myong S, Ha T. Real-time observation of RecA filament dynamics with single monomer resolution. *Cell.* 2006;126:515-527. doi: 10.1016/j.cell.2006.06.042
+
 <span id="ref6">6.</span> Prasad TK, Robertson RB, Visnapuu ML, Chi P, Sung P, Greene EC. A DNA-translocating Snf2 molecular motor: Saccharomyces cerevisiae Rdh54 displays processive translocation and extrudes DNA loops. *J Mol Biol.* 2007;369:940-953. doi: 10.1016/j.jmb.2007.04.005
+
 <span id="ref7">7.</span> Amitani I, Baskin RJ, Kowalczykowski SC. Visualization of Rad54, a chromatin remodeling protein, translocating on single DNA molecules. *Mol Cell.* 2006;23:143-148. doi: 10.1016/j.molcel.2006.05.009
+
 <span id="ref8">8.</span> Dessinges MN, Lionnet T, Xi XG, Bensimon D, Croquette V. Single-molecule assay reveals strand switching and enhanced processivity of UvrD. *Proc Natl Acad Sci U S A.* 2004;101:6439-6444. doi: 10.1073/pnas.0306713101
+
 <span id="ref9">9.</span> Gorman J, Chowdhury A, Surtees JA, Shimada J, Reichman DR, Alani E, Greene EC. Dynamic basis for one-dimensional DNA scanning by the mismatch repair complex Msh2-Msh6. *Mol Cell.* 2007;28:359-370. doi: 10.1016/j.molcel.2007.09.008
+
 <span id="ref10">10.</span> Abbondanzieri EA, Greenleaf WJ, Shaevitz JW, Landick R, Block SM. Direct observation of base-pair stepping by RNA polymerase. *Nature.* 2005;438:460-465. doi: 10.1038/nature04268
+
 <span id="ref11">11.</span> Bai L, Santangelo TJ, Wang MD. Single-molecule analysis of RNA polymerase transcription. *Annu Rev Biophys Biomol Struct.* 2006;35:343-360. doi: 10.1146/annurev.biophys.35.010406.150153
+
 <span id="ref12">12.</span> Herbert KM, La Porta A, Wong BJ, Mooney RA, Neuman KC, Landick R, Block SM. Sequence-resolved detection of pausing by single RNA polymerase molecules. *Cell.* 2006;125:1083-1094. doi: 10.1016/j.cell.2006.04.032
+
 <span id="ref13">13.</span> Cornish PV, Ermolenko DN, Noller HF, Ha T. Spontaneous intersubunit rotation in single ribosomes. *Mol Cell.* 2008;30:578-588. doi: 10.1016/j.molcel.2008.05.004
+
 <span id="ref14">14.</span> Gonzalez M, Reyes R, Damas C, Alonso R, Bello AR. Oestrogen receptor alpha and beta in female rat pituitary cells: An immunochemical study. *Gen Comp Endocrinol.* 2008;155:857-868. doi: 10.1016/j.ygcen.2007.10.007
+
 <span id="ref15">15.</span> Blanchard SC, Kim HD, Gonzalez RL Jr, Puglisi JD, Chu S. tRNA dynamics on the ribosome during translation. *Proc Natl Acad Sci U S A.* 2004;101:12893-12898. doi: 10.1073/pnas.0403884101
+
 <span id="ref16">16.</span> Blanchard SC, Gonzalez RL, Kim HD, Chu S, Puglisi JD. tRNA selection and kinetic proofreading in translation. *Nat Struct Mol Biol.* 2004;11:1008-1014. doi: 10.1038/nsmb831
+
 <span id="ref17">17.</span> Capaldi RA, Aggeler R. Mechanism of the F(1)F(0)-type ATP synthase, a biological rotary motor. *Trends Biochem Sci.* 2002;27:154-160. doi: 10.1016/s0968-0004(01)02051-5
+
 <span id="ref18">18.</span> Kaim G, Prummer M, Sick B, Zumofen G, Renn A, Wild UP, Dimroth P. Coupled rotation within single F0F1 enzyme complexes during ATP synthesis or hydrolysis. *FEBS Lett.* 2002;525:156-163. doi: 10.1016/s0014-5793(02)03097-1
+
 <span id="ref19">19.</span> Yasuda R, Noji H, Yoshida M, Kinosita K Jr, Itoh H. Resolution of distinct rotational substeps by submillisecond kinetic analysis of F1-ATPase. *Nature.* 2001;410:898-904. doi: 10.1038/35073513
+
 <span id="ref20">20.</span> Fuller DN, Raymer DM, Rickgauer JP, Robertson RM, Catalano CE, Anderson DL, Grimes S, Smith DE. Measurements of single DNA molecule packaging dynamics in bacteriophage lambda reveal high forces, high motor processivity, and capsid transformations. *J Mol Biol.* 2007;373:1113-1122. doi: 10.1016/j.jmb.2007.09.011
+
 <span id="ref21">21.</span> Fuller DN, Raymer DM, Kottadiel VI, Rao VB, Smith DE. Single phage T4 DNA packaging motors exhibit large force generation, high velocity, and dynamic variability. *Proc Natl Acad Sci U S A.* 2007;104:16868-16873. doi: 10.1073/pnas.0704008104
+
 <span id="ref22">22.</span> Finer JT, Simmons RM, Spudich JA. Single myosin molecule mechanics: piconewton forces and nanometre steps. *Nature.* 1994;368:113-119. doi: 10.1038/368113a0
+
 <span id="ref23">23.</span> Coppin CM, Finer JT, Spudich JA, Vale RD. Detection of sub-8-nm movements of kinesin by high-resolution optical-trap microscopy. *Proc Natl Acad Sci U S A.* 1996;93:1913-1917. doi: 10.1073/pnas.93.5.1913
+
 <span id="ref24">24.</span> Kuo SC, Sheetz MP. Force of single kinesin molecules measured with optical tweezers. *Science.* 1993;260:232-234. doi: 10.1126/science.8469975
+
 <span id="ref25">25.</span> Kural C, Kim H, Syed S, Goshima G, Gelfand VI, Selvin PR. Kinesin and dynein move a peroxisome in vivo: a tug-of-war or coordinated movement? *Science.* 2005;308:1469-1472. doi: 10.1126/science.1108408
+
 <span id="ref26">26.</span> Peterman EJ, Sosa H, Moerner WE. Single-molecule fluorescence spectroscopy and microscopy of biomolecular motors. *Annu Rev Phys Chem.* 2004;55:79-96. doi: 10.1146/annurev.physchem.55.091602.094340
+
 <span id="ref27">27.</span> Greulich KO. Single-molecule studies on DNA and RNA. *Chemphyschem.* 2005;6:2458-2471. doi: 10.1002/cphc.200500038
+
 <span id="ref28">28.</span> Visnapuu ML, Duzdevich D, Greene EC. The importance of surfaces in single-molecule bioscience. *Mol Biosyst.* 2008;4:394-403. doi: 10.1039/b800444g
+
 <span id="ref29">29.</span> Cairns BR. Chromatin remodeling: insights and intrigue from single-molecule studies. *Nat Struct Mol Biol.* 2007;14:989-996. doi: 10.1038/nsmb1333
+
 <span id="ref30">30.</span> Rasnik I, Myong S, Ha T. Unraveling helicase mechanisms one molecule at a time. *Nucleic Acids Res.* 2006;34:4225-4231. doi: 10.1093/nar/gkl452
+
 <span id="ref31">31.</span> Seidel R, Dekker C. Single-molecule studies of nucleic acid motors. *Curr Opin Struct Biol.* 2007;17:80-86. doi: 10.1016/j.sbi.2006.12.003
+
 <span id="ref32">32.</span> Bustamante C, Bryant Z, Smith SB. Ten years of tension: single-molecule DNA mechanics. *Nature.* 2003;421:423-427. doi: 10.1038/nature01405
+
 <span id="ref33">33.</span> Luo G, Wang M, Konigsberg WH, Xie XS. Single-molecule and ensemble fluorescence assays for a functionally important conformational change in T7 DNA polymerase. *Proc Natl Acad Sci U S A.* 2007;104:12610-12615. doi: 10.1073/pnas.0700920104
+
 <span id="ref34">34.</span> Kowalczykowski SC, Dixon DA, Eggleston AK, Lauder SD, Rehrauer WM. Biochemistry of homologous recombination in Escherichia coli. *Microbiol Rev.* 1994;58:401-465. PMID: 7968923
+
 <span id="ref35">35.</span> Smith GR, Amundsen SK, Dabert P, Taylor AF. The initiation and control of homologous recombination in Escherichia coli. *Philos Trans R Soc Lond B Biol Sci.* 1995;347:13-20. doi: 10.1098/rstb.1995.0003
+
 <span id="ref36">36.</span> Michel B, Boubakri H, Baharoglu Z, LeMasson M, Lestini R. Recombination proteins and rescue of arrested replication forks. *DNA Repair (Amst).* 2007;6:967-980. doi: 10.1016/j.dnarep.2007.02.016
+
 <span id="ref37">37.</span> Wyman C, Ristic D, Kanaar R. Homologous recombination-mediated double-strand break repair. *DNA Repair (Amst).* 2004;3:827-833. doi: 10.1016/j.dnarep.2004.03.037
+
 <span id="ref38">38.</span> Seidel R, Bloom JG, Dekker C, Szczelkun MD. Motor step size and ATP coupling efficiency of the dsDNA translocase EcoR124I. *EMBO J.* 2008;27:1388-1398. doi: 10.1038/emboj.2008.69
+
 <span id="ref39">39.</span> San Filippo J, Sung P, Klein H. Mechanism of eukaryotic homologous recombination. *Annu Rev Biochem.* 2008;77:229-257. doi: 10.1146/annurev.biochem.77.061306.125255
+
 <span id="ref40">40.</span> Dohoney KM, Gelles J. Chi-sequence recognition and DNA translocation by single RecBCD helicase/nuclease molecules. *Nature.* 2001;409:370-374. doi: 10.1038/35053124
+
 <span id="ref41">41.</span> Handa N, Bianco PR, Baskin RJ, Kowalczykowski SC. Direct visualization of RecBCD movement reveals cotranslocation of the RecD motor after chi recognition. *Mol Cell.* 2005;17:745-750. doi: 10.1016/j.molcel.2005.02.011
+
 <span id="ref42">42.</span> Perkins TT, Li HW, Dalal RV, Gelles J, Block SM. Forward and reverse motion of single RecBCD molecules on DNA. *Biophys J.* 2004;86:1640-1648. doi: 10.1016/S0006-3495(04)74232-0
+
 <span id="ref43">43.</span> Spies M, Amitani I, Baskin RJ, Kowalczykowski SC. RecBCD enzyme switches lead motor subunits in response to chi recognition. *Cell.* 2007;131:694-705. doi: 10.1016/j.cell.2007.09.023
+
 <span id="ref44">44.</span> Spies M, Bianco PR, Dillingham MS, Handa N, Baskin RJ, Kowalczykowski SC. A molecular throttle: the recombination hotspot chi controls DNA translocation by the RecBCD helicase. *Cell.* 2003;114:647-654. doi: 10.1016/s0092-8674(03)00681-0
+
 <span id="ref45">45.</span> Yeykal CC, Greene EC. New tools for dissecting DNA curtains. *Cell Cycle.* 2006;5:1033-1038. doi: 10.4161/cc.5.10.2760
+
 <span id="ref46">46.</span> van der Heijden T, Seidel R, Modesti M, Kanaar R, Wyman C, Dekker C. Real-time assembly and disassembly of human RAD51 filaments on individual DNA molecules. *Nucleic Acids Res.* 2007;35:5646-5657. doi: 10.1093/nar/gkm629
+
 <span id="ref47">47.</span> Ristic D, Modesti M, van der Heijden T, van Noort J, Dekker C, Kanaar R, Wyman C. Human Rad51 filaments on double- and single-stranded DNA: correlating regular and irregular forms with recombination function. *Nucleic Acids Res.* 2005;33:3292-3302. doi: 10.1093/nar/gki640
+
 <span id="ref48">48.</span> Prasad TK, Yeykal CC, Greene EC. Visualizing the assembly of human Rad51 filaments on double-stranded DNA. *J Mol Biol.* 2006;363:713-728. doi: 10.1016/j.jmb.2006.08.046
+
 <span id="ref49">49.</span> Modesti M, Ristic D, van der Heijden T, Dekker C, van Mameren J, Peterman EJ, Wuite GJ, Kanaar R, Wyman C. Fluorescent human RAD51 reveals multiple nucleation sites and filament segments tightly associated along a single DNA molecule. *Structure.* 2007;15:599-609. doi: 10.1016/j.str.2007.04.003
+
 <span id="ref50">50.</span> Mine J, Disseau L, Takahashi M, Cappello G, Dutreix M, Viovy JL. Real-time measurements of the nucleation, growth and dissociation of single Rad51-DNA nucleoprotein filaments. *Nucleic Acids Res.* 2007;35:7171-7187. doi: 10.1093/nar/gkm752
+
 <span id="ref51">51.</span> Cisse I, Okumus B, Joo C, Ha T. Fueling protein DNA interactions inside porous nanocontainers. *Proc Natl Acad Sci U S A.* 2007;104:12646-12650. doi: 10.1073/pnas.0610673104
+
 <span id="ref52">52.</span> Galletto R, Amitani I, Baskin RJ, Kowalczykowski SC. Direct observation of individual RecA filaments assembling on single DNA molecules. *Nature.* 2006;443:875-878. doi: 10.1038/nature05197
+
 <span id="ref53">53.</span> Graneli A, Yeykal CC, Robertson RB, Greene EC. Long-distance lateral diffusion of human Rad51 on double-stranded DNA. *Proc Natl Acad Sci U S A.* 2006;103:1221-1226. doi: 10.1073/pnas.0508366103
+
 <span id="ref54">54.</span> Myong S, Rasnik I, Joo C, Lohman TM, Ha T. Repetitive shuttling of a motor protein on DNA. *Nature.* 2005;437:1321-1325. doi: 10.1038/nature04049
+
 <span id="ref55">55.</span> van der Heijden T, Modesti M, Hage S, Kanaar R, Wyman C, Dekker C. Homologous recombination in real time: DNA strand exchange by RecA. *Mol Cell.* 2008;30:530-538. doi: 10.1016/j.molcel.2008.03.010
+
 <span id="ref56">56.</span> van der Heijden T, van Noort J, van Leest H, Kanaar R, Wyman C, Dekker NH, Dekker C. Torque-limited RecA polymerization on dsDNA. *Nucleic Acids Res.* 2005;33:2099-2105. doi: 10.1093/nar/gki512
+
 <span id="ref57">57.</span> Bianco PR, Bradfield JJ, Castanza LR, Donnelly AN. Rad54 oligomers translocate and cross-bridge double-stranded DNA to stimulate synapsis. *J Mol Biol.* 2007;374:618-640. doi: 10.1016/j.jmb.2007.09.052
+
 <span id="ref58">58.</span> Nimonkar AV, Amitani I, Baskin RJ, Kowalczykowski SC. Single molecule imaging of Tid1/Rdh54, a Rad54 homolog that translocates on duplex DNA and can disrupt joint molecules. *J Biol Chem.* 2007;282:30776-30784. doi: 10.1074/jbc.M704767200
+
 <span id="ref59">59.</span> Amit R, Gileadi O, Stavans J. Direct observation of RuvAB-catalyzed branch migration of single Holliday junctions. *Proc Natl Acad Sci U S A.* 2004;101:11605-11610. doi: 10.1073/pnas.0404332101
+
 <span id="ref60">60.</span> Dawid A, Croquette V, Grigoriev M, Heslot F. Single-molecule study of RuvAB-mediated Holliday-junction migration. *Proc Natl Acad Sci U S A.* 2004;101:11611-11616. doi: 10.1073/pnas.0404369101
+
 <span id="ref61">61.</span> Dennis C, Fedorov A, Kas E, Salome L, Grigoriev M. RuvAB-directed branch migration of individual Holliday junctions is impeded by sequence heterology. *EMBO J.* 2004;23:2413-2422. doi: 10.1038/sj.emboj.7600249
+
 <span id="ref62">62.</span> Han YW, Tani T, Hayashi M, Hishida T, Iwasaki H, Shinagawa H, Harada Y. Direct observation of DNA rotation during branch migration of Holliday junction DNA by Escherichia coli RuvA-RuvB protein complex. *Proc Natl Acad Sci U S A.* 2006;103:11544-11548. doi: 10.1073/pnas.0600753103
+
 <span id="ref63">63.</span> Arnold DA, Kowalczykowski SC. RecBCD helicase/nuclease. In: *Encyclopedia of Life Sciences.* John Wiley & Sons, Ltd; Chichester: 1999.
+
 <span id="ref64">64.</span> Roman LJ, Kowalczykowski SC. Characterization of the helicase activity of the Escherichia coli RecBCD enzyme using a novel helicase assay. *Biochemistry.* 1989;28:2873-2881. doi: 10.1021/bi00433a019
+
 <span id="ref65">65.</span> Roman LJ, Kowalczykowski SC. Characterization of the adenosinetriphosphatase activity of the Escherichia coli RecBCD enzyme: relationship of ATP hydrolysis to the unwinding of duplex DNA. *Biochemistry.* 1989;28:2863-2873. doi: 10.1021/bi00433a018
+
 <span id="ref66">66.</span> Singleton MR, Dillingham MS, Gaudier M, Kowalczykowski SC, Wigley DB. Crystal structure of RecBCD enzyme reveals a machine for processing DNA breaks. *Nature.* 2004;432:187-193. doi: 10.1038/nature02988
+
 <span id="ref67">67.</span> Singleton MR, Dillingham MS, Wigley DB. Structure and mechanism of helicases and nucleic acid translocases. *Annu Rev Biochem.* 2007;76:23-50. doi: 10.1146/annurev.biochem.76.052305.115300
+
 <span id="ref68">68.</span> Arakawa K, Uno R, Nakayama Y, Tomita M. Validating the significance of genomic properties of Chi sites from the distribution of all octamers in Escherichia coli. *Gene.* 2007;392:239-246. doi: 10.1016/j.gene.2006.12.022
+
 <span id="ref69">69.</span> Uno R, Nakayama Y, Tomita M. Over-representation of Chi sequences caused by di-codon increase in Escherichia coli K-12. *Gene.* 2006;380:30-37. doi: 10.1016/j.gene.2006.05.013
+
 <span id="ref70">70.</span> Taylor AF, Smith GR. RecBCD enzyme is altered upon cutting DNA at a chi recombination hotspot. *Proc Natl Acad Sci U S A.* 1992;89:5226-5230. doi: 10.1073/pnas.89.12.5226
+
 <span id="ref71">71.</span> Taylor AF, Schultz DW, Ponticelli AS, Smith GR. RecBC enzyme nicking at Chi sites during DNA unwinding: location and orientation-dependence of the cutting. *Cell.* 1985;41:153-163. doi: 10.1016/0092-8674(85)90070-4
+
 <span id="ref72">72.</span> Ponticelli AS, Schultz DW, Taylor AF, Smith GR. Chi-dependent DNA strand cleavage by RecBC enzyme. *Cell.* 1985;41:145-151. doi: 10.1016/0092-8674(85)90069-8
+
 <span id="ref73">73.</span> Roman LJ, Kowalczykowski SC. Formation of heteroduplex DNA promoted by the combined activities of Escherichia coli RecA and RecBCD proteins. *J Biol Chem.* 1989;264:18340-18348. PMID: 2681196
+
 <span id="ref74">74.</span> Spies M, Kowalczykowski SC. The RecA binding locus of RecBCD is a general domain for recruitment of DNA strand exchange proteins. *Mol Cell.* 2006;21:573-580. doi: 10.1016/j.molcel.2006.01.007
+
 <span id="ref75">75.</span> Gurrieri S, Wells KS, Johnson ID, Bustamante C. Direct visualization of individual DNA molecules by fluorescence microscopy: characterization of the factors affecting signal/background and optimization of imaging conditions using YOYO. *Anal Biochem.* 1997;249:44-53. doi: 10.1006/abio.1997.2102
+
 <span id="ref76">76.</span> Myers RS, Kuzminov A, Stahl FW. The recombination hot spot chi activates RecBCD recombination by converting Escherichia coli to a recD mutant phenocopy. *Proc Natl Acad Sci U S A.* 1995;92:6244-6248. doi: 10.1073/pnas.92.14.6244
+
 <span id="ref77">77.</span> Koppen A, Krobitsch S, Thoms B, Wackernagel W. Interaction with the recombination hot spot chi in vivo converts the RecBCD enzyme of Escherichia coli into a chi-independent recombinase by inactivation of the RecD subunit. *Proc Natl Acad Sci U S A.* 1995;92:6249-6253. doi: 10.1073/pnas.92.14.6249
+
 <span id="ref78">78.</span> Schafer DA, Gelles J, Sheetz MP, Landick R. Transcription by single molecules of RNA polymerase observed by light microscopy. *Nature.* 1991;352:444-448. doi: 10.1038/352444a0
+
 <span id="ref79">79.</span> Charvin G, Bensimon D, Croquette V. Single molecule study of DNA unlinking by eukaryotic and prokaryotic type-II topoisomerases. *Single Mol.* 2002;3:43-48.
+
 <span id="ref80">80.</span> Bell CE. Structure and mechanism of Escherichia coli RecA ATPase. *Mol Microbiol.* 2005;58:358-366. doi: 10.1111/j.1365-2958.2005.04876.x
+
 <span id="ref81">81.</span> Cox MM. The bacterial RecA protein as a motor protein. *Annu Rev Microbiol.* 2003;57:551-577. doi: 10.1146/annurev.micro.57.030502.090953
+
 <span id="ref82">82.</span> Cox MM. Motoring along with the bacterial RecA protein. *Crit Rev Biochem Mol Biol.* 2007;42:41-63. doi: 10.1080/10409230701260258
+
 <span id="ref83">83.</span> Cox MM. Regulation of bacterial RecA protein function. *Nat Rev Mol Cell Biol.* 2007;8:127-138. doi: 10.1038/nrm2099
+
 <span id="ref84">84.</span> Cox MM. Recombinational DNA repair in bacteria and the RecA protein. *Prog Nucleic Acid Res Mol Biol.* 1999;63:311-366. doi: 10.1016/s0079-6603(08)60726-6
+
 <span id="ref85">85.</span> Lusetti SL, Cox MM. The bacterial RecA protein and the recombinational DNA repair of stalled replication forks. *Annu Rev Biochem.* 2002;71:71-100. doi: 10.1146/annurev.biochem.71.083101.133940
+
 <span id="ref86">86.</span> Schlacher K, Pham P, Cox MM, Goodman MF. Roles of DNA polymerase V and RecA protein in SOS damage-induced mutation. *Chem Rev.* 2006;106:406-419. doi: 10.1021/cr0404951
+
 <span id="ref87">87.</span> Lin Z, Kong H, Nei M, Ma H. Origins and evolution of the recA/RAD51 gene family: evidence for ancient gene duplication and endosymbiotic gene transfer. *Proc Natl Acad Sci U S A.* 2006;103:10328-10333. doi: 10.1073/pnas.0604232103
+
 <span id="ref88">88.</span> Cisse I, Okumus B, Joo C, Ha T. Fueling protein DNA interactions inside porous nanocontainers. *Proc Natl Acad Sci U S A.* 2007;104:12646-12650. doi: 10.1073/pnas.0610673104
+
 <span id="ref89">89.</span> Hegner M, Smith SB, Bustamante C. Polymerization and mechanical properties of single RecA-DNA filaments. *Proc Natl Acad Sci U S A.* 1999;96:10109-10114. doi: 10.1073/pnas.96.18.10109
+
 <span id="ref90">90.</span> Fulconis R, Mine J, Bancaud A, Dutreix M, Viovy JL. Mechanism of RecA-mediated homologous recombination revisited by single molecule nanomanipulation. *EMBO J.* 2006;25:4293-4304. doi: 10.1038/sj.emboj.7601260
+
 <span id="ref91">91.</span> Stasiak A, Egelman EH. Structure and function of RecA-DNA complexes. *Experientia.* 1994;50:192-203. doi: 10.1007/BF01924002
+
 <span id="ref92">92.</span> Leger JF, Robert J, Bourdieu L, Chatenay D, Marko JF. RecA binding to a single double-stranded DNA molecule: a possible role of DNA conformational fluctuations. *Proc Natl Acad Sci U S A.* 1998;95:12295-12299. doi: 10.1073/pnas.95.21.12295
+
 <span id="ref93">93.</span> Shivashankar GV, Feingold M, Krichevsky O, Libchaber A. RecA polymerization on double-stranded DNA by using single-molecule manipulation: the role of ATP hydrolysis. *Proc Natl Acad Sci U S A.* 1999;96:7916-7921. doi: 10.1073/pnas.96.14.7916
+
 <span id="ref94">94.</span> Menetski JP, Kowalczykowski SC. Interaction of recA protein with single-stranded DNA. Quantitative aspects of binding affinity modulation by nucleotide cofactors. *J Mol Biol.* 1985;181:281-295. doi: 10.1016/0022-2836(85)90092-0
+
 <span id="ref95">95.</span> Ha T, Enderle T, Ogletree DF, Chemla DS, Selvin PR, Weiss S. Probing the interaction between two single molecules: fluorescence resonance energy transfer between a single donor and a single acceptor. *Proc Natl Acad Sci U S A.* 1996;93:6264-6268. doi: 10.1073/pnas.93.13.6264
+
 <span id="ref96">96.</span> McKinney SA, Joo C, Ha T. Analysis of single-molecule FRET trajectories using hidden Markov modeling. *Biophys J.* 2006;91:1941-1951. doi: 10.1529/biophysj.106.082487
+
 <span id="ref97">97.</span> Hsieh P, Camerini-Otero CS, Camerini-Otero RD. The synapsis event in the homologous pairing of DNAs: RecA recognizes and pairs less than one helical repeat of DNA. *Proc Natl Acad Sci U S A.* 1992;89:6492-6496. doi: 10.1073/pnas.89.14.6492
+
 <span id="ref98">98.</span> Bianco PR, Tracy RB, Kowalczykowski SC. DNA strand exchange proteins: a biochemical and physical comparison. *Front Biosci.* 1998;3:D570-603. doi: 10.2741/a304
+
 <span id="ref99">99.</span> Baumann P, Benson FE, West SC. Human Rad51 protein promotes ATP-dependent homologous pairing and strand transfer reactions in vitro. *Cell.* 1996;87:757-766. doi: 10.1016/s0092-8674(00)81394-x
+
 <span id="ref100">100.</span> San Filippo J, Chi P, Sehorn MG, Etchin J, Krejci L, Sung P. Recombination mediator and Rad51 targeting activities of a human BRCA2 polypeptide. *J Biol Chem.* 2006;281:11649-11657. doi: 10.1074/jbc.M601249200
+
 <span id="ref101">101.</span> Sung P. Catalysis of ATP-dependent homologous DNA pairing and strand exchange by yeast RAD51 protein. *Science.* 1994;265:1241-1243. doi: 10.1126/science.8066464
+
 <span id="ref102">102.</span> Fazio T, Visnapuu ML, Wind S, Greene EC. DNA curtains and nanoscale curtain rods: high-throughput tools for single molecule imaging. *Langmuir.* 2008;24:10524-10531. doi: 10.1021/la801762h
+
 <span id="ref103">103.</span> van der Heijden T, Seidel R, Modesti M, Kanaar R, Wyman C, Dekker C. Real-time assembly and disassembly of human RAD51 filaments on individual DNA molecules. *Nucleic Acids Res.* 2007;35:5646-5657. doi: 10.1093/nar/gkm629
+
 <span id="ref104">104.</span> Chi P, Van Komen S, Sehorn MG, Sigurdsson S, Sung P. Roles of ATP binding and ATP hydrolysis in human Rad51 recombinase function. *DNA Repair (Amst).* 2006;5:381-391. doi: 10.1016/j.dnarep.2005.11.005
+
 <span id="ref105">105.</span> Solinger JA, Lutz G, Sugiyama T, Kowalczykowski SC, Heyer WD. Rad54 protein stimulates heteroduplex DNA formation in the synaptic phase of DNA strand exchange via specific interactions with the presynaptic Rad51 nucleoprotein filament. *J Mol Biol.* 2001;307:1207-1221. doi: 10.1006/jmbi.2001.4555
+
 <span id="ref106">106.</span> Li X, Zhang XP, Solinger JA, Kiianitsa K, Yu X, Egelman EH, Heyer WD. Rad51 and Rad54 ATPase activities are both required to modulate Rad51-dsDNA filament dynamics. *Nucleic Acids Res.* 2007;35:4124-4140. doi: 10.1093/nar/gkm412
+
 <span id="ref107">107.</span> Shah PP, Zheng X, Epshtein A, Carey JN, Bishop DK, Klein HL. Swi2/Snf2-related translocases prevent accumulation of toxic Rad51 complexes during mitotic growth. *Mol Cell.* 2010;39:862-872. doi: 10.1016/j.molcel.2010.08.028
+
 <span id="ref108">108.</span> Flaus A, Martin DM, Barton GJ, Owen-Hughes T. Identification of multiple distinct Snf2 subfamilies with conserved structural motifs. *Nucleic Acids Res.* 2006;34:2887-2905. doi: 10.1093/nar/gkl295
+
 <span id="ref109">109.</span> Saha A, Wittmeyer J, Cairns BR. Chromatin remodelling: the industrial revolution of DNA around histones. *Nat Rev Mol Cell Biol.* 2006;7:437-447. doi: 10.1038/nrm1945
+
 <span id="ref110">110.</span> Durr H, Korner C, Muller M, Hickmann V, Hopfner KP. X-ray structures of the Sulfolobus solfataricus SWI2/SNF2 ATPase core and its complex with DNA. *Cell.* 2005;121:363-373. doi: 10.1016/j.cell.2005.03.026
+
 <span id="ref111">111.</span> Tan TL, Kanaar R, Wyman C. Rad54, a Jack of all trades in homologous recombination. *DNA Repair (Amst).* 2003;2:787-794. doi: 10.1016/s1568-7864(03)00070-3
+
 <span id="ref112">112.</span> Swagemakers SM, Essers J, de Wit J, Hoeijmakers JH, Kanaar R. The human RAD54 recombinational DNA repair protein is a double-stranded DNA-dependent ATPase. *J Biol Chem.* 1998;273:28292-28297. doi: 10.1074/jbc.273.43.28292
+
 <span id="ref113">113.</span> Mazin AV, Alexeev AA, Kowalczykowski SC. A novel function of Rad54 protein. Stabilization of the Rad51 nucleoprotein filament. *J Biol Chem.* 2003;278:14029-14036. doi: 10.1074/jbc.M212779200
+
 <span id="ref114">114.</span> Alexiadis V, Kadonaga JT. Strand pairing by Rad54 and Rad51 is enhanced by chromatin. *Genes Dev.* 2002;16:2767-2771. doi: 10.1101/gad.1032102
+
 <span id="ref115">115.</span> Jaskelioff M, Van Komen S, Krebs JE, Sung P, Peterson CL. Rad54p is a chromatin remodeling enzyme required for heteroduplex DNA joint formation with chromatin. *J Biol Chem.* 2003;278:9212-9218. doi: 10.1074/jbc.M211545200
+
 <span id="ref116">116.</span> Petukhova G, Van Komen S, Vergano S, Klein H, Sung P. Yeast Rad54 promotes Rad51-dependent homologous DNA pairing via ATP hydrolysis-driven change in DNA double helix conformation. *J Biol Chem.* 1999;274:29453-29462. doi: 10.1074/jbc.274.41.29453
+
 <span id="ref117">117.</span> Ristic D, Wyman C, Paulusma C, Kanaar R. The architecture of the human Rad54-DNA complex provides evidence for protein translocation along DNA. *Proc Natl Acad Sci U S A.* 2001;98:8454-8460. doi: 10.1073/pnas.151056798
+
 <span id="ref118">118.</span> Shinohara M, Shita-Yamaguchi E, Buerstedde JM, Shinagawa H, Ogawa H, Shinohara A. Characterization of the roles of the Saccharomyces cerevisiae RAD54 gene and a homologue of RAD54, RDH54/TID1, in mitosis and meiosis. *Genetics.* 1997;147:1545-1556. doi: 10.1093/genetics/147.4.1545
+
 <span id="ref119">119.</span> Yamada K, Miyata T, Tsuchiya D, Oyama T, Fujiwara Y, Ohnishi T, Iwasaki H, Shinagawa H, Ariyoshi M, Mayanagi K, Morikawa K. Crystal structure of the RuvA-RuvB complex: a structural basis for the Holliday junction migrating motor machinery. *Mol Cell.* 2002;10:671-681. doi: 10.1016/s1097-2765(02)00641-x
+
 <span id="ref120">120.</span> West SC. Processing of recombination intermediates by the RuvABC proteins. *Annu Rev Genet.* 1997;31:213-244. doi: 10.1146/annurev.genet.31.1.213
+
 <span id="ref121">121.</span> Connolly B, Parsons CA, Benson FE, Dunderdale HJ, Sharples GJ, Lloyd RG, West SC. Resolution of Holliday junctions in vitro requires the Escherichia coli ruvC gene product. *Proc Natl Acad Sci U S A.* 1991;88:6063-6067. doi: 10.1073/pnas.88.14.6063
+
 <span id="ref122">122.</span> Iwasaki H, Takahagi M, Shiba T, Nakata A, Shinagawa H. Escherichia coli RuvC protein is an endonuclease that resolves the Holliday structure. *EMBO J.* 1991;10:4381-4389. PMID: 1661673
+
 <span id="ref123">123.</span> Sharples GJ, Benson FE, Illing GT, Lloyd RG. Molecular and functional analysis of the ruv region of Escherichia coli K-12 reveals three genes involved in DNA repair and recombination. *Mol Gen Genet.* 1990;221:219-226. doi: 10.1007/BF00261724
+
 <span id="ref124">124.</span> Adams DE, West SC. Bypass of DNA heterologies during RuvAB-mediated three- and four-strand branch migration. *J Mol Biol.* 1996;263:582-596. doi: 10.1006/jmbi.1996.0600
+
 <span id="ref125">125.</span> Yildiz A, Forkey JN, McKinney SA, Ha T, Goldman YE, Selvin PR. Myosin V walks hand-over-hand: single fluorophore imaging with 1.5-nm localization. *Science.* 2003;300:2061-2065. doi: 10.1126/science.1084398
+
 <span id="ref126">126.</span> Gordon MP, Ha T, Selvin PR. Single-molecule high-resolution imaging with photobleaching. *Proc Natl Acad Sci U S A.* 2004;101:6462-6465. doi: 10.1073/pnas.0401638101
+
 <span id="ref127">127.</span> La Porta A, Wang MD. Optical torque wrench: angular trapping, rotation, and torque detection of quartz microparticles. *Phys Rev Lett.* 2004;92:190801. doi: 10.1103/PhysRevLett.92.190801
+
 <span id="ref128">128.</span> Brau RR, Tarsa PB, Ferrer JM, Lee P, Lang MJ. Interlaced optical force-fluorescence measurements for single molecule biophysics. *Biophys J.* 2006;91:1069–1077. doi: 10.1529/biophysj.106.082602
+
 <span id="ref129">129.</span> Lee S, Lee J, Hohng S. Single-molecule three-color FRET with both negligible spectral overlap and long observation time. *PLoS One.* 2010;5:e12270. doi: 10.1371/journal.pone.0012270
+
 <span id="ref130">130.</span> Howarth M, Liu W, Puthenveetil S, Zheng Y, Marshall LF, Schmidt MM, Wittrup KD, Bawendi MG, Ting AY. Monovalent, reduced-size quantum dots for imaging receptors on living cells. *Nat Methods.* 2008;5:397–399. doi: 10.1038/nmeth.1206
+
 <span id="ref131">131.</span> Dahan M, Levi S, Luccardini C, Rostaing P, Riveau B, Triller A. Diffusion dynamics of glycine receptors revealed by single-quantum dot tracking. *Science.* 2003;302:442–445. doi: 10.1126/science.1088525
 
 ---
