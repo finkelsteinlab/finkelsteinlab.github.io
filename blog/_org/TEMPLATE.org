@@ -78,6 +78,11 @@ Two stars nests one level deeper.
 Links are [[https://finkelsteinlab.org][written with the URL first]], then the
 visible text.
 
+A link shows a hover card (title, blurb, image) when its URL is listed in
+=_data/link_previews.yml=. Draft the entry with
+=./scripts/fetch-link-preview.sh URL=, check it, paste it in. The link in
+the post is written exactly as above; nothing else changes.
+
 Footnotes look like this[fn:1].
 
 # NOTE: put footnote definitions at the END of their section. A footnote

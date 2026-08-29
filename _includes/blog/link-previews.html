@@ -1,0 +1,18 @@
+{% comment %}
+  Embeds _data/link_previews.yml as JSON and loads the hover-card script.
+  Only links whose href appears in the data file get a card, so this is
+  cheap to include on every post. See blog/README.md, "Link previews".
+{% endcomment %}
+{% if site.data.link_previews.size > 0 %}
+<script type="application/json" id="link-previews-data">{
+{%- for p in site.data.link_previews -%}
+  {{ p.url | jsonify }}: {
+    "title": {{ p.title | jsonify }},
+    "description": {{ p.description | default: "" | jsonify }},
+    "image": {{ p.image | default: "" | jsonify }},
+    "site": {{ p.site | default: "" | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+}</script>
+<script src="/assets/themes/lab/js/link-preview.js" defer></script>
+{% endif %}

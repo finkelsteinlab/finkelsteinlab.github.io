@@ -128,6 +128,66 @@
   padding: 0;
 }
 
+/* Link previews (hover cards).
+ *
+ * Links whose href is listed in _data/link_previews.yml get .has-preview
+ * from link-preview.js and a floating .link-preview card on hover/focus.
+ * The card is appended to <body> and positioned absolutely by the script. */
+.blog-content a.has-preview {
+  text-decoration-style: dotted;
+}
+
+.link-preview {
+  position: absolute;
+  z-index: 1000;
+  width: 320px;
+  max-width: calc(100vw - 16px);
+  background: var(--color-card-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border-strong);
+  border-radius: 6px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.link-preview img {
+  display: block;
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  background: #fff;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.link-preview-body {
+  padding: 0.75em 0.9em;
+}
+
+.link-preview-site {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-subtle);
+  margin-bottom: 0.2em;
+}
+
+.link-preview-title {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.link-preview-desc {
+  color: var(--color-text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* Tags */
 .blog-tags {
   margin: 1.5em 0;

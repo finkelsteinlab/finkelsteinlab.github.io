@@ -13,6 +13,7 @@
       <article class="blog-content">
         {{ content }}
       </article>
+      {% include blog/link-previews.html %}
 
       {% if page.tags.size > 0 %}
       <div class="blog-tags">

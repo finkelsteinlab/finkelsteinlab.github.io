@@ -177,6 +177,37 @@ default. Override it with the `ZOTERO_EXPORT` environment variable:
 ZOTERO_EXPORT=/path/to/export-bibtex.sh ./scripts/org-to-post.sh blog/_org/my-post.org
 ```
 
+### Link previews
+
+A link in a post can show a hover card (title, description, image) when
+its URL is listed in `_data/link_previews.yml`. Write the link normally in
+org; nothing changes in the post itself:
+
+```org
+The printer showed up via [[https://en.wikipedia.org/wiki/CUPS][CUPS]].
+```
+
+Draft the registry entry with the helper, check the text, and paste it in:
+
+```bash
+./scripts/fetch-link-preview.sh https://en.wikipedia.org/wiki/CUPS
+./scripts/fetch-link-preview.sh https://example.org/post --image https://example.org/lead.jpg
+```
+
+It reads `og:title` / `og:description` / `og:image` (or Wikipedia's summary
+API for Wikipedia URLs), saves the image to `assets/images/blog/previews/`
+resized to 480px, and prints a YAML block. It never edits the data file,
+because `og:` copy is often missing or marketing text. Entries take `url`,
+`title`, `description`, `site`, `image`; only `url` and `title` are needed.
+
+Everything is static and self-hosted. The CSP forbids fetching other
+origins from the browser, so there is no live unfurling: the card is what
+you put in the registry. Pieces: `_data/link_previews.yml` (registry),
+`_includes/blog/link-previews.html` (embeds it as JSON on each post),
+`assets/themes/lab/js/link-preview.js` (the card), `blog.css` (styling).
+Cards show on hover and keyboard focus, and not at all on touch, where the
+link just works as a link.
+
 ### Comments (Giscus)
 
 - GitHub Discussions-based comments, one thread per post

@@ -29,7 +29,7 @@ The good news is that the **W** in **HL-4570CDW** stands for wireless. The bad n
 
 And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
 
-All I knew was that the printer showed up via CUPS on our home network with a static IP. And I told Fable what I wanted:
+All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted:
 
 \<insert prompt here\>
 

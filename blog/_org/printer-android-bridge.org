@@ -25,7 +25,7 @@ news is that it doesn't connect to any modern Android phones.
 And my wife has been asking me for the better part of five years now to be able
 to print documents from her phone directly to the printer.
 
-All I knew was that the printer showed up via CUPS on our home network with a
+All I knew was that the printer showed up via [[https://en.wikipedia.org/wiki/CUPS][CUPS]] on our home network with a
 static IP. And I told Fable what I wanted:
 
 <insert prompt here>
