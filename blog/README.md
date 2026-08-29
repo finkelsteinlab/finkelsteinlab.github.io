@@ -130,7 +130,8 @@ plugins:
   - jekyll-feed
 
 feed:
-  path: /blog/feed.xml
+  categories:
+    - blog
 ```
 
 ### Citation Style

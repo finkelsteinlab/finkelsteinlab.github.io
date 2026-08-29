@@ -15,7 +15,13 @@ title : Atom Feed
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
+ {% comment %}
+   Papers only. These two feeds predate the blog and are what people have
+   subscribed to for years; a bare site.posts loop pushed blog posts into
+   them. Blog posts have their own feed at /blog/feed.xml.
+ {% endcomment %}
+ {% assign feed_posts = site.posts | where: 'category', 'paper' %}
+ {% for post in feed_posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
