@@ -112,6 +112,12 @@
   border-radius: 4px;
   padding: 1em;
   overflow-x: auto;
+  /* Bootstrap 3 sets word-break: break-all on pre, which splits words
+   * mid-syllable on phones ("ag / ent"). Wrap at spaces only; anything
+   * longer than the box scrolls. */
+  white-space: pre-wrap;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .blog-content code {
