@@ -9,7 +9,7 @@ tags:
 
 Wednesdays are quickly becoming "burn through my weekly tokens" day.
 
-This Wednesday, I decided to rescue our old HL-4570CDW laser printer. The printer is a tank! It will probably outlast me! The problem is that its too old to pair with our cell phones.
+This Wednesday, I decided to rescue our old HL-4570CDW laser printer. The printer is a tank! It will probably outlast me, but its too old to pair with our cell phones.
 
 <div class="figures">
 
@@ -29,19 +29,15 @@ The good news is that the **W** in **HL-4570CDW** stands for wireless. The bad n
 
 And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
 
-All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted:
+The printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network. I told Fable what I wanted:
 
     draft an md plan file then launch a fable agent to inspect and critique.
 
-Claudish … Claudish … Claudish…
-
-The critique found three design errors before a line of code existed. They became corrections, not debugging sessions.
+Claudish … Claudish … Claudish… It jibbered up a plan, then tweaked it, then seemed pretty content with the slop-file.
 
     do all of them, work independently until u finish
 
-After "gibbering" for about an hour, Fable gave me three choices that were all beyond my comprehension.
-
-I went with what sounded like a standalone app I could sideload via "USB Debugging" on our phones. Sadly, Google is making this route more difficult [in 2027](https://www.androidauthority.com/android-sideloading-changes-timeline-3679204/).
+After "gibbering" for about 30 minutes, Fable gave me a standalone app I could sideload via "USB Debugging" on our phones. Sadly, Google is making this route more difficult [in 2027](https://www.androidauthority.com/android-sideloading-changes-timeline-3679204/).
 
 Fable spit out this code: [ifinkelstein/printer-android-bridge](https://github.com/ifinkelstein/printer-android-bridge).
 
