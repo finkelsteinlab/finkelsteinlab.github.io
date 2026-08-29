@@ -26,12 +26,27 @@ description: Search blog posts
   </div>
 </div>
 
-<!-- Lunr.js -->
-<script src="https://unpkg.com/lunr/lunr.js"></script>
+<!-- Lunr.js, vendored locally: unpkg is not in the site CSP, and an unpinned
+     CDN URL would silently track upstream releases. -->
+<script src="/assets/themes/lab/js/lunr.min.js"></script>
 <script>
 (function() {
   var searchIndex = null;
   var documents = null;
+  var indexReady = false;
+  var pendingQuery = null;
+
+  // Every value below is interpolated into innerHTML, including the user's own
+  // query, which arrives from the ?q= parameter. Escape everything.
+  function esc(value) {
+    if (value === null || value === undefined) { return ''; }
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
   
   // Load the search index
   fetch('/blog/search.json')
@@ -55,6 +70,13 @@ description: Search blog posts
           });
         });
       });
+      indexReady = true;
+      if (pendingQuery !== null) { doSearch(); }
+    })
+    .catch(function(err) {
+      document.getElementById('search-results').innerHTML =
+        '<p class="text-danger">Search is unavailable right now.</p>';
+      console.error('[blog search] could not load the index:', err);
     });
   
   function search(query) {
@@ -78,23 +100,23 @@ description: Search blog posts
     var container = document.getElementById('search-results');
     
     if (results.length === 0) {
-      container.innerHTML = '<p class="text-muted">No results found for "' + query + '"</p>';
+      container.innerHTML = '<p class="text-muted">No results found for "' + esc(query) + '"</p>';
       return;
     }
     
-    var html = '<p class="text-muted">' + results.length + ' result(s) for "' + query + '"</p>';
+    var html = '<p class="text-muted">' + results.length + ' result(s) for "' + esc(query) + '"</p>';
     
     results.forEach(result => {
       html += '<article class="blog-listing" style="margin-bottom: 1.5em;">';
-      html += '<h3><a href="' + result.url + '">' + result.title + '</a></h3>';
-      html += '<p class="text-muted"><i class="far fa-calendar-alt"></i> ' + result.date + '</p>';
+      html += '<h3><a href="' + esc(result.url) + '">' + esc(result.title) + '</a></h3>';
+      html += '<p class="text-muted"><i class="far fa-calendar-alt"></i> ' + esc(result.date) + '</p>';
       if (result.excerpt) {
-        html += '<p>' + result.excerpt + '</p>';
+        html += '<p>' + esc(result.excerpt) + '</p>';
       }
       if (result.tags && result.tags.length > 0) {
         html += '<p>';
         result.tags.forEach(tag => {
-          html += '<a href="/blog/tags/#' + tag.toLowerCase().replace(/\s+/g, '-') + '" class="label label-info">' + tag + '</a> ';
+          html += '<a href="/blog/tags/#' + esc(tag.toLowerCase().replace(/\s+/g, '-')) + '" class="label label-info">' + esc(tag) + '</a> ';
         });
         html += '</p>';
       }
@@ -126,8 +148,10 @@ description: Search blog posts
   var q = urlParams.get('q');
   if (q) {
     document.getElementById('search-input').value = q;
-    // Wait for index to load then search
-    setTimeout(doSearch, 500);
+    // Run as soon as the index resolves rather than guessing at a delay -- a
+    // fixed timeout silently returned nothing whenever the fetch was slower.
+    pendingQuery = q;
+    if (indexReady) { doSearch(); }
   }
 })();
 </script>
