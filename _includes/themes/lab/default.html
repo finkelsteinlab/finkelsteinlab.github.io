@@ -78,7 +78,7 @@
     {% else %}
       {% assign page_title = title_clean | append: ' · ' | append: site.title %}
     {% endif %}
-    {% if page.layout == 'paper' or page.layout == 'paper-md' or page.layout == 'news-md' %}
+    {% if page.layout == 'paper' or page.layout == 'paper-md' or page.layout == 'news-md' or page.layout == 'blog-post' %}
       {% assign og_type = 'article' %}
     {% else %}
       {% assign og_type = 'website' %}
