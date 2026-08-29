@@ -73,6 +73,10 @@ Drafts are named `YYYY-MM-DD-slug.md` just like posts, and `_config.yml`
 gives them the same layout and permalink, so `jekyll serve --drafts`
 previews exactly what publishing will produce.
 
+`blog/_drafts/` is gitignored: a draft is a build artifact of its org
+file, which is the thing under version control. Re-run the converter to
+regenerate it on another machine.
+
 ### Overwriting an existing post
 
 The converter refuses to overwrite a post or draft whose slug already
