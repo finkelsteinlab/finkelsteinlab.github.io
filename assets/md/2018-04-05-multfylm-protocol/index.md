@@ -33,7 +33,9 @@ Whole-lifespan single-cell analysis has greatly increased our understanding of f
 ---
 ## Background
 Cellular aging results in the cumulative decline of cellular function that eventually leads to mortality. Most studies of cellular aging focus on the replicative lifespan of model unicellular organisms, such as budding yeast _Saccharomyces cerevisiae_ ([Nyström and Liu, 2014](#ref19); [Wasko and Kaeberlein, 2014](#ref30); [Wierman and Smith, 2014](#ref31); [Ruetenik and Barrientos, 2015](#ref21)). The replicative lifespan (RLS) of a cell is defined as the number of daughters produced by a mother cell over the course of its life ([Henderson and Gottschling, 2008](#ref8); [Sutphin _et al._, 2014](#ref27)). RLS studies have greatly expanded our understanding of cellular aging in mitotically active cells. For example, in budding yeast, old mothers preferentially retain misfolded proteins and other cellular senescence factors from the budding daughter cells ([Aguilaniu _et al._, 2003](#ref1); [Hughes and Gottschling, 2012](#ref10); [Liu _et al._, 2010](#ref14); [Saka _et al._, 2013](#ref22); [Zhou _et al._, 2014](#ref34); [Paoletti _et al._, 2016](#ref20)). This feat is achieved by restricting the flow of these ‘senescence factors’ across the bud septum, preventing their accumulation in the rejuvenated daughters ([Shcheprova _et al._, 2008](#ref23); [Higuchi-Sanabria _et al._, 2014](#ref9)). Whether senescence factors are also segregated in symmetrically dividing cells is unclear ([Wang _et al._, 2010](#ref29); [Coelho _et al._, 2013](#ref4); [Nakaoka and Wakamoto, 2017](#ref17)). Indeed, relatively little is known about the mechanisms and causes of aging in symmetrically dividing cells. 
+
 Whole-lifespan cellular aging studies require the separation of aging cells from their progeny. Pioneering, early studies in budding yeast removed daughter cells from their mothers via manual microdissection ([Mortimer and Johnston, 1959](#ref16)). Since the first such study in 1959, manual microdissection still remains a popular, albeit laborious method for studying replicative aging in most unicellular organisms ([Mortimer and Johnston, 1959](#ref16); [Kennedy _et al._, 1994](#ref12); [Barker and Walmsley, 1999](#ref2); [Fu _et al._, 2008](#ref6)). However, the low-throughput and laborious nature of this assay limits our current understanding of replicative aging. Most recently, removal of progeny cells has been automated in microfluidic devices that capture and retain individual aging cells ([Wang _et al._, 2010](#ref29); [Lee _et al._, 2012](#ref13); [Xie _et al._, 2012](#ref32); [Zhang _et al._, 2012](#ref33); [Tian _et al._, 2013](#ref28); [Crane _et al._, 2014](#ref5); [Nobs and Maerkl, 2014](#ref18); [Jo _et al._, 2015](#ref11); [Liu _et al._, 2015](#ref15); [Nakaoka and Wakamoto, 2017](#ref17); [Spivey _et al._, 2017](#ref25)). Using such devices, relatively large cohorts of individual cells (100 s to 1,000 s of cells) can then be tracked independently from one another. However, most of these approaches focused on prokaryotic cells or the asymmetrically dividing budding yeast ([Spivey and Finkelstein, 2014](#ref24); [Chen _et al._, 2017](#ref3)). 
+
 Here, we describe the fabrication and assembly of a microfluidic device for capturing and imaging thousands of fission yeast cells over their entire replicative lifespans. The multiplexed fission yeast lifespan microdissector (multFYLM) enables the experimentalist to track the lifespan of over a thousand fission yeast cells ([Spivey _et al._, 2017](#ref25)). The cells may be continuously imaged for up to six independent populations for over a week, yielding high-resolution imaging over each cell’s replicative lifespan. The multFYLM is constructed of silicone elastomer using templates manufactured via UV photo-lithography. The protocol contained herein details construction of the multFYLM, loading with fission yeast cells, and image collection using a fluorescent microscope. We anticipate that this protocol will be broadly useful for long-term imaging of rod-shaped eukaryotic cells and will shed light on diverse biological processes, including cell cycle regulation, chromatin dynamics, proteome homeostasis, and cellular aging. 
 ## Materials and Reagents
   1. Microfabrication
@@ -140,6 +142,7 @@ Chamber design file available at:
 ## Procedure
   1. Microfabrication
 multFYLM microfabrication follows conventional soft lithography methods. The first step is to generate a patterned mold, which can be used to cast devices in elastomeric silicone (PDMS). Such molds, or 'master' structures are created on silicon wafers, using UV lithography to deposit patterns on the surface in an epoxy resin (SU-8). The patterns are dictated by masks, which restrict the ability of a UV light source to cross-link the resin. Their alignment is critical to the proper patterning on the wafer, as features of the final master are contained on each of the two masks. A developer is used to remove unexposed resin, leaving a master that is now ready for use ([Fig. 1](#fig1)). A master can be used repeatedly for at least two years to make hundreds of multFYLM devices. 
+
 _Note: The procedures detailed below should be performed in a cleanroom. All instrument settings are unique to the equipment used and included as a guideline. These settings will need to be adjusted to match the instruments available in a user’s cleanroom. All microfabrication steps should be completed in a single day; although suitable stopping points may exist, they have not been tested._
 
 <figure class="paper-figure" id="fig1">
@@ -340,6 +343,7 @@ Test the PDMS on the wafer for proper hardness.
        2. If not, place it back in the oven, checking every few minutes for proper hardness.
      * 16
 Using a dissection scope, delicately place each of the twelve nanoports over the end of each media conduit of the PDMS as seen in the wafer’s pattern.
+
 Avoid placing a nanoport down more than once on the PDMS surface. Multiple placements can damage multiple fluid passages, and a misaligned port may prevent fluid flow to the corresponding passage.
      * 17
 Pour 14 g PDMS onto the wafer, allowing it to wet the entire surface evenly.
@@ -373,6 +377,7 @@ Cut away excess PDMS from the patterned/ported region of the multFYLM using a ne
 Position the multFYLM under a dissection microscope.
      * 30
 Using a 1 mm biopsy punch, gently punch a hole through the center of each nanoport from the bottom surface through to the top surface.
+
 _Note: The punched region should include the conduit that the nanoport was placed over._
      * 31
 Remove the ‘punched-out’ core of PDMS from the biopsy punch using fine tweezers before withdrawing the biopsy punch from the multFYLM.
@@ -439,6 +444,7 @@ For six tubes that will become the media lines, attach the following fittings:
        5. P-658 Luer adapter, screwed onto the flangeless nut, sandwiching the ferrule.
      * 53
 Connect each media line to a waste line using P-235 connectors.
+
 _Note: Tubing should be prepared ahead of time, and can be stored in ethanol or sterile water until use._
 **_Prepare the microscope for imaging_**
 Turn on the microscope and peripherals, so that they can warm up before the experiment begins. The NIS Elements software (or other control software) should also be opened, as some peripherals may not turn on completely without a signal from the correctly-configured software.
@@ -458,6 +464,7 @@ Start the NIS Elements software suite.
        2. Move the 10x objective into position.
   3. Cell loading and image acquisition
 Below, we describe a protocol to maximize the number of cells that are captured in the multFYLM. Since the multFYLM contains many fine passages, it can become clogged with cell clumps or other debris. Care must be taken while preparing and loading the media and cells to avoid any particles or cell clumps. Further, air can easily dislodge captured cells, and so it should be purged from any upstream components in the fluid path. Use sterile techniques to prevent other microbes from contaminating cells in the multFYLM.
+
 Image acquisition of cells in the multFYLM requires image collection at dozens of locations, regular time intervals, multiple Z planes, and filters corresponding to the range of fluorophores present. While an in-focus Z plane is used for the majority of imaging, the out-focus Z plane allows for greater certainty in defining the cell boundaries. Care should be taken when selecting fluorophores and filters, as spectral separation allows for unambiguous attribution of fluorescence to individual fluorophores.
 **_Prepare media and cells_**
 Make a liter of degassed, filtered YES 225 media, and culture the yeast strains so that they will be in exponential growth-phase on the first day of the experiment.

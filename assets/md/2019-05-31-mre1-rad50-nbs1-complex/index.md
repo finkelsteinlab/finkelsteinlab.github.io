@@ -31,6 +31,7 @@ The Mre11-Rad50-Nbs1 (MRN) complex coordinates the repair of DNA double-strand b
 ---
 ## 1. Introduction
 DNA double-strand breaks (DSBs) are particularly toxic DNA lesions because they disrupt the physical continuity of the DNA duplex [[1](#ref1), [2](#ref2)]. DSBs can arise from genotoxic agents such as cisplatin, etoposide, and ionizing radiation, but are also programmatically generated during meiosis and class switch recombination [[3](#ref3)–[5](#ref5)]. In addition, telomeres can be recognized as DSBs, and end protection mechanisms must be maintained [[6](#ref6)]. The repair of DSBs is essential for cell survival and DSB repair is differentially regulated in cancer cells, providing a promising avenue for therapeutic strategies that target DSB repair-deficient tumors [[7](#ref7)–[9](#ref9)].
+
 The Mre11-Rad50 heterodimer (MR) is a universally conserved complex that recognizes DNA ends and coordinates the repair of DSBs and other DNA lesions (_see_ [Fig. 1](#fig1)). Eukaryotes evolved an additional regulatory subunit (Nbs1 in humans; Xrs2 in yeast) that interacts with other DNA maintenance proteins and further fine-tunes the enzymatic activities of MR. MRN is involved in both DNA damage signaling and the enzymatic processing that ultimately leads to repair [[10](#ref10)–[14](#ref14)]. The MRN complex facilitates these activities via both catalytic and noncatalytic functions. Mre11 is both a 3′−5′ exonuclease and an endonuclease, which can be abolished by a single point mutation (H129N in the human protein) [[15](#ref15)–[17](#ref17)]. Both nucleolytic activities are stimulated by the addition of manganese in the reaction buffer. The physiological context for this manganese requirement is unclear, as Mg²⁺ is likely the predominant cation in nuclei. Mre11 complexes strongly with Rad50, an SMC-like protein that contains two Walker ATPase domains that are linked by long (>50 nm) coiled-coil arms that contain a zinc hook [[18](#ref18)]. This zinc hook facilitates multiple interactions that regulate the activity of the rest of the complex [[18](#ref18)–[20](#ref20)]. The Walker ATPase domains and a short patch of the coiled-coil arms interact with Mre11 to form the globular domain of MRN [[21](#ref21), [22](#ref22)]. Nbs1 serves as a loading platform for interacting partners with the MRN complex, regulates the ATPase activity of Rad50, and localizes the complex to the nucleus [[23](#ref23)–[27](#ref27)].
 <figure class="paper-figure" id="fig1">
 <img src="nihms-1040854-f0001.jpg" alt="Figure 1">
@@ -273,26 +274,47 @@ MRN contains a 3′ to 5′ exonuclease activity and an endonuclease activity [[
 We are indebted to Dr. Mauro Modesti for reagents. This work was supported by CPRIT (to I.J.F.), the National Institutes of Health (GM120554 and CA092584 to I.J.F.) and the Welch Foundation (F-1808 to I.J.F.). M.M.S. is supported by a postdoctoral fellowship, PF-17–169-01-DMC, from the American Cancer Society. L.R.M. is supported by the National Cancer Institute (CA212452). T.T.P. is an investigator of the Howard Hughes Medical Institute. I.J.F. is a CPRIT Scholar in cancer research.
 ## 4 Notes
 1.
+
 High MRN expression requires using healthy cells. This means that >99% of cells should adhere to the bottom within an hour and that the size of the cells should be uniformly small, not enlarged or floating (_see_ [Fig. 2](#fig2) for a representative image of insect cells on a plate). We have used both Sf21 and Sf9 cells successfully with the caveat that MRN yield is critically dependent on using the healthiest cells possible; MRN yield decreases rapidly when cells are not healthy.
+
 2.
+
 High MRN expression is critically dependent on the lot of Fetal Bovine Serum (FBS) that is used for growing the insect cells. Operationally, we screen every new lot of FBS by purifying MRN that is overexpressed in cells grown in the new media. If that particular FBS lot produces MRN expression that is visible after purification, we stockpile that particular lot (50–100 bottles) and keep them frozen at −20 °C until use. Grace’s Media containing 20% FBS is used for T75 flasks with adherent cells, but 15% FBS is used for suspension culture and plates. This amount of FBS should be checked for each lot of FBS purchased.
+
 3.
+
 Bacmid prep should be performed on the same day as transfection.
+
 4.
+
 The large size of Rad50 made it difficult to clone into pFast-bac1. pACEBac1 worked better for cloning and bacmid production.
+
 5.
+
 While amplifying three separate viruses is initially more time-consuming than other multi-component baculovirus expression systems, this strategy offers flexibility in combining different mutant proteins and subcomplexes [[45](#ref45)].
+
 6.
+
 For insect cell culture, it is important to maintain a cycle of passaging/growth that allows the insect cells to stay constantly in log phase but also allows quick identification of slow growing/unhealthy cells. We maintain 10–15 T75 flasks of adherent Sf21’s that are split 1 to 4 from confluency on Thursdays and Mondays. Confluent cells from these flasks on Thursday are diluted into 1 L spinner flasks, which will be ready on Monday to plate into ~60 15-cm dishes for infection. Cells that do not grow well in this timeframe are discarded and fresh freezer stocks are thawed to maintain the best-growing cells. We have previously been able to produce MRN by infecting the suspension cells in the spinner flasks directly. However, for unknown reasons, the lot of serum determines for us whether cells can produce MRN in suspension or adherent cultures.
+
 7.
+
 To obtain higher concentrations of the complex, MR and Nbs1 can be purified separately from two different preparations of insect cells. In this case, Nbs1-FLAG is used to purify the Nbs1 protein separately. The MR subcomplex and Nbs1 can be mixed together and purified by size exclusion chromatography or directly coincubated in biochemical assays. If purification of the full complex is performed, 1 mM ATP should be added to the mixture to promote MRN complex formation.
+
 8.
+
 We have observed 1D diffusive motion of the MRN-GFP molecules along DNA ([Fig. 4](#fig4)). Optionally, the DNA can be poststained with YoYo-1 to determine the position of the double-tethered DNA molecules. The colocalization of the 1D diffusive MRN-GFP molecule with a tethered DNA acts as a control for DNA interaction as opposed to surface-bound molecules.
+
 9.
+
 The presence of manganese in the MRN cleavage buffer dims the quantum dots. To continue imaging over long time frames, shutter the laser in between exposures at a rate of 1 fps or slower (200 ms exposure).
+
 10.
+
 Molecules of Ku that colocalize with MRN and retract to the chromium barriers after turning buffer flow off should be analyzed. The disappearance of Ku at these sites should be quantified based on the amount of time before removal. As controls, nuclease-dead MRN(H129N) or the omission of manganese or ATP from the cleavage buffer should result in Ku remaining on the DNA for the length of the movie ([Fig. 5](#fig5)).
+
 11.
+
 The appearance of a band at ~30 nt indicates MRN cleavage of the DNA next to a Ku-blocked end. As controls, nuclease-dead MRN(H129N) or the omission of manganese, ATP, MRN, or Nbs1 can be used to see the loss of cleavage product ([Fig. 6](#fig6)).
 
 ## References

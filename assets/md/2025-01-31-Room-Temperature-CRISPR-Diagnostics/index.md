@@ -137,7 +137,9 @@ We hypothesized that alternative Cas12a orthologs might outperform LbCas12a in o
 | | 37 | 89 (± 9) | 65 (± 1) | S4g, j |
 
 ᵃLOD expressed as value (mean ± SD) obtained over 5 min windows at 30 and 60 min from data presented in the indicated figures.
+
 ᵇLower-limit based on copies used in experiment where no signal was observed above background.
+
 ᶜLower-limit reported from the earliest value obtained.
 
 To assess the specificity of room-temperature RPA-TsCas12a, reactions targeting HPV-16 were tested for cross-reactivity against other HPV types. Signal with HPV-16, but not HPV types 6b, 18, 31, 45, and 52, was observed ([Fig. 2e](#fig2), [f](#fig2)). Adding up to 3 ng of human genomic DNA did not cause spurious activation (no false positives) in the absence of HPV-16 DNA ([Fig. 2g](#fig2)). Collectively, these findings suggest that RPA-TsCas12a is sensitive and specific, and that room temperature, one-pot RPA-TsCas12a reactions are suitable for further development as diagnostics.
