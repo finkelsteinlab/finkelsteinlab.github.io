@@ -29,33 +29,31 @@ The good news is that the **W** in **HL-4570CDW** stands for wireless. The bad n
 
 And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
 
-All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted. Three prompts built an Android app for a 2011 printer.
-
-    no, i want my own
-
-I had ranked building it third, behind a \$5 app and a 20-minute container. This overruled that.
+All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted:
 
     draft an md plan file then launch a fable agent to inspect and critique.
+
+Claudish … Claudish … Claudish…
 
 The critique found three design errors before a line of code existed. They became corrections, not debugging sessions.
 
     do all of them, work independently until u finish
 
-Plan to working repo in one run.
-
-After churning for about an hour, Fable gave me three choices that were all beyond my comprehension.
+After "gibbering" for about an hour, Fable gave me three choices that were all beyond my comprehension.
 
 I went with what sounded like a standalone app I could sideload via "USB Debugging" on our phones. Sadly, Google is making this route more difficult [in 2027](https://www.androidauthority.com/android-sideloading-changes-timeline-3679204/).
 
-Some time later, Fable spit out this code: [ifinkelstein/printer-android-bridge](https://github.com/ifinkelstein/printer-android-bridge).
+Fable spit out this code: [ifinkelstein/printer-android-bridge](https://github.com/ifinkelstein/printer-android-bridge).
 
 Lo and behold, it installed! And we were off to the printing races!
 
 Good ol' HL-4570CDW is now discoverable on our phones. I'm still amazed that (1) the LLM zero-shotted (zero-shat?) a solution; (2) we could extend this aging, but perfectly capable printer; and (3) I have zero knowledge about Android development. Seems like a great use-case for LLMs!
 
-And now I keep thinking that there's so much more old equipment that we can rescue from the garbage heap with our new LLM capabilities.
+And I somehow still had plenty of tokens left to burn on other projects (more on that later).
 
-Most importantly: Happy wife, Happy life.
+Now I keep thinking that there's so much more old equipment that we can rescue from the garbage heap with our new LLM capabilities.
+
+Most importantly: happy wife, happy life.
 
 PS. This post was inspired by a few other blogs that rescued old hardware via similar means:
 
