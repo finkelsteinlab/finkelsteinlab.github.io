@@ -196,7 +196,11 @@ defaults:
       author: "Ilya Finkelstein"
       permalink: /blog/:slug/
   # Drafts render through the same layout so `jekyll serve --drafts` previews
-  # match what publishing will actually produce.
+  # match what publishing will actually produce. The permalink has to be
+  # repeated here: without it drafts fall back to the site-wide
+  # /:categories/:title and preview at /blog/<slug> rather than the
+  # /blog/<slug>/ a published post gets, which is exactly the mismatch this
+  # block exists to avoid.
   - scope:
       path: "blog/_drafts"
       type: "posts"
@@ -204,3 +208,4 @@ defaults:
       layout: "blog-post"
       category: "blog"
       author: "Ilya Finkelstein"
+      permalink: /blog/:slug/
