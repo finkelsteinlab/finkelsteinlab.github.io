@@ -108,6 +108,21 @@ With alt text instead of a caption, for screen readers:
 #
 # Note [[/path][text]] is a LINK to the image, not an image with alt text.
 
+Several captioned images side by side, in a =figures= block. Each gets an
+equal share of the width and is cropped square so the row lines up; on a
+phone they stack:
+
+#+BEGIN_figures
+#+CAPTION: Figure 1a. The first thing.
+[[/assets/images/blog/example-a.jpg]]
+
+#+CAPTION: Figure 1b. The second thing.
+[[/assets/images/blog/example-b.jpg]]
+#+END_figures
+
+# Keep images in a per-post folder, assets/images/blog/<slug>/, resized to
+# about 800px on the long edge - the site serves them as-is.
+
 * Video And Audio
 
 There is no native org syntax, so drop to raw HTML. Everything between these

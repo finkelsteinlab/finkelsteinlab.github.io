@@ -365,6 +365,30 @@ other.
 `[[/path][description]]` makes a **link** with that text, not an image
 with alt text. For alt text, use `#+ATTR_HTML: :alt ...`.
 
+Keep images in a per-post folder, `assets/images/blog/<slug>/`, resized to
+about 800px on the long edge; nothing resizes them for you.
+
+### Side-by-side figures
+
+Wrap several captioned images in a `figures` special block:
+
+```org
+#+BEGIN_figures
+#+CAPTION: Figure 1a. The printer.
+[[/assets/images/blog/my-post/printer.jpg]]
+
+#+CAPTION: Figure 1b. A tank.
+[[/assets/images/blog/my-post/tank.jpg]]
+#+END_figures
+```
+
+Pandoc turns the block into `<div class="figures">` holding one `<figure>`
+per image, and `blog.css` lays those out on a CSS grid: equal columns,
+images cropped square with `object-fit: cover` so mismatched sources still
+line up, stacking on narrow screens. Two or three images per row works;
+more gets cramped. Any other `#+BEGIN_name` block becomes
+`<div class="name">` the same way, so new layouts are a CSS rule away.
+
 ### Video and audio
 
 Org has no native syntax for media, so drop to raw HTML. Everything between
