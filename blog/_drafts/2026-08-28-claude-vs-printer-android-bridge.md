@@ -15,7 +15,7 @@ This Wednesday, I decided to rescue our old HL-4570CDW laser printer. The printe
 
 <figure>
 <img src="/assets/images/blog/claude-vs-printer-android-bridge/printer.jpg" />
-<figcaption>Figure 1a. The Brother HL-4570CDW, circa 2010. Image: Brother.</figcaption>
+<figcaption>Figure 1a. The Brother HL-4570CDW, circa 2010.</figcaption>
 </figure>
 
 <figure>
@@ -35,7 +35,7 @@ All I knew was that the printer showed up via CUPS on our home network with a st
 
 After churning for about an hour, Fable gave me three choices that were all beyond my comprehension.
 
-I went with what sounded like a standalone app I could sideload it via "USB Debugging" on our phones. Sadly, it sounds like Google may be closing this route in coming Android versions: \<find information on when sideloading will be depreciated\>.
+I went with what sounded like a standalone app I could sideload via "USB Debugging" on our phones. Sadly, Google is closing this route. Starting [September 30, 2026](https://www.androidauthority.com/android-sideloading-changes-timeline-3679204/), certified Android devices in Brazil, Indonesia, Singapore and Thailand will only install apps from [verified developers](https://support.google.com/android-developer-console/answer/16561738), and the requirement goes global in 2027. Unverified apps will still install over ADB, and through an "advanced flow" for power users that adds a one-time setup, a risk acknowledgement, and a 24-hour wait. So a homebrew app like this one will keep working, but only for people willing to plug in a USB cable and type `adb install`.
 
 Some time later, Fable spit out this code: \< link to a GitHub repo. \>
 
