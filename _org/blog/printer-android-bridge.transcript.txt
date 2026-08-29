@@ -1,0 +1,55 @@
+(0.0s - 13.0s) Wednesdays are quickly becoming fable plot code days as I try to burn through my token budget for the week.
+(17.0s - 29.0s) This Wednesday the topic was trying to rescue an old HB457CW laser printer that we have at the house.
+(30.0s - 37.0s) The W, the printer is a tank and will probably outlast me.
+(37.0s - 47.0s) But, and the good news is that the W in the name stands for wireless.
+(47.0s - 57.0s) Unfortunately, the bad news is that this kind of wireless doesn't connect to any modern Android phones.
+(57.0s - 72.0s) And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
+(72.0s - 87.0s) So I thought I'd have a look into it with the residue of our weekly budgets.
+(87.0s - 103.0s) All I knew was that the printer showed up via CUPS on our home network with a static IP.
+(103.0s - 106.0s) And I told fable what I wanted.
+(106.0s - 111.0s) Angle bracket insert prompt here angle bracket.
+(111.0s - 126.0s) After churning for about an hour, fable gave me three choices that were all beyond my comprehension.
+(126.0s - 135.0s) I went with what sounded like a standalone app I could sideload via USB debugging mode on our Android phones.
+(135.0s - 139.0s) These are stock Android phones. I haven't rooted them or anything.
+(139.0s - 146.0s) And so far, as I know, side loading is still permitted on Android phones.
+(146.0s - 154.0s) Thirty minutes later, this is the ADB that fable spit out.
+(154.0s - 159.0s) Angle bracket.
+(159.0s - 164.0s) I had a link to github repo.
+(164.0s - 169.0s) Angle bracket.
+(169.0s - 174.0s) Long behold, installing.
+(174.0s - 177.0s) I had fable also.
+(177.0s - 179.0s) I had cloud code installed on my phone.
+(179.0s - 186.0s) And we were off to the printing races.
+(186.0s - 195.0s) Good old HP 45750CDW has a new lease on life.
+(195.0s - 208.0s) This post was inspired by a few other blogs that raspied old hardware.
+(208.0s - 216.0s) Angle bracket find to a three blog post about building drivers for old hardware.
+(216.0s - 221.0s) Angle brackets.
+(221.0s - 237.0s) And now I keep thinking that there's so much more old equipment that we can rescue from the garbage heap with our new LLM capabilities.
+(237.0s - 239.0s) Happy wife.
+(239.0s - 240.0s) Happy life.
+(240.0s - 241.0s) Happy life.
+(241.0s - 242.0s) Happy life.
+(242.0s - 243.0s) Happy life.
+(243.0s - 244.0s) Happy life.
+(244.0s - 245.0s) Happy life.
+(245.0s - 246.0s) Happy life.
+(246.0s - 247.0s) Happy life.
+(247.0s - 248.0s) Happy life.
+(248.0s - 249.0s) Happy life.
+(249.0s - 250.0s) Happy life.
+(250.0s - 251.0s) Happy life.
+(251.0s - 252.0s) Happy life.
+(252.0s - 253.0s) Happy life.
+(253.0s - 254.0s) Happy life.
+(254.0s - 255.0s) Happy life.
+(255.0s - 256.0s) Happy life.
+(256.0s - 257.0s) Happy life.
+(257.0s - 258.0s) Happy life.
+(258.0s - 259.0s) Happy life.
+(259.0s - 260.0s) Happy life.
+(260.0s - 261.0s) Happy life.
+(261.0s - 262.0s) Happy life.
+(262.0s - 263.0s) Happy life.
+(263.0s - 264.0s) Happy life.
+(264.0s - 265.0s) Happy life.
+(265.0s - 266.0s) Happy life.

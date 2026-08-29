@@ -1,0 +1,37 @@
+# -*- mode: org -*-
+#+TITLE: Printer Android Bridge
+#+DATE: 2026-08-28
+#+DESCRIPTION: Rescuing an old Brother laser printer so it can print from Android phones, with Claude Code doing the heavy lifting.
+#+TAGS: llm, hardware, claude-code
+#+OPTIONS: ^:{}
+
+# Transcribed from the 2026-08-28 voice memo. Lightly cleaned; angle-bracket
+# placeholders are where the recording said "angle bracket".
+
+Wednesdays are quickly becoming Fable Claude Code days as I try to burn through my token budget for the week.
+
+This Wednesday the topic was trying to rescue an old HL-4570CDW laser printer that we have at the house. The printer is a tank and will probably outlast me. The good news is that the W in the name stands for wireless. Unfortunately, the bad news is that this kind of wireless doesn't connect to any modern Android phones. And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
+
+So I thought I'd have a look into it with the residue of our weekly budgets.
+
+All I knew was that the printer showed up via CUPS on our home network with a static IP. And I told Fable what I wanted.
+
+<insert prompt here>
+
+After churning for about an hour, Fable gave me three choices that were all beyond my comprehension. I went with what sounded like a standalone app I could sideload via USB debugging mode on our Android phones. These are stock Android phones. I haven't rooted them or anything. And so far as I know, sideloading is still permitted on Android phones.
+
+Thirty minutes later, this is the ADB that Fable spit out.
+
+<
+I had a link to a GitHub repo.
+>
+
+Lo and behold, installing. I had Fable also. I had Claude Code installed on my phone. And we were off to the printing races. Good old HL-4570CDW has a new lease on life.
+
+This post was inspired by a few other blogs that rescued old hardware.
+
+<link to a three blog post about building drivers for old hardware>
+
+And now I keep thinking that there's so much more old equipment that we can rescue from the garbage heap with our new LLM capabilities.
+
+Happy wife. Happy life.
