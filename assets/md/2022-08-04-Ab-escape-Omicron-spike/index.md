@@ -339,17 +339,21 @@ D.R.B., A.D.E., and J.D.G. have filed patent applications monoclonal antibodies 
 ### Inclusion and diversity
 
 One or more of the authors of this paper self-identifies as an underrepresented ethnic minority in science. The author list of this paper includes contributors from the location where the research was conducted who participated in the data collection, design, analysis, and/or interpretation of the work.
+
 Published: August 4, 2022
 
 ## Supplemental information
 
 Document S1. Figures S1-S5
+
 mmc1.pdf (1.5MB, pdf)
 
 Data S1. Omicron experimental data
+
 mmc2.xlsx (236.1KB, xlsx)
 
 Document S2. Article plus supplemental information
+
 mmc3.pdf (5.7MB, pdf)
 
 ## Data and Code Availability

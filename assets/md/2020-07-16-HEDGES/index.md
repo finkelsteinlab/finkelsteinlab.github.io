@@ -28,6 +28,7 @@ pmcid: PMC7414044
 Synthetic DNA is rapidly emerging as a durable, high-density information storage platform. A major challenge for DNA-based information encoding strategies is the high rate of errors that arise during DNA synthesis and sequencing. Here, we describe the HEDGES (Hash Encoded, Decoded by Greedy Exhaustive Search) error-correcting code that repairs all three basic types of DNA errors: insertions, deletions, and substitutions. HEDGES also converts unresolved or compound errors into substitutions, restoring synchronization for correction via a standard Reed-Solomon outer code that is interleaved across strands. Moreover, HEDGES can incorporate a broad class of user-defined sequence constraints, such as avoiding excess repeats, or too high or too low windowed guanine-cytosine (GC) content. We test our code both via *in silico* simulations and with synthesized DNA. From its measured performance, we develop a statistical model applicable to much larger datasets. Predicted performance indicates the possibility of error-free recovery of petabyte- and exabyte-scale data from DNA degraded with as much as 10% errors. As the cost of DNA synthesis and sequencing continues to drop, we anticipate that HEDGES will find applications in large-scale error-free information encoding.
 * * *
 DNA is an ideal molecular-scale storage medium for digital information [[1–7](#ref1)]. An arbitrary digital message can be encoded as a DNA sequence and chemically synthesized as a pool of oligonucleotide strands. These strands can be stored, duplicated, or transported through space and time. DNA sequencing can then be used to recover the digital message, hopefully exactly. Advances in the cost and scale of DNA synthesis and sequencing are increasingly making DNA-based information storage economically feasible. While synthesis today costs $0.001 per nucleotide, some observers project a decrease of orders of magnitude [[8](#ref8)]. A strand of DNA containing the four natural nucleotides can encode a maximum of 2 bits per DNA character. With this maximum code rate (defined as rate
+
 An ECC must correct the three kinds of errors associated with DNA-substitutions of one base by another, as well as spurious insertions or deletions of nucleotides in the DNA strand (indels). Indels represent more than 50% of observed DNA errors ([Fig. 1 _A_](#fig1)). However, most DNA encoding schemes use ECCs that can only correct substitutions, a standard task in coding theory [[9–12](#ref9)]. The coding theory literature reports only a few ECCs that correct for deletions, and there are no well-established methods for all three of deletions, insertions, and substitutions [[13](#ref13)], [[14](#ref14)]. Prior DNA storage implementations correct for indels by sequencing to high depth, followed by multiple alignment and consensus base calling ([Fig. 1 _B_](#fig1)) [[1](#ref1)], [[3](#ref3)], [[6](#ref6)]. This approach represents an inefficient "repetition" ECC. Moreover, repetition ECCs only correct errors associated with DNA sequencing. Correcting synthesis errors using this approach also requires pooling multiple synthesis reactions, which is the most costly and time-consuming step in DNA-based information storage [[2](#ref2)]. Finally, alignment and consensus decoding does not scale well beyond small proof-of-principle experiments. In sum, ECCs that require high-depth repetition in the stored DNA have very small code rates because a large number of stored nucleotides are required per recovered message bit.
 <figure class="paper-figure" id="fig1">
 <img src="pnas.2004821117fig01.jpg" alt="Figure 1">
@@ -38,12 +39,17 @@ Here, we describe an algorithm to achieve high code rates with a minimum require
 ## Results
 ### HEDGES Theoretical Design.
 [Fig. 1](#fig1) shows the data flow for HEDGES encoding and decoding algorithms. In the terminology of coding theory, HEDGES is an infinite-constraint-length convolutional code (a "tree code") incorporating some features specific to the DNA channel. It is decoded via a stack algorithm that assigns costs to both indels and substitutions. The decoding algorithm succeeds probabilistically, with the ability to signal success or failure. Decoding failures are then regarded as erasures (unknown bits or bytes) and can be corrected in the outer code [i.e., an RS(255,223) code]. Alternatively, the error strand can be discarded and resequenced.
+
 The simplest case is a half-rate code (1 bit encoded per nucleotide) with no constraints on the output DNA sequence, shown in [Fig. 1 _D_](#fig1) (see _SI Appendix_, Fig. S1 for full diagram). The basic plan is a variant of a centuries-old "text auto-key encoding" cryptographic technique [[16](#ref16)] (see also Wikipedia, "Autokey cipher"). We generate a stream of pseudorandom characters
+
 The decoding algorithm sequentially guesses message bits ([Fig. 1 _F_](#fig1)). Each guessed bit [[17](#ref17)].
+
 In summary, the algorithm encodes information as a stream of nucleotides such that any single decoding error in either nucleotide identity or nucleotide position will "poison" the downstream predictions. Thus, on decoding, there will be only one good-scoring chain of guesses-the correct one. In the unlikely case that the heap grows larger than a preset size
 ### Testing *In Silico*.
 For *in silico* testing, we assumed equal rates for substitutions, insertions, and deletions with total error probability per nucleotide
+
 The HEDGES algorithm was implemented in C++ for speed, with a Python-callable interface for encoding/decoding single strands. As an initial validation of programming accuracy and interface design, we used an outer-code concatenated design with packets of 255 strands of length 300 protected by RS(255,223). A detailed description of the encoding design is provided in _SI Appendix_, _Supplementary Text_; all corresponding computer programs are provided in _SI Appendix_ and available via GitHub. For every code rate
+
 We next needed to construct a statistical error model that could be extrapolated to the petabyte or exabyte scale. For this model, we needed to know the rate of bit errors and byte errors in HEDGES output (for each code rate _SI Appendix_, Fig. S2). Decode failures are thus characterized by a single value, the mean run length to failure in a Poisson model. [Fig. 2 _A_](#fig2) shows the byte error rate as a function of code rate, while _SI Appendix_, Fig. S2 gives full details on observed bit and byte error rates, and mean runs to decode failures. Byte error rates were typically 3 to 5 (not 8) times the bit error rates.
 <figure class="paper-figure" id="fig2">
 <img src="pnas.2004821117fig02.jpg" alt="Figure 2">
@@ -52,8 +58,11 @@ We next needed to construct a statistical error model that could be extrapolated
 Using these byte error rates, we then modeled HEDGES in an overall concatenated ECC design. [Fig. 2 _B_](#fig2) shows the average number of message bytes that could be decoded before encountering an uncorrectable error using the concatenated design previously described (see _Methods_ for details). A broad set of code rates (green) are suitable for gigabyte- to exabyte-scale DNA storage. HEDGES decode failures in this region occur every _Discussion_). Similar simulations with the imposed output constraints of no homopolymer runs (e.g., GGGG or AAAA) greater than four, and _SI Appendix_, Fig. S3, and are not substantially different from [Fig. 2](#fig2). We also modeled the effects of sequencing constraints more generally (_SI Appendix_, _Supplementary Text_ and Fig. S4), and the combined model and simulation results indicate that the most common sequencing constraints have minimal impact on HEDGES. In sum, *in silico* simulations indicate that HEDGES is capable of error-free decoding of exabyte-scale messages.
 ### Testing *In Vitro*.
 We next tested real-world ECC performance on a pooled sample of 5,865 synthetic 300-base pair DNA strands that were exposed to accelerated aging or enzymatic mutagenesis. Of these, 18 packets of 255 strands were HEDGES inner-encoded (with subsets at each of six code rates) and then RS(255,223) outer-encoded across strands. Five packets, totaling 1,275 strands, were encoded with an unrelated error correction algorithm [[18](#ref18)], but also served as a negative control on identifying and sequencing HEDGES strands into packets. Each HEDGES strand consisted of _Methods_) flanking a 254-nucleotide DNA payload. When decoded into bytes, each payload comprised a 1-byte packet number, a 1-byte sequence number (these "salt-protected" on encryption; see _Methods_), a message payload whose length depended on the code rate, and a 2-byte runout. The sample was PCR amplified and prepared for Illumina-based sequencing. Additionally, we degraded the DNA separately via error-prone PCR mutagenesis or by incubation at high temperature (see _Methods_). Sequencing was done to a mean depth of
+
 We performed two kinds of tests of the decoding algorithm, with and without knowledge of the encoded message. "Type A" tests assumed knowledge of the 5,865 strand sequences and could be used to characterize the nature of end-to-end DNA error rates. "Type B" tests were blind decodings of the sequenced data, with knowledge only that the pooled DNA contained HEDGES-encoded data in the specified format.
+
 In our Type A tests, 10 to 15% of sequenced strands could not be uniquely identified with any known input strand, even using quite robust N-gram methods, and even for unmutagenized aliquots. This may be the result of the low concentration, or of contamination at some stage; but it also added to the challenge for the blind type B tests.
+
 For strands whose progenitor sequence could be identified, Table 1 shows measured rates of substitution, insertion, and deletion errors. Notably, only the highest mutagenesis kit protocol produced a substantial increase in DNA errors. Data in ref. [[3](#ref3)] estimate DNA degradation over a wide range of timescales and temperatures, suggesting that 50 °C incubation for 8 h should have produced significant mutagenesis. We did not find this, however. So, for further analysis here, we consider only the untreated and high-mutagenesis datasets.
 #### Table 1.
 Observed end-to-end DNA error rates, which includes errors introduced during synthesis, sample handling and storage, preparation, and sequencing
@@ -65,6 +74,7 @@ Deletion | 0.0054 | 0.0045 | 0.0067 | 0.0082 | 0.0040 | 0.0047
 Insertion | 0.0023 | 0.0020 | 0.0032 | 0.0039 | 0.0017 | 0.0019
 Total | 0.0134 | 0.0139 | 0.0277 | 0.0359 | 0.0140 | 0.0151
 The observed total error rates on the order of 1% were approximately doubled and tripled by the medium and high protocols (respectively) of the mutagenesis kit. Incubation at 50 °C for 2 and 8 h had only a small effect and was not further tested.
+
 Table 2 shows the results for decoding strands that were identified as belonging to packets of each code rate. Approximately 3% of the strands failed to decode even at small code rates where, in simulation, there were many fewer such failures. Identification of these strands was ambiguous and may stem from PCR mispriming, oligonucleotide misdimerization, and other next generation sequencing (NGS) library preparation artifacts that can vary from batch to batch. Indeed, for lower code rates (where the ECC was relatively unstressed), strand decode failure rates were slightly higher for the untreated case than for the high-mutagenesis case, presumably due to batch-to-batch variation in the number of such artifacts.
 #### Table 2.
 Measured *in vitro* performance and inferred extrapolation to large datasets
@@ -82,11 +92,13 @@ Observed byte error rate | 0.00034 | 0.00114 | 0.00137 | 0.00345 | 0.00850 | 0.0
 Mean byte errors per RS decode | 0.09 | 0.29 | 0.35 | 0.88 | 2.17 | 7.36
 Mean bytes to uncorrectable | 3.6E+32 | 5.1E+23 | 2.4E+22 | 5.9E+15 | 4.4E+09 | 4.9E+02
 The upper two values in each box are as experimentally measured *in vitro*. The bottom values are inferred from the measured quantities for error-free decoding of large datasets under the same experimental conditions. Colors indicate feasibility for large data storage, by the same criteria as [Fig. 2](#fig2).
+
 For this reason, the values for the mean run to an uncorrectable error in Table 2 are calculated assuming a strategy of rejecting failed decodes, rather than counting them as erasures. We adopted just this rejection strategy in our blind (type B) decoding; the input data were several _Methods_ for details).
 As expected based on the results of Table 2, we achieved error-free decodes of all packets, except in the case of two packets with high mutagenesis at the highest code rate 0.750. With no mutagenesis, 24,000 total reads were required for all 18 packets. With high mutagenesis, 22,000 reads were required for 16 packets, while the undecodable two continued to fail indefinitely. In the successful cases, the number of reads corresponded to about depth 3 on message-bearing message strands. This depth was required merely to sufficiently populate the packets for the outer code to operate due to random strand sampling, not because of any property of HEDGES as the inner code.
 ---
 ## Discussion
 HEDGES is designed to be flexible with respect to DNA strand lengths, DNA sequencing and synthesis technologies, choices of outer code, and interleaving details. The most important feature of HEDGES is that it always either 1) recovers "perfect" synchronization of the individual DNA strand to which it is applied (that is, completely eliminates insertion and deletion errors) or else 2) signals that it is unable to do so by a decode failure. Here "perfect" means that our reported bit and byte error rates, which are small enough to be completely corrected by a standard outer code such as RS, are already inclusive of any residual instances of missynchronization.
+
 In the feasible (green) regions of [Fig. 2](#fig2), HEDGES decode failures occur about every [Fig. 2](#fig2) use strategy 1; those in Table 2 use strategy 2. Importantly, HEDGES allows constraints on the encoded DNA strands such as reducing homopolymer runs and maintaining a balanced GC content. _SI Appendix_, Fig. S3, when compared to [Fig. 2](#fig2), shows that such constraints impose little penalty on both the code rate and error correction level. Thus, we demonstrate that both are viable strategies for error correction.
 We performed both *in silico* and *in vitro* experiments to validate HEDGES across a variety of error rates. Such statistical analyses of rare events, based on both experimental data and simulations, should be a required part of all future proposals for DNA data storage. HEDGES performance on real DNA with observed total errors of Tables 1 and 2) was comparable to computer simulation at the same total DNA error rates and to the statistical model we built using simple Poisson random errors ([Fig. 2](#fig2)). In both cases, HEDGES demonstrates the feasibility of large-scale error-free recovery at code rates up to 0.6 (1.2 bits per nucleotide) for
 ---
@@ -98,6 +110,7 @@ Given a message stream of bits
 ("the message" or "bits"), we want to emit a stream of DNA characters
 ---
 ("the codestream" or "characters"). We first review the case of a half-rate code, where we emit exactly one
+
 We generate a keystream of characters
 | [2]
 ---|---
@@ -105,13 +118,19 @@ where _SI Appendix_, _Supplementary Text_ for initialization.) We then emit a co
 | [3]
 ---|---
 the addition performed modulo 4.
+
 The redundancy necessary for error correction comes from the fact that
+
 Some further details about the encoding algorithm are given in _SI Appendix_, _Supplementary Text_.
 ### HEDGES Decoding Algorithm.
 For simplicity, assume that error rates are "small," so that "most" DNA bases are received as they were intended. (We saw, in _Results_, that DNA character error rates up to Eq. **3** to predict two possibilities for the character
+
 We have not yet accounted for the possibility of insertions and deletions, however. In fact, there are more than the above two possible guesses. We must guess not just
+
 Log probability penalties accumulate additively along any chain of guesses. In the causal case of a chain of all-correct guesses, we accumulate penalties only in the (relatively rare) case of actual errors. However, because of the way that the key Eq. **3**) is constructed, a single wrong guess for either
+
 The rate of decode errors rises in the last several bytes of message, because some incorrect chains don't have time to accumulate bad scores. To counter this, we pad each strand with (typically) two "runout bytes" of message zeros at encode, and ignore them at decode. The need for runout bytes makes the HEDGES algorithm inefficient (and thus unsuitable) for an application needing very short DNA strands (e.g., tens rather than hundreds of nucleotides).
+
 Further details about the decoding algorithm are given in _SI Appendix_, _Supplementary Text_.
 ### Use of Salt to Protect Critical Message.
 In Eq. **3** and [Fig. 1 _D_](#fig1), we allowed for some number of bits of known salt _SI Appendix_, _Supplementary Text_). This is generally the case when the outer code is interleaved across strands. To the outer code decoder, each incorrectly ordered strand is equivalent to a full strand length of random errors, so it is very important to protect strand ID message bits that determine the strand ordering for outer decoding. Here is how salt is enabling of extra protection: Suppose we want to protect an initial
@@ -138,22 +157,30 @@ Eq. **3** for encoding now becomes
 | [5]
 ---|---
 where _SI Appendix_, _Supplementary Text_ for details of this.
+
 Decoding follows exactly the same pattern. Guessing a 2-bit
 ### HEDGES Parameters.
 For encoding, the parameter choices are 1) the choice of code rate and variable bit pattern (as in Table 3), the default case being code rate 0.5; 2) the number _SI Appendix_, _Supplementary Text_.
+
 It is an important point that choosing the decode runtime parameters, for example, _SI Appendix_, _Supplementary Text_ and Fig. S6). One can evaluate success by running time and by the count of errors needing correction by the outer RS code. The parameter values that we suggest may be viewed as starting points.
 ### Imposing DNA Output Sequence Constraints.
 DNA synthesis and sequencing platforms have sequence-dependent error profiles. Imbalanced GC content and homopolymer runs are well known to be problematic, for example, leading to indel and substitution errors or even whole strand dropout errors in popular sequencers such as those from Illumina and Oxford Nanopore [[19](#ref19)], [[20](#ref20)]. Thus, many proposed ECCs impose constraints on GC content, homopolymer runs, or both. These typically involve one-off coding designs for each constraint, often reducing significantly the effective code rate [[7](#ref7)]. An important property of the HEDGES algorithm is that it can accommodate a large class of sequence constraints without additional, one-off, code design. Moreover, constraints may be imposed without decreasing the code rate (a seeming paradox that we explain below).
+
 Consider the class of constraints that can be applied to a nucleotide sequence with only "past" information. That is, from the emitted sequence
+
 The only required change in the HEDGES algorithm is to replace Eq. **5** by
 | [6]
 ---|---
 and output the thus-indexed character in the acceptable set _SI Appendix_, Fig. S1).
+
 Note that Eq. **6** has the same code rate as [**5**]. How is this possible when constraints always act to reduce the number of possible output strings, and hence reduce the channel capacity? The answer is that [**6**] absorbs the reduced capacity completely into the error correction, not into the message. The extreme case is when
+
 This is a versatile scheme. When there is a possibility of emitting an unacceptable homopolymer, [[4](#ref4)]. To disallow GGC motifs, one might have imagined building a bespoke code around triplets of characters encoded as members of a large Galois field [[3](#ref3)] and removing GGC, NGG, and GCN as possible output triples. Within HEDGES, GGC can be disallowed as an afterthought, simply by adding it to the list of forbidden outputs.
 ### Statistical Model of System Designs with Outer Codes.
 We take as input, from _SI Appendix_, Fig. S5, the byte error rate
+
 We assume that the RS error correction is interleaved, that is, runs across strands. We further assume that, as in our example concatenated design, each RS input byte string samples uniformly along the length of the DNA strands and thus sees uncorrelated errors and erasures with their respective mean rates. We implemented this by applying the RS outer code "diagonally" across strands, so that strand ends (for example) are distributed over multiple RS decodes ([Fig. 1 _C_](#fig1)). The number of errors in each RS correction is thus a random Poisson variable
+
 Erasures can occur for two reasons: 1) If the DNA pool is sequenced to a mean depth
 | [7]
 ---|---
@@ -161,20 +188,28 @@ The number of erasures is thus a random Poisson variable
 | [8]
 ---|---
 While the sum of two Poisson variables is Poisson, the factor one-half in front of Eq. **8** involves no simple distribution. Replacing the one-half by either zero or 1 does give Poisson distributions, however, that bound the desired result and turn out to be not too different numerically (in their power-of-ten exponents, which is all we care about). As an approximation, we thus may interpolate by setting the factor back to one-half and pretend that it is still Poisson.
+
 Poisson tail probabilities can be written exactly as incomplete gamma functions [[21](#ref21)]. In our regime of interest, the upper and lower bounds [[22](#ref22)],
 | [9]
 ---|---
 nearly coincide, where
+
 The values in [Fig. 2](#fig2) (red/yellow/green cells) result from performing the above calculations with
 ### Blind Decoding Tests.
 We eliminated reads in which the flanking
+
 Taking the reads one at a time, we first attempted decodes at all six designed code rates, but limiting the hypothesis budget to
+
 When the full decode succeeded, we accepted it as authoritative for that strand by packet and sequence ID, and performed no further full decodes for that strand when encountered. When it failed, we discarded the strand. That is, we did not attempt to rescue bytes up to the failure point.
+
 After every 1,000 strands, we looked for packets that were sufficiently populated to possibly allow RS(255,223) outer error correction, counting missing strands as erasures. When the outer correction eventually succeeded, we marked that packet as done. This is a conservative strategy for testing, using only the first observed read of each strand and a near-maximal number of missing strands in each packet for the outer decode. In practice, after sequencing, one would use all available reads and potentially reduce the error rates even further.
 ### DNA Library Prep and Sequencing.
 A DNA library of 5,865 300-nt oligonucleotides was synthesized by Twist Biosciences. To introduce mutations, the DNA storage library was mutagenized using the Diversify PCR Random Mutagenesis Kit (Takara 630703). Samples were added with 480
+
 To mimic time-dependent aging of DNA, DNA storage library samples were incubated at 50 °C for a period of 2 h or 8 h in water [[3](#ref3)]. Samples were then PCR amplified for 12 cycles using primers IF538 and IF539.
+
 PCR-amplified samples were purified using a PCR cleanup kit (NEB T1030).
+
 Illumina sequencing libraries were prepared using the NEBNext Multiplex Oligos for Illumina (E7335) primer set. Libraries were sequenced on a paired-end MiSeq chip with 300 base pairs of read length. Final library preparation and sequencing was performed by the University of Texas Genomic Sequencing and Analysis Facility (GSAF).
 
 ---
@@ -183,9 +218,13 @@ We thank Twist Biosciences and the GSAF at The University of Texas at Austin for
 
 ## Data Availability.
 The sequenced reads used in testing are available on the Sequence Read Archive (SRA) under accession numbers SAMN14897329, SAMN14897330, SAMN14897331, SAMN14897332, SAMN14897333, SAMN14897334, and SAMN14897335 (SRA Project number PRJNA631961) [[23](#ref23)].
+
 Oligos used in the study are as follows:
+
 IF538:
+
 IF539:
+
 The computer code used for the generation and testing of the inner HEDGES code and outer RS code is available at <https://github.com/whpress/hedges>. This paper utilized two commercial C++ source code libraries: Numerical Recipes (<http://www.numerical.recipes>) and the Schifra Reed-Solomon Error Correcting Code Library (<http://www.schifra.com>). The specific routines used in this paper are freely available for noncommercial use and are included in the above GitHub repository.
 
 ---
