@@ -25,6 +25,11 @@
       host needs font-src too. All of these are invisible in the page source and
       show up only in the network log.
 
+      media-src 'self' exists so a blog post can embed its own <video> or
+      <audio>. Without it default-src 'none' applies and Chrome rejects the
+      load with MEDIA_ELEMENT_ERROR before any request is made, which looks
+      like a broken file rather than a policy block.
+
       giscus (blog comments) is allowed only under /blog/, not site-wide.
       It needs three directives, not one: script-src for client.js, frame-src
       for the /widget iframe it injects, and style-src because the script
@@ -46,6 +51,7 @@
       font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
       img-src 'self' data: https://badges.altmetric.com https://d1uo4w7k31k5mn.cloudfront.net https://cdn.ncbi.nlm.nih.gov https://www.eurekalert.org https://mediasvc.eurekalert.org;
       frame-src https://www.google.com https://www.youtube.com{% if page.url contains '/blog/' %} https://giscus.app{% endif %};
+      media-src 'self';
       connect-src 'self';
       base-uri 'self';
       form-action 'self';
