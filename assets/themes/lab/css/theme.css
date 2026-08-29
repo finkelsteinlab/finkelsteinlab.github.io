@@ -24,8 +24,12 @@
   --ctp-blue: #1e66f5;
   --ctp-lavender: #7287fd;
   
-  /* Grayscale */
-  --ctp-text: #4c4f69;
+  /* Grayscale.
+     Latte's stock text is #4c4f69 (7.5:1 on base), but the site sets body
+     copy in Lato 300, and that thin face in a mid blue-grey reads as
+     washed out. Text is darkened to a near-black of the same hue
+     (about 13:1); the rest of the scale is stock Latte. */
+  --ctp-text: #24263a;
   --ctp-subtext1: #5c5f77;
   --ctp-subtext0: #6c6f85;
   --ctp-overlay2: #7c7f93;
