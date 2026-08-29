@@ -50,7 +50,20 @@ layout: null
 {%- endif -%}
 {% endfor %}
 
-## Optional
+{% comment %}
+  The blog can legitimately be empty (every post a draft), and an empty blog
+  must leave this file byte-identical to what it was before the section
+  existed - no stray heading, no extra blank line. Hence the tag hugging on
+  the `## Blog` and `## Optional` lines: with no posts, the whole block emits
+  nothing at all.
+{% endcomment %}{% assign blog_posts = site.posts | where: 'category', 'blog' %}{% if blog_posts.size > 0 %}## Blog
+
+> Essays, method notes and quick links by Ilya J. Finkelstein. Newest first.
+{% for post in blog_posts %}
+{%- assign b_title = post.title | replace: '&#945;', 'α' | replace: '&#124;', '|' | strip %}{% assign b_date = post.date | date: '%Y-%m-%d' %}{% assign b_desc = post.description | default: '' | strip %}{% assign b_tags = post.tags | join: ', ' | strip -%}
+- [{{ b_title }}]({{ site.production_url }}{{ post.url }}){% if b_date != '' %}: {{ b_date }}{% endif %}.{% if b_desc != '' %} {{ b_desc }}.{% endif %}{% if b_tags != '' %} Tags: {{ b_tags }}.{% endif %}
+{% endfor %}
+{% endif %}## Optional
 
 - [Sitemap](https://finkelsteinlab.org/sitemap.txt): plain-text list of every URL on the site
 - [Full text and abstracts](https://finkelsteinlab.org/llms-full.txt): citation plus abstract for every publication
