@@ -29,9 +29,19 @@ The good news is that the **W** in **HL-4570CDW** stands for wireless. The bad n
 
 And my wife has been asking me for the better part of five years now to be able to print documents from her phone directly to the printer.
 
-All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted:
+All I knew was that the printer showed up via [CUPS](https://en.wikipedia.org/wiki/CUPS) on our home network with a static IP. And I told Fable what I wanted. Three prompts built an Android app for a 2011 printer.
 
-\<insert prompt here\>
+    no, i want my own
+
+I had ranked building it third, behind a \$5 app and a 20-minute container. This overruled that.
+
+    draft an md plan file then launch a fable agent to inspect and critique.
+
+The critique found three design errors before a line of code existed. They became corrections, not debugging sessions.
+
+    do all of them, work independently until u finish
+
+Plan to working repo in one run.
 
 After churning for about an hour, Fable gave me three choices that were all beyond my comprehension.
 
