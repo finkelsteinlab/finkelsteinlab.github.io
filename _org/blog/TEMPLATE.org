@@ -1,0 +1,214 @@
+# -*- mode: org -*-
+#+TITLE: Replace This With Your Post Title
+#+DATE: 2026-08-29
+#+DESCRIPTION: One sentence. This is what appears on the blog index and in search results.
+#+TAGS: crispr methods
+#+BIBLIOGRAPHY: liang_rapid_2015 jiao_noncanonical_2021
+#+OPTIONS: ^:{}
+
+# ============================================================================
+# HOW TO USE THIS FILE
+#
+#   1. Copy it, don't edit it in place:
+#        cp _org/blog/TEMPLATE.org _org/blog/my-new-post.org
+#
+#   2. Fill in the header fields above, write the body, delete the examples.
+#
+#   3. Convert:
+#        ./scripts/org-to-post.sh _org/blog/my-new-post.org --draft   # -> blog/_drafts/
+#        ./scripts/org-to-post.sh _org/blog/my-new-post.org           # -> blog/_posts/
+#
+#   4. Preview:
+#        bundle exec jekyll serve --drafts   # includes drafts
+#        bundle exec jekyll serve            # exactly what will publish
+#
+#   5. Publish: re-run without --draft, commit, merge to master, push.
+#
+# Lines beginning with "# " are org comments. They are never converted and
+# never appear on the site, so leave yourself notes freely.
+#
+# The converter refuses to overwrite an existing post. Pass --force if you
+# really mean to replace one.
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# THE HEADER FIELDS
+#
+# #+TITLE:        Required. Becomes the page <h1> and the URL slug.
+#                 Quotes, colons and apostrophes are all safe.
+#
+# #+DATE:         Optional; defaults to today. Plain 2026-08-29 or org's own
+#                 <2026-08-29 Fri> (what C-c . inserts) both work. Sets the
+#                 URL and the sort order.
+#
+# #+DESCRIPTION:  Strongly recommended. Used for the index entry, the meta
+#                 description, the BlogPosting structured data, and llms.txt.
+#
+# #+TAGS:         REQUIRED - conversion fails without it, because an untagged
+#                 post never appears anywhere in the tag system. Space- or
+#                 comma-separated. Lowercased and slugified for you, so
+#                 "Gene Editing" becomes gene-editing. Check /blog/tags/ and
+#                 reuse an existing tag where one fits.
+#
+# #+BIBLIOGRAPHY: Optional. Zotero citekeys (Better BibTeX), space-separated.
+#                 Zotero must be running. Every key must resolve or the
+#                 conversion aborts - a post is never written with broken
+#                 citations.
+#
+# #+OPTIONS: ^:{} Keep this line. Without it org reads A_B as a subscript, so
+#                 Cas9_v2 would render as Cas9<sub>v2</sub>. With it,
+#                 subscripts need explicit braces: H_{2}O.
+# ---------------------------------------------------------------------------
+
+* Writing The Body
+
+Write normally; a blank line separates paragraphs.
+
+A single ~*~ heading becomes an =<h2>= on the page. The post title is already
+the page's only =<h1>=, so never write one yourself.
+
+** A Subsection
+
+Two stars nests one level deeper.
+
+* Inline Formatting
+
+*bold*, /italic/, =code=, ~verbatim~, and +strikethrough+.
+
+Links are [[https://finkelsteinlab.org][written with the URL first]], then the
+visible text.
+
+Footnotes look like this[fn:1].
+
+# NOTE: put footnote definitions at the END of their section. A footnote
+# definition swallows everything after it until the next heading, so anything
+# placed below one will be absorbed into the footnote.
+
+[fn:1] The footnote text. These get numbered links and a backlink automatically.
+
+* Images
+
+A plain image. Put the file in =assets/images/blog/= and use a site-absolute
+path:
+
+[[/assets/images/blog/example.jpg]]
+
+With a caption, which wraps it in a proper =<figure>= with a =<figcaption>=:
+
+#+CAPTION: What this figure shows, and why it is worth looking at.
+[[/assets/images/blog/example.jpg]]
+
+With alt text instead of a caption, for screen readers:
+
+#+ATTR_HTML: :alt A description of the image for screen readers.
+[[/assets/images/blog/example.jpg]]
+
+# Use CAPTION or ATTR_HTML, not both - together, the attributes land on the
+# <figure> and the alt text is silently lost.
+#
+# Note [[/path][text]] is a LINK to the image, not an image with alt text.
+
+* Video And Audio
+
+There is no native org syntax, so drop to raw HTML. Everything between these
+markers is passed through untouched:
+
+#+BEGIN_EXPORT html
+<video controls preload="metadata" width="100%"
+       poster="/assets/images/blog/poster.jpg">
+  <source src="/assets/video/example.mp4" type="video/mp4">
+  Your browser cannot play this video.
+</video>
+#+END_EXPORT
+
+Audio works the same way:
+
+#+BEGIN_EXPORT html
+<audio controls src="/assets/audio/example.m4a">
+  Your browser cannot play this audio.
+</audio>
+#+END_EXPORT
+
+# Media must be self-hosted under /assets/. The site's Content-Security-Policy
+# allows media from this origin only, so a file hosted elsewhere will be
+# blocked and appear broken.
+#
+# The same escape hatch embeds anything else HTML can do. Third-party embeds
+# (YouTube and Google are already permitted; anything else is not) need a CSP
+# change in _includes/themes/lab/default.html first.
+
+* Quotes
+
+#+BEGIN_QUOTE
+A plain block quote, for something worth setting apart from your own prose.
+#+END_QUOTE
+
+With an attribution, which renders as a closing line:
+
+#+BEGIN_QUOTE
+The best enzyme that nature gave us, then made better still.
+
+--- Attribution goes here
+#+END_QUOTE
+
+* Code
+
+Name the language so it gets syntax highlighting:
+
+#+BEGIN_SRC python
+def resolve(citekey):
+    """Fenced as ```python, highlighted by Rouge."""
+    return lookup(citekey)
+#+END_SRC
+
+#+BEGIN_SRC bash
+rg -n "pattern" --type py
+#+END_SRC
+
+For output or plain text you do not want highlighted:
+
+#+BEGIN_EXAMPLE
+$ ./scripts/org-to-post.sh _org/blog/my-post.org
+  Title: My Post
+  Slug: my-post
+#+END_EXAMPLE
+
+* Lists And Tables
+
+- A bullet
+  - nested one level
+- Another bullet
+
+1. Numbered
+2. Second
+
+Tables use pipes; the separator row is what makes it a table:
+
+| Method    | Off-target risk | Notes                    |
+|-----------+-----------------+--------------------------|
+| Plasmid   | Higher          | Prolonged expression     |
+| RNP       | Lower           | Transient, fast clearing |
+| mRNA      | Middling        | Simpler than RNP         |
+
+# Org has definition lists (- term :: definition) but they do NOT survive
+# conversion - they collapse into two plain lines. Use a two-column table.
+
+A horizontal rule between major shifts in the argument:
+
+-----
+
+* Citations
+
+Cite with [cite:@liang_rapid_2015], using a citekey listed in #+BIBLIOGRAPHY
+at the top. Several at once: [cite:@liang_rapid_2015;@jiao_noncanonical_2021].
+
+These become numbered links to a bibliography generated automatically at the
+end of the post, in Vancouver style. Never write a References section by hand.
+
+* Before You Publish
+
+Delete every section above - they exist only as a reference. What you actually
+need is the header block at the top and your own prose.
+
+Then check the preview in both light and dark mode, and confirm your images
+and any media actually load.
