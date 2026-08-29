@@ -101,12 +101,17 @@
     <!-- Canonical -->
     <link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
 
-    {% if page.layout == 'news-md' or page.layout == 'paper-md' %}
+    {% if page.layout == 'news-md' or page.layout == 'paper-md' or page.layout == 'blog-post' %}
     {% comment %}
       Jekyll converts these archives to HTML and never publishes the .md source,
       so "Full text (md)" actually serves rendered HTML. The genuine source is
       already public, byte for byte, in this repository - point machines at it
       rather than duplicating 100+ files into _site to invent a local endpoint.
+
+      Blog posts are the same deal: page.path is `blog/_posts/<file>.md`
+      relative to the source root, which is exactly where the file lives in
+      the repo. (Unpublished drafts resolve to blog/_drafts/, which is only on
+      the working branch - harmless, since drafts are never deployed.)
     {% endcomment %}
     <link rel="alternate" type="text/markdown"
           href="https://raw.githubusercontent.com/{{ site.repository }}/master/{{ page.path }}"
