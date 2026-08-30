@@ -1,148 +1,124 @@
 # -*- mode: org -*-
-#+TITLE: Who Pays for Your PhD?
+#+TITLE: Who Pays for Your (Biomedicine) PhD?
 #+DATE: 2026-08-27
 #+DESCRIPTION: Where a graduate student's stipend, tuition, and bench fees actually come from, and why independent funding is the best protection against an advisor's funding gap.
 #+TAGS: funding, academia
 #+OPTIONS: ^:{}
 
 # Dictated 2026-08-27, transcribed from "2026-08-27 13-44-03 graduate student funding blog post entry.wav" by blog-dictate.
-# Raw timed transcript: blog/_drafts/graduate-student-funding.transcript.txt
-# Placeholders in <angle brackets> are things to fill in.
-#
-# Dictated preamble, kept here as meta information rather than as post text:
-# "This is text for a new blog post. The text will follow, but first some meta
-# information. I will encapsulate LLM instructions in a new sentence when the LLM
-# needs to collect additional information. For example, I will say LLM, look up
-# the ILS stipends for new graduate students. This should be included in angle
-# brackets and will be used later as a way for the LLM to perform the action
-# within the brackets. Now onwards to the main blog post."
 
-This fall I am teaching Molecular Biology 391, which is a graduate-student-level
-grant writing course. The first day of class I always ask the students how well
-they understand how their salary, tuition, and research expenses are actually
-being funded. When I was a graduate student I certainly didn't understand all
-three of these questions. And when I asked this question last year, many of the
-students in my class had no clue either. This year I am happy to say that only a
-few students didn't have a much clearer understanding of how their work is going
-to be funded.
+Happy start of the semester to all who celebrate!
 
-I personally think it is incredibly important in this day and age to understand
-how the money flows, where the money comes from, and how each student's funding
-is happening. This is because funding is currently being stripped from
-biomedicine and the US research enterprise in general. International students are
-especially hard squeezed because they have much fewer sources of funding,
-including independent funding. And we all know that science is much less fun when
-you can't afford reagents and services. You can't afford even the basic reagents.
-You have to spend your time doing things that can be outsourced to companies.
+This Fall, I am teaching Molecular Biology 391: <description>.
 
-So how do graduate students get funding? I thought I'd collect information here so
-that any curious, I'll collect information. Please see below.
+The first day of class, I asked the students how well they understand how their salary, tuition, and research expenses are funded. I certainly didn't understand any of this when I was a graduate student!  When I asked last year, some of the students were also unsure.
 
-The main reason for doing this is to educate students on how the money flows, to
-give them some agency and understanding in talking to their advisors about how
-their funding works. And most importantly, to highlight that students have
-control, and the best way to get scientific independence is to get funding
-benefits.
+I think every student should understand how the money flows, where it comes
+from, and who is actually paying for them. This is because funding is currently
+being stripped from biomedicine and the US research enterprise in general.
+International students are especially hard squeezed because they have much fewer
+sources of funding, including independent funding. And science is much less fun
+when you can't afford reagents and services, when you can't afford even the basic
+reagents, and you have to spend your time doing things that can be outsourced to
+companies.
 
-Students can self-fund. It's much easier for US nationals, but international
-students also have some private foundation opportunities. <LLM: find the Hopkins
-database and link to it.>
+So how do graduate students get funding? I thought I'd collect what I know here,
+for anyone who is curious. The main reason for doing this is to educate students
+on how the money flows, to give them some agency and understanding in talking to
+their advisors about how their funding works. And most importantly, that students
+have more control than they think: the best way to get scientific independence
+is to get funding of your own.
 
-Onwards to the funding. <LLM: find from my research grant proposals the following
-numbers: graduate stipend 2026, fringe rate graduate students 2026, and tuition
-2026.>
+So let's follow a sample graduate student, say, Jane Einstein. She comes into our
+graduate program, the [[https://ils.utexas.edu/][Interdisciplinary Life Sciences
+(ILS)]] program, in 2026, eager to start her research project. <LLM: find from my
+research grant proposals the following numbers: graduate stipend 2026, fringe
+rate graduate students 2026, and tuition 2026.>
 
-Graduate student funding falls into three buckets. The first is the stipend,
-which is what the student actually sees. The second is the tuition, which is
+What does Jane cost? Her funding falls into three buckets. The first is the
+stipend, which is what Jane actually sees. The second is the tuition, which is
 collected by the university. And the fringe rate, which pays for the student.
 
 # NOTE: the third bucket was cut off here - whisper looped on "the stipend which
 # is what the student actually sees" for about 80 seconds and the end of the
-# fringe sentence is lost. See the raw transcript, 04:08-05:28.
+# fringe sentence is lost.
 
-So let's take a sample graduate student, say, Jane Einstein. She comes into our
-graduate program in 2026, eager and excited to do her research project. When she
-gets here she'll have an opportunity to rotate in up to three different research
-labs. During that time her salary, fringe, and tuition are paid by the graduate
-program, which gets some of its funding from the university and some of its
-funding from the individual departments which contribute to that graduate
-program.
+When she gets here she'll have an opportunity to rotate in up to three different
+research labs. During those rotations, the graduate program pays her salary,
+fringe, and tuition. The program gets some of its funding from the university and
+some from the individual departments which contribute to it.
 
 Note that her time in the lab during these three rotations doesn't exactly align
 with the semester system. So at some point these three rotations end and Jane
-signs on to her research lab. She's very excited to join Professor XYZ as they
-embark on a deep survey of the microbiome of their belly button. <LLM: update the
+signs on to her research lab. She's excited to join Professor XYZ as they embark
+on a deep survey of the microbiome of their belly button. <LLM: update the
 research study to be silly but not stupid or deprecating or weird like this one.>
 
 As soon as Jane signs on the dotted line, her expenses are transferred to her
-advisor's funding. This funding can come from a number of sources, including
-their federal grants, which is generally true for most of my colleagues and
-definitely me; private foundation grants; endowments, the income generated by
-that professor's endowment if they're lucky to have one, and I do not; and any
-kind of charitable giving or corporate research, for example sponsored research
-projects they may have. These are the general buckets that are available to us as
-principal investigators to fund our research personnel.
+advisor's funding. That funding can come from a number of sources: federal
+grants, which is true for most of my colleagues and definitely me; private
+foundation grants; the income from an endowment, if the professor is lucky enough
+to have one, and I do not; and any kind of charitable giving or corporate money,
+for example sponsored research projects.
 
 So now Jane is fully on her advisor's accounts. The advisor pays all of the
 research costs, which total to approximately <LLM: calculate the approximate
 out-of-pocket cost, including research fees, etc.>. In my lab, the bench fees will
 of course depend on the type of project, but as a rule of thumb I budget fifteen
-to twenty thousand dollars per person per year for research expenses, all research
-expenses. That means Jane now has all of her money coming from that person. And
-this is how things will go for Jane, assuming that her advisor's funding is stable
-and everything is copacetic.
+to twenty thousand dollars per person per year, and that has to cover every
+research expense. That means every dollar Jane costs now comes out of her
+advisor's funding. And this is how things will go for Jane, assuming that her
+advisor's funding is stable and everything is copacetic.
 
-But at some point her advisor will suggest that she GTA. Our graduate program has
-a minimum requirement, and most graduate programs have a minimum requirement of
-one long semester. Some graduate programs have requirements for two semesters.
-And in some graduate programs, notably chemistry, students are expected to TA or
-act as graduate research assistants much more. Further, graduate research
-assistants can be full time, which is coincidentally only twenty hours a week in
-our budgeting and accounting system, or half time, which is ten hours a week.
+But at some point her advisor will suggest that she work as a teaching assistant
+(TA). Our graduate program sets a minimum, and for most graduate programs that
+minimum is one long semester (fall or spring); some require two. And in some
+graduate programs, notably chemistry, students are expected to TA much more.
+Further, a TA appointment can be full time, which in our budgeting and accounting
+system means only twenty hours a week, or half time, which means ten hours a week.
 
-Either way, even a full-time TA only covers the TA stipend, which these days is
-much lower than the ILS stipend. <LLM: look up what the TA stipend is in 2026 at
-UT Austin.> The TA stipend is lower because it's set by the teaching office and
-not by our graduate office. So the PI still needs to make up the difference
-between these two salaries, or the students will see a significant cut of <LLM:
-fill in exactly what the cut will look like for the graduate student.>
+Either way, even a full-time TA appointment covers only the TA stipend, which
+these days is much lower than the ILS stipend. <LLM: look up what the TA stipend
+is in 2026 at UT Austin.> The TA stipend is lower because it's set by the
+teaching office and not by our graduate office. So Jane's advisor still needs to
+make up the difference between these two salaries, or Jane will see a significant
+cut of <LLM: fill in exactly what the cut will look like for the graduate
+student.>
 
 But we're not done. What about the fringe and lab fees? Fringe will be covered by
-the teaching office, so that no longer falls on the graduate advisor for that one
-long semester. But the research expenses are still coming out of the graduate
-advisor's grants.
+the teaching office, so that no longer falls on Jane's advisor for that one long
+semester. But the research expenses are still coming out of the advisor's grants.
 
-So what happens if that graduate advisor has a lapse in funding? Well, the best
-thing that can happen is that the graduate student is actually independently
-supported for some or all of their graduate experience, and the best way to do
-that is to apply for independent graduate support. More on that later.
+So what happens if Jane's advisor has a lapse in funding? Well, the best case is
+that Jane has already won her own support, covering some or all of her graduate
+career. That means applying for independent graduate funding, and applying early.
+It's much easier for US nationals, but international students also have some
+private foundation opportunities. <LLM: find the Hopkins database and link to
+it.> More on that later.
 
-But if that student is ineligible or was unable to secure independent funding,
-then there's a slew of less palatable options available to them. They can attempt
-to sign up for more TA opportunities. This will partially cover their salary and
-fringe, and hopefully their graduate advisor still has the funds to make up the
-gap in their salary and cover their bench fees.
+But if Jane is ineligible or cannot secure independent funding, several less
+palatable options remain. She can attempt to sign up for more TA appointments.
+This will partially cover her salary and fringe, and hopefully her advisor still
+has the funds to make up the gap in her salary and cover her bench fees.
 
-They can attempt to join a different lab or be co-supervised by a different lab.
-That would partially cover their expenses. Side note: this may be a good idea in
+She can attempt to join a different lab or be co-supervised by a different lab.
+That would partially cover her expenses. Side note: this may be a good idea in
 general for graduate students. Having two advisors can increase your headaches,
 but also spreads the risk regarding funding.
 
-And in the worst case scenario, the student and the advisor both run out of money.
-Some departments have bridge funding for short periods of time, but that's not
-guaranteed and very much dependent on what the department's chair decides in those
-cases.
+And in the worst case scenario, Jane and her advisor both run out of money. Some
+departments have short-term bridge funding, but that's not guaranteed: the
+department chair decides.
 
-Finally, if the student and their advisor cannot find any additional support for
-the student, then the student has to make the difficult decision of whether they
-want to leave the graduate program with a master's terminal degree. This is of
-course much better than the situation for postdocs and other staff scientists,
-who don't have the TA safety net, so to speak.
+Finally, if Jane and her advisor cannot find any additional support, then Jane
+has to make the difficult decision of whether she wants to leave the graduate
+program with a terminal master's degree. Even in that worst case, graduate
+students have a cushion that postdocs and other staff scientists do not: the TA
+safety net.
 
-But nonetheless, my central point here is to highlight how important it is for
-students to engage their mentors regarding their funding situation, and ultimately
-try to get independent funding. There are many reasons why applying for grants is
-a wonderful career-building opportunity for graduate students, that I think can be
-used more frequently. More on that later. But this just highlights one very strong
-reason for doing that, and that is to get some financial protection and
-independence from the fluctuating funding of your graduate advisor.
+But nonetheless, here is the point: talk to your advisor about how you are paid,
+and go after your own funding. Applying for grants builds a graduate student's
+career in several ways, and I think students could use it far more often. More on
+that later. But this just highlights one very strong reason for doing that, and
+that is to get some financial protection and independence from the fluctuating
+funding of your graduate advisor.

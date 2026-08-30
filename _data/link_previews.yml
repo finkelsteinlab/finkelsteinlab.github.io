@@ -14,3 +14,8 @@
   description: "An Android print service that prints to a 2011 Brother HL-4570CDW over raw TCP 9100, by converting the spooled PDF to PostScript on the phone."
   site: "GitHub"
   image: /assets/images/blog/previews/github-com-ifinkelstein-printer-android-bridge.jpg
+
+- url: "https://ils.utexas.edu/"
+  title: "Interdisciplinary Life Sciences Graduate Programs"
+  description: "UT Austin's umbrella PhD program for Biochemistry, Cell and Molecular Biology, and Microbiology: about 200 students and 130 faculty across Natural Sciences, Engineering, Pharmacy and Dell Medical School."
+  site: "ils.utexas.edu"
