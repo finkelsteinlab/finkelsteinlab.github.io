@@ -77,17 +77,12 @@ previews exactly what publishing will produce.
 file, which is the thing under version control. Re-run the converter to
 regenerate it on another machine.
 
-Work-in-progress org files can live in `blog/_drafts/` too (dictated
-drafts start there), and the converter accepts them from any path:
-
-```bash
-./scripts/org-to-post.sh blog/_drafts/my-post.org --draft
-```
-
+Org sources always live in `blog/_org/`, published or not; draft versus
+published is expressed only by where the converted markdown lands.
 `_config.yml` excludes `*.org`, `*.txt` and audio files under
-`blog/_drafts/`, so `jekyll serve --drafts` does not mistake them for
-posts. Without that, a front-matter-less `.org` is rendered as a draft at
-`/blog/<name>/`. Move the org to `blog/_org/` when it is ready to publish.
+`blog/_drafts/` so a stray scratch file there (the dictation tooling uses
+it for downloads) is never rendered as a post: Jekyll would otherwise
+serve a front-matter-less `.org` as a draft at `/blog/<name>/`.
 
 ### Overwriting an existing post
 
