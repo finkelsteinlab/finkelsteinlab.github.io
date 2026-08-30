@@ -45,8 +45,14 @@ Sciences for 2026-27 is
 [[https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/][$4,608
 a semester in state and $9,081 out of state]]; the proposal on my desk right now
 budgets $5,277 a semester, so $10,554 a year, which covers tuition and fees. And
-the fringe rate, which pays for the student. I budget a graduate student rate of
-11.9%, and UT's published rate for
+the fringe rate, which pays for the student <note: this sentence was cut off in
+the dictation and never says what fringe actually buys. UT's rules say a student
+employed 20 hours a week or more gets SHIP health insurance at no cost, which is
+presumably the answer, but I did not want to put words in your mouth.>. I budget a graduate student rate of
+11.9% <note: the 27 Aug ARPA-H sheet has a "GRA weighted averages" row reading
+1.508 / 1.568 / 1.628, which does not reconcile with the 11.9% in cell B52 or
+with the per-year fringe its own formulas produce (about 12.6%, 13.1%, 13.6%).
+Confirm which rate is the real one.>, and UT's published rate for
 [[https://research.utexas.edu/resources/grant-management-services/budgeting][FY26
 is 14.5% of salary]], projected to climb to 16% by FY29. Note also that the
 $40,000 is not flat over the life of a grant: my current proposal escalates it
@@ -78,7 +84,11 @@ research costs, which total to approximately $70,000 to $75,000 a year: $40,000
 in salary, about $4,800 in fringe, $10,554 in tuition, and then the bench fees on
 top. In my lab, the bench fees will of course depend on the type of project, but
 as a rule of thumb I budget fifteen to twenty thousand dollars per person per
-year, and that has to cover every research expense. That means every dollar Jane
+year, and that has to cover every research expense <note: none of my recent
+proposals carries a per-person supplies line - ARPA-H, Cisterna and CFF all
+budget supplies at the project level. The only per-person figure I found is the
+RM1's $1,200 a month per experimentalist, which is $14,400 a year and roughly
+matches this rule of thumb.>. That means every dollar Jane
 costs now comes out of her advisor's funding. And this is how things will go for
 Jane, assuming that her advisor's funding is stable and everything is copacetic.
 
@@ -93,8 +103,12 @@ Twenty hours is also the threshold for
 health insurance]], so it is not a trivial line.
 
 Either way, even a full-time TA appointment covers only the TA stipend, which
-these days is much lower than the ILS stipend. The TA stipend is lower because
-it's set by the teaching office and not by our graduate office. So Jane's advisor
+these days is much lower than the ILS stipend <note: I could not find a published
+CNS or ILS TA rate for 2026. CNS says it sets standard TA and AI rates each year
+but does not post the dollar figure; the only public number I found is Liberal
+Arts, $21,175 for nine months in 2025-26, a different college. Fill in the real
+number or drop the comparison.>. The TA stipend is lower because it's set by the
+teaching office and not by our graduate office. So Jane's advisor
 still needs to make up the difference between these two salaries. This is not
 optional: [[https://cns.utexas.edu/graduate-education/college-policies/academic-employment][CNS
 policy]] says a graduate salary can be no lower than the TA rate or the
