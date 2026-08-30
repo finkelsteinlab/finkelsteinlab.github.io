@@ -9,7 +9,10 @@
 
 Happy start of the semester to all who celebrate!
 
-This Fall, I am teaching Molecular Biology 391: <description>.
+This Fall, I am teaching MOL 391: Grant Writing and Scientific Presentations, a
+seminar for second-year ILS students who spend the semester writing a two- or
+three-aim proposal in the style of an NIH F31 fellowship on their own
+dissertation project.
 
 The first day of class, I asked the students how well they understand how their salary, tuition, and research expenses are funded. I certainly didn't understand any of this when I was a graduate student!  When I asked last year, some of the students were also unsure.
 
@@ -31,13 +34,21 @@ is to get funding of your own.
 
 So let's follow a sample graduate student, say, Jane Einstein. She comes into our
 graduate program, the [[https://ils.utexas.edu/][Interdisciplinary Life Sciences
-(ILS)]] program, in 2026, eager to start her research project. <LLM: find from my
-research grant proposals the following numbers: graduate stipend 2026, fringe
-rate graduate students 2026, and tuition 2026.>
+(ILS)]] program, in 2026, eager to start her research project.
 
 What does Jane cost? Her funding falls into three buckets. The first is the
-stipend, which is what Jane actually sees. The second is the tuition, which is
-collected by the university. And the fringe rate, which pays for the student.
+stipend, which is what Jane actually sees: ILS pays
+[[https://ils.utexas.edu/current-graduate-students/funding-employment][$40,000 a
+year, or $3,333 a month]]. The second is the tuition, which is collected by the
+university. Jane enrolls in nine hours each long semester, which in Natural
+Sciences for 2026-27 is
+[[https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/][$4,608
+a semester in state and $9,081 out of state]]; in my grant budgets I put in
+$11,000 a year per student, which covers tuition and fees. And the fringe rate,
+which pays for the student. In FY26 that rate is
+[[https://research.utexas.edu/resources/grant-management-services/budgeting][14.5%
+of salary]], projected to climb to 16% by FY29, and my recent proposals budget
+15% to 16% to stay ahead of it.
 
 # NOTE: the third bucket was cut off here - whisper looped on "the stipend which
 # is what the student actually sees" for about 80 seconds and the end of the
@@ -51,8 +62,7 @@ some from the individual departments which contribute to it.
 Note that her time in the lab during these three rotations doesn't exactly align
 with the semester system. So at some point these three rotations end and Jane
 signs on to her research lab. She's excited to join Professor XYZ as they embark
-on a deep survey of the microbiome of their belly button. <LLM: update the
-research study to be silly but not stupid or deprecating or weird like this one.>
+on a study of how sourdough starters evolve when their owners go on vacation.
 
 As soon as Jane signs on the dotted line, her expenses are transferred to her
 advisor's funding. That funding can come from a number of sources: federal
@@ -62,13 +72,13 @@ to have one, and I do not; and any kind of charitable giving or corporate money,
 for example sponsored research projects.
 
 So now Jane is fully on her advisor's accounts. The advisor pays all of the
-research costs, which total to approximately <LLM: calculate the approximate
-out-of-pocket cost, including research fees, etc.>. In my lab, the bench fees will
-of course depend on the type of project, but as a rule of thumb I budget fifteen
-to twenty thousand dollars per person per year, and that has to cover every
-research expense. That means every dollar Jane costs now comes out of her
-advisor's funding. And this is how things will go for Jane, assuming that her
-advisor's funding is stable and everything is copacetic.
+research costs, which total to approximately $72,000 to $77,000 a year: $40,000
+in salary, about $6,000 in fringe, $11,000 in tuition, and then the bench fees on
+top. In my lab, the bench fees will of course depend on the type of project, but
+as a rule of thumb I budget fifteen to twenty thousand dollars per person per
+year, and that has to cover every research expense. That means every dollar Jane
+costs now comes out of her advisor's funding. And this is how things will go for
+Jane, assuming that her advisor's funding is stable and everything is copacetic.
 
 But at some point her advisor will suggest that she work as a teaching assistant
 (TA). Our graduate program sets a minimum, and for most graduate programs that
@@ -76,14 +86,20 @@ minimum is one long semester (fall or spring); some require two. And in some
 graduate programs, notably chemistry, students are expected to TA much more.
 Further, a TA appointment can be full time, which in our budgeting and accounting
 system means only twenty hours a week, or half time, which means ten hours a week.
+Twenty hours is also the threshold for
+[[https://ils.utexas.edu/current-graduate-students/funding-employment][no-cost
+health insurance]], so it is not a trivial line.
 
 Either way, even a full-time TA appointment covers only the TA stipend, which
-these days is much lower than the ILS stipend. <LLM: look up what the TA stipend
-is in 2026 at UT Austin.> The TA stipend is lower because it's set by the
-teaching office and not by our graduate office. So Jane's advisor still needs to
-make up the difference between these two salaries, or Jane will see a significant
-cut of <LLM: fill in exactly what the cut will look like for the graduate
-student.>
+these days is much lower than the ILS stipend. The TA stipend is lower because
+it's set by the teaching office and not by our graduate office. So Jane's advisor
+still needs to make up the difference between these two salaries. This is not
+optional: [[https://cns.utexas.edu/graduate-education/college-policies/academic-employment][CNS
+policy]] says a graduate salary can be no lower than the TA rate or the
+first-year stipend, whichever is higher, and our program requires the PI to
+supplement a TA's stipend so it stays in line with the first-year rate. So Jane
+should not see a cut. If your program has no such rule, this is exactly the
+paragraph to ask your advisor about.
 
 But we're not done. What about the fringe and lab fees? Fringe will be covered by
 the teaching office, so that no longer falls on Jane's advisor for that one long
@@ -93,8 +109,10 @@ So what happens if Jane's advisor has a lapse in funding? Well, the best case is
 that Jane has already won her own support, covering some or all of her graduate
 career. That means applying for independent graduate funding, and applying early.
 It's much easier for US nationals, but international students also have some
-private foundation opportunities. <LLM: find the Hopkins database and link to
-it.> More on that later.
+private foundation opportunities. The best list I know of is the
+[[https://research.jhu.edu/rdt/funding-opportunities/graduate/][Johns Hopkins
+graduate funding database]], which is free, updated monthly, and not limited to
+Hopkins students. More on that later.
 
 But if Jane is ineligible or cannot secure independent funding, several less
 palatable options remain. She can attempt to sign up for more TA appointments.

@@ -19,3 +19,28 @@
   title: "Interdisciplinary Life Sciences Graduate Programs"
   description: "UT Austin's umbrella PhD program for Biochemistry, Cell and Molecular Biology, and Microbiology: about 200 students and 130 faculty across Natural Sciences, Engineering, Pharmacy and Dell Medical School."
   site: "ils.utexas.edu"
+
+- url: "https://ils.utexas.edu/current-graduate-students/funding-employment"
+  title: "ILS Funding & Employment"
+  description: "The official terms: a $40,000 annual stipend ($3,333/month), GRA appointments at 20 hours a week, TA appointments at 10-20, in-state tuition coverage, and no-cost SHIP health insurance at 20 hours or more."
+  site: "ils.utexas.edu"
+
+- url: "https://research.utexas.edu/resources/grant-management-services/budgeting"
+  title: "UT Austin Budgeting and Cost Principles"
+  description: "The rates a PI budgets with: graduate student fringe is 14.5% in FY26 (9/1/25-8/31/26), rising to a projected 16% by FY29. Tuition is excluded from the base that overhead is charged on."
+  site: "research.utexas.edu"
+
+- url: "https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/"
+  title: "UT Austin Tuition Tables"
+  description: "Tuition by college and credit hour. A Natural Sciences graduate student taking nine hours in 2026-27 pays $4,608 a semester in state, $9,081 out of state."
+  site: "catalog.utexas.edu"
+
+- url: "https://cns.utexas.edu/graduate-education/college-policies/academic-employment"
+  title: "CNS Academic Employment Policy"
+  description: "The College of Natural Sciences sets standard TA and AI rates each year, requires GRA appointments to be at or above the TA rate, and guarantees full tuition relief (9 hours fall and spring) for TAs, AIs and GRAs."
+  site: "cns.utexas.edu"
+
+- url: "https://research.jhu.edu/rdt/funding-opportunities/graduate/"
+  title: "Johns Hopkins Graduate Funding Database"
+  description: "A downloadable, monthly-updated database of hundreds of fellowships and funding opportunities for graduate students, compiled by the Hopkins Research Development Team and shared openly."
+  site: "research.jhu.edu"
