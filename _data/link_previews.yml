@@ -44,3 +44,8 @@
   title: "Johns Hopkins Graduate Funding Database"
   description: "A downloadable, monthly-updated database of hundreds of fellowships and funding opportunities for graduate students, compiled by the Hopkins Research Development Team and shared openly."
   site: "research.jhu.edu"
+
+- url: "https://officeofbudget.od.nih.gov/gbipriceindexes.html"
+  title: "Biomedical Research and Development Price Index"
+  description: "NIH's inflation measure for research: the annual change in the BRDPI is how much the NIH budget must grow to keep its purchasing power. Computed by the Bureau of Economic Analysis, last updated June 2025."
+  site: "officeofbudget.od.nih.gov"

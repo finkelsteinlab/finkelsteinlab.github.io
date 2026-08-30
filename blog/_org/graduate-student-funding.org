@@ -92,6 +92,19 @@ matches this rule of thumb.>. That means every dollar Jane
 costs now comes out of her advisor's funding. And this is how things will go for
 Jane, assuming that her advisor's funding is stable and everything is copacetic.
 
+#+CAPTION: What Jane costs her advisor, using the numbers from the proposal on my desk: a $40,000 stipend escalating 3% a year, 11.9% fringe, $10,554 in tuition escalating 2%, and $17,500 in bench fees (the midpoint of my rule of thumb) escalating 3%. Five years of Jane is about $385,000.
+[[/assets/images/blog/who-pays-for-your-biomedicine-phd/jane-cost.png]]
+
+Worth noting that these escalations are not padding: NIH tracks what research
+actually costs with the
+[[https://officeofbudget.od.nih.gov/gbipriceindexes.html][Biomedical Research and
+Development Price Index]], which measures how much the NIH budget has to grow
+just to buy the same amount of science as last year <note: I could not read the
+current BRDPI percentage - the NIH budget office serves the table and the
+projection memo through Cloudflare, which blocked every fetch I tried. The page
+itself says the index was last updated June 2025. Drop in the current annual
+figure if you want a number here.>.
+
 But at some point her advisor will suggest that she work as a teaching assistant
 (TA). Our graduate program sets a minimum, and for most graduate programs that
 minimum is one long semester (fall or spring); some require two. And in some
