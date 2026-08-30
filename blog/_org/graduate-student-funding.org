@@ -43,12 +43,14 @@ year, or $3,333 a month]]. The second is the tuition, which is collected by the
 university. Jane enrolls in nine hours each long semester, which in Natural
 Sciences for 2026-27 is
 [[https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/][$4,608
-a semester in state and $9,081 out of state]]; in my grant budgets I put in
-$11,000 a year per student, which covers tuition and fees. And the fringe rate,
-which pays for the student. In FY26 that rate is
-[[https://research.utexas.edu/resources/grant-management-services/budgeting][14.5%
-of salary]], projected to climb to 16% by FY29, and my recent proposals budget
-15% to 16% to stay ahead of it.
+a semester in state and $9,081 out of state]]; the proposal on my desk right now
+budgets $5,277 a semester, so $10,554 a year, which covers tuition and fees. And
+the fringe rate, which pays for the student. I budget a graduate student rate of
+11.9%, and UT's published rate for
+[[https://research.utexas.edu/resources/grant-management-services/budgeting][FY26
+is 14.5% of salary]], projected to climb to 16% by FY29. Note also that the
+$40,000 is not flat over the life of a grant: my current proposal escalates it
+about 3% a year, to $41,200, then $42,436, then $43,709.
 
 # NOTE: the third bucket was cut off here - whisper looped on "the stipend which
 # is what the student actually sees" for about 80 seconds and the end of the
@@ -72,8 +74,8 @@ to have one, and I do not; and any kind of charitable giving or corporate money,
 for example sponsored research projects.
 
 So now Jane is fully on her advisor's accounts. The advisor pays all of the
-research costs, which total to approximately $72,000 to $77,000 a year: $40,000
-in salary, about $6,000 in fringe, $11,000 in tuition, and then the bench fees on
+research costs, which total to approximately $70,000 to $75,000 a year: $40,000
+in salary, about $4,800 in fringe, $10,554 in tuition, and then the bench fees on
 top. In my lab, the bench fees will of course depend on the type of project, but
 as a rule of thumb I budget fifteen to twenty thousand dollars per person per
 year, and that has to cover every research expense. That means every dollar Jane
