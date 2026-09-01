@@ -30,7 +30,12 @@ title: Blog Feed
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.production_url }}{{ post.id }}</id>
    {% if post.description %}<summary>{{ post.description | xml_escape }}</summary>{% endif %}
-   <content type="html">{{ post.content | xml_escape }}</content>
+   {% comment %}
+     A quote post's content is the bare passage; a feed reader must see the
+     blockquote and the attribution too, or the quote reads as Ilya's words.
+   {% endcomment %}
+   {% if post.kind == 'quote' %}{% capture feed_body %}{% include blog/quote.html post=post body=post.content %}{% endcapture %}{% else %}{% assign feed_body = post.content %}{% endif %}
+   <content type="html">{{ feed_body | xml_escape }}</content>
  </entry>
  {% endfor %}
 

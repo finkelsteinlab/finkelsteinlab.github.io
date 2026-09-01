@@ -20,6 +20,17 @@
 #
 # Citations in text: [cite:@citekey] or [cite:@key1;@key2]
 #
+# Quote posts (a passage from elsewhere, with attribution - the format
+# simonwillison.net uses for its "quotations"):
+# #+KIND: quote
+# #+SOURCE: https://example.org/the-article      (REQUIRED for quotes)
+# #+AUTHOR: Who said it                          (REQUIRED for quotes)
+# #+CONTEXT: their role, or the publication      (optional)
+# The body is the quoted passage itself; the layout wraps it in a
+# <blockquote cite=...> and appends the attribution line. #+TITLE: may be
+# omitted and defaults to "Quoting <author>". #+DESCRIPTION: defaults to the
+# opening of the quote.
+#
 # Environment:
 #   ZOTERO_EXPORT  Path to the Zotero BibTeX exporter.
 #                  Default: $HOME/.pi/agent/skills/zotero/export-bibtex.sh
@@ -167,9 +178,38 @@ DATE_RAW=$(org_keyword DATE)
 DESCRIPTION=$(org_keyword DESCRIPTION)
 TAGS_RAW=$(org_keyword TAGS)
 CITEKEYS_RAW=$(org_keyword BIBLIOGRAPHY)
+KIND=$(org_keyword KIND | tr '[:upper:]' '[:lower:]')
+SOURCE_URL=$(org_keyword SOURCE)
+SOURCE_AUTHOR=$(org_keyword AUTHOR)
+SOURCE_CONTEXT=$(org_keyword CONTEXT)
+
+# --- kind: an ordinary post, or a quote collected from elsewhere ---
+case "$KIND" in
+    ''|post)
+        KIND=post
+        ;;
+    quote)
+        if [ -z "$SOURCE_URL" ]; then
+            die "#+KIND: quote in $ORG_BASE needs a #+SOURCE: URL - the attribution links to it."
+        fi
+        if ! printf '%s' "$SOURCE_URL" | grep -qE '^https?://[^[:space:]"<>]+$'; then
+            die "#+SOURCE: '$SOURCE_URL' in $ORG_BASE is not an http(s) URL."
+        fi
+        if [ -z "$SOURCE_AUTHOR" ]; then
+            die "#+KIND: quote in $ORG_BASE needs an #+AUTHOR: - who is being quoted."
+        fi
+        ;;
+    *)
+        die "unrecognised #+KIND: '$KIND' in $ORG_BASE. Use 'quote', or leave it out for a normal post."
+        ;;
+esac
 
 if [ -z "$TITLE" ]; then
-    die "no #+TITLE: found in $ORG_BASE - every post needs a title."
+    if [ "$KIND" = quote ]; then
+        TITLE="Quoting $SOURCE_AUTHOR"
+    else
+        die "no #+TITLE: found in $ORG_BASE - every post needs a title."
+    fi
 fi
 
 # --- date ---
@@ -254,6 +294,11 @@ echo "  Title: $TITLE"
 echo "  Date: $DATE"
 echo "  Slug: $SLUG"
 echo "  Tags: ${TAGS_LIST[*]}"
+if [ "$KIND" = quote ]; then
+    echo "  Kind: quote"
+    echo "  Quoting: $SOURCE_AUTHOR${SOURCE_CONTEXT:+, $SOURCE_CONTEXT}"
+    echo "  Source: $SOURCE_URL"
+fi
 if [ ${#CITEKEYS[@]} -gt 0 ]; then
     echo "  Citations: ${CITEKEYS[*]}"
 fi
@@ -378,6 +423,18 @@ $(grep -oE '\*\*[^*]+\?\*\*' "$TMP_MD" | sort -u | sed 's/^/    /')
   No post was written."
 fi
 
+# A quote post's description doubles as its og:description and its index
+# blurb. Default it to the opening of the quote, the way a feed reader would.
+if [ "$KIND" = quote ] && [ -z "$DESCRIPTION" ]; then
+    DESCRIPTION=$(pandoc "$ORG_FILE" -f org -t plain --wrap=none \
+        | grep -v '^[[:space:]]*$' | grep -v '^#+' | head -1 \
+        | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+    if [ ${#DESCRIPTION} -gt 200 ]; then
+        DESCRIPTION="${DESCRIPTION:0:200}"
+        DESCRIPTION="${DESCRIPTION% *}…"
+    fi
+fi
+
 # -------------------------------------------------------------------- write
 
 mkdir -p "$OUTPUT_DIR"
@@ -388,6 +445,16 @@ mkdir -p "$OUTPUT_DIR"
     echo "date: $DATE"
     if [ -n "$DESCRIPTION" ]; then
         echo "description: $(yaml_squote "$DESCRIPTION")"
+    fi
+    if [ "$KIND" = quote ]; then
+        # Read by _includes/blog/quote.html. `kind` rather than `type`:
+        # Jekyll reserves `type` on documents for the collection name.
+        echo "kind: quote"
+        echo "source_url: $(yaml_squote "$SOURCE_URL")"
+        echo "source_author: $(yaml_squote "$SOURCE_AUTHOR")"
+        if [ -n "$SOURCE_CONTEXT" ]; then
+            echo "source_context: $(yaml_squote "$SOURCE_CONTEXT")"
+        fi
     fi
     echo "tags:"
     for t in "${TAGS_LIST[@]}"; do

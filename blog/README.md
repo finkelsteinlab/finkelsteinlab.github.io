@@ -188,6 +188,49 @@ default. Override it with the `ZOTERO_EXPORT` environment variable:
 ZOTERO_EXPORT=/path/to/export-bibtex.sh ./scripts/org-to-post.sh blog/_org/my-post.org
 ```
 
+### Quote posts
+
+A short post that is someone else's words with attribution, the way
+[simonwillison.net](https://simonwillison.net/2026/Apr/22/bobby-holley/)
+files a "quotation". Set `#+KIND: quote` and give the source; the body is
+the quoted passage and nothing else:
+
+```org
+#+KIND: quote
+#+TITLE: The New NIH Scoring Rubric
+#+SOURCE: https://example.org/the-article
+#+AUTHOR: Jane Doe
+#+CONTEXT: CTO, Example Corp
+#+TAGS: funding
+#+DATE: 2026-09-01
+
+The first passage you are quoting. [...]
+
+A later passage, with an ellipsis in brackets marking the cut.
+```
+
+| Header | Quote posts |
+|--------|-------------|
+| `#+KIND: quote` | Switches the post to this format. Anything else, or absent, is a normal post. |
+| `#+SOURCE:` | Required. The URL of the original; the attribution links to it and the `<blockquote>` carries it as `cite`. |
+| `#+AUTHOR:` | Required. Who is being quoted. The post's own author is still Ilya. |
+| `#+CONTEXT:` | Optional. Their role, or the publication, shown after the name. |
+| `#+TITLE:` | Optional here. Defaults to `Quoting <author>`. |
+| `#+DESCRIPTION:` | Optional here. Defaults to the first 200 characters of the quote. |
+| `#+TAGS:` | Still required. |
+
+The converter writes `kind`, `source_url`, `source_author` and
+`source_context` into the front matter and leaves the body as it is.
+`_includes/blog/quote.html` does the wrapping, and is used in three places
+so they cannot drift: the post page, the `/blog/` index (which shows the
+whole quote inline rather than a description) and `blog/feed.xml` (so a
+feed reader sees the attribution and does not take the words for Ilya's).
+Styling is the `.blog-quote` block in `blog.css`. Start from
+`blog/_org/TEMPLATE-quote.org`.
+
+Add the source URL to `_data/link_previews.yml` (see below) and the
+attribution link gets a hover card like any other link.
+
 ### Link previews
 
 A link in a post can show a hover card (title, description, image) when
@@ -264,14 +307,17 @@ blog/
 ├── feed.xml          # Atom feed (hand-written, like atom.xml and rss.xml)
 ├── README.md         # This file (excluded from the build)
 └── _org/             # Org source files (underscore dir, ignored by Jekyll)
-    └── TEMPLATE.org  # Commented skeleton — copy this to start a post
+    ├── TEMPLATE.org  # Commented skeleton — copy this to start a post
+    └── TEMPLATE-quote.org  # Skeleton for a quote post (#+KIND: quote)
 _csl/                 # Citation styles
   ├── vancouver.csl   # Vancouver (in use)
   └── nlm.csl         # NLM/Vancouver, Citing Medicine 2nd ed.
 scripts/
   └── org-to-post.sh  # Org → Markdown converter
 _includes/blog/
-  └── giscus.html     # Comments configuration
+  ├── giscus.html     # Comments configuration
+  ├── link-previews.html  # Embeds _data/link_previews.yml for hover cards
+  └── quote.html      # Blockquote + attribution for quote posts
 assets/themes/lab/
   ├── css/blog.css    # Blog styles, loaded only under /blog/
   └── js/lunr.min.js  # Search index library, vendored (not a CDN)
@@ -369,6 +415,7 @@ xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.x
 #+TAGS: REQUIRED - at least one; comma- or space-separated
 #+BIBLIOGRAPHY: citekey1 citekey2 citekey3
 #+OPTIONS: ^:{}
+#+KIND: quote       Optional - makes a quote post; then #+SOURCE: and #+AUTHOR: are required
 ```
 
 ### Headings

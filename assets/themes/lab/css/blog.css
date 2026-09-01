@@ -105,6 +105,46 @@
   font-style: italic;
 }
 
+/* Quote posts (#+KIND: quote in org).
+ *
+ * _includes/blog/quote.html renders the body inside <blockquote cite> and
+ * appends a <p class="cite"> attribution, on the post page, on the index
+ * and in the feed. The generic .blog-content blockquote above is an aside
+ * inside someone's own prose - muted and italic. Here the quote IS the
+ * post, so it is set in the body colour at reading size. */
+.blog-quote blockquote,
+.blog-content .blog-quote blockquote {
+  font-style: normal;
+  font-size: 1.1em;
+  line-height: 1.65;
+  color: var(--color-text);
+  border-left: 4px solid var(--color-accent);
+  margin: 1.25em 0 0.6em;
+  padding: 0.2em 0 0.2em 1.2em;
+}
+
+.blog-quote blockquote p {
+  margin-bottom: 0.9em;
+}
+
+.blog-quote blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-quote .cite {
+  margin: 0 0 1em 1.4em;
+  color: var(--color-text-muted);
+}
+
+.blog-quote .cite .context {
+  font-style: italic;
+}
+
+.blog-listing .blog-quote blockquote {
+  font-size: 1em;
+  margin-top: 0.6em;
+}
+
 .blog-content pre {
   background: var(--color-code-bg);
   color: var(--color-code-text);

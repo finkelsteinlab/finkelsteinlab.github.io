@@ -1,0 +1,21 @@
+{% comment %}
+  A quote post, rendered the way simonwillison.net renders a "quotation":
+  the passage inside <blockquote cite="source">, then an attribution line
+  linking the source, with the speaker's role or publication after it.
+
+  Used by the post layout, the /blog/ index and blog/feed.xml, so the three
+  cannot drift. Call it with the document and its rendered body:
+
+    {% include blog/quote.html post=page body=content %}        (layout)
+    {% include blog/quote.html post=post body=post.content %}   (index, feed)
+
+  The front matter fields come from #+SOURCE:, #+AUTHOR: and #+CONTEXT: in
+  the org file; scripts/org-to-post.sh refuses a quote without the first two.
+{% endcomment %}
+{% assign q = include.post %}
+<div class="blog-quote">
+  <blockquote cite="{{ q.source_url | escape }}">
+{{ include.body }}
+  </blockquote>
+  <p class="cite">&mdash; <a href="{{ q.source_url | escape }}">{{ q.source_author | escape }}</a>{% if q.source_context %}, <span class="context">{{ q.source_context | escape }}</span>{% endif %}</p>
+</div>

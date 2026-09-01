@@ -66,10 +66,15 @@ description: Thoughts on science, methods, and tools from the Finkelstein Lab
         Every post carries a hand-written `description`; use it, and fall
         back to the excerpt only for a post that has none.
       {% endcomment %}
+      {% if post.kind == 'quote' %}
+      {% comment %} A quote is short; show the whole thing inline, attribution included. {% endcomment %}
+      {% include blog/quote.html post=post body=post.content %}
+      {% else %}
       {% assign post_summary = post.description | default: '' | strip %}
       {% if post_summary == '' %}{% assign post_summary = post.excerpt | strip_html | strip | truncate: 250 %}{% endif %}
       {% if post_summary != '' %}
       <p>{{ post_summary }}</p>
+      {% endif %}
       {% endif %}
       
       {% if post.tags.size > 0 %}

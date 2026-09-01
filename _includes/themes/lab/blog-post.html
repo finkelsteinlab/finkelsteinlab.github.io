@@ -4,14 +4,23 @@
     <p class="text-muted">
       <i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
       {% if page.author %} · <i class="far fa-user"></i> {{ page.author }}{% endif %}
-      {% if page.category %} · <span class="label label-default">{{ page.category }}</span>{% endif %}
+      {% if page.kind == 'quote' %} · <span class="label label-default">quote</span>{% elsif page.category %} · <span class="label label-default">{{ page.category }}</span>{% endif %}
     </p>
   </div>
 
   <div class="row">
     <div class="col-md-9">
       <article class="blog-content">
+        {% comment %}
+          A quote post's body is the quoted passage. The include wraps it in
+          <blockquote cite> and adds the attribution; the index and the feed
+          use the same include so all three render the quote identically.
+        {% endcomment %}
+        {% if page.kind == 'quote' %}
+        {% include blog/quote.html post=page body=content %}
+        {% else %}
         {{ content }}
+        {% endif %}
       </article>
       {% include blog/link-previews.html %}
 

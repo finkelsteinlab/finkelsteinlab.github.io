@@ -1,0 +1,44 @@
+# -*- mode: org -*-
+#+KIND: quote
+#+TITLE: Replace This, Or Delete The Line To Get "Quoting <author>"
+#+DATE: 2026-09-01
+#+SOURCE: https://example.org/the-article-you-are-quoting
+#+AUTHOR: Who Said It
+#+CONTEXT: their role, or the publication
+#+TAGS: funding
+#+OPTIONS: ^:{}
+
+# ============================================================================
+# A QUOTE POST: someone else's words, with attribution. Modelled on the
+# "quotations" on simonwillison.net.
+#
+#   cp blog/_org/TEMPLATE-quote.org blog/_org/my-quote.org
+#   ./scripts/org-to-post.sh blog/_org/my-quote.org --draft
+#
+# The body below is the quoted passage and nothing else. The site wraps it in
+# a <blockquote cite="SOURCE"> and appends
+#
+#     — AUTHOR, CONTEXT
+#
+# with AUTHOR linking to SOURCE. Do not write the attribution yourself, and do
+# not use #+BEGIN_QUOTE: you would get a quote inside a quote.
+#
+# #+KIND: quote      Required; this is what switches the format on.
+# #+SOURCE:          Required. http(s) URL of the original.
+# #+AUTHOR:          Required. The person or publication being quoted.
+# #+CONTEXT:         Optional. Shown after the name: "CTO, Firefox".
+# #+TITLE:           Optional. Defaults to "Quoting <author>". It is the
+#                    page <h1> and the URL slug either way.
+# #+DESCRIPTION:     Optional. Defaults to the first 200 characters of the
+#                    quote. Used for the meta description and llms.txt.
+# #+TAGS:            Required, as for every post.
+#
+# Quote verbatim, including the original's punctuation. Mark cuts between
+# passages with [...] at the end of the paragraph before the cut, as below.
+# Bold a phrase (*like this*) if one line is the point.
+# ============================================================================
+
+The first passage, copied exactly. Paragraphs are separated by a blank line as
+usual, and a cut between non-adjacent passages is marked like this. [...]
+
+The second passage. *The sentence that made you save it* can be bolded.
