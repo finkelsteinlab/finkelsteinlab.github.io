@@ -1,0 +1,5 @@
+item,words,hours_low,hours_high,hours_point,source,note
+Manuscript (median research article),4133,4,6,5,Ware & Monkman 2008 median; Sense About Science 2019; article length n=61519,includes writing the report
+Manuscript (Black 1998 plateau),4133,3,3,3,Black et al. 1998 JAMA,quality stops improving after ~3 h
+NIH R01 (aims + research strategy),6500,2,4,3,practitioner estimates; no CSR survey,6-15 applications per round
+Grant proposal (writing it),6500,116,171,116,von Hippel & von Hippel 2015; Herbert 2013 (34 working days ~ 270 h),PI-hours; co-I hours add 55
