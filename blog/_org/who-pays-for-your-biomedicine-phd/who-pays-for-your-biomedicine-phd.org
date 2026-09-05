@@ -93,7 +93,7 @@ costs now comes out of her advisor's funding. And this is how things will go for
 Jane, assuming that her advisor's funding is stable and everything is copacetic.
 
 #+CAPTION: What Jane costs her advisor, using the numbers from the proposal on my desk: a $40,000 stipend escalating 3% a year, 11.9% fringe, $10,554 in tuition escalating 2%, and $17,500 in bench fees (the midpoint of my rule of thumb) escalating 3%. Five years of Jane is about $385,000.
-[[/assets/images/blog/who-pays-for-your-biomedicine-phd/jane-cost.png]]
+[[file:figures/jane-cost.png]]
 
 Worth noting that these escalations are not padding: NIH tracks what research
 actually costs with the
