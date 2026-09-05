@@ -3,6 +3,7 @@
 # org-to-post.sh - Convert org-mode file to Jekyll blog post
 #
 # Usage: ./scripts/org-to-post.sh blog/_org/my-post.org [--draft] [--force]
+#        ./scripts/org-to-post.sh blog/_org/my-post/my-post.org [--draft] [--force]
 #
 # Features:
 # - Extracts front matter from org keywords, emitted as safe YAML
@@ -10,6 +11,9 @@
 #   layout's title stays the page's only <h1>)
 # - Resolves citations from Zotero and FAILS if any citekey does not resolve
 # - Generates a bibliography in Vancouver/NLM style
+# - Copies images referenced relative to the org file ([[file:figures/a.png]])
+#   into assets/images/blog/<slug>/ and rewrites the links, so a post can live
+#   in its own folder next to the code and data that produced its figures
 #
 # Org file format:
 # #+TITLE: My Post Title
@@ -423,6 +427,79 @@ $(grep -oE '\*\*[^*]+\?\*\*' "$TMP_MD" | sort -u | sed 's/^/    /')
   No post was written."
 fi
 
+# Pandoc marks an org link it cannot classify as a "spurious link", which
+# renders as literal text. The usual cause is a relative image written without
+# the file: prefix - [[figures/a.png]] instead of [[file:figures/a.png]].
+if grep -q 'class="spurious-link"' "$TMP_MD"; then
+    die "pandoc could not make sense of these links in $ORG_BASE:
+$(grep -oE 'class="spurious-link" target="[^"]*"' "$TMP_MD" | sed -E 's/.*target="([^"]*)"/    [[\1]]/' | sort -u)
+  A relative image needs the file: prefix: [[file:figures/a.png]].
+  No post was written."
+fi
+
+# ------------------------------------------------------- relative images
+#
+# A post that lives in its own folder (blog/_org/<name>/<name>.org) may point
+# at figures relative to itself - [[file:figures/fig1.png]] - so Emacs can
+# preview them inline and the analysis that made them sits next to the prose.
+# The site cannot serve anything under _org, so each referenced file is copied
+# to assets/images/blog/<slug>/ and the target rewritten to that URL. Only the
+# files the post actually references are copied; supplementary figures in the
+# folder stay out of the build. Nothing is copied until every target resolves.
+
+ORG_DIR="$(cd "$(dirname "$ORG_FILE")" && pwd)"
+IMG_DIR_REL="assets/images/blog/$SLUG"
+IMG_DIR="$REPO_DIR/$IMG_DIR_REL"
+
+REL_IMAGES=()
+while IFS= read -r target; do
+    [ -n "$target" ] && REL_IMAGES+=("$target")
+done < <( { grep -oE '\]\([^)"[:space:]]+\)' "$TMP_MD" | sed -E 's/^\]\(//; s/\)$//'
+            grep -oiE '(src|poster)="[^"]+"' "$TMP_MD" | sed -E 's/^[^=]*="//; s/"$//'
+            grep -oiE "(src|poster)='[^']+'" "$TMP_MD" | sed -E "s/^[^=]*='//; s/'$//"
+          } | grep -iE '\.(png|jpe?g|gif|svg|webp)$' \
+            | grep -vE '^(/|#|[A-Za-z][A-Za-z0-9+.-]*:)' \
+            | sort -u )
+
+# Escape a literal for use inside a sed regex delimited by #.
+sed_escape() {
+    printf '%s' "$1" | sed 's/[][\.*^$+?(){}|\\\/#]/\\&/g'
+}
+
+IMG_REWRITE=()
+IMG_SOURCES=()
+IMG_BASENAMES=()
+if [ ${#REL_IMAGES[@]} -gt 0 ]; then
+    for target in "${REL_IMAGES[@]}"; do
+        src="$ORG_DIR/$target"
+        if [ ! -f "$src" ]; then
+            die "$ORG_BASE references '$target', but there is no such file at
+    $src
+  Relative image paths are resolved against the org file's own folder.
+  No post was written."
+        fi
+        base=$(basename "$target")
+        i=0
+        for existing in ${IMG_BASENAMES[@]+"${IMG_BASENAMES[@]}"}; do
+            if [ "$existing" = "$base" ]; then
+                die "two images in $ORG_BASE share the file name '$base':
+    ${IMG_SOURCES[$i]#"$ORG_DIR/"}
+    $target
+  They would collide in $IMG_DIR_REL/. Rename one.
+  No post was written."
+            fi
+            i=$((i + 1))
+        done
+        IMG_SOURCES+=("$src")
+        IMG_BASENAMES+=("$base")
+        IMG_REWRITE+=(-e "s#\]\($(sed_escape "$target")\)#](/$IMG_DIR_REL/$(sed_escape "$base"))#g")
+        IMG_REWRITE+=(-e "s#(src|poster)=\"$(sed_escape "$target")\"#\1=\"/$IMG_DIR_REL/$(sed_escape "$base")\"#gI")
+        IMG_REWRITE+=(-e "s#(src|poster)='$(sed_escape "$target")'#\1='/$IMG_DIR_REL/$(sed_escape "$base")'#gI")
+    done
+    sed -E "${IMG_REWRITE[@]}" "$TMP_MD" > "$TMP_MD.rewritten"
+    mv "$TMP_MD.rewritten" "$TMP_MD"
+fi
+
 # A quote post's description doubles as its og:description and its index
 # blurb. Default it to the opening of the quote, the way a feed reader would.
 if [ "$KIND" = quote ] && [ -z "$DESCRIPTION" ]; then
@@ -438,6 +515,16 @@ fi
 # -------------------------------------------------------------------- write
 
 mkdir -p "$OUTPUT_DIR"
+
+if [ ${#IMG_SOURCES[@]} -gt 0 ]; then
+    mkdir -p "$IMG_DIR"
+    i=0
+    for src in "${IMG_SOURCES[@]}"; do
+        cp -f "$src" "$IMG_DIR/${IMG_BASENAMES[$i]}"
+        echo "  Image: ${src#"$REPO_DIR/"} -> $IMG_DIR_REL/${IMG_BASENAMES[$i]}"
+        i=$((i + 1))
+    done
+fi
 
 {
     echo "---"
@@ -491,5 +578,8 @@ mkdir -p "$OUTPUT_DIR"
 } > "$OUTPUT_FILE"
 
 printf '%s%s Created: %s%s\n' "$GREEN" "✓" "$OUTPUT_FILE" "$NC"
+if [ ${#IMG_SOURCES[@]} -gt 0 ]; then
+    echo "  Remember to git add $IMG_DIR_REL/ along with the post."
+fi
 echo ""
 echo "Preview URL: http://localhost:4000/blog/$SLUG/"
