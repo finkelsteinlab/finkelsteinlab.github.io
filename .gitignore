@@ -3,9 +3,9 @@ CNAME
 desktop.ini
 *.backup
 .DS_Store
+# Writing happens in blog/_org/ (org sources, notes, data, scripts, figures)
+# and previews in blog/_drafts/. Neither is published from git: the repo
+# carries only the converted blog/_posts/ markdown and the assets they use.
 blog/_drafts/
+blog/_org/
 .claude/skills/blog-dictate/
-blog/_org/**/*.transcript.txt
-blog/_org/**/__pycache__/
-blog/_org/**/.venv/
-blog/_org/**/.ipynb_checkpoints/

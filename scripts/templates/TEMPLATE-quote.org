@@ -12,7 +12,7 @@
 # A QUOTE POST: someone else's words, with attribution. Modelled on the
 # "quotations" on simonwillison.net.
 #
-#   cp blog/_org/TEMPLATE-quote.org blog/_org/my-quote.org
+#   cp scripts/templates/TEMPLATE-quote.org blog/_org/my-quote.org
 #   ./scripts/org-to-post.sh blog/_org/my-quote.org --draft
 #
 # The body below is the quoted passage and nothing else. The site wraps it in

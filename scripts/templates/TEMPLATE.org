@@ -10,10 +10,10 @@
 # HOW TO USE THIS FILE
 #
 #   1. Copy it, don't edit it in place:
-#        cp blog/_org/TEMPLATE.org blog/_org/my-new-post.org
+#        cp scripts/templates/TEMPLATE.org blog/_org/my-new-post.org
 #      or, for a post with code, data and figures attached, into its own folder:
 #        mkdir -p blog/_org/my-new-post/figures
-#        cp blog/_org/TEMPLATE.org blog/_org/my-new-post/my-new-post.org
+#        cp scripts/templates/TEMPLATE.org blog/_org/my-new-post/my-new-post.org
 #      (see "A Post With Research Attached" under Images, below)
 #
 #   2. Fill in the header fields above, write the body, delete the examples.
@@ -26,7 +26,9 @@
 #        bundle exec jekyll serve --drafts   # includes drafts
 #        bundle exec jekyll serve            # exactly what will publish
 #
-#   5. Publish: re-run without --draft, commit, merge to master, push.
+#   5. Publish: re-run without --draft, commit the blog/_posts/ file and any
+#      copied assets, push. blog/_org/ itself is gitignored: the org file and
+#      everything beside it stay on this machine, so back them up yourself.
 #
 # Lines beginning with "# " are org comments. They are never converted and
 # never appear on the site, so leave yourself notes freely.

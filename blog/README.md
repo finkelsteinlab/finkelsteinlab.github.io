@@ -8,19 +8,19 @@ This file is internal and excluded from the build. Everything below is
 verified against the actual pipeline — where something does not work, it says
 so rather than describing an intention.
 
-**Start here:** copy `blog/_org/TEMPLATE.org`, which demonstrates every
+**Start here:** copy `scripts/templates/TEMPLATE.org`, which demonstrates every
 construct that survives conversion and flags the traps inline.
 
 ## Quick Start
 
 ### Writing a New Post
 
-1. **Copy the template** — `blog/_org/TEMPLATE.org` is a commented skeleton
+1. **Copy the template** — `scripts/templates/TEMPLATE.org` is a commented skeleton
    demonstrating every construct that survives conversion, with the traps
    called out inline. Start from it rather than a blank file:
 
 ```bash
-cp blog/_org/TEMPLATE.org blog/_org/my-post.org
+cp scripts/templates/TEMPLATE.org blog/_org/my-post.org
 ```
 
    The header block is all that is strictly required:
@@ -73,9 +73,12 @@ Drafts are named `YYYY-MM-DD-slug.md` just like posts, and `_config.yml`
 gives them the same layout and permalink, so `jekyll serve --drafts`
 previews exactly what publishing will produce.
 
-`blog/_drafts/` is gitignored: a draft is a build artifact of its org
-file, which is the thing under version control. Re-run the converter to
-regenerate it on another machine.
+Both `blog/_org/` and `blog/_drafts/` are gitignored. Writing happens in
+`_org` (org sources, notes, data, scripts, figures) and previewing in
+`_drafts`; neither is part of the site's repository. What the repo carries is
+the converted markdown in `blog/_posts/` and the assets it uses. Back up
+`blog/_org/` by whatever means you back up the rest of your writing; a clone
+of this repo does not contain it.
 
 Org sources always live in `blog/_org/`, published or not; draft versus
 published is expressed only by where the converted markdown lands.
@@ -97,14 +100,13 @@ blog/_org/my-token-limit/
 ├── notes.md                # literature notes, transcript cleanup, todo
 ├── data/*.csv              # inputs; keep the derived table, not the raw dump
 ├── scripts/plots.py        # PEP 723 header, run with uv, like scripts/pmc-to-md.py
-└── figures/fig1.png        # what the scripts write; committed
+└── figures/fig1.png        # what the scripts write
 ```
 
 Everything under `_org` is invisible to Jekyll, including subfolders, so
-nothing here is ever built or served. It is all under version control: the
-point of the folder is that the code behind a published figure survives a
-clone. `__pycache__/`, `.venv/` and `*.transcript.txt` inside these folders
-are gitignored.
+nothing here is ever built or served, and the whole directory is gitignored,
+so none of it is published through git either. The folder keeps the code and
+data behind a post's figures next to the prose that discusses them.
 
 Reference figures **relative to the org file, with the `file:` prefix**:
 
@@ -118,8 +120,8 @@ referenced file into `assets/images/blog/<slug>/` and rewrites the target to
 that URL, so the org file is the single source of truth and nothing is
 copied by hand. Only the files the post actually references are copied;
 supplementary figures stay in the folder and out of the build. The copies
-are committed too — `git add` the assets directory along with the post, as
-the converter reminds you. Three failure modes, all fatal, none of which
+in `assets/` are what gets committed — `git add` that directory along with
+the post, as the converter reminds you. Three failure modes, all fatal, none of which
 writes a post: a target that does not exist, two referenced images with the
 same file name (they would collide in the flat assets directory), and a
 relative path written without `file:` (`[[figures/a.png]]` is not an image to
@@ -271,7 +273,7 @@ so they cannot drift: the post page, the `/blog/` index (which shows the
 whole quote inline rather than a description) and `blog/feed.xml` (so a
 feed reader sees the attribution and does not take the words for Ilya's).
 Styling is the `.blog-quote` block in `blog.css`. Start from
-`blog/_org/TEMPLATE-quote.org`.
+`scripts/templates/TEMPLATE-quote.org`.
 
 Add the source URL to `_data/link_previews.yml` (see below) and the
 attribution link gets a hover card like any other link.
@@ -351,9 +353,7 @@ blog/
 ├── search.json       # Search index (generated)
 ├── feed.xml          # Atom feed (hand-written, like atom.xml and rss.xml)
 ├── README.md         # This file (excluded from the build)
-└── _org/             # Org source files (underscore dir, ignored by Jekyll)
-    ├── TEMPLATE.org  # Commented skeleton — copy this to start a post
-    ├── TEMPLATE-quote.org  # Skeleton for a quote post (#+KIND: quote)
+└── _org/             # Org sources (ignored by Jekyll AND by git; local only)
     ├── <name>.org    # A short post or quote post
     └── <slug>/       # A post with research attached (see "A folder per post")
         ├── <slug>.org
@@ -365,7 +365,10 @@ _csl/                 # Citation styles
   ├── vancouver.csl   # Vancouver (in use)
   └── nlm.csl         # NLM/Vancouver, Citing Medicine 2nd ed.
 scripts/
-  └── org-to-post.sh  # Org → Markdown converter
+  ├── org-to-post.sh  # Org → Markdown converter
+  └── templates/
+      ├── TEMPLATE.org        # Commented skeleton — copy this to start a post
+      └── TEMPLATE-quote.org  # Skeleton for a quote post (#+KIND: quote)
 _includes/blog/
   ├── giscus.html     # Comments configuration
   ├── link-previews.html  # Embeds _data/link_previews.yml for hover cards
