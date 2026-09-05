@@ -11,6 +11,10 @@
 #
 #   1. Copy it, don't edit it in place:
 #        cp blog/_org/TEMPLATE.org blog/_org/my-new-post.org
+#      or, for a post with code, data and figures attached, into its own folder:
+#        mkdir -p blog/_org/my-new-post/figures
+#        cp blog/_org/TEMPLATE.org blog/_org/my-new-post/my-new-post.org
+#      (see "A Post With Research Attached" under Images, below)
 #
 #   2. Fill in the header fields above, write the body, delete the examples.
 #
@@ -127,6 +131,32 @@ phone they stack:
 
 # Keep images in a per-post folder, assets/images/blog/<slug>/, resized to
 # about 800px on the long edge - the site serves them as-is.
+
+** A Post With Research Attached
+
+If the post comes with code, data or generated figures, give it a folder:
+
+#+BEGIN_EXAMPLE
+blog/_org/<slug>/<slug>.org        the post; #+TITLE still sets the URL slug
+blog/_org/<slug>/notes.md          literature notes, todo
+blog/_org/<slug>/data/             inputs
+blog/_org/<slug>/scripts/          analysis; run with uv
+blog/_org/<slug>/figures/          what the scripts write
+#+END_EXAMPLE
+
+Then reference figures relative to the org file, *with the =file:= prefix*:
+
+#+CAPTION: Figure 1. What the data show.
+[[file:figures/fig1.png]]
+
+# Emacs previews that inline (C-c C-x C-v). The converter copies every
+# referenced file into assets/images/blog/<slug>/ and rewrites the link, so
+# nothing is copied by hand. Only referenced files are copied. git add the
+# assets directory along with the post.
+#
+# Without file: - [[figures/fig1.png]] - pandoc does not see an image at all,
+# and the converter stops with an error telling you so. Two referenced images
+# with the same file name also stop it: they would collide in assets/.
 
 * Video And Audio
 

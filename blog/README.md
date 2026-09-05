@@ -84,6 +84,51 @@ published is expressed only by where the converted markdown lands.
 it for downloads) is never rendered as a post: Jekyll would otherwise
 serve a front-matter-less `.org` as a draft at `/blog/<name>/`.
 
+### A folder per post
+
+A post that comes with research — data, analysis scripts, generated figures,
+literature notes — gets its own folder under `blog/_org/`, named after the
+post's slug, with the org file named the same way (so Emacs buffer names stay
+distinct when several posts are open):
+
+```
+blog/_org/my-token-limit/
+├── my-token-limit.org      # the post; #+TITLE still sets the URL slug
+├── notes.md                # literature notes, transcript cleanup, todo
+├── data/*.csv              # inputs; keep the derived table, not the raw dump
+├── scripts/plots.py        # PEP 723 header, run with uv, like scripts/pmc-to-md.py
+└── figures/fig1.png        # what the scripts write; committed
+```
+
+Everything under `_org` is invisible to Jekyll, including subfolders, so
+nothing here is ever built or served. It is all under version control: the
+point of the folder is that the code behind a published figure survives a
+clone. `__pycache__/`, `.venv/` and `*.transcript.txt` inside these folders
+are gitignored.
+
+Reference figures **relative to the org file, with the `file:` prefix**:
+
+```org
+#+CAPTION: What Jane costs her advisor.
+[[file:figures/jane-cost.png]]
+```
+
+Emacs previews that inline (`C-c C-x C-v`). The converter copies each
+referenced file into `assets/images/blog/<slug>/` and rewrites the target to
+that URL, so the org file is the single source of truth and nothing is
+copied by hand. Only the files the post actually references are copied;
+supplementary figures stay in the folder and out of the build. The copies
+are committed too — `git add` the assets directory along with the post, as
+the converter reminds you. Three failure modes, all fatal, none of which
+writes a post: a target that does not exist, two referenced images with the
+same file name (they would collide in the flat assets directory), and a
+relative path written without `file:` (`[[figures/a.png]]` is not an image to
+pandoc; it becomes a "spurious link" and renders as text).
+
+Short posts and quote posts do not need a folder. A flat
+`blog/_org/<name>.org` with site-absolute image paths still works exactly as
+before; the converter takes either.
+
 ### Overwriting an existing post
 
 The converter refuses to overwrite a post or draft whose slug already
@@ -308,7 +353,14 @@ blog/
 ├── README.md         # This file (excluded from the build)
 └── _org/             # Org source files (underscore dir, ignored by Jekyll)
     ├── TEMPLATE.org  # Commented skeleton — copy this to start a post
-    └── TEMPLATE-quote.org  # Skeleton for a quote post (#+KIND: quote)
+    ├── TEMPLATE-quote.org  # Skeleton for a quote post (#+KIND: quote)
+    ├── <name>.org    # A short post or quote post
+    └── <slug>/       # A post with research attached (see "A folder per post")
+        ├── <slug>.org
+        ├── notes.md
+        ├── data/
+        ├── scripts/
+        └── figures/  # referenced as [[file:figures/x.png]]; copied to assets/
 _csl/                 # Citation styles
   ├── vancouver.csl   # Vancouver (in use)
   └── nlm.csl         # NLM/Vancouver, Citing Medicine 2nd ed.
@@ -456,6 +508,17 @@ with alt text. For alt text, use `#+ATTR_HTML: :alt ...`.
 
 Keep images in a per-post folder, `assets/images/blog/<slug>/`, resized to
 about 800px on the long edge; nothing resizes them for you.
+
+A post in its own folder (see "A folder per post") references its figures
+relative to the org file instead, and the converter copies them there:
+
+```org
+#+CAPTION: Figure 1. What the data show.
+[[file:figures/fig1.png]]
+```
+
+The `file:` prefix is required for relative paths; site-absolute paths work
+with or without it.
 
 ### Side-by-side figures
 
