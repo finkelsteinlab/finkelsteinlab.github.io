@@ -57,7 +57,7 @@ I have seen people say that any graduate student could have done this. I've supe
 Perhaps most importantly, automating this kind of grunt work accelerates hypothesis testing. With sufficient resources, I'd be doing hundreds of similar campaigns right now. I'm sure Anthropic already is.
 
 * We still need experts
-Dr. Peter Yoon is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. Januka Athukoralage[fn:athukoralage-crispr]), and recombinases (Drs., Perry and Durrant). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
+Dr. [[https://www.linkedin.com/in/peter-hyungjun-yoon][Peter Yoon]] is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. [[https://www.linkedin.com/in/januka-athukoralage][Januka Athukoralage]][fn:athukoralage-crispr]), and recombinases (Drs., [[https://www.linkedin.com/in/nicholas-perry-5a6776a3][Perry]] and [[https://www.linkedin.com/in/matthew-durrant][Durrant]]). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
 
 If nothing else, this proves that LLMs are great accelerators for expert-driven hypothesis generation.
 
