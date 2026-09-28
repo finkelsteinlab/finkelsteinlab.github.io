@@ -55,3 +55,33 @@
   description: "Satire from In Preparation: the NIH replaces its 50-year-old numerical scoring system with a three-emoji format, in which grant applications receive a thumbs up, a shrug, or a laughing face."
   site: "In Preparation"
   image: /assets/images/blog/previews/inpreparation-substack-com-p-nih-simplifies-grant-scoring-to.jpg
+
+- url: "https://mathstodon.xyz/@tao/115639984077620023"
+  title: "Terence Tao on automated sweeps of the Erdős problems (2/3)"
+  description: "AI-powered literature searches and Lean formalization have resolved a dozen problems listed as open on the Erdős problem site, including one that three of Erdős's papers stated inconsistently."
+  site: "Mathstodon"
+
+- url: "https://mathstodon.xyz/@tao/115639985263560286"
+  title: "Terence Tao on clearing the lowest-hanging fruit (3/3)"
+  description: "Systematic scans for misformulated problems stay near the tip of the long tail, but they help human researchers by isolating the problems that are genuinely difficult."
+  site: "Mathstodon"
+
+- url: "https://mathstodon.xyz/@tao/117207855800042681"
+  title: "Terence Tao on what an opaque proof leaves out (5/6)"
+  description: "The value of attacking Navier-Stokes lies in the failed ansatzes along the way. An AI harness that runs the whole iteration internally and publishes only the answer adds almost nothing to mathematics."
+  site: "Mathstodon"
+
+- url: "https://mathstodon.xyz/@tao/117207856734787448"
+  title: "Terence Tao on why pure mathematics poses its problems (6/6)"
+  description: "Open problems are posed because human efforts to solve them develop the field. Solving one prematurely by opaque AI methods can be a net negative for mathematics as a whole."
+  site: "Mathstodon"
+
+- url: "https://mathstodon.xyz/@tao/117237322160500501"
+  title: "Terence Tao on the incentives against sharing (3/4)"
+  description: "Identifying a promising problem is now the scarce resource. Tao warns that even a rumor can trigger a massive AI effort to flatten it, pushing researchers to stop sharing directions at all."
+  site: "Mathstodon"
+
+- url: "https://www.science.org/doi/10.1126/science.adq0553"
+  title: "Structure-guided discovery of ancestral CRISPR-Cas13 ribonucleases"
+  description: "Yoon and colleagues mine sequence databases for an ancestral clade of Cas13 RNA-targeting enzymes, published in Science in 2024. First author Peter Yoon later joined Anthropic's life sciences group."
+  site: "Science"
