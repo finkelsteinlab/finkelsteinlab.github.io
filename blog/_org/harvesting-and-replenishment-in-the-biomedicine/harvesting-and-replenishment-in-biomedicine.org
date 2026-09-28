@@ -91,7 +91,7 @@ But I also want the next round of data deposited, the next students trained, and
 
 * Back to the bench
 
-Feng Zhang calls this an example of how AI agents can "contribute to biological discovery."[fn:zhang] This is indeed a very interesting contribution.
+Feng Zhang calls the identification of RNA-repeat arrays next to reverse transcriptases "genuinely intriguing," and says it "merits further investigation."[fn:zhang] This is indeed a very interesting contribution.
 
 Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in  anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
@@ -213,9 +213,11 @@ run on.
 [fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
 enzyme system,"
 [[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
-Note that this is Anthropic's own release. Zhang's comments to /Bloomberg/
-on 27 September 2026 were rather more guarded, describing the RNA-repeat
-association as intriguing and worth further investigation rather than
-established.
+Note that this is Anthropic's own release, so he is being polite; even so,
+the operative words are "intriguing" and "merits further investigation,"
+not "breakthrough." I could not find a separate quote from him anywhere
+else: the secondary coverage, including Robert Langreth's Bloomberg piece
+on outside experts counseling caution ("Anthropic Crispr-Like Findings Draw
+Caution From Scientists," 25 September 2026), reuses this same sentence.
 
 [fn:mhs] Anthropic, "Previewing the Model Hardware Standard," 27 August 2026: [[https://www.anthropic.com/news/model-hardware-standard-research-preview][announcement]].
