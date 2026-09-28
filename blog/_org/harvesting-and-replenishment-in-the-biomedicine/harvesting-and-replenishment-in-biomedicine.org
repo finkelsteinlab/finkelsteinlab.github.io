@@ -66,7 +66,7 @@ And what happens after the big-compute labs strip-mine useful nuggets using publ
 
 That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research[fn:nih-data][fn:nsf-data].
 
-But I also want the next big databases to be publically released, the next students trained, and human intuition-driven questions given enough resources to surprise us. 
+But I also want the next big databases to be publicly released, the next students trained, and human intuition-driven questions given enough resources to surprise us. 
 
 * Back to the bench
 
