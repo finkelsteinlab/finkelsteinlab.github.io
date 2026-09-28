@@ -15,7 +15,8 @@ TL;DR: This is an interesting result! If a student brought me this observation, 
 
 * An interesting system with unknown significance
 
-A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (e.g., HIV) rely on these types of enzymes. Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research area[fn:millman][fn:bobonis][fn:tang][fn:song][fn:carabias][fn:buffington]. We, and others, have been developing these RTs into precise genome editors[fn:buffington][fn:kong][fn:shipman][fn:fraser].  
+A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (e.g., HIV) rely on these types of enzymes. Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research area[fn:millman][fn:bobonis][fn:tang][fn:song][fn:carabias][fn:buffington].
+We, and others, have been developing these RTs into precise genome editors[fn:buffington][fn:kong][fn:shipman][fn:fraser].  
 
 So it's perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscent of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly named array-associated reverse transcriptases, or ARTs).[fn:pr2]
 
@@ -29,7 +30,7 @@ The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye a *ta
 
 I have seen people say that any graduate student could have done this. I've supervised students who have done similar projects. In my experience, a junior student could spend a year or more running this type of campaign. And there's no guarantee that they'd see this signal. I am not even sure that a standard DNA repeat finder (e.g., PILER-CR[fn:piler-cr] or other repeat finders) would catch these long spacers and imperfect repeats.
 
-Perhaps most importantly, automating this kind of grunt work accelerates hypothesis testing. With sufficient resources, I'd be doing hundreds of similar campaigns right now. I'm sure Anthropic already is.
+Perhaps most importantly, automating this kind of grunt work accelerates hypothesis generation. With sufficient resources, I'd be doing hundreds of similar campaigns right now. I'm sure Anthropic already is.
 
 * We still need experts
 Dr. [[https://www.linkedin.com/in/peter-hyungjun-yoon][Peter Yoon]] is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. [[https://www.linkedin.com/in/januka-athukoralage][Januka Athukoralage]][fn:athukoralage-crispr]) and recombinases (Drs. [[https://www.linkedin.com/in/nicholas-perry-5a6776a3][Perry]] and [[https://www.linkedin.com/in/matthew-durrant][Durrant]]). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
@@ -65,7 +66,7 @@ And what happens after the big-compute labs strip-mine useful nuggets using publ
 
 That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research[fn:nih-data][fn:nsf-data].
 
-But I also want the next round of data deposited, the next students trained, and the unpromising questions given enough attention to surprise us. 
+But I also want the next big databases to be publically released, the next students trained, and human intuition-driven questions given enough resources to surprise us. 
 
 * Back to the bench
 
@@ -81,7 +82,7 @@ MHS also helps researchers and engineers more readily orchestrate autonomous, ro
 --- Anthropic, announcing its Model Hardware Standard[fn:mhs]
 #+END_QUOTE
 
-If they succeed here, it will be a much bigger deal than the ART-RT press release.
+If they succeed here, it will be a much bigger deal than their ART-RT press release.
 
 * Notes
 
