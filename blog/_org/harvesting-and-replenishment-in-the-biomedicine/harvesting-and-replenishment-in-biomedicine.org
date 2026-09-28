@@ -26,23 +26,22 @@
 #   - decide whether to name the Copenhagen group. The NYT names them; I have
 #     not talked to them and would rather not pile on.
 #   - the Feng Zhang quote is from Anthropic's own release, where he is being
-#     polite. Checked 2026-09-28: Bloomberg is behind a bot wall and none of
-#     the secondary coverage carries a separate quote from him, so the post
-#     now uses his full sentence from the release. Revisit if he says more.
+#     polite. Check his Bloomberg comments and use those instead if they are
+#     more representative.
 #   - possible figure: redraw the repeat-array cartoon from Fig 1F.
 #   - link-preview entries for the science.org and mathstodon links?
 
-Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will systematize and accelerate the sort of discovery that gave us restriction enzymes, Taq polymerase, and CRISPR itself, by way of "a new way of doing biology research, in which agents collaborate with humans in every step of the process." So is this a BFD? I've been thinking about it all weekend!
+Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RT)--several people sent me Anthropic's big announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will systematize and accelerate the sort of discovery that gave us restriction enzymes, Taq polymerase, and CRISPR itself, by way of "a new way of doing biology research, in which agents collaborate with humans in every step of the process." So is this a BFD? I've been thinking about it all weekend!
 
-TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. 
+TL;DR: This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. 
 
 * An interesting system with unknown significance
 
-A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (ie., HIV) rely on these types of enzymes.  Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research areas, with many labs showing the many  surprising ways that there RTs work. Retrons guard other defense proteins and trigger abortive infection when a phage disables them[fn:millman]. Others sit inside tripartite toxin-antitoxin modules[fn:bobonis]. One family writes an entirely new protein-coding gene off a non-coding RNA template[fn:tang]. Another pumps out long, poly(A)-rich cDNA that appears to sponge up an essential phage protein[fn:song]. In retron-Eco1, the reverse-transcribed msDNA itself cages an NAD+-destroying effector until a phage sets it loose[fn:carabias]. And we have shown that retron RTs can be re-engineered into precise genome editors for mammalian cells and vertebrate embryos[fn:buffington].  
+A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (e.g., HIV) rely on these types of enzymes. Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research area, with many labs showing the many surprising ways that these RTs work. Retrons guard other defense proteins and trigger abortive infection when a phage disables them[fn:millman]. Others sit inside tripartite toxin-antitoxin modules[fn:bobonis]. One family writes an entirely new protein-coding gene off a non-coding RNA template[fn:tang]. Another pumps out long, poly(A)-rich cDNA that appears to sponge up an essential phage protein[fn:song]. In retron-Eco1, the reverse-transcribed msDNA itself cages an NAD+-destroying effector until a phage sets it loose[fn:carabias]. And we have shown that retron RTs can be re-engineered into precise genome editors for mammalian cells and vertebrate embryos[fn:buffington].  
 
-So its perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscint of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly namedarray-associated reverse transcriptases, or ARTs).[fn:pr2]
+So it's perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscent of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly named array-associated reverse transcriptases, or ARTs).[fn:pr2]
 
-That arrangement resembles CRISPR, but its not! The spacers are four to seven times longer, and there are no nearby /cas/ genes. Is this the next frontier in therapeutic gene editing? We shall see... there's a very, very long road to answering this question.
+That arrangement resembles CRISPR, but it's not! The spacers are four to seven times longer, and there are no nearby /cas/ genes. Is this the next frontier in therapeutic gene editing? We shall see... there's a very, very long road to answering this question.
 
 #+BEGIN_QUOTE
 The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye a *tandem repeat array*: "CATGTGTATCGCATGTT" / "CATGTGTTTCGCATGT" repeating many times with ~100-180 bp spacers --- that's a CRISPR-like or msDNA-like repeat array?!
@@ -50,21 +49,21 @@ The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye a *ta
 --- Worker agent, task t0062[fn:t0062]
 #+END_QUOTE
 
-I have seen people say that any graduate student could have done this. I've supervised students that have done similar projects. In my experience,  a junior student could spend a year or more running this type of campaign. And there's no guarantee that they'd see this signal. I am not even sure that a standard DNA repeat finder (e.g., PILER-CR[fn:piler-cr] or other repeat finders) would catch these long spacers and imperfect repeats.
+I have seen people say that any graduate student could have done this. I've supervised students who have done similar projects. In my experience, a junior student could spend a year or more running this type of campaign. And there's no guarantee that they'd see this signal. I am not even sure that a standard DNA repeat finder (e.g., PILER-CR[fn:piler-cr] or other repeat finders) would catch these long spacers and imperfect repeats.
 
 Perhaps most importantly, automating this kind of grunt work accelerates hypothesis testing. With sufficient resources, I'd be doing hundreds of similar campaigns right now. I'm sure Anthropic already is.
 
 * We still need experts
-Dr. [[https://www.linkedin.com/in/peter-hyungjun-yoon][Peter Yoon]] is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. [[https://www.linkedin.com/in/januka-athukoralage][Januka Athukoralage]][fn:athukoralage-crispr]), and recombinases (Drs., [[https://www.linkedin.com/in/nicholas-perry-5a6776a3][Perry]] and [[https://www.linkedin.com/in/matthew-durrant][Durrant]]). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
+Dr. [[https://www.linkedin.com/in/peter-hyungjun-yoon][Peter Yoon]] is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. [[https://www.linkedin.com/in/januka-athukoralage][Januka Athukoralage]][fn:athukoralage-crispr]) and recombinases (Drs. [[https://www.linkedin.com/in/nicholas-perry-5a6776a3][Perry]] and [[https://www.linkedin.com/in/matthew-durrant][Durrant]]). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
 
 If nothing else, this proves that LLMs are great accelerators for expert-driven hypothesis generation.
 
 
-* Et tu Brute?
+* Et tu, Brute?
 
 The /New York Times/ reports that a Copenhagen group had been studying something matching this finding and discussing it with Claude.[fn:nyt] Similar questions arose over OpenAI's claimed Navier–Stokes breakthrough: had unpublished work by Tristan Buckmaster and Levent Alpöge influenced the result?[fn:navier-stokes]
 
-This is a serious allegation, indeed. Many labs are searching the same public databases using the same tools, and indeed, similar LLMs. Is this why Anthropic released such an early result? At the very least, I'd love to see the Anthropic team run a proper, transparent investigation.
+This is a serious allegation, indeed. Many labs are searching the same public databases using the same tools and, indeed, similar LLMs. Is this why Anthropic released such an early result? At the very least, I'd love to see the Anthropic team run a proper, transparent investigation.
 
 So what does this mean for biology in the age of LLMs?
 
@@ -78,13 +77,13 @@ We tend to overestimate the effect of a technology in the short run and underest
 
 Terence Tao has written extensively on LLM-led Lean proofs in mathematics. He welcomes automated searches that resolve tractable problems in the Erdős database: they get useful work done and surface "harder questions."[fn:tao1][fn:tao2] 
 
-His concern is what the LLM-driven solution leaves behind, and what is lost. Tao argues that human-led "failed approaches" teach us as much as the final proof. An inscrutable, machine-generated solution adds little to mathematics, while disensitivising humans from pursuing these problems.[fn:tao3][fn:tao4]
+His concern is what the LLM-driven solution leaves behind, and what is lost. Tao argues that human-led "failed approaches" teach us as much as the final proof. An inscrutable, machine-generated solution adds little to mathematics, while discouraging humans from pursuing these problems.[fn:tao3][fn:tao4]
 
 Biology is, of course, very different. A cure that teaches us very little is still a cure, and I doubt the patients will object. But we also need to keep producing questions, data, and people who can make sense of it all.
 
 Consider the student whose year of bioinformatics training we no longer need. Some of that year is wasted on tedious work. Some is spent learning to recognize a strange locus and deciding whether it deserves another experiment. Did we automate an important training pillar? We do not yet know how trainees will adjust.
 
-And what happens after the big-compute labs strip mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
+And what happens after the big-compute labs strip-mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
 
 That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research, and both have been at it for well over a decade[fn:nih-data][fn:nsf-data].
 
@@ -92,9 +91,9 @@ But I also want the next round of data deposited, the next students trained, and
 
 * Back to the bench
 
-Feng Zhang calls the identification of RNA-repeat arrays next to reverse transcriptases "genuinely intriguing," and says it "merits further investigation."[fn:zhang] This is indeed a very interesting contribution.
+Feng Zhang calls ART-RTs "genuinely intriguing" and says they merit "further investigation."[fn:zhang] This is indeed an interesting observation.
 
-Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in  anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
+Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
 Here, too, Anthropic hopes to make inroads with automated, LLM-driven wet-bench robotics:
 
@@ -104,13 +103,13 @@ MHS also helps researchers and engineers more readily orchestrate autonomous, ro
 --- Anthropic, announcing its Model Hardware Standard[fn:mhs]
 #+END_QUOTE
 
-If they succeed here, it will be a much bigger deal then the ART-RT press release.
+If they succeed here, it will be a much bigger deal than the ART-RT press release.
 
 * Notes
 
 [fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
 [[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
-accessed 2026-09-28. Archived locally as
+accessed 2026-09-28. Local copy
 =sources/anthropic-press-release-2026-09-25.html=.
 
 [fn:millman] Millman A et al. "Bacterial retrons function in anti-phage defense." /Cell/ 183, 1551-1561 (2020). [[https://pubmed.ncbi.nlm.nih.gov/33157039/][PMID:33157039]]; [[https://doi.org/10.1016/j.cell.2020.09.065][doi:10.1016/j.cell.2020.09.065]].
@@ -125,26 +124,20 @@ accessed 2026-09-28. Archived locally as
 
 [fn:buffington] Buffington JD et al. "Discovery and engineering of retrons for precise genome editing." /Nature Biotechnology/ (2025). [[https://pubmed.ncbi.nlm.nih.gov/41131151/][PMID:41131151]]; [[https://doi.org/10.1038/s41587-025-02879-3][doi:10.1038/s41587-025-02879-3]].
 
-[fn:pr2] Anthropic, "Claude discovers a novel enzyme system,"
-[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
-The underlying preprint is Yoon PH, Athukoralage JS, Ameisen E,
-Kauderer-Abrams E, Perry NT, Durrant MG, "Autonomous AI agents discover
-reverse transcriptases with tandem repeat arrays," posted 2026-09-23:
+[fn:pr2] Yoon PH, Athukoralage JS, Ameisen E, Kauderer-Abrams E, Perry NT,
+Durrant MG. "Autonomous AI agents discover reverse transcriptases with tandem
+repeat arrays." Preprint, posted 2026-09-23:
 [[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][www-cdn.anthropic.com/22573675…pdf]].
-That URL is a bare content hash with no landing page and no DOI, so I am
-keeping a local copy at =sources/yoon-et-al-2026-art-preprint.pdf=
-(md5 =71916c2f91370fd5d9b68a7e21e68bcb=, retrieved 2026-09-28). All figure
-and number references below are to that copy.
+No DOI. Local copy =sources/yoon-et-al-2026-art-preprint.pdf= (md5
+=71916c2f91370fd5d9b68a7e21e68bcb=), retrieved 2026-09-28.
 
-[fn:campaign] Yoon et al., §"Agentic genome mining with Claude" and Fig. 1B-C;
-[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
-local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+[fn:campaign] Yoon et al. (2026), §"Agentic genome mining with Claude" and
+Fig. 1B-C. Local copy =sources/yoon-et-al-2026-art-preprint.pdf=, retrieved
+2026-09-28.
 
-[fn:t0062] Yoon et al., Fig. 1E and accompanying text, quoting worker agent
-task t0062. The preprint reproduces the reasoning trace verbatim;
-"L0050" is the worker's own label for a metagenomic flank.
-[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
-local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+[fn:t0062] Yoon et al. (2026), Fig. 1E and accompanying text, quoting worker
+agent task t0062. Local copy =sources/yoon-et-al-2026-art-preprint.pdf=,
+retrieved 2026-09-28.
 
 [fn:piler-cr] Edgar RC. "PILER-CR: fast and accurate identification of CRISPR repeats." /BMC Bioinformatics/ (2007). [[https://pubmed.ncbi.nlm.nih.gov/17239253/][PMID:17239253]]; [[https://doi.org/10.1186/1471-2105-8-18][doi:10.1186/1471-2105-8-18]].
 
@@ -152,73 +145,70 @@ local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
 
 [fn:athukoralage-crispr] Athukoralage JS et al. "An anti-CRISPR viral ring nuclease subverts type III CRISPR immunity." /Nature/ 577, 572–575 (2020). [[https://doi.org/10.1038/s41586-019-1909-5][doi:10.1038/s41586-019-1909-5]].
 
-[fn:bios] Biographical details compiled 2026-09-28 from Google Scholar
-profiles, published papers, and lab pages. Yoon:
-[[https://www.science.org/doi/10.1126/science.adq0553][Cas13 ancestral clade paper, /Science/ 2024]].
-Athukoralage: [[https://research-repository.st-andrews.ac.uk/handle/10023/45/browse?type=names&value=Athukoralage,+Januka+Sahan][St Andrews thesis record]]
-and [[https://pubmed.ncbi.nlm.nih.gov/31942067/][anti-CRISPR ring nuclease, /Nature/ 2020]].
-Perry and Durrant: [[https://www.nature.com/articles/s41586-024-07552-4][bridge RNA paper, /Nature/ 2024]];
-Durrant also [[https://arcinstitute.org/news/evo-science][led computational biology on Evo]].
-Kauderer-Abrams: [[https://www.statnews.com/2025/10/22/anthropic-claude-life-sciences-eric-kauderer-abrams-interview/][STAT interview, 2025]].
-Ameisen: [[https://www.mlpowered.com/about/][personal page]].
-Two things I could not confirm and am therefore not asserting: whether
-Yoon formally completed his PhD, and whether Kauderer-Abrams holds a
-doctorate (sources say "graduate research at Stanford" and stop there).
+# NOTE TO SELF, not for publication: two things I could not confirm and am
+# therefore not asserting anywhere in the post: whether Yoon formally
+# completed his PhD, and whether Kauderer-Abrams holds a doctorate (sources
+# say "graduate research at Stanford" and stop there).
+
+[fn:bios] Yoon: [[https://www.science.org/doi/10.1126/science.adq0553][/Science/ 2024]].
+Athukoralage: [[https://research-repository.st-andrews.ac.uk/handle/10023/45/browse?type=names&value=Athukoralage,+Januka+Sahan][St Andrews thesis record]];
+[[https://pubmed.ncbi.nlm.nih.gov/31942067/][/Nature/ 2020]].
+Perry and Durrant: [[https://www.nature.com/articles/s41586-024-07552-4][/Nature/ 2024]];
+Durrant, [[https://arcinstitute.org/news/evo-science][Arc Institute]].
+Kauderer-Abrams: [[https://www.statnews.com/2025/10/22/anthropic-claude-life-sciences-eric-kauderer-abrams-interview/][/STAT/, 22 October 2025]].
+Ameisen: [[https://www.mlpowered.com/about/][mlpowered.com/about]].
+All accessed 2026-09-28.
+
+# TODO: confirm the NYT byline before publishing; I have it from a forwarded
+# copy, not from the page itself.
 
 [fn:nyt] Carl Zimmer, "Did Anthropic's A.I. Really Make a Scientific
 Discovery on Its Own?", /New York Times/, 27 September 2026:
-[[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]].
-# TODO: confirm the byline before publishing; I have it from a forwarded
-# copy, not from the page itself.
+[[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]],
+accessed 2026-09-28.
 
-[fn:navier-stokes] Davide Castelvecchi, "Who gets credit in the AI era? OpenAI maths bombshell sparks debate," /Nature/, 17 September 2026: [[https://www.nature.com/articles/d41586-026-02910-w][article]]. Joseph Howlett, "OpenAI claims blockbuster math breakthrough amid swirl of controversy," /Scientific American/, 8 September 2026: [[https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/][article]], including OpenAI's denial that the researchers' work influenced its result.
+[fn:navier-stokes] Davide Castelvecchi, "Who gets credit in the AI era? OpenAI maths bombshell sparks debate," /Nature/, 17 September 2026: [[https://www.nature.com/articles/d41586-026-02910-w][article]]. Joseph Howlett, "OpenAI claims blockbuster math breakthrough amid swirl of controversy," /Scientific American/, 8 September 2026: [[https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/][article]]. Both accessed 2026-09-28.
 
-[fn:tao1] Terence Tao, Mathstodon, 30 November 2025:
-[[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]]
-(post 2 of 3 in the thread).
+[fn:tao1] Terence Tao, Mathstodon, 30 November 2025, post 2 of 3:
+[[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]],
+accessed 2026-09-28.
 
-[fn:tao2] Terence Tao, Mathstodon, 30 November 2025:
-[[https://mathstodon.xyz/@tao/115639985263560286][mathstodon.xyz/@tao/115639985263560286]]
-(post 3 of 3).
+[fn:tao2] Terence Tao, Mathstodon, 30 November 2025, post 3 of 3:
+[[https://mathstodon.xyz/@tao/115639985263560286][mathstodon.xyz/@tao/115639985263560286]],
+accessed 2026-09-28.
 
-[fn:tao3] Terence Tao, Mathstodon, 3 September 2026:
-[[https://mathstodon.xyz/@tao/117207855800042681][mathstodon.xyz/@tao/117207855800042681]]
-(post 5 of 6).
+[fn:tao3] Terence Tao, Mathstodon, 3 September 2026, post 5 of 6:
+[[https://mathstodon.xyz/@tao/117207855800042681][mathstodon.xyz/@tao/117207855800042681]],
+accessed 2026-09-28.
 
-[fn:tao4] Terence Tao, Mathstodon, 3 September 2026:
-[[https://mathstodon.xyz/@tao/117207856734787448][mathstodon.xyz/@tao/117207856734787448]]
-(post 6 of 6, concluding the thread).
+[fn:tao4] Terence Tao, Mathstodon, 3 September 2026, post 6 of 6:
+[[https://mathstodon.xyz/@tao/117207856734787448][mathstodon.xyz/@tao/117207856734787448]],
+accessed 2026-09-28.
 
-[fn:tao-sharing] Terence Tao, Mathstodon, 8 September 2026, [[https://mathstodon.xyz/@tao/117237322160500501][post 3 of 4]]. Tao warns that competition from large AI efforts could discourage researchers from sharing promising research directions, undermining open science.
+[fn:tao-sharing] Terence Tao, Mathstodon, 8 September 2026, post 3 of 4:
+[[https://mathstodon.xyz/@tao/117237322160500501][mathstodon.xyz/@tao/117237322160500501]],
+accessed 2026-09-28.
 
-[fn:nih-data] At NIH: the Common Fund's Big Data to Knowledge program
-(2013-2020), which funded community-based data and metadata standards and the
-"Commons" framework,
-[[https://commonfund.nih.gov/bd2k][commonfund.nih.gov/bd2k]]; its successors the
-Common Fund Data Ecosystem,
-[[https://commonfund.nih.gov/dataecosystem][commonfund.nih.gov/dataecosystem]],
-and Bridge2AI, which funds the generation of ethically sourced, AI-ready flagship
-datasets, [[https://commonfund.nih.gov/bridge2ai][commonfund.nih.gov/bridge2ai]].
-The 2023 Data Management and Sharing policy is the blunt instrument behind all of
-it: NOT-OD-21-013,
+[fn:nih-data] NIH Common Fund, Big Data to Knowledge (2013-2020):
+[[https://commonfund.nih.gov/bd2k][commonfund.nih.gov/bd2k]]. NIH Common Fund
+Data Ecosystem:
+[[https://commonfund.nih.gov/dataecosystem][commonfund.nih.gov/dataecosystem]].
+NIH Bridge2AI: [[https://commonfund.nih.gov/bridge2ai][commonfund.nih.gov/bridge2ai]].
+NIH Data Management and Sharing policy, NOT-OD-21-013:
 [[https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html][grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html]].
+All accessed 2026-09-28.
 
-[fn:nsf-data] At NSF: Advances in Biological Informatics ran from the mid-2000s
-until it was folded into its successor (see, e.g., solicitation NSF 12-567,
-[[https://www.nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation][nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation]]).
-That successor is Infrastructure Innovation for Biological Research,
-[[https://www.nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research][nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research]],
-which funds the bioinformatics cyberinfrastructure that campaigns like this one
-run on.
+[fn:nsf-data] NSF, Advances in Biological Informatics, solicitation NSF 12-567:
+[[https://www.nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation][nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation]].
+NSF, Infrastructure Innovation for Biological Research:
+[[https://www.nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research][nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research]].
+Both accessed 2026-09-28.
 
-[fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
-enzyme system,"
-[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
-Note that this is Anthropic's own release, so he is being polite; even so,
-the operative words are "intriguing" and "merits further investigation,"
-not "breakthrough." I could not find a separate quote from him anywhere
-else: the secondary coverage, including Robert Langreth's Bloomberg piece
-on outside experts counseling caution ("Anthropic Crispr-Like Findings Draw
-Caution From Scientists," 25 September 2026), reuses this same sentence.
+[fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel enzyme
+system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
+accessed 2026-09-28. The same sentence is reused in Robert Langreth,
+"Anthropic Crispr-Like Findings Draw Caution From Scientists," /Bloomberg/,
+25 September 2026.
 
-[fn:mhs] Anthropic, "Previewing the Model Hardware Standard," 27 August 2026: [[https://www.anthropic.com/news/model-hardware-standard-research-preview][announcement]].
+[fn:mhs] Anthropic, "Previewing the Model Hardware Standard," 27 August 2026: [[https://www.anthropic.com/news/model-hardware-standard-research-preview][announcement]], accessed 2026-09-28.
