@@ -31,23 +31,20 @@
 #   - possible figure: redraw the repeat-array cartoon from Fig 1F.
 #   - link-preview entries for the science.org and mathstodon links?
 
-Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will <<fill in.>> So is this a BFD? I've been thinking about it all weekend!
+Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will systematize and accelerate the sort of discovery that gave us restriction enzymes, Taq polymerase, and CRISPR itself, by way of "a new way of doing biology research, in which agents collaborate with humans in every step of the process." So is this a BFD? I've been thinking about it all weekend!
 
 TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. 
 
 * An interesting system with unknown significance
 
-A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (ie., HIV) rely on these types of enzymes.  Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research areas, with many labs showing the many  surprising ways that there RTs work <<lnk to ~3-5 high impact papers on defense RT functions, prioritize diff labs>>.  
+A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (ie., HIV) rely on these types of enzymes.  Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research areas, with many labs showing the many  surprising ways that there RTs work. Retrons guard other defense proteins and trigger abortive infection when a phage disables them[fn:millman]. Others sit inside tripartite toxin-antitoxin modules[fn:bobonis]. One family writes an entirely new protein-coding gene off a non-coding RNA template[fn:tang]. Another pumps out long, poly(A)-rich cDNA that appears to sponge up an essential phage protein[fn:song]. And we have shown that retron RTs can be re-engineered into precise genome editors for mammalian cells and vertebrate embryos[fn:buffington].  
 
 So its perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscint of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly namedarray-associated reverse transcriptases, or ARTs).[fn:pr2]
 
 That arrangement resembles CRISPR, but its not! The spacers are four to seven times longer, and there are no nearby /cas/ genes. Is this the next frontier in therapeutic gene editing? We shall see... there's a very, very long road to answering this question.
 
 #+BEGIN_QUOTE
-The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye
-a *tandem repeat array*: "CATGTGTATCGCATGTT" / "CATGTGTTTCGCATGT"
-repeating many times with ~100-180 bp spacers --- that's a CRISPR-like or
-msDNA-like repeat array?!
+The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye a *tandem repeat array*: "CATGTGTATCGCATGTT" / "CATGTGTTTCGCATGT" repeating many times with ~100-180 bp spacers --- that's a CRISPR-like or msDNA-like repeat array?!
 
 --- Worker agent, task t0062[fn:t0062]
 #+END_QUOTE
@@ -64,8 +61,7 @@ If nothing else, this proves that LLMs are great accelerators for expert-driven 
 
 * Et tu Brute?
 
-The /New York Times/ reports that a Copenhagen group had been studying
-something matching this finding and discussing it with Claude.[fn:nyt] Similar questions arose over OpenAI's claimed Navier–Stokes breakthrough: had unpublished work by Tristan Buckmaster and Levent Alpöge influenced the result? OpenAI denied that it had.[fn:navier-stokes]
+The /New York Times/ reports that a Copenhagen group had been studying something matching this finding and discussing it with Claude.[fn:nyt] Similar questions arose over OpenAI's claimed Navier–Stokes breakthrough: had unpublished work by Tristan Buckmaster and Levent Alpöge influenced the result?[fn:navier-stokes]
 
 This is a serious allegation, indeed. Many labs are searching the same public databases using the same tools, and indeed, similar LLMs. Is this why Anthropic released such an early result? At the very least, I'd love to see the Anthropic team run a proper, transparent investigation.
 
@@ -99,7 +95,7 @@ Feng Zhang calls this an example of how AI agents can "contribute to biological 
 
 Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in  anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
-Here, too, Anthropic hopes to make inroads with automated, LLM-driven robotics.
+Here, too, Anthropic hopes to make inroads with automated, LLM-driven wet-bench robotics:
 
 #+BEGIN_QUOTE
 MHS also helps researchers and engineers more readily orchestrate autonomous, round-the-clock experiments and workflows…
@@ -107,13 +103,24 @@ MHS also helps researchers and engineers more readily orchestrate autonomous, ro
 --- Anthropic, announcing its Model Hardware Standard[fn:mhs]
 #+END_QUOTE
 
-If they succeed here, it will be a much bigger deal then the ART-RT press release. 
+If they succeed here, it will be a much bigger deal then the ART-RT press release.
+
 * Notes
 
 [fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
 [[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
 accessed 2026-09-28. Archived locally as
 =sources/anthropic-press-release-2026-09-25.html=.
+
+[fn:millman] Millman A et al. "Bacterial retrons function in anti-phage defense." /Cell/ 183, 1551-1561 (2020). [[https://pubmed.ncbi.nlm.nih.gov/33157039/][PMID:33157039]]; [[https://doi.org/10.1016/j.cell.2020.09.065][doi:10.1016/j.cell.2020.09.065]].
+
+[fn:bobonis] Bobonis J et al. "Bacterial retrons encode phage-defending tripartite toxin-antitoxin systems." /Nature/ 609, 144-150 (2022). [[https://pubmed.ncbi.nlm.nih.gov/35850148/][PMID:35850148]]; [[https://doi.org/10.1038/s41586-022-05091-4][doi:10.1038/s41586-022-05091-4]].
+
+[fn:tang] Tang S et al. "De novo gene synthesis by an antiviral reverse transcriptase." /Science/ 386, eadq0876 (2024). [[https://pubmed.ncbi.nlm.nih.gov/39116258/][PMID:39116258]]; [[https://doi.org/10.1126/science.adq0876][doi:10.1126/science.adq0876]].
+
+[fn:song] Song XY et al. "Bacterial reverse transcriptase synthesizes long poly(A)-rich cDNA for antiphage defense." /Science/ 388, eads4639 (2025). [[https://pubmed.ncbi.nlm.nih.gov/40310939/][PMID:40310939]]; [[https://doi.org/10.1126/science.ads4639][doi:10.1126/science.ads4639]].
+
+[fn:buffington] Buffington JD et al. "Discovery and engineering of retrons for precise genome editing." /Nature Biotechnology/ (2025). [[https://pubmed.ncbi.nlm.nih.gov/41131151/][PMID:41131151]]; [[https://doi.org/10.1038/s41587-025-02879-3][doi:10.1038/s41587-025-02879-3]].
 
 [fn:pr2] Anthropic, "Claude discovers a novel enzyme system,"
 [[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
