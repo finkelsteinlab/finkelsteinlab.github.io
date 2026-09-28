@@ -85,7 +85,7 @@ Consider the student whose year of bioinformatics training we no longer need. So
 
 And what happens after the big-compute labs strip mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
 
-That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research <<links to nih and nsf programs, former ones too>>.
+That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research, and both have been at it for well over a decade[fn:nih-data][fn:nsf-data].
 
 But I also want the next round of data deposited, the next students trained, and the unpromising questions given enough attention to surprise us. 
 
@@ -189,6 +189,26 @@ Discovery on Its Own?", /New York Times/, 27 September 2026:
 (post 6 of 6, concluding the thread).
 
 [fn:tao-sharing] Terence Tao, Mathstodon, 8 September 2026, [[https://mathstodon.xyz/@tao/117237322160500501][post 3 of 4]]. Tao warns that competition from large AI efforts could discourage researchers from sharing promising research directions, undermining open science.
+
+[fn:nih-data] At NIH: the Common Fund's Big Data to Knowledge program
+(2013-2020), which funded community-based data and metadata standards and the
+"Commons" framework,
+[[https://commonfund.nih.gov/bd2k][commonfund.nih.gov/bd2k]]; its successors the
+Common Fund Data Ecosystem,
+[[https://commonfund.nih.gov/dataecosystem][commonfund.nih.gov/dataecosystem]],
+and Bridge2AI, which funds the generation of ethically sourced, AI-ready flagship
+datasets, [[https://commonfund.nih.gov/bridge2ai][commonfund.nih.gov/bridge2ai]].
+The 2023 Data Management and Sharing policy is the blunt instrument behind all of
+it: NOT-OD-21-013,
+[[https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html][grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html]].
+
+[fn:nsf-data] At NSF: Advances in Biological Informatics ran from the mid-2000s
+until it was folded into its successor (see, e.g., solicitation NSF 12-567,
+[[https://www.nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation][nsf.gov/funding/opportunities/capacity-infrastructure-capacity-biological-research/nsf12-567/solicitation]]).
+That successor is Infrastructure Innovation for Biological Research,
+[[https://www.nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research][nsf.gov/funding/opportunities/innovation-innovative-infrastructure-biological-research]],
+which funds the bioinformatics cyberinfrastructure that campaigns like this one
+run on.
 
 [fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
 enzyme system,"
