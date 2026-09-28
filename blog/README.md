@@ -278,6 +278,33 @@ Styling is the `.blog-quote` block in `blog.css`. Start from
 Add the source URL to `_data/link_previews.yml` (see below) and the
 attribution link gets a hover card like any other link.
 
+### Grouped footnote references
+
+Cite several sources at one point and org takes them one after another:
+
+```org
+These RTs have been a productive area[fn:millman][fn:bobonis][fn:tang].
+```
+
+Kramdown renders each reference as its own `<sup>` with nothing between
+them, so the page reads `234`. `assets/themes/lab/js/footnote-groups.js`
+rewrites each run into a single group the way a journal sets it: the
+numbers are sorted, and a stretch of three or more consecutive numbers
+becomes a range. `[fn:a][fn:c][fn:b][fn:e]` renders as `1-3,5`.
+
+Nothing changes in how you write a post. Order the references however
+reads best in the org source; the script sorts them.
+
+It runs on the rendered page rather than at build time for two reasons.
+The numbers do not exist until Kramdown assigns them, and GitHub Pages
+builds in safe mode, so a Jekyll plugin would not run. Without
+JavaScript the references still render correctly, just unmerged.
+
+Every id survives the rewrite, including the numbers a range hides, which
+keep theirs on an empty inline `<span>`. That matters because the reverse
+arrow at the end of each footnote links back to `#fnref:N`; drop the id
+and the arrow lands nowhere. Styling is `.footnote-group` in `blog.css`.
+
 ### Link previews
 
 A link in a post can show a hover card (title, description, image) when
@@ -375,6 +402,7 @@ _includes/blog/
   └── quote.html      # Blockquote + attribution for quote posts
 assets/themes/lab/
   ├── css/blog.css    # Blog styles, loaded only under /blog/
+  ├── js/footnote-groups.js  # Collapses adjacent footnote refs into 1-3,5
   └── js/lunr.min.js  # Search index library, vendored (not a CDN)
 ```
 

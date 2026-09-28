@@ -321,6 +321,19 @@
   margin-bottom: 0.5em;
 }
 
+/* Grouped footnote references: "2-5,7" rather than "23457".
+   Built by footnote-groups.js; the empty anchors carry the ids of the
+   numbers a range hides, so reverse-footnote links still resolve. */
+.blog-content .footnote-group a {
+  text-decoration: none;
+}
+
+.blog-content .footnote-group-anchor {
+  display: inline;
+  width: 0;
+  overflow: hidden;
+}
+
 /* Search results */
 #search-results .blog-listing h3 {
   margin-bottom: 0.2em;
