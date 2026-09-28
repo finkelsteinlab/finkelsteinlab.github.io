@@ -20,8 +20,7 @@
 # checked the Tao passages against the Mastodon API, not a summary page.
 # This revision paraphrases his argument; see the linked posts.
 #
-# NOTE: footnote definitions sit at the END of each section on purpose. A
-# definition swallows everything after it until the next heading.
+# NOTE: citation definitions are collected in the Notes section at the end.
 #
 # TODO before publishing:
 #   - decide whether to name the Copenhagen group. The NYT names them; I have
@@ -44,11 +43,6 @@ making it harder to produce the next crop.
 The result itself deserves attention. I would be pleased if a student
 brought me this paper's finding. I would also have a substantial list of
 experiments for them.
-
-[fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
-[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
-accessed 2026-09-28. Archived locally as
-=sources/anthropic-press-release-2026-09-25.html=.
 
 * An interesting system, with its function still to come
 
@@ -86,17 +80,6 @@ yet shown that this system aborts an infection. Anthropic acknowledges that
 its function remains unknown. I would happily put a trainee on it for the
 next two years, which should tell you both how promising I find it and how
 much work remains.
-
-[fn:pr2] Anthropic, "Claude discovers a novel enzyme system,"
-[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
-The underlying preprint is Yoon PH, Athukoralage JS, Ameisen E,
-Kauderer-Abrams E, Perry NT, Durrant MG, "Autonomous AI agents discover
-reverse transcriptases with tandem repeat arrays," posted 2026-09-23:
-[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][www-cdn.anthropic.com/22573675…pdf]].
-That URL is a bare content hash with no landing page and no DOI, so I am
-keeping a local copy at =sources/yoon-et-al-2026-art-preprint.pdf=
-(md5 =71916c2f91370fd5d9b68a7e21e68bcb=, retrieved 2026-09-28). All figure
-and number references below are to that copy.
 
 * A day's work
 
@@ -158,29 +141,6 @@ of six authors are molecular biologists with precisely the relevant
 training. Give that group a great deal of compute and I would expect
 something worth reading.
 
-[fn:campaign] Yoon et al., §"Agentic genome mining with Claude" and Fig. 1B-C;
-[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
-local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
-
-[fn:t0062] Yoon et al., Fig. 1E and accompanying text, quoting worker agent
-task t0062. The preprint reproduces the reasoning trace verbatim;
-"L0050" is the worker's own label for a metagenomic flank.
-[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
-local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
-
-[fn:bios] Biographical details compiled 2026-09-28 from Google Scholar
-profiles, published papers, and lab pages. Yoon:
-[[https://www.science.org/doi/10.1126/science.adq0553][Cas13 ancestral clade paper, /Science/ 2024]].
-Athukoralage: [[https://research-repository.st-andrews.ac.uk/handle/10023/45/browse?type=names&value=Athukoralage,+Januka+Sahan][St Andrews thesis record]]
-and [[https://pubmed.ncbi.nlm.nih.gov/31942067/][anti-CRISPR ring nuclease, /Nature/ 2020]].
-Perry and Durrant: [[https://www.nature.com/articles/s41586-024-07552-4][bridge RNA paper, /Nature/ 2024]];
-Durrant also [[https://arcinstitute.org/news/evo-science][led computational biology on Evo]].
-Kauderer-Abrams: [[https://www.statnews.com/2025/10/22/anthropic-claude-life-sciences-eric-kauderer-abrams-interview/][STAT interview, 2025]].
-Ameisen: [[https://www.mlpowered.com/about/][personal page]].
-Two things I could not confirm and am therefore not asserting: whether
-Yoon formally completed his PhD, and whether Kauderer-Abrams holds a
-doctorate (sources say "graduate research at Stanford" and stop there).
-
 * The provenance question
 
 The /New York Times/ reports that a Copenhagen group had been studying
@@ -199,12 +159,6 @@ Until then, I am agnostic. I will also keep treating unpublished ideas
 entered into a commercial model as information that might inform the
 company's products. That is the precaution I would recommend to a trainee,
 without claiming to know what happened in this case.
-
-[fn:nyt] Carl Zimmer, "Did Anthropic's A.I. Really Make a Scientific
-Discovery on Its Own?", /New York Times/, 27 September 2026:
-[[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]].
-# TODO: confirm the byline before publishing; I have it from a forwarded
-# copy, not from the page itself.
 
 * What grows back
 
@@ -253,6 +207,68 @@ round of data deposited, the next students trained, and the unpromising
 questions given enough attention to surprise us. A faster search does not
 settle any of those problems.
 
+* Back to the bench
+
+Feng Zhang calls this an example of how AI agents can "contribute to
+biological discovery."[fn:zhang] That seems right. There is a good result
+here, and I would rather use these tools than assign my students a year of
+work that can be compressed into a day.
+
+I would also like the AI labs to publish the search harness, the failed
+branches, and the fourteen candidates that washed out. Other people need
+to be able to learn from the search, including the parts that did not make
+the announcement.
+
+Meanwhile, ART needs its function established. The agents have supplied
+plenty of experiments to do. Cells still grow at the speed they grow.
+
+* Notes
+
+[fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
+accessed 2026-09-28. Archived locally as
+=sources/anthropic-press-release-2026-09-25.html=.
+
+[fn:pr2] Anthropic, "Claude discovers a novel enzyme system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
+The underlying preprint is Yoon PH, Athukoralage JS, Ameisen E,
+Kauderer-Abrams E, Perry NT, Durrant MG, "Autonomous AI agents discover
+reverse transcriptases with tandem repeat arrays," posted 2026-09-23:
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][www-cdn.anthropic.com/22573675…pdf]].
+That URL is a bare content hash with no landing page and no DOI, so I am
+keeping a local copy at =sources/yoon-et-al-2026-art-preprint.pdf=
+(md5 =71916c2f91370fd5d9b68a7e21e68bcb=, retrieved 2026-09-28). All figure
+and number references below are to that copy.
+
+[fn:campaign] Yoon et al., §"Agentic genome mining with Claude" and Fig. 1B-C;
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
+local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+
+[fn:t0062] Yoon et al., Fig. 1E and accompanying text, quoting worker agent
+task t0062. The preprint reproduces the reasoning trace verbatim;
+"L0050" is the worker's own label for a metagenomic flank.
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
+local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+
+[fn:bios] Biographical details compiled 2026-09-28 from Google Scholar
+profiles, published papers, and lab pages. Yoon:
+[[https://www.science.org/doi/10.1126/science.adq0553][Cas13 ancestral clade paper, /Science/ 2024]].
+Athukoralage: [[https://research-repository.st-andrews.ac.uk/handle/10023/45/browse?type=names&value=Athukoralage,+Januka+Sahan][St Andrews thesis record]]
+and [[https://pubmed.ncbi.nlm.nih.gov/31942067/][anti-CRISPR ring nuclease, /Nature/ 2020]].
+Perry and Durrant: [[https://www.nature.com/articles/s41586-024-07552-4][bridge RNA paper, /Nature/ 2024]];
+Durrant also [[https://arcinstitute.org/news/evo-science][led computational biology on Evo]].
+Kauderer-Abrams: [[https://www.statnews.com/2025/10/22/anthropic-claude-life-sciences-eric-kauderer-abrams-interview/][STAT interview, 2025]].
+Ameisen: [[https://www.mlpowered.com/about/][personal page]].
+Two things I could not confirm and am therefore not asserting: whether
+Yoon formally completed his PhD, and whether Kauderer-Abrams holds a
+doctorate (sources say "graduate research at Stanford" and stop there).
+
+[fn:nyt] Carl Zimmer, "Did Anthropic's A.I. Really Make a Scientific
+Discovery on Its Own?", /New York Times/, 27 September 2026:
+[[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]].
+# TODO: confirm the byline before publishing; I have it from a forwarded
+# copy, not from the page itself.
+
 [fn:tao1] Terence Tao, Mathstodon, 30 November 2025:
 [[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]]
 (post 2 of 3 in the thread).
@@ -268,21 +284,6 @@ settle any of those problems.
 [fn:tao4] Terence Tao, Mathstodon, 3 September 2026:
 [[https://mathstodon.xyz/@tao/117207856734787448][mathstodon.xyz/@tao/117207856734787448]]
 (post 6 of 6, concluding the thread).
-
-* Back to the bench
-
-Feng Zhang calls this an example of how AI agents can "contribute to
-biological discovery."[fn:zhang] That seems right. There is a good result
-here, and I would rather use these tools than assign my students a year of
-work that can be compressed into a day.
-
-I would also like the AI labs to publish the search harness, the failed
-branches, and the fourteen candidates that washed out. Other people need
-to be able to learn from the search, including the parts that did not make
-the announcement.
-
-Meanwhile, ART needs its function established. The agents have supplied
-plenty of experiments to do. Cells still grow at the speed they grow.
 
 [fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
 enzyme system,"
