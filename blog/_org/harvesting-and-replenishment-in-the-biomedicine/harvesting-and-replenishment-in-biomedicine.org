@@ -100,7 +100,12 @@ Feng Zhang calls this an example of how AI agents can "contribute to biological 
 Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in  anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
 Here, too, Anthropic hopes to make inroads with automated, LLM-driven robotics.
-<<anthropic press release pull quote about automated labs>>
+
+#+BEGIN_QUOTE
+MHS also helps researchers and engineers more readily orchestrate autonomous, round-the-clock experiments and workflows…
+
+--- Anthropic, announcing its Model Hardware Standard[fn:mhs]
+#+END_QUOTE
 
 If they succeed here, it will be a much bigger deal then the ART-RT press release. 
 * Notes
@@ -183,3 +188,5 @@ Note that this is Anthropic's own release. Zhang's comments to /Bloomberg/
 on 27 September 2026 were rather more guarded, describing the RNA-repeat
 association as intriguing and worth further investigation rather than
 established.
+
+[fn:mhs] Anthropic, "Previewing the Model Hardware Standard," 27 August 2026: [[https://www.anthropic.com/news/model-hardware-standard-research-preview][announcement]].
