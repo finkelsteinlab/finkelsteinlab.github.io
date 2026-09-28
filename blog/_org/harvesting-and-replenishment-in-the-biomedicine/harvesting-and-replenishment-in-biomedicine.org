@@ -1,0 +1,298 @@
+# -*- mode: org -*-
+#+TITLE: Harvesting and Replenishment in Biomedicine
+#+DATE: 2026-09-28
+#+DESCRIPTION: Anthropic's agents found an interesting enzyme system in a public database. Faster searches are welcome. Who supplies the next round of data, questions, and trained scientists?
+#+TAGS: ai, crispr, genomics
+#+OPTIONS: ^:{}
+
+# Draft started 2026-09-28.
+#
+# ARCHIVED SOURCES (in sources/ beside this file, not published):
+#   sources/yoon-et-al-2026-art-preprint.pdf
+#       = the Anthropic preprint, downloaded 2026-09-28 from
+#         https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf
+#         md5 71916c2f91370fd5d9b68a7e21e68bcb. That CDN path is a content
+#         hash with no landing page, so assume it will rot.
+#   sources/anthropic-press-release-2026-09-25.html
+#       = https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+#
+# Every quote below is footnoted to a direct link. The original draft
+# checked the Tao passages against the Mastodon API, not a summary page.
+# This revision paraphrases his argument; see the linked posts.
+#
+# NOTE: footnote definitions sit at the END of each section on purpose. A
+# definition swallows everything after it until the next heading.
+#
+# TODO before publishing:
+#   - decide whether to name the Copenhagen group. The NYT names them; I have
+#     not talked to them and would rather not pile on.
+#   - the Feng Zhang quote is from Anthropic's own release, where he is being
+#     polite. Check his Bloomberg comments and use those instead if they are
+#     more representative.
+#   - possible figure: redraw the repeat-array cartoon from Fig 1F.
+#   - link-preview entries for the science.org and mathstodon links?
+
+Since I work on CRISPR and retrons—bacterial systems built around reverse
+transcriptases (RTs)—several people sent me Anthropic's enzyme-discovery
+announcement last week. I spend much of my working life on odd enzymes next to repetitive
+DNA, so this one was going to reach me. The company says Claude found a
+novel system with properties reminiscent of CRISPR, given only high-level
+direction.[fn:pr]
+
+I welcome the faster searches. My concern is how we replenish what they
+search, and who learns to do the next round of science. If depositing data
+means being scooped by the afternoon, people will hold it back. If we
+automate a student's apprenticeship, we need another way to teach
+scientific judgment. We can get better at harvesting discoveries while
+making it harder to produce the next crop.
+
+The result itself deserves attention. I would be pleased if a student
+brought me this paper's finding. I would also have a substantial list of
+experiments for them.
+
+[fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]],
+accessed 2026-09-28. Archived locally as
+=sources/anthropic-press-release-2026-09-25.html=.
+
+* An interesting system, with its function still to come
+
+A reverse transcriptase (RT) copies RNA into DNA. HIV uses one, and so do
+many of the kits in my building. Bacteria have their own RTs, including
+those in defensive systems called retrons. These combine an RT, a short
+RNA that it copies into DNA, and a partner protein. In the defensive
+arrangement described here, the RT and its DNA product keep that partner
+inactive. A phage infection disturbs the complex and releases the partner
+to kill the cell before the virus can finish multiplying. Bad for that
+bacterium; useful for its neighbors.
+
+The new systems have the same general parts, but with an unusual RNA
+component. Instead of one dedicated RNA, there is an array of three to
+twenty-one repeats separated by unique spacers, each 120 to 220 nucleotides
+long. The authors call these array-associated reverse transcriptases, or
+ARTs.[fn:pr2]
+
+That arrangement resembles CRISPR, but the spacers are four to seven times
+longer, the repeat conservation differs, and there are no nearby /cas/
+genes. The resemblance is a reason to investigate, and the authors are
+appropriately careful about what it means.
+
+There is experimental evidence beyond the sequence pattern. In published
+sequencing data from a /Staphylococcus/ phage infection, the arrays account
+for up to eight percent of phage RNA at fifteen minutes. Put the system on
+a plasmid in /E. coli/ and you recover distinct short RNAs, with reproducible
+boundaries. There is an RT, an associated partner gene, and an array that
+produces RNAs. Something is happening here.
+
+The proposed explanation is that one RT and one effector can work with a
+repertoire of RNAs, perhaps responding to different triggers. That would
+be an interesting addition to the immune-system collection. But nobody has
+yet shown that this system aborts an infection. Anthropic acknowledges that
+its function remains unknown. I would happily put a trainee on it for the
+next two years, which should tell you both how promising I find it and how
+much work remains.
+
+[fn:pr2] Anthropic, "Claude discovers a novel enzyme system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
+The underlying preprint is Yoon PH, Athukoralage JS, Ameisen E,
+Kauderer-Abrams E, Perry NT, Durrant MG, "Autonomous AI agents discover
+reverse transcriptases with tandem repeat arrays," posted 2026-09-23:
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][www-cdn.anthropic.com/22573675…pdf]].
+That URL is a bare content hash with no landing page and no DOI, so I am
+keeping a local copy at =sources/yoon-et-al-2026-art-preprint.pdf=
+(md5 =71916c2f91370fd5d9b68a7e21e68bcb=, retrieved 2026-09-28). All figure
+and number references below are to that copy.
+
+* A day's work
+
+The search took 21.5 hours of wall time: 119 tasks, 949 agent sessions, 77
+agent-hours, and 216 million tokens. The agents searched 1.9 billion
+protein clusters, recovered about 200,000 RTs, sorted them into nine
+classes, and scored 3,564 neighboring protein families.[fn:campaign]
+
+More interestingly, a supervisor agent opened 98 of those 119 tasks in
+response to findings along the way. The search kept generating its own
+follow-ups.
+
+ART came from a hypothesis that failed. A worker rejected an apparent
+association between an RT and a phage RNA polymerase subunit, but thought
+a free-standing retron-like RT in a jumbo phage was worth another look.
+The next worker inspected the upstream DNA:
+
+#+BEGIN_QUOTE
+The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye
+a *tandem repeat array*: "CATGTGTATCGCATGTT" / "CATGTGTTTCGCATGT"
+repeating many times with ~100-180 bp spacers --- that's a CRISPR-like or
+msDNA-like repeat array?!
+
+--- Worker agent, task t0062[fn:t0062]
+#+END_QUOTE
+
+It then searched for prior descriptions, counted the repeats with a
+script, and checked that the spacers were unrelated. Those are sensible
+things to do after getting excited about a sequence. Quite a few exciting
+sequences do not survive them.
+
+Of seventeen candidate partner families investigated in depth, three
+survived. The others were annotation artifacts, known systems, or chance
+neighbors. A perfectly respectable yield, and a useful number to keep
+beside the headline.
+
+I have seen people say that any graduate student could have done this.
+Having run similar projects, I think a junior student could spend a year
+or more on it and still miss the signal. I am not sure a standard repeat
+finder would catch these long spacers and imperfect repeats, either.
+Building profiles, curating hits, and inspecting gene neighborhoods consume
+months. Automating that work is valuable. I intend to use it.
+
+The brief still matters. Experts chose RTs, wrote the selection criteria,
+and used a tournament to rank nineteen reports before choosing a wet-lab
+follow-up. These were unusually well-qualified experts, too.[fn:bios]
+Peter Yoon trained in Doudna's lab and worked on mining ancestral Cas13
+sequences. Januka Athukoralage worked on CRISPR signaling and viral
+countermeasures. Nicholas Perry and Matthew Durrant worked on programmable
+recombinases; Durrant also led computational biology on Evo. Several had
+already worked together on the bridge recombinase project.
+
+The other authors bring AI and company-building experience: Eric
+Kauderer-Abrams leads biology and life sciences, and Emmanuel Ameisen works
+on interpretability. The paper's claim that particular internal model
+signals explain the DNA-repeat recognition deserves its own scrutiny.
+But the biological expertise behind the search is easy to explain. Four
+of six authors are molecular biologists with precisely the relevant
+training. Give that group a great deal of compute and I would expect
+something worth reading.
+
+[fn:campaign] Yoon et al., §"Agentic genome mining with Claude" and Fig. 1B-C;
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
+local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+
+[fn:t0062] Yoon et al., Fig. 1E and accompanying text, quoting worker agent
+task t0062. The preprint reproduces the reasoning trace verbatim;
+"L0050" is the worker's own label for a metagenomic flank.
+[[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
+local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+
+[fn:bios] Biographical details compiled 2026-09-28 from Google Scholar
+profiles, published papers, and lab pages. Yoon:
+[[https://www.science.org/doi/10.1126/science.adq0553][Cas13 ancestral clade paper, /Science/ 2024]].
+Athukoralage: [[https://research-repository.st-andrews.ac.uk/handle/10023/45/browse?type=names&value=Athukoralage,+Januka+Sahan][St Andrews thesis record]]
+and [[https://pubmed.ncbi.nlm.nih.gov/31942067/][anti-CRISPR ring nuclease, /Nature/ 2020]].
+Perry and Durrant: [[https://www.nature.com/articles/s41586-024-07552-4][bridge RNA paper, /Nature/ 2024]];
+Durrant also [[https://arcinstitute.org/news/evo-science][led computational biology on Evo]].
+Kauderer-Abrams: [[https://www.statnews.com/2025/10/22/anthropic-claude-life-sciences-eric-kauderer-abrams-interview/][STAT interview, 2025]].
+Ameisen: [[https://www.mlpowered.com/about/][personal page]].
+Two things I could not confirm and am therefore not asserting: whether
+Yoon formally completed his PhD, and whether Kauderer-Abrams holds a
+doctorate (sources say "graduate research at Stanford" and stop there).
+
+* The provenance question
+
+The /New York Times/ reports that a Copenhagen group had been studying
+something matching this finding and discussing it with Claude.[fn:nyt]
+I do not know whether those conversations influenced the discovery. That
+is a serious allegation, and convergence is quite plausible: many labs
+are searching the same public databases for anti-phage systems.
+
+It should be possible to investigate. The search code exists, and any
+steering toward this clade might have left traces. It would also be
+interesting to ask whether the unsuccessful candidates overlap unusually
+often with work discussed by Claude users. That would take more evidence
+than we have here.
+
+Until then, I am agnostic. I will also keep treating unpublished ideas
+entered into a commercial model as information that might inform the
+company's products. That is the precaution I would recommend to a trainee,
+without claiming to know what happened in this case.
+
+[fn:nyt] Carl Zimmer, "Did Anthropic's A.I. Really Make a Scientific
+Discovery on Its Own?", /New York Times/, 27 September 2026:
+[[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]].
+# TODO: confirm the byline before publishing; I have it from a forwarded
+# copy, not from the page itself.
+
+* What grows back
+
+Terence Tao has been considering a related problem in mathematics. He
+welcomes automated searches that resolve tractable problems in the Erdős
+database: they get useful work done and help identify the harder
+questions.[fn:tao1][fn:tao2] I agree. Nobody needs to preserve a backlog for
+its own sake.
+
+His concern is what a solution leaves behind. In a discussion of an AI
+solving Navier-Stokes regularity inside a company, he argues that the
+failed approaches, the obstructions, and the adjustments could teach us
+more than the final proof. A solution whose process cannot be examined
+might add little to mathematics, even while disposing of a famous
+problem.[fn:tao3][fn:tao4]
+
+Biology differs in an obvious way. We want the answers themselves. A cure
+that teaches us very little is still a cure, and I doubt the patients will
+object. But we also need to keep producing questions, data, and people who
+can make sense of either.
+
+Consider the student whose year of sequence analysis I would like to
+shorten. Some of that year is wasted on tedious work. Some is spent
+learning to recognize a strange locus and deciding whether it deserves
+another experiment. Automate the work and we need another way to teach
+that judgment. I do not yet know what it is.
+
+Then there are the databases. Colleagues who do environmental sequencing
+and bioprospecting have become noticeably less willing to release data
+before they have finished with it. My own university has taken an interest
+in our datasets that it did not previously have. These are conversations
+I have had, not a survey, but the incentive is plain enough. If someone
+can mine your deposit in an afternoon, you have a reason to delay the
+deposit. Fast searches will be less useful if the data stop arriving.
+
+And there is the choice of questions. The ART agents followed an unexpected
+lead, which counts in their favor. Their follow-ups were still inside an
+expert's brief, and humans chose which report went to the bench. We have
+good evidence here for pursuing surprises within a promising area. How
+well these campaigns will open up areas that nobody thought to put in the
+brief remains to be seen.
+
+That is what I mean by harvesting and replenishment. I want the useful
+findings extracted from public data, ART included. I also want the next
+round of data deposited, the next students trained, and the unpromising
+questions given enough attention to surprise us. A faster search does not
+settle any of those problems.
+
+[fn:tao1] Terence Tao, Mathstodon, 30 November 2025:
+[[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]]
+(post 2 of 3 in the thread).
+
+[fn:tao2] Terence Tao, Mathstodon, 30 November 2025:
+[[https://mathstodon.xyz/@tao/115639985263560286][mathstodon.xyz/@tao/115639985263560286]]
+(post 3 of 3).
+
+[fn:tao3] Terence Tao, Mathstodon, 3 September 2026:
+[[https://mathstodon.xyz/@tao/117207855800042681][mathstodon.xyz/@tao/117207855800042681]]
+(post 5 of 6).
+
+[fn:tao4] Terence Tao, Mathstodon, 3 September 2026:
+[[https://mathstodon.xyz/@tao/117207856734787448][mathstodon.xyz/@tao/117207856734787448]]
+(post 6 of 6, concluding the thread).
+
+* Back to the bench
+
+Feng Zhang calls this an example of how AI agents can "contribute to
+biological discovery."[fn:zhang] That seems right. There is a good result
+here, and I would rather use these tools than assign my students a year of
+work that can be compressed into a day.
+
+I would also like the AI labs to publish the search harness, the failed
+branches, and the fourteen candidates that washed out. Other people need
+to be able to learn from the search, including the parts that did not make
+the announcement.
+
+Meanwhile, ART needs its function established. The agents have supplied
+plenty of experiments to do. Cells still grow at the speed they grow.
+
+[fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
+enzyme system,"
+[[https://www.anthropic.com/news/claude-discovers-novel-enzyme-system][anthropic.com/news/claude-discovers-novel-enzyme-system]].
+Note that this is Anthropic's own release. Zhang's comments to /Bloomberg/
+on 27 September 2026 were rather more guarded, describing the RNA-repeat
+association as intriguing and worth further investigation rather than
+established.
