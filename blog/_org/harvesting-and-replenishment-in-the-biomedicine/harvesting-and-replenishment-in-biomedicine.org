@@ -15,7 +15,7 @@ TL;DR: This is an interesting result! If a student brought me this observation, 
 
 * An interesting system with unknown significance
 
-A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (e.g., HIV) rely on these types of enzymes. Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research area[fn:millman][fn:bobonis][fn:tang][fn:song][fn:carabias][fn:buffington], with many labs showing the many surprising ways that these RTs work. Retrons guard other defense proteins and trigger abortive infection when a phage disables them[fn:millman]. Others sit inside tripartite toxin-antitoxin modules[fn:bobonis]. One family writes an entirely new protein-coding gene off a non-coding RNA template[fn:tang]. Another pumps out long, poly(A)-rich cDNA that appears to sponge up an essential phage protein[fn:song]. In retron-Eco1, the reverse-transcribed msDNA itself cages an NAD+-destroying effector until a phage sets it loose[fn:carabias]. And we have shown that retron RTs can be re-engineered into precise genome editors for mammalian cells and vertebrate embryos[fn:buffington].  
+A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (e.g., HIV) rely on these types of enzymes. Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research area[fn:millman][fn:bobonis][fn:tang][fn:song][fn:carabias][fn:buffington]. We, and others, have been developing these RTs into precise genome editors[fn:buffington][fn:kong][fn:shipman][fn:fraser].  
 
 So it's perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscent of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly named array-associated reverse transcriptases, or ARTs).[fn:pr2]
 
@@ -101,6 +101,12 @@ accessed 2026-09-28. Local copy
 [fn:carabias] Carabias A et al. "Retron-Eco1 assembles NAD+-hydrolyzing filaments that provide immunity against bacteriophages." /Molecular Cell/ 84, 2185-2202 (2024). [[https://pubmed.ncbi.nlm.nih.gov/38788717/][PMID:38788717]]; [[https://doi.org/10.1016/j.molcel.2024.05.001][doi:10.1016/j.molcel.2024.05.001]].
 
 [fn:buffington] Buffington JD et al. "Discovery and engineering of retrons for precise genome editing." /Nature Biotechnology/ (2025). [[https://pubmed.ncbi.nlm.nih.gov/41131151/][PMID:41131151]]; [[https://doi.org/10.1038/s41587-025-02879-3][doi:10.1038/s41587-025-02879-3]].
+
+[fn:kong] Kong X et al. "Precise genome editing without exogenous donor DNA via retron editing system in human cells." /Protein & Cell/ 12, 899-902 (2021). [[https://pubmed.ncbi.nlm.nih.gov/34403072/][PMID:34403072]]; [[https://doi.org/10.1007/s13238-021-00862-7][doi:10.1007/s13238-021-00862-7]].
+
+[fn:shipman] Lopez SC, Crawford KD, Lear SK, Bhattarai-Kline S, Shipman SL. "Precise genome editing across kingdoms of life using retron-derived DNA." /Nature Chemical Biology/ 18, 199-206 (2022). [[https://pubmed.ncbi.nlm.nih.gov/34949838/][PMID:34949838]]; [[https://doi.org/10.1038/s41589-021-00927-y][doi:10.1038/s41589-021-00927-y]].
+
+[fn:fraser] Zhao B, Chen SA, Lee J, Fraser HB. "Bacterial retrons enable precise gene editing in human cells." /The CRISPR Journal/ 5, 31-39 (2022). [[https://pubmed.ncbi.nlm.nih.gov/35076284/][PMID:35076284]]; [[https://doi.org/10.1089/crispr.2021.0065][doi:10.1089/crispr.2021.0065]].
 
 [fn:pr2] Yoon PH, Athukoralage JS, Ameisen E, Kauderer-Abrams E, Perry NT,
 Durrant MG. "Autonomous AI agents discover reverse transcriptases with tandem
