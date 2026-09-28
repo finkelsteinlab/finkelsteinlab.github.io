@@ -68,7 +68,7 @@ But I also want the next big databases to be publicly released, the next student
 
 Feng Zhang calls ART-RTs "genuinely intriguing" and says they merit "further investigation."[^26] This is indeed an interesting observation.
 
-Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
+Now comes the unglamorous, slow work of understanding what ART RTs do, possibly in anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
 Here, too, Anthropic hopes to make inroads with automated, LLM-driven wet-bench robotics:
 
