@@ -65,7 +65,7 @@ If nothing else, this proves that LLMs are great accelerators for expert-driven 
 * Et tu Brute?
 
 The /New York Times/ reports that a Copenhagen group had been studying
-something matching this finding and discussing it with Claude.[fn:nyt] We've seen similar allegations appear before, most famously with <<Navier-Stokes>>, but not exclusively limited to that case.<<refs to Navier-Stokes controvercy, news>>
+something matching this finding and discussing it with Claude.[fn:nyt] Similar questions arose over OpenAI's claimed Navier–Stokes breakthrough: had unpublished work by Tristan Buckmaster and Levent Alpöge influenced the result? OpenAI denied that it had.[fn:navier-stokes]
 
 This is a serious allegation, indeed. Many labs are searching the same public databases using the same tools, and indeed, similar LLMs. Is this why Anthropic released such an early result? At the very least, I'd love to see the Anthropic team run a proper, transparent investigation.
 
@@ -149,6 +149,8 @@ Discovery on Its Own?", /New York Times/, 27 September 2026:
 [[https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html][nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html]].
 # TODO: confirm the byline before publishing; I have it from a forwarded
 # copy, not from the page itself.
+
+[fn:navier-stokes] Davide Castelvecchi, "Who gets credit in the AI era? OpenAI maths bombshell sparks debate," /Nature/, 17 September 2026: [[https://www.nature.com/articles/d41586-026-02910-w][article]]. Joseph Howlett, "OpenAI claims blockbuster math breakthrough amid swirl of controversy," /Scientific American/, 8 September 2026: [[https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/][article]], including OpenAI's denial that the researchers' work influenced its result.
 
 [fn:tao1] Terence Tao, Mathstodon, 30 November 2025:
 [[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]]
