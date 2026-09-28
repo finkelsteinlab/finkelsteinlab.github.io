@@ -73,7 +73,11 @@ So what does this mean for biology in the age of LLMs?
 
 * Harvesting and Replenishment
 
-<<add a quote to AMara's La1w here>>
+#+BEGIN_QUOTE
+We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+
+--- Roy Amara (Amara's law)[fn:amara]
+#+END_QUOTE
 
 Terence Tao has written extensively on LLM-led Lean proofs in mathematics. He welcomes automated searches that resolve tractable problems in the Erdős database: they get useful work done and surface "harder questions."[fn:tao1][fn:tao2] 
 
@@ -153,6 +157,8 @@ Discovery on Its Own?", /New York Times/, 27 September 2026:
 # copy, not from the page itself.
 
 [fn:navier-stokes] Davide Castelvecchi, "Who gets credit in the AI era? OpenAI maths bombshell sparks debate," /Nature/, 17 September 2026: [[https://www.nature.com/articles/d41586-026-02910-w][article]]. Joseph Howlett, "OpenAI claims blockbuster math breakthrough amid swirl of controversy," /Scientific American/, 8 September 2026: [[https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/][article]], including OpenAI's denial that the researchers' work influenced its result.
+
+[fn:amara] Roy Amara's law, quoted in Shamim EA et al. "Can a collaborative healthcare network improve the care of people with epilepsy?" /Epilepsy & Behavior/ (2018). [[https://pubmed.ncbi.nlm.nih.gov/29573986/][PMID:29573986]]; [[https://doi.org/10.1016/j.yebeh.2018.02.018][doi:10.1016/j.yebeh.2018.02.018]].
 
 [fn:tao1] Terence Tao, Mathstodon, 30 November 2025:
 [[https://mathstodon.xyz/@tao/115639984077620023][mathstodon.xyz/@tao/115639984077620023]]
