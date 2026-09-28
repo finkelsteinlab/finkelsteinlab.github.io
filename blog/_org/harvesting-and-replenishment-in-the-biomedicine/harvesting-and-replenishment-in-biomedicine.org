@@ -33,21 +33,11 @@
 
 Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will <<fill in.>> So is this a BFD? I've been thinking about it all weekend!
 
-TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further--its a neat discovery! But boy-oh-boy, is the hype getting ahead of the actual science.
-
-I welcome the faster searches. My concern is how we replenish what they search, and who learns to do the next round of science. If depositing data means being scooped by the afternoon, people will hold it back. If we automate a student's apprenticeship, we need another way to teach scientific judgment. We can get better at harvesting discoveries while making it harder to produce the next crop.
-
+TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. The Navier–Stokes controversy is another reason to scrutinize scientific claims from frontier AI companies.
 
 * An interesting system, with its function still to come
 
-A reverse transcriptase (RT) copies RNA into DNA. HIV uses one, and so do
-many of the kits in my building. Bacteria have their own RTs, including
-those in defensive systems called retrons. These combine an RT, a short
-RNA that it copies into DNA, and a partner protein. In the defensive
-arrangement described here, the RT and its DNA product keep that partner
-inactive. A phage infection disturbs the complex and releases the partner
-to kill the cell before the virus can finish multiplying. Bad for that
-bacterium; useful for its neighbors.
+A reverse transcriptase (RT) copies RNA into DNA. HIV uses one, and so do many of the kits in my building. Bacteria have their own RTs, including those in defensive systems called retrons. These combine an RT, a short RNA that it copies into DNA, and a partner protein. In the defensive arrangement described here, the RT and its DNA product keep that partner inactive. A phage infection disturbs the complex and releases the partner to kill the cell before the virus can finish multiplying. Bad for that bacterium; useful for its neighbors.
 
 The new systems have the same general parts, but with an unusual RNA
 component. Instead of one dedicated RNA, there is an array of three to
