@@ -32,12 +32,7 @@
 #   - possible figure: redraw the repeat-array cartoon from Fig 1F.
 #   - link-preview entries for the science.org and mathstodon links?
 
-Since I work on CRISPR and retrons—bacterial systems built around reverse
-transcriptases (RTs)—several people sent me Anthropic's enzyme-discovery
-announcement last week. I spend much of my working life on odd enzymes next to repetitive
-DNA, so this one was going to reach me. The company says Claude found a
-novel system with properties reminiscent of CRISPR, given only high-level
-direction.[fn:pr]
+Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] The press release presents this as a step toward a new way of doing biology, with AI agents collaborating with humans at every stage. Not so fast!
 
 I welcome the faster searches. My concern is how we replenish what they
 search, and who learns to do the next round of science. If depositing data
