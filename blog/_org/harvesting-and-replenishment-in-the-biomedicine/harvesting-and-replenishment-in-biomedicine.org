@@ -33,53 +33,15 @@
 
 Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will <<fill in.>> So is this a BFD? I've been thinking about it all weekend!
 
-TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. The Navier–Stokes controversy is another reason to scrutinize scientific claims from frontier AI companies.
+TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further. But boy-oh-boy, is the hype getting ahead of the actual science. 
 
-* An interesting system, with its function still to come
+* An interesting system with unknown significance
 
-A reverse transcriptase (RT) copies RNA into DNA. HIV uses one, and so do many of the kits in my building. Bacteria have their own RTs, including those in defensive systems called retrons. These combine an RT, a short RNA that it copies into DNA, and a partner protein. In the defensive arrangement described here, the RT and its DNA product keep that partner inactive. A phage infection disturbs the complex and releases the partner to kill the cell before the virus can finish multiplying. Bad for that bacterium; useful for its neighbors.
+A reverse transcriptase (RT) copies RNA into DNA. Famously, many human viruses (ie., HIV) rely on these types of enzymes.  Bacteria have their own RTs, including those in defensive systems that provide primitive immunity against viral infections. These RTs have been a very productive research areas, with many labs showing the many  surprising ways that there RTs work <<lnk to ~3-5 high impact papers on defense RT functions, prioritize diff labs>>.  
 
-The new systems have the same general parts, but with an unusual RNA
-component. Instead of one dedicated RNA, there is an array of three to
-twenty-one repeats separated by unique spacers, each 120 to 220 nucleotides
-long. The authors call these array-associated reverse transcriptases, or
-ARTs.[fn:pr2]
+So its perhaps not too surprising that Yoon and colleagues, most of whom are experts in this broad research area, decided to further probe the wild wild west of bacterial RTs. They observed that a class of RTs have an unusual RNA component that's vaguely reminiscint of the CRISPR systems. Most RTs have a nearby non-coding RNA; their systems have an array of three to twenty-one repeats separated by unique spacers (thus the aptly namedarray-associated reverse transcriptases, or ARTs).[fn:pr2]
 
-That arrangement resembles CRISPR, but the spacers are four to seven times
-longer, the repeat conservation differs, and there are no nearby /cas/
-genes. The resemblance is a reason to investigate, and the authors are
-appropriately careful about what it means.
-
-There is experimental evidence beyond the sequence pattern. In published
-sequencing data from a /Staphylococcus/ phage infection, the arrays account
-for up to eight percent of phage RNA at fifteen minutes. Put the system on
-a plasmid in /E. coli/ and you recover distinct short RNAs, with reproducible
-boundaries. There is an RT, an associated partner gene, and an array that
-produces RNAs. Something is happening here.
-
-The proposed explanation is that one RT and one effector can work with a
-repertoire of RNAs, perhaps responding to different triggers. That would
-be an interesting addition to the immune-system collection. But nobody has
-yet shown that this system aborts an infection. Anthropic acknowledges that
-its function remains unknown. I would happily put a trainee on it for the
-next two years, which should tell you both how promising I find it and how
-much work remains.
-
-* A day's work
-
-The search took 21.5 hours of wall time: 119 tasks, 949 agent sessions, 77
-agent-hours, and 216 million tokens. The agents searched 1.9 billion
-protein clusters, recovered about 200,000 RTs, sorted them into nine
-classes, and scored 3,564 neighboring protein families.[fn:campaign]
-
-More interestingly, a supervisor agent opened 98 of those 119 tasks in
-response to findings along the way. The search kept generating its own
-follow-ups.
-
-ART came from a hypothesis that failed. A worker rejected an apparent
-association between an RT and a phage RNA polymerase subunit, but thought
-a free-standing retron-like RT in a jumbo phage was worth another look.
-The next worker inspected the upstream DNA:
+That arrangement resembles CRISPR, but its not! The spacers are four to seven times longer, and there are no nearby /cas/ genes. Is this the next frontier in therapeutic gene editing? We shall see... there's a very, very long road to answering this question.
 
 #+BEGIN_QUOTE
 The L0050 (228,907 bp logan contig) flank is spectacular: I can see by eye
@@ -90,122 +52,53 @@ msDNA-like repeat array?!
 --- Worker agent, task t0062[fn:t0062]
 #+END_QUOTE
 
-It then searched for prior descriptions, counted the repeats with a
-script, and checked that the spacers were unrelated. Those are sensible
-things to do after getting excited about a sequence. Quite a few exciting
-sequences do not survive them.
+I have seen people say that any graduate student could have done this. I've supervised students that have done similar projects. In my experience,  a junior student could spend a year or more running this type of campaign. And there's no guarantee that they'd see this signal. I am not even sure that a standard DNA repeat finder (ie., PILER-CR or its newer variants <<add ref>>) would catch these long spacers and imperfect repeats.
 
-Of seventeen candidate partner families investigated in depth, three
-survived. The others were annotation artifacts, known systems, or chance
-neighbors. A perfectly respectable yield, and a useful number to keep
-beside the headline.
+Perhaps most importantly, automating this kind of grunt work accelerates hypothesis testing. With sufficient resources, I'd be doing hundreds of similar campaigns right now. I'm sure Anthropic already is.
 
-I have seen people say that any graduate student could have done this.
-Having run similar projects, I think a junior student could spend a year
-or more on it and still miss the signal. I am not sure a standard repeat
-finder would catch these long spacers and imperfect repeats, either.
-Building profiles, curating hits, and inspecting gene neighborhoods consume
-months. Automating that work is valuable. I intend to use it.
+* We still need experts
+Dr. Peter Yoon is a Doudna lab alum, and worked on mining CRISPR-Cas13 sequences[fn:yoon-cas13]. The rest of the team worked on CRISPR (Dr. Januka Athukoralage[fn:athukoralage-crispr]), and recombinases (Drs., Perry and Durrant). Four of six authors are senior molecular biologists and domain experts. Give that group a heap of compute and frontier models (without safeguards, I'm guessing), and I'm sure we'll be seeing more interesting bioinformatic discoveries. Also, how many "rejected" campaigns are we NOT seeing?
 
-The brief still matters. Experts chose RTs, wrote the selection criteria,
-and used a tournament to rank nineteen reports before choosing a wet-lab
-follow-up. These were unusually well-qualified experts, too.[fn:bios]
-Peter Yoon trained in Doudna's lab and worked on mining ancestral Cas13
-sequences. Januka Athukoralage worked on CRISPR signaling and viral
-countermeasures. Nicholas Perry and Matthew Durrant worked on programmable
-recombinases; Durrant also led computational biology on Evo. Several had
-already worked together on the bridge recombinase project.
+If nothing else, this proves that LLMs are great accelerators for expert-driven hypothesis generation.
 
-The other authors bring AI and company-building experience: Eric
-Kauderer-Abrams leads biology and life sciences, and Emmanuel Ameisen works
-on interpretability. The paper's claim that particular internal model
-signals explain the DNA-repeat recognition deserves its own scrutiny.
-But the biological expertise behind the search is easy to explain. Four
-of six authors are molecular biologists with precisely the relevant
-training. Give that group a great deal of compute and I would expect
-something worth reading.
 
-* The provenance question
+* Et tu Brute?
 
 The /New York Times/ reports that a Copenhagen group had been studying
-something matching this finding and discussing it with Claude.[fn:nyt]
-I do not know whether those conversations influenced the discovery. That
-is a serious allegation, and convergence is quite plausible: many labs
-are searching the same public databases for anti-phage systems.
+something matching this finding and discussing it with Claude.[fn:nyt] We've seen similar allegations appear before, most famously with <<Navier-Stokes>>, but not exclusively limited to that case.<<refs to Navier-Stokes controvercy, news>>
 
-It should be possible to investigate. The search code exists, and any
-steering toward this clade might have left traces. It would also be
-interesting to ask whether the unsuccessful candidates overlap unusually
-often with work discussed by Claude users. That would take more evidence
-than we have here.
+This is a serious allegation, indeed. Many labs are searching the same public databases using the same tools, and indeed, similar LLMs. Is this why Anthropic released such an early result? At the very least, I'd love to see the Anthropic team run a proper, transparent investigation.
 
-Until then, I am agnostic. I will also keep treating unpublished ideas
-entered into a commercial model as information that might inform the
-company's products. That is the precaution I would recommend to a trainee,
-without claiming to know what happened in this case.
+So what does this mean for biology in the age of LLMs?
 
-* What grows back
+* Harvesting and Replenishment
 
-Terence Tao has been considering a related problem in mathematics. He
-welcomes automated searches that resolve tractable problems in the Erdős
-database: they get useful work done and help identify the harder
-questions.[fn:tao1][fn:tao2] I agree. Nobody needs to preserve a backlog for
-its own sake.
+<<add a quote to AMara's La1w here>>
 
-His concern is what a solution leaves behind. In a discussion of an AI
-solving Navier-Stokes regularity inside a company, he argues that the
-failed approaches, the obstructions, and the adjustments could teach us
-more than the final proof. A solution whose process cannot be examined
-might add little to mathematics, even while disposing of a famous
-problem.[fn:tao3][fn:tao4]
+Terence Tao has written extensively on LLM-led Lean proofs in mathematics. He welcomes automated searches that resolve tractable problems in the Erdős database: they get useful work done and surface "harder questions."[fn:tao1][fn:tao2] 
 
-Biology differs in an obvious way. We want the answers themselves. A cure
-that teaches us very little is still a cure, and I doubt the patients will
-object. But we also need to keep producing questions, data, and people who
-can make sense of either.
+His concern is what the LLM-driven solution leaves behind, and what is lost. Tao argues that human-led "failed approaches" teach us as much as the final proof. An inscrutable, machine-generated solution adds little to mathematics, while disensitivising humans from pursuing these problems.[fn:tao3][fn:tao4]
 
-Consider the student whose year of sequence analysis I would like to
-shorten. Some of that year is wasted on tedious work. Some is spent
-learning to recognize a strange locus and deciding whether it deserves
-another experiment. Automate the work and we need another way to teach
-that judgment. I do not yet know what it is.
+Biology is, of course, very different. A cure that teaches us very little is still a cure, and I doubt the patients will object. But we also need to keep producing questions, data, and people who can make sense of it all.
 
-Then there are the databases. Colleagues who do environmental sequencing
-and bioprospecting have become noticeably less willing to release data
-before they have finished with it. My own university has taken an interest
-in our datasets that it did not previously have. These are conversations
-I have had, not a survey, but the incentive is plain enough. If someone
-can mine your deposit in an afternoon, you have a reason to delay the
-deposit. Fast searches will be less useful if the data stop arriving.
+Consider the student whose year of bioinformatics training we no longer need. Some of that year is wasted on tedious work. Some is spent learning to recognize a strange locus and deciding whether it deserves another experiment. Did we automate an important training pillar? We do not yet know how trainees will adjust.
 
-And there is the choice of questions. The ART agents followed an unexpected
-lead, which counts in their favor. Their follow-ups were still inside an
-expert's brief, and humans chose which report went to the bench. We have
-good evidence here for pursuing surprises within a promising area. How
-well these campaigns will open up areas that nobody thought to put in the
-brief remains to be seen.
+And what happens after the big-compute labs strip mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians, are already grappling with these very questions <<terrance tao or mastadon discussions refs.>>
 
-That is what I mean by harvesting and replenishment. I want the useful
-findings extracted from public data, ART included. I also want the next
-round of data deposited, the next students trained, and the unpromising
-questions given enough attention to surprise us. A faster search does not
-settle any of those problems.
+That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research <<links to nih and nsf programs, former ones too>>.
+
+But I also want the next round of data deposited, the next students trained, and the unpromising questions given enough attention to surprise us. 
 
 * Back to the bench
 
-Feng Zhang calls this an example of how AI agents can "contribute to
-biological discovery."[fn:zhang] That seems right. There is a good result
-here, and I would rather use these tools than assign my students a year of
-work that can be compressed into a day.
+Feng Zhang calls this an example of how AI agents can "contribute to biological discovery."[fn:zhang] This is indeed a very interesting contribution.
 
-I would also like the AI labs to publish the search harness, the failed
-branches, and the fourteen candidates that washed out. Other people need
-to be able to learn from the search, including the parts that did not make
-the announcement.
+Now comes the unglamorous, slow work of understanding how ART RTs work, possibly in  anti-viral defense, and maybe even as biotechnology tools. This requires many, many experiments. The roadmap for such experiments has already been established by the many research groups that have worked on RTs in the past.
 
-Meanwhile, ART needs its function established. The agents have supplied
-plenty of experiments to do. Cells still grow at the speed they grow.
+Here, too, Anthropic hopes to make inroads with automated, LLM-driven robotics.
+<<anthropic press release pull quote about automated labs>>
 
+If they succeed here, it will be a much bigger deal then the ART-RT press release. 
 * Notes
 
 [fn:pr] Anthropic, "Claude discovers a novel enzyme system,"
@@ -233,6 +126,10 @@ task t0062. The preprint reproduces the reasoning trace verbatim;
 "L0050" is the worker's own label for a metagenomic flank.
 [[https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf][preprint PDF]],
 local copy =sources/yoon-et-al-2026-art-preprint.pdf=.
+
+[fn:yoon-cas13] Yoon PH et al. "Structure-guided discovery of ancestral CRISPR-Cas13 ribonucleases." /Science/ 385, 538–543 (2024). [[https://doi.org/10.1126/science.adq0553][doi:10.1126/science.adq0553]].
+
+[fn:athukoralage-crispr] Athukoralage JS et al. "An anti-CRISPR viral ring nuclease subverts type III CRISPR immunity." /Nature/ 577, 572–575 (2020). [[https://doi.org/10.1038/s41586-019-1909-5][doi:10.1038/s41586-019-1909-5]].
 
 [fn:bios] Biographical details compiled 2026-09-28 from Google Scholar
 profiles, published papers, and lab pages. Yoon:
