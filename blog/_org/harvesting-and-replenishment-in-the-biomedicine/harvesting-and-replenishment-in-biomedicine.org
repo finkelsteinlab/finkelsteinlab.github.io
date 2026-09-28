@@ -1,35 +1,11 @@
 # -*- mode: org -*-
 #+TITLE: Harvesting and Replenishment in Biomedicine
 #+DATE: 2026-09-28
-#+DESCRIPTION: Anthropic's agents found an interesting enzyme system in a public database. Faster searches are welcome. Who supplies the next round of data, questions, and trained scientists?
+#+DESCRIPTION: Anthropic's agents found an interesting enzyme system in a public database, or maybe not.
 #+TAGS: ai, crispr, genomics
 #+OPTIONS: ^:{}
 
 # Draft started 2026-09-28.
-#
-# ARCHIVED SOURCES (in sources/ beside this file, not published):
-#   sources/yoon-et-al-2026-art-preprint.pdf
-#       = the Anthropic preprint, downloaded 2026-09-28 from
-#         https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf
-#         md5 71916c2f91370fd5d9b68a7e21e68bcb. That CDN path is a content
-#         hash with no landing page, so assume it will rot.
-#   sources/anthropic-press-release-2026-09-25.html
-#       = https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
-#
-# Every quote below is footnoted to a direct link. The original draft
-# checked the Tao passages against the Mastodon API, not a summary page.
-# This revision paraphrases his argument; see the linked posts.
-#
-# NOTE: citation definitions are collected in the Notes section at the end.
-#
-# TODO before publishing:
-#   - decide whether to name the Copenhagen group. The NYT names them; I have
-#     not talked to them and would rather not pile on.
-#   - the Feng Zhang quote is from Anthropic's own release, where he is being
-#     polite. Check his Bloomberg comments and use those instead if they are
-#     more representative.
-#   - possible figure: redraw the repeat-array cartoon from Fig 1F.
-#   - link-preview entries for the science.org and mathstodon links?
 
 Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RT)--several people sent me Anthropic's big announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will systematize and accelerate the sort of discovery that gave us restriction enzymes, Taq polymerase, and CRISPR itself, by way of "a new way of doing biology research, in which agents collaborate with humans in every step of the process." So is this a BFD? I've been thinking about it all weekend!
 
@@ -85,7 +61,7 @@ Consider the student whose year of bioinformatics training we no longer need. So
 
 And what happens after the big-compute labs strip-mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
 
-That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research, and both have been at it for well over a decade[fn:nih-data][fn:nsf-data].
+That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research[fn:nih-data][fn:nsf-data].
 
 But I also want the next round of data deposited, the next students trained, and the unpromising questions given enough attention to surprise us. 
 
