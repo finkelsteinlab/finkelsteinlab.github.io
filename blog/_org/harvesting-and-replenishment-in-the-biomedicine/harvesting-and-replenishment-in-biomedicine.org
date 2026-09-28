@@ -60,7 +60,7 @@ His concern is what the LLM-driven solution leaves behind, and what is lost. Tao
 
 Biology is, of course, very different. A cure that teaches us very little is still a cure, and I doubt the patients will object. But we also need to keep producing questions, data, and people who can make sense of it all.
 
-Consider the student whose year of bioinformatics training we no longer need. Some of that year is wasted on tedious work. Some is spent learning to recognize a strange locus and deciding whether it deserves another experiment. Did we automate an important training pillar? We do not yet know how trainees will adjust.
+Consider the student whose year of bioinformatics training we no longer need. Some of that year is wasted on tedious work. Some is spent learning to recognize a strange locus and deciding whether it deserves another experiment. Are we automating away a training opportunity? And will it be replaced with "more valuable" training? We do not yet know how trainees will adjust.
 
 And what happens after the big-compute labs strip-mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
 
