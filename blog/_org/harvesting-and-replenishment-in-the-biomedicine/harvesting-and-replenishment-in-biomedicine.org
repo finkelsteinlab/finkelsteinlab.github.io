@@ -83,7 +83,7 @@ Biology is, of course, very different. A cure that teaches us very little is sti
 
 Consider the student whose year of bioinformatics training we no longer need. Some of that year is wasted on tedious work. Some is spent learning to recognize a strange locus and deciding whether it deserves another experiment. Did we automate an important training pillar? We do not yet know how trainees will adjust.
 
-And what happens after the big-compute labs strip mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians, are already grappling with these very questions <<terrance tao or mastadon discussions refs.>>
+And what happens after the big-compute labs strip mine useful nuggets using public data and open-source tools? When data is gold, will colleagues who do environmental sequencing and bioprospecting be less willing to release their data? Will collaborations freeze? If someone with more compute can strip-mine your dataset in an afternoon, you have every reason to delay that deposit. Mathematicians are already grappling with these very questions.[fn:tao-sharing]
 
 That is what I mean by harvesting and replenishment. Of course, we should accelerate new findings by mining public data, ART included! Both the NIH and NSF have long-standing programs aimed at standardizing public datasets for just such research <<links to nih and nsf programs, former ones too>>.
 
@@ -167,6 +167,8 @@ Discovery on Its Own?", /New York Times/, 27 September 2026:
 [fn:tao4] Terence Tao, Mathstodon, 3 September 2026:
 [[https://mathstodon.xyz/@tao/117207856734787448][mathstodon.xyz/@tao/117207856734787448]]
 (post 6 of 6, concluding the thread).
+
+[fn:tao-sharing] Terence Tao, Mathstodon, 8 September 2026, [[https://mathstodon.xyz/@tao/117237322160500501][post 3 of 4]]. Tao warns that competition from large AI efforts could discourage researchers from sharing promising research directions, undermining open science.
 
 [fn:zhang] Feng Zhang, quoted in Anthropic, "Claude discovers a novel
 enzyme system,"
