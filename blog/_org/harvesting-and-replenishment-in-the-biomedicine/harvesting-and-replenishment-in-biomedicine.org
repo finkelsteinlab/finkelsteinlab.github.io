@@ -26,8 +26,9 @@
 #   - decide whether to name the Copenhagen group. The NYT names them; I have
 #     not talked to them and would rather not pile on.
 #   - the Feng Zhang quote is from Anthropic's own release, where he is being
-#     polite. Check his Bloomberg comments and use those instead if they are
-#     more representative.
+#     polite. Checked 2026-09-28: Bloomberg is behind a bot wall and none of
+#     the secondary coverage carries a separate quote from him, so the post
+#     now uses his full sentence from the release. Revisit if he says more.
 #   - possible figure: redraw the repeat-array cartoon from Fig 1F.
 #   - link-preview entries for the science.org and mathstodon links?
 
