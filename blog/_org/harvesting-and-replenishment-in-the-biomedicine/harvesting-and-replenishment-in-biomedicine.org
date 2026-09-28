@@ -31,18 +31,12 @@
 #   - possible figure: redraw the repeat-array cartoon from Fig 1F.
 #   - link-preview entries for the science.org and mathstodon links?
 
-Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] The press release presents this as a step toward a new way of doing biology, with AI agents collaborating with humans at every stage. Not so fast!
+Since I work on CRISPR and retrons--bacterial defense systems with a reverse transcriptase (RTs)--several people sent me Anthropic's big reveal announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[fn:pr] This, according to the press release, will <<fill in.>> So is this a BFD? I've been thinking about it all weekend!
 
-I welcome the faster searches. My concern is how we replenish what they
-search, and who learns to do the next round of science. If depositing data
-means being scooped by the afternoon, people will hold it back. If we
-automate a student's apprenticeship, we need another way to teach
-scientific judgment. We can get better at harvesting discoveries while
-making it harder to produce the next crop.
+TL:DR; This is an interesting result! If a student brought me this observation, I'd happily pursue it further--its a neat discovery! But boy-oh-boy, is the hype getting ahead of the actual science.
 
-The result itself deserves attention. I would be pleased if a student
-brought me this paper's finding. I would also have a substantial list of
-experiments for them.
+I welcome the faster searches. My concern is how we replenish what they search, and who learns to do the next round of science. If depositing data means being scooped by the afternoon, people will hold it back. If we automate a student's apprenticeship, we need another way to teach scientific judgment. We can get better at harvesting discoveries while making it harder to produce the next crop.
+
 
 * An interesting system, with its function still to come
 
