@@ -321,6 +321,34 @@
   margin-bottom: 0.5em;
 }
 
+/* Superscripts and subscripts must not open up the line.
+   A <sup> at its natural size is taller than the line box, so a line
+   carrying a footnote marker grows and the paragraph shows an uneven
+   rag of leading. Zero line-height takes the mark out of the line-box
+   calculation and `top` places it optically instead. Bootstrap's
+   normalize already does exactly this, which is why the blog looks
+   right today; the rule is repeated here so the blog keeps its own
+   typography if Bootstrap is ever dropped or updated. */
+.blog-content sup,
+.blog-content sub,
+.blog-quote sup,
+.blog-quote sub {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.blog-content sup,
+.blog-quote sup {
+  top: -0.5em;
+}
+
+.blog-content sub,
+.blog-quote sub {
+  bottom: -0.25em;
+}
+
 /* Grouped footnote references: "2-5,7" rather than "23457".
    Built by footnote-groups.js; the empty anchors carry the ids of the
    numbers a range hides, so reverse-footnote links still resolve. */
