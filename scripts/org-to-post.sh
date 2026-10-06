@@ -311,7 +311,9 @@ while IFS= read -r k; do
 done < <(grep -oE '\[cite[^]]*\]' "$ORG_FILE" 2>/dev/null \
     | grep -oE '@[A-Za-z0-9_][A-Za-z0-9_:.+/-]*' || true)
 
-SLUG=$(slugify "$TITLE")
+# Drop apostrophes first, so "Brandolini's World" is brandolinis-world rather
+# than brandolini-s-world. Tags keep plain slugify to match Jekyll's anchors.
+SLUG=$(slugify "$(printf '%s' "$TITLE" | sed "s/['’]//g")")
 if [ -z "$SLUG" ]; then
     die "could not derive a slug from #+TITLE: '$TITLE'."
 fi
