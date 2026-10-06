@@ -18,6 +18,7 @@
 # Org file format:
 # #+TITLE: My Post Title
 # #+DATE: 2026-02-11            (or an org timestamp: <2026-02-11 Wed>)
+# #+UPDATED: 2026-03-01         (optional; last substantive revision)
 # #+DESCRIPTION: A brief description
 # #+TAGS: tag1 tag2 tag3        (REQUIRED - at least one tag)
 # #+BIBLIOGRAPHY: citekey1 citekey2 citekey3
@@ -179,6 +180,7 @@ valid_date() {
 
 TITLE=$(org_keyword TITLE)
 DATE_RAW=$(org_keyword DATE)
+UPDATED_RAW=$(org_keyword UPDATED)
 DESCRIPTION=$(org_keyword DESCRIPTION)
 TAGS_RAW=$(org_keyword TAGS)
 CITEKEYS_RAW=$(org_keyword BIBLIOGRAPHY)
@@ -226,6 +228,26 @@ else
     fi
     if ! valid_date "$DATE"; then
         die "#+DATE: '$DATE_RAW' in $ORG_BASE is not a real calendar date."
+    fi
+fi
+
+# --- updated (optional): the date of the last substantive revision ---
+UPDATED=""
+if [ -n "$UPDATED_RAW" ]; then
+    if ! UPDATED=$(normalize_date "$UPDATED_RAW"); then
+        die "unrecognised #+UPDATED: '$UPDATED_RAW' in $ORG_BASE.
+  Accepted: YYYY-MM-DD, <YYYY-MM-DD Day>, [YYYY-MM-DD Day], with an optional time."
+    fi
+    if ! valid_date "$UPDATED"; then
+        die "#+UPDATED: '$UPDATED_RAW' in $ORG_BASE is not a real calendar date."
+    fi
+    # ISO dates compare correctly as strings.
+    if [[ "$UPDATED" < "$DATE" ]]; then
+        die "#+UPDATED: $UPDATED in $ORG_BASE is before #+DATE: $DATE."
+    fi
+    # Updated on the day it was published is not an update.
+    if [ "$UPDATED" = "$DATE" ]; then
+        UPDATED=""
     fi
 fi
 
@@ -530,6 +552,9 @@ fi
     echo "---"
     echo "title: $(yaml_squote "$TITLE")"
     echo "date: $DATE"
+    if [ -n "$UPDATED" ]; then
+        echo "updated: $UPDATED"
+    fi
     if [ -n "$DESCRIPTION" ]; then
         echo "description: $(yaml_squote "$DESCRIPTION")"
     fi

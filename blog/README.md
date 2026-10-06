@@ -182,6 +182,23 @@ will normally have. All of these normalise to `2026-03-01` in both the
 filename and the front matter. Anything else — or a date that does not
 exist, like `2026-02-31` — is an error.
 
+### `#+UPDATED:` — optional, for revisions after publishing
+
+Leave `#+DATE:` as the first-published date and add the date of the last
+substantive revision:
+
+```org
+#+DATE: 2026-10-06
+#+UPDATED: 2026-10-20
+```
+
+It takes the same forms as `#+DATE:`. The post's byline then reads
+"October 6, 2026 · Updated October 20, 2026", the feed entry gets
+`<published>` and `<updated>`, and the JSON-LD gets `dateModified`. An
+`#+UPDATED:` earlier than `#+DATE:` is an error; one equal to it is
+ignored. Typo fixes don't need one. Re-run the converter with `--force` to
+regenerate the post.
+
 ### `#+TAGS:` — required
 
 **Every post must carry at least one tag.** An untagged post never
@@ -494,6 +511,7 @@ xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.x
 ```org
 #+TITLE: Required - becomes the post title and the slug
 #+DATE: Optional - plain date or org timestamp; defaults to today
+#+UPDATED: Optional - date of the last substantive revision
 #+DESCRIPTION: Optional - for previews and meta tags
 #+TAGS: REQUIRED - at least one; comma- or space-separated
 #+BIBLIOGRAPHY: citekey1 citekey2 citekey3

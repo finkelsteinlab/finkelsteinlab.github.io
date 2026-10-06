@@ -27,7 +27,8 @@ title: Blog Feed
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <published>{{ post.date | date_to_xmlschema }}</published>
+   <updated>{{ post.updated | default: post.date | date_to_xmlschema }}</updated>
    <id>{{ site.production_url }}{{ post.id }}</id>
    {% if post.description %}<summary>{{ post.description | xml_escape }}</summary>{% endif %}
    {% comment %}
