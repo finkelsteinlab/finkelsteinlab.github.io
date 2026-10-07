@@ -8,11 +8,17 @@ navorder: 2
 {% include JB/setup %}
 
 <script>
-$(document).ready(function(){
-  $('img.personimage').on('mouseenter mouseleave', function() {
-    $(this).attr({
-      src: $(this).attr('data-young-src'), 'data-young-src': $(this).attr('src')
-    })
+// Plain JS: jQuery loads at the end of the page, after this runs.
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('img.personimage').forEach(function (img) {
+    function swap() {
+      var young = img.getAttribute('data-young-src');
+      if (!young) return;
+      img.setAttribute('data-young-src', img.getAttribute('src'));
+      img.setAttribute('src', young);
+    }
+    img.addEventListener('mouseenter', swap);
+    img.addEventListener('mouseleave', swap);
   });
 });
 
