@@ -547,10 +547,11 @@ Site-absolute paths work in all three forms — the converter strips the
 [[/assets/images/blog/fig.jpg]]
 ```
 
-`#+CAPTION:` produces a `<figure>` with a `<figcaption>`. Note that
-`#+ATTR_HTML:` and `#+CAPTION:` on the *same* image put the attributes on
-the `<figure>`, not the `<img>`, so the `alt` is lost — use one or the
-other.
+`#+CAPTION:` produces a `<figure>` with a `<figcaption>`. Every image gets
+alt text from `scripts/image-alt.lua`: an explicit `#+ATTR_HTML: :alt` wins,
+otherwise the caption is copied into `alt` (and pandoc hides the duplicate
+caption from screen readers). Both can go on the same image. The converter
+warns about any image left with neither; give it an `:alt`.
 
 `[[/path][description]]` makes a **link** with that text, not an image
 with alt text. For alt text, use `#+ATTR_HTML: :alt ...`.

@@ -430,6 +430,9 @@ PANDOC_ARGS=(
     # The layout already renders the title as the page's <h1>. Push org's
     # top-level `*` headings down to <h2> so each post has exactly one <h1>.
     --shift-heading-level-by=1
+    # Pandoc leaves captioned images with no alt at all; this copies the
+    # caption (or an explicit #+ATTR_HTML: :alt) onto every <img>.
+    --lua-filter="$SCRIPT_DIR/image-alt.lua"
 )
 
 if [ -s "$TMP_BIB" ]; then
