@@ -564,6 +564,18 @@ hr {
   background-color: transparent;
 }
 
+/* Blog charts are white-background PNGs; full-brightness white glares on
+   the dark page, so take the edge off. */
+[data-theme="dark"] .blog-content figure img {
+  filter: brightness(0.85);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .blog-content figure img {
+    filter: brightness(0.85);
+  }
+}
+
 /* Specific site components */
 
 /* Paper figures */
