@@ -490,7 +490,20 @@ pre {
 /* Blockquotes */
 blockquote {
   border-left-color: var(--ctp-mauve);
-  color: var(--color-text-muted);
+  color: var(--color-text);
+}
+
+/* Bootstrap sets blockquote p to weight 300 at a cramped 1.25 leading,
+   which made every quote on the site fainter than the text around it. */
+blockquote p {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1.6;
+}
+
+/* Bootstrap's .lead is weight 200, thinner than anything Lato loads. */
+.lead {
+  font-weight: inherit;
 }
 
 /* Horizontal rules */

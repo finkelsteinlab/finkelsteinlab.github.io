@@ -105,13 +105,6 @@
   font-style: italic;
 }
 
-/* Bootstrap sets blockquote p to weight 300 at a cramped 1.25 leading. */
-.blog-content blockquote p {
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: 1.6;
-}
-
 /* Quote posts (#+KIND: quote in org).
  *
  * _includes/blog/quote.html renders the body inside <blockquote cite> and
