@@ -42,6 +42,10 @@
   --ctp-mantle: #e6e9ef;
   --ctp-crust: #dce0e8;
 
+  /* Page background. Latte's base is a bluish grey that dulls body text;
+     a near-white of the same hue gives the copy more snap. */
+  --ctp-paper: #fbfbfd;
+
   /* WCAG AA adjusted hues.
      Latte's blue (#1e66f5) and sapphire (#209fb5) are too light for body-sized
      text on --ctp-base / --ctp-mantle (4.34:1 and 2.78:1). These are the same
@@ -51,7 +55,7 @@
   --ctp-overlay1-aa: #61647a;
 
   /* Semantic mappings */
-  --color-bg: var(--ctp-base);
+  --color-bg: var(--ctp-paper);
   --color-bg-secondary: var(--ctp-mantle);
   --color-bg-tertiary: var(--ctp-surface0);
   --color-text: var(--ctp-text);
@@ -68,7 +72,7 @@
   --color-error: var(--ctp-red);
   
   /* Component colors */
-  --color-navbar-bg: var(--ctp-base);
+  --color-navbar-bg: var(--ctp-paper);
   --color-navbar-text: var(--ctp-text);
   --color-card-bg: var(--ctp-mantle);
   --color-code-bg: var(--ctp-surface0);
