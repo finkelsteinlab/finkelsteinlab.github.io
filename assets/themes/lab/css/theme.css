@@ -711,3 +711,51 @@ hr {
   max-width: 100%;
   overflow-x: auto;
 }
+
+/* Phone widths. A crawl at 390px found 31 pages scrolling sideways:
+   long unbroken URLs in footnotes and archives, fixed-width (600-800px)
+   images and Maps/YouTube embeds on /contact/ and /teaching/, and the
+   alumni table on /members/. */
+#main {
+  overflow-wrap: break-word;
+}
+
+#main img,
+#main iframe {
+  max-width: 100%;
+}
+
+#main img {
+  height: auto;
+}
+
+/* Inline code holds DNA sequences and file paths with no break points;
+   display equations can be wider than a phone, so they scroll on their own. */
+#main :not(pre) > code {
+  white-space: normal;  /* Bootstrap sets nowrap */
+  overflow-wrap: anywhere;
+}
+
+#main mjx-container {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#main mjx-container:not([display="true"]) {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#main iframe[src*="youtube.com"] {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 767px) {
+  #main table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
