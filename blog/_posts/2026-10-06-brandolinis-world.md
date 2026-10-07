@@ -27,8 +27,8 @@ Across 12 funders in six countries and the EU, applications rose 57% on average 
 > — Geraint Rees and James Wilsdon, *Nature*, April 27, 2026[^2]
 
 <figure>
-<img src="/assets/images/blog/brandolinis-world/funder-growth.png" />
-<figcaption>Change in grant applications, 2022 to 2025, at 12 funders. Data: Rees and Wilsdon, <em>Nature</em> (2026), supplementary table.</figcaption>
+<img src="/assets/images/blog/brandolinis-world/funder-growth.png" alt="Change in grant applications, 2022 to 2025, at 12 funders. Data: Rees and Wilsdon, Nature (2026), supplementary table." />
+<figcaption aria-hidden="true">Change in grant applications, 2022 to 2025, at 12 funders. Data: Rees and Wilsdon, <em>Nature</em> (2026), supplementary table.</figcaption>
 </figure>
 
 The EU's prestigious Marie Skłodowska-Curie Postdoctoral Fellowships are absolutely drowning in slop!
@@ -86,13 +86,13 @@ The entire [arXiv post](https://blog.arxiv.org/2026/10/01/updated-rate-limit-pol
 > — Thomas Dietterich, chair of the arXiv Editorial Advisory Council, October 1, 2026[^11]
 
 <figure>
-<img src="/assets/images/blog/brandolinis-world/arxiv-monthly-submissions.png" />
-<figcaption>arXiv monthly submissions, 1991 to September 2026. Source: arXiv.</figcaption>
+<img src="/assets/images/blog/brandolinis-world/arxiv-monthly-submissions.png" alt="arXiv monthly submissions, 1991 to September 2026. Source: arXiv." />
+<figcaption aria-hidden="true">arXiv monthly submissions, 1991 to September 2026. Source: arXiv.</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/images/blog/brandolinis-world/arxiv-cs-ai-growth.png" />
-<figcaption>Monthly submissions to cs.AI, 2024 to 2026. Source: arXiv.</figcaption>
+<img src="/assets/images/blog/brandolinis-world/arxiv-cs-ai-growth.png" alt="Monthly submissions to cs.AI, 2024 to 2026. Source: arXiv." />
+<figcaption aria-hidden="true">Monthly submissions to cs.AI, 2024 to 2026. Source: arXiv.</figcaption>
 </figure>
 
 Incidentally, I would love to know whether bioRxiv is also undergoing the same type of slop attack.
@@ -110,8 +110,8 @@ Journals on ScholarOne got 33% more submissions in Q1 2026 than a year earlier. 
 *Clinical Orthopaedics and Related Research* got more letters in the first half of 2025 than in any full year before. About half were likely written by an LLM.
 
 <figure>
-<img src="/assets/images/blog/brandolinis-world/corr-letters.jpg" />
-<figcaption>Letters to the editor at <em>CORR</em>, by year. Red: very likely LLM-written. Source: Smith and Leopold (2025).</figcaption>
+<img src="/assets/images/blog/brandolinis-world/corr-letters.jpg" alt="Letters to the editor at CORR, by year. Red: very likely LLM-written. Source: Smith and Leopold (2025)." />
+<figcaption aria-hidden="true">Letters to the editor at <em>CORR</em>, by year. Red: very likely LLM-written. Source: Smith and Leopold (2025).</figcaption>
 </figure>
 
 > We have too much respect for our readers to flood the zone with so much empty content.

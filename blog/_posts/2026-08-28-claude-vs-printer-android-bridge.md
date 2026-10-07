@@ -14,13 +14,13 @@ This Wednesday, I decided to rescue our old HL-4570CDW laser printer. The printe
 <div class="figures">
 
 <figure>
-<img src="/assets/images/blog/claude-vs-printer-android-bridge/printer.jpg" />
-<figcaption>Figure 1a. The Brother HL-4570CDW, circa 2010.</figcaption>
+<img src="/assets/images/blog/claude-vs-printer-android-bridge/printer.jpg" alt="Figure 1a. The Brother HL-4570CDW, circa 2010." />
+<figcaption aria-hidden="true">Figure 1a. The Brother HL-4570CDW, circa 2010.</figcaption>
 </figure>
 
 <figure>
-<img src="/assets/images/blog/claude-vs-printer-android-bridge/tank.jpg" />
-<figcaption>Figure 1b. An M1A1 Abrams, for comparison. Photo: Tech. Sgt. John Houghton, U.S. Air Force (public domain).</figcaption>
+<img src="/assets/images/blog/claude-vs-printer-android-bridge/tank.jpg" alt="Figure 1b. An M1A1 Abrams, for comparison. Photo: Tech. Sgt. John Houghton, U.S. Air Force (public domain)." />
+<figcaption aria-hidden="true">Figure 1b. An M1A1 Abrams, for comparison. Photo: Tech. Sgt. John Houghton, U.S. Air Force (public domain).</figcaption>
 </figure>
 
 </div>
