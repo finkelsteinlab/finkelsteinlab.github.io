@@ -38,8 +38,9 @@ author :
   email: ilya@finkelsteinlab.org
   github: finkelsteinlab
   twitter: ilyafinkelstein
+# The wiki is its own repo (finkelsteinlab/wiki), served by GitHub Pages at /wiki/.
 wiki:
-  url: http://50.116.21.252/wiki
+  url: https://finkelsteinlab.org/wiki/
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
