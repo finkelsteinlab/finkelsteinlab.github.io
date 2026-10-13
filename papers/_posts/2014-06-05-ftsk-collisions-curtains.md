@@ -8,7 +8,7 @@ year: "2014"
 shortref: "Lee _et al._ Mol. Cell (2014)"
 nickname: "FtsK-collisions-curtains"
 journal: "Mol. Cell"
-authors: "Ja YilLee, Ilya J.Finkelstein, Lidia K.Arciszewska, David J.Sherratt, Eric C.Greene"
+authors: "Ja Yil Lee, Ilya J. Finkelstein, Lidia K. Arciszewska, David J. Sherratt, Eric C. Greene"
 pdf: 0024-2014-MolCell-Lee et al.pdf
 supplement: 0024-2014-MolCell-Lee et al-supplement.pdf
 doi: 10.1016/j.molcel.2014.03.033
