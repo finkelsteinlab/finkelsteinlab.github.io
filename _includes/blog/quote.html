@@ -9,11 +9,14 @@
     {% include blog/quote.html post=page body=content %}        (layout)
     {% include blog/quote.html post=post body=post.content %}   (index, feed)
 
-  The front matter fields come from #+SOURCE:, #+AUTHOR:, #+LAB: and #+CONTEXT: in
+  An optional intro (#+INTRO:, Ilya's own words) sits above the blockquote.
+
+  The front matter fields come from #+SOURCE:, #+AUTHOR:, #+LAB:, #+CONTEXT: and #+INTRO: in
   the org file; scripts/org-to-post.sh refuses a quote without the first two.
 {% endcomment %}
 {% assign q = include.post %}
 <div class="blog-quote">
+  {% if q.intro %}<div class="quote-intro">{{ q.intro | markdownify }}</div>{% endif %}
   <blockquote cite="{{ q.source_url | escape }}">
 {{ include.body }}
   </blockquote>

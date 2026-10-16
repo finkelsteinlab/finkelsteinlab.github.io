@@ -280,12 +280,13 @@ A later passage, with an ellipsis in brackets marking the cut.
 | `#+AUTHOR:` | Required. Who is being quoted. The post's own author is still Ilya. |
 | `#+CONTEXT:` | Optional. Their role, or the publication, shown after the name. |
 | `#+LAB:` | Optional. An http(s) URL, shown as a "(lab)" link right after the name. Use it when `#+SOURCE:` is the person's official page, as for a quote from a personal communication with no public URL. |
+| `#+INTRO:` | Optional. One line in your own voice, shown above the blockquote rather than inside it. Org markup works, links included. |
 | `#+TITLE:` | Optional here. Defaults to `Quoting <author>`. |
 | `#+DESCRIPTION:` | Optional here. Defaults to the first 200 characters of the quote. |
 | `#+TAGS:` | Still required. |
 
 The converter writes `kind`, `source_url`, `source_author`,
-`source_context` and `source_lab_url` into the front matter and leaves the body as it is.
+`source_context`, `source_lab_url` and `intro` into the front matter and leaves the body as it is.
 `_includes/blog/quote.html` does the wrapping, and is used in three places
 so they cannot drift: the post page, the `/blog/` index (which shows the
 whole quote inline rather than a description) and `blog/feed.xml` (so a

@@ -32,6 +32,7 @@
 # #+AUTHOR: Who said it                          (REQUIRED for quotes)
 # #+CONTEXT: their role, or the publication      (optional)
 # #+LAB: https://example.org/lab                 (optional; "(lab)" link)
+# #+INTRO: One line of Ilya's own, above the quote (optional; org markup)
 # The body is the quoted passage itself; the layout wraps it in a
 # <blockquote cite=...> and appends the attribution line. #+TITLE: may be
 # omitted and defaults to "Quoting <author>". #+DESCRIPTION: defaults to the
@@ -190,11 +191,15 @@ SOURCE_URL=$(org_keyword SOURCE)
 SOURCE_AUTHOR=$(org_keyword AUTHOR)
 SOURCE_CONTEXT=$(org_keyword CONTEXT)
 SOURCE_LAB_URL=$(org_keyword LAB)
+QUOTE_INTRO=$(org_keyword INTRO)
 
 # --- kind: an ordinary post, or a quote collected from elsewhere ---
 case "$KIND" in
     ''|post)
         KIND=post
+        if [ -n "$QUOTE_INTRO" ]; then
+            die "#+INTRO: in $ORG_BASE only applies to #+KIND: quote. In a normal post, write the sentence in the body."
+        fi
         ;;
     quote)
         if [ -z "$SOURCE_URL" ]; then
@@ -208,6 +213,12 @@ case "$KIND" in
         fi
         if [ -n "$SOURCE_LAB_URL" ] && ! printf '%s' "$SOURCE_LAB_URL" | grep -qE '^https?://[^[:space:]"<>]+$'; then
             die "#+LAB: '$SOURCE_LAB_URL' in $ORG_BASE is not an http(s) URL."
+        fi
+        # The intro is org markup like the body; store it as markdown so
+        # quote.html can markdownify it outside the blockquote.
+        if [ -n "$QUOTE_INTRO" ]; then
+            QUOTE_INTRO=$(printf '%s\n' "$QUOTE_INTRO" | pandoc -f org -t gfm --wrap=none \
+                | sed -E 's#\]\(file:///#](/#g')
         fi
         ;;
     *)
@@ -333,6 +344,9 @@ if [ "$KIND" = quote ]; then
     echo "  Source: $SOURCE_URL"
     if [ -n "$SOURCE_LAB_URL" ]; then
         echo "  Lab: $SOURCE_LAB_URL"
+    fi
+    if [ -n "$QUOTE_INTRO" ]; then
+        echo "  Intro: $QUOTE_INTRO"
     fi
 fi
 if [ ${#CITEKEYS[@]} -gt 0 ]; then
@@ -582,6 +596,9 @@ fi
         fi
         if [ -n "$SOURCE_LAB_URL" ]; then
             echo "source_lab_url: $(yaml_squote "$SOURCE_LAB_URL")"
+        fi
+        if [ -n "$QUOTE_INTRO" ]; then
+            echo "intro: $(yaml_squote "$QUOTE_INTRO")"
         fi
     fi
     echo "tags:"
