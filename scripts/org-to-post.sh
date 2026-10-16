@@ -31,6 +31,7 @@
 # #+SOURCE: https://example.org/the-article      (REQUIRED for quotes)
 # #+AUTHOR: Who said it                          (REQUIRED for quotes)
 # #+CONTEXT: their role, or the publication      (optional)
+# #+LAB: https://example.org/lab                 (optional; "(lab)" link)
 # The body is the quoted passage itself; the layout wraps it in a
 # <blockquote cite=...> and appends the attribution line. #+TITLE: may be
 # omitted and defaults to "Quoting <author>". #+DESCRIPTION: defaults to the
@@ -188,6 +189,7 @@ KIND=$(org_keyword KIND | tr '[:upper:]' '[:lower:]')
 SOURCE_URL=$(org_keyword SOURCE)
 SOURCE_AUTHOR=$(org_keyword AUTHOR)
 SOURCE_CONTEXT=$(org_keyword CONTEXT)
+SOURCE_LAB_URL=$(org_keyword LAB)
 
 # --- kind: an ordinary post, or a quote collected from elsewhere ---
 case "$KIND" in
@@ -203,6 +205,9 @@ case "$KIND" in
         fi
         if [ -z "$SOURCE_AUTHOR" ]; then
             die "#+KIND: quote in $ORG_BASE needs an #+AUTHOR: - who is being quoted."
+        fi
+        if [ -n "$SOURCE_LAB_URL" ] && ! printf '%s' "$SOURCE_LAB_URL" | grep -qE '^https?://[^[:space:]"<>]+$'; then
+            die "#+LAB: '$SOURCE_LAB_URL' in $ORG_BASE is not an http(s) URL."
         fi
         ;;
     *)
@@ -326,6 +331,9 @@ if [ "$KIND" = quote ]; then
     echo "  Kind: quote"
     echo "  Quoting: $SOURCE_AUTHOR${SOURCE_CONTEXT:+, $SOURCE_CONTEXT}"
     echo "  Source: $SOURCE_URL"
+    if [ -n "$SOURCE_LAB_URL" ]; then
+        echo "  Lab: $SOURCE_LAB_URL"
+    fi
 fi
 if [ ${#CITEKEYS[@]} -gt 0 ]; then
     echo "  Citations: ${CITEKEYS[*]}"
@@ -571,6 +579,9 @@ fi
         echo "source_author: $(yaml_squote "$SOURCE_AUTHOR")"
         if [ -n "$SOURCE_CONTEXT" ]; then
             echo "source_context: $(yaml_squote "$SOURCE_CONTEXT")"
+        fi
+        if [ -n "$SOURCE_LAB_URL" ]; then
+            echo "source_lab_url: $(yaml_squote "$SOURCE_LAB_URL")"
         fi
     fi
     echo "tags:"

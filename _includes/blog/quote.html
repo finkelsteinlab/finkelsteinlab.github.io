@@ -9,7 +9,7 @@
     {% include blog/quote.html post=page body=content %}        (layout)
     {% include blog/quote.html post=post body=post.content %}   (index, feed)
 
-  The front matter fields come from #+SOURCE:, #+AUTHOR: and #+CONTEXT: in
+  The front matter fields come from #+SOURCE:, #+AUTHOR:, #+LAB: and #+CONTEXT: in
   the org file; scripts/org-to-post.sh refuses a quote without the first two.
 {% endcomment %}
 {% assign q = include.post %}
@@ -17,5 +17,5 @@
   <blockquote cite="{{ q.source_url | escape }}">
 {{ include.body }}
   </blockquote>
-  <p class="cite">&mdash; <a href="{{ q.source_url | escape }}">{{ q.source_author | escape }}</a>{% if q.source_context %}, <span class="context">{{ q.source_context | escape }}</span>{% endif %}</p>
+  <p class="cite">&mdash; <a href="{{ q.source_url | escape }}">{{ q.source_author | escape }}</a>{% if q.source_lab_url %} (<a href="{{ q.source_lab_url | escape }}">lab</a>){% endif %}{% if q.source_context %}, <span class="context">{{ q.source_context | escape }}</span>{% endif %}</p>
 </div>
