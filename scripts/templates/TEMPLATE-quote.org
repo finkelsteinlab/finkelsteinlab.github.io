@@ -15,25 +15,25 @@
 #   cp scripts/templates/TEMPLATE-quote.org blog/_org/my-quote.org
 #   ./scripts/org-to-post.sh blog/_org/my-quote.org --draft
 #
-# The body below is the quoted passage and nothing else. The site wraps it in
-# a <blockquote cite="SOURCE"> and appends
+# The body is either the quoted passage alone, or prose of your own around
+# ONE #+BEGIN_QUOTE block holding the passage (as below). The site puts the
+# passage in a <blockquote cite="SOURCE"> and appends
 #
 #     — AUTHOR, CONTEXT
 #
-# with AUTHOR linking to SOURCE. Do not write the attribution yourself, and do
-# not use #+BEGIN_QUOTE: you would get a quote inside a quote.
+# with AUTHOR linking to SOURCE. Prose before the block goes above it, prose
+# after the block goes below the attribution. Do not write the attribution
+# yourself: a "--- Name" line in the block, or a second block, is an error.
 #
 # #+KIND: quote      Required; this is what switches the format on.
 # #+SOURCE:          Required. http(s) URL of the original.
 # #+AUTHOR:          Required. The person or publication being quoted.
 # #+CONTEXT:         Optional. Shown after the name: "CTO, Firefox".
 # #+LAB:             Optional. http(s) URL shown as "(lab)" after the name.
-# #+INTRO:           Optional. One line of your own above the quote, outside
-#                    the blockquote. Org markup, links included.
 # #+TITLE:           Optional. Defaults to "Quoting <author>". It is the
 #                    page <h1> and the URL slug either way.
 # #+DESCRIPTION:     Optional. Defaults to the first 200 characters of the
-#                    quote. Used for the meta description and llms.txt.
+#                    body (your intro, if any). Used for meta and llms.txt.
 # #+TAGS:            Required, as for every post.
 #
 # Quote verbatim, including the original's punctuation. Mark cuts between
@@ -41,7 +41,12 @@
 # Bold a phrase (*like this*) if one line is the point.
 # ============================================================================
 
+Optional: a sentence of your own. Delete it, and the #+BEGIN_QUOTE and
+#+END_QUOTE lines, to make the whole body the quote.
+
+#+BEGIN_QUOTE
 The first passage, copied exactly. Paragraphs are separated by a blank line as
 usual, and a cut between non-adjacent passages is marked like this. [...]
 
 The second passage. *The sentence that made you save it* can be bolded.
+#+END_QUOTE

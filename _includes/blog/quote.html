@@ -9,16 +9,33 @@
     {% include blog/quote.html post=page body=content %}        (layout)
     {% include blog/quote.html post=post body=post.content %}   (index, feed)
 
-  An optional intro (#+INTRO:, Ilya's own words) sits above the blockquote.
+  When the org body holds a #+BEGIN_QUOTE block, scripts/quote-split.lua
+  brackets the passage with <!-- quote:start --> and <!-- quote:end -->.
+  Prose before the start marker is Ilya's intro; prose after the end marker
+  follows the attribution. Without the markers the whole body is the quote.
 
-  The front matter fields come from #+SOURCE:, #+AUTHOR:, #+LAB:, #+CONTEXT: and #+INTRO: in
-  the org file; scripts/org-to-post.sh refuses a quote without the first two.
+  The front matter fields come from #+SOURCE:, #+AUTHOR:, #+LAB: and
+  #+CONTEXT: in the org file; scripts/org-to-post.sh refuses a quote without
+  the first two.
 {% endcomment %}
 {% assign q = include.post %}
+{% assign q_intro = '' %}{% assign q_outro = '' %}{% assign q_passage = include.body %}
+{% if include.body contains '<!-- quote:start -->' %}
+  {% assign q_split = include.body | split: '<!-- quote:start -->' %}
+  {% assign q_intro = q_split[0] | strip %}
+  {% assign q_rest = q_split[1] | split: '<!-- quote:end -->' %}
+  {% assign q_passage = q_rest[0] %}
+  {% assign q_outro = q_rest[1] | strip %}
+{% endif %}
 <div class="blog-quote">
-  {% if q.intro %}<div class="quote-intro">{{ q.intro | markdownify }}</div>{% endif %}
+  {% if q_intro != '' %}<div class="quote-intro">
+{{ q_intro }}
+  </div>{% endif %}
   <blockquote cite="{{ q.source_url | escape }}">
-{{ include.body }}
+{{ q_passage }}
   </blockquote>
   <p class="cite">&mdash; <a href="{{ q.source_url | escape }}">{{ q.source_author | escape }}</a>{% if q.source_lab_url %} (<a href="{{ q.source_lab_url | escape }}">lab</a>){% endif %}{% if q.source_context %}, <span class="context">{{ q.source_context | escape }}</span>{% endif %}</p>
+  {% if q_outro != '' %}<div class="quote-outro">
+{{ q_outro }}
+  </div>{% endif %}
 </div>
