@@ -1,12 +1,15 @@
 ---
 title: 'Harvesting and Replenishment in Biomedicine'
 date: 2026-09-28
+updated: 2026-10-19
 description: 'Anthropic''s agents found an interesting enzyme system in a public database, or maybe not.'
 tags:
   - 'ai'
   - 'crispr'
   - 'genomics'
 ---
+
+*Update, October 19, 2026:* CNN's Katie Hunt quoted me and this post in her story on the Anthropic announcement, ["Anthropic's announcement of a 'Claude-led' CRISPR-like discovery is sparking controversy. Here's why"](https://www.cnn.com/2026/10/08/science/ai-biology-anthropic-dna-discovery) (October 8, 2026) (<a href="/assets/pdfs/blog/harvesting-and-replenishment-in-biomedicine/cnn-hunt-2026-10-08.pdf" title="Archived PDF, October 19, 2026" aria-label="Archived PDF"><i class="far fa-file-pdf" aria-hidden="true"></i></a>).
 
 Since I work on CRISPR and retrons–bacterial defense systems with a reverse transcriptase (RT)–several people sent me Anthropic's big announcement. Their claim is that Claude "discovered" new RT enzymes with properties that are reminiscent of CRISPR.[^1] This, according to the press release, is "a new way of doing biology research."
 
