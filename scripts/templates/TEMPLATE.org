@@ -9,9 +9,7 @@
 # ============================================================================
 # HOW TO USE THIS FILE
 #
-#   1. Copy it, don't edit it in place:
-#        cp scripts/templates/TEMPLATE.org blog/_org/my-new-post.org
-#      or, for a post with code, data and figures attached, into its own folder:
+#   1. Copy it into its own folder under blog/_org/ (don't edit it in place):
 #        mkdir -p blog/_org/my-new-post/figures
 #        cp scripts/templates/TEMPLATE.org blog/_org/my-new-post/my-new-post.org
 #      (see "A Post With Research Attached" under Images, below)
@@ -19,8 +17,8 @@
 #   2. Fill in the header fields above, write the body, delete the examples.
 #
 #   3. Convert:
-#        ./scripts/org-to-post.sh blog/_org/my-new-post.org --draft   # -> blog/_drafts/
-#        ./scripts/org-to-post.sh blog/_org/my-new-post.org           # -> blog/_posts/
+#        ./scripts/org-to-post.sh blog/_org/my-new-post/my-new-post.org --draft   # -> blog/_drafts/
+#        ./scripts/org-to-post.sh blog/_org/my-new-post/my-new-post.org           # -> blog/_posts/
 #
 #   4. Preview:
 #        bundle exec jekyll serve --drafts   # includes drafts
