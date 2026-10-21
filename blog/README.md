@@ -14,18 +14,22 @@ every construct that survives conversion and flags the traps inline.
 
 ## Quick Start (Edit → Draft → Preview → Publish)
 
-### 1. Write or edit the Org source in `blog/_org/`
+### 1. Write or edit the Org source in `blog/_org/<slug>/<slug>.org`
 
-- **Standard post:** copy `scripts/templates/TEMPLATE.org` to `blog/_org/my-post.org` (or `blog/_org/my-post/my-post.org` if the post has figures/scripts):
+Every blog entry—including short posts and quote posts—lives in its own folder under `blog/_org/<slug>/`, with the `.org` file named `<slug>.org`:
+
+- **Standard post:** copy `scripts/templates/TEMPLATE.org` to `blog/_org/my-post/my-post.org`:
 
 ```bash
-cp scripts/templates/TEMPLATE.org blog/_org/my-post.org
+mkdir -p blog/_org/my-post
+cp scripts/templates/TEMPLATE.org blog/_org/my-post/my-post.org
 ```
 
-- **Quote post (`#+KIND: quote`):** copy `scripts/templates/TEMPLATE-quote.org` (or inspect existing examples in `blog/_org/nih-emoji-grant-scoring.org` and `blog/_org/quoting-aaron-meyer.org`):
+- **Quote post (`#+KIND: quote`):** copy `scripts/templates/TEMPLATE-quote.org` to `blog/_org/my-quote/my-quote.org` (or inspect existing examples in `blog/_org/nih-emoji-grant-scoring/nih-emoji-grant-scoring.org` and `blog/_org/quoting-aaron-meyer/quoting-aaron-meyer.org`):
 
 ```bash
-cp scripts/templates/TEMPLATE-quote.org blog/_org/my-quote.org
+mkdir -p blog/_org/my-quote
+cp scripts/templates/TEMPLATE-quote.org blog/_org/my-quote/my-quote.org
 ```
 
 The header block for a standard post:
@@ -55,7 +59,7 @@ converter appends the bibliography itself, in Vancouver style.
 Always render to `blog/_drafts/` first while iterating (`--force` overwrites an existing draft with the same slug):
 
 ```bash
-./scripts/org-to-post.sh blog/_org/my-post.org --draft --force
+./scripts/org-to-post.sh blog/_org/my-post/my-post.org --draft --force
 ```
 
 ### 3. Serve locally and open in Chrome
@@ -67,14 +71,14 @@ Run Jekyll with Ruby 3.3 (`--drafts` includes `blog/_drafts/`) and open the prev
 open -a "Google Chrome" "http://127.0.0.1:4000/blog/my-post/"
 ```
 
-As you edit `blog/_org/my-post.org`, re-run `./scripts/org-to-post.sh blog/_org/my-post.org --draft --force`; a running `jekyll serve --drafts` process regenerates `_site/` automatically.
+As you edit `blog/_org/my-post/my-post.org`, re-run `./scripts/org-to-post.sh blog/_org/my-post/my-post.org --draft --force`; a running `jekyll serve --drafts` process regenerates `_site/` automatically.
 
 ### 4. Publish to `blog/_posts/`
 
 When ready to publish, run `org-to-post.sh` **without** `--draft`, remove the draft copy from `blog/_drafts/`, verify the feeds, and commit:
 
 ```bash
-./scripts/org-to-post.sh blog/_org/my-post.org --force
+./scripts/org-to-post.sh blog/_org/my-post/my-post.org --force
 rm -f blog/_drafts/*-my-post.md
 /opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll build
 xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.xml
@@ -85,7 +89,7 @@ xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.x
 Use the `--draft` flag to save to `blog/_drafts/` instead of `blog/_posts/`:
 
 ```bash
-./scripts/org-to-post.sh blog/_org/my-post.org --draft
+./scripts/org-to-post.sh blog/_org/my-post/my-post.org --draft
 ```
 
 Drafts are named `YYYY-MM-DD-slug.md` just like posts, and `_config.yml`
@@ -99,7 +103,7 @@ the converted markdown in `blog/_posts/` and the assets it uses. Back up
 `blog/_org/` by whatever means you back up the rest of your writing; a clone
 of this repo does not contain it.
 
-Org sources always live in `blog/_org/`, published or not; draft versus
+Org sources always live in `blog/_org/<slug>/<slug>.org`, published or not; draft versus
 published is expressed only by where the converted markdown lands.
 `_config.yml` excludes `*.org`, `*.txt` and audio files under
 `blog/_drafts/` so a stray scratch file there (the dictation tooling uses
@@ -108,10 +112,11 @@ serve a front-matter-less `.org` as a draft at `/blog/<name>/`.
 
 ### A folder per post
 
-A post that comes with research — data, analysis scripts, generated figures,
-literature notes — gets its own folder under `blog/_org/`, named after the
-post's slug, with the org file named the same way (so Emacs buffer names stay
-distinct when several posts are open):
+Every post—including short posts and quote posts—gets its own folder under
+`blog/_org/`, named after the post's slug, with the org file named the same
+way (so Emacs buffer names stay distinct when several posts are open, and any
+notes, source PDFs, data, scripts, or figures have a home right beside the
+post):
 
 ```
 blog/_org/my-token-limit/
@@ -146,10 +151,6 @@ same file name (they would collide in the flat assets directory), and a
 relative path written without `file:` (`[[figures/a.png]]` is not an image to
 pandoc; it becomes a "spurious link" and renders as text).
 
-Short posts and quote posts do not need a folder. A flat
-`blog/_org/<name>.org` with site-absolute image paths still works exactly as
-before; the converter takes either.
-
 ### Overwriting an existing post
 
 The converter refuses to overwrite a post or draft whose slug already
@@ -158,7 +159,7 @@ the same slug would collide on the same `/blog/<slug>/` permalink. Pass
 `--force` when you mean to replace it:
 
 ```bash
-./scripts/org-to-post.sh blog/_org/my-post.org --force
+./scripts/org-to-post.sh blog/_org/my-post/my-post.org --force
 ```
 
 ### When conversion fails
@@ -444,8 +445,7 @@ blog/
 ├── feed.xml          # Atom feed (hand-written, like atom.xml and rss.xml)
 ├── README.md         # This file (excluded from the build)
 └── _org/             # Org sources (ignored by Jekyll AND by git; local only)
-    ├── <name>.org    # A short post or quote post
-    └── <slug>/       # A post with research attached (see "A folder per post")
+    └── <slug>/       # Every entry (including quote posts) gets its own folder
         ├── <slug>.org
         ├── notes.md
         ├── data/
@@ -538,7 +538,7 @@ bundle exec jekyll serve --drafts
 
 ```bash
 # Convert and preview
-./scripts/org-to-post.sh blog/_org/test-post.org --draft
+./scripts/org-to-post.sh blog/_org/test-post/test-post.org --draft
 bundle exec jekyll serve --drafts
 # Visit http://localhost:4000/blog/test-post/
 ```
