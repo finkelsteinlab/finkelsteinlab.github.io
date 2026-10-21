@@ -74,10 +74,10 @@ Use Conventional Commits style: `<type>(<scope>): <summary>`
 | `papers/_posts/` | One markdown file per paper |
 | `papers/template.md` | Blank template for new papers |
 | `blog/README.md` | Complete blog documentation and org-to-post reference |
-| `blog/_org/` | Local org-mode blog sources and research folders (gitignored) |
+| `blog/_org/<slug>/<slug>.org` | Local org-mode blog sources and per-post folders (gitignored) |
 | `blog/_drafts/` | Converted draft blog posts for local preview (gitignored) |
 | `blog/_posts/` | Published blog posts (`YYYY-MM-DD-slug.md`) |
-| `scripts/org-to-post.sh` | Converts `blog/_org/*.org` to Jekyll markdown in `_drafts/` or `_posts/` |
+| `scripts/org-to-post.sh` | Converts `blog/_org/<slug>/<slug>.org` to Jekyll markdown in `_drafts/` or `_posts/` |
 | `scripts/templates/` | `TEMPLATE.org` (standard post) and `TEMPLATE-quote.org` (`#+KIND: quote`) |
 | `cv/cv.md` | Ilya's abridged CV |
 | `research/research.md` | Research descriptions |
@@ -528,16 +528,17 @@ See: `assets/md/papers/2025-10-23-Retron-genome-editing/press/eurekalert.md` and
 
 ## Blog Posts (`blog/`)
 
-Full documentation is in `blog/README.md`. Posts are authored in org-mode under `blog/_org/` and converted to Jekyll markdown by `scripts/org-to-post.sh`. Both `blog/_org/` and `blog/_drafts/` are gitignored; only published posts in `blog/_posts/` and their referenced assets under `assets/` are committed.
+Full documentation is in `blog/README.md`. Every blog entry—including short posts and quote posts—lives in its own folder under `blog/_org/<slug>/<slug>.org` and is converted to Jekyll markdown by `scripts/org-to-post.sh`. Both `blog/_org/` and `blog/_drafts/` are gitignored; only published posts in `blog/_posts/` and their referenced assets under `assets/` are committed.
 
 ### Edit → Draft → Render → Preview → Publish Flow
 
-1. **Create or edit the Org file in `blog/_org/`:**
-   - Standard post: copy `scripts/templates/TEMPLATE.org` to `blog/_org/<slug>.org` (or `blog/_org/<slug>/<slug>.org` when bundling figures/scripts/data).
-   - Quote post (`#+KIND: quote`): copy `scripts/templates/TEMPLATE-quote.org` to `blog/_org/<slug>.org` (see `blog/_org/nih-emoji-grant-scoring.org` and `blog/_org/quoting-aaron-meyer.org` for examples). Either make the whole body the quote, or wrap the quoted passage in a single `#+BEGIN_QUOTE ... #+END_QUOTE` block with optional intro/outro prose around it; `_includes/blog/quote.html` renders the `<blockquote cite="...">` and attribution from `#+SOURCE:`, `#+AUTHOR:`, `#+CONTEXT:`, and optional `#+LAB:`.
+1. **Create or edit the Org file in `blog/_org/<slug>/<slug>.org`:**
+   - Every entry gets its own folder (`mkdir -p blog/_org/<slug>`).
+   - Standard post: copy `scripts/templates/TEMPLATE.org` to `blog/_org/<slug>/<slug>.org`.
+   - Quote post (`#+KIND: quote`): copy `scripts/templates/TEMPLATE-quote.org` to `blog/_org/<slug>/<slug>.org` (see `blog/_org/nih-emoji-grant-scoring/nih-emoji-grant-scoring.org` and `blog/_org/quoting-aaron-meyer/quoting-aaron-meyer.org` for examples). Either make the whole body the quote, or wrap the quoted passage in a single `#+BEGIN_QUOTE ... #+END_QUOTE` block with optional intro/outro prose around it; `_includes/blog/quote.html` renders the `<blockquote cite="...">` and attribution from `#+SOURCE:`, `#+AUTHOR:`, `#+CONTEXT:`, and optional `#+LAB:`.
 2. **Render to `blog/_drafts/`:**
    ```sh
-   ./scripts/org-to-post.sh blog/_org/<slug>.org --draft --force
+   ./scripts/org-to-post.sh blog/_org/<slug>/<slug>.org --draft --force
    ```
 3. **Serve and preview in Chrome:**
    ```sh
@@ -547,7 +548,7 @@ Full documentation is in `blog/README.md`. Posts are authored in org-mode under 
 4. **Publish to `blog/_posts/`:**
    When approved to publish, run without `--draft`, remove the draft copy, and validate XML feeds:
    ```sh
-   ./scripts/org-to-post.sh blog/_org/<slug>.org --force
+   ./scripts/org-to-post.sh blog/_org/<slug>/<slug>.org --force
    rm -f blog/_drafts/*-<slug>.md
    /opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll build
    xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.xml
