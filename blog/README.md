@@ -8,22 +8,27 @@ This file is internal and excluded from the build. Everything below is
 verified against the actual pipeline — where something does not work, it says
 so rather than describing an intention.
 
-**Start here:** copy `scripts/templates/TEMPLATE.org`, which demonstrates every
-construct that survives conversion and flags the traps inline.
+**Start here:** copy `scripts/templates/TEMPLATE.org` (or
+`scripts/templates/TEMPLATE-quote.org` for a quote post), which demonstrates
+every construct that survives conversion and flags the traps inline.
 
-## Quick Start
+## Quick Start (Edit → Draft → Preview → Publish)
 
-### Writing a New Post
+### 1. Write or edit the Org source in `blog/_org/`
 
-1. **Copy the template** — `scripts/templates/TEMPLATE.org` is a commented skeleton
-   demonstrating every construct that survives conversion, with the traps
-   called out inline. Start from it rather than a blank file:
+- **Standard post:** copy `scripts/templates/TEMPLATE.org` to `blog/_org/my-post.org` (or `blog/_org/my-post/my-post.org` if the post has figures/scripts):
 
 ```bash
 cp scripts/templates/TEMPLATE.org blog/_org/my-post.org
 ```
 
-   The header block is all that is strictly required:
+- **Quote post (`#+KIND: quote`):** copy `scripts/templates/TEMPLATE-quote.org` (or inspect existing examples in `blog/_org/nih-emoji-grant-scoring.org` and `blog/_org/quoting-aaron-meyer.org`):
+
+```bash
+cp scripts/templates/TEMPLATE-quote.org blog/_org/my-quote.org
+```
+
+The header block for a standard post:
 
 ```org
 #+TITLE: My Post Title
@@ -42,24 +47,38 @@ Your content here. Use [cite:@citekey1] for citations.
 More content with another citation [cite:@citekey2].
 ```
 
-   Do **not** add a `* References` heading or `#+print_bibliography:` — the
-   converter appends the bibliography itself, in Vancouver style.
+Do **not** add a `* References` heading or `#+print_bibliography:` — the
+converter appends the bibliography itself, in Vancouver style.
 
-2. **Convert to Jekyll post**:
+### 2. Render to a Jekyll draft (`blog/_drafts/`)
 
-```bash
-./scripts/org-to-post.sh blog/_org/my-post.org
-```
-
-3. **Preview locally**:
+Always render to `blog/_drafts/` first while iterating (`--force` overwrites an existing draft with the same slug):
 
 ```bash
-export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
-bundle exec jekyll serve --drafts
-# Visit http://localhost:4000/blog/
+./scripts/org-to-post.sh blog/_org/my-post.org --draft --force
 ```
 
-4. **Commit and push** to publish.
+### 3. Serve locally and open in Chrome
+
+Run Jekyll with Ruby 3.3 (`--drafts` includes `blog/_drafts/`) and open the preview URL that `org-to-post.sh` prints:
+
+```bash
+/opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll serve --drafts
+open -a "Google Chrome" "http://127.0.0.1:4000/blog/my-post/"
+```
+
+As you edit `blog/_org/my-post.org`, re-run `./scripts/org-to-post.sh blog/_org/my-post.org --draft --force`; a running `jekyll serve --drafts` process regenerates `_site/` automatically.
+
+### 4. Publish to `blog/_posts/`
+
+When ready to publish, run `org-to-post.sh` **without** `--draft`, remove the draft copy from `blog/_drafts/`, verify the feeds, and commit:
+
+```bash
+./scripts/org-to-post.sh blog/_org/my-post.org --force
+rm -f blog/_drafts/*-my-post.md
+/opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll build
+xmllint --noout _site/atom.xml _site/rss.xml _site/sitemap.xml _site/blog/feed.xml
+```
 
 ### Draft Posts
 
